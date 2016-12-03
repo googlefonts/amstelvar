@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="parenleft" format="1">
-  <advance width="598"/>
+  <advance width="578"/>
   <unicode hex="0028"/>
   <outline>
     <contour>
       <point x="68" y="672" type="qcurve" smooth="yes"/>
       <point x="68" y="923"/>
-      <point x="351" y="1410"/>
-      <point x="509" y="1526" type="qcurve"/>
-      <point x="578" y="1464" type="line"/>
-      <point x="454" y="1334"/>
+      <point x="380" y="1384"/>
+      <point x="538" y="1500" type="qcurve"/>
+      <point x="540" y="1498" type="line"/>
+      <point x="416" y="1368"/>
       <point x="263" y="908"/>
       <point x="263" y="672" type="qcurve" smooth="yes"/>
       <point x="263" y="436"/>
-      <point x="450" y="6"/>
-      <point x="578" y="-120" type="qcurve"/>
-      <point x="509" y="-182" type="line"/>
-      <point x="351" y="-66"/>
-      <point x="68" y="411"/>
+      <point x="416" y="-24"/>
+      <point x="540" y="-154" type="qcurve"/>
+      <point x="538" y="-156" type="line"/>
+      <point x="380" y="-40"/>
+      <point x="68" y="421"/>
     </contour>
   </outline>
   <lib>
@@ -173,9 +173,16 @@
           <array>
           </array>
           <key>width</key>
-          <integer>598</integer>
+          <integer>578</integer>
         </dict>
       </dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.0</real>
+        <real>1.0</real>
+        <real>0.0</real>
+        <real>0.5</real>
+      </array>
     </dict>
   </lib>
 </glyph>

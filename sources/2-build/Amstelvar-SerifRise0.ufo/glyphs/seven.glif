@@ -11,7 +11,7 @@
       <point x="24.0" y="1500.0" type="line"/>
       <point x="24.0" y="1098.0" type="line"/>
       <point x="146.0" y="1098.0" type="line"/>
-      <point x="182.0" y="1332.0" type="line"/>
+      <point x="146" y="1332" type="line"/>
       <point x="732" y="1332" type="line"/>
       <point x="766" y="1306" type="line"/>
       <point x="527.0" y="670.0" type="line"/>
@@ -21,6 +21,23 @@
   </outline>
   <lib>
     <dict>
+      <key>com.typemytype.robofont.guides</key>
+      <array>
+        <dict>
+          <key>angle</key>
+          <real>90.0</real>
+          <key>isGlobal</key>
+          <false/>
+          <key>magnetic</key>
+          <integer>5</integer>
+          <key>name</key>
+          <string></string>
+          <key>x</key>
+          <real>146.0</real>
+          <key>y</key>
+          <real>1098.0</real>
+        </dict>
+      </array>
       <key>com.typemytype.robofont.layerData</key>
       <dict>
         <key>background</key>
@@ -181,6 +198,13 @@
           <integer>965</integer>
         </dict>
       </dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.0</real>
+        <real>1.0</real>
+        <real>0.0</real>
+        <real>0.5</real>
+      </array>
     </dict>
   </lib>
 </glyph>

@@ -6,9 +6,9 @@
     <contour>
       <point x="435" y="0" type="line"/>
       <point x="435" y="94" type="line"/>
-      <point x="673" y="129" type="line"/>
-      <point x="673" y="438" type="line"/>
-      <point x="26" y="424" type="line"/>
+      <point x="673" y="94" type="line"/>
+      <point x="673" y="454" type="line"/>
+      <point x="21" y="454" type="line"/>
       <point x="6" y="540" type="line"/>
       <point x="693" y="1510" type="line"/>
       <point x="823" y="1510" type="line"/>
@@ -16,8 +16,8 @@
       <point x="850" y="550" type="line"/>
       <point x="1170" y="550" type="line"/>
       <point x="1170" y="454" type="line"/>
-      <point x="849" y="442" type="line"/>
-      <point x="849" y="129" type="line"/>
+      <point x="849" y="454" type="line"/>
+      <point x="849" y="94" type="line"/>
       <point x="1077" y="94" type="line"/>
       <point x="1077" y="0" type="line"/>
     </contour>
@@ -30,6 +30,37 @@
   </outline>
   <lib>
     <dict>
+      <key>com.typemytype.robofont.guides</key>
+      <array>
+        <dict>
+          <key>angle</key>
+          <integer>0</integer>
+          <key>isGlobal</key>
+          <false/>
+          <key>magnetic</key>
+          <integer>5</integer>
+          <key>name</key>
+          <string></string>
+          <key>x</key>
+          <integer>850</integer>
+          <key>y</key>
+          <integer>550</integer>
+        </dict>
+        <dict>
+          <key>angle</key>
+          <integer>0</integer>
+          <key>isGlobal</key>
+          <false/>
+          <key>magnetic</key>
+          <integer>5</integer>
+          <key>name</key>
+          <string></string>
+          <key>x</key>
+          <integer>1170</integer>
+          <key>y</key>
+          <integer>454</integer>
+        </dict>
+      </array>
       <key>com.typemytype.robofont.layerData</key>
       <dict>
         <key>background</key>
@@ -265,6 +296,13 @@
           <integer>1170</integer>
         </dict>
       </dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.0</real>
+        <real>1.0</real>
+        <real>0.0</real>
+        <real>0.5</real>
+      </array>
     </dict>
   </lib>
 </glyph>

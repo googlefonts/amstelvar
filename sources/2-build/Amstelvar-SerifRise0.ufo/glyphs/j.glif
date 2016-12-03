@@ -19,20 +19,20 @@
     </contour>
     <contour>
       <point x="219" y="527" type="line"/>
-      <point x="213" y="842" type="line"/>
-      <point x="45" y="872" type="line"/>
-      <point x="45" y="966" type="line"/>
+      <point x="213" y="910" type="line"/>
+      <point x="45" y="910" type="line"/>
+      <point x="45" y="1000" type="line"/>
       <point x="323" y="1000" type="line"/>
-      <point x="370" y="1000" type="line"/>
-      <point x="393" y="961" type="line"/>
+      <point x="353" y="1000" type="line"/>
+      <point x="393" y="960" type="line"/>
       <point x="387" y="527" type="line"/>
       <point x="389" y="-276" type="line" smooth="yes"/>
       <point x="389" y="-395"/>
-      <point x="287" y="-492"/>
-      <point x="198" y="-492" type="qcurve"/>
-      <point x="40" y="-460" type="line"/>
-      <point x="40" y="-370" type="line"/>
-      <point x="221" y="-335" type="line"/>
+      <point x="287" y="-490"/>
+      <point x="198" y="-490" type="qcurve"/>
+      <point x="40" y="-490" type="line"/>
+      <point x="40" y="-390" type="line"/>
+      <point x="221" y="-390" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -322,6 +322,13 @@
           <integer>556</integer>
         </dict>
       </dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.0</real>
+        <real>1.0</real>
+        <real>0.0</real>
+        <real>0.5</real>
+      </array>
     </dict>
   </lib>
 </glyph>

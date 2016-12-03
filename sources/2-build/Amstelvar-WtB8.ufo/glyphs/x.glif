@@ -4,11 +4,6 @@
   <unicode hex="0078"/>
   <outline>
     <contour>
-      <point x="530" y="504" type="line"/>
-      <point x="527" y="504" type="line"/>
-      <point x="214" y="39" type="line"/>
-      <point x="412" y="8" type="line"/>
-      <point x="412" y="0" type="line"/>
       <point x="-4" y="0" type="line"/>
       <point x="-4" y="8" type="line"/>
       <point x="204" y="40" type="line"/>
@@ -20,8 +15,18 @@
       <point x="1026" y="1000" type="line"/>
       <point x="1026" y="992" type="line"/>
       <point x="837" y="960" type="line"/>
+      <point x="530" y="504" type="line"/>
+      <point x="527" y="504" type="line"/>
+      <point x="214" y="39" type="line"/>
+      <point x="412" y="8" type="line"/>
+      <point x="412" y="0" type="line"/>
     </contour>
     <contour>
+      <point x="20" y="992" type="line"/>
+      <point x="20" y="1000" type="line"/>
+      <point x="442" y="1000" type="line"/>
+      <point x="442" y="992" type="line"/>
+      <point x="319" y="955" type="line"/>
       <point x="569" y="559" type="line"/>
       <point x="915" y="43" type="line"/>
       <point x="1043" y="8" type="line"/>
@@ -31,11 +36,6 @@
       <point x="734" y="45" type="line"/>
       <point x="472" y="455" type="line"/>
       <point x="138" y="957" type="line"/>
-      <point x="20" y="992" type="line"/>
-      <point x="20" y="1000" type="line"/>
-      <point x="442" y="1000" type="line"/>
-      <point x="442" y="992" type="line"/>
-      <point x="319" y="955" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -375,6 +375,13 @@
           <integer>1043</integer>
         </dict>
       </dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.0</real>
+        <real>1.0</real>
+        <real>0.0</real>
+        <real>0.5</real>
+      </array>
     </dict>
   </lib>
 </glyph>

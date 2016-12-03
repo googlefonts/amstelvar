@@ -5,9 +5,9 @@
   <outline>
     <contour>
       <point x="-20" y="-480" type="line"/>
-      <point x="-20" y="-362" type="line"/>
-      <point x="728" y="-336" type="line"/>
-      <point x="1468" y="-362" type="line"/>
+      <point x="-20" y="-360" type="line"/>
+      <point x="728" y="-356" type="line"/>
+      <point x="1468" y="-360" type="line"/>
       <point x="1468" y="-480" type="line"/>
       <point x="728" y="-476" type="line"/>
     </contour>
@@ -104,6 +104,13 @@
           <integer>1448</integer>
         </dict>
       </dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.0</real>
+        <real>1.0</real>
+        <real>0.0</real>
+        <real>0.5</real>
+      </array>
     </dict>
   </lib>
 </glyph>

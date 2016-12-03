@@ -9,12 +9,12 @@
       <point x="562.0" y="-8.0" type="line"/>
       <point x="444.0" y="-8.0" type="line"/>
       <point x="265" y="477" type="line"/>
-      <point x="108" y="875" type="line"/>
-      <point x="-10" y="910" type="line"/>
-      <point x="-10" y="1000" type="line"/>
-      <point x="414" y="1000" type="line"/>
-      <point x="414" y="910" type="line"/>
-      <point x="281" y="873" type="line"/>
+      <point x="94" y="910" type="line"/>
+      <point x="-30" y="910" type="line"/>
+      <point x="-30" y="1000" type="line"/>
+      <point x="394" y="1000" type="line"/>
+      <point x="394" y="910" type="line"/>
+      <point x="269" y="910" type="line"/>
       <point x="398" y="522" type="line"/>
       <point x="525.0" y="189.0" type="line"/>
       <point x="634" y="474" type="line"/>
@@ -25,25 +25,42 @@
       <point x="1198" y="1000" type="line"/>
       <point x="1603" y="1000" type="line"/>
       <point x="1603" y="910" type="line"/>
-      <point x="1455" y="875" type="line"/>
+      <point x="1469" y="910" type="line"/>
       <point x="1305" y="489" type="line"/>
       <point x="1129.0" y="-8.0" type="line"/>
       <point x="1011.0" y="-8.0" type="line"/>
       <point x="849" y="432" type="line"/>
-      <point x="675" y="875" type="line"/>
-      <point x="557" y="910" type="line"/>
-      <point x="557" y="1000" type="line"/>
-      <point x="974" y="1000" type="line"/>
-      <point x="974" y="910" type="line"/>
-      <point x="841" y="873" type="line"/>
+      <point x="661" y="910" type="line"/>
+      <point x="537" y="910" type="line"/>
+      <point x="537" y="1000" type="line"/>
+      <point x="954" y="1000" type="line"/>
+      <point x="954" y="910" type="line"/>
+      <point x="828" y="910" type="line"/>
       <point x="977" y="475" type="line"/>
       <point x="1086" y="191" type="line"/>
       <point x="1216" y="531" type="line"/>
-      <point x="1335" y="880" type="line"/>
+      <point x="1345" y="910" type="line"/>
     </contour>
   </outline>
   <lib>
     <dict>
+      <key>com.typemytype.robofont.guides</key>
+      <array>
+        <dict>
+          <key>angle</key>
+          <integer>0</integer>
+          <key>isGlobal</key>
+          <false/>
+          <key>magnetic</key>
+          <integer>5</integer>
+          <key>name</key>
+          <string></string>
+          <key>x</key>
+          <integer>414</integer>
+          <key>y</key>
+          <integer>910</integer>
+        </dict>
+      </array>
       <key>com.typemytype.robofont.layerData</key>
       <dict>
         <key>background</key>
@@ -421,10 +438,10 @@
       </dict>
       <key>com.typemytype.robofont.mark</key>
       <array>
-        <real>1.0</real>
-        <real>1.0</real>
         <real>0.0</real>
         <real>1.0</real>
+        <real>0.0</real>
+        <real>0.5</real>
       </array>
     </dict>
   </lib>
