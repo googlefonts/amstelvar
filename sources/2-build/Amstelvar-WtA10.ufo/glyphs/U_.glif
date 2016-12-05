@@ -9,12 +9,12 @@
       <point x="368" y="264"/>
       <point x="368" y="476" type="qcurve" smooth="yes"/>
       <point x="368" y="803" type="line"/>
-      <point x="368" y="1352" type="line"/>
+      <point x="368" y="1338" type="line"/>
       <point x="74" y="1386" type="line"/>
       <point x="74" y="1500" type="line"/>
       <point x="670" y="1500" type="line"/>
       <point x="670" y="1386" type="line"/>
-      <point x="378" y="1352" type="line"/>
+      <point x="378" y="1338" type="line"/>
       <point x="378" y="803" type="line"/>
       <point x="380" y="475" type="line" smooth="yes"/>
       <point x="381" y="278"/>
@@ -38,6 +38,23 @@
   </outline>
   <lib>
     <dict>
+      <key>com.typemytype.robofont.guides</key>
+      <array>
+        <dict>
+          <key>angle</key>
+          <integer>0</integer>
+          <key>isGlobal</key>
+          <false/>
+          <key>magnetic</key>
+          <integer>5</integer>
+          <key>name</key>
+          <string></string>
+          <key>x</key>
+          <integer>1232</integer>
+          <key>y</key>
+          <integer>1352</integer>
+        </dict>
+      </array>
       <key>com.typemytype.robofont.layerData</key>
       <dict>
         <key>background</key>
