@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Amstelvar</title>
+	<style>
+	@font-face {
+		font-family: "Amstelvar";
+		src: url("../fonts/Amstelvar-GX.ttf");
+	}
+	body {
+		font-family: "Amstelvar";
+		margin: 40px;
+		padding: 0;
+	}
+	h1, h2, h3, h4, h5, h6 {font-weight: normal;}
+	
+	h1 {font-size: 5em;}
+	p {font-size: 2em;}
+	#sliders {
+		position: fixed;
+		z-index: 9999;
+		border: 1px solid lightgrey;
+		background-color: white;
+		padding: 10px 20px 20px 20px;
+		width: 200px;
+		top: 10px;
+		right: 10px;
+	}
+	.ui-slider {
+		height: 5px !important;
+	}
+	.ui-slider-handle {
+		top: -4px !important;
+		margin-left: -7px !important;
+		width: 11px !important;
+		height: 11px !important;
+	}
+	.huge {
+		font-size: 4em;
+	}
+	.label {
+		font-family: 'Menlo', monospace;
+		font-size: 12px;
+		padding: 10px 0;
+	}
+	.resizable {
+		min-width: 100px;
+		min-height: 100px;
+		overflow: hidden;
+	}
+	.slider {
+		max-width: 400px;
+	}
+	.halfwidth {
+		width: 50%;
+	}
+	</style>
+	<link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+	<script>
+		$( function() {
+			$( ".resizable" ).resizable();
+			
+			$( "#xhgt" ).slider({
+				orientation: "horizontal",
+				min: 890,
+				max: 1200,
+				value: 1000,
+				slide: refreshVariations,
+				change: refreshVariations,
+			});
+			
+			$( "#wght" ).slider({
+				orientation: "horizontal",
+				min: 10,
+				max: 1000,
+				value: 176,
+				slide: refreshVariations,
+				change: refreshVariations,
+			});
+			
+			$( "#srfr" ).slider({
+				orientation: "horizontal",
+				min: 0,
+				max: 1000,
+				value: 1000,
+				slide: refreshVariations,
+				change: refreshVariations,
+			});
+			
+			$( "#wdth" ).slider({
+				orientation: "horizontal",
+				min: 0,
+				max: 1000,
+				value: 1000,
+				slide: refreshVariations,
+				change: refreshVariations,
+			});
+			
+			$( "#cntr" ).slider({
+				orientation: "horizontal",
+				min: 0,
+				max: 1000,
+				value: 0,
+				slide: refreshVariations,
+				change: refreshVariations,
+			});
+			
+			var lastFocused = $('.content'); // initial selection is every content object
+			$('.content').each(function(){
+				$(this).attr("xhgt", xhgt);
+				$(this).attr("wght", wght);
+				$(this).attr("srfr", srfr);
+				$(this).attr("wdth", wdth);
+				$(this).attr("cntr", cntr);
+			});
+
+			$('[contenteditable="true"]').focus(function() {
+				lastFocused = $(this);
+				// get the content state
+				xhgt = lastFocused.attr("xhgt");
+				wght = lastFocused.attr("wght");
+				srfr = lastFocused.attr("srfr");
+				wsa_ = lastFocused.attr("wdth");
+				cntr = lastFocused.attr("cntr");
+				// reset the slider position
+				$("#xhgt").slider("value", xhgt);
+				$("#wght").slider("value", wght);
+				$("#srfr").slider("value", srfr);
+				$("#wdth").slider("value", wdth);
+				$("#cntr").slider("value", cntr);
+			});
+			
+			function refreshVariations(event) {
+				if(event.originalEvent) { // only if triggered by slider, not us
+					xhgt = $("#xhgt").slider( "value" );
+					wght = $("#wght").slider( "value" );
+					srfr = $("#srfr").slider( "value" );
+					wdth = $("#wdth").slider( "value" );
+					cntr = $("#cntr").slider( "value" );
+					// save the content state
+					lastFocused.attr("xhgt", xhgt);
+					lastFocused.attr("wght", wght);
+					lastFocused.attr("srfr", srfr);
+					lastFocused.attr("wdth", wdth);
+					lastFocused.attr("cntr", cntr);
+					// set the variation settings
+					lastFocused.css("font-variation-settings", "'xhgt' "+xhgt+", 'wght' "+wght+", 'srfr' "+srfr+", 'wdth' "+wdth+", 'cntr' "+cntr); //font-variation-settings: 'xhgt' 0, 'wght' 0"
+				}
+			}
+			
+		} );
+	</script>
+</head>
+<body>
+	<h1 class="halfwidth content resizable ui-widget-content" contenteditable="true" spellcheck="false">Amstelvar</h1>
+	
+	<div id="sliders">
+		<div class="label">x Height</div>
+		<div id="xhgt" class="slider"></div>
+		<div class="label">Weight</div>
+		<div id="wght" class="slider"></div>
+		<div class="label">Serif Rise</div>
+		<div id="srfr" class="slider"></div>
+		<div class="label">Width</div>
+		<div id="wdth" class="slider"></div>
+		<div class="label">Contrast</div>
+		<div id="cntr" class="slider"></div>
+	</div>
+	
+	<p class="huge content resizable ui-widget-content" contenteditable="true" spellcheck="false">
+		ABCDEFGHIJKLMNOPQRSTUVWXYZ<br />
+		abcdefghijklmnopqrstuvwxyz<br />
+		0123456789
+	</p>
+	
+	<p class="content resizable ui-widget-content" contenteditable="true" spellcheck="false">
+		The Amstel is a river in the Netherlands which runs through the city of Amsterdam. The river's name is derived from Aeme-stelle, old Dutch for water-area, namely, an area abounding with water.
+		The well-known bridge Magere Brug in Amsterdam crosses the river, as do the bridges Blauwbrug, Hoge Sluis and Berlagebrug. The Stopera city hall and opera house and Carre theatre are both located on the banks of the river.
+		A nationally televised concert is held on the river every year on Bevrijdingsdag. The rowing races Head of the River Amstel and Heineken Roeivierkamp are held on the river annually. The river also forms part of the route of the Canal Parade, Amsterdam's annual floating gay pride parade.
+		Amstel beer is named after the river. The Amstel brewery, as many other breweries, was situated close to the Amstel river because river water was used to produce the beer.
+	</p>
+	
+</body>
+</html>
