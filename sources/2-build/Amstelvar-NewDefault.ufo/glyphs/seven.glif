@@ -4,19 +4,19 @@
   <unicode hex="0037"/>
   <outline>
     <contour>
-      <point x="341" y="-73" type="line"/>
-      <point x="645.0" y="625.0" type="line"/>
-      <point x="965.0" y="1409.0" type="line"/>
-      <point x="965.0" y="1500.0" type="line"/>
+      <point x="24" y="1098" type="line"/>
       <point x="24.0" y="1500.0" type="line"/>
-      <point x="24.0" y="1098.0" type="line"/>
-      <point x="146.0" y="1098.0" type="line"/>
-      <point x="182.0" y="1332.0" type="line"/>
-      <point x="732" y="1332" type="line"/>
-      <point x="766" y="1306" type="line"/>
-      <point x="527.0" y="670.0" type="line"/>
-      <point x="257" y="0" type="line"/>
+      <point x="965.0" y="1500.0" type="line"/>
+      <point x="965.0" y="1409.0" type="line"/>
+      <point x="645.0" y="625.0" type="line"/>
+      <point x="341" y="-73" type="line"/>
       <point x="257" y="-73" type="line"/>
+      <point x="257" y="0" type="line"/>
+      <point x="527.0" y="670.0" type="line"/>
+      <point x="766" y="1306" type="line"/>
+      <point x="732" y="1332" type="line"/>
+      <point x="182.0" y="1332.0" type="line"/>
+      <point x="146.0" y="1098.0" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -184,8 +184,8 @@
       <key>com.typemytype.robofont.mark</key>
       <array>
         <real>0.0</real>
-        <real>1.0</real>
         <real>0.0</real>
+        <real>1.0</real>
         <real>1.0</real>
       </array>
     </dict>

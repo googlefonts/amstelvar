@@ -4,12 +4,6 @@
   <unicode hex="0077"/>
   <outline>
     <contour>
-      <point x="851.0" y="768.0" type="line"/>
-      <point x="717" y="415" type="line"/>
-      <point x="562.0" y="-8.0" type="line"/>
-      <point x="444.0" y="-8.0" type="line"/>
-      <point x="265" y="477" type="line"/>
-      <point x="108" y="875" type="line"/>
       <point x="-10" y="910" type="line"/>
       <point x="-10" y="1000" type="line"/>
       <point x="414" y="1000" type="line"/>
@@ -19,8 +13,23 @@
       <point x="525.0" y="189.0" type="line"/>
       <point x="634" y="474" type="line"/>
       <point x="767" y="868" type="line"/>
+      <point x="851.0" y="768.0" type="line"/>
+      <point x="717" y="415" type="line"/>
+      <point x="562.0" y="-8.0" type="line"/>
+      <point x="444.0" y="-8.0" type="line"/>
+      <point x="265" y="477" type="line"/>
+      <point x="108" y="875" type="line"/>
     </contour>
     <contour>
+      <point x="557" y="910" type="line"/>
+      <point x="557" y="1000" type="line"/>
+      <point x="974" y="1000" type="line"/>
+      <point x="974" y="910" type="line"/>
+      <point x="841" y="873" type="line"/>
+      <point x="977" y="475" type="line"/>
+      <point x="1086" y="191" type="line"/>
+      <point x="1216" y="531" type="line"/>
+      <point x="1335" y="880" type="line"/>
       <point x="1198" y="910" type="line"/>
       <point x="1198" y="1000" type="line"/>
       <point x="1603" y="1000" type="line"/>
@@ -31,15 +40,6 @@
       <point x="1011.0" y="-8.0" type="line"/>
       <point x="849" y="432" type="line"/>
       <point x="675" y="875" type="line"/>
-      <point x="557" y="910" type="line"/>
-      <point x="557" y="1000" type="line"/>
-      <point x="974" y="1000" type="line"/>
-      <point x="974" y="910" type="line"/>
-      <point x="841" y="873" type="line"/>
-      <point x="977" y="475" type="line"/>
-      <point x="1086" y="191" type="line"/>
-      <point x="1216" y="531" type="line"/>
-      <point x="1335" y="880" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -422,8 +422,8 @@
       <key>com.typemytype.robofont.mark</key>
       <array>
         <real>0.0</real>
-        <real>1.0</real>
         <real>0.0</real>
+        <real>1.0</real>
         <real>1.0</real>
       </array>
     </dict>
