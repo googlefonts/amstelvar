@@ -4,13 +4,7 @@
   <unicode hex="0077"/>
   <outline>
     <contour>
-      <point x="359.0" y="575.0" type="line"/>
-      <point x="340.0" y="465.0" type="line"/>
-      <point x="262.0" y="0.0" type="line"/>
-      <point x="154.0" y="0.0" type="line"/>
-      <point x="128.0" y="465.0" type="line"/>
-      <point x="106.0" y="862.0" type="line"/>
-      <point x="-10.0" y="910.0" type="line"/>
+      <point x="-10" y="910" type="line"/>
       <point x="-10.0" y="1000.0" type="line"/>
       <point x="214.0" y="1000.0" type="line"/>
       <point x="214.0" y="910.0" type="line"/>
@@ -19,8 +13,23 @@
       <point x="163.0" y="7.0" type="line"/>
       <point x="247.0" y="465.0" type="line"/>
       <point x="337.0" y="956.0" type="line"/>
+      <point x="359.0" y="575.0" type="line"/>
+      <point x="340.0" y="465.0" type="line"/>
+      <point x="262.0" y="0.0" type="line"/>
+      <point x="154.0" y="0.0" type="line"/>
+      <point x="128.0" y="465.0" type="line"/>
+      <point x="106.0" y="862.0" type="line"/>
     </contour>
     <contour>
+      <point x="238" y="910" type="line"/>
+      <point x="238.0" y="1000.0" type="line"/>
+      <point x="448.0" y="1000.0" type="line"/>
+      <point x="448.0" y="910.0" type="line"/>
+      <point x="347.0" y="862.0" type="line"/>
+      <point x="372.0" y="465.0" type="line"/>
+      <point x="400.0" y="7.0" type="line"/>
+      <point x="455.0" y="465.0" type="line"/>
+      <point x="504.0" y="880.0" type="line"/>
       <point x="472.0" y="910.0" type="line"/>
       <point x="472.0" y="1000.0" type="line"/>
       <point x="643.0" y="1000.0" type="line"/>
@@ -31,15 +40,6 @@
       <point x="391.0" y="0.0" type="line"/>
       <point x="361.0" y="465.0" type="line"/>
       <point x="335.0" y="862.0" type="line"/>
-      <point x="238.0" y="910.0" type="line"/>
-      <point x="238.0" y="1000.0" type="line"/>
-      <point x="448.0" y="1000.0" type="line"/>
-      <point x="448.0" y="910.0" type="line"/>
-      <point x="347.0" y="862.0" type="line"/>
-      <point x="372.0" y="465.0" type="line"/>
-      <point x="400.0" y="7.0" type="line"/>
-      <point x="455.0" y="465.0" type="line"/>
-      <point x="504.0" y="880.0" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -436,6 +436,13 @@
           <integer>633</integer>
         </dict>
       </dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.0</real>
+        <real>1.0</real>
+        <real>0.0</real>
+        <real>0.5</real>
+      </array>
     </dict>
   </lib>
 </glyph>

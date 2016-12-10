@@ -4,20 +4,6 @@
   <unicode hex="0030"/>
   <outline>
     <contour>
-      <point x="227" y="103" type="qcurve" smooth="yes"/>
-      <point x="328" y="103"/>
-      <point x="436" y="308"/>
-      <point x="436" y="761" type="qcurve" smooth="yes"/>
-      <point x="436" y="1163"/>
-      <point x="310" y="1390"/>
-      <point x="227" y="1390" type="qcurve" smooth="yes"/>
-      <point x="128" y="1390"/>
-      <point x="18" y="1165"/>
-      <point x="18" y="762" type="qcurve" smooth="yes"/>
-      <point x="18" y="332"/>
-      <point x="130" y="103"/>
-    </contour>
-    <contour>
       <point x="230" y="-21" type="qcurve" smooth="yes"/>
       <point x="119" y="-21"/>
       <point x="8" y="291"/>
@@ -31,5 +17,30 @@
       <point x="444" y="300"/>
       <point x="341" y="-21"/>
     </contour>
+    <contour>
+      <point x="227" y="103" type="qcurve" smooth="yes"/>
+      <point x="328" y="103"/>
+      <point x="436" y="308"/>
+      <point x="436" y="761" type="qcurve" smooth="yes"/>
+      <point x="436" y="1163"/>
+      <point x="310" y="1390"/>
+      <point x="227" y="1390" type="qcurve" smooth="yes"/>
+      <point x="128" y="1390"/>
+      <point x="18" y="1165"/>
+      <point x="18" y="762" type="qcurve" smooth="yes"/>
+      <point x="18" y="332"/>
+      <point x="130" y="103"/>
+    </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.0</real>
+        <real>1.0</real>
+        <real>0.0</real>
+        <real>0.5</real>
+      </array>
+    </dict>
+  </lib>
 </glyph>

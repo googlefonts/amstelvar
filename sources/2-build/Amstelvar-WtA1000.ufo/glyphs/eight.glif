@@ -4,24 +4,6 @@
   <unicode hex="0038"/>
   <outline>
     <contour>
-      <point x="1554" y="1188" type="qcurve" smooth="yes"/>
-      <point x="1554" y="1292"/>
-      <point x="1426" y="1410"/>
-      <point x="1319" y="1410" type="qcurve" smooth="yes"/>
-      <point x="1209" y="1410"/>
-      <point x="1085" y="1313"/>
-      <point x="1085" y="1245" type="qcurve" smooth="yes"/>
-      <point x="1085" y="1154"/>
-      <point x="1232" y="1058"/>
-      <point x="1690" y="1011" type="qcurve" smooth="yes"/>
-      <point x="2132" y="966"/>
-      <point x="2579" y="704"/>
-      <point x="2579" y="492" type="qcurve" smooth="yes"/>
-      <point x="2579" y="235"/>
-      <point x="1972" y="-21"/>
-      <point x="1308" y="-21" type="qcurve" smooth="yes"/>
-      <point x="685" y="-21"/>
-      <point x="62" y="208"/>
       <point x="62" y="395" type="qcurve" smooth="yes"/>
       <point x="62" y="588"/>
       <point x="616" y="787"/>
@@ -54,6 +36,24 @@
       <point x="1336" y="856" type="line"/>
       <point x="1438" y="923"/>
       <point x="1554" y="1078"/>
+      <point x="1554" y="1188" type="qcurve" smooth="yes"/>
+      <point x="1554" y="1292"/>
+      <point x="1426" y="1410"/>
+      <point x="1319" y="1410" type="qcurve" smooth="yes"/>
+      <point x="1209" y="1410"/>
+      <point x="1085" y="1313"/>
+      <point x="1085" y="1245" type="qcurve" smooth="yes"/>
+      <point x="1085" y="1154"/>
+      <point x="1232" y="1058"/>
+      <point x="1690" y="1011" type="qcurve" smooth="yes"/>
+      <point x="2132" y="966"/>
+      <point x="2579" y="704"/>
+      <point x="2579" y="492" type="qcurve" smooth="yes"/>
+      <point x="2579" y="235"/>
+      <point x="1972" y="-21"/>
+      <point x="1308" y="-21" type="qcurve" smooth="yes"/>
+      <point x="685" y="-21"/>
+      <point x="62" y="208"/>
     </contour>
   </outline>
   <lib>
@@ -529,7 +529,7 @@
         <real>0.0</real>
         <real>1.0</real>
         <real>0.0</real>
-        <real>0.5</real>
+        <real>1.0</real>
       </array>
     </dict>
   </lib>

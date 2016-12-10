@@ -4,32 +4,32 @@
   <unicode hex="006F"/>
   <outline>
     <contour>
-      <point x="580" y="88" type="qcurve" smooth="yes"/>
-      <point x="381" y="88"/>
-      <point x="129" y="339"/>
-      <point x="128" y="500" type="qcurve" smooth="yes"/>
-      <point x="126" y="700"/>
-      <point x="367" y="906"/>
-      <point x="583" y="906" type="qcurve" smooth="yes"/>
-      <point x="783" y="906"/>
-      <point x="1040" y="680"/>
-      <point x="1040" y="506" type="qcurve" smooth="yes"/>
-      <point x="1040" y="317"/>
-      <point x="794" y="88"/>
+      <point x="118" y="500" type="qcurve" smooth="yes"/>
+      <point x="118" y="717"/>
+      <point x="379" y="1022"/>
+      <point x="582" y="1022" type="qcurve" smooth="yes"/>
+      <point x="786" y="1022"/>
+      <point x="1050" y="737"/>
+      <point x="1050" y="506" type="qcurve" smooth="yes"/>
+      <point x="1050" y="290"/>
+      <point x="791" y="-22"/>
+      <point x="588" y="-22" type="qcurve" smooth="yes"/>
+      <point x="383" y="-22"/>
+      <point x="118" y="267"/>
     </contour>
     <contour>
-      <point x="588" y="-22" type="qcurve" smooth="yes"/>
-      <point x="791" y="-22"/>
-      <point x="1050" y="290"/>
-      <point x="1050" y="506" type="qcurve" smooth="yes"/>
-      <point x="1050" y="737"/>
-      <point x="786" y="1022"/>
-      <point x="582" y="1022" type="qcurve" smooth="yes"/>
-      <point x="379" y="1022"/>
-      <point x="118" y="717"/>
-      <point x="118" y="500" type="qcurve" smooth="yes"/>
-      <point x="118" y="267"/>
-      <point x="383" y="-22"/>
+      <point x="128" y="500" type="qcurve" smooth="yes"/>
+      <point x="129" y="339"/>
+      <point x="381" y="88"/>
+      <point x="580" y="88" type="qcurve" smooth="yes"/>
+      <point x="794" y="88"/>
+      <point x="1040" y="317"/>
+      <point x="1040" y="506" type="qcurve" smooth="yes"/>
+      <point x="1040" y="680"/>
+      <point x="783" y="906"/>
+      <point x="583" y="906" type="qcurve" smooth="yes"/>
+      <point x="367" y="906"/>
+      <point x="126" y="700"/>
     </contour>
   </outline>
   <lib>
@@ -282,7 +282,7 @@
         <real>0.0</real>
         <real>1.0</real>
         <real>0.0</real>
-        <real>0.5</real>
+        <real>1.0</real>
       </array>
     </dict>
   </lib>

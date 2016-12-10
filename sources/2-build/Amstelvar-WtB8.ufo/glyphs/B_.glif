@@ -4,26 +4,6 @@
   <unicode hex="0042"/>
   <outline>
     <contour>
-      <point x="468" y="803" type="line"/>
-      <point x="470" y="35" type="line"/>
-      <point x="513" y="8" type="line"/>
-      <point x="645" y="8" type="line" smooth="yes"/>
-      <point x="831" y="8"/>
-      <point x="1007" y="213"/>
-      <point x="1007" y="435" type="qcurve" smooth="yes"/>
-      <point x="1007" y="624"/>
-      <point x="854" y="819"/>
-      <point x="711" y="819" type="qcurve" smooth="yes"/>
-      <point x="468" y="819" type="line"/>
-    </contour>
-    <contour>
-      <point x="818" y="837" type="line"/>
-      <point x="976" y="814"/>
-      <point x="1193" y="615"/>
-      <point x="1193" y="441" type="qcurve" smooth="yes"/>
-      <point x="1193" y="251"/>
-      <point x="932" y="0"/>
-      <point x="701" y="0" type="qcurve" smooth="yes"/>
       <point x="82" y="0" type="line"/>
       <point x="82" y="8" type="line"/>
       <point x="290" y="44" type="line"/>
@@ -38,6 +18,26 @@
       <point x="1101" y="1045"/>
       <point x="951" y="867"/>
       <point x="818" y="844" type="qcurve"/>
+      <point x="818" y="837" type="line"/>
+      <point x="976" y="814"/>
+      <point x="1193" y="615"/>
+      <point x="1193" y="441" type="qcurve" smooth="yes"/>
+      <point x="1193" y="251"/>
+      <point x="932" y="0"/>
+      <point x="701" y="0" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="470" y="35" type="line"/>
+      <point x="513" y="8" type="line"/>
+      <point x="645" y="8" type="line" smooth="yes"/>
+      <point x="831" y="8"/>
+      <point x="1007" y="213"/>
+      <point x="1007" y="435" type="qcurve" smooth="yes"/>
+      <point x="1007" y="624"/>
+      <point x="854" y="819"/>
+      <point x="711" y="819" type="qcurve" smooth="yes"/>
+      <point x="468" y="819" type="line"/>
+      <point x="468" y="803" type="line"/>
     </contour>
     <contour>
       <point x="468" y="851" type="line"/>
@@ -498,7 +498,7 @@
         <real>0.0</real>
         <real>1.0</real>
         <real>0.0</real>
-        <real>0.5</real>
+        <real>1.0</real>
       </array>
     </dict>
   </lib>

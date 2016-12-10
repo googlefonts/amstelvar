@@ -4,13 +4,7 @@
   <unicode hex="0077"/>
   <outline>
     <contour>
-      <point x="1791.0" y="768.0" type="line"/>
-      <point x="1627" y="454" type="line"/>
-      <point x="1402.0" y="-8.0" type="line"/>
-      <point x="544.0" y="-8.0" type="line"/>
-      <point x="339" y="419" type="line"/>
-      <point x="108.0" y="875.0" type="line"/>
-      <point x="-10.0" y="910.0" type="line"/>
+      <point x="-10" y="910" type="line"/>
       <point x="-10.0" y="1000.0" type="line"/>
       <point x="1154.0" y="1000.0" type="line"/>
       <point x="1154.0" y="910.0" type="line"/>
@@ -19,8 +13,23 @@
       <point x="1365.0" y="189.0" type="line"/>
       <point x="1536" y="516" type="line"/>
       <point x="1707.0" y="868.0" type="line"/>
+      <point x="1791.0" y="768.0" type="line"/>
+      <point x="1627" y="454" type="line"/>
+      <point x="1402.0" y="-8.0" type="line"/>
+      <point x="544.0" y="-8.0" type="line"/>
+      <point x="339" y="419" type="line"/>
+      <point x="108.0" y="875.0" type="line"/>
     </contour>
     <contour>
+      <point x="1497" y="910" type="line"/>
+      <point x="1497.0" y="1000.0" type="line"/>
+      <point x="2654.0" y="1000.0" type="line"/>
+      <point x="2654.0" y="910.0" type="line"/>
+      <point x="2521.0" y="873.0" type="line"/>
+      <point x="2674" y="558" type="line"/>
+      <point x="2866.0" y="191.0" type="line"/>
+      <point x="3047" y="536" type="line"/>
+      <point x="3215.0" y="880.0" type="line"/>
       <point x="3078.0" y="910.0" type="line"/>
       <point x="3078.0" y="1000.0" type="line"/>
       <point x="3483.0" y="1000.0" type="line"/>
@@ -31,15 +40,6 @@
       <point x="2051.0" y="-8.0" type="line"/>
       <point x="1823" y="463" type="line"/>
       <point x="1615.0" y="875.0" type="line"/>
-      <point x="1497.0" y="910.0" type="line"/>
-      <point x="1497.0" y="1000.0" type="line"/>
-      <point x="2654.0" y="1000.0" type="line"/>
-      <point x="2654.0" y="910.0" type="line"/>
-      <point x="2521.0" y="873.0" type="line"/>
-      <point x="2674" y="558" type="line"/>
-      <point x="2866.0" y="191.0" type="line"/>
-      <point x="3047" y="536" type="line"/>
-      <point x="3215.0" y="880.0" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -424,7 +424,7 @@
         <real>0.0</real>
         <real>1.0</real>
         <real>0.0</real>
-        <real>0.5</real>
+        <real>1.0</real>
       </array>
     </dict>
   </lib>

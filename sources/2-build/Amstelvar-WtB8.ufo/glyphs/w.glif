@@ -4,12 +4,6 @@
   <unicode hex="0077"/>
   <outline>
     <contour>
-      <point x="851.0" y="768.0" type="line"/>
-      <point x="697" y="415" type="line"/>
-      <point x="542" y="-8" type="line"/>
-      <point x="444.0" y="-8.0" type="line"/>
-      <point x="265" y="477" type="line"/>
-      <point x="78" y="957" type="line"/>
       <point x="-40" y="992" type="line"/>
       <point x="-40" y="1000" type="line"/>
       <point x="384" y="1000" type="line"/>
@@ -19,8 +13,23 @@
       <point x="555" y="69" type="line"/>
       <point x="690" y="421" type="line"/>
       <point x="836" y="789" type="line"/>
+      <point x="851.0" y="768.0" type="line"/>
+      <point x="697" y="415" type="line"/>
+      <point x="542" y="-8" type="line"/>
+      <point x="444.0" y="-8.0" type="line"/>
+      <point x="265" y="477" type="line"/>
+      <point x="78" y="957" type="line"/>
     </contour>
     <contour>
+      <point x="527" y="992" type="line"/>
+      <point x="527" y="1000" type="line"/>
+      <point x="944" y="1000" type="line"/>
+      <point x="944" y="992" type="line"/>
+      <point x="811" y="955" type="line"/>
+      <point x="977" y="475" type="line"/>
+      <point x="1116" y="71" type="line"/>
+      <point x="1266" y="493" type="line"/>
+      <point x="1427" y="958" type="line"/>
       <point x="1230" y="992" type="line"/>
       <point x="1230" y="1000" type="line"/>
       <point x="1635" y="1000" type="line"/>
@@ -31,15 +40,6 @@
       <point x="1011.0" y="-8.0" type="line"/>
       <point x="849" y="432" type="line"/>
       <point x="645" y="957" type="line"/>
-      <point x="527" y="992" type="line"/>
-      <point x="527" y="1000" type="line"/>
-      <point x="944" y="1000" type="line"/>
-      <point x="944" y="992" type="line"/>
-      <point x="811" y="955" type="line"/>
-      <point x="977" y="475" type="line"/>
-      <point x="1116" y="71" type="line"/>
-      <point x="1266" y="493" type="line"/>
-      <point x="1427" y="958" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -424,7 +424,7 @@
         <real>0.0</real>
         <real>1.0</real>
         <real>0.0</real>
-        <real>0.5</real>
+        <real>1.0</real>
       </array>
     </dict>
   </lib>

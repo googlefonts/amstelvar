@@ -20,16 +20,7 @@
       <point x="526" y="0" type="line"/>
     </contour>
     <contour>
-      <point x="576" y="700" type="line"/>
-      <point x="1034" y="45" type="line"/>
-      <point x="1142" y="8" type="line"/>
-      <point x="1142" y="0" type="line"/>
-      <point x="864" y="0" type="line"/>
-      <point x="850" y="8" type="line"/>
-      <point x="837" y="37" type="line"/>
-      <point x="456" y="592" type="line"/>
-    </contour>
-    <contour>
+      <point x="350" y="490" type="line"/>
       <point x="347" y="499" type="line"/>
       <point x="858" y="962" type="line"/>
       <point x="661" y="992" type="line"/>
@@ -37,7 +28,16 @@
       <point x="1077" y="1000" type="line"/>
       <point x="1077" y="992" type="line"/>
       <point x="879" y="963" type="line"/>
-      <point x="350" y="490" type="line"/>
+    </contour>
+    <contour>
+      <point x="456" y="592" type="line"/>
+      <point x="576" y="700" type="line"/>
+      <point x="1034" y="45" type="line"/>
+      <point x="1142" y="8" type="line"/>
+      <point x="1142" y="0" type="line"/>
+      <point x="864" y="0" type="line"/>
+      <point x="850" y="8" type="line"/>
+      <point x="837" y="37" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -387,7 +387,7 @@
         <real>0.0</real>
         <real>1.0</real>
         <real>0.0</real>
-        <real>0.5</real>
+        <real>1.0</real>
       </array>
     </dict>
   </lib>
