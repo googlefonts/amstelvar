@@ -4,13 +4,7 @@
   <unicode hex="0057"/>
   <outline>
     <contour>
-      <point x="433.0" y="1103.0" type="line"/>
-      <point x="418.0" y="952.0" type="line"/>
-      <point x="325.0" y="0.0" type="line"/>
-      <point x="174.0" y="0.0" type="line"/>
-      <point x="72.0" y="950.0" type="line"/>
-      <point x="28.0" y="1355.0" type="line"/>
-      <point x="-6.0" y="1394.0" type="line"/>
+      <point x="-6" y="1394" type="line"/>
       <point x="-6.0" y="1500.0" type="line"/>
       <point x="242.0" y="1500.0" type="line"/>
       <point x="242.0" y="1394.0" type="line"/>
@@ -19,8 +13,23 @@
       <point x="275" y="565" type="line"/>
       <point x="317" y="971" type="line"/>
       <point x="341.0" y="1273.0" type="line"/>
+      <point x="433.0" y="1103.0" type="line"/>
+      <point x="418.0" y="952.0" type="line"/>
+      <point x="325.0" y="0.0" type="line"/>
+      <point x="174.0" y="0.0" type="line"/>
+      <point x="72.0" y="950.0" type="line"/>
+      <point x="28.0" y="1355.0" type="line"/>
     </contour>
     <contour>
+      <point x="288" y="1394" type="line"/>
+      <point x="288.0" y="1500.0" type="line"/>
+      <point x="532.0" y="1500.0" type="line"/>
+      <point x="532.0" y="1394.0" type="line"/>
+      <point x="499.0" y="1353.0" type="line"/>
+      <point x="526" y="977" type="line"/>
+      <point x="565" y="568" type="line"/>
+      <point x="601" y="978" type="line"/>
+      <point x="619.0" y="1360.0" type="line"/>
       <point x="578.0" y="1394.0" type="line"/>
       <point x="578.0" y="1500.0" type="line"/>
       <point x="823.0" y="1500.0" type="line"/>
@@ -31,15 +40,6 @@
       <point x="485.0" y="0.0" type="line"/>
       <point x="364.0" y="971.0" type="line"/>
       <point x="316.0" y="1355.0" type="line"/>
-      <point x="288.0" y="1394.0" type="line"/>
-      <point x="288.0" y="1500.0" type="line"/>
-      <point x="532.0" y="1500.0" type="line"/>
-      <point x="532.0" y="1394.0" type="line"/>
-      <point x="499.0" y="1353.0" type="line"/>
-      <point x="526" y="977" type="line"/>
-      <point x="565" y="568" type="line"/>
-      <point x="601" y="978" type="line"/>
-      <point x="619.0" y="1360.0" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -424,7 +424,7 @@
         <real>0.0</real>
         <real>1.0</real>
         <real>0.0</real>
-        <real>0.5</real>
+        <real>1.0</real>
       </array>
     </dict>
   </lib>

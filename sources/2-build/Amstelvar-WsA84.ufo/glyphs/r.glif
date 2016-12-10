@@ -20,17 +20,17 @@
       <point x="266" y="0" type="line"/>
     </contour>
     <contour>
+      <point x="143" y="739" type="qcurve"/>
+      <point x="109" y="800" type="line"/>
+      <point x="124" y="883"/>
+      <point x="253" y="1000"/>
+      <point x="357" y="1000" type="qcurve" smooth="yes"/>
       <point x="406" y="1000" type="line"/>
       <point x="406" y="747" type="line"/>
       <point x="309" y="747" type="line"/>
       <point x="289" y="867" type="line"/>
       <point x="243" y="867"/>
       <point x="174" y="807"/>
-      <point x="143" y="739" type="qcurve"/>
-      <point x="109" y="800" type="line"/>
-      <point x="124" y="883"/>
-      <point x="253" y="1000"/>
-      <point x="357" y="1000" type="qcurve" smooth="yes"/>
     </contour>
   </outline>
   <lib>
@@ -317,7 +317,7 @@
         <real>0.0</real>
         <real>1.0</real>
         <real>0.0</real>
-        <real>0.5</real>
+        <real>1.0</real>
       </array>
     </dict>
   </lib>
