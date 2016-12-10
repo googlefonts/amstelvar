@@ -4,6 +4,9 @@
   <unicode hex="005A"/>
   <outline>
     <contour>
+      <point x="30" y="0" type="line"/>
+      <point x="0" y="92" type="line"/>
+      <point x="225" y="814" type="line"/>
       <point x="400" y="1377" type="line"/>
       <point x="394" y="1382" type="line"/>
       <point x="194" y="1382" type="line"/>
@@ -19,9 +22,17 @@
       <point x="1436" y="398" type="line"/>
       <point x="1526" y="398" type="line"/>
       <point x="1486" y="0" type="line"/>
-      <point x="30" y="0" type="line"/>
-      <point x="0" y="92" type="line"/>
-      <point x="225" y="814" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.0</real>
+        <real>1.0</real>
+        <real>0.0</real>
+        <real>0.5</real>
+      </array>
+    </dict>
+  </lib>
 </glyph>

@@ -4,28 +4,9 @@
   <unicode hex="0061"/>
   <outline>
     <contour>
-      <point x="749" y="649" type="line"/>
-      <point x="749" y="843"/>
-      <point x="608" y="1010"/>
-      <point x="471" y="1010" type="qcurve" smooth="yes"/>
-      <point x="355" y="1010"/>
-      <point x="209" y="941"/>
-      <point x="185" y="912" type="qcurve"/>
-      <point x="178" y="919" type="line"/>
-      <point x="203" y="950"/>
-      <point x="357" y="1020"/>
-      <point x="471" y="1020" type="qcurve" smooth="yes"/>
-      <point x="611" y="1020"/>
-      <point x="758" y="852"/>
-      <point x="758" y="659" type="qcurve"/>
-      <point x="758" y="62" type="line"/>
-      <point x="986" y="8" type="line"/>
-      <point x="986" y="0" type="line"/>
-      <point x="758" y="0" type="line"/>
-      <point x="749" y="8" type="line"/>
-      <point x="749" y="190" type="line"/>
-    </contour>
-    <contour>
+      <point x="112" y="242" type="qcurve" smooth="yes"/>
+      <point x="112" y="371"/>
+      <point x="398" y="564"/>
       <point x="749" y="618" type="qcurve"/>
       <point x="753" y="611" type="line"/>
       <point x="410" y="557"/>
@@ -43,9 +24,39 @@
       <point x="379" y="-15" type="qcurve"/>
       <point x="241" y="-15"/>
       <point x="112" y="127"/>
-      <point x="112" y="242" type="qcurve" smooth="yes"/>
-      <point x="112" y="371"/>
-      <point x="398" y="564"/>
+    </contour>
+    <contour>
+      <point x="178" y="919" type="line"/>
+      <point x="203" y="950"/>
+      <point x="357" y="1020"/>
+      <point x="471" y="1020" type="qcurve" smooth="yes"/>
+      <point x="611" y="1020"/>
+      <point x="758" y="852"/>
+      <point x="758" y="659" type="qcurve"/>
+      <point x="758" y="62" type="line"/>
+      <point x="986" y="8" type="line"/>
+      <point x="986" y="0" type="line"/>
+      <point x="758" y="0" type="line"/>
+      <point x="749" y="8" type="line"/>
+      <point x="749" y="190" type="line"/>
+      <point x="749" y="649" type="line"/>
+      <point x="749" y="843"/>
+      <point x="608" y="1010"/>
+      <point x="471" y="1010" type="qcurve" smooth="yes"/>
+      <point x="355" y="1010"/>
+      <point x="209" y="941"/>
+      <point x="185" y="912" type="qcurve"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.0</real>
+        <real>1.0</real>
+        <real>0.0</real>
+        <real>0.5</real>
+      </array>
+    </dict>
+  </lib>
 </glyph>
