@@ -4,12 +4,6 @@
   <unicode hex="0077"/>
   <outline>
     <contour>
-      <point x="820" y="686" type="line"/>
-      <point x="717" y="415" type="line"/>
-      <point x="562" y="-8" type="line"/>
-      <point x="444" y="-8" type="line"/>
-      <point x="299" y="498" type="line"/>
-      <point x="198" y="852" type="line"/>
       <point x="-10" y="910" type="line"/>
       <point x="-10" y="1000" type="line"/>
       <point x="414" y="1000" type="line"/>
@@ -19,8 +13,23 @@
       <point x="450" y="8" type="line"/>
       <point x="634" y="474" type="line"/>
       <point x="767" y="868" type="line"/>
+      <point x="820" y="686" type="line"/>
+      <point x="717" y="415" type="line"/>
+      <point x="562" y="-8" type="line"/>
+      <point x="444" y="-8" type="line"/>
+      <point x="299" y="498" type="line"/>
+      <point x="198" y="852" type="line"/>
     </contour>
     <contour>
+      <point x="557" y="910" type="line"/>
+      <point x="557" y="1000" type="line"/>
+      <point x="974" y="1000" type="line"/>
+      <point x="974" y="910" type="line"/>
+      <point x="777" y="852" type="line"/>
+      <point x="876" y="502" type="line"/>
+      <point x="1017" y="8" type="line"/>
+      <point x="1216" y="531" type="line"/>
+      <point x="1335" y="880" type="line"/>
       <point x="1198" y="910" type="line"/>
       <point x="1198" y="1000" type="line"/>
       <point x="1603" y="1000" type="line"/>
@@ -31,15 +40,6 @@
       <point x="1011.0" y="-8.0" type="line"/>
       <point x="866" y="498" type="line"/>
       <point x="765" y="852" type="line"/>
-      <point x="557" y="910" type="line"/>
-      <point x="557" y="1000" type="line"/>
-      <point x="974" y="1000" type="line"/>
-      <point x="974" y="910" type="line"/>
-      <point x="777" y="852" type="line"/>
-      <point x="876" y="502" type="line"/>
-      <point x="1017" y="8" type="line"/>
-      <point x="1216" y="531" type="line"/>
-      <point x="1335" y="880" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -424,7 +424,7 @@
         <real>0.0</real>
         <real>1.0</real>
         <real>0.0</real>
-        <real>0.5</real>
+        <real>1.0</real>
       </array>
     </dict>
   </lib>

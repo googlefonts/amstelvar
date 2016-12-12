@@ -5,18 +5,29 @@
   <outline>
     <contour>
       <point x="8" y="0" type="line"/>
-      <point x="1120" y="0" type="line"/>
-      <point x="1120" y="94" type="line"/>
-      <point x="1052" y="129" type="line"/>
-      <point x="1052" y="754" type="line"/>
-      <point x="1058" y="1478" type="line"/>
-      <point x="1026" y="1513" type="line"/>
-      <point x="6" y="1490" type="line"/>
-      <point x="6" y="1386" type="line"/>
-      <point x="74" y="1352" type="line"/>
-      <point x="76" y="754" type="line"/>
-      <point x="76" y="129" type="line"/>
       <point x="8" y="94" type="line"/>
+      <point x="76" y="129" type="line"/>
+      <point x="76" y="754" type="line"/>
+      <point x="74" y="1352" type="line"/>
+      <point x="6" y="1386" type="line"/>
+      <point x="6" y="1490" type="line"/>
+      <point x="1026" y="1513" type="line"/>
+      <point x="1058" y="1478" type="line"/>
+      <point x="1052" y="754" type="line"/>
+      <point x="1052" y="129" type="line"/>
+      <point x="1120" y="94" type="line"/>
+      <point x="1120" y="0" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.0</real>
+        <real>1.0</real>
+        <real>0.0</real>
+        <real>0.5</real>
+      </array>
+    </dict>
+  </lib>
 </glyph>

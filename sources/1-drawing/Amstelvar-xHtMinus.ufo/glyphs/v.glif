@@ -4,6 +4,15 @@
   <unicode hex="0076"/>
   <outline>
     <contour>
+      <point x="-10" y="800" type="line"/>
+      <point x="-10" y="890" type="line"/>
+      <point x="414" y="890" type="line"/>
+      <point x="414" y="800" type="line"/>
+      <point x="281" y="763" type="line"/>
+      <point x="403" y="480" type="line"/>
+      <point x="531.0" y="209.0" type="line"/>
+      <point x="656" y="483" type="line"/>
+      <point x="777" y="770" type="line"/>
       <point x="640" y="800" type="line"/>
       <point x="640" y="890" type="line"/>
       <point x="1056" y="890" type="line"/>
@@ -14,15 +23,6 @@
       <point x="452.0" y="-8.0" type="line"/>
       <point x="266" y="426" type="line"/>
       <point x="108" y="765" type="line"/>
-      <point x="-10" y="800" type="line"/>
-      <point x="-10" y="890" type="line"/>
-      <point x="414" y="890" type="line"/>
-      <point x="414" y="800" type="line"/>
-      <point x="281" y="763" type="line"/>
-      <point x="403" y="480" type="line"/>
-      <point x="531.0" y="209.0" type="line"/>
-      <point x="656" y="483" type="line"/>
-      <point x="777" y="770" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -252,7 +252,7 @@
         <real>0.0</real>
         <real>1.0</real>
         <real>0.0</real>
-        <real>0.5</real>
+        <real>1.0</real>
       </array>
     </dict>
   </lib>

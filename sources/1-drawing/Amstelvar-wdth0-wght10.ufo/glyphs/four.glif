@@ -4,28 +4,39 @@
   <unicode hex="0034"/>
   <outline>
     <contour>
-      <point x="137" y="0" type="line"/>
-      <point x="414" y="0" type="line"/>
-      <point x="414" y="94" type="line"/>
-      <point x="281" y="141" type="line"/>
-      <point x="281" y="530" type="line"/>
-      <point x="416" y="530" type="line"/>
-      <point x="416" y="540" type="line"/>
-      <point x="281" y="540" type="line"/>
-      <point x="281" y="1500" type="line"/>
-      <point x="273" y="1510" type="line"/>
-      <point x="208" y="1510" type="line"/>
-      <point x="0" y="540" type="line"/>
       <point x="5" y="530" type="line"/>
-      <point x="271" y="530" type="line"/>
-      <point x="271" y="141" type="line"/>
+      <point x="0" y="540" type="line"/>
+      <point x="208" y="1510" type="line"/>
+      <point x="273" y="1510" type="line"/>
+      <point x="281" y="1500" type="line"/>
+      <point x="281" y="540" type="line"/>
+      <point x="416" y="540" type="line"/>
+      <point x="416" y="530" type="line"/>
+      <point x="281" y="530" type="line"/>
+      <point x="281" y="141" type="line"/>
+      <point x="414" y="94" type="line"/>
+      <point x="414" y="0" type="line"/>
+      <point x="137" y="0" type="line"/>
       <point x="137" y="94" type="line"/>
+      <point x="271" y="141" type="line"/>
+      <point x="271" y="530" type="line"/>
     </contour>
     <contour>
-      <point x="271" y="540" type="line"/>
       <point x="117" y="540" type="line"/>
-      <point x="111" y="550" type="line"/>
+      <point x="271" y="540" type="line"/>
       <point x="271" y="1298" type="line"/>
+      <point x="111" y="550" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.0</real>
+        <real>1.0</real>
+        <real>0.0</real>
+        <real>0.5</real>
+      </array>
+    </dict>
+  </lib>
 </glyph>

@@ -16,16 +16,16 @@
       <point x="490" y="856" type="line"/>
     </contour>
     <contour>
-      <point x="130" y="-67" type="line"/>
       <point x="20" y="-57" type="line"/>
       <point x="160" y="1528" type="line"/>
       <point x="270" y="1518" type="line"/>
+      <point x="130" y="-67" type="line"/>
     </contour>
     <contour>
-      <point x="336" y="-67" type="line"/>
       <point x="226" y="-57" type="line"/>
       <point x="366" y="1528" type="line"/>
       <point x="476" y="1518" type="line"/>
+      <point x="336" y="-67" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -240,7 +240,7 @@
         <real>0.0</real>
         <real>1.0</real>
         <real>0.0</real>
-        <real>0.5</real>
+        <real>1.0</real>
       </array>
     </dict>
   </lib>

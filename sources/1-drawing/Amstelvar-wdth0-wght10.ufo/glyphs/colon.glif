@@ -5,31 +5,42 @@
   <outline>
     <contour>
       <point x="38" y="82" type="qcurve" smooth="yes"/>
-      <point x="38" y="40"/>
-      <point x="96" y="-22"/>
-      <point x="142" y="-22" type="qcurve" smooth="yes"/>
-      <point x="188" y="-22"/>
-      <point x="248" y="40"/>
-      <point x="248" y="82" type="qcurve" smooth="yes"/>
-      <point x="248" y="124"/>
-      <point x="188" y="186"/>
-      <point x="142" y="186" type="qcurve" smooth="yes"/>
-      <point x="96" y="186"/>
       <point x="38" y="124"/>
+      <point x="96" y="186"/>
+      <point x="142" y="186" type="qcurve" smooth="yes"/>
+      <point x="188" y="186"/>
+      <point x="248" y="124"/>
+      <point x="248" y="82" type="qcurve" smooth="yes"/>
+      <point x="248" y="40"/>
+      <point x="188" y="-22"/>
+      <point x="142" y="-22" type="qcurve" smooth="yes"/>
+      <point x="96" y="-22"/>
+      <point x="38" y="40"/>
     </contour>
     <contour>
       <point x="38" y="917" type="qcurve" smooth="yes"/>
-      <point x="38" y="876"/>
-      <point x="96" y="814"/>
-      <point x="142" y="814" type="qcurve" smooth="yes"/>
-      <point x="188" y="814"/>
-      <point x="248" y="876"/>
-      <point x="248" y="917" type="qcurve" smooth="yes"/>
-      <point x="248" y="960"/>
-      <point x="188" y="1022"/>
-      <point x="142" y="1022" type="qcurve" smooth="yes"/>
-      <point x="96" y="1022"/>
       <point x="38" y="960"/>
+      <point x="96" y="1022"/>
+      <point x="142" y="1022" type="qcurve" smooth="yes"/>
+      <point x="188" y="1022"/>
+      <point x="248" y="960"/>
+      <point x="248" y="917" type="qcurve" smooth="yes"/>
+      <point x="248" y="876"/>
+      <point x="188" y="814"/>
+      <point x="142" y="814" type="qcurve" smooth="yes"/>
+      <point x="96" y="814"/>
+      <point x="38" y="876"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.0</real>
+        <real>1.0</real>
+        <real>0.0</real>
+        <real>0.5</real>
+      </array>
+    </dict>
+  </lib>
 </glyph>

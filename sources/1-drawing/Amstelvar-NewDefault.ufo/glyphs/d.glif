@@ -4,9 +4,6 @@
   <unicode hex="0064"/>
   <outline>
     <contour>
-      <point x="496" y="-9" type="qcurve" smooth="yes"/>
-      <point x="314" y="-9"/>
-      <point x="68" y="254"/>
       <point x="68" y="478" type="qcurve" smooth="yes"/>
       <point x="68" y="722"/>
       <point x="337" y="1020"/>
@@ -30,8 +27,17 @@
       <point x="882" y="215" type="line"/>
       <point x="839" y="118"/>
       <point x="641" y="-9"/>
+      <point x="496" y="-9" type="qcurve" smooth="yes"/>
+      <point x="314" y="-9"/>
+      <point x="68" y="254"/>
     </contour>
     <contour>
+      <point x="665" y="1406" type="line"/>
+      <point x="665" y="1500" type="line"/>
+      <point x="943" y="1534" type="line"/>
+      <point x="974" y="1534" type="line"/>
+      <point x="1002" y="1502" type="line"/>
+      <point x="999" y="538" type="line"/>
       <point x="1008" y="115" type="line"/>
       <point x="1157" y="80" type="line"/>
       <point x="1157" y="0" type="line"/>
@@ -40,12 +46,6 @@
       <point x="841" y="162" type="line"/>
       <point x="843" y="537" type="line"/>
       <point x="832" y="1376" type="line"/>
-      <point x="665" y="1406" type="line"/>
-      <point x="665" y="1500" type="line"/>
-      <point x="943" y="1534" type="line"/>
-      <point x="974" y="1534" type="line"/>
-      <point x="1002" y="1502" type="line"/>
-      <point x="999" y="538" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -456,8 +456,8 @@
       <key>com.typemytype.robofont.mark</key>
       <array>
         <real>0.0</real>
-        <real>1.0</real>
         <real>0.0</real>
+        <real>1.0</real>
         <real>1.0</real>
       </array>
     </dict>

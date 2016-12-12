@@ -5,39 +5,50 @@
   <outline>
     <contour>
       <point x="6" y="0" type="line"/>
-      <point x="249" y="0" type="line"/>
-      <point x="249" y="80" type="line"/>
-      <point x="139" y="132" type="line"/>
-      <point x="139" y="527" type="line"/>
-      <point x="139" y="1502" type="line"/>
-      <point x="139" y="1524" type="line"/>
-      <point x="139" y="1534" type="line"/>
-      <point x="2" y="1500" type="line"/>
-      <point x="2" y="1406" type="line"/>
-      <point x="129" y="1362" type="line"/>
-      <point x="129" y="527" type="line"/>
-      <point x="129" y="132" type="line"/>
       <point x="6" y="80" type="line"/>
+      <point x="129" y="132" type="line"/>
+      <point x="129" y="527" type="line"/>
+      <point x="129" y="1362" type="line"/>
+      <point x="2" y="1406" type="line"/>
+      <point x="2" y="1500" type="line"/>
+      <point x="139" y="1534" type="line"/>
+      <point x="139" y="1524" type="line"/>
+      <point x="139" y="1502" type="line"/>
+      <point x="139" y="527" type="line"/>
+      <point x="139" y="132" type="line"/>
+      <point x="249" y="80" type="line"/>
+      <point x="249" y="0" type="line"/>
     </contour>
     <contour>
-      <point x="279" y="707" type="line"/>
-      <point x="274" y="681" type="line"/>
-      <point x="378" y="132" type="line"/>
-      <point x="405" y="7" type="line"/>
-      <point x="415" y="0" type="line"/>
-      <point x="553" y="0" type="line"/>
-      <point x="553" y="80" type="line"/>
-      <point x="388" y="132" type="line"/>
-    </contour>
-    <contour>
-      <point x="135" y="520" type="line"/>
       <point x="135" y="376" type="line"/>
-      <point x="420" y="875" type="line"/>
-      <point x="478" y="910" type="line"/>
-      <point x="478" y="1000" type="line"/>
-      <point x="282" y="1000" type="line"/>
-      <point x="282" y="910" type="line"/>
+      <point x="135" y="520" type="line"/>
       <point x="329" y="880" type="line"/>
+      <point x="282" y="910" type="line"/>
+      <point x="282" y="1000" type="line"/>
+      <point x="478" y="1000" type="line"/>
+      <point x="478" y="910" type="line"/>
+      <point x="420" y="875" type="line"/>
+    </contour>
+    <contour>
+      <point x="274" y="681" type="line"/>
+      <point x="279" y="707" type="line"/>
+      <point x="388" y="132" type="line"/>
+      <point x="553" y="80" type="line"/>
+      <point x="553" y="0" type="line"/>
+      <point x="415" y="0" type="line"/>
+      <point x="405" y="7" type="line"/>
+      <point x="378" y="132" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.0</real>
+        <real>1.0</real>
+        <real>0.0</real>
+        <real>0.5</real>
+      </array>
+    </dict>
+  </lib>
 </glyph>

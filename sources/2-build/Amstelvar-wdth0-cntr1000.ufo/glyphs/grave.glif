@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="grave" format="1">
+  <advance width="330"/>
+  <unicode hex="0060"/>
+  <outline>
+    <contour>
+      <point x="82" y="1330" type="qcurve" smooth="yes"/>
+      <point x="82" y="1342"/>
+      <point x="94" y="1358"/>
+      <point x="106" y="1358" type="qcurve" smooth="yes"/>
+      <point x="118" y="1358"/>
+      <point x="140" y="1328"/>
+      <point x="150" y="1300" type="qcurve" smooth="yes"/>
+      <point x="236" y="1060" type="line"/>
+      <point x="222" y="1060" type="line"/>
+      <point x="110" y="1260" type="line" smooth="yes"/>
+      <point x="95" y="1286"/>
+      <point x="82" y="1318"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.0</real>
+        <real>1.0</real>
+        <real>0.0</real>
+        <real>0.5</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

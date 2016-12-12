@@ -4,25 +4,6 @@
   <unicode hex="0058"/>
   <outline>
     <contour>
-      <point x="2508.0" y="135.0" type="line"/>
-      <point x="2676.0" y="100.0" type="line"/>
-      <point x="2676.0" y="0.0" type="line"/>
-      <point x="1172.0" y="0.0" type="line"/>
-      <point x="1172.0" y="100.0" type="line"/>
-      <point x="1345.0" y="135.0" type="line"/>
-      <point x="882" y="641" type="line"/>
-      <point x="188.0" y="1355.0" type="line"/>
-      <point x="30.0" y="1386.0" type="line"/>
-      <point x="30.0" y="1500.0" type="line"/>
-      <point x="1524.0" y="1500.0" type="line"/>
-      <point x="1524.0" y="1386.0" type="line"/>
-      <point x="1351.0" y="1353.0" type="line"/>
-      <point x="1793" y="871" type="line"/>
-    </contour>
-    <contour>
-      <point x="299" y="129" type="line"/>
-      <point x="476" y="100" type="line"/>
-      <point x="476" y="0" type="line"/>
       <point x="-20" y="0" type="line"/>
       <point x="-20" y="100" type="line"/>
       <point x="148" y="135" type="line"/>
@@ -36,6 +17,25 @@
       <point x="2268" y="1355" type="line"/>
       <point x="1447" y="736" type="line"/>
       <point x="1118" y="736" type="line"/>
+      <point x="299" y="129" type="line"/>
+      <point x="476" y="100" type="line"/>
+      <point x="476" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="30" y="1386" type="line"/>
+      <point x="30" y="1500" type="line"/>
+      <point x="1524" y="1500" type="line"/>
+      <point x="1524" y="1386" type="line"/>
+      <point x="1351" y="1353" type="line"/>
+      <point x="1793" y="871" type="line"/>
+      <point x="2508" y="135" type="line"/>
+      <point x="2676" y="100" type="line"/>
+      <point x="2676" y="0" type="line"/>
+      <point x="1172" y="0" type="line"/>
+      <point x="1172" y="100" type="line"/>
+      <point x="1345" y="135" type="line"/>
+      <point x="882" y="641" type="line"/>
+      <point x="188" y="1355" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -380,7 +380,7 @@
         <real>0.0</real>
         <real>1.0</real>
         <real>0.0</real>
-        <real>0.5</real>
+        <real>1.0</real>
       </array>
     </dict>
   </lib>

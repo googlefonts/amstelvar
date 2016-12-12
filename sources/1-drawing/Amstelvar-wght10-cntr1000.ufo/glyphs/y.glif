@@ -4,10 +4,7 @@
   <unicode hex="0079"/>
   <outline>
     <contour>
-      <point x="518.0" y="-14.0" type="line"/>
-      <point x="326.0" y="510.0" type="line"/>
-      <point x="168.0" y="944.0" type="line"/>
-      <point x="-40.0" y="992.0" type="line"/>
+      <point x="-40" y="992" type="line"/>
       <point x="-40.0" y="1000.0" type="line"/>
       <point x="384.0" y="1000.0" type="line"/>
       <point x="384.0" y="992.0" type="line"/>
@@ -32,6 +29,20 @@
       <point x="213.0" y="-442.0"/>
       <point x="403.0" y="-321.0"/>
       <point x="453.0" y="-188.0" type="qcurve" smooth="yes"/>
+      <point x="518.0" y="-14.0" type="line"/>
+      <point x="326.0" y="510.0" type="line"/>
+      <point x="168.0" y="944.0" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.0</real>
+        <real>1.0</real>
+        <real>0.0</real>
+        <real>0.5</real>
+      </array>
+    </dict>
+  </lib>
 </glyph>
