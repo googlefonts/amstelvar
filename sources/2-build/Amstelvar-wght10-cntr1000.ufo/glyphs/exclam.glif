@@ -5,11 +5,11 @@
   <outline>
     <contour>
       <point x="186" y="93" type="qcurve" smooth="yes"/>
-      <point x="186" y="139"/>
-      <point x="251" y="207"/>
-      <point x="302" y="207" type="qcurve" smooth="yes"/>
-      <point x="353" y="207"/>
-      <point x="418" y="139"/>
+      <point x="186" y="140"/>
+      <point x="251" y="208"/>
+      <point x="302" y="208" type="qcurve" smooth="yes"/>
+      <point x="353" y="208"/>
+      <point x="418" y="140"/>
       <point x="418" y="93" type="qcurve" smooth="yes"/>
       <point x="418" y="46"/>
       <point x="353" y="-22"/>
@@ -32,10 +32,10 @@
     <dict>
       <key>com.typemytype.robofont.mark</key>
       <array>
-        <real>1.0</real>
-        <real>1.0</real>
         <real>0.0</real>
         <real>1.0</real>
+        <real>0.0</real>
+        <real>0.5</real>
       </array>
     </dict>
   </lib>
