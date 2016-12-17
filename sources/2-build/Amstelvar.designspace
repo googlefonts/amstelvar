@@ -8,7 +8,7 @@
         <axis default="0" maximum="1000" minimum="0" name="Contrast" tag="cntr" />
     </axes>
     <sources>
-        <source familyname="Amstelvar" filename="Amstelvar-NewDefault.ufo" name="Amstelvar" stylename="NewDefault">
+        <source familyname="AmstelvarAlpha" filename="Amstelvar-NewDefault.ufo" name="AmstelvarAlpha" stylename="NewDefault">
             <lib copy="1" />
             <groups copy="1" />
             <features copy="1" />
@@ -21,7 +21,7 @@
                 <dimension name="xHeight" xvalue="1000.000000" />
             </location>
         </source>
-        <source familyname="Amstelvar" filename="Amstelvar-xHtMinus.ufo" name="Amstelvar-xHtMinus" stylename="xHtMinus">
+        <source familyname="AmstelvarAlpha" filename="Amstelvar-xHtMinus.ufo" name="AmstelvarAlpha-xHtMinus" stylename="xHtMinus">
             <location>
                 <dimension name="Width" xvalue="1000.000000" />
                 <dimension name="Contrast" xvalue="0.000000" />
@@ -30,7 +30,7 @@
                 <dimension name="Weight" xvalue="176.000000" />
             </location>
         </source>
-        <source familyname="Amstelvar" filename="Amstelvar-xHtPlus.ufo" name="Amstelvar-xHtPlus" stylename="xHtPlus">
+        <source familyname="AmstelvarAlpha" filename="Amstelvar-xHtPlus.ufo" name="AmstelvarAlpha-xHtPlus" stylename="xHtPlus">
             <location>
                 <dimension name="Width" xvalue="1000.000000" />
                 <dimension name="Contrast" xvalue="0.000000" />
@@ -39,7 +39,7 @@
                 <dimension name="Weight" xvalue="176.000000" />
             </location>
         </source>
-        <source familyname="Amstelvar" filename="Amstelvar-WtA10.ufo" name="Amstelvar-WtA10" stylename="WtA10">
+        <source familyname="AmstelvarAlpha" filename="Amstelvar-WtA10.ufo" name="AmstelvarAlpha-WtA10" stylename="WtA10">
             <location>
                 <dimension name="Width" xvalue="1000.000000" />
                 <dimension name="Contrast" xvalue="0.000000" />
@@ -48,7 +48,7 @@
                 <dimension name="Weight" xvalue="10.000000" />
             </location>
         </source>
-        <source familyname="Amstelvar" filename="Amstelvar-WtA1000.ufo" name="Amstelvar-WtA1000" stylename="WtA1000">
+        <source familyname="AmstelvarAlpha" filename="Amstelvar-WtA1000.ufo" name="AmstelvarAlpha-WtA1000" stylename="WtA1000">
             <location>
                 <dimension name="Width" xvalue="1000.000000" />
                 <dimension name="Contrast" xvalue="0.000000" />
@@ -57,7 +57,7 @@
                 <dimension name="Weight" xvalue="1000.000000" />
             </location>
         </source>
-        <source familyname="Amstelvar" filename="Amstelvar-SerifRise0.ufo" name="Amstelvar-SerifRise0" stylename="SerifRise0">
+        <source familyname="AmstelvarAlpha" filename="Amstelvar-SerifRise0.ufo" name="AmstelvarAlpha-SerifRise0" stylename="SerifRise0">
             <location>
                 <dimension name="Width" xvalue="1000.000000" />
                 <dimension name="Contrast" xvalue="0.000000" />
@@ -66,7 +66,7 @@
                 <dimension name="Weight" xvalue="176.000000" />
             </location>
         </source>
-        <source familyname="Amstelvar" filename="Amstelvar-WsA84.ufo" name="Amstelvar-WsA84" stylename="WsA84">
+        <source familyname="AmstelvarAlpha" filename="Amstelvar-WsA84.ufo" name="AmstelvarAlpha-WsA84" stylename="WsA84">
             <location>
                 <dimension name="Width" xvalue="0.000000" />
                 <dimension name="Contrast" xvalue="0.000000" />
@@ -75,7 +75,7 @@
                 <dimension name="Weight" xvalue="176.000000" />
             </location>
         </source>
-        <source familyname="Amstelvar" filename="Amstelvar-WtB8.ufo" name="Amstelvar-WtB8" stylename="WtB8">
+        <source familyname="AmstelvarAlpha" filename="Amstelvar-WtB8.ufo" name="AmstelvarAlpha-WtB8" stylename="WtB8">
             <location>
                 <dimension name="Width" xvalue="1000.000000" />
                 <dimension name="Serif Rise" xvalue="1000.000000" />
@@ -84,7 +84,7 @@
                 <dimension name="xHeight" xvalue="1000.000000" />
             </location>
         </source>
-        <source familyname="Amstelvar" filename="Amstelvar-wdth0-wght10.ufo" name="Amstelvar-wdth0-wght10" stylename="wdth0-wght10">
+        <source familyname="AmstelvarAlpha" filename="Amstelvar-wdth0-wght10.ufo" name="AmstelvarAlpha-wdth0-wght10" stylename="wdth0-wght10">
             <location>
                 <dimension name="Width" xvalue="0.000000" />
                 <dimension name="Contrast" xvalue="0.000000" />
@@ -93,7 +93,7 @@
                 <dimension name="Weight" xvalue="10.000000" />
             </location>
         </source>
-        <source familyname="Amstelvar" filename="Amstelvar-wdth0-wght1000.ufo" name="Amstelvar-wdth0-wght1000" stylename="wdth0-wght1000">
+        <source familyname="AmstelvarAlpha" filename="Amstelvar-wdth0-wght1000.ufo" name="AmstelvarAlpha-wdth0-wght1000" stylename="wdth0-wght1000">
             <location>
                 <dimension name="Width" xvalue="0.000000" />
                 <dimension name="Contrast" xvalue="0.000000" />
@@ -102,7 +102,7 @@
                 <dimension name="Weight" xvalue="1000.000000" />
             </location>
         </source>
-        <source familyname="Amstelvar" filename="Amstelvar-wght10-cntr1000.ufo" name="Amstelvar-wght10-cntr1000" stylename="wght10-cntr1000">
+        <source familyname="AmstelvarAlpha" filename="Amstelvar-wght10-cntr1000.ufo" name="AmstelvarAlpha-wght10-cntr1000" stylename="wght10-cntr1000">
             <location>
                 <dimension name="Width" xvalue="1000.000000" />
                 <dimension name="Serif Rise" xvalue="1000.000000" />
@@ -111,7 +111,7 @@
                 <dimension name="xHeight" xvalue="1000.000000" />
             </location>
         </source>
-        <source familyname="Amstelvar" filename="Amstelvar-wdth0-cntr1000.ufo" name="Amstelvar-wdth0-cntr1000" stylename="wdth0-cntr1000">
+        <source familyname="AmstelvarAlpha" filename="Amstelvar-wdth0-cntr1000.ufo" name="AmstelvarAlpha-wdth0-cntr1000" stylename="wdth0-cntr1000">
             <location>
                 <dimension name="Width" xvalue="0.000000" />
                 <dimension name="Serif Rise" xvalue="1000.000000" />
