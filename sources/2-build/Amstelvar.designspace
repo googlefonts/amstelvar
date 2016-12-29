@@ -6,6 +6,7 @@
         <axis default="35" maximum="35" minimum="0" name="Serif Rise" tag="srfr" />
         <axis default="804" maximum="804" minimum="84" name="Width" tag="wdth" />
         <axis default="100" maximum="100" minimum="8" name="Contrast" tag="cntr" />
+        <axis default="176" maximum="500" minimum="176" name="Grade" tag="grad" />
     </axes>
     <sources>
         <source familyname="AmstelvarAlpha" filename="AmstelvarAlpha-Default.ufo" name="AmstelvarAlpha" stylename="Default">
@@ -14,110 +15,132 @@
             <features copy="1" />
             <info copy="1" />
             <location>
+                <dimension name="Weight" xvalue="176.000000" />
+                <dimension name="Grade" xvalue="176.000000" />
                 <dimension name="Width" xvalue="804.000000" />
                 <dimension name="Serif Rise" xvalue="35.000000" />
-                <dimension name="Contrast" xvalue="100.000000" />
-                <dimension name="Weight" xvalue="176.000000" />
                 <dimension name="xHeight" xvalue="1000.000000" />
+                <dimension name="Contrast" xvalue="100.000000" />
             </location>
         </source>
         <source familyname="AmstelvarAlpha" filename="AmstelvarAlpha-xHeightMin.ufo" name="AmstelvarAlpha-xHeightMin" stylename="xHeightMin">
             <location>
+                <dimension name="Weight" xvalue="176.000000" />
+                <dimension name="Grade" xvalue="176.000000" />
                 <dimension name="Width" xvalue="804.000000" />
-                <dimension name="Contrast" xvalue="100.000000" />
                 <dimension name="Serif Rise" xvalue="35.000000" />
                 <dimension name="xHeight" xvalue="890.000000" />
-                <dimension name="Weight" xvalue="176.000000" />
+                <dimension name="Contrast" xvalue="100.000000" />
             </location>
         </source>
         <source familyname="AmstelvarAlpha" filename="AmstelvarAlpha-xHeightMax.ufo" name="AmstelvarAlpha-xHeightMax" stylename="xHeightMax">
             <location>
+                <dimension name="Weight" xvalue="176.000000" />
+                <dimension name="Grade" xvalue="176.000000" />
                 <dimension name="Width" xvalue="804.000000" />
-                <dimension name="Contrast" xvalue="100.000000" />
                 <dimension name="Serif Rise" xvalue="35.000000" />
                 <dimension name="xHeight" xvalue="1200.000000" />
-                <dimension name="Weight" xvalue="176.000000" />
+                <dimension name="Contrast" xvalue="100.000000" />
             </location>
         </source>
         <source familyname="AmstelvarAlpha" filename="AmstelvarAlpha-WeightMin.ufo" name="AmstelvarAlpha-WeightMin" stylename="WeightMin">
             <location>
+                <dimension name="Weight" xvalue="10.000000" />
+                <dimension name="Grade" xvalue="176.000000" />
                 <dimension name="Width" xvalue="804.000000" />
-                <dimension name="Contrast" xvalue="100.000000" />
                 <dimension name="Serif Rise" xvalue="35.000000" />
                 <dimension name="xHeight" xvalue="1000.000000" />
-                <dimension name="Weight" xvalue="10.000000" />
+                <dimension name="Contrast" xvalue="100.000000" />
             </location>
         </source>
         <source familyname="AmstelvarAlpha" filename="AmstelvarAlpha-WeightMax.ufo" name="AmstelvarAlpha-WeightMax" stylename="WeightMax">
             <location>
+                <dimension name="Weight" xvalue="1000.000000" />
+                <dimension name="Grade" xvalue="176.000000" />
                 <dimension name="Width" xvalue="804.000000" />
-                <dimension name="Contrast" xvalue="100.000000" />
                 <dimension name="Serif Rise" xvalue="35.000000" />
                 <dimension name="xHeight" xvalue="1000.000000" />
-                <dimension name="Weight" xvalue="1000.000000" />
+                <dimension name="Contrast" xvalue="100.000000" />
             </location>
         </source>
         <source familyname="AmstelvarAlpha" filename="AmstelvarAlpha-SerifRiseMin.ufo" name="AmstelvarAlpha-SerifRiseMin" stylename="SerifRiseMin">
             <location>
+                <dimension name="Weight" xvalue="176.000000" />
+                <dimension name="Grade" xvalue="176.000000" />
                 <dimension name="Width" xvalue="804.000000" />
-                <dimension name="Contrast" xvalue="100.000000" />
                 <dimension name="Serif Rise" xvalue="0.000000" />
                 <dimension name="xHeight" xvalue="1000.000000" />
-                <dimension name="Weight" xvalue="176.000000" />
+                <dimension name="Contrast" xvalue="100.000000" />
             </location>
         </source>
         <source familyname="AmstelvarAlpha" filename="AmstelvarAlpha-WidthMin.ufo" name="AmstelvarAlpha-WidthMin" stylename="WidthMin">
             <location>
+                <dimension name="Weight" xvalue="176.000000" />
+                <dimension name="Grade" xvalue="176.000000" />
                 <dimension name="Width" xvalue="84.000000" />
-                <dimension name="Contrast" xvalue="100.000000" />
                 <dimension name="Serif Rise" xvalue="35.000000" />
                 <dimension name="xHeight" xvalue="1000.000000" />
-                <dimension name="Weight" xvalue="176.000000" />
+                <dimension name="Contrast" xvalue="100.000000" />
             </location>
         </source>
         <source familyname="AmstelvarAlpha" filename="AmstelvarAlpha-ContrastMin.ufo" name="AmstelvarAlpha-ContrastMin" stylename="ContrastMin">
             <location>
+                <dimension name="Weight" xvalue="176.000000" />
+                <dimension name="Grade" xvalue="176.000000" />
                 <dimension name="Width" xvalue="804.000000" />
                 <dimension name="Serif Rise" xvalue="35.000000" />
-                <dimension name="Contrast" xvalue="8.000000" />
-                <dimension name="Weight" xvalue="176.000000" />
                 <dimension name="xHeight" xvalue="1000.000000" />
+                <dimension name="Contrast" xvalue="8.000000" />
             </location>
         </source>
         <source familyname="AmstelvarAlpha" filename="AmstelvarAlpha-wdth84-wght10.ufo" name="AmstelvarAlpha-wdth0-wght10" stylename="wdth84-wght10">
             <location>
+                <dimension name="Weight" xvalue="10.000000" />
+                <dimension name="Grade" xvalue="176.000000" />
                 <dimension name="Width" xvalue="84.000000" />
-                <dimension name="Contrast" xvalue="100.000000" />
                 <dimension name="Serif Rise" xvalue="35.000000" />
                 <dimension name="xHeight" xvalue="1000.000000" />
-                <dimension name="Weight" xvalue="10.000000" />
+                <dimension name="Contrast" xvalue="100.000000" />
             </location>
         </source>
         <source familyname="AmstelvarAlpha" filename="AmstelvarAlpha-wdth84-wght1000.ufo" name="AmstelvarAlpha-wdth0-wght1000" stylename="wdth84-wght1000">
             <location>
+                <dimension name="Weight" xvalue="1000.000000" />
+                <dimension name="Grade" xvalue="176.000000" />
                 <dimension name="Width" xvalue="84.000000" />
-                <dimension name="Contrast" xvalue="100.000000" />
                 <dimension name="Serif Rise" xvalue="35.000000" />
                 <dimension name="xHeight" xvalue="1000.000000" />
-                <dimension name="Weight" xvalue="1000.000000" />
+                <dimension name="Contrast" xvalue="100.000000" />
             </location>
         </source>
         <source familyname="AmstelvarAlpha" filename="AmstelvarAlpha-wght10-cntr8.ufo" name="AmstelvarAlpha-wght10-cntr1000" stylename="wght10-cntr8">
             <location>
+                <dimension name="Weight" xvalue="10.000000" />
+                <dimension name="Grade" xvalue="176.000000" />
                 <dimension name="Width" xvalue="804.000000" />
                 <dimension name="Serif Rise" xvalue="35.000000" />
-                <dimension name="Contrast" xvalue="8.000000" />
-                <dimension name="Weight" xvalue="10.000000" />
                 <dimension name="xHeight" xvalue="1000.000000" />
+                <dimension name="Contrast" xvalue="8.000000" />
             </location>
         </source>
         <source familyname="AmstelvarAlpha" filename="AmstelvarAlpha-wdth84-cntr8.ufo" name="AmstelvarAlpha-wdth0-cntr1000" stylename="wdth84-cntr8">
             <location>
+                <dimension name="Weight" xvalue="176.000000" />
+                <dimension name="Grade" xvalue="176.000000" />
                 <dimension name="Width" xvalue="84.000000" />
                 <dimension name="Serif Rise" xvalue="35.000000" />
-                <dimension name="Contrast" xvalue="8.000000" />
-                <dimension name="Weight" xvalue="176.000000" />
                 <dimension name="xHeight" xvalue="1000.000000" />
+                <dimension name="Contrast" xvalue="8.000000" />
+            </location>
+        </source>
+        <source familyname="AmstelvarAlpha" filename="AmstelvarAlpha-GradeMax.ufo" name="AmstelvarAlpha-GradeMax" stylename="GradeMax">
+            <location>
+                <dimension name="Weight" xvalue="176.000000" />
+                <dimension name="Grade" xvalue="500.000000" />
+                <dimension name="Width" xvalue="804.000000" />
+                <dimension name="Serif Rise" xvalue="35.000000" />
+                <dimension name="xHeight" xvalue="1000.000000" />
+                <dimension name="Contrast" xvalue="100.000000" />
             </location>
         </source>
     </sources>
