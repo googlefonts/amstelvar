@@ -3,7 +3,7 @@
 ##I. Introduction
 
 ###Overview
-AmstelvarAlpha-Variations.ttf is an exploratory OpenType 1.8 font made with a combination of font bureau's python standard-based font tools and a Google font tool requiring two or more font styles with compatible contours, and meta-data concerning the relationship of the font styles that forms two or more styles into a style axis. The font produced is a Variation font containing a default font designed to be interpolated with the cumulative styles of each axis.
+AmstelvarAlpha-Variations.ttf is an exploratory OpenType 1.8 font made with a combination of font bureau's python standard-based font tools and a Google font tool requiring two or more font styles with compatible contours, and meta-data concerning the relationship of the font styles that forms two or more styles into a style axis. The font produced is a Variation font, containing a default font, and the cumulative styles designed to be interpolated between default, and among and the styles of the axis.
 
 ###Design
 Amstelvar is a serif typeface design with references to oldstyle and modern typeface designs and so is apt for uses requiring such a style. Variation technology adds adeptness to the design for use at many sizes, with variety of weights, and widths at any size, as well as grades (a change of weight without change to width), another variety via a contrast axis, E.g. control over the difference between horizontal and vertical strokes and finally for all the glyphs, an axis to flatten the serif rise, changing the style from old style to slab serif. For the lowercase and selected glyphs with relation to the lowercase height, there is also an x-height axis.
