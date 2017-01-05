@@ -1,1 +1,1 @@
-Copyright 2017 The Amstelvar Project Authors.
+Copyright 2016 The Amstelvar Project Authors (info@fontbureau.com)
