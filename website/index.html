@@ -71,7 +71,7 @@
 				change: refreshVariations,
 			});
 			
-			$( "#wght" ).slider({
+			$( "#prwg" ).slider({
 				orientation: "horizontal",
 				min: 10,
 				value: 176,
@@ -102,7 +102,34 @@
 				orientation: "horizontal",
 				min: 8,
 				value: 100,
-				max: 100,
+				max: 170,
+				slide: refreshVariations,
+				change: refreshVariations,
+			});
+			
+			$( "#grad" ).slider({
+				orientation: "horizontal",
+				min: 176,
+				value: 176,
+				max: 500,
+				slide: refreshVariations,
+				change: refreshVariations,
+			});
+			
+			$( "#opsz" ).slider({
+				orientation: "horizontal",
+				min: 10,
+				value: 14,
+				max: 72,
+				slide: refreshVariations,
+				change: refreshVariations,
+			});
+			
+			$( "#wght" ).slider({
+				orientation: "horizontal",
+				min: 75,
+				value: 176,
+				max: 500,
 				slide: refreshVariations,
 				change: refreshVariations,
 			});
@@ -110,43 +137,60 @@
 			var lastFocused = $('.content'); // initial selection is every content object
 			$('.content').each(function(){
 				$(this).attr("xhgt", xhgt);
-				$(this).attr("wght", wght);
+				$(this).attr("prwg", prwg);
 				$(this).attr("srfr", srfr);
 				$(this).attr("wdth", wdth);
 				$(this).attr("cntr", cntr);
+				$(this).attr("grad", grad);
+				$(this).attr("opsz", opsz);
+				$(this).attr("wght", wght);
 			});
 
 			$('[contenteditable="true"]').focus(function() {
 				lastFocused = $(this);
 				// get the content state
 				xhgt = lastFocused.attr("xhgt");
-				wght = lastFocused.attr("wght");
+				prwg = lastFocused.attr("prwg");
 				srfr = lastFocused.attr("srfr");
-				wsa_ = lastFocused.attr("wdth");
+				wdth = lastFocused.attr("wdth");
 				cntr = lastFocused.attr("cntr");
+				grad = lastFocused.attr("grad");
+				opsz = lastFocused.attr("opsz");
+				wght = lastFocused.attr("wght");
 				// reset the slider position
 				$("#xhgt").slider("value", xhgt);
-				$("#wght").slider("value", wght);
+				$("#prwg").slider("value", prwg);
 				$("#srfr").slider("value", srfr);
 				$("#wdth").slider("value", wdth);
 				$("#cntr").slider("value", cntr);
+				$("#grad").slider("value", grad);
+				$("#opsz").slider("value", opsz);
+				$("#wght").slider("value", wght);
 			});
 			
 			function refreshVariations(event) {
 				if(event.originalEvent) { // only if triggered by slider, not us
 					xhgt = $("#xhgt").slider( "value" );
-					wght = $("#wght").slider( "value" );
+					prwg = $("#prwg").slider( "value" );
 					srfr = $("#srfr").slider( "value" );
 					wdth = $("#wdth").slider( "value" );
 					cntr = $("#cntr").slider( "value" );
+					grad = $("#grad").slider( "value" );
+					opsz = $("#opsz").slider( "value" );
+					wght = $("#wght").slider( "value" );
 					// save the content state
 					lastFocused.attr("xhgt", xhgt);
-					lastFocused.attr("wght", wght);
+					lastFocused.attr("prwg", prwg);
 					lastFocused.attr("srfr", srfr);
 					lastFocused.attr("wdth", wdth);
 					lastFocused.attr("cntr", cntr);
+					lastFocused.attr("grad", grad);
+					lastFocused.attr("opsz", opsz);
+					lastFocused.attr("wght", wght);
 					// set the variation settings
-					lastFocused.css("font-variation-settings", "'xhgt' "+xhgt+", 'wght' "+wght+", 'srfr' "+srfr+", 'wdth' "+wdth+", 'cntr' "+cntr); //font-variation-settings: 'xhgt' 0, 'wght' 0"
+					lastFocused.css("font-variation-settings", 
+					"'xhgt' "+xhgt+", 'prwg' "+prwg+", 'srfr' "+srfr+", 'wdth' "+wdth+", 'cntr' "+cntr+", 'grad' "+grad+", 'opsz' "+opsz+", 'wght' "+wght);
+					//font-variation-settings: 'xhgt' 0, 'wght' 0";
 				}
 			}
 			
@@ -159,20 +203,27 @@
 	<div id="sliders">
 		<div class="label">x Height</div>
 		<div id="xhgt" class="slider"></div>
-		<div class="label">Weight</div>
-		<div id="wght" class="slider"></div>
+		<div class="label">Para Weight</div>
+		<div id="prwg" class="slider"></div>
 		<div class="label">Serif Rise</div>
 		<div id="srfr" class="slider"></div>
 		<div class="label">Width</div>
 		<div id="wdth" class="slider"></div>
 		<div class="label">Contrast</div>
 		<div id="cntr" class="slider"></div>
+		<div class="label">Grade</div>
+		<div id="grad" class="slider"></div>
+		<div class="label">Optical Size</div>
+		<div id="opsz" class="slider"></div>
+		<div class="label">Weight</div>
+		<div id="wght" class="slider"></div>
 	</div>
 	
 	<p class="huge content resizable ui-widget-content" contenteditable="true" spellcheck="false">
 		ABCDEFGHIJKLMNOPQRSTUVWXYZ<br />
 		abcdefghijklmnopqrstuvwxyz<br />
-		0123456789
+		0123456789<br />
+		!"#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^_`{|}~
 	</p>
 	
 	<p class="content resizable ui-widget-content" contenteditable="true" spellcheck="false">
