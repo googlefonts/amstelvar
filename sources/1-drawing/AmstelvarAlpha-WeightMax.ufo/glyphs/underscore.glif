@@ -1,116 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="underscore" format="1">
-  <advance width="1448"/>
+  <advance width="1053"/>
   <unicode hex="005F"/>
   <outline>
     <contour>
-      <point x="-20" y="-484" type="line"/>
-      <point x="-20" y="-32" type="line"/>
-      <point x="728" y="-36" type="line"/>
-      <point x="1468" y="-32" type="line"/>
-      <point x="1468" y="-484" type="line"/>
-      <point x="728" y="-480" type="line"/>
+      <point x="-12" y="-481" type="line"/>
+      <point x="-12" y="-232" type="line"/>
+      <point x="529" y="-224" type="line"/>
+      <point x="1064" y="-232" type="line"/>
+      <point x="1064" y="-481" type="line"/>
+      <point x="529" y="-477" type="line"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.typemytype.robofont.layerData</key>
-      <dict>
-        <key>background</key>
-        <dict>
-          <key>anchors</key>
-          <array>
-          </array>
-          <key>components</key>
-          <array>
-          </array>
-          <key>contours</key>
-          <array>
-            <dict>
-              <key>points</key>
-              <array>
-                <dict>
-                  <key>segmentType</key>
-                  <string>line</string>
-                  <key>smooth</key>
-                  <false/>
-                  <key>x</key>
-                  <integer>-20</integer>
-                  <key>y</key>
-                  <integer>-484</integer>
-                </dict>
-                <dict>
-                  <key>segmentType</key>
-                  <string>line</string>
-                  <key>smooth</key>
-                  <false/>
-                  <key>x</key>
-                  <integer>-20</integer>
-                  <key>y</key>
-                  <integer>-32</integer>
-                </dict>
-                <dict>
-                  <key>segmentType</key>
-                  <string>line</string>
-                  <key>smooth</key>
-                  <false/>
-                  <key>x</key>
-                  <integer>728</integer>
-                  <key>y</key>
-                  <integer>-36</integer>
-                </dict>
-                <dict>
-                  <key>segmentType</key>
-                  <string>line</string>
-                  <key>smooth</key>
-                  <false/>
-                  <key>x</key>
-                  <integer>1468</integer>
-                  <key>y</key>
-                  <integer>-32</integer>
-                </dict>
-                <dict>
-                  <key>segmentType</key>
-                  <string>line</string>
-                  <key>smooth</key>
-                  <false/>
-                  <key>x</key>
-                  <integer>1468</integer>
-                  <key>y</key>
-                  <integer>-484</integer>
-                </dict>
-                <dict>
-                  <key>segmentType</key>
-                  <string>line</string>
-                  <key>smooth</key>
-                  <false/>
-                  <key>x</key>
-                  <integer>728</integer>
-                  <key>y</key>
-                  <integer>-480</integer>
-                </dict>
-              </array>
-            </dict>
-          </array>
-          <key>lib</key>
-          <dict>
-          </dict>
-          <key>name</key>
-          <string>underscore</string>
-          <key>unicodes</key>
-          <array>
-          </array>
-          <key>width</key>
-          <integer>1448</integer>
-        </dict>
-      </dict>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.0</real>
-        <real>1.0</real>
-        <real>0.0</real>
-        <real>1.0</real>
-      </array>
-    </dict>
-  </lib>
 </glyph>
