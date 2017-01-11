@@ -84,12 +84,12 @@
 				orientation: "horizontal",
 				min: 0,
 				value: 35,
-				max: 35,
+				max: 95,
 				slide: refreshVariations,
 				change: refreshVariations,
 			});
 			
-			$( "#wdth" ).slider({
+			$( "#prwd" ).slider({
 				orientation: "horizontal",
 				min: 84,
 				value: 804,
@@ -133,17 +133,26 @@
 				slide: refreshVariations,
 				change: refreshVariations,
 			});
+			$( "#wdth" ).slider({
+				orientation: "horizontal",
+				min: 120,
+				value: 804,
+				max: 804,
+				slide: refreshVariations,
+				change: refreshVariations,
+			});
 			
 			var lastFocused = $('.content'); // initial selection is every content object
 			$('.content').each(function(){
 				$(this).attr("xhgt", xhgt);
 				$(this).attr("prwg", prwg);
 				$(this).attr("srfr", srfr);
-				$(this).attr("wdth", wdth);
+				$(this).attr("prwd", prwd);
 				$(this).attr("cntr", cntr);
 				$(this).attr("grad", grad);
 				$(this).attr("opsz", opsz);
 				$(this).attr("wght", wght);
+				$(this).attr("wdth", wdth);
 			});
 
 			$('[contenteditable="true"]').focus(function() {
@@ -152,20 +161,22 @@
 				xhgt = lastFocused.attr("xhgt");
 				prwg = lastFocused.attr("prwg");
 				srfr = lastFocused.attr("srfr");
-				wdth = lastFocused.attr("wdth");
+				prwd = lastFocused.attr("prwd");
 				cntr = lastFocused.attr("cntr");
 				grad = lastFocused.attr("grad");
 				opsz = lastFocused.attr("opsz");
 				wght = lastFocused.attr("wght");
+				wdth = lastFocused.attr("wdth");
 				// reset the slider position
 				$("#xhgt").slider("value", xhgt);
 				$("#prwg").slider("value", prwg);
 				$("#srfr").slider("value", srfr);
-				$("#wdth").slider("value", wdth);
+				$("#prwd").slider("value", prwd);
 				$("#cntr").slider("value", cntr);
 				$("#grad").slider("value", grad);
 				$("#opsz").slider("value", opsz);
 				$("#wght").slider("value", wght);
+				$("#wdth").slider("value", wdth);
 			});
 			
 			function refreshVariations(event) {
@@ -173,23 +184,25 @@
 					xhgt = $("#xhgt").slider( "value" );
 					prwg = $("#prwg").slider( "value" );
 					srfr = $("#srfr").slider( "value" );
-					wdth = $("#wdth").slider( "value" );
+					prwd = $("#prwd").slider( "value" );
 					cntr = $("#cntr").slider( "value" );
 					grad = $("#grad").slider( "value" );
 					opsz = $("#opsz").slider( "value" );
 					wght = $("#wght").slider( "value" );
+					wdth = $("#wdth").slider( "value" );
 					// save the content state
 					lastFocused.attr("xhgt", xhgt);
 					lastFocused.attr("prwg", prwg);
 					lastFocused.attr("srfr", srfr);
-					lastFocused.attr("wdth", wdth);
+					lastFocused.attr("prwd", prwd);
 					lastFocused.attr("cntr", cntr);
 					lastFocused.attr("grad", grad);
 					lastFocused.attr("opsz", opsz);
 					lastFocused.attr("wght", wght);
+					lastFocused.attr("wdth", wdth);
 					// set the variation settings
 					lastFocused.css("font-variation-settings", 
-					"'xhgt' "+xhgt+", 'prwg' "+prwg+", 'srfr' "+srfr+", 'wdth' "+wdth+", 'cntr' "+cntr+", 'grad' "+grad+", 'opsz' "+opsz+", 'wght' "+wght);
+					"'xhgt' "+xhgt+", 'prwg' "+prwg+", 'srfr' "+srfr+", 'prwd' "+prwd+", 'cntr' "+cntr+", 'grad' "+grad+", 'opsz' "+opsz+", 'wght' "+wght+", 'wdth' "+wdth);
 					//font-variation-settings: 'xhgt' 0, 'wght' 0";
 				}
 			}
@@ -207,8 +220,8 @@
 		<div id="prwg" class="slider"></div>
 		<div class="label">Serif Rise</div>
 		<div id="srfr" class="slider"></div>
-		<div class="label">Width</div>
-		<div id="wdth" class="slider"></div>
+		<div class="label">Para Width</div>
+		<div id="prwd" class="slider"></div>
 		<div class="label">Contrast</div>
 		<div id="cntr" class="slider"></div>
 		<div class="label">Grade</div>
@@ -217,6 +230,8 @@
 		<div id="opsz" class="slider"></div>
 		<div class="label">Weight</div>
 		<div id="wght" class="slider"></div>
+		<div class="label">Width</div>
+		<div id="wdth" class="slider"></div>
 	</div>
 	
 	<p class="huge content resizable ui-widget-content" contenteditable="true" spellcheck="false">
