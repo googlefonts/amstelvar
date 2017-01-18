@@ -47,8 +47,8 @@
       <point x="459" y="-182" type="line"/>
       <point x="459" y="57" type="line"/>
       <point x="477" y="57" type="line"/>
-      <point x="477" y="513" type="line"/>
-      <point x="660" y="502" type="line"/>
+      <point x="477" y="763" type="line"/>
+      <point x="660" y="752" type="line"/>
       <point x="660" y="57" type="line"/>
       <point x="681" y="57" type="line"/>
       <point x="681" y="-152" type="line"/>
@@ -58,10 +58,21 @@
       <point x="673" y="1631" type="line"/>
       <point x="673" y="1423" type="line"/>
       <point x="653" y="1423" type="line"/>
-      <point x="653" y="1053" type="line"/>
-      <point x="471" y="1069" type="line"/>
+      <point x="653" y="803" type="line"/>
+      <point x="471" y="819" type="line"/>
       <point x="471" y="1423" type="line"/>
       <point x="450" y="1423" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.0</real>
+        <real>1.0</real>
+        <real>0.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
 </glyph>

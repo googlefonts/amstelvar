@@ -30,8 +30,8 @@
       <point x="305" y="1306"/>
       <point x="282" y="1386"/>
       <point x="257" y="1386" type="qcurve" smooth="yes"/>
-      <point x="222" y="1386" type="line"/>
-      <point x="228" y="1379" type="line"/>
+      <point x="230" y="1386" type="line"/>
+      <point x="228" y="1386" type="line"/>
       <point x="224" y="744" type="line"/>
       <point x="226" y="100" type="line"/>
       <point x="262" y="100" type="line"/>
@@ -49,4 +49,15 @@
       <point x="344" y="31" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.0</real>
+        <real>1.0</real>
+        <real>0.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
 </glyph>
