@@ -5,19 +5,19 @@
   <outline>
     <contour>
       <point x="530" y="672" type="qcurve" smooth="yes"/>
-      <point x="530" y="411"/>
+      <point x="530" y="420"/>
       <point x="247" y="-66"/>
       <point x="89" y="-182" type="qcurve"/>
-      <point x="-10" y="-88" type="line"/>
-      <point x="119" y="38"/>
+      <point x="-10" y="-86" type="line"/>
+      <point x="118" y="36"/>
       <point x="335" y="436"/>
       <point x="335" y="672" type="qcurve" smooth="yes"/>
       <point x="335" y="908"/>
-      <point x="119" y="1312"/>
-      <point x="-11" y="1436" type="qcurve"/>
+      <point x="118" y="1308"/>
+      <point x="-10" y="1430" type="qcurve"/>
       <point x="89" y="1526" type="line"/>
       <point x="247" y="1410"/>
-      <point x="530" y="923"/>
+      <point x="530" y="924"/>
     </contour>
   </outline>
   <lib>
@@ -79,17 +79,17 @@
                   <key>smooth</key>
                   <false/>
                   <key>x</key>
-                  <integer>20</integer>
+                  <integer>-10</integer>
                   <key>y</key>
-                  <integer>-120</integer>
+                  <integer>-88</integer>
                 </dict>
                 <dict>
                   <key>smooth</key>
                   <false/>
                   <key>x</key>
-                  <integer>148</integer>
+                  <integer>119</integer>
                   <key>y</key>
-                  <integer>6</integer>
+                  <integer>38</integer>
                 </dict>
                 <dict>
                   <key>smooth</key>
@@ -121,9 +121,9 @@
                   <key>smooth</key>
                   <false/>
                   <key>x</key>
-                  <integer>144</integer>
+                  <integer>119</integer>
                   <key>y</key>
-                  <integer>1334</integer>
+                  <integer>1312</integer>
                 </dict>
                 <dict>
                   <key>segmentType</key>
@@ -131,9 +131,9 @@
                   <key>smooth</key>
                   <false/>
                   <key>x</key>
-                  <integer>20</integer>
+                  <integer>-11</integer>
                   <key>y</key>
-                  <integer>1464</integer>
+                  <integer>1436</integer>
                 </dict>
                 <dict>
                   <key>segmentType</key>
@@ -176,6 +176,13 @@
           <integer>598</integer>
         </dict>
       </dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.0</real>
+        <real>1.0</real>
+        <real>0.0</real>
+        <real>1.0</real>
+      </array>
     </dict>
   </lib>
 </glyph>
