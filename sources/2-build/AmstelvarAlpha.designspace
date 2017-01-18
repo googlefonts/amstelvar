@@ -6,7 +6,7 @@
         <axis default="35" maximum="95" minimum="0" name="Serif Rise" tag="srfr" />
         <axis default="804" maximum="804" minimum="84" name="ParaWidth" tag="prwd" />
         <axis default="100" maximum="170" minimum="8" name="Contrast" tag="cntr" />
-        <axis default="176" maximum="500" minimum="176" name="Grade" tag="grad" />
+        <axis default="176" maximum="500" minimum="50" name="Grade" tag="grad" />
         <axis default="14" maximum="72" minimum="10" name="Optical Size" tag="opsz" />
         <axis default="176" maximum="500" minimum="75" name="Weight" tag="wght" />
         <axis default="804" maximum="804" minimum="120" name="Width" tag="wdth" />
@@ -234,6 +234,19 @@
                 <dimension name="Serif Rise" xvalue="35.000000" />
                 <dimension name="xHeight" xvalue="1000.000000" />
                 <dimension name="Contrast" xvalue="8.000000" />
+                <dimension name="ParaWidth" xvalue="804.000000" />
+            </location>
+        </source>
+        <source familyname="AmstelvarAlpha" filename="AmstelvarAlpha-GradeMin.ufo" name="AmstelvarAlpha-GradeMin" stylename="GradeMin">
+            <location>
+                <dimension name="Optical Size" xvalue="14.000000" />
+                <dimension name="Weight" xvalue="176.000000" />
+                <dimension name="Grade" xvalue="50.000000" />
+                <dimension name="ParaWeight" xvalue="176.000000" />
+                <dimension name="Width" xvalue="804.000000" />
+                <dimension name="Serif Rise" xvalue="35.000000" />
+                <dimension name="xHeight" xvalue="1000.000000" />
+                <dimension name="Contrast" xvalue="100.000000" />
                 <dimension name="ParaWidth" xvalue="804.000000" />
             </location>
         </source>
