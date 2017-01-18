@@ -18,6 +18,9 @@
 	<false/>
 	<key>com.typemytype.robofont.italicSlantOffset</key>
 	<integer>0</integer>
+	<key>com.typemytype.robofont.layerOrder</key>
+	<array>
+	</array>
 	<key>com.typemytype.robofont.segmentType</key>
 	<string>qcurve</string>
 	<key>com.typemytype.robofont.shouldAddPointsInSplineConversion</key>
@@ -27,7 +30,6 @@
 		<dict>
 			<key>ascending</key>
 			<array>
-				<string>.notdef</string>
 				<string>zero</string>
 				<string>one</string>
 				<string>two</string>
