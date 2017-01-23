@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ttFont sfntVersion="\x00\x01\x00\x00" ttLibVersion="3.5">
+
+  <name>
+    <namerecord nameID="256" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      Contrast
+    </namerecord>
+    <namerecord nameID="257" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      Grade
+    </namerecord>
+    <namerecord nameID="258" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      Optical Size
+    </namerecord>
+    <namerecord nameID="259" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      ParaWidth
+    </namerecord>
+    <namerecord nameID="260" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      ParaWeight
+    </namerecord>
+    <namerecord nameID="261" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      Serif Rise
+    </namerecord>
+    <namerecord nameID="262" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      Width
+    </namerecord>
+    <namerecord nameID="263" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      Weight
+    </namerecord>
+    <namerecord nameID="264" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      xHeight
+    </namerecord>
+    <namerecord nameID="1" platformID="3" platEncID="1" langID="0x409">
+      AmstelvarAlpha Default
+    </namerecord>
+    <namerecord nameID="2" platformID="3" platEncID="1" langID="0x409">
+      Regular
+    </namerecord>
+    <namerecord nameID="3" platformID="3" platEncID="1" langID="0x409">
+      Version 0.000;NONE;AmstelvarAlpha Default Regular
+    </namerecord>
+    <namerecord nameID="4" platformID="3" platEncID="1" langID="0x409">
+      AmstelvarAlpha Default
+    </namerecord>
+    <namerecord nameID="5" platformID="3" platEncID="1" langID="0x409">
+      Version 0.000
+    </namerecord>
+    <namerecord nameID="6" platformID="3" platEncID="1" langID="0x409">
+      AmstelvarAlpha-Default
+    </namerecord>
+    <namerecord nameID="16" platformID="3" platEncID="1" langID="0x409">
+      AmstelvarAlpha
+    </namerecord>
+    <namerecord nameID="17" platformID="3" platEncID="1" langID="0x409">
+      Default
+    </namerecord>
+    <namerecord nameID="256" platformID="3" platEncID="1" langID="0x409">
+      Contrast
+    </namerecord>
+    <namerecord nameID="257" platformID="3" platEncID="1" langID="0x409">
+      Grade
+    </namerecord>
+    <namerecord nameID="258" platformID="3" platEncID="1" langID="0x409">
+      Optical Size
+    </namerecord>
+    <namerecord nameID="259" platformID="3" platEncID="1" langID="0x409">
+      ParaWidth
+    </namerecord>
+    <namerecord nameID="260" platformID="3" platEncID="1" langID="0x409">
+      ParaWeight
+    </namerecord>
+    <namerecord nameID="261" platformID="3" platEncID="1" langID="0x409">
+      Serif Rise
+    </namerecord>
+    <namerecord nameID="262" platformID="3" platEncID="1" langID="0x409">
+      Width
+    </namerecord>
+    <namerecord nameID="263" platformID="3" platEncID="1" langID="0x409">
+      Weight
+    </namerecord>
+    <namerecord nameID="264" platformID="3" platEncID="1" langID="0x409">
+      xHeight
+    </namerecord>
+  </name>
+
+  <fvar>
+
+    <!-- Contrast -->
+    <Axis>
+      <AxisTag>cntr</AxisTag>
+      <MinValue>8.0</MinValue>
+      <DefaultValue>100.0</DefaultValue>
+      <MaxValue>170.0</MaxValue>
+      <AxisNameID>256</AxisNameID>
+    </Axis>
+
+    <!-- Grade -->
+    <Axis>
+      <AxisTag>grad</AxisTag>
+      <MinValue>50.0</MinValue>
+      <DefaultValue>176.0</DefaultValue>
+      <MaxValue>500.0</MaxValue>
+      <AxisNameID>257</AxisNameID>
+    </Axis>
+
+    <!-- Optical Size -->
+    <Axis>
+      <AxisTag>opsz</AxisTag>
+      <MinValue>10.0</MinValue>
+      <DefaultValue>14.0</DefaultValue>
+      <MaxValue>72.0</MaxValue>
+      <AxisNameID>258</AxisNameID>
+    </Axis>
+
+    <!-- ParaWidth -->
+    <Axis>
+      <AxisTag>prwd</AxisTag>
+      <MinValue>84.0</MinValue>
+      <DefaultValue>804.0</DefaultValue>
+      <MaxValue>804.0</MaxValue>
+      <AxisNameID>259</AxisNameID>
+    </Axis>
+
+    <!-- ParaWeight -->
+    <Axis>
+      <AxisTag>prwg</AxisTag>
+      <MinValue>10.0</MinValue>
+      <DefaultValue>176.0</DefaultValue>
+      <MaxValue>1000.0</MaxValue>
+      <AxisNameID>260</AxisNameID>
+    </Axis>
+
+    <!-- Serif Rise -->
+    <Axis>
+      <AxisTag>srfr</AxisTag>
+      <MinValue>0.0</MinValue>
+      <DefaultValue>35.0</DefaultValue>
+      <MaxValue>95.0</MaxValue>
+      <AxisNameID>261</AxisNameID>
+    </Axis>
+
+    <!-- Width -->
+    <Axis>
+      <AxisTag>wdth</AxisTag>
+      <MinValue>120.0</MinValue>
+      <DefaultValue>804.0</DefaultValue>
+      <MaxValue>804.0</MaxValue>
+      <AxisNameID>262</AxisNameID>
+    </Axis>
+
+    <!-- Weight -->
+    <Axis>
+      <AxisTag>wght</AxisTag>
+      <MinValue>75.0</MinValue>
+      <DefaultValue>176.0</DefaultValue>
+      <MaxValue>500.0</MaxValue>
+      <AxisNameID>263</AxisNameID>
+    </Axis>
+
+    <!-- xHeight -->
+    <Axis>
+      <AxisTag>xhgt</AxisTag>
+      <MinValue>890.0</MinValue>
+      <DefaultValue>1000.0</DefaultValue>
+      <MaxValue>1200.0</MaxValue>
+      <AxisNameID>264</AxisNameID>
+    </Axis>
+  </fvar>
+
+</ttFont>
