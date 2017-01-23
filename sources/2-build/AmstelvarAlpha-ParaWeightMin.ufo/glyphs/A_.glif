@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="A" format="1">
-  <advance width="1506"/>
+  <advance width="1353"/>
   <unicode hex="0041"/>
   <outline>
     <contour>
@@ -8,17 +8,17 @@
       <point x="-25" y="100" type="line"/>
       <point x="163" y="135" type="line"/>
       <point x="324" y="540" type="line"/>
-      <point x="693" y="1508" type="line"/>
-      <point x="783" y="1508" type="line"/>
-      <point x="1107" y="554" type="line"/>
-      <point x="1260" y="133" type="line"/>
-      <point x="1531" y="100" type="line"/>
-      <point x="1531" y="0" type="line"/>
-      <point x="977" y="0" type="line"/>
-      <point x="979" y="100" type="line"/>
-      <point x="1249" y="133" type="line"/>
-      <point x="1097" y="550" type="line"/>
-      <point x="796" y="1422" type="line"/>
+      <point x="690" y="1508" type="line"/>
+      <point x="709" y="1508" type="line"/>
+      <point x="1055" y="515" type="line"/>
+      <point x="1187" y="133" type="line"/>
+      <point x="1378" y="100" type="line"/>
+      <point x="1378" y="0" type="line"/>
+      <point x="944" y="0" type="line"/>
+      <point x="944" y="100" type="line"/>
+      <point x="1176" y="133" type="line"/>
+      <point x="1045" y="511" type="line"/>
+      <point x="760" y="1331" type="line"/>
       <point x="437" y="503" type="line"/>
       <point x="314" y="130" type="line"/>
       <point x="491" y="100" type="line"/>
@@ -28,8 +28,8 @@
       <point x="358" y="448" type="line"/>
       <point x="400" y="567" type="line"/>
       <point x="754" y="557" type="line"/>
-      <point x="1097" y="568" type="line"/>
-      <point x="1137" y="448" type="line"/>
+      <point x="1032" y="568" type="line"/>
+      <point x="1072" y="448" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -306,16 +306,9 @@
           <array>
           </array>
           <key>width</key>
-          <integer>1506</integer>
+          <integer>1353</integer>
         </dict>
       </dict>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.0</real>
-        <real>1.0</real>
-        <real>0.0</real>
-        <real>1.0</real>
-      </array>
     </dict>
   </lib>
 </glyph>
