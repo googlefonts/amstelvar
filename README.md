@@ -1,4 +1,4 @@
-#Amstelvar
+# Amstelvar
 
 The [documentation](documentation/) contains a description of the project and typographic contents of the repo.
 
