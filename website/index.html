@@ -1,21 +1,24 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Amstelvar</title>
+	<meta charset="UTF-8">
 	<style>
 	@font-face {
 		font-family: "Amstelvar";
-		src: url("../fonts/AmstelvarAlpha-variations.ttf");
+		src: url("../fonts/AmstelvarAlpha-VF.ttf");
 	}
+	* {margin: 0; padding: 0;}
 	body {
-		font-family: "Amstelvar";
+		font-family: 'Menlo', monospace;
 		margin: 40px;
-		padding: 0;
 	}
-	h1, h2, h3, h4, h5, h6 {font-weight: normal;}
-	
-	h1 {font-size: 5em;}
-	p {font-size: 2em;}
+	h1 {font-size: 72px;}
+	p {font-size: 21px;}
+	.variations {
+		font-family: "Amstelvar";
+		width: 1024px;
+		margin: 20px 0;
+	}
 	#sliders {
 		position: fixed;
 		z-index: 9999;
@@ -35,13 +38,22 @@
 		width: 11px !important;
 		height: 11px !important;
 	}
-	.huge {
-		font-size: 4em;
+	.ui-widget {
+		font-family: 'Menlo', monospace !important;
+		font-size: 12px !important;
+	}
+	.ui-button {
 	}
 	.label {
-		font-family: 'Menlo', monospace;
 		font-size: 12px;
 		padding: 10px 0;
+		color: lightgrey;
+	}
+	.label span.name, .label span.value {
+		color: black;
+	}
+	.disabled, .disabled span {
+		color: lightgrey !important;
 	}
 	.resizable {
 		min-width: 100px;
@@ -51,197 +63,41 @@
 	.slider {
 		max-width: 400px;
 	}
-	.halfwidth {
-		width: 50%;
+	.big {
+		font-size: 3em;
 	}
+	
 	</style>
 	<link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
 	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
 	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 	<script>
-		$( function() {
-			$( ".resizable" ).resizable();
-			
-			$( "#xhgt" ).slider({
-				orientation: "horizontal",
-				min: 890,
-				value: 1000,
-				max: 1200,
-				slide: refreshVariations,
-				change: refreshVariations,
-			});
-			
-			$( "#prwg" ).slider({
-				orientation: "horizontal",
-				min: 10,
-				value: 176,
-				max: 1000,
-				slide: refreshVariations,
-				change: refreshVariations,
-			});
-			
-			$( "#srfr" ).slider({
-				orientation: "horizontal",
-				min: 0,
-				value: 35,
-				max: 95,
-				slide: refreshVariations,
-				change: refreshVariations,
-			});
-			
-			$( "#prwd" ).slider({
-				orientation: "horizontal",
-				min: 84,
-				value: 804,
-				max: 804,
-				slide: refreshVariations,
-				change: refreshVariations,
-			});
-			
-			$( "#cntr" ).slider({
-				orientation: "horizontal",
-				min: 8,
-				value: 100,
-				max: 170,
-				slide: refreshVariations,
-				change: refreshVariations,
-			});
-			
-			$( "#grad" ).slider({
-				orientation: "horizontal",
-				min: 50,
-				value: 176,
-				max: 500,
-				slide: refreshVariations,
-				change: refreshVariations,
-			});
-			
-			$( "#opsz" ).slider({
-				orientation: "horizontal",
-				min: 10,
-				value: 14,
-				max: 72,
-				slide: refreshVariations,
-				change: refreshVariations,
-			});
-			
-			$( "#wght" ).slider({
-				orientation: "horizontal",
-				min: 75,
-				value: 176,
-				max: 500,
-				slide: refreshVariations,
-				change: refreshVariations,
-			});
-			$( "#wdth" ).slider({
-				orientation: "horizontal",
-				min: 120,
-				value: 804,
-				max: 804,
-				slide: refreshVariations,
-				change: refreshVariations,
-			});
-			
-			var lastFocused = $('.content'); // initial selection is every content object
-			$('.content').each(function(){
-				$(this).attr("xhgt", xhgt);
-				$(this).attr("prwg", prwg);
-				$(this).attr("srfr", srfr);
-				$(this).attr("prwd", prwd);
-				$(this).attr("cntr", cntr);
-				$(this).attr("grad", grad);
-				$(this).attr("opsz", opsz);
-				$(this).attr("wght", wght);
-				$(this).attr("wdth", wdth);
-			});
-
-			$('[contenteditable="true"]').focus(function() {
-				lastFocused = $(this);
-				// get the content state
-				xhgt = lastFocused.attr("xhgt");
-				prwg = lastFocused.attr("prwg");
-				srfr = lastFocused.attr("srfr");
-				prwd = lastFocused.attr("prwd");
-				cntr = lastFocused.attr("cntr");
-				grad = lastFocused.attr("grad");
-				opsz = lastFocused.attr("opsz");
-				wght = lastFocused.attr("wght");
-				wdth = lastFocused.attr("wdth");
-				// reset the slider position
-				$("#xhgt").slider("value", xhgt);
-				$("#prwg").slider("value", prwg);
-				$("#srfr").slider("value", srfr);
-				$("#prwd").slider("value", prwd);
-				$("#cntr").slider("value", cntr);
-				$("#grad").slider("value", grad);
-				$("#opsz").slider("value", opsz);
-				$("#wght").slider("value", wght);
-				$("#wdth").slider("value", wdth);
-			});
-			
-			function refreshVariations(event) {
-				if(event.originalEvent) { // only if triggered by slider, not us
-					xhgt = $("#xhgt").slider( "value" );
-					prwg = $("#prwg").slider( "value" );
-					srfr = $("#srfr").slider( "value" );
-					prwd = $("#prwd").slider( "value" );
-					cntr = $("#cntr").slider( "value" );
-					grad = $("#grad").slider( "value" );
-					opsz = $("#opsz").slider( "value" );
-					wght = $("#wght").slider( "value" );
-					wdth = $("#wdth").slider( "value" );
-					// save the content state
-					lastFocused.attr("xhgt", xhgt);
-					lastFocused.attr("prwg", prwg);
-					lastFocused.attr("srfr", srfr);
-					lastFocused.attr("prwd", prwd);
-					lastFocused.attr("cntr", cntr);
-					lastFocused.attr("grad", grad);
-					lastFocused.attr("opsz", opsz);
-					lastFocused.attr("wght", wght);
-					lastFocused.attr("wdth", wdth);
-					// set the variation settings
-					lastFocused.css("font-variation-settings", 
-					"'xhgt' "+xhgt+", 'prwg' "+prwg+", 'srfr' "+srfr+", 'prwd' "+prwd+", 'cntr' "+cntr+", 'grad' "+grad+", 'opsz' "+opsz+", 'wght' "+wght+", 'wdth' "+wdth);
-					//font-variation-settings: 'xhgt' 0, 'wght' 0";
-				}
-			}
-			
-		} );
+	// xml/ttx name and fvar table only
+	var fvar = "AmstelvarAlpha-VF-name-fvar.ttx";
 	</script>
+	<script src="script.js"></script>
 </head>
 <body>
-	<h1 class="halfwidth content resizable ui-widget-content" contenteditable="true" spellcheck="false">Amstelvar</h1>
 	
-	<div id="sliders">
-		<div class="label">x Height</div>
-		<div id="xhgt" class="slider"></div>
-		<div class="label">Para Weight</div>
-		<div id="prwg" class="slider"></div>
-		<div class="label">Serif Rise</div>
-		<div id="srfr" class="slider"></div>
-		<div class="label">Para Width</div>
-		<div id="prwd" class="slider"></div>
-		<div class="label">Contrast</div>
-		<div id="cntr" class="slider"></div>
-		<div class="label">Grade</div>
-		<div id="grad" class="slider"></div>
-		<div class="label">Optical Size</div>
-		<div id="opsz" class="slider"></div>
-		<div class="label">Weight</div>
-		<div id="wght" class="slider"></div>
-		<div class="label">Width</div>
-		<div id="wdth" class="slider"></div>
+	<div id="fontsize-slider">
+		<div class="label"><span class="name">Font Size</span> <span class="values">(16, <span class="value">72</span>, 200)</span></div>
+		<div class="slider"></div>
 	</div>
 	
-	<p class="huge content resizable ui-widget-content" contenteditable="true" spellcheck="false">
+	<div id="sliders">
+		<div id="default">Default</div>
+	</div>
+	
+	<h1 class="variations resizable ui-widget-content" contenteditable="true" spellcheck="false">Amstelvar</h1>
+	
+	<p class="variations big resizable ui-widget-content" contenteditable="true" spellcheck="false">
 		ABCDEFGHIJKLMNOPQRSTUVWXYZ<br />
 		abcdefghijklmnopqrstuvwxyz<br />
 		0123456789<br />
 		!"#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^_`{|}~
 	</p>
 	
-	<p class="content resizable ui-widget-content" contenteditable="true" spellcheck="false">
+	<p class="variations resizable ui-widget-content" contenteditable="true" spellcheck="false">
 		The Amstel is a river in the Netherlands which runs through the city of Amsterdam. The river's name is derived from Aeme-stelle, old Dutch for water-area, namely, an area abounding with water.
 		The well-known bridge Magere Brug in Amsterdam crosses the river, as do the bridges Blauwbrug, Hoge Sluis and Berlagebrug. The Stopera city hall and opera house and Carre theatre are both located on the banks of the river.
 		A nationally televised concert is held on the river every year on Bevrijdingsdag. The rowing races Head of the River Amstel and Heineken Roeivierkamp are held on the river annually. The river also forms part of the route of the Canal Parade, Amsterdam's annual floating gay pride parade.
