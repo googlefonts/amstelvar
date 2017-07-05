@@ -50,7 +50,12 @@ axes = [
 ]
 
 instances = [
-#	dict(location=dict(weight=1), styleName="InstanceName", familyName=familyName),
+	dict(location=dict(weight=38), styleName="Thin", familyName=familyName),
+	dict(location=dict(weight=60), styleName="Light", familyName=familyName),
+	dict(location=dict(weight=90), styleName="Regular", familyName=familyName),
+	dict(location=dict(weight=140), styleName="Medium", familyName=familyName),
+	dict(location=dict(weight=200), styleName="Bold", familyName=familyName),
+	dict(location=dict(weight=250), styleName="Black", familyName=familyName),
 ]
 
 #for source in sources:
