@@ -25,7 +25,7 @@
         <axis default="18" maximum="48" minimum="0" name="serifheight" tag="YTSE">
             <labelname xml:lang="en">Serif height</labelname>
         </axis>
-        <axis default="88" maximum="250" minimum="25" name="grade" tag="GRAD">
+        <axis default="88" maximum="150" minimum="88" name="grade" tag="GRAD">
             <labelname xml:lang="en">Grade</labelname>
         </axis>
     </axes>
@@ -278,23 +278,10 @@
                 <dimension name="yopaque" xvalue="50" />
             </location>
         </source>
-        <source familyname="AmstelvarAlpha" filename="master_ufo/AmstelvarAlpha-GRAD-min.ufo" name="AmstelvarAlpha-GRAD-min.ufo" stylename="GRAD-min">
-            <location>
-                <dimension name="weight" xvalue="88" />
-                <dimension name="grade" xvalue="25" />
-                <dimension name="lcytransparent" xvalue="500" />
-                <dimension name="opticalsize" xvalue="14" />
-                <dimension name="xopaque" xvalue="88" />
-                <dimension name="width" xvalue="402" />
-                <dimension name="xtransparent" xvalue="402" />
-                <dimension name="serifheight" xvalue="18" />
-                <dimension name="yopaque" xvalue="50" />
-            </location>
-        </source>
         <source familyname="AmstelvarAlpha" filename="master_ufo/AmstelvarAlpha-GRAD-max.ufo" name="AmstelvarAlpha-GRAD-max.ufo" stylename="GRAD-max">
             <location>
                 <dimension name="weight" xvalue="88" />
-                <dimension name="grade" xvalue="250" />
+                <dimension name="grade" xvalue="150" />
                 <dimension name="lcytransparent" xvalue="500" />
                 <dimension name="opticalsize" xvalue="14" />
                 <dimension name="xopaque" xvalue="88" />
