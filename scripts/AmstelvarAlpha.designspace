@@ -34,16 +34,24 @@
         <axis default="1000" maximum="1200" minimum="800" name="ytransch" tag="YTCH">
             <labelname xml:lang="en">y transparent Chinese</labelname>
         </axis>
+        <axis default="750" maximum="900" minimum="600" name="ytransas" tag="YTAS">
+            <labelname xml:lang="en">y transparent ascender</labelname>
+        </axis>
+        <axis default="250" maximum="350" minimum="150" name="ytransde" tag="YTDE">
+            <labelname xml:lang="en">y transparent descender</labelname>
+        </axis>
     </axes>
     <sources>
         <source familyname="AmstelvarAlpha" filename="master_ufo/AmstelvarAlpha-Default.ufo" name="AmstelvarAlpha-Default.ufo" stylename="Default">
             <info copy="1" />
             <location>
+                <dimension name="opticalsize" xvalue="14" />
                 <dimension name="xtransch" xvalue="1000" />
+                <dimension name="ytransde" xvalue="250" />
                 <dimension name="weight" xvalue="88" />
                 <dimension name="grade" xvalue="88" />
+                <dimension name="ytransas" xvalue="750" />
                 <dimension name="lcytransparent" xvalue="500" />
-                <dimension name="opticalsize" xvalue="14" />
                 <dimension name="xopaque" xvalue="88" />
                 <dimension name="width" xvalue="402" />
                 <dimension name="xtransparent" xvalue="402" />
@@ -54,11 +62,13 @@
         </source>
         <source familyname="AmstelvarAlpha" filename="master_ufo/AmstelvarAlpha-wght-min.ufo" name="AmstelvarAlpha-wght-min.ufo" stylename="wght-min">
             <location>
+                <dimension name="opticalsize" xvalue="14" />
                 <dimension name="xtransch" xvalue="1000" />
+                <dimension name="ytransde" xvalue="250" />
                 <dimension name="weight" xvalue="38" />
                 <dimension name="grade" xvalue="88" />
+                <dimension name="ytransas" xvalue="750" />
                 <dimension name="lcytransparent" xvalue="500" />
-                <dimension name="opticalsize" xvalue="14" />
                 <dimension name="xopaque" xvalue="88" />
                 <dimension name="width" xvalue="402" />
                 <dimension name="xtransparent" xvalue="402" />
@@ -69,11 +79,13 @@
         </source>
         <source familyname="AmstelvarAlpha" filename="master_ufo/AmstelvarAlpha-wght-max.ufo" name="AmstelvarAlpha-wght-max.ufo" stylename="wght-max">
             <location>
+                <dimension name="opticalsize" xvalue="14" />
                 <dimension name="xtransch" xvalue="1000" />
+                <dimension name="ytransde" xvalue="250" />
                 <dimension name="weight" xvalue="250" />
                 <dimension name="grade" xvalue="88" />
+                <dimension name="ytransas" xvalue="750" />
                 <dimension name="lcytransparent" xvalue="500" />
-                <dimension name="opticalsize" xvalue="14" />
                 <dimension name="xopaque" xvalue="88" />
                 <dimension name="width" xvalue="402" />
                 <dimension name="xtransparent" xvalue="402" />
@@ -84,11 +96,13 @@
         </source>
         <source familyname="AmstelvarAlpha" filename="master_ufo/AmstelvarAlpha-wdth-min.ufo" name="AmstelvarAlpha-wdth-min.ufo" stylename="wdth-min">
             <location>
+                <dimension name="opticalsize" xvalue="14" />
                 <dimension name="xtransch" xvalue="1000" />
+                <dimension name="ytransde" xvalue="250" />
                 <dimension name="weight" xvalue="88" />
                 <dimension name="grade" xvalue="88" />
+                <dimension name="ytransas" xvalue="750" />
                 <dimension name="lcytransparent" xvalue="500" />
-                <dimension name="opticalsize" xvalue="14" />
                 <dimension name="xopaque" xvalue="88" />
                 <dimension name="width" xvalue="60" />
                 <dimension name="xtransparent" xvalue="402" />
@@ -99,11 +113,13 @@
         </source>
         <source familyname="AmstelvarAlpha" filename="master_ufo/AmstelvarAlpha-wdth-151.ufo" name="AmstelvarAlpha-wdth-151.ufo" stylename="wdth-151">
             <location>
+                <dimension name="opticalsize" xvalue="14" />
                 <dimension name="xtransch" xvalue="1000" />
+                <dimension name="ytransde" xvalue="250" />
                 <dimension name="weight" xvalue="88" />
                 <dimension name="grade" xvalue="88" />
+                <dimension name="ytransas" xvalue="750" />
                 <dimension name="lcytransparent" xvalue="500" />
-                <dimension name="opticalsize" xvalue="14" />
                 <dimension name="xopaque" xvalue="88" />
                 <dimension name="width" xvalue="151.999000" />
                 <dimension name="xtransparent" xvalue="402" />
@@ -114,11 +130,13 @@
         </source>
         <source familyname="AmstelvarAlpha" filename="master_ufo/AmstelvarAlpha-wdth-152.ufo" name="AmstelvarAlpha-wdth-152.ufo" stylename="wdth-152">
             <location>
+                <dimension name="opticalsize" xvalue="14" />
                 <dimension name="xtransch" xvalue="1000" />
+                <dimension name="ytransde" xvalue="250" />
                 <dimension name="weight" xvalue="88" />
                 <dimension name="grade" xvalue="88" />
+                <dimension name="ytransas" xvalue="750" />
                 <dimension name="lcytransparent" xvalue="500" />
-                <dimension name="opticalsize" xvalue="14" />
                 <dimension name="xopaque" xvalue="88" />
                 <dimension name="width" xvalue="152" />
                 <dimension name="xtransparent" xvalue="402" />
@@ -129,11 +147,13 @@
         </source>
         <source familyname="AmstelvarAlpha" filename="master_ufo/AmstelvarAlpha-opsz-min.ufo" name="AmstelvarAlpha-opsz-min.ufo" stylename="opsz-min">
             <location>
+                <dimension name="opticalsize" xvalue="10" />
                 <dimension name="xtransch" xvalue="1000" />
+                <dimension name="ytransde" xvalue="250" />
                 <dimension name="weight" xvalue="88" />
                 <dimension name="grade" xvalue="88" />
+                <dimension name="ytransas" xvalue="750" />
                 <dimension name="lcytransparent" xvalue="500" />
-                <dimension name="opticalsize" xvalue="10" />
                 <dimension name="xopaque" xvalue="88" />
                 <dimension name="width" xvalue="402" />
                 <dimension name="xtransparent" xvalue="402" />
@@ -144,11 +164,13 @@
         </source>
         <source familyname="AmstelvarAlpha" filename="master_ufo/AmstelvarAlpha-opsz-max.ufo" name="AmstelvarAlpha-opsz-max.ufo" stylename="opsz-max">
             <location>
+                <dimension name="opticalsize" xvalue="72" />
                 <dimension name="xtransch" xvalue="1000" />
+                <dimension name="ytransde" xvalue="250" />
                 <dimension name="weight" xvalue="88" />
                 <dimension name="grade" xvalue="88" />
+                <dimension name="ytransas" xvalue="750" />
                 <dimension name="lcytransparent" xvalue="500" />
-                <dimension name="opticalsize" xvalue="72" />
                 <dimension name="xopaque" xvalue="88" />
                 <dimension name="width" xvalue="402" />
                 <dimension name="xtransparent" xvalue="402" />
@@ -159,11 +181,13 @@
         </source>
         <source familyname="AmstelvarAlpha" filename="master_ufo/AmstelvarAlpha-XOPQ-min.ufo" name="AmstelvarAlpha-XOPQ-min.ufo" stylename="XOPQ-min">
             <location>
+                <dimension name="opticalsize" xvalue="14" />
                 <dimension name="xtransch" xvalue="1000" />
+                <dimension name="ytransde" xvalue="250" />
                 <dimension name="weight" xvalue="88" />
                 <dimension name="grade" xvalue="88" />
+                <dimension name="ytransas" xvalue="750" />
                 <dimension name="lcytransparent" xvalue="500" />
-                <dimension name="opticalsize" xvalue="14" />
                 <dimension name="xopaque" xvalue="5" />
                 <dimension name="width" xvalue="402" />
                 <dimension name="xtransparent" xvalue="402" />
@@ -174,11 +198,13 @@
         </source>
         <source familyname="AmstelvarAlpha" filename="master_ufo/AmstelvarAlpha-XOPQ-max.ufo" name="AmstelvarAlpha-XOPQ-max.ufo" stylename="XOPQ-max">
             <location>
+                <dimension name="opticalsize" xvalue="14" />
                 <dimension name="xtransch" xvalue="1000" />
+                <dimension name="ytransde" xvalue="250" />
                 <dimension name="weight" xvalue="88" />
                 <dimension name="grade" xvalue="88" />
+                <dimension name="ytransas" xvalue="750" />
                 <dimension name="lcytransparent" xvalue="500" />
-                <dimension name="opticalsize" xvalue="14" />
                 <dimension name="xopaque" xvalue="500" />
                 <dimension name="width" xvalue="402" />
                 <dimension name="xtransparent" xvalue="402" />
@@ -189,11 +215,13 @@
         </source>
         <source familyname="AmstelvarAlpha" filename="master_ufo/AmstelvarAlpha-XTRA-min.ufo" name="AmstelvarAlpha-XTRA-min.ufo" stylename="XTRA-min">
             <location>
+                <dimension name="opticalsize" xvalue="14" />
                 <dimension name="xtransch" xvalue="1000" />
+                <dimension name="ytransde" xvalue="250" />
                 <dimension name="weight" xvalue="88" />
                 <dimension name="grade" xvalue="88" />
+                <dimension name="ytransas" xvalue="750" />
                 <dimension name="lcytransparent" xvalue="500" />
-                <dimension name="opticalsize" xvalue="14" />
                 <dimension name="xopaque" xvalue="88" />
                 <dimension name="width" xvalue="402" />
                 <dimension name="xtransparent" xvalue="42" />
@@ -204,11 +232,13 @@
         </source>
         <source familyname="AmstelvarAlpha" filename="master_ufo/AmstelvarAlpha-XTRA-151.ufo" name="AmstelvarAlpha-XTRA-151.ufo" stylename="XTRA-151">
             <location>
+                <dimension name="opticalsize" xvalue="14" />
                 <dimension name="xtransch" xvalue="1000" />
+                <dimension name="ytransde" xvalue="250" />
                 <dimension name="weight" xvalue="88" />
                 <dimension name="grade" xvalue="88" />
+                <dimension name="ytransas" xvalue="750" />
                 <dimension name="lcytransparent" xvalue="500" />
-                <dimension name="opticalsize" xvalue="14" />
                 <dimension name="xopaque" xvalue="88" />
                 <dimension name="width" xvalue="402" />
                 <dimension name="xtransparent" xvalue="151.999000" />
@@ -219,11 +249,13 @@
         </source>
         <source familyname="AmstelvarAlpha" filename="master_ufo/AmstelvarAlpha-XTRA-152.ufo" name="AmstelvarAlpha-XTRA-152.ufo" stylename="XTRA-152">
             <location>
+                <dimension name="opticalsize" xvalue="14" />
                 <dimension name="xtransch" xvalue="1000" />
+                <dimension name="ytransde" xvalue="250" />
                 <dimension name="weight" xvalue="88" />
                 <dimension name="grade" xvalue="88" />
+                <dimension name="ytransas" xvalue="750" />
                 <dimension name="lcytransparent" xvalue="500" />
-                <dimension name="opticalsize" xvalue="14" />
                 <dimension name="xopaque" xvalue="88" />
                 <dimension name="width" xvalue="402" />
                 <dimension name="xtransparent" xvalue="152" />
@@ -234,11 +266,13 @@
         </source>
         <source familyname="AmstelvarAlpha" filename="master_ufo/AmstelvarAlpha-YOPQ-min.ufo" name="AmstelvarAlpha-YOPQ-min.ufo" stylename="YOPQ-min">
             <location>
+                <dimension name="opticalsize" xvalue="14" />
                 <dimension name="xtransch" xvalue="1000" />
+                <dimension name="ytransde" xvalue="250" />
                 <dimension name="weight" xvalue="88" />
                 <dimension name="grade" xvalue="88" />
+                <dimension name="ytransas" xvalue="750" />
                 <dimension name="lcytransparent" xvalue="500" />
-                <dimension name="opticalsize" xvalue="14" />
                 <dimension name="xopaque" xvalue="88" />
                 <dimension name="width" xvalue="402" />
                 <dimension name="xtransparent" xvalue="402" />
@@ -249,11 +283,13 @@
         </source>
         <source familyname="AmstelvarAlpha" filename="master_ufo/AmstelvarAlpha-YOPQ-max.ufo" name="AmstelvarAlpha-YOPQ-max.ufo" stylename="YOPQ-max">
             <location>
+                <dimension name="opticalsize" xvalue="14" />
                 <dimension name="xtransch" xvalue="1000" />
+                <dimension name="ytransde" xvalue="250" />
                 <dimension name="weight" xvalue="88" />
                 <dimension name="grade" xvalue="88" />
+                <dimension name="ytransas" xvalue="750" />
                 <dimension name="lcytransparent" xvalue="500" />
-                <dimension name="opticalsize" xvalue="14" />
                 <dimension name="xopaque" xvalue="88" />
                 <dimension name="width" xvalue="402" />
                 <dimension name="xtransparent" xvalue="402" />
@@ -264,11 +300,13 @@
         </source>
         <source familyname="AmstelvarAlpha" filename="master_ufo/AmstelvarAlpha-YTLC-min.ufo" name="AmstelvarAlpha-YTLC-min.ufo" stylename="YTLC-min">
             <location>
+                <dimension name="opticalsize" xvalue="14" />
                 <dimension name="xtransch" xvalue="1000" />
+                <dimension name="ytransde" xvalue="250" />
                 <dimension name="weight" xvalue="88" />
                 <dimension name="grade" xvalue="88" />
+                <dimension name="ytransas" xvalue="750" />
                 <dimension name="lcytransparent" xvalue="445" />
-                <dimension name="opticalsize" xvalue="14" />
                 <dimension name="xopaque" xvalue="88" />
                 <dimension name="width" xvalue="402" />
                 <dimension name="xtransparent" xvalue="402" />
@@ -279,11 +317,13 @@
         </source>
         <source familyname="AmstelvarAlpha" filename="master_ufo/AmstelvarAlpha-YTLC-max.ufo" name="AmstelvarAlpha-YTLC-max.ufo" stylename="YTLC-max">
             <location>
+                <dimension name="opticalsize" xvalue="14" />
                 <dimension name="xtransch" xvalue="1000" />
+                <dimension name="ytransde" xvalue="250" />
                 <dimension name="weight" xvalue="88" />
                 <dimension name="grade" xvalue="88" />
+                <dimension name="ytransas" xvalue="750" />
                 <dimension name="lcytransparent" xvalue="600" />
-                <dimension name="opticalsize" xvalue="14" />
                 <dimension name="xopaque" xvalue="88" />
                 <dimension name="width" xvalue="402" />
                 <dimension name="xtransparent" xvalue="402" />
@@ -294,11 +334,13 @@
         </source>
         <source familyname="AmstelvarAlpha" filename="master_ufo/AmstelvarAlpha-YTSE-min.ufo" name="AmstelvarAlpha-YTSE-min.ufo" stylename="YTSE-min">
             <location>
+                <dimension name="opticalsize" xvalue="14" />
                 <dimension name="xtransch" xvalue="1000" />
+                <dimension name="ytransde" xvalue="250" />
                 <dimension name="weight" xvalue="88" />
                 <dimension name="grade" xvalue="88" />
+                <dimension name="ytransas" xvalue="750" />
                 <dimension name="lcytransparent" xvalue="500" />
-                <dimension name="opticalsize" xvalue="14" />
                 <dimension name="xopaque" xvalue="88" />
                 <dimension name="width" xvalue="402" />
                 <dimension name="xtransparent" xvalue="402" />
@@ -309,11 +351,13 @@
         </source>
         <source familyname="AmstelvarAlpha" filename="master_ufo/AmstelvarAlpha-YTSE-max.ufo" name="AmstelvarAlpha-YTSE-max.ufo" stylename="YTSE-max">
             <location>
+                <dimension name="opticalsize" xvalue="14" />
                 <dimension name="xtransch" xvalue="1000" />
+                <dimension name="ytransde" xvalue="250" />
                 <dimension name="weight" xvalue="88" />
                 <dimension name="grade" xvalue="88" />
+                <dimension name="ytransas" xvalue="750" />
                 <dimension name="lcytransparent" xvalue="500" />
-                <dimension name="opticalsize" xvalue="14" />
                 <dimension name="xopaque" xvalue="88" />
                 <dimension name="width" xvalue="402" />
                 <dimension name="xtransparent" xvalue="402" />
@@ -324,11 +368,13 @@
         </source>
         <source familyname="AmstelvarAlpha" filename="master_ufo/AmstelvarAlpha-GRAD-max.ufo" name="AmstelvarAlpha-GRAD-max.ufo" stylename="GRAD-max">
             <location>
+                <dimension name="opticalsize" xvalue="14" />
                 <dimension name="xtransch" xvalue="1000" />
+                <dimension name="ytransde" xvalue="250" />
                 <dimension name="weight" xvalue="88" />
                 <dimension name="grade" xvalue="150" />
+                <dimension name="ytransas" xvalue="750" />
                 <dimension name="lcytransparent" xvalue="500" />
-                <dimension name="opticalsize" xvalue="14" />
                 <dimension name="xopaque" xvalue="88" />
                 <dimension name="width" xvalue="402" />
                 <dimension name="xtransparent" xvalue="402" />
@@ -339,11 +385,13 @@
         </source>
         <source familyname="AmstelvarAlpha" filename="master_ufo/AmstelvarAlpha-XTCH-min.ufo" name="AmstelvarAlpha-XTCH-min.ufo" stylename="XTCH-min">
             <location>
+                <dimension name="opticalsize" xvalue="14" />
                 <dimension name="xtransch" xvalue="800" />
+                <dimension name="ytransde" xvalue="250" />
                 <dimension name="weight" xvalue="88" />
                 <dimension name="grade" xvalue="88" />
+                <dimension name="ytransas" xvalue="750" />
                 <dimension name="lcytransparent" xvalue="500" />
-                <dimension name="opticalsize" xvalue="14" />
                 <dimension name="xopaque" xvalue="88" />
                 <dimension name="width" xvalue="402" />
                 <dimension name="xtransparent" xvalue="402" />
@@ -354,11 +402,13 @@
         </source>
         <source familyname="AmstelvarAlpha" filename="master_ufo/AmstelvarAlpha-XTCH-max.ufo" name="AmstelvarAlpha-XTCH-max.ufo" stylename="XTCH-max">
             <location>
+                <dimension name="opticalsize" xvalue="14" />
                 <dimension name="xtransch" xvalue="1200" />
+                <dimension name="ytransde" xvalue="250" />
                 <dimension name="weight" xvalue="88" />
                 <dimension name="grade" xvalue="88" />
+                <dimension name="ytransas" xvalue="750" />
                 <dimension name="lcytransparent" xvalue="500" />
-                <dimension name="opticalsize" xvalue="14" />
                 <dimension name="xopaque" xvalue="88" />
                 <dimension name="width" xvalue="402" />
                 <dimension name="xtransparent" xvalue="402" />
@@ -369,11 +419,13 @@
         </source>
         <source familyname="AmstelvarAlpha" filename="master_ufo/AmstelvarAlpha-YTCH-min.ufo" name="AmstelvarAlpha-YTCH-min.ufo" stylename="YTCH-min">
             <location>
+                <dimension name="opticalsize" xvalue="14" />
                 <dimension name="xtransch" xvalue="1000" />
+                <dimension name="ytransde" xvalue="250" />
                 <dimension name="weight" xvalue="88" />
                 <dimension name="grade" xvalue="88" />
+                <dimension name="ytransas" xvalue="750" />
                 <dimension name="lcytransparent" xvalue="500" />
-                <dimension name="opticalsize" xvalue="14" />
                 <dimension name="xopaque" xvalue="88" />
                 <dimension name="width" xvalue="402" />
                 <dimension name="xtransparent" xvalue="402" />
@@ -384,15 +436,85 @@
         </source>
         <source familyname="AmstelvarAlpha" filename="master_ufo/AmstelvarAlpha-YTCH-max.ufo" name="AmstelvarAlpha-YTCH-max.ufo" stylename="YTCH-max">
             <location>
+                <dimension name="opticalsize" xvalue="14" />
                 <dimension name="xtransch" xvalue="1000" />
+                <dimension name="ytransde" xvalue="250" />
                 <dimension name="weight" xvalue="88" />
                 <dimension name="grade" xvalue="88" />
+                <dimension name="ytransas" xvalue="750" />
                 <dimension name="lcytransparent" xvalue="500" />
-                <dimension name="opticalsize" xvalue="14" />
                 <dimension name="xopaque" xvalue="88" />
                 <dimension name="width" xvalue="402" />
                 <dimension name="xtransparent" xvalue="402" />
                 <dimension name="ytransch" xvalue="1200" />
+                <dimension name="serifheight" xvalue="18" />
+                <dimension name="yopaque" xvalue="50" />
+            </location>
+        </source>
+        <source familyname="AmstelvarAlpha" filename="master_ufo/AmstelvarAlpha-YTAS-min.ufo" name="AmstelvarAlpha-YTAS-min.ufo" stylename="YTAS-min">
+            <location>
+                <dimension name="opticalsize" xvalue="14" />
+                <dimension name="xtransch" xvalue="1000" />
+                <dimension name="ytransde" xvalue="250" />
+                <dimension name="weight" xvalue="88" />
+                <dimension name="grade" xvalue="88" />
+                <dimension name="ytransas" xvalue="600" />
+                <dimension name="lcytransparent" xvalue="500" />
+                <dimension name="xopaque" xvalue="88" />
+                <dimension name="width" xvalue="402" />
+                <dimension name="xtransparent" xvalue="402" />
+                <dimension name="ytransch" xvalue="1000" />
+                <dimension name="serifheight" xvalue="18" />
+                <dimension name="yopaque" xvalue="50" />
+            </location>
+        </source>
+        <source familyname="AmstelvarAlpha" filename="master_ufo/AmstelvarAlpha-YTAS-max.ufo" name="AmstelvarAlpha-YTAS-max.ufo" stylename="YTAS-max">
+            <location>
+                <dimension name="opticalsize" xvalue="14" />
+                <dimension name="xtransch" xvalue="1000" />
+                <dimension name="ytransde" xvalue="250" />
+                <dimension name="weight" xvalue="88" />
+                <dimension name="grade" xvalue="88" />
+                <dimension name="ytransas" xvalue="900" />
+                <dimension name="lcytransparent" xvalue="500" />
+                <dimension name="xopaque" xvalue="88" />
+                <dimension name="width" xvalue="402" />
+                <dimension name="xtransparent" xvalue="402" />
+                <dimension name="ytransch" xvalue="1000" />
+                <dimension name="serifheight" xvalue="18" />
+                <dimension name="yopaque" xvalue="50" />
+            </location>
+        </source>
+        <source familyname="AmstelvarAlpha" filename="master_ufo/AmstelvarAlpha-YTDE-min.ufo" name="AmstelvarAlpha-YTDE-min.ufo" stylename="YTDE-min">
+            <location>
+                <dimension name="opticalsize" xvalue="14" />
+                <dimension name="xtransch" xvalue="1000" />
+                <dimension name="ytransde" xvalue="150" />
+                <dimension name="weight" xvalue="88" />
+                <dimension name="grade" xvalue="88" />
+                <dimension name="ytransas" xvalue="750" />
+                <dimension name="lcytransparent" xvalue="500" />
+                <dimension name="xopaque" xvalue="88" />
+                <dimension name="width" xvalue="402" />
+                <dimension name="xtransparent" xvalue="402" />
+                <dimension name="ytransch" xvalue="1000" />
+                <dimension name="serifheight" xvalue="18" />
+                <dimension name="yopaque" xvalue="50" />
+            </location>
+        </source>
+        <source familyname="AmstelvarAlpha" filename="master_ufo/AmstelvarAlpha-YTDE-max.ufo" name="AmstelvarAlpha-YTDE-max.ufo" stylename="YTDE-max">
+            <location>
+                <dimension name="opticalsize" xvalue="14" />
+                <dimension name="xtransch" xvalue="1000" />
+                <dimension name="ytransde" xvalue="350" />
+                <dimension name="weight" xvalue="88" />
+                <dimension name="grade" xvalue="88" />
+                <dimension name="ytransas" xvalue="750" />
+                <dimension name="lcytransparent" xvalue="500" />
+                <dimension name="xopaque" xvalue="88" />
+                <dimension name="width" xvalue="402" />
+                <dimension name="xtransparent" xvalue="402" />
+                <dimension name="ytransch" xvalue="1000" />
                 <dimension name="serifheight" xvalue="18" />
                 <dimension name="yopaque" xvalue="50" />
             </location>

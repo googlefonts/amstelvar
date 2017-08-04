@@ -5,7 +5,7 @@ designSpacePath = "AmstelvarAlpha.designspace"
 familyName = "AmstelvarAlpha"
 
 sources = [
-	dict(path="master_ufo/AmstelvarAlpha-Default.ufo", name="AmstelvarAlpha-Default.ufo", location=dict(weight=88, width=402, opticalsize=14, xopaque=88, xtransparent=402, yopaque=50, lcytransparent=500, serifheight=18, grade=88, xtransch=1000, ytransch=1000), styleName="Default", familyName=familyName, copyInfo=True),
+	dict(path="master_ufo/AmstelvarAlpha-Default.ufo", name="AmstelvarAlpha-Default.ufo", location=dict(weight=88, width=402, opticalsize=14, xopaque=88, xtransparent=402, yopaque=50, lcytransparent=500, serifheight=18, grade=88, xtransch=1000, ytransch=1000, ytransas=750, ytransde=250), styleName="Default", familyName=familyName, copyInfo=True),
 	# registered
 	dict(path="master_ufo/AmstelvarAlpha-wght-min.ufo", name="AmstelvarAlpha-wght-min.ufo", location=dict(weight=38), styleName="wght-min", familyName=familyName, copyInfo=False),
 	dict(path="master_ufo/AmstelvarAlpha-wght-max.ufo", name="AmstelvarAlpha-wght-max.ufo", location=dict(weight=250), styleName="wght-max", familyName=familyName, copyInfo=False),
@@ -42,6 +42,11 @@ sources = [
 	dict(path="master_ufo/AmstelvarAlpha-XTCH-max.ufo", name="AmstelvarAlpha-XTCH-max.ufo", location=dict(xtransch=1200), styleName="XTCH-max", familyName=familyName, copyInfo=False),
 	dict(path="master_ufo/AmstelvarAlpha-YTCH-min.ufo", name="AmstelvarAlpha-YTCH-min.ufo", location=dict(ytransch=800), styleName="YTCH-min", familyName=familyName, copyInfo=False),
 	dict(path="master_ufo/AmstelvarAlpha-YTCH-max.ufo", name="AmstelvarAlpha-YTCH-max.ufo", location=dict(ytransch=1200), styleName="YTCH-max", familyName=familyName, copyInfo=False),
+	
+	dict(path="master_ufo/AmstelvarAlpha-YTAS-min.ufo", name="AmstelvarAlpha-YTAS-min.ufo", location=dict(ytransas=600), styleName="YTAS-min", familyName=familyName, copyInfo=False),
+	dict(path="master_ufo/AmstelvarAlpha-YTAS-max.ufo", name="AmstelvarAlpha-YTAS-max.ufo", location=dict(ytransas=900), styleName="YTAS-max", familyName=familyName, copyInfo=False),
+	dict(path="master_ufo/AmstelvarAlpha-YTDE-min.ufo", name="AmstelvarAlpha-YTDE-min.ufo", location=dict(ytransde=150), styleName="YTDE-min", familyName=familyName, copyInfo=False),
+	dict(path="master_ufo/AmstelvarAlpha-YTDE-max.ufo", name="AmstelvarAlpha-YTDE-max.ufo", location=dict(ytransde=350), styleName="YTDE-max", familyName=familyName, copyInfo=False),
 ]
 axes = [
 	dict(minimum=38, maximum=250, default=88, name="weight", tag="wght", labelNames={"en": "Weight"}, map=[]),
@@ -55,6 +60,8 @@ axes = [
 	dict(minimum=88, maximum=150, default=88, name="grade", tag="GRAD", labelNames={"en": "Grade"}, map=[]),
 	dict(minimum=800, maximum=1200, default=1000, name="xtransch", tag="XTCH", labelNames={"en": "x transparent Chinese"}, map=[]),
 	dict(minimum=800, maximum=1200, default=1000, name="ytransch", tag="YTCH", labelNames={"en": "y transparent Chinese"}, map=[]),
+	dict(minimum=600, maximum=900, default=750, name="ytransas", tag="YTAS", labelNames={"en": "y transparent ascender"}, map=[]),
+	dict(minimum=150, maximum=350, default=250, name="ytransde", tag="YTDE", labelNames={"en": "y transparent descender"}, map=[]),
 ]
 
 instances = [
