@@ -34,7 +34,7 @@
         <axis default="1000" maximum="1200" minimum="800" name="ytransch" tag="YTCH">
             <labelname xml:lang="en">y transparent Chinese</labelname>
         </axis>
-        <axis default="750" maximum="900" minimum="600" name="ytransas" tag="YTAS">
+        <axis default="750" maximum="850" minimum="650" name="ytransas" tag="YTAS">
             <labelname xml:lang="en">y transparent ascender</labelname>
         </axis>
         <axis default="250" maximum="350" minimum="150" name="ytransde" tag="YTDE">
@@ -458,7 +458,7 @@
                 <dimension name="ytransde" xvalue="250" />
                 <dimension name="weight" xvalue="88" />
                 <dimension name="grade" xvalue="88" />
-                <dimension name="ytransas" xvalue="600" />
+                <dimension name="ytransas" xvalue="650" />
                 <dimension name="lcytransparent" xvalue="500" />
                 <dimension name="xopaque" xvalue="88" />
                 <dimension name="width" xvalue="402" />
@@ -475,7 +475,7 @@
                 <dimension name="ytransde" xvalue="250" />
                 <dimension name="weight" xvalue="88" />
                 <dimension name="grade" xvalue="88" />
-                <dimension name="ytransas" xvalue="900" />
+                <dimension name="ytransas" xvalue="850" />
                 <dimension name="lcytransparent" xvalue="500" />
                 <dimension name="xopaque" xvalue="88" />
                 <dimension name="width" xvalue="402" />

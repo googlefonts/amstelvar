@@ -43,8 +43,8 @@ sources = [
 	dict(path="master_ufo/AmstelvarAlpha-YTCH-min.ufo", name="AmstelvarAlpha-YTCH-min.ufo", location=dict(ytransch=800), styleName="YTCH-min", familyName=familyName, copyInfo=False),
 	dict(path="master_ufo/AmstelvarAlpha-YTCH-max.ufo", name="AmstelvarAlpha-YTCH-max.ufo", location=dict(ytransch=1200), styleName="YTCH-max", familyName=familyName, copyInfo=False),
 	
-	dict(path="master_ufo/AmstelvarAlpha-YTAS-min.ufo", name="AmstelvarAlpha-YTAS-min.ufo", location=dict(ytransas=600), styleName="YTAS-min", familyName=familyName, copyInfo=False),
-	dict(path="master_ufo/AmstelvarAlpha-YTAS-max.ufo", name="AmstelvarAlpha-YTAS-max.ufo", location=dict(ytransas=900), styleName="YTAS-max", familyName=familyName, copyInfo=False),
+	dict(path="master_ufo/AmstelvarAlpha-YTAS-min.ufo", name="AmstelvarAlpha-YTAS-min.ufo", location=dict(ytransas=650), styleName="YTAS-min", familyName=familyName, copyInfo=False),
+	dict(path="master_ufo/AmstelvarAlpha-YTAS-max.ufo", name="AmstelvarAlpha-YTAS-max.ufo", location=dict(ytransas=850), styleName="YTAS-max", familyName=familyName, copyInfo=False),
 	dict(path="master_ufo/AmstelvarAlpha-YTDE-min.ufo", name="AmstelvarAlpha-YTDE-min.ufo", location=dict(ytransde=150), styleName="YTDE-min", familyName=familyName, copyInfo=False),
 	dict(path="master_ufo/AmstelvarAlpha-YTDE-max.ufo", name="AmstelvarAlpha-YTDE-max.ufo", location=dict(ytransde=350), styleName="YTDE-max", familyName=familyName, copyInfo=False),
 ]
@@ -60,7 +60,7 @@ axes = [
 	dict(minimum=88, maximum=150, default=88, name="grade", tag="GRAD", labelNames={"en": "Grade"}, map=[]),
 	dict(minimum=800, maximum=1200, default=1000, name="xtransch", tag="XTCH", labelNames={"en": "x transparent Chinese"}, map=[]),
 	dict(minimum=800, maximum=1200, default=1000, name="ytransch", tag="YTCH", labelNames={"en": "y transparent Chinese"}, map=[]),
-	dict(minimum=600, maximum=900, default=750, name="ytransas", tag="YTAS", labelNames={"en": "y transparent ascender"}, map=[]),
+	dict(minimum=650, maximum=850, default=750, name="ytransas", tag="YTAS", labelNames={"en": "y transparent ascender"}, map=[]),
 	dict(minimum=150, maximum=350, default=250, name="ytransde", tag="YTDE", labelNames={"en": "y transparent descender"}, map=[]),
 ]
 
