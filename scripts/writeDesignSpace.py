@@ -11,8 +11,8 @@ sources = [
 	dict(path="master_ufo/AmstelvarAlpha-wght-max.ufo", name="AmstelvarAlpha-wght-max.ufo", location=dict(weight=250), styleName="wght-max", familyName=familyName, copyInfo=False),
 
 	dict(path="master_ufo/AmstelvarAlpha-wdth-min.ufo", name="AmstelvarAlpha-wdth-min.ufo", location=dict(width=60), styleName="wdth-min", familyName=familyName, copyInfo=False),
-	dict(path="master_ufo/AmstelvarAlpha-wdth-151.ufo", name="AmstelvarAlpha-wdth-151.ufo", location=dict(width=151.999), styleName="wdth-151", familyName=familyName, copyInfo=False),
-	dict(path="master_ufo/AmstelvarAlpha-wdth-152.ufo", name="AmstelvarAlpha-wdth-152.ufo", location=dict(width=152), styleName="wdth-152", familyName=familyName, copyInfo=False),
+	##dict(path="master_ufo/AmstelvarAlpha-wdth-151.ufo", name="AmstelvarAlpha-wdth-151.ufo", location=dict(width=151.999), styleName="wdth-151", familyName=familyName, copyInfo=False),
+	##dict(path="master_ufo/AmstelvarAlpha-wdth-152.ufo", name="AmstelvarAlpha-wdth-152.ufo", location=dict(width=152), styleName="wdth-152", familyName=familyName, copyInfo=False),
 
 	dict(path="master_ufo/AmstelvarAlpha-opsz-min.ufo", name="AmstelvarAlpha-opsz-min.ufo", location=dict(opticalsize=10), styleName="opsz-min", familyName=familyName, copyInfo=False),
 	dict(path="master_ufo/AmstelvarAlpha-opsz-max.ufo", name="AmstelvarAlpha-opsz-max.ufo", location=dict(opticalsize=72), styleName="opsz-max", familyName=familyName, copyInfo=False),
@@ -22,8 +22,8 @@ sources = [
 	dict(path="master_ufo/AmstelvarAlpha-XOPQ-max.ufo", name="AmstelvarAlpha-XOPQ-max.ufo", location=dict(xopaque=500), styleName="XOPQ-max", familyName=familyName, copyInfo=False),
 
 	dict(path="master_ufo/AmstelvarAlpha-XTRA-min.ufo", name="AmstelvarAlpha-XTRA-min.ufo", location=dict(xtransparent=42), styleName="XTRA-min", familyName=familyName, copyInfo=False),
-	dict(path="master_ufo/AmstelvarAlpha-XTRA-151.ufo", name="AmstelvarAlpha-XTRA-151.ufo", location=dict(xtransparent=151.999), styleName="XTRA-151", familyName=familyName, copyInfo=False),
-	dict(path="master_ufo/AmstelvarAlpha-XTRA-152.ufo", name="AmstelvarAlpha-XTRA-152.ufo", location=dict(xtransparent=152), styleName="XTRA-152", familyName=familyName, copyInfo=False),
+	##dict(path="master_ufo/AmstelvarAlpha-XTRA-151.ufo", name="AmstelvarAlpha-XTRA-151.ufo", location=dict(xtransparent=151.999), styleName="XTRA-151", familyName=familyName, copyInfo=False),
+	##dict(path="master_ufo/AmstelvarAlpha-XTRA-152.ufo", name="AmstelvarAlpha-XTRA-152.ufo", location=dict(xtransparent=152), styleName="XTRA-152", familyName=familyName, copyInfo=False),
 
 	dict(path="master_ufo/AmstelvarAlpha-YOPQ-min.ufo", name="AmstelvarAlpha-YOPQ-min.ufo", location=dict(yopaque=4), styleName="YOPQ-min", familyName=familyName, copyInfo=False),
 	dict(path="master_ufo/AmstelvarAlpha-YOPQ-max.ufo", name="AmstelvarAlpha-YOPQ-max.ufo", location=dict(yopaque=85), styleName="YOPQ-max", familyName=familyName, copyInfo=False),
