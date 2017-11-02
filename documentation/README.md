@@ -1,23 +1,23 @@
-#Amstelvar Documentation
+# Amstelvar Documentation
 
-##I. Introduction
+## I. Introduction
 
-###Overview
+### Overview
 AmstelvarAlpha-Variations.ttf is an exploratory OpenType 1.8 font made with a combination of font bureau's python standard-based font tools and a Google font tool requiring two or more font styles with compatible contours, and meta-data concerning the relationship of the font styles that forms two or more styles into a style axis. The font produced is a Variation font, containing a default font, and the cumulative styles designed to be interpolated between default, and among and the styles of the axis.
 
-###Design
+### Design
 Amstelvar is a serif typeface design with references to oldstyle and modern typeface designs and so is apt for uses requiring such a style. Variation technology adds adeptness to the design for use at many sizes, with variety of weights, and widths at any size, as well as grades (a change of weight without change to width), another variety via a contrast axis, E.g. control over the difference between horizontal and vertical strokes and finally for all the glyphs, an axis to flatten the serif rise, changing the style from old style to slab serif. For the lowercase and selected glyphs with relation to the lowercase height, there is also an x-height axis.
 
-###Specification notes
+### Specification notes
 The design is produced on a 2000 unit per em grid, in quadratic Bézier curves and contains overlapping contours. The "Alpha" tag is indicative of the lack of a substantial glyph repertoire, currently only contains ASCII, as well as lacking any glyph positioning, glyph substitution, or conforms to the entire new open type 1.8 specification. This includes new tables of great importance including the stat table.
 
-##II. The axis of AmstelvarAlpha
+## II. The axis of AmstelvarAlpha
 
-###Overview
+### Overview
 
 The 5 axis are a combination of "registered" and unregistered axis that either contain one or two styles in addition to the default, or regular style, in forming their axes. The regular style itself is designed as a 12 point size master, "medium" weight, and wide, with low contrast for this style of type, as is apt for the size master. The axis are given unit per em values for the parametric change embodied in that axis, as is representable by one value, along with the required, -1, 0, +1 for UI presentation. 
 
-###The Axes
+### The Axes
 
 1. A normal weight axis, or the progress of weights in a traditional font family don't have a single definition for the way their parameters are  manipulated from regular to black or regular to thin, but the general definition of the weights of a typeface is they are changing how heavy or light the style is, without changing its apparent width, x-height or the angles of it strokes.
 
@@ -48,7 +48,7 @@ The 5 axis are a combination of "registered" and unregistered axis that either c
 
  -1 has a serif rise of zero units and the default is a rise of 35/2000. 
 
-###Design space, User Space, and the combinatorial explosion of deltas.
+### Design space, User Space, and the combinatorial explosion of deltas.
 
 1. The eight styles currently creating the Variation font’s design space encompasses a large number of combinations of the 5 axes. The delta values of the main axes, weight, width and contrast, cover quite large ranges for each of those parameters respectively. So the design space of Amstelvar is quite large compared to what most font families contain stylistically, and… 
 
