@@ -1,56 +1,85 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ttFont sfntVersion="\x00\x01\x00\x00" ttLibVersion="3.0">
-
-<STAT>
-    <Version value="0x00010000"/>
-    <DesignAxisRecordSize value="9"/>
+  <STAT>
+    <Version value="0x00010001"/>
+    <DesignAxisRecordSize value="8"/>
+    <!-- DesignAxisCount=15 -->
     <DesignAxisRecord>
       <Axis index="0">
-        <AxisTag value="opsz"/>
-        <AxisNameID value="258"/>
+        <AxisTag value="wght"/>
+        <AxisNameID value="256"/>  <!-- Weight -->
         <AxisOrdering value="0"/>
       </Axis>
       <Axis index="1">
-        <AxisTag value="wght"/>
-        <AxisNameID value="263"/>
+        <AxisTag value="wdth"/>
+        <AxisNameID value="257"/>  <!-- Width -->
         <AxisOrdering value="1"/>
       </Axis>
       <Axis index="2">
-        <AxisTag value="grad"/>
-        <AxisNameID value="257"/>
-        <AxisOrdering value="8"/>
-      </Axis>
-      <Axis index="3">
-        <AxisTag value="prwg"/>
-        <AxisNameID value="260"/>
-        <AxisOrdering value="4"/>
-      </Axis>
-      <Axis index="4">
-        <AxisTag value="cntr"/>
-        <AxisNameID value="256"/>
-        <AxisOrdering value="3"/>
-      </Axis>
-      <Axis index="5">
-        <AxisTag value="wdth"/>
-        <AxisNameID value="262"/>
+        <AxisTag value="opsz"/>
+        <AxisNameID value="258"/>  <!-- Optical Size -->
         <AxisOrdering value="2"/>
       </Axis>
+      <Axis index="3">
+        <AxisTag value="XOPQ"/>
+        <AxisNameID value="259"/>  <!-- x opaque -->
+        <AxisOrdering value="3"/>
+      </Axis>
+      <Axis index="4">
+        <AxisTag value="XTRA"/>
+        <AxisNameID value="260"/>  <!-- x transparent -->
+        <AxisOrdering value="4"/>
+      </Axis>
+      <Axis index="5">
+        <AxisTag value="YOPQ"/>
+        <AxisNameID value="261"/>  <!-- y opaque -->
+        <AxisOrdering value="5"/>
+      </Axis>
       <Axis index="6">
-        <AxisTag value="srfr"/>
-        <AxisNameID value="261"/>
+        <AxisTag value="YTLC"/>
+        <AxisNameID value="262"/>  <!-- lc y transparent -->
         <AxisOrdering value="6"/>
       </Axis>
       <Axis index="7">
-        <AxisTag value="xhgt"/>
-        <AxisNameID value="264"/>
+        <AxisTag value="YTSE"/>
+        <AxisNameID value="263"/>  <!-- Serif height -->
         <AxisOrdering value="7"/>
       </Axis>
       <Axis index="8">
-        <AxisTag value="prwd"/>
-        <AxisNameID value="259"/>
-        <AxisOrdering value="5"/>
+        <AxisTag value="GRAD"/>
+        <AxisNameID value="264"/>  <!-- Grade -->
+        <AxisOrdering value="8"/>
+      </Axis>
+      <Axis index="9">
+        <AxisTag value="XTCH"/>
+        <AxisNameID value="265"/>  <!-- x transparent Chinese -->
+        <AxisOrdering value="9"/>
+      </Axis>
+      <Axis index="10">
+        <AxisTag value="YTCH"/>
+        <AxisNameID value="266"/>  <!-- y transparent Chinese -->
+        <AxisOrdering value="10"/>
+      </Axis>
+      <Axis index="11">
+        <AxisTag value="YTAS"/>
+        <AxisNameID value="267"/>  <!-- y transparent ascender -->
+        <AxisOrdering value="11"/>
+      </Axis>
+      <Axis index="12">
+        <AxisTag value="YTDE"/>
+        <AxisNameID value="268"/>  <!-- y transparent descender -->
+        <AxisOrdering value="12"/>
+      </Axis>
+      <Axis index="13">
+        <AxisTag value="YTUC"/>
+        <AxisNameID value="269"/>  <!-- y transparent uppercase -->
+        <AxisOrdering value="13"/>
+      </Axis>
+      <Axis index="14">
+        <AxisTag value="YTRA"/>
+        <AxisNameID value="270"/>  <!-- y transparent -->
+        <AxisOrdering value="14"/>
       </Axis>
     </DesignAxisRecord>
+    <!-- AxisValueCount=0 -->
+    <ElidedFallbackNameID value="2"/>  <!-- Regular -->
 
   </STAT>
-</ttFont>
