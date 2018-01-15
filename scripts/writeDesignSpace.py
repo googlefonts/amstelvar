@@ -5,12 +5,15 @@ designSpacePath = "AmstelvarAlpha.designspace"
 familyName = "AmstelvarAlpha"
 
 sources = [
-	dict(path="master_ufo/AmstelvarAlpha-Default.ufo", name="AmstelvarAlpha-Default.ufo", location=dict(weight=400, width=100, opticalsize=14, xopaque=88, xtransparent=402, yopaque=50, lcytransparent=500, serifheight=18, grade=88, xtransch=1000, ytransch=1000, ytransas=750, ytransde=250, ytransuc=750, ytransparent=1000), styleName="Default", familyName=familyName, copyInfo=True),
+	dict(path="master_ufo/AmstelvarAlpha-Default.ufo", name="AmstelvarAlpha-Default.ufo", location=dict(weight=400, width=100, opticalsize=14, xopaque=88, xtransparent=402, yopaque=50, lcytransparent=500, serifheight=18, grade=88, xtransch=1000, ytransch=1000, ytransas=750, ytransde=250, ytransuc=750, ytransparent=1000, paraweight=88, parawidth=402), styleName="Default", familyName=familyName, copyInfo=True),
 	# registered
 	dict(path="master_ufo/AmstelvarAlpha-wght-min.ufo", name="AmstelvarAlpha-wght-min.ufo", location=dict(weight=100), styleName="wght-min", familyName=familyName, copyInfo=False),
 	dict(path="master_ufo/AmstelvarAlpha-wght-max.ufo", name="AmstelvarAlpha-wght-max.ufo", location=dict(weight=900), styleName="wght-max", familyName=familyName, copyInfo=False),
-
+	dict(path="master_ufo/AmstelvarAlpha-wght-min.ufo", name="AmstelvarAlpha-wght-min.ufo", location=dict(paraweight=38), styleName="wght-min", familyName=familyName, copyInfo=False),
+	dict(path="master_ufo/AmstelvarAlpha-wght-max.ufo", name="AmstelvarAlpha-wght-max.ufo", location=dict(paraweight=250), styleName="wght-max", familyName=familyName, copyInfo=False),
+	
 	dict(path="master_ufo/AmstelvarAlpha-wdth-min.ufo", name="AmstelvarAlpha-wdth-min.ufo", location=dict(width=35), styleName="wdth-min", familyName=familyName, copyInfo=False),
+	dict(path="master_ufo/AmstelvarAlpha-wdth-min.ufo", name="AmstelvarAlpha-wdth-min.ufo", location=dict(parawidth=60), styleName="wdth-min", familyName=familyName, copyInfo=False),
 	##dict(path="master_ufo/AmstelvarAlpha-wdth-151.ufo", name="AmstelvarAlpha-wdth-151.ufo", location=dict(width=151.999), styleName="wdth-151", familyName=familyName, copyInfo=False),
 	##dict(path="master_ufo/AmstelvarAlpha-wdth-152.ufo", name="AmstelvarAlpha-wdth-152.ufo", location=dict(width=152), styleName="wdth-152", familyName=familyName, copyInfo=False),
 
@@ -68,6 +71,8 @@ axes = [
 	dict(minimum=150, maximum=350, default=250, name="ytransde", tag="YTDE", labelNames={"en": "y transparent descender"}, map=[]),
 	dict(minimum=650, maximum=950, default=750, name="ytransuc", tag="YTUC", labelNames={"en": "y transparent uppercase"}, map=[]),
 	dict(minimum=800, maximum=1200, default=1000, name="ytransparent", tag="YTRA", labelNames={"en": "y transparent"}, map=[]),
+	dict(minimum=38, maximum=250, default=88, name="paraweight", tag="PWGT", labelNames={"en": "Para Weight"}, map=[]),
+	dict(minimum=60, maximum=402, default=402, name="parawidth", tag="PWDT", labelNames={"en": "Para Width"}, map=[]),
 ]
 
 instances = [
