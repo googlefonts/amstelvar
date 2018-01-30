@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<designspace format="3">
+    <axes>
+        <axis default="0" maximum="1" minimum="0" name="opsz" tag="opsz">
+            <labelname xml:lang="en">Optical Size</labelname>
+        </axis>
+    </axes>
+    <sources>
+        <source familyname="Amstelvar" filename="Roman/Amstelvar.ufo" name="Amstelvar.ufo" stylename="Default">
+            <info copy="1" />
+            <location>
+                <dimension name="opsz" xvalue="0" />
+            </location>
+        </source>
+        <source familyname="Amstelvar" filename="Roman/Amstelvar-opszmax.ufo" name="Amstelvar-opszmax.ufo" stylename="opszmax">
+            <location>
+                <dimension name="opsz" xvalue="1" />
+            </location>
+        </source>
+    </sources>
+</designspace>
