@@ -2,6 +2,7 @@
 
 Roman + Italic 2.0 (Fonts)
 Latin Plus (600)
+https://github.com/TypeNetwork/Amstelvar/blob/master/Character%20Set
 
 **Schedule**
 
