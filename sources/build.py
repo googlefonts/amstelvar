@@ -4,7 +4,7 @@ from fontTools.varLib import build
 # Roman
 
 romans = [
-	"Roman/Amstelvar.ufo",
+	"Roman/Amstelvar-Roman.ufo",
 	"Roman/Amstelvar-opszmax.ufo",
 ]
 
@@ -17,7 +17,7 @@ project.run_from_ufos(
 	use_production_names=False)
 
 designSpace = "Amstelvar-Roman.designspace"
-outfile = "../fonts/Amstelvar-VF.ttf"
+outfile = "../fonts/Amstelvar-Roman-VF.ttf"
 finder = lambda s: s.replace("Roman/", "master_ttf_interpolatable/").replace(".ufo", ".ttf")
 varfont, _, _ = build(designSpace, finder)
 print "Saving Variable Font..."
@@ -28,7 +28,7 @@ print "DONE!"
 
 italics = [
 	"Italic/Amstelvar-Italic.ufo",
-	"Italic/Amstelvar-Italic-opszmax.ufo",
+	"Italic/Amstelvar-ital-opszmax.ufo",
 ]
 
 project = FontProject()

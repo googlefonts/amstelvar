@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="brevecomb_acutecomb" format="1">
+  <advance width="0"/>
+  <outline>
+    <component base="brevecomb" yOffset="-50"/>
+    <component base="acutecomb" yOffset="300"/>
+    <contour>
+      <point x="0" y="1000" type="move" name="_top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.5</real>
+        <real>0.0</real>
+        <real>0.5</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>
