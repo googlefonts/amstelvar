@@ -1,16 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Lslash" format="1">
-  <advance width="500"/>
-  <unicode hex="0141"/>
+<glyph name="AEacute" format="1">
+  <advance width="1834"/>
+  <unicode hex="01FC"/>
   <outline>
+    <component base="AE"/>
+    <component base="acutecomb" xOffset="1200" yOffset="500"/>
   </outline>
   <lib>
     <dict>
       <key>com.typemytype.robofont.mark</key>
       <array>
-        <real>1.0</real>
-        <real>1.0</real>
         <real>0.0</real>
+        <real>1.0</real>
+        <real>1.0</real>
         <real>1.0</real>
       </array>
     </dict>

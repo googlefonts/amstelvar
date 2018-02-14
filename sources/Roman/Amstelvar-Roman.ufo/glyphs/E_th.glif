@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Hbar" format="1">
-  <advance width="500"/>
-  <unicode hex="0126"/>
+<glyph name="Eth" format="1">
+  <advance width="1590"/>
+  <unicode hex="00D0"/>
   <outline>
+    <component base="D"/>
+    <component base="horizontalbar" xOffset="145"/>
   </outline>
   <lib>
     <dict>
