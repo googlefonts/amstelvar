@@ -48,5 +48,32 @@
       <point x="-148" y="-464"/>
       <point x="-258" y="-361"/>
     </contour>
+    <contour>
+      <point x="600" y="1000" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="720" y="0" type="move" name="bottom"/>
+    </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.guides</key>
+      <array>
+        <dict>
+          <key>angle</key>
+          <real>79.0</real>
+          <key>isGlobal</key>
+          <false/>
+          <key>magnetic</key>
+          <integer>5</integer>
+          <key>name</key>
+          <string></string>
+          <key>x</key>
+          <integer>600</integer>
+          <key>y</key>
+          <integer>1000</integer>
+        </dict>
+      </array>
+    </dict>
+  </lib>
 </glyph>

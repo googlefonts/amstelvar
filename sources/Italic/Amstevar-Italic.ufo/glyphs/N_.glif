@@ -1,35 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="N" format="1">
-  <advance width="1457"/>
+  <advance width="1431.5888915351222"/>
   <unicode hex="004E"/>
   <outline>
     <contour>
-      <point x="-60" y="0" type="line"/>
-      <point x="-51" y="100" type="line"/>
-      <point x="145" y="125" type="line"/>
-      <point x="268" y="754" type="line"/>
-      <point x="382" y="1362" type="line"/>
-      <point x="199" y="1386" type="line"/>
-      <point x="212" y="1500" type="line"/>
-      <point x="609" y="1500" type="line"/>
-      <point x="835" y="820" type="line"/>
-      <point x="1013" y="306" type="line"/>
-      <point x="1103" y="754" type="line"/>
-      <point x="1218" y="1362" type="line"/>
-      <point x="1017" y="1386" type="line"/>
-      <point x="1033" y="1500" type="line"/>
-      <point x="1537" y="1500" type="line"/>
-      <point x="1521" y="1386" type="line"/>
-      <point x="1327" y="1362" type="line"/>
-      <point x="1209" y="754" type="line"/>
-      <point x="1058" y="0" type="line"/>
-      <point x="947" y="0" type="line"/>
-      <point x="695" y="748" type="line"/>
-      <point x="483" y="1328" type="line"/>
-      <point x="373" y="754" type="line"/>
-      <point x="254" y="125" type="line"/>
-      <point x="445" y="100" type="line"/>
-      <point x="436" y="0" type="line"/>
+      <point x="-30" y="0" type="line"/>
+      <point x="-21" y="100" type="line"/>
+      <point x="175" y="125" type="line"/>
+      <point x="298" y="754" type="line"/>
+      <point x="412" y="1362" type="line"/>
+      <point x="229" y="1386" type="line"/>
+      <point x="242" y="1500" type="line"/>
+      <point x="639" y="1500" type="line"/>
+      <point x="865" y="820" type="line"/>
+      <point x="1043" y="306" type="line"/>
+      <point x="1133" y="754" type="line"/>
+      <point x="1248" y="1362" type="line"/>
+      <point x="1047" y="1386" type="line"/>
+      <point x="1063" y="1500" type="line"/>
+      <point x="1567" y="1500" type="line"/>
+      <point x="1551" y="1386" type="line"/>
+      <point x="1357" y="1362" type="line"/>
+      <point x="1239" y="754" type="line"/>
+      <point x="1088" y="0" type="line"/>
+      <point x="977" y="0" type="line"/>
+      <point x="725" y="748" type="line"/>
+      <point x="513" y="1328" type="line"/>
+      <point x="403" y="754" type="line"/>
+      <point x="284" y="125" type="line"/>
+      <point x="475" y="100" type="line"/>
+      <point x="466" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="890.0" y="1500.0" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="600.0" y="0.0" type="move" name="bottom"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.guides</key>
+      <array>
+        <dict>
+          <key>angle</key>
+          <real>79.0</real>
+          <key>isGlobal</key>
+          <false/>
+          <key>magnetic</key>
+          <integer>5</integer>
+          <key>name</key>
+          <string></string>
+          <key>x</key>
+          <integer>860</integer>
+          <key>y</key>
+          <integer>1500</integer>
+        </dict>
+      </array>
+    </dict>
+  </lib>
 </glyph>

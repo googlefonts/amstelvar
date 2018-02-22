@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="jdotless" format="1">
-  <advance width="561"/>
+  <advance width="545"/>
   <unicode hex="0237"/>
   <outline>
     <contour>
@@ -36,6 +36,9 @@
       <point x="-130" y="-464" type="qcurve" smooth="yes"/>
       <point x="-228" y="-464"/>
       <point x="-327" y="-371"/>
+    </contour>
+    <contour>
+      <point x="298" y="1000" type="move" name="top"/>
     </contour>
   </outline>
 </glyph>

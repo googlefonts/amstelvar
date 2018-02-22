@@ -35,11 +35,14 @@
       <point x="810" y="1500" type="move" name="top"/>
     </contour>
     <contour>
-      <point x="800" y="0" type="move" name="bottom"/>
+      <point x="810" y="0" type="move" name="bottom"/>
     </contour>
   </outline>
   <lib>
     <dict>
+      <key>com.typemytype.robofont.guides</key>
+      <array>
+      </array>
       <key>com.typemytype.robofont.layerData</key>
       <dict>
         <key>background</key>
