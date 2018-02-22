@@ -5,7 +5,7 @@ from fontTools.varLib import build
 
 romans = [
 	"Roman/Amstelvar-Roman.ufo",
-	"Roman/Amstelvar-opszmax.ufo",
+#	"Roman/Amstelvar-opszmax.ufo",
 ]
 
 project = FontProject()
@@ -28,7 +28,7 @@ print "DONE!"
 
 italics = [
 	"Italic/Amstelvar-Italic.ufo",
-	"Italic/Amstelvar-ital-opszmax.ufo",
+#	"Italic/Amstelvar-ital-opszmax.ufo",
 ]
 
 project = FontProject()
