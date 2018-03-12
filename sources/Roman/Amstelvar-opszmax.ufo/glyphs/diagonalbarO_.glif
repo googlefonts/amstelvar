@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="diagonalbarO" format="1">
+  <advance width="623"/>
+  <outline>
+    <contour>
+      <point x="78" y="-127" type="line"/>
+      <point x="124" y="62" type="line"/>
+      <point x="124" y="62" type="line"/>
+      <point x="307" y="812" type="line"/>
+      <point x="342" y="801" type="line"/>
+      <point x="160" y="54" type="line"/>
+      <point x="160" y="54" type="line"/>
+      <point x="116" y="-127" type="line"/>
+    </contour>
+    <contour>
+      <point x="504" y="1618" type="line"/>
+      <point x="541" y="1618" type="line"/>
+      <point x="500" y="1451" type="line"/>
+      <point x="500" y="1451" type="line"/>
+      <point x="342" y="801" type="line"/>
+      <point x="307" y="812" type="line"/>
+      <point x="465" y="1460" type="line"/>
+      <point x="465" y="1460" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.layerData</key>
+      <dict>
+        <key>background</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+          </array>
+          <key>components</key>
+          <array>
+          </array>
+          <key>contours</key>
+          <array>
+            <dict>
+              <key>points</key>
+              <array>
+                <dict>
+                  <key>segmentType</key>
+                  <string>line</string>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <integer>78</integer>
+                  <key>y</key>
+                  <integer>-127</integer>
+                </dict>
+                <dict>
+                  <key>segmentType</key>
+                  <string>line</string>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <integer>116</integer>
+                  <key>y</key>
+                  <integer>-127</integer>
+                </dict>
+                <dict>
+                  <key>segmentType</key>
+                  <string>line</string>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <integer>541</integer>
+                  <key>y</key>
+                  <integer>1618</integer>
+                </dict>
+                <dict>
+                  <key>segmentType</key>
+                  <string>line</string>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <integer>504</integer>
+                  <key>y</key>
+                  <integer>1618</integer>
+                </dict>
+              </array>
+            </dict>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>diagonalbarO</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>623</integer>
+        </dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

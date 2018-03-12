@@ -2,6 +2,13 @@
 <!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>com.typemytype.robofont.backgroud.layerStrokeColor</key>
+	<array>
+		<real>0.5</real>
+		<real>1.0</real>
+		<real>0.0</real>
+		<real>0.7</real>
+	</array>
 	<key>com.typemytype.robofont.background.layerStrokeColor</key>
 	<array>
 		<real>0.8</real>
@@ -34,6 +41,7 @@
 	<array>
 		<string>background</string>
 		<string>original</string>
+		<string>backgroud</string>
 	</array>
 	<key>com.typemytype.robofont.original.layerStrokeColor</key>
 	<array>
@@ -684,8 +692,6 @@
 			<string>glyphList</string>
 		</dict>
 	</array>
-	<key>com.typemytype.robofont.templateCharacterSet</key>
-	<string>GF-Latin-Plus</string>
 	<key>fbCurvePalet</key>
 	<dict>
 		<key>sliderBottomMax</key>
@@ -1328,5 +1334,16 @@
 		<string>horizontalbarlc</string>
 		<string>horizontalbar</string>
 	</array>
+	<key>tnCurvePalet</key>
+	<dict>
+		<key>sliderBottomMax</key>
+		<integer>80</integer>
+		<key>sliderBottomMin</key>
+		<integer>30</integer>
+		<key>sliderTopMax</key>
+		<integer>80</integer>
+		<key>sliderTopMin</key>
+		<integer>30</integer>
+	</dict>
 </dict>
 </plist>
