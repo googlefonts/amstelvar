@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="c" format="1">
+  <advance width="994"/>
+  <unicode hex="0063"/>
+  <outline>
+    <contour>
+      <point x="41" y="543" type="qcurve" smooth="yes"/>
+      <point x="101" y="802"/>
+      <point x="456" y="1089"/>
+      <point x="663" y="1089" type="qcurve" smooth="yes"/>
+      <point x="800" y="1089"/>
+      <point x="958" y="941"/>
+      <point x="958" y="839" type="qcurve" smooth="yes"/>
+      <point x="958" y="759"/>
+      <point x="875" y="646"/>
+      <point x="794" y="617" type="qcurve"/>
+      <point x="761" y="650" type="line"/>
+      <point x="761" y="867" type="line" smooth="yes"/>
+      <point x="761" y="892"/>
+      <point x="703" y="933"/>
+      <point x="630" y="933" type="qcurve" smooth="yes"/>
+      <point x="503" y="933"/>
+      <point x="295" y="711"/>
+      <point x="250" y="507" type="qcurve" smooth="yes"/>
+      <point x="206" y="309"/>
+      <point x="303" y="112"/>
+      <point x="424" y="112" type="qcurve" smooth="yes"/>
+      <point x="554" y="112"/>
+      <point x="749" y="239"/>
+      <point x="818" y="339" type="qcurve"/>
+      <point x="912" y="256" type="line"/>
+      <point x="912" y="227" type="line"/>
+      <point x="826" y="104"/>
+      <point x="579" y="-41"/>
+      <point x="399" y="-41" type="qcurve" smooth="yes"/>
+      <point x="214" y="-41"/>
+      <point x="-20" y="278"/>
+    </contour>
+    <contour>
+      <point x="640.0" y="1000.0" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="440.0" y="0.0" type="move" name="bottom"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.guides</key>
+      <array>
+        <dict>
+          <key>angle</key>
+          <real>79.0</real>
+          <key>isGlobal</key>
+          <false/>
+          <key>magnetic</key>
+          <integer>5</integer>
+          <key>name</key>
+          <string></string>
+          <key>x</key>
+          <integer>450</integer>
+          <key>y</key>
+          <integer>0</integer>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>
