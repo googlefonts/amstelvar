@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dotbelow.uc" format="1">
+  <advance width="1024"/>
+  <outline>
+    <contour>
+      <point x="624" y="-301" type="qcurve" smooth="yes"/>
+      <point x="624" y="-237"/>
+      <point x="696" y="-160"/>
+      <point x="766" y="-160" type="qcurve" smooth="yes"/>
+      <point x="831" y="-160"/>
+      <point x="908" y="-239"/>
+      <point x="908" y="-301" type="qcurve" smooth="yes"/>
+      <point x="908" y="-364"/>
+      <point x="836" y="-438"/>
+      <point x="766" y="-438" type="qcurve" smooth="yes"/>
+      <point x="700" y="-438"/>
+      <point x="624" y="-361"/>
+    </contour>
+    <contour>
+      <point x="0.0" y="0.0" type="move" name="_bottom"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.0</real>
+        <real>1.0</real>
+        <real>0.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

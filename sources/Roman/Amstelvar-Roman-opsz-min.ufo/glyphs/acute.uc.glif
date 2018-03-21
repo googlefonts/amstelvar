@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="acute.uc" format="1">
+  <advance width="1024"/>
+  <outline>
+    <contour>
+      <point x="1008" y="1939" type="qcurve" smooth="yes"/>
+      <point x="1008" y="1892"/>
+      <point x="973" y="1846"/>
+      <point x="932" y="1817" type="qcurve" smooth="yes"/>
+      <point x="634" y="1605" type="line"/>
+      <point x="540" y="1711" type="line"/>
+      <point x="751" y="1938" type="line" smooth="yes"/>
+      <point x="788" y="1977"/>
+      <point x="859" y="2028"/>
+      <point x="896" y="2028" type="qcurve" smooth="yes"/>
+      <point x="945" y="2028"/>
+      <point x="1008" y="1974"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.0</real>
+        <real>1.0</real>
+        <real>0.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

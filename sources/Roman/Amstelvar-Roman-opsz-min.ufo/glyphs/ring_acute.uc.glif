@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ring_acute.uc" format="1">
+  <advance width="1024"/>
+  <outline>
+    <contour>
+      <point x="536" y="1785" type="qcurve" smooth="yes"/>
+      <point x="536" y="1882"/>
+      <point x="665" y="2007"/>
+      <point x="766" y="2007" type="qcurve" smooth="yes"/>
+      <point x="867" y="2007"/>
+      <point x="996" y="1882"/>
+      <point x="996" y="1785" type="qcurve" smooth="yes"/>
+      <point x="996" y="1688"/>
+      <point x="867" y="1563"/>
+      <point x="766" y="1563" type="qcurve" smooth="yes"/>
+      <point x="665" y="1563"/>
+      <point x="536" y="1688"/>
+    </contour>
+    <contour>
+      <point x="662" y="1785" type="qcurve" smooth="yes"/>
+      <point x="662" y="1739"/>
+      <point x="719" y="1680"/>
+      <point x="766" y="1680" type="qcurve" smooth="yes"/>
+      <point x="816" y="1680"/>
+      <point x="869" y="1735"/>
+      <point x="869" y="1785" type="qcurve" smooth="yes"/>
+      <point x="869" y="1831"/>
+      <point x="813" y="1890"/>
+      <point x="766" y="1890" type="qcurve" smooth="yes"/>
+      <point x="716" y="1890"/>
+      <point x="662" y="1835"/>
+    </contour>
+    <contour>
+      <point x="1023" y="2212" type="qcurve" smooth="yes"/>
+      <point x="1023" y="2168"/>
+      <point x="946" y="2124"/>
+      <point x="898" y="2113" type="qcurve" smooth="yes"/>
+      <point x="601" y="2048" type="line"/>
+      <point x="555" y="2170" type="line"/>
+      <point x="773" y="2276" type="line" smooth="yes"/>
+      <point x="819" y="2298"/>
+      <point x="869" y="2322"/>
+      <point x="917" y="2322" type="qcurve" smooth="yes"/>
+      <point x="966" y="2322"/>
+      <point x="1023" y="2255"/>
+    </contour>
+    <contour>
+      <point x="0.0" y="1000.0" type="move" name="_top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.layerData</key>
+      <dict>
+        <key>background</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+          </array>
+          <key>components</key>
+          <array>
+            <dict>
+              <key>baseGlyph</key>
+              <string>ringcomb</string>
+              <key>transformation</key>
+              <array>
+                <integer>1</integer>
+                <integer>0</integer>
+                <integer>0</integer>
+                <integer>1</integer>
+                <integer>0</integer>
+                <integer>0</integer>
+              </array>
+            </dict>
+            <dict>
+              <key>baseGlyph</key>
+              <string>acutecomb</string>
+              <key>transformation</key>
+              <array>
+                <integer>1</integer>
+                <integer>0</integer>
+                <integer>0</integer>
+                <integer>1</integer>
+                <integer>0</integer>
+                <integer>0</integer>
+              </array>
+            </dict>
+          </array>
+          <key>contours</key>
+          <array>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>ring_acute.uc</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>1024</integer>
+        </dict>
+      </dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.0</real>
+        <real>1.0</real>
+        <real>0.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

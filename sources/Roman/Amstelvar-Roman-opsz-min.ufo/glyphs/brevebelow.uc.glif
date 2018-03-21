@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="brevebelow.uc" format="1">
+  <advance width="1024"/>
+  <outline>
+    <contour>
+      <point x="1008" y="-100" type="qcurve"/>
+      <point x="1162" y="-153" type="line"/>
+      <point x="1139" y="-244"/>
+      <point x="922" y="-420"/>
+      <point x="773" y="-420" type="qcurve" smooth="yes"/>
+      <point x="614" y="-420"/>
+      <point x="398" y="-265"/>
+      <point x="370" y="-156" type="qcurve"/>
+      <point x="524" y="-99" type="line"/>
+      <point x="555" y="-145"/>
+      <point x="669" y="-240"/>
+      <point x="766" y="-240" type="qcurve" smooth="yes"/>
+      <point x="857" y="-240"/>
+      <point x="975" y="-152"/>
+    </contour>
+    <component base="brevecomb" yOffset="-1651"/>
+    <contour>
+      <point x="0.0" y="0.0" type="move" name="_bottom"/>
+    </contour>
+    <contour>
+      <point x="0.0" y="0.0" type="move" name="_bottom"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.0</real>
+        <real>1.0</real>
+        <real>0.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

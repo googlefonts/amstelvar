@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="caron.uc" format="1">
+  <advance width="1024"/>
+  <outline>
+    <contour>
+      <point x="766" y="1645" type="qcurve" smooth="yes"/>
+      <point x="732" y="1645"/>
+      <point x="640" y="1693"/>
+      <point x="606" y="1732" type="qcurve" smooth="yes"/>
+      <point x="413" y="1955" type="line"/>
+      <point x="531" y="2048" type="line"/>
+      <point x="766" y="1848" type="line"/>
+      <point x="1001" y="2048" type="line"/>
+      <point x="1119" y="1955" type="line"/>
+      <point x="926" y="1732" type="line" smooth="yes"/>
+      <point x="882" y="1681"/>
+      <point x="800" y="1645"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.0</real>
+        <real>1.0</real>
+        <real>0.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

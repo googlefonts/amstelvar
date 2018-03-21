@@ -434,6 +434,8 @@
 	<string>acircumflextilde.glif</string>
 	<key>acute</key>
 	<string>acute.glif</string>
+	<key>acute.uc</key>
+	<string>acute.uc.glif</string>
 	<key>adblgrave</key>
 	<string>adblgrave.glif</string>
 	<key>adieresis</key>
@@ -490,18 +492,32 @@
 	<string>bracketright.glif</string>
 	<key>breve</key>
 	<string>breve.glif</string>
+	<key>breve.uc</key>
+	<string>breve.uc.glif</string>
 	<key>breve_acute</key>
 	<string>breve_acute.glif</string>
+	<key>breve_acute.uc</key>
+	<string>breve_acute.uc.glif</string>
 	<key>breve_grave</key>
 	<string>breve_grave.glif</string>
+	<key>breve_grave.uc</key>
+	<string>breve_grave.uc.glif</string>
 	<key>breve_hookabove</key>
 	<string>breve_hookabove.glif</string>
+	<key>breve_hookabove.uc</key>
+	<string>breve_hookabove.uc.glif</string>
 	<key>breve_tilde</key>
 	<string>breve_tilde.glif</string>
+	<key>breve_tilde.uc</key>
+	<string>breve_tilde.uc.glif</string>
 	<key>brevebelow</key>
 	<string>brevebelow.glif</string>
+	<key>brevebelow.uc</key>
+	<string>brevebelow.uc.glif</string>
 	<key>breveinverted</key>
 	<string>breveinverted.glif</string>
+	<key>breveinverted.uc</key>
+	<string>breveinverted.uc.glif</string>
 	<key>brokenbar</key>
 	<string>brokenbar.glif</string>
 	<key>bullet</key>
@@ -516,6 +532,10 @@
 	<string>caron.glif</string>
 	<key>caron.alt</key>
 	<string>caron.alt.glif</string>
+	<key>caron.alt.uc</key>
+	<string>caron.alt.uc.glif</string>
+	<key>caron.uc</key>
+	<string>caron.uc.glif</string>
 	<key>ccaron</key>
 	<string>ccaron.glif</string>
 	<key>ccedilla</key>
@@ -528,18 +548,30 @@
 	<string>cedi.glif</string>
 	<key>cedilla</key>
 	<string>cedilla.glif</string>
+	<key>cedilla.uc</key>
+	<string>cedilla.uc.glif</string>
 	<key>cent</key>
 	<string>cent.glif</string>
 	<key>circumflex</key>
 	<string>circumflex.glif</string>
+	<key>circumflex.uc</key>
+	<string>circumflex.uc.glif</string>
 	<key>circumflex_acute</key>
 	<string>circumflex_acute.glif</string>
+	<key>circumflex_acute.uc</key>
+	<string>circumflex_acute.uc.glif</string>
 	<key>circumflex_grave</key>
 	<string>circumflex_grave.glif</string>
+	<key>circumflex_grave.uc</key>
+	<string>circumflex_grave.uc.glif</string>
 	<key>circumflex_hookabove</key>
 	<string>circumflex_hookabove.glif</string>
+	<key>circumflex_hookabove.uc</key>
+	<string>circumflex_hookabove.uc.glif</string>
 	<key>circumflex_tilde</key>
 	<string>circumflex_tilde.glif</string>
+	<key>circumflex_tilde.uc</key>
+	<string>circumflex_tilde.uc.glif</string>
 	<key>colon</key>
 	<string>colon.glif</string>
 	<key>colonsign</key>
@@ -548,8 +580,12 @@
 	<string>comma.glif</string>
 	<key>commaaccent</key>
 	<string>commaaccent.glif</string>
+	<key>commaaccent.uc</key>
+	<string>commaaccent.uc.glif</string>
 	<key>commaturnedabove</key>
 	<string>commaturnedabove.glif</string>
+	<key>commaturnedabove.uc</key>
+	<string>commaturnedabove.uc.glif</string>
 	<key>commercialMinusSign</key>
 	<string>commercialMinusSign_.glif</string>
 	<key>copyright</key>
@@ -564,6 +600,8 @@
 	<string>daggerdbl.glif</string>
 	<key>dblgrave</key>
 	<string>dblgrave.glif</string>
+	<key>dblgrave.uc</key>
+	<string>dblgrave.uc.glif</string>
 	<key>dcaron</key>
 	<string>dcaron.glif</string>
 	<key>dcroat</key>
@@ -578,8 +616,12 @@
 	<string>diagonalbaro.glif</string>
 	<key>dieresis</key>
 	<string>dieresis.glif</string>
+	<key>dieresis.uc</key>
+	<string>dieresis.uc.glif</string>
 	<key>dieresis_macron</key>
 	<string>dieresis_macron.glif</string>
+	<key>dieresis_macron.uc</key>
+	<string>dieresis_macron.uc.glif</string>
 	<key>divide</key>
 	<string>divide.glif</string>
 	<key>divisionslash</key>
@@ -590,10 +632,16 @@
 	<string>dong.glif</string>
 	<key>dotaccent</key>
 	<string>dotaccent.glif</string>
+	<key>dotaccent.uc</key>
+	<string>dotaccent.uc.glif</string>
 	<key>dotaccent_macron</key>
 	<string>dotaccent_macron.glif</string>
+	<key>dotaccent_macron.uc</key>
+	<string>dotaccent_macron.uc.glif</string>
 	<key>dotbelow</key>
 	<string>dotbelow.glif</string>
+	<key>dotbelow.uc</key>
+	<string>dotbelow.uc.glif</string>
 	<key>doubleprimemod</key>
 	<string>doubleprimemod.glif</string>
 	<key>dzcaron</key>
@@ -708,6 +756,8 @@
 	<string>germandbls.glif</string>
 	<key>grave</key>
 	<string>grave.glif</string>
+	<key>grave.uc</key>
+	<string>grave.uc.glif</string>
 	<key>greater</key>
 	<string>greater.glif</string>
 	<key>greaterequal</key>
@@ -730,6 +780,8 @@
 	<string>hcircumflex.glif</string>
 	<key>hookabove</key>
 	<string>hookabove.glif</string>
+	<key>hookabove.uc</key>
+	<string>hookabove.uc.glif</string>
 	<key>horizontalbar</key>
 	<string>horizontalbar.glif</string>
 	<key>horizontalbarH</key>
@@ -738,12 +790,16 @@
 	<string>horizontalbarlc.glif</string>
 	<key>horn</key>
 	<string>horn.glif</string>
+	<key>horn.uc</key>
+	<string>horn.uc.glif</string>
 	<key>hornU</key>
 	<string>hornU_.glif</string>
 	<key>hornu</key>
 	<string>hornu.glif</string>
 	<key>hungarumlaut</key>
 	<string>hungarumlaut.glif</string>
+	<key>hungarumlaut.uc</key>
+	<string>hungarumlaut.uc.glif</string>
 	<key>hyphen</key>
 	<string>hyphen.glif</string>
 	<key>hyphentwo</key>
@@ -822,8 +878,12 @@
 	<string>m.glif</string>
 	<key>macron</key>
 	<string>macron.glif</string>
+	<key>macron.uc</key>
+	<string>macron.uc.glif</string>
 	<key>macronbelow</key>
 	<string>macronbelow.glif</string>
+	<key>macronbelow.uc</key>
+	<string>macronbelow.uc.glif</string>
 	<key>manat</key>
 	<string>manat.glif</string>
 	<key>micro</key>
@@ -892,6 +952,8 @@
 	<string>oe.glif</string>
 	<key>ogonek</key>
 	<string>ogonek.glif</string>
+	<key>ogonek.uc</key>
+	<string>ogonek.uc.glif</string>
 	<key>ograve</key>
 	<string>ograve.glif</string>
 	<key>ohookabove</key>
@@ -1002,8 +1064,12 @@
 	<string>rightanglebracket.glif</string>
 	<key>ring</key>
 	<string>ring.glif</string>
+	<key>ring.uc</key>
+	<string>ring.uc.glif</string>
 	<key>ring_acute</key>
 	<string>ring_acute.glif</string>
+	<key>ring_acute.uc</key>
+	<string>ring_acute.uc.glif</string>
 	<key>rinvertedbreve</key>
 	<string>rinvertedbreve.glif</string>
 	<key>ruble</key>
@@ -1070,8 +1136,12 @@
 	<string>threesuperior.glif</string>
 	<key>tilde</key>
 	<string>tilde.glif</string>
+	<key>tilde.uc</key>
+	<string>tilde.uc.glif</string>
 	<key>tilde_macron</key>
 	<string>tilde_macron.glif</string>
+	<key>tilde_macron.uc</key>
+	<string>tilde_macron.uc.glif</string>
 	<key>trademark</key>
 	<string>trademark.glif</string>
 	<key>two</key>

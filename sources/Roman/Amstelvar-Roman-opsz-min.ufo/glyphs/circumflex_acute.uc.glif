@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="circumflex_acute.uc" format="1">
+  <advance width="1024"/>
+  <outline>
+    <contour>
+      <point x="766" y="1967" type="qcurve" smooth="yes"/>
+      <point x="800" y="1967"/>
+      <point x="881" y="1919"/>
+      <point x="916" y="1880" type="qcurve" smooth="yes"/>
+      <point x="1099" y="1677" type="line"/>
+      <point x="1001" y="1584" type="line"/>
+      <point x="766" y="1784" type="line"/>
+      <point x="531" y="1584" type="line"/>
+      <point x="433" y="1677" type="line"/>
+      <point x="616" y="1880" type="line" smooth="yes"/>
+      <point x="661" y="1930"/>
+      <point x="732" y="1967"/>
+    </contour>
+    <contour>
+      <point x="1021" y="2205" type="qcurve" smooth="yes"/>
+      <point x="1009" y="2159"/>
+      <point x="964" y="2121"/>
+      <point x="916" y="2106" type="qcurve" smooth="yes"/>
+      <point x="570" y="2000" type="line"/>
+      <point x="510" y="2115" type="line"/>
+      <point x="777" y="2260" type="line" smooth="yes"/>
+      <point x="823" y="2285"/>
+      <point x="904" y="2319"/>
+      <point x="940" y="2310" type="qcurve" smooth="yes"/>
+      <point x="987" y="2297"/>
+      <point x="1030" y="2239"/>
+    </contour>
+    <contour>
+      <point x="0.0" y="1000.0" type="move" name="_top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.layerData</key>
+      <dict>
+        <key>background</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+          </array>
+          <key>components</key>
+          <array>
+            <dict>
+              <key>baseGlyph</key>
+              <string>circumflexcomb</string>
+              <key>transformation</key>
+              <array>
+                <integer>1</integer>
+                <integer>0</integer>
+                <integer>0</integer>
+                <integer>1</integer>
+                <integer>0</integer>
+                <integer>0</integer>
+              </array>
+            </dict>
+            <dict>
+              <key>baseGlyph</key>
+              <string>acutecomb</string>
+              <key>transformation</key>
+              <array>
+                <integer>1</integer>
+                <integer>0</integer>
+                <integer>0</integer>
+                <integer>1</integer>
+                <integer>0</integer>
+                <integer>0</integer>
+              </array>
+            </dict>
+          </array>
+          <key>contours</key>
+          <array>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>circumflex_acute.uc</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>1024</integer>
+        </dict>
+      </dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.0</real>
+        <real>1.0</real>
+        <real>0.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>
