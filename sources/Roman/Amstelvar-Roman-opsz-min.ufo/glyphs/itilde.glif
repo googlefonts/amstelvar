@@ -1,9 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="itilde" format="1">
-  <advance width="639"/>
-  <unicode hex="0129"/>
+  <advance width="683"/>
   <outline>
     <component base="idotless"/>
-    <component base="tildecomb" xOffset="325"/>
+    <component base="tilde" xOffset="-171"/>
   </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <integer>0</integer>
+        <integer>0</integer>
+        <integer>0</integer>
+        <real>0.5</real>
+      </array>
+    </dict>
+  </lib>
 </glyph>

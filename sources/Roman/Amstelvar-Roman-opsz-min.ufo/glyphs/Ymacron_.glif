@@ -1,9 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Ymacron" format="1">
-  <advance width="1266"/>
-  <unicode hex="0232"/>
+  <advance width="1327"/>
   <outline>
     <component base="Y"/>
-    <component base="macroncomb" xOffset="640" yOffset="500"/>
+    <component base="macron.uc" xOffset="151"/>
   </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <integer>0</integer>
+        <integer>0</integer>
+        <integer>0</integer>
+        <real>0.5</real>
+      </array>
+    </dict>
+  </lib>
 </glyph>

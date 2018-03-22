@@ -1,9 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="odotaccentmacron" format="1">
-  <advance width="1168"/>
-  <unicode hex="0231"/>
+  <advance width="1256"/>
   <outline>
     <component base="o"/>
-    <component base="dotaccent_macron" xOffset="580.0"/>
+    <component base="dotaccent_macron" xOffset="116"/>
   </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <integer>0</integer>
+        <integer>0</integer>
+        <integer>0</integer>
+        <real>0.5</real>
+      </array>
+    </dict>
+  </lib>
 </glyph>

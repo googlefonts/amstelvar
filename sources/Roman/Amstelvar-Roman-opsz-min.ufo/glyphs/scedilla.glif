@@ -1,9 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="scedilla" format="1">
-  <advance width="872"/>
-  <unicode hex="015F"/>
+  <advance width="922"/>
   <outline>
     <component base="s"/>
-    <component base="cedillacomb" xOffset="440"/>
+    <component base="cedilla" xOffset="-51"/>
   </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <integer>0</integer>
+        <integer>0</integer>
+        <integer>0</integer>
+        <real>0.5</real>
+      </array>
+    </dict>
+  </lib>
 </glyph>

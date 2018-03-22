@@ -1,9 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="zacute" format="1">
-  <advance width="885"/>
-  <unicode hex="017A"/>
+  <advance width="938"/>
   <outline>
     <component base="z"/>
-    <component base="acutecomb" xOffset="440"/>
+    <component base="acute" xOffset="-43"/>
   </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <integer>0</integer>
+        <integer>0</integer>
+        <integer>0</integer>
+        <real>0.5</real>
+      </array>
+    </dict>
+  </lib>
 </glyph>

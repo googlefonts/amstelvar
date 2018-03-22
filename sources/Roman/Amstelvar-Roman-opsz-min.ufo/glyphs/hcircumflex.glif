@@ -1,9 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="hcircumflex" format="1">
-  <advance width="1258"/>
-  <unicode hex="0125"/>
+  <advance width="1346"/>
   <outline>
     <component base="h"/>
-    <component base="circumflexcomb" xOffset="300" yOffset="500"/>
+    <component base="circumflex" xOffset="161"/>
   </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <integer>0</integer>
+        <integer>0</integer>
+        <integer>0</integer>
+        <real>0.5</real>
+      </array>
+    </dict>
+  </lib>
 </glyph>

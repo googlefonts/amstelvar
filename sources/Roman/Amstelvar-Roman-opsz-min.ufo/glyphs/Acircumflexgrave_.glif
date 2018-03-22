@@ -1,9 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Acircumflexgrave" format="1">
-  <advance width="1506"/>
-  <unicode hex="1EA6"/>
+  <advance width="1571"/>
   <outline>
     <component base="A"/>
-    <component base="circumflex_grave" xOffset="750" yOffset="500"/>
+    <component base="circumflex_grave.uc" xOffset="273"/>
   </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <integer>0</integer>
+        <integer>0</integer>
+        <integer>0</integer>
+        <real>0.5</real>
+      </array>
+    </dict>
+  </lib>
 </glyph>

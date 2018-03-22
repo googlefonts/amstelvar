@@ -1,9 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Ocircumflextilde" format="1">
-  <advance width="1664"/>
-  <unicode hex="1ED6"/>
+  <advance width="1760"/>
   <outline>
     <component base="O"/>
-    <component base="circumflex_tilde" xOffset="830" yOffset="500"/>
+    <component base="circumflex_tilde.uc" xOffset="368"/>
   </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <integer>0</integer>
+        <integer>0</integer>
+        <integer>0</integer>
+        <real>0.5</real>
+      </array>
+    </dict>
+  </lib>
 </glyph>

@@ -1,10 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uhorndotbelow" format="1">
   <advance width="1444"/>
-  <unicode hex="1EF1"/>
   <outline>
     <component base="hornu"/>
-    <component base="horn" xOffset="1005.0"/>
-    <component base="dotbelow" xOffset="600.0"/>
+    <component base="horn" xOffset="210"/>
+    <component base="dotbelow" xOffset="210"/>
   </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <integer>0</integer>
+        <integer>0</integer>
+        <integer>0</integer>
+        <real>0.5</real>
+      </array>
+    </dict>
+  </lib>
 </glyph>

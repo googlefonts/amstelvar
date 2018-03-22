@@ -1,9 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uring" format="1">
-  <advance width="1244"/>
-  <unicode hex="016F"/>
+  <advance width="1332"/>
   <outline>
     <component base="u"/>
-    <component base="ringcomb" xOffset="600"/>
+    <component base="ring" xOffset="154"/>
   </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <integer>0</integer>
+        <integer>0</integer>
+        <integer>0</integer>
+        <real>0.5</real>
+      </array>
+    </dict>
+  </lib>
 </glyph>

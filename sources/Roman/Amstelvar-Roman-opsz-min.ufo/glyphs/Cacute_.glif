@@ -1,9 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Cacute" format="1">
-  <advance width="1446"/>
-  <unicode hex="0106"/>
+  <advance width="1494"/>
   <outline>
     <component base="C"/>
-    <component base="acutecomb" xOffset="830" yOffset="500"/>
+    <component base="acute.uc" xOffset="235"/>
   </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <integer>0</integer>
+        <integer>0</integer>
+        <integer>0</integer>
+        <real>0.5</real>
+      </array>
+    </dict>
+  </lib>
 </glyph>

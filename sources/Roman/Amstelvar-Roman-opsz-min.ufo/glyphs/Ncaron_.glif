@@ -1,9 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Ncaron" format="1">
-  <advance width="1610"/>
-  <unicode hex="0147"/>
+  <advance width="1658"/>
   <outline>
     <component base="N"/>
-    <component base="caroncomb" xOffset="810" yOffset="500"/>
+    <component base="caron.uc" xOffset="317"/>
   </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <integer>0</integer>
+        <integer>0</integer>
+        <integer>0</integer>
+        <real>0.5</real>
+      </array>
+    </dict>
+  </lib>
 </glyph>

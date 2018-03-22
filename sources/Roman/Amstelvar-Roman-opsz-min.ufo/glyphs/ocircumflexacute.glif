@@ -1,9 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ocircumflexacute" format="1">
-  <advance width="1168"/>
-  <unicode hex="1ED1"/>
+  <advance width="1256"/>
   <outline>
     <component base="o"/>
-    <component base="circumflex_acute" xOffset="580"/>
+    <component base="circumflex_acute" xOffset="116"/>
   </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <integer>0</integer>
+        <integer>0</integer>
+        <integer>0</integer>
+        <real>0.5</real>
+      </array>
+    </dict>
+  </lib>
 </glyph>

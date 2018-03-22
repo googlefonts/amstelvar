@@ -1,9 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="dcaron" format="1">
-  <advance width="1207"/>
-  <unicode hex="010F"/>
+  <advance width="1293"/>
   <outline>
     <component base="d"/>
-    <component base="caron.alt" xOffset="1207.0"/>
+    <component base="caron.alt" xOffset="134"/>
   </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <integer>0</integer>
+        <integer>0</integer>
+        <integer>0</integer>
+        <real>0.5</real>
+      </array>
+    </dict>
+  </lib>
 </glyph>
