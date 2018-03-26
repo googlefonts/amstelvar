@@ -1,6 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="circumflex_grave" format="1">
-  <advance width="500"/>
+  <advance width="896"/>
   <outline>
+    <contour>
+      <point x="512" y="1524" type="qcurve" smooth="yes"/>
+      <point x="546" y="1524"/>
+      <point x="627" y="1476"/>
+      <point x="662" y="1437" type="qcurve" smooth="yes"/>
+      <point x="845" y="1234" type="line"/>
+      <point x="747" y="1141" type="line"/>
+      <point x="512" y="1341" type="line"/>
+      <point x="277" y="1141" type="line"/>
+      <point x="179" y="1234" type="line"/>
+      <point x="362" y="1437" type="line" smooth="yes"/>
+      <point x="407" y="1487"/>
+      <point x="478" y="1524"/>
+    </contour>
+    <contour>
+      <point x="265" y="1762" type="qcurve" smooth="yes"/>
+      <point x="256" y="1796"/>
+      <point x="299" y="1854"/>
+      <point x="346" y="1867" type="qcurve" smooth="yes"/>
+      <point x="382" y="1876"/>
+      <point x="463" y="1842"/>
+      <point x="509" y="1817" type="qcurve" smooth="yes"/>
+      <point x="776" y="1672" type="line"/>
+      <point x="716" y="1557" type="line"/>
+      <point x="370" y="1663" type="line" smooth="yes"/>
+      <point x="322" y="1678"/>
+      <point x="277" y="1716"/>
+    </contour>
+    <contour>
+      <point x="0.0" y="1000.0" type="move" name="_top"/>
+    </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>1.0</real>
+        <real>1.0</real>
+        <real>0.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
 </glyph>
