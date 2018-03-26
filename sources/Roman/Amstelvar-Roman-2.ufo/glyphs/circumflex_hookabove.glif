@@ -2,8 +2,51 @@
 <glyph name="circumflex_hookabove" format="1">
   <advance width="0"/>
   <outline>
-    <component base="circumflex.uc" yOffset="-50"/>
-    <component base="hookabove.uc" xOffset="500" yOffset="-120"/>
+    <contour>
+      <point x="0" y="1481" type="qcurve" smooth="yes"/>
+      <point x="34" y="1481"/>
+      <point x="79" y="1450"/>
+      <point x="110" y="1408" type="qcurve" smooth="yes"/>
+      <point x="313" y="1165" type="line"/>
+      <point x="235" y="1092" type="line"/>
+      <point x="0" y="1307" type="line"/>
+      <point x="-235" y="1092" type="line"/>
+      <point x="-313" y="1165" type="line"/>
+      <point x="-110" y="1408" type="line" smooth="yes"/>
+      <point x="-69" y="1457"/>
+      <point x="-34" y="1481"/>
+    </contour>
+    <contour>
+      <point x="369" y="957" type="line"/>
+      <point x="369" y="1098" type="line"/>
+      <point x="437" y="1193" type="line"/>
+      <point x="453" y="1186"/>
+      <point x="503" y="1179"/>
+      <point x="524" y="1179" type="qcurve" smooth="yes"/>
+      <point x="576" y="1179"/>
+      <point x="620" y="1224"/>
+      <point x="620" y="1269" type="qcurve" smooth="yes"/>
+      <point x="620" y="1313"/>
+      <point x="549" y="1365"/>
+      <point x="505" y="1365" type="qcurve" smooth="yes"/>
+      <point x="441" y="1365"/>
+      <point x="322" y="1342"/>
+      <point x="284" y="1324" type="qcurve"/>
+      <point x="232" y="1433" type="line"/>
+      <point x="292" y="1468"/>
+      <point x="451" y="1489"/>
+      <point x="518" y="1489" type="qcurve" smooth="yes"/>
+      <point x="638" y="1489"/>
+      <point x="783" y="1375"/>
+      <point x="783" y="1270" type="qcurve" smooth="yes"/>
+      <point x="783" y="1178"/>
+      <point x="672" y="1062"/>
+      <point x="596" y="1062" type="qcurve" smooth="yes"/>
+      <point x="566" y="1062"/>
+      <point x="508" y="1071"/>
+      <point x="492" y="1075" type="qcurve"/>
+      <point x="492" y="957" type="line"/>
+    </contour>
     <contour>
       <point x="0" y="1000" type="move" name="_top"/>
     </contour>

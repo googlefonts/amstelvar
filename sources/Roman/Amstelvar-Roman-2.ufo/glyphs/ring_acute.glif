@@ -2,8 +2,48 @@
 <glyph name="ring_acute" format="1">
   <advance width="0"/>
   <outline>
-    <component base="ring.uc" yOffset="-50"/>
-    <component base="acute.uc" yOffset="400"/>
+    <contour>
+      <point x="-217" y="1312" type="qcurve" smooth="yes"/>
+      <point x="-217" y="1403"/>
+      <point x="-95" y="1520"/>
+      <point x="0" y="1520" type="qcurve" smooth="yes"/>
+      <point x="95" y="1520"/>
+      <point x="217" y="1403"/>
+      <point x="217" y="1312" type="qcurve" smooth="yes"/>
+      <point x="217" y="1221"/>
+      <point x="95" y="1104"/>
+      <point x="0" y="1104" type="qcurve" smooth="yes"/>
+      <point x="-95" y="1104"/>
+      <point x="-217" y="1221"/>
+    </contour>
+    <contour>
+      <point x="-103" y="1312" type="qcurve" smooth="yes"/>
+      <point x="-103" y="1266"/>
+      <point x="-47" y="1209"/>
+      <point x="0" y="1209" type="qcurve" smooth="yes"/>
+      <point x="50" y="1209"/>
+      <point x="103" y="1262"/>
+      <point x="103" y="1312" type="qcurve" smooth="yes"/>
+      <point x="103" y="1358"/>
+      <point x="47" y="1415"/>
+      <point x="0" y="1415" type="qcurve" smooth="yes"/>
+      <point x="-50" y="1415"/>
+      <point x="-103" y="1362"/>
+    </contour>
+    <contour>
+      <point x="235" y="1856" type="qcurve" smooth="yes"/>
+      <point x="235" y="1809"/>
+      <point x="195" y="1767"/>
+      <point x="154" y="1739" type="qcurve" smooth="yes"/>
+      <point x="-149" y="1532" type="line"/>
+      <point x="-223" y="1608" type="line"/>
+      <point x="-12" y="1835" type="line" smooth="yes"/>
+      <point x="23" y="1872"/>
+      <point x="103" y="1934"/>
+      <point x="140" y="1934" type="qcurve" smooth="yes"/>
+      <point x="174" y="1934"/>
+      <point x="235" y="1891"/>
+    </contour>
     <contour>
       <point x="0" y="1000" type="move" name="_top"/>
     </contour>

@@ -2,8 +2,26 @@
 <glyph name="dotaccent_macron" format="1">
   <advance width="0"/>
   <outline>
-    <component base="dotaccent.uc" yOffset="-50"/>
-    <component base="macron.uc" yOffset="278"/>
+    <contour>
+      <point x="-121" y="1282" type="qcurve" smooth="yes"/>
+      <point x="-121" y="1339"/>
+      <point x="-59" y="1400"/>
+      <point x="0" y="1400" type="qcurve" smooth="yes"/>
+      <point x="55" y="1400"/>
+      <point x="121" y="1335"/>
+      <point x="121" y="1282" type="qcurve" smooth="yes"/>
+      <point x="121" y="1225"/>
+      <point x="59" y="1164"/>
+      <point x="0" y="1164" type="qcurve" smooth="yes"/>
+      <point x="-55" y="1164"/>
+      <point x="-121" y="1229"/>
+    </contour>
+    <contour>
+      <point x="-296" y="1511" type="line"/>
+      <point x="-296" y="1648" type="line"/>
+      <point x="296" y="1648" type="line"/>
+      <point x="296" y="1511" type="line"/>
+    </contour>
     <contour>
       <point x="0.0" y="1000.0" type="move" name="_top"/>
     </contour>

@@ -2,8 +2,40 @@
 <glyph name="dieresis_macron" format="1">
   <advance width="0"/>
   <outline>
-    <component base="dieresis.uc" yOffset="-50"/>
-    <component base="macron.uc" yOffset="278"/>
+    <contour>
+      <point x="-346" y="1277" type="qcurve" smooth="yes"/>
+      <point x="-346" y="1332"/>
+      <point x="-286" y="1391"/>
+      <point x="-230" y="1391" type="qcurve" smooth="yes"/>
+      <point x="-177" y="1391"/>
+      <point x="-114" y="1328"/>
+      <point x="-114" y="1277" type="qcurve" smooth="yes"/>
+      <point x="-114" y="1223"/>
+      <point x="-173" y="1164"/>
+      <point x="-230" y="1164" type="qcurve" smooth="yes"/>
+      <point x="-283" y="1164"/>
+      <point x="-346" y="1226"/>
+    </contour>
+    <contour>
+      <point x="114" y="1277" type="qcurve" smooth="yes"/>
+      <point x="114" y="1332"/>
+      <point x="174" y="1391"/>
+      <point x="230" y="1391" type="qcurve" smooth="yes"/>
+      <point x="283" y="1391"/>
+      <point x="346" y="1328"/>
+      <point x="346" y="1277" type="qcurve" smooth="yes"/>
+      <point x="346" y="1223"/>
+      <point x="287" y="1164"/>
+      <point x="230" y="1164" type="qcurve" smooth="yes"/>
+      <point x="177" y="1164"/>
+      <point x="114" y="1226"/>
+    </contour>
+    <contour>
+      <point x="-296" y="1511" type="line"/>
+      <point x="-296" y="1648" type="line"/>
+      <point x="296" y="1648" type="line"/>
+      <point x="296" y="1511" type="line"/>
+    </contour>
     <contour>
       <point x="0.0" y="1000.0" type="move" name="_top"/>
     </contour>

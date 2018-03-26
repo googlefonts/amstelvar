@@ -2,8 +2,34 @@
 <glyph name="circumflex_acute" format="1">
   <advance width="0"/>
   <outline>
-    <component base="circumflex.uc" yOffset="-50"/>
-    <component base="acute.uc" yOffset="400"/>
+    <contour>
+      <point x="0" y="1481" type="qcurve" smooth="yes"/>
+      <point x="34" y="1481"/>
+      <point x="79" y="1450"/>
+      <point x="110" y="1408" type="qcurve" smooth="yes"/>
+      <point x="313" y="1165" type="line"/>
+      <point x="235" y="1092" type="line"/>
+      <point x="0" y="1307" type="line"/>
+      <point x="-235" y="1092" type="line"/>
+      <point x="-313" y="1165" type="line"/>
+      <point x="-110" y="1408" type="line" smooth="yes"/>
+      <point x="-69" y="1457"/>
+      <point x="-34" y="1481"/>
+    </contour>
+    <contour>
+      <point x="235" y="1856" type="qcurve" smooth="yes"/>
+      <point x="235" y="1809"/>
+      <point x="195" y="1767"/>
+      <point x="154" y="1739" type="qcurve" smooth="yes"/>
+      <point x="-149" y="1532" type="line"/>
+      <point x="-223" y="1608" type="line"/>
+      <point x="-12" y="1835" type="line" smooth="yes"/>
+      <point x="23" y="1872"/>
+      <point x="103" y="1934"/>
+      <point x="140" y="1934" type="qcurve" smooth="yes"/>
+      <point x="174" y="1934"/>
+      <point x="235" y="1891"/>
+    </contour>
     <contour>
       <point x="0" y="1000" type="move" name="_top"/>
     </contour>

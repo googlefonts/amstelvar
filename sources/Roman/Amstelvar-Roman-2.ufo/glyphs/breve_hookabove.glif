@@ -2,8 +2,53 @@
 <glyph name="breve_hookabove" format="1">
   <advance width="0"/>
   <outline>
-    <component base="breve.uc" yOffset="-50"/>
-    <component base="hookabove.uc" yOffset="300"/>
+    <contour>
+      <point x="276" y="1461" type="qcurve"/>
+      <point x="354" y="1408" type="line"/>
+      <point x="341" y="1315"/>
+      <point x="130" y="1141"/>
+      <point x="1" y="1141" type="qcurve" smooth="yes"/>
+      <point x="-128" y="1141"/>
+      <point x="-332" y="1295"/>
+      <point x="-354" y="1405" type="qcurve"/>
+      <point x="-272" y="1462" type="line"/>
+      <point x="-240" y="1405"/>
+      <point x="-95" y="1299"/>
+      <point x="2" y="1297" type="qcurve" smooth="yes"/>
+      <point x="102" y="1299"/>
+      <point x="249" y="1407"/>
+    </contour>
+    <contour>
+      <point x="-131" y="1377" type="line"/>
+      <point x="-131" y="1518" type="line"/>
+      <point x="-63" y="1613" type="line"/>
+      <point x="-47" y="1606"/>
+      <point x="3" y="1599"/>
+      <point x="24" y="1599" type="qcurve" smooth="yes"/>
+      <point x="76" y="1599"/>
+      <point x="120" y="1644"/>
+      <point x="120" y="1689" type="qcurve" smooth="yes"/>
+      <point x="120" y="1733"/>
+      <point x="49" y="1785"/>
+      <point x="5" y="1785" type="qcurve" smooth="yes"/>
+      <point x="-59" y="1785"/>
+      <point x="-178" y="1762"/>
+      <point x="-216" y="1744" type="qcurve"/>
+      <point x="-268" y="1853" type="line"/>
+      <point x="-208" y="1888"/>
+      <point x="-49" y="1909"/>
+      <point x="18" y="1909" type="qcurve" smooth="yes"/>
+      <point x="138" y="1909"/>
+      <point x="283" y="1795"/>
+      <point x="283" y="1690" type="qcurve" smooth="yes"/>
+      <point x="283" y="1598"/>
+      <point x="172" y="1482"/>
+      <point x="96" y="1482" type="qcurve" smooth="yes"/>
+      <point x="66" y="1482"/>
+      <point x="8" y="1491"/>
+      <point x="-8" y="1495" type="qcurve"/>
+      <point x="-8" y="1377" type="line"/>
+    </contour>
     <contour>
       <point x="0" y="1000" type="move" name="_top"/>
     </contour>
