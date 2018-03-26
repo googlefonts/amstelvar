@@ -1,8 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Abrevetilde" format="1">
-  <advance width="1506"/>
+  <advance width="1212"/>
   <unicode hex="1EB4"/>
   <outline>
     <component base="A"/>
+    <component base="breve_tilde.uc" xOffset="158.0"/>
   </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.0</real>
+        <real>0.0</real>
+        <real>0.0</real>
+        <real>0.5</real>
+      </array>
+    </dict>
+  </lib>
 </glyph>

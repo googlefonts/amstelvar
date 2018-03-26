@@ -1,17 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="rinvertedbreve" format="1">
   <advance width="913"/>
+  <unicode hex="0213"/>
   <outline>
     <component base="r"/>
-    <component base="breveinverted" xOffset="-56"/>
+    <component base="breveinverted" xOffset="-55.5"/>
   </outline>
   <lib>
     <dict>
       <key>com.typemytype.robofont.mark</key>
       <array>
-        <integer>0</integer>
-        <integer>0</integer>
-        <integer>0</integer>
+        <real>0.0</real>
+        <real>0.0</real>
+        <real>0.0</real>
         <real>0.5</real>
       </array>
     </dict>

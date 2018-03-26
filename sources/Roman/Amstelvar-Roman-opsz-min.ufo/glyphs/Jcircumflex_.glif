@@ -1,17 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Jcircumflex" format="1">
   <advance width="704"/>
+  <unicode hex="0134"/>
   <outline>
     <component base="J"/>
-    <component base="circumflex.uc" xOffset="-160"/>
+    <component base="circumflex.uc" xOffset="-160.0"/>
   </outline>
   <lib>
     <dict>
       <key>com.typemytype.robofont.mark</key>
       <array>
-        <integer>0</integer>
-        <integer>0</integer>
-        <integer>0</integer>
+        <real>0.0</real>
+        <real>0.0</real>
+        <real>0.0</real>
         <real>0.5</real>
       </array>
     </dict>

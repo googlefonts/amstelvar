@@ -4,6 +4,17 @@
   <unicode hex="1EB5"/>
   <outline>
     <component base="a"/>
-    <component base="breve_tilde" xOffset="460"/>
+    <component base="breve_tilde" xOffset="-47"/>
   </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>1.0</real>
+        <real>0.0</real>
+        <real>0.0</real>
+        <real>0.5</real>
+      </array>
+    </dict>
+  </lib>
 </glyph>

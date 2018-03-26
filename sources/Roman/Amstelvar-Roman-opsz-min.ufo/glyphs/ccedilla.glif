@@ -1,17 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ccedilla" format="1">
   <advance width="1039"/>
+  <unicode hex="00E7"/>
   <outline>
     <component base="c"/>
-    <component base="cedilla" xOffset="7"/>
+    <component base="cedilla" xOffset="7.5"/>
   </outline>
   <lib>
     <dict>
       <key>com.typemytype.robofont.mark</key>
       <array>
-        <integer>0</integer>
-        <integer>0</integer>
-        <integer>0</integer>
+        <real>0.0</real>
+        <real>0.0</real>
+        <real>0.0</real>
         <real>0.5</real>
       </array>
     </dict>

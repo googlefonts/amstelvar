@@ -1,8 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="acircumflexhookabove" format="1">
-  <advance width="1032"/>
+  <advance width="874"/>
   <unicode hex="1EA9"/>
   <outline>
     <component base="a"/>
+    <component base="circumflex_hookabove" xOffset="-11.0"/>
   </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.0</real>
+        <real>0.0</real>
+        <real>0.0</real>
+        <real>0.5</real>
+      </array>
+    </dict>
+  </lib>
 </glyph>

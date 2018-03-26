@@ -1,17 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="zacute" format="1">
   <advance width="938"/>
+  <unicode hex="017A"/>
   <outline>
     <component base="z"/>
-    <component base="acute" xOffset="-43"/>
+    <component base="acute" xOffset="-43.0"/>
   </outline>
   <lib>
     <dict>
       <key>com.typemytype.robofont.mark</key>
       <array>
-        <integer>0</integer>
-        <integer>0</integer>
-        <integer>0</integer>
+        <real>0.0</real>
+        <real>0.0</real>
+        <real>0.0</real>
         <real>0.5</real>
       </array>
     </dict>

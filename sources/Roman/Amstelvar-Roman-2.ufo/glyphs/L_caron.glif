@@ -4,6 +4,17 @@
   <unicode hex="013D"/>
   <outline>
     <component base="L"/>
-    <component base="caron.alt" xOffset="1000.0"/>
+    <component base="caron.alt" xOffset="509"/>
   </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>1.0</real>
+        <real>0.0</real>
+        <real>0.0</real>
+        <real>0.5</real>
+      </array>
+    </dict>
+  </lib>
 </glyph>

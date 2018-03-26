@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Ohorngrave" format="1">
   <advance width="1760"/>
+  <unicode hex="1EDC"/>
   <outline>
-    <component base="O"/>
-    <component base="grave.uc" xOffset="368"/>
-    <component base="horn.uc"/>
+    <component base="Ohorn"/>
+    <component base="grave.uc" xOffset="368.0"/>
   </outline>
   <lib>
     <dict>
       <key>com.typemytype.robofont.mark</key>
       <array>
-        <integer>0</integer>
-        <integer>0</integer>
-        <integer>0</integer>
+        <real>0.0</real>
+        <real>0.0</real>
+        <real>0.0</real>
         <real>0.5</real>
       </array>
     </dict>

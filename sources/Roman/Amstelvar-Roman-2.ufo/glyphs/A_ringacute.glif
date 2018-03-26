@@ -4,6 +4,17 @@
   <unicode hex="01FA"/>
   <outline>
     <component base="A"/>
-    <component base="ring_acute" xOffset="750" yOffset="500"/>
+    <component base="ring_acute.uc" xOffset="241.0"/>
   </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.0</real>
+        <real>0.0</real>
+        <real>0.0</real>
+        <real>0.5</real>
+      </array>
+    </dict>
+  </lib>
 </glyph>

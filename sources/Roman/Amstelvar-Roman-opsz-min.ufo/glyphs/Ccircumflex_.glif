@@ -1,17 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Ccircumflex" format="1">
   <advance width="1494"/>
+  <unicode hex="0108"/>
   <outline>
     <component base="C"/>
-    <component base="circumflex.uc" xOffset="235"/>
+    <component base="circumflex.uc" xOffset="235.0"/>
   </outline>
   <lib>
     <dict>
       <key>com.typemytype.robofont.mark</key>
       <array>
-        <integer>0</integer>
-        <integer>0</integer>
-        <integer>0</integer>
+        <real>0.0</real>
+        <real>0.0</real>
+        <real>0.0</real>
         <real>0.5</real>
       </array>
     </dict>

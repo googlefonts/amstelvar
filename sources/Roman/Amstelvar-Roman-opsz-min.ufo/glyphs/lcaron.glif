@@ -1,17 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="lcaron" format="1">
   <advance width="676"/>
+  <unicode hex="013E"/>
   <outline>
     <component base="l"/>
-    <component base="caron.alt" xOffset="-174"/>
+    <component base="caron.alt" xOffset="-174.0"/>
   </outline>
   <lib>
     <dict>
       <key>com.typemytype.robofont.mark</key>
       <array>
-        <integer>0</integer>
-        <integer>0</integer>
-        <integer>0</integer>
+        <real>0.0</real>
+        <real>0.0</real>
+        <real>0.0</real>
         <real>0.5</real>
       </array>
     </dict>

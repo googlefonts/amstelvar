@@ -1,18 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ecircumflexdotbelow" format="1">
   <advance width="1078"/>
+  <unicode hex="1EC7"/>
   <outline>
     <component base="e"/>
-    <component base="circumflex" xOffset="27"/>
-    <component base="dotbelow" xOffset="27"/>
+    <component base="circumflex" xOffset="27.0"/>
+    <component base="dotbelow" xOffset="27.0"/>
   </outline>
   <lib>
     <dict>
       <key>com.typemytype.robofont.mark</key>
       <array>
-        <integer>0</integer>
-        <integer>0</integer>
-        <integer>0</integer>
+        <real>0.0</real>
+        <real>0.0</real>
+        <real>0.0</real>
         <real>0.5</real>
       </array>
     </dict>

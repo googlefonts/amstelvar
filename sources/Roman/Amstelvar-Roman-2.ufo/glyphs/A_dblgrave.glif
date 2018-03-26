@@ -4,6 +4,17 @@
   <unicode hex="0200"/>
   <outline>
     <component base="A"/>
-    <component base="dblgrave.uc" xOffset="750" yOffset="500"/>
+    <component base="dblgrave.uc" xOffset="209.0" yOffset="500.0"/>
   </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>1.0</real>
+        <real>0.0</real>
+        <real>0.0</real>
+        <real>0.5</real>
+      </array>
+    </dict>
+  </lib>
 </glyph>
