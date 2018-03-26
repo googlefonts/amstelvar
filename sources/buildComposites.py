@@ -1,7 +1,4 @@
-from glyphNameFormatter.data import name2unicode_AGD
-from defcon import Font
-
-font = Font("Roman/Amstelvar-Roman-opsz-min.ufo")
+font = CurrentFont()
 
 composites = {
 	"Aacute": "A+acute.uc",
@@ -320,30 +317,23 @@ def buildComposites(font, composites):
 	for glyphName in composites.keys():
 		font.newGlyph(glyphName)
 		composite = font[glyphName]
-		#composite.unicode = name2unicode_AGD[glyphName]
 		
 		value = composites[glyphName]
 		items = value.split("+")
 		base = items[0]
 		items = items[1:]
-	
-		component = composite.instantiateComponent()
-		component.baseGlyph = base
-		baseGlyph = font[base]
+
+		baseGlyph = font[base]		
+		composite.appendComponent(base)
 		composite.width = baseGlyph.width
-		composite.appendComponent(component)
 		
 		baseOffset = baseGlyph.width/2
 		for item in items:
-			component = composite.instantiateComponent()
-			component.baseGlyph = item
 			itemGlyph = font[item]
 			itemOffset = itemGlyph.width/2
 			# get baseGlyph center as anchor, minus itemGlyph center
 			offsetX = baseOffset-itemOffset
-			component.move((offsetX, 0))
-			composite.appendComponent(component)
-		composite.lib['com.typemytype.robofont.mark'] = [0, 0, 0, 0.5] # grey
-	font.save()
+			composite.appendComponent(item, offset=(offsetX, 0))
+		composite.mark = (0, 0, 0, 0.5) # grey
 	
 buildComposites(font, composites)
