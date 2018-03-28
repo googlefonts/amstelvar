@@ -3,7 +3,18 @@
   <advance width="1760"/>
   <unicode hex="00D4"/>
   <outline>
-    <component base="O" yOffset="-1"/>
-    <component base="circumflex" xOffset="361" yOffset="458"/>
+    <component base="O"/>
+    <component base="circumflex.uc" xOffset="368.0"/>
   </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.0</real>
+        <real>0.0</real>
+        <real>0.0</real>
+        <real>0.5</real>
+      </array>
+    </dict>
+  </lib>
 </glyph>

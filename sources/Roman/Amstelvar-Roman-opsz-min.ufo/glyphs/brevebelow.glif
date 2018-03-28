@@ -18,12 +18,16 @@
       <point x="603" y="-240"/>
       <point x="721" y="-152"/>
     </contour>
-    <component base="brevecomb" yOffset="-1651"/>
-    <contour>
-      <point x="0" y="0" type="move" name="_bottom"/>
-    </contour>
-    <contour>
-      <point x="0" y="0" type="move" name="_bottom"/>
-    </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>1.0</real>
+        <real>1.0</real>
+        <real>0.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
 </glyph>

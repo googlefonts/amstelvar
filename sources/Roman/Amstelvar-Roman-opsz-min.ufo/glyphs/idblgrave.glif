@@ -1,9 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="idblgrave" format="1">
-  <advance width="639"/>
-  <unicode hex="0209"/>
+  <advance width="683"/>
   <outline>
     <component base="idotless"/>
-    <component base="dblgrave" xOffset="325"/>
+    <component base="dblgrave" xOffset="-170.5"/>
   </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.0</real>
+        <real>0.0</real>
+        <real>0.0</real>
+        <real>0.5</real>
+      </array>
+    </dict>
+  </lib>
 </glyph>

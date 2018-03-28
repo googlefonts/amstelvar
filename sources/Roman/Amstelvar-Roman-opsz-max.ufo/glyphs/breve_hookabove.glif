@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="breve_hookabove" format="1">
+  <advance width="896"/>
+  <outline>
+    <contour>
+      <point x="690" y="1463" type="qcurve"/>
+      <point x="844" y="1415" type="line"/>
+      <point x="821" y="1332"/>
+      <point x="604" y="1171"/>
+      <point x="455" y="1171" type="qcurve" smooth="yes"/>
+      <point x="296" y="1171"/>
+      <point x="80" y="1312"/>
+      <point x="52" y="1412" type="qcurve"/>
+      <point x="206" y="1464" type="line"/>
+      <point x="237" y="1422"/>
+      <point x="351" y="1335"/>
+      <point x="448" y="1335" type="qcurve" smooth="yes"/>
+      <point x="539" y="1335"/>
+      <point x="657" y="1416"/>
+    </contour>
+    <contour>
+      <point x="334" y="1420" type="line"/>
+      <point x="334" y="1528" type="line"/>
+      <point x="426" y="1621" type="line"/>
+      <point x="442" y="1616"/>
+      <point x="492" y="1610"/>
+      <point x="513" y="1610" type="qcurve" smooth="yes"/>
+      <point x="565" y="1610"/>
+      <point x="613" y="1646"/>
+      <point x="613" y="1683" type="qcurve" smooth="yes"/>
+      <point x="613" y="1718"/>
+      <point x="534" y="1750"/>
+      <point x="490" y="1750" type="qcurve" smooth="yes"/>
+      <point x="426" y="1750"/>
+      <point x="358" y="1733"/>
+      <point x="320" y="1717" type="qcurve"/>
+      <point x="231" y="1827" type="line"/>
+      <point x="286" y="1867"/>
+      <point x="425" y="1899"/>
+      <point x="492" y="1899" type="qcurve" smooth="yes"/>
+      <point x="612" y="1899"/>
+      <point x="788" y="1792"/>
+      <point x="788" y="1695" type="qcurve" smooth="yes"/>
+      <point x="788" y="1611"/>
+      <point x="657" y="1492"/>
+      <point x="581" y="1492" type="qcurve" smooth="yes"/>
+      <point x="551" y="1492"/>
+      <point x="513" y="1491"/>
+      <point x="497" y="1495" type="qcurve"/>
+      <point x="497" y="1420" type="line"/>
+    </contour>
+    <contour>
+      <point x="-64" y="1000" type="move" name="_top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>1.0</real>
+        <real>1.0</real>
+        <real>0.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

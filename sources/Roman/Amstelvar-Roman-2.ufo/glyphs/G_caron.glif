@@ -4,6 +4,17 @@
   <unicode hex="01E6"/>
   <outline>
     <component base="G"/>
-    <component base="caroncomb" xOffset="830" yOffset="500"/>
+    <component base="caron.uc" xOffset="318"/>
   </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>1.0</real>
+        <real>0.0</real>
+        <real>0.0</real>
+        <real>0.5</real>
+      </array>
+    </dict>
+  </lib>
 </glyph>

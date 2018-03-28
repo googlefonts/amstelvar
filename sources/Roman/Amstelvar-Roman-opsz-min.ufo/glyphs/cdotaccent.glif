@@ -1,9 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="cdotaccent" format="1">
-  <advance width="974"/>
+  <advance width="1039"/>
   <unicode hex="010B"/>
   <outline>
     <component base="c"/>
-    <component base="dotaccentcomb" xOffset="540"/>
+    <component base="dotaccent" xOffset="7.5"/>
   </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.0</real>
+        <real>0.0</real>
+        <real>0.0</real>
+        <real>0.5</real>
+      </array>
+    </dict>
+  </lib>
 </glyph>

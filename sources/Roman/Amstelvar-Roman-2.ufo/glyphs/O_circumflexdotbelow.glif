@@ -4,7 +4,18 @@
   <unicode hex="1ED8"/>
   <outline>
     <component base="O"/>
-    <component base="circumflexcomb" xOffset="830" yOffset="500"/>
-    <component base="dotbelowcomb" xOffset="830"/>
+    <component base="circumflex.uc" xOffset="318.0"/>
+    <component base="dotbelow" xOffset="320.0"/>
   </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.0</real>
+        <real>0.0</real>
+        <real>0.0</real>
+        <real>0.5</real>
+      </array>
+    </dict>
+  </lib>
 </glyph>

@@ -4,6 +4,17 @@
   <unicode hex="1EBB"/>
   <outline>
     <component base="e"/>
-    <component base="hookabovecomb" xOffset="540"/>
+    <component base="hookabove" xOffset="-9.0"/>
   </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.0</real>
+        <real>0.0</real>
+        <real>0.0</real>
+        <real>0.5</real>
+      </array>
+    </dict>
+  </lib>
 </glyph>

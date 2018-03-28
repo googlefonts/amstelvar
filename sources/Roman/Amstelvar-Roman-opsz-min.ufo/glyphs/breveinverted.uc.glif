@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="breveinverted.uc" format="1">
+  <advance width="1024"/>
+  <outline>
+    <contour>
+      <point x="510" y="1790" type="qcurve"/>
+      <point x="439" y="1789"/>
+      <point x="315" y="1716"/>
+      <point x="270" y="1644" type="qcurve"/>
+      <point x="116" y="1701" type="line"/>
+      <point x="167" y="1832"/>
+      <point x="390" y="1968"/>
+      <point x="512" y="1968" type="qcurve"/>
+      <point x="638" y="1968"/>
+      <point x="861" y="1832"/>
+      <point x="908" y="1701" type="qcurve"/>
+      <point x="754" y="1644" type="line"/>
+      <point x="713" y="1716"/>
+      <point x="589" y="1789"/>
+    </contour>
+    <contour>
+      <point x="0" y="1000" type="move" name="_top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.layerData</key>
+      <dict>
+        <key>background</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+          </array>
+          <key>components</key>
+          <array>
+          </array>
+          <key>contours</key>
+          <array>
+            <dict>
+              <key>points</key>
+              <array>
+                <dict>
+                  <key>segmentType</key>
+                  <string>qcurve</string>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <real>270.0</real>
+                  <key>y</key>
+                  <integer>1645</integer>
+                </dict>
+                <dict>
+                  <key>segmentType</key>
+                  <string>line</string>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <real>116.0</real>
+                  <key>y</key>
+                  <integer>1698</integer>
+                </dict>
+                <dict>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <real>139.0</real>
+                  <key>y</key>
+                  <integer>1789</integer>
+                </dict>
+                <dict>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <real>356.0</real>
+                  <key>y</key>
+                  <integer>1965</integer>
+                </dict>
+                <dict>
+                  <key>segmentType</key>
+                  <string>qcurve</string>
+                  <key>smooth</key>
+                  <true/>
+                  <key>x</key>
+                  <real>505.0</real>
+                  <key>y</key>
+                  <integer>1965</integer>
+                </dict>
+                <dict>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <real>664.0</real>
+                  <key>y</key>
+                  <integer>1965</integer>
+                </dict>
+                <dict>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <real>880.0</real>
+                  <key>y</key>
+                  <integer>1810</integer>
+                </dict>
+                <dict>
+                  <key>segmentType</key>
+                  <string>qcurve</string>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <real>908.0</real>
+                  <key>y</key>
+                  <integer>1701</integer>
+                </dict>
+                <dict>
+                  <key>segmentType</key>
+                  <string>line</string>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <real>754.0</real>
+                  <key>y</key>
+                  <integer>1644</integer>
+                </dict>
+                <dict>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <real>723.0</real>
+                  <key>y</key>
+                  <integer>1690</integer>
+                </dict>
+                <dict>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <real>609.0</real>
+                  <key>y</key>
+                  <integer>1785</integer>
+                </dict>
+                <dict>
+                  <key>segmentType</key>
+                  <string>qcurve</string>
+                  <key>smooth</key>
+                  <true/>
+                  <key>x</key>
+                  <real>512.0</real>
+                  <key>y</key>
+                  <integer>1785</integer>
+                </dict>
+                <dict>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <real>421.0</real>
+                  <key>y</key>
+                  <integer>1785</integer>
+                </dict>
+                <dict>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <real>303.0</real>
+                  <key>y</key>
+                  <integer>1697</integer>
+                </dict>
+              </array>
+            </dict>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>breveinverted.uc</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>1024</integer>
+        </dict>
+      </dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.0</real>
+        <real>1.0</real>
+        <real>0.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

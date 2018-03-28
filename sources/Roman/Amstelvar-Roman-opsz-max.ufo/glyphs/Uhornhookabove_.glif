@@ -3,8 +3,18 @@
   <advance width="1804.05625"/>
   <unicode hex="1EEC"/>
   <outline>
-    <component base="hornU"/>
-    <component base="horncomb" xOffset="1382.0" yOffset="500.0"/>
-    <component base="hookabovecomb" xOffset="830" yOffset="500"/>
+    <component base="Uhorn"/>
+    <component base="hookabove.uc" xOffset="454.02812500000005"/>
   </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.0</real>
+        <real>0.0</real>
+        <real>0.0</real>
+        <real>0.5</real>
+      </array>
+    </dict>
+  </lib>
 </glyph>

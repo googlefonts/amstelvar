@@ -1,9 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Scircumflex" format="1">
-  <advance width="1088"/>
+  <advance width="905"/>
   <unicode hex="015C"/>
   <outline>
     <component base="S"/>
-    <component base="circumflexcomb" xOffset="520" yOffset="500"/>
+    <component base="circumflex.uc" xOffset="4.5"/>
   </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.0</real>
+        <real>0.0</real>
+        <real>0.0</real>
+        <real>0.5</real>
+      </array>
+    </dict>
+  </lib>
 </glyph>

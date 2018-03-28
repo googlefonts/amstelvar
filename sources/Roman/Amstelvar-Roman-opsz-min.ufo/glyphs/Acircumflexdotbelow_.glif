@@ -1,10 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Acircumflexdotbelow" format="1">
-  <advance width="1506"/>
+  <advance width="1571"/>
   <unicode hex="1EAC"/>
   <outline>
     <component base="A"/>
-    <component base="circumflexcomb" xOffset="750" yOffset="500"/>
-    <component base="dotbelow" xOffset="740"/>
+    <component base="circumflex.uc" xOffset="273.5"/>
+    <component base="dotbelow" xOffset="273.5"/>
   </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.0</real>
+        <real>0.0</real>
+        <real>0.0</real>
+        <real>0.5</real>
+      </array>
+    </dict>
+  </lib>
 </glyph>

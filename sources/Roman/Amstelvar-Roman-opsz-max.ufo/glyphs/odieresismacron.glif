@@ -1,9 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="odieresismacron" format="1">
-  <advance width="1168"/>
+  <advance width="969"/>
   <unicode hex="022B"/>
   <outline>
     <component base="o"/>
-    <component base="dieresiscomb_macroncomb" xOffset="580.0"/>
+    <component base="dieresis_macron" xOffset="36.5"/>
   </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.0</real>
+        <real>0.0</real>
+        <real>0.0</real>
+        <real>0.5</real>
+      </array>
+    </dict>
+  </lib>
 </glyph>

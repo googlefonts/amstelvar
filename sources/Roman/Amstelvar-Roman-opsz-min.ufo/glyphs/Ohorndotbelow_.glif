@@ -1,10 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Ohorndotbelow" format="1">
-  <advance width="1664"/>
+  <advance width="1760"/>
   <unicode hex="1EE2"/>
   <outline>
-    <component base="O"/>
-    <component base="horn" xOffset="1320.0" yOffset="350.0"/>
-    <component base="dotbelow" xOffset="830"/>
+    <component base="Ohorn"/>
+    <component base="dotbelow" xOffset="368.0"/>
   </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.0</real>
+        <real>0.0</real>
+        <real>0.0</real>
+        <real>0.5</real>
+      </array>
+    </dict>
+  </lib>
 </glyph>

@@ -1,9 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Lcommaaccent" format="1">
-  <advance width="1264"/>
-  <unicode hex="013B"/>
+  <advance width="1314"/>
   <outline>
     <component base="L"/>
-    <component base="commaaccentcomb" xOffset="640"/>
+    <component base="commaaccent" xOffset="145.0"/>
   </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.0</real>
+        <real>0.0</real>
+        <real>0.0</real>
+        <real>0.5</real>
+      </array>
+    </dict>
+  </lib>
 </glyph>

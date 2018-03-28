@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="caron.alt" format="1">
+  <advance width="1024"/>
+  <outline>
+    <contour>
+      <point x="373" y="1028" type="line"/>
+      <point x="451" y="1380" type="line" smooth="yes"/>
+      <point x="466" y="1450"/>
+      <point x="521" y="1520"/>
+      <point x="561" y="1520" type="qcurve" smooth="yes"/>
+      <point x="601" y="1520"/>
+      <point x="651" y="1480"/>
+      <point x="651" y="1440" type="qcurve" smooth="yes"/>
+      <point x="651" y="1400"/>
+      <point x="629" y="1334"/>
+      <point x="607" y="1290" type="qcurve" smooth="yes"/>
+      <point x="461" y="1000" type="line"/>
+    </contour>
+    <contour>
+      <point x="491" y="1500" type="move" name="_caron.alt"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.layerData</key>
+      <dict>
+        <key>background</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+          </array>
+          <key>components</key>
+          <array>
+          </array>
+          <key>contours</key>
+          <array>
+            <dict>
+              <key>points</key>
+              <array>
+                <dict>
+                  <key>segmentType</key>
+                  <string>qcurve</string>
+                  <key>smooth</key>
+                  <true/>
+                  <key>x</key>
+                  <real>726.0</real>
+                  <key>y</key>
+                  <integer>1456</integer>
+                </dict>
+                <dict>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <real>726.0</real>
+                  <key>y</key>
+                  <integer>1409</integer>
+                </dict>
+                <dict>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <real>686.0</real>
+                  <key>y</key>
+                  <integer>1367</integer>
+                </dict>
+                <dict>
+                  <key>segmentType</key>
+                  <string>qcurve</string>
+                  <key>smooth</key>
+                  <true/>
+                  <key>x</key>
+                  <real>645.0</real>
+                  <key>y</key>
+                  <integer>1339</integer>
+                </dict>
+                <dict>
+                  <key>segmentType</key>
+                  <string>line</string>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <real>342.0</real>
+                  <key>y</key>
+                  <integer>1132</integer>
+                </dict>
+                <dict>
+                  <key>segmentType</key>
+                  <string>line</string>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <real>268.0</real>
+                  <key>y</key>
+                  <integer>1208</integer>
+                </dict>
+                <dict>
+                  <key>segmentType</key>
+                  <string>line</string>
+                  <key>smooth</key>
+                  <true/>
+                  <key>x</key>
+                  <real>479.0</real>
+                  <key>y</key>
+                  <integer>1435</integer>
+                </dict>
+                <dict>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <real>514.0</real>
+                  <key>y</key>
+                  <integer>1472</integer>
+                </dict>
+                <dict>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <real>594.0</real>
+                  <key>y</key>
+                  <integer>1534</integer>
+                </dict>
+                <dict>
+                  <key>segmentType</key>
+                  <string>qcurve</string>
+                  <key>smooth</key>
+                  <true/>
+                  <key>x</key>
+                  <real>631.0</real>
+                  <key>y</key>
+                  <integer>1534</integer>
+                </dict>
+                <dict>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <real>665.0</real>
+                  <key>y</key>
+                  <integer>1534</integer>
+                </dict>
+                <dict>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <real>726.0</real>
+                  <key>y</key>
+                  <integer>1491</integer>
+                </dict>
+              </array>
+            </dict>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>caron.alt</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>1024</integer>
+        </dict>
+      </dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>1.0</real>
+        <real>1.0</real>
+        <real>0.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>
