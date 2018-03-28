@@ -340,7 +340,8 @@ def buildComposites(font, composites):
 					_anchor = a
 			if anchor and _anchor:
 				x = anchor.x - _anchor.x
-				y = anchor.y - _anchor.y
+				#y = anchor.y - _anchor.y
+				y = 0 # ignore y position
 				offset = (x, y)
 				composite.mark = (1, 0, 0, 0.5) # pink
 			else:
