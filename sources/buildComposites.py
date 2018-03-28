@@ -330,23 +330,19 @@ def buildComposites(font, composites):
 		baseOffset = baseGlyph.width/2
 		for item in items:
 			baseName, anchorName = item.split("@")
+			itemOffset = font[baseName].width/2
 			# if anchors, use for offset
-			anchor = _anchor = None
+			anchor = None
 			for a in baseGlyph.anchors:
 				if a.name == anchorName:
 					anchor = a
-			for a in font[baseName].anchors:
-				if a.name == "_"+anchorName:
-					_anchor = a
-			if anchor and _anchor:
-				x = anchor.x - _anchor.x
-				#y = anchor.y - _anchor.y
+			if anchor:
+				x = anchor.x - itemOffset
 				y = 0 # ignore y position
 				offset = (x, y)
 				composite.mark = (1, 0, 0, 0.5) # pink
 			else:
 				# get baseGlyph center as anchor, minus itemGlyph center
-				itemOffset = font[baseName].width/2
 				offset = (baseOffset-itemOffset, 0)
 				composite.mark = (0, 0, 0, 0.5) # grey
 			composite.appendComponent(baseName, offset)
