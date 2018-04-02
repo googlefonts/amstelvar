@@ -1,115 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="commercialMinusSign" format="1">
-  <advance width="834"/>
+  <advance width="954"/>
   <unicode hex="2052"/>
   <outline>
     <contour>
-      <point x="60" y="-2" type="line"/>
-      <point x="629" y="1538" type="line"/>
-      <point x="770" y="1495" type="line"/>
-      <point x="201" y="-45" type="line"/>
+      <point x="110" y="-2" type="line"/>
+      <point x="679" y="1538" type="line"/>
+      <point x="840" y="1485" type="line"/>
+      <point x="271" y="-55" type="line"/>
     </contour>
     <contour>
-      <point x="477" y="121" type="qcurve" smooth="yes"/>
-      <point x="477" y="179"/>
-      <point x="558" y="265"/>
-      <point x="621" y="265" type="qcurve" smooth="yes"/>
-      <point x="684" y="265"/>
-      <point x="765" y="179"/>
-      <point x="765" y="121" type="qcurve" smooth="yes"/>
-      <point x="765" y="64"/>
-      <point x="684" y="-22"/>
-      <point x="621" y="-22" type="qcurve" smooth="yes"/>
-      <point x="558" y="-22"/>
-      <point x="477" y="64"/>
+      <point x="540" y="121" type="qcurve" smooth="yes"/>
+      <point x="540" y="186"/>
+      <point x="630" y="282"/>
+      <point x="701" y="282" type="qcurve" smooth="yes"/>
+      <point x="772" y="282"/>
+      <point x="862" y="186"/>
+      <point x="862" y="121" type="qcurve" smooth="yes"/>
+      <point x="862" y="57"/>
+      <point x="772" y="-39"/>
+      <point x="701" y="-39" type="qcurve" smooth="yes"/>
+      <point x="630" y="-39"/>
+      <point x="540" y="57"/>
     </contour>
     <contour>
-      <point x="107" y="1374" type="qcurve" smooth="yes"/>
-      <point x="107" y="1432"/>
-      <point x="188" y="1518"/>
-      <point x="251" y="1518" type="qcurve" smooth="yes"/>
-      <point x="314" y="1518"/>
-      <point x="395" y="1432"/>
-      <point x="395" y="1374" type="qcurve" smooth="yes"/>
-      <point x="395" y="1317"/>
-      <point x="314" y="1231"/>
-      <point x="251" y="1231" type="qcurve" smooth="yes"/>
-      <point x="188" y="1231"/>
-      <point x="107" y="1317"/>
+      <point x="120" y="1374" type="qcurve" smooth="yes"/>
+      <point x="120" y="1439"/>
+      <point x="210" y="1535"/>
+      <point x="281" y="1535" type="qcurve" smooth="yes"/>
+      <point x="352" y="1535"/>
+      <point x="442" y="1439"/>
+      <point x="442" y="1374" type="qcurve" smooth="yes"/>
+      <point x="442" y="1310"/>
+      <point x="352" y="1214"/>
+      <point x="281" y="1214" type="qcurve" smooth="yes"/>
+      <point x="210" y="1214"/>
+      <point x="120" y="1310"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.typemytype.robofont.layerData</key>
-      <dict>
-        <key>background</key>
-        <dict>
-          <key>anchors</key>
-          <array>
-          </array>
-          <key>components</key>
-          <array>
-          </array>
-          <key>contours</key>
-          <array>
-            <dict>
-              <key>points</key>
-              <array>
-                <dict>
-                  <key>segmentType</key>
-                  <string>line</string>
-                  <key>smooth</key>
-                  <false/>
-                  <key>x</key>
-                  <integer>189</integer>
-                  <key>y</key>
-                  <integer>-155</integer>
-                </dict>
-                <dict>
-                  <key>segmentType</key>
-                  <string>line</string>
-                  <key>smooth</key>
-                  <false/>
-                  <key>x</key>
-                  <integer>805</integer>
-                  <key>y</key>
-                  <integer>1518</integer>
-                </dict>
-                <dict>
-                  <key>segmentType</key>
-                  <string>line</string>
-                  <key>smooth</key>
-                  <false/>
-                  <key>x</key>
-                  <integer>695</integer>
-                  <key>y</key>
-                  <integer>1548</integer>
-                </dict>
-                <dict>
-                  <key>segmentType</key>
-                  <string>line</string>
-                  <key>smooth</key>
-                  <false/>
-                  <key>x</key>
-                  <integer>79</integer>
-                  <key>y</key>
-                  <integer>-125</integer>
-                </dict>
-              </array>
-            </dict>
-          </array>
-          <key>lib</key>
-          <dict>
-          </dict>
-          <key>name</key>
-          <string>commercialMinusSign</string>
-          <key>unicodes</key>
-          <array>
-          </array>
-          <key>width</key>
-          <integer>834</integer>
-        </dict>
-      </dict>
-    </dict>
-  </lib>
 </glyph>
