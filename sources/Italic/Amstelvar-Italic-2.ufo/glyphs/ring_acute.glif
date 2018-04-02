@@ -1,11 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ring_acute" format="1">
-  <advance width="0"/>
+  <advance width="1024"/>
   <outline>
-    <component base="ring.uc" yOffset="-50"/>
-    <component base="acute.uc" xOffset="60" yOffset="400"/>
     <contour>
-      <point x="94" y="1000" type="move" name="_top"/>
+      <point x="441" y="1293" type="qcurve" smooth="yes"/>
+      <point x="441" y="1384"/>
+      <point x="563" y="1501"/>
+      <point x="658" y="1501" type="qcurve" smooth="yes"/>
+      <point x="753" y="1501"/>
+      <point x="875" y="1384"/>
+      <point x="875" y="1293" type="qcurve" smooth="yes"/>
+      <point x="875" y="1202"/>
+      <point x="753" y="1085"/>
+      <point x="658" y="1085" type="qcurve" smooth="yes"/>
+      <point x="563" y="1085"/>
+      <point x="441" y="1202"/>
+    </contour>
+    <contour>
+      <point x="555" y="1293" type="qcurve" smooth="yes"/>
+      <point x="555" y="1247"/>
+      <point x="611" y="1190"/>
+      <point x="658" y="1190" type="qcurve" smooth="yes"/>
+      <point x="708" y="1190"/>
+      <point x="761" y="1243"/>
+      <point x="761" y="1293" type="qcurve" smooth="yes"/>
+      <point x="761" y="1339"/>
+      <point x="705" y="1396"/>
+      <point x="658" y="1396" type="qcurve" smooth="yes"/>
+      <point x="608" y="1396"/>
+      <point x="555" y="1343"/>
+    </contour>
+    <contour>
+      <point x="986" y="1837" type="qcurve" smooth="yes"/>
+      <point x="986" y="1797"/>
+      <point x="915" y="1734"/>
+      <point x="866" y="1707" type="qcurve" smooth="yes"/>
+      <point x="543" y="1529" type="line"/>
+      <point x="478" y="1615" type="line"/>
+      <point x="744" y="1847" type="line" smooth="yes"/>
+      <point x="788" y="1885"/>
+      <point x="856" y="1931"/>
+      <point x="896" y="1931" type="qcurve" smooth="yes"/>
+      <point x="936" y="1931"/>
+      <point x="986" y="1877"/>
     </contour>
   </outline>
 </glyph>
