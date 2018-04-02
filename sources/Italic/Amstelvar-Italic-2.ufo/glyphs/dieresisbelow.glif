@@ -2,6 +2,9 @@
 <glyph name="dieresisbelow" format="1">
   <advance width="1024"/>
   <outline>
-    <component base="dieresis.uc" xOffset="-912" yOffset="-2113"/>
+    <component base="dieresis.uc" xOffset="-401" yOffset="-2113"/>
+    <contour>
+      <point x="363" y="-212" type="move" name="bottom"/>
+    </contour>
   </outline>
 </glyph>

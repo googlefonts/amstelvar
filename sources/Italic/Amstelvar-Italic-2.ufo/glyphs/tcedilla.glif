@@ -4,6 +4,17 @@
   <unicode hex="0163"/>
   <outline>
     <component base="t"/>
-    <component base="cedilla.uc" xOffset="280"/>
+    <component base="cedilla" xOffset="-332.0"/>
   </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>1.0</real>
+        <real>0.0</real>
+        <real>0.0</real>
+        <real>0.5</real>
+      </array>
+    </dict>
+  </lib>
 </glyph>

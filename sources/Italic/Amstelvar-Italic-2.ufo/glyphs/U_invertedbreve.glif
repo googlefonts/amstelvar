@@ -4,6 +4,17 @@
   <unicode hex="0216"/>
   <outline>
     <component base="U"/>
-    <component base="breveinverted.uc" xOffset="850.0" yOffset="500.0"/>
+    <component base="breveinverted.uc" xOffset="432.0"/>
   </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>1.0</real>
+        <real>0.0</real>
+        <real>0.0</real>
+        <real>0.5</real>
+      </array>
+    </dict>
+  </lib>
 </glyph>
