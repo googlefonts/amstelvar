@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="tilde_macron" format="1">
+  <advance width="0"/>
+  <outline>
+    <component base="tilde.uc" yOffset="-50"/>
+    <component base="macron.uc" xOffset="60" yOffset="278"/>
+    <contour>
+      <point x="94" y="1000" type="move" name="_top"/>
+    </contour>
+  </outline>
+</glyph>
