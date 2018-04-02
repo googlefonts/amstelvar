@@ -2,16 +2,33 @@
 <glyph name="circumflex_acute.uc" format="1">
   <advance width="1024"/>
   <outline>
+    <contour>
+      <point x="795" y="1904" type="qcurve" smooth="yes"/>
+      <point x="829" y="1904"/>
+      <point x="867" y="1873"/>
+      <point x="890" y="1831" type="qcurve" smooth="yes"/>
+      <point x="1042" y="1588" type="line"/>
+      <point x="954" y="1515" type="line"/>
+      <point x="764" y="1730" type="line"/>
+      <point x="484" y="1515" type="line"/>
+      <point x="416" y="1588" type="line"/>
+      <point x="670" y="1831" type="line" smooth="yes"/>
+      <point x="721" y="1880"/>
+      <point x="761" y="1904"/>
+    </contour>
+    <contour>
+      <point x="1060" y="2236" type="qcurve" smooth="yes"/>
+      <point x="1060" y="2196"/>
+      <point x="989" y="2133"/>
+      <point x="940" y="2106" type="qcurve" smooth="yes"/>
+      <point x="617" y="1928" type="line"/>
+      <point x="552" y="2014" type="line"/>
+      <point x="818" y="2246" type="line" smooth="yes"/>
+      <point x="862" y="2284"/>
+      <point x="930" y="2330"/>
+      <point x="970" y="2330" type="qcurve" smooth="yes"/>
+      <point x="1010" y="2330"/>
+      <point x="1060" y="2276"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.0</real>
-        <real>1.0</real>
-        <real>0.0</real>
-        <real>1.0</real>
-      </array>
-    </dict>
-  </lib>
 </glyph>

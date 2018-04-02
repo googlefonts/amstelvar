@@ -2,16 +2,39 @@
 <glyph name="dieresis_macron.uc" format="1">
   <advance width="1024"/>
   <outline>
+    <contour>
+      <point x="402" y="1717" type="qcurve" smooth="yes"/>
+      <point x="402" y="1772"/>
+      <point x="462" y="1831"/>
+      <point x="518" y="1831" type="qcurve" smooth="yes"/>
+      <point x="571" y="1831"/>
+      <point x="634" y="1768"/>
+      <point x="634" y="1717" type="qcurve" smooth="yes"/>
+      <point x="634" y="1663"/>
+      <point x="575" y="1604"/>
+      <point x="518" y="1604" type="qcurve" smooth="yes"/>
+      <point x="465" y="1604"/>
+      <point x="402" y="1666"/>
+    </contour>
+    <contour>
+      <point x="862" y="1717" type="qcurve" smooth="yes"/>
+      <point x="862" y="1772"/>
+      <point x="922" y="1831"/>
+      <point x="978" y="1831" type="qcurve" smooth="yes"/>
+      <point x="1031" y="1831"/>
+      <point x="1094" y="1768"/>
+      <point x="1094" y="1717" type="qcurve" smooth="yes"/>
+      <point x="1094" y="1663"/>
+      <point x="1035" y="1604"/>
+      <point x="978" y="1604" type="qcurve" smooth="yes"/>
+      <point x="925" y="1604"/>
+      <point x="862" y="1666"/>
+    </contour>
+    <contour>
+      <point x="508" y="1948" type="line"/>
+      <point x="537" y="2085" type="line"/>
+      <point x="1129" y="2085" type="line"/>
+      <point x="1100" y="1948" type="line"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.0</real>
-        <real>1.0</real>
-        <real>0.0</real>
-        <real>1.0</real>
-      </array>
-    </dict>
-  </lib>
 </glyph>

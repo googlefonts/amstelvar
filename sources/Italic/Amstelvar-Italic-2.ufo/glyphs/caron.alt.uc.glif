@@ -2,16 +2,48 @@
 <glyph name="caron.alt.uc" format="1">
   <advance width="1024"/>
   <outline>
+    <contour>
+      <point x="581" y="1505" type="line"/>
+      <point x="727" y="1840" type="line" smooth="yes"/>
+      <point x="757" y="1910"/>
+      <point x="817" y="1980"/>
+      <point x="857" y="1980" type="qcurve" smooth="yes"/>
+      <point x="897" y="1980"/>
+      <point x="937" y="1940"/>
+      <point x="937" y="1905" type="qcurve" smooth="yes"/>
+      <point x="937" y="1870"/>
+      <point x="898" y="1794"/>
+      <point x="867" y="1750" type="qcurve" smooth="yes"/>
+      <point x="662" y="1460" type="line"/>
+    </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.0</real>
-        <real>1.0</real>
-        <real>0.0</real>
-        <real>1.0</real>
-      </array>
+      <key>com.typemytype.robofont.layerData</key>
+      <dict>
+        <key>bnackground</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+          </array>
+          <key>components</key>
+          <array>
+          </array>
+          <key>contours</key>
+          <array>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>caron.alt</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>1024</integer>
+        </dict>
+      </dict>
     </dict>
   </lib>
 </glyph>
