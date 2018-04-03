@@ -7,13 +7,9 @@
       <point x="274" y="-196"/>
       <point x="373" y="-59"/>
       <point x="466" y="13" type="qcurve" smooth="yes"/>
-      <point x="480.179104478" y="23.447761194"/>
-      <point x="508.820895522" y="46.552238806"/>
-      <point x="523" y="57" type="qcurve"/>
+      <point x="523" y="57" type="line"/>
       <point x="615" y="0" type="line" smooth="yes"/>
-      <point x="605.298507463" y="-8.9552238806"/>
-      <point x="585.701492537" y="-29.0447761194"/>
-      <point x="576" y="-38" type="qcurve" smooth="yes"/>
+      <point x="576" y="-38" type="line" smooth="yes"/>
       <point x="512" y="-100"/>
       <point x="448" y="-196"/>
       <point x="448" y="-241" type="qcurve" smooth="yes"/>
@@ -261,7 +257,7 @@
       </dict>
       <key>com.typemytype.robofont.mark</key>
       <array>
-        <real>1.0</real>
+        <real>0.0</real>
         <real>1.0</real>
         <real>0.0</real>
         <real>1.0</real>
