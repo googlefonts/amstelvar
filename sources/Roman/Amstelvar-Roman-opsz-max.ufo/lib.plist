@@ -30,12 +30,20 @@
 	<integer>0</integer>
 	<key>com.typemytype.robofont.compileSettings.releaseMode</key>
 	<false/>
+	<key>com.typemytype.robofont.foreground.layerShowCoordinates</key>
+	<false/>
+	<key>com.typemytype.robofont.foreground.layerShowFill</key>
+	<false/>
+	<key>com.typemytype.robofont.foreground.layerShowPoints</key>
+	<true/>
+	<key>com.typemytype.robofont.foreground.layerShowStroke</key>
+	<true/>
 	<key>com.typemytype.robofont.foreground.layerStrokeColor</key>
 	<array>
-		<real>0.8759533110119048</real>
-		<real>0.8520636920919201</real>
-		<real>0.6924212208413115</real>
-		<real>0.3</real>
+		<real>0.1278</real>
+		<real>0.9998</real>
+		<real>0.999</real>
+		<real>1.0</real>
 	</array>
 	<key>com.typemytype.robofont.italicSlantOffset</key>
 	<integer>0</integer>
@@ -45,6 +53,8 @@
 		<string>original</string>
 		<string>backgroud</string>
 	</array>
+	<key>com.typemytype.robofont.original.layerShow</key>
+	<false/>
 	<key>com.typemytype.robofont.original.layerStrokeColor</key>
 	<array>
 		<real>1.0</real>
