@@ -1,9 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Ibreve" format="1">
-  <advance width="712.0"/>
+  <advance width="605"/>
   <unicode hex="012C"/>
   <outline>
     <component base="I"/>
-    <component base="brevecomb" xOffset="446.0" yOffset="500.0"/>
+    <component base="breve.uc" xOffset="-337.5"/>
   </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.0</real>
+        <real>0.0</real>
+        <real>0.0</real>
+        <real>0.5</real>
+      </array>
+    </dict>
+  </lib>
 </glyph>
