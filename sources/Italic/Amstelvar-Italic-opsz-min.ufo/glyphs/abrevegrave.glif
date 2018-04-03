@@ -4,6 +4,17 @@
   <unicode hex="1EB1"/>
   <outline>
     <component base="a"/>
-    <component base="brevecomb_gravecomb" xOffset="546"/>
+    <component base="breve_grave" xOffset="34.0"/>
   </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>1.0</real>
+        <real>0.0</real>
+        <real>0.0</real>
+        <real>0.5</real>
+      </array>
+    </dict>
+  </lib>
 </glyph>

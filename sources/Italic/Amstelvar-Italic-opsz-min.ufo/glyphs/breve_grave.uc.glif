@@ -19,18 +19,21 @@
       <point x="1024" y="1868"/>
     </contour>
     <contour>
-      <point x="616" y="2203" type="qcurve"/>
-      <point x="616" y="2233"/>
-      <point x="668" y="2285"/>
-      <point x="715" y="2285" type="qcurve" smooth="yes"/>
-      <point x="760" y="2285"/>
-      <point x="834" y="2224"/>
-      <point x="864" y="2196" type="qcurve" smooth="yes"/>
-      <point x="1056" y="2019" type="line"/>
-      <point x="992" y="1941" type="line"/>
-      <point x="701" y="2097" type="line" smooth="yes"/>
-      <point x="661" y="2118"/>
-      <point x="616" y="2168"/>
+      <point x="689" y="2033" type="line" smooth="yes"/>
+      <point x="609" y="2057"/>
+      <point x="546" y="2103"/>
+      <point x="546" y="2145" type="qcurve"/>
+      <point x="546" y="2177"/>
+      <point x="598" y="2223"/>
+      <point x="632" y="2223" type="qcurve" smooth="yes"/>
+      <point x="664" y="2223"/>
+      <point x="744" y="2192"/>
+      <point x="808" y="2157" type="qcurve" smooth="yes"/>
+      <point x="1044" y="2026" type="line"/>
+      <point x="1005" y="1940" type="line"/>
+    </contour>
+    <contour>
+      <point x="718.0" y="1601.0" type="move" name="top"/>
     </contour>
   </outline>
 </glyph>
