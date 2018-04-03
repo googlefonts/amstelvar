@@ -17,18 +17,10 @@
       <point x="306" y="1239"/>
     </contour>
     <contour>
-      <point x="132" y="1523" type="qcurve"/>
-      <point x="132.0" y="1565.53731343"/>
-      <point x="132.0" y="1651.46268657"/>
-      <point x="132" y="1694" type="qcurve"/>
-      <point x="288.71641791" y="1694.0"/>
-      <point x="607.28358209" y="1694.0"/>
-      <point x="764" y="1694" type="qcurve"/>
-      <point x="764.0" y="1651.46268657"/>
-      <point x="764.0" y="1565.53731343"/>
-      <point x="764" y="1523" type="qcurve"/>
-      <point x="607.28358209" y="1523.0"/>
-      <point x="288.71641791" y="1523.0"/>
+      <point x="132" y="1523" type="line"/>
+      <point x="132" y="1694" type="line"/>
+      <point x="764" y="1694" type="line"/>
+      <point x="764" y="1523" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -613,7 +605,7 @@
       </dict>
       <key>com.typemytype.robofont.mark</key>
       <array>
-        <real>1.0</real>
+        <real>0.0</real>
         <real>1.0</real>
         <real>0.0</real>
         <real>1.0</real>

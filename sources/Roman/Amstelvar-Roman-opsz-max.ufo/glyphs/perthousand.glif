@@ -32,18 +32,10 @@
       <point x="215" y="1301"/>
     </contour>
     <contour>
-      <point x="400" y="-5" type="qcurve"/>
-      <point x="618.656716418" y="375.597014925"/>
-      <point x="1062.34328358" y="1146.40298507"/>
-      <point x="1281" y="1527" type="qcurve"/>
-      <point x="1291.44776119" y="1521.02985075"/>
-      <point x="1312.55223881" y="1508.97014925"/>
-      <point x="1323" y="1503" type="qcurve"/>
-      <point x="1103.59701493" y="1121.65671642"/>
-      <point x="660.402985075" y="351.343283582"/>
-      <point x="441" y="-30" type="qcurve"/>
-      <point x="431.298507463" y="-24.0298507463"/>
-      <point x="409.701492537" y="-10.9701492537"/>
+      <point x="400" y="-5" type="line"/>
+      <point x="1281" y="1527" type="line"/>
+      <point x="1323" y="1503" type="line"/>
+      <point x="441" y="-30" type="line"/>
     </contour>
     <contour>
       <point x="979" y="430" type="qcurve" smooth="yes"/>
@@ -612,7 +604,7 @@
       </dict>
       <key>com.typemytype.robofont.mark</key>
       <array>
-        <real>1.0</real>
+        <real>0.0</real>
         <real>1.0</real>
         <real>0.0</real>
         <real>1.0</real>
