@@ -6,12 +6,31 @@
         </axis>
     </axes>
     <sources>
-        <source familyname="Amstelvar" filename="Roman/Amstelvar-Roman.ufo" name="Amstelvar-Roman.ufo" stylename="Roman">
+
+        <source familyname="Amstelvar" filename="Roman/Amstelvar-Roman-3.ufo" name="Amstelvar-Roman" stylename="Roman">
             <info copy="1" />
             <location>
-                <dimension name="opsz" xvalue="0" />
+                <dimension name="opsz" xvalue="12" />
             </location>
         </source>
 
+
+        <source familyname="Amstelvar" filename="Roman/Amstelvar-Roman-opsz-min.ufo" name="Amstelvar-Roman-opsz-min" stylename="Roman-opsz-min">
+
+            <location>
+                <dimension name="opsz" xvalue="8" />
+            </location>
+        </source>
+
+        <source familyname="Amstelvar" filename="Roman/Amstelvar-Roman-opsz-max.ufo" name="Amstelvar-Roman-opsz-max" stylename="Roman-opsz-max">
+
+            <location>
+                <dimension name="opsz" xvalue="144" />
+            </location>
+        </source>
+
+
     </sources>
+<instances></instances>
+
 </designspace>
