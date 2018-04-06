@@ -1,10 +1,10 @@
 from defcon import Font
 
 fonts = [
-Font("Italic/Amstelvar-Italic-2.ufo"),
+Font("Italic/Amstelvar-Italic-3.ufo"),
 Font("Italic/Amstelvar-Italic-opsz-max.ufo"),
 Font("Italic/Amstelvar-Italic-opsz-min.ufo"),
-Font("Roman/Amstelvar-Roman-2.ufo"),
+Font("Roman/Amstelvar-Roman-3.ufo"),
 Font("Roman/Amstelvar-Roman-opsz-max.ufo"),
 Font("Roman/Amstelvar-Roman-opsz-min.ufo"),
 ]
