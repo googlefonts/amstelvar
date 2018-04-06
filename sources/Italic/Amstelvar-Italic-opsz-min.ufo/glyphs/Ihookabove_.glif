@@ -1,20 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Ihookabove" format="1">
-  <advance width="802"/>
+  <advance width="712.0"/>
   <unicode hex="1EC8"/>
   <outline>
     <component base="I"/>
-    <component base="hookabove.uc" xOffset="-164.0"/>
+    <component base="hookabovecomb" xOffset="446.0" yOffset="500.0"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>1.0</real>
-        <real>0.0</real>
-        <real>0.0</real>
-        <real>0.5</real>
-      </array>
-    </dict>
-  </lib>
 </glyph>

@@ -1,20 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Rinvertedbreve" format="1">
-  <advance width="1124"/>
+  <advance width="1212"/>
   <unicode hex="0212"/>
   <outline>
     <component base="R"/>
-    <component base="breveinverted.uc" xOffset="-78.0"/>
+    <component base="breveinvertedcomb" xOffset="617.0" yOffset="500.0"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.0</real>
-        <real>0.0</real>
-        <real>0.0</real>
-        <real>0.5</real>
-      </array>
-    </dict>
-  </lib>
 </glyph>
