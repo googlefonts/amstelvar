@@ -1,20 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="abreveacute" format="1">
-  <advance width="1011"/>
+  <advance width="1060"/>
   <unicode hex="1EAF"/>
   <outline>
     <component base="a"/>
-    <component base="breve_acute" xOffset="-21.5"/>
+    <component base="brevecomb_acutecomb" xOffset="546"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.0</real>
-        <real>0.0</real>
-        <real>0.0</real>
-        <real>0.5</real>
-      </array>
-    </dict>
-  </lib>
 </glyph>

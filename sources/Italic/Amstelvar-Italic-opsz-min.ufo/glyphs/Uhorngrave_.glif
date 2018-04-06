@@ -1,20 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Uhorngrave" format="1">
-  <advance width="1727"/>
+  <advance width="1471"/>
   <unicode hex="1EEA"/>
   <outline>
-    <component base="Uhorn"/>
-    <component base="grave.uc" xOffset="80"/>
+    <component base="hornU"/>
+    <component base="horncomb" xOffset="1277.0" yOffset="500.0"/>
+    <component base="gravecomb" xOffset="786" yOffset="500"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.0</real>
-        <real>0.0</real>
-        <real>0.0</real>
-        <real>0.5</real>
-      </array>
-    </dict>
-  </lib>
 </glyph>
