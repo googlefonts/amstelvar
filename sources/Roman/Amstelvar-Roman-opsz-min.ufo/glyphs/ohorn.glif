@@ -1,19 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ohorn" format="1">
-  <advance width="1256"/>
+  <advance width="1260"/>
   <outline>
     <component base="o"/>
-    <component base="horn" xOffset="116"/>
+    <component base="horn.uc" xOffset="636" yOffset="-551"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <integer>0</integer>
-        <integer>0</integer>
-        <integer>0</integer>
-        <real>0.5</real>
-      </array>
-    </dict>
-  </lib>
 </glyph>

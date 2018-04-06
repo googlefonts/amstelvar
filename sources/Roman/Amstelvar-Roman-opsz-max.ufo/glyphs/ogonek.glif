@@ -4,6 +4,12 @@
   <unicode hex="02DB"/>
   <outline>
     <contour>
+      <point x="341" y="-249" type="qcurve" smooth="yes"/>
+      <point x="341" y="-312"/>
+      <point x="425" y="-374"/>
+      <point x="494" y="-374" type="qcurve" smooth="yes"/>
+      <point x="556" y="-374"/>
+      <point x="657" y="-340"/>
       <point x="732" y="-291" type="qcurve"/>
       <point x="750" y="-312" type="line"/>
       <point x="706" y="-385"/>
@@ -20,23 +26,6 @@
       <point x="484" y="-7" type="line" smooth="yes"/>
       <point x="412" y="-77"/>
       <point x="341" y="-197"/>
-      <point x="341" y="-249" type="qcurve" smooth="yes"/>
-      <point x="341" y="-312"/>
-      <point x="425" y="-374"/>
-      <point x="494" y="-374" type="qcurve" smooth="yes"/>
-      <point x="556" y="-374"/>
-      <point x="657" y="-340"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>1.0</real>
-        <real>1.0</real>
-        <real>0.0</real>
-        <real>1.0</real>
-      </array>
-    </dict>
-  </lib>
 </glyph>
