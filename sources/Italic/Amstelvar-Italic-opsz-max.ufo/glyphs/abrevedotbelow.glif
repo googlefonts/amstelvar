@@ -1,21 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="abrevedotbelow" format="1">
-  <advance width="1011"/>
+  <advance width="1060"/>
   <unicode hex="1EB7"/>
   <outline>
     <component base="a"/>
-    <component base="breve" xOffset="-21.5"/>
-    <component base="dotbelow" xOffset="-6.5"/>
+    <component base="brevecomb" xOffset="546.0"/>
+    <component base="dotbelowcomb" xOffset="540"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.0</real>
-        <real>0.0</real>
-        <real>0.0</real>
-        <real>0.5</real>
-      </array>
-    </dict>
-  </lib>
 </glyph>

@@ -1,20 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="AEacute" format="1">
-  <advance width="1653"/>
+  <advance width="1795"/>
   <unicode hex="01FC"/>
   <outline>
     <component base="AE"/>
-    <component base="acute.uc" xOffset="560.0"/>
+    <component base="acutecomb" xOffset="1106.0" yOffset="500.0"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>1.0</real>
-        <real>0.0</real>
-        <real>0.0</real>
-        <real>0.5</real>
-      </array>
-    </dict>
-  </lib>
 </glyph>

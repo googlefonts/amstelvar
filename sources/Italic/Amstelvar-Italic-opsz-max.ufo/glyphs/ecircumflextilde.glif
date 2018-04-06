@@ -1,20 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ecircumflextilde" format="1">
-  <advance width="855"/>
+  <advance width="994"/>
   <unicode hex="1EC5"/>
   <outline>
     <component base="e"/>
-    <component base="circumflex_tilde" xOffset="-99.5"/>
+    <component base="circumflexcomb_tildecomb" xOffset="546"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.0</real>
-        <real>0.0</real>
-        <real>0.0</real>
-        <real>0.5</real>
-      </array>
-    </dict>
-  </lib>
 </glyph>

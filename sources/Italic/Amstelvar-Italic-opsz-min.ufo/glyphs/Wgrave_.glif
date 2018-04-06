@@ -1,20 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Wgrave" format="1">
-  <advance width="1896"/>
+  <advance width="1755"/>
   <unicode hex="1E80"/>
   <outline>
     <component base="W"/>
-    <component base="grave.uc" xOffset="340.0"/>
+    <component base="gravecomb" xOffset="950.0" yOffset="500.0"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>1.0</real>
-        <real>0.0</real>
-        <real>0.0</real>
-        <real>0.5</real>
-      </array>
-    </dict>
-  </lib>
 </glyph>
