@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="circumflex_grave.uc" format="1">
+  <advance width="896"/>
+  <outline>
+    <contour>
+      <point x="831" y="1827" type="qcurve" smooth="yes"/>
+      <point x="980" y="1614" type="line"/>
+      <point x="893" y="1550" type="line"/>
+      <point x="707" y="1738" type="line"/>
+      <point x="432" y="1550" type="line"/>
+      <point x="365" y="1614" type="line"/>
+      <point x="602" y="1819" type="line" smooth="yes"/>
+      <point x="640" y="1852"/>
+      <point x="701" y="1894"/>
+      <point x="738" y="1894" type="qcurve"/>
+      <point x="767" y="1894"/>
+      <point x="808" y="1860"/>
+    </contour>
+    <contour>
+      <point x="667" y="2033" type="line" smooth="yes"/>
+      <point x="587" y="2057"/>
+      <point x="524" y="2103"/>
+      <point x="524" y="2145" type="qcurve"/>
+      <point x="524" y="2177"/>
+      <point x="576" y="2223"/>
+      <point x="610" y="2223" type="qcurve" smooth="yes"/>
+      <point x="642" y="2223"/>
+      <point x="722" y="2192"/>
+      <point x="786" y="2157" type="qcurve" smooth="yes"/>
+      <point x="1022" y="2026" type="line"/>
+      <point x="983" y="1940" type="line"/>
+    </contour>
+    <contour>
+      <point x="665" y="1549" type="move" name="top"/>
+    </contour>
+  </outline>
+</glyph>

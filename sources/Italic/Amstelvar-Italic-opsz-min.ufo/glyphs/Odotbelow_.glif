@@ -1,9 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Odotbelow" format="1">
-  <advance width="1528"/>
+  <advance width="1629"/>
   <unicode hex="1ECC"/>
   <outline>
     <component base="O"/>
-    <component base="dotbelowcomb" xOffset="746.0"/>
+    <component base="dotbelow" xOffset="168"/>
   </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>1.0</real>
+        <real>0.0</real>
+        <real>0.0</real>
+        <real>0.5</real>
+      </array>
+    </dict>
+  </lib>
 </glyph>
