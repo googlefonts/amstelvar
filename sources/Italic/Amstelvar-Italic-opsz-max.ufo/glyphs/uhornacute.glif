@@ -3,8 +3,11 @@
   <advance width="1171"/>
   <unicode hex="1EE9"/>
   <outline>
-    <component base="uhorn"/>
-    <component base="acute" xOffset="58.5"/>
+    <component base="hornu"/>
+    <component base="horn" xOffset="880" yOffset="9"/>
+    <contour>
+      <point x="1054.0" y="824.0" type="move" name="horn"/>
+    </contour>
   </outline>
   <lib>
     <dict>
