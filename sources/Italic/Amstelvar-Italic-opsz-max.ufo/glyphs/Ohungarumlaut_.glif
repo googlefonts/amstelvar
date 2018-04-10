@@ -1,20 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Ohungarumlaut" format="1">
-  <advance width="1315"/>
+  <advance width="1330.0"/>
   <unicode hex="0150"/>
   <outline>
-    <component base="O"/>
-    <component base="hungarumlaut.uc" xOffset="17.5"/>
+    <component base="O" xOffset="199"/>
+    <component base="hungarumlaut.uc" xOffset="416" yOffset="-31"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.0</real>
-        <real>0.0</real>
-        <real>0.0</real>
-        <real>0.5</real>
-      </array>
-    </dict>
-  </lib>
 </glyph>

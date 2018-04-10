@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Uhorn" format="1">
-  <advance width="1471"/>
+  <advance width="1525"/>
   <unicode hex="01AF"/>
   <outline>
-    <component base="hornU"/>
-    <component base="horn.uc" xOffset="880" yOffset="40"/>
+    <component base="hornU" xOffset="-22"/>
+    <component base="horn.uc" xOffset="870"/>
   </outline>
 </glyph>

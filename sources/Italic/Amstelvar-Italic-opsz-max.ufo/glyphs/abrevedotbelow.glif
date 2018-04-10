@@ -4,18 +4,7 @@
   <unicode hex="1EB7"/>
   <outline>
     <component base="a"/>
-    <component base="breve" xOffset="-21.5"/>
-    <component base="dotbelow" xOffset="-6.5"/>
+    <component base="breve" xOffset="64" yOffset="-20"/>
+    <component base="dotbelow" xOffset="-72"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.0</real>
-        <real>0.0</real>
-        <real>0.0</real>
-        <real>0.5</real>
-      </array>
-    </dict>
-  </lib>
 </glyph>

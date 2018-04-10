@@ -1,20 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Scaron" format="1">
-  <advance width="920.0"/>
+  <advance width="920"/>
   <unicode hex="0160"/>
   <outline>
     <component base="S"/>
-    <component base="caron.uc" xOffset="-180.0"/>
+    <component base="caron.uc" xOffset="5" yOffset="-30"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.0</real>
-        <real>0.0</real>
-        <real>0.0</real>
-        <real>0.5</real>
-      </array>
-    </dict>
-  </lib>
 </glyph>
