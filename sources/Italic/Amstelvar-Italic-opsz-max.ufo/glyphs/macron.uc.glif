@@ -3,13 +3,64 @@
   <advance width="896"/>
   <outline>
     <contour>
-      <point x="392" y="1674" type="line"/>
-      <point x="421" y="1811" type="line"/>
-      <point x="1013" y="1811" type="line"/>
-      <point x="984" y="1674" type="line"/>
+      <point x="368" y="1653" type="line"/>
+      <point x="368" y="1748" type="line"/>
+      <point x="890" y="1748" type="line"/>
+      <point x="890" y="1653" type="line"/>
     </contour>
     <contour>
-      <point x="754.0" y="1674.0" type="move" name="top"/>
+      <point x="589" y="1665" type="move" name="top"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.layerData</key>
+      <dict>
+        <key>background</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+          </array>
+          <key>components</key>
+          <array>
+          </array>
+          <key>contours</key>
+          <array>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>macron</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>896</integer>
+        </dict>
+        <key>bnackground</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+          </array>
+          <key>components</key>
+          <array>
+          </array>
+          <key>contours</key>
+          <array>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>macron</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>896</integer>
+        </dict>
+      </dict>
+    </dict>
+  </lib>
 </glyph>

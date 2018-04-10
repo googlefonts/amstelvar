@@ -3,21 +3,72 @@
   <advance width="896"/>
   <outline>
     <contour>
-      <point x="578" y="1792" type="qcurve" smooth="yes"/>
-      <point x="578" y="1849"/>
-      <point x="640" y="1910"/>
-      <point x="699" y="1910" type="qcurve" smooth="yes"/>
-      <point x="754" y="1910"/>
-      <point x="820" y="1845"/>
-      <point x="820" y="1792" type="qcurve" smooth="yes"/>
-      <point x="820" y="1735"/>
-      <point x="758" y="1674"/>
-      <point x="699" y="1674" type="qcurve" smooth="yes"/>
-      <point x="644" y="1674"/>
-      <point x="578" y="1739"/>
+      <point x="524" y="1714" type="qcurve" smooth="yes"/>
+      <point x="524" y="1760"/>
+      <point x="582" y="1818"/>
+      <point x="630" y="1818" type="qcurve" smooth="yes"/>
+      <point x="679" y="1818"/>
+      <point x="736" y="1761"/>
+      <point x="736" y="1714" type="qcurve" smooth="yes"/>
+      <point x="736" y="1670"/>
+      <point x="682" y="1610"/>
+      <point x="630" y="1610" type="qcurve" smooth="yes"/>
+      <point x="582" y="1610"/>
+      <point x="524" y="1668"/>
     </contour>
     <contour>
-      <point x="685" y="1675" type="move" name="top"/>
+      <point x="540.0" y="1078.0" type="move" name="top"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.layerData</key>
+      <dict>
+        <key>background</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+          </array>
+          <key>components</key>
+          <array>
+          </array>
+          <key>contours</key>
+          <array>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>dotaccent</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>896</integer>
+        </dict>
+        <key>bnackground</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+          </array>
+          <key>components</key>
+          <array>
+          </array>
+          <key>contours</key>
+          <array>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>dotaccent</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>896</integer>
+        </dict>
+      </dict>
+    </dict>
+  </lib>
 </glyph>

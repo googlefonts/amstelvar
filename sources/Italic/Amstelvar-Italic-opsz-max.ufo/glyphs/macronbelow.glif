@@ -2,9 +2,14 @@
 <glyph name="macronbelow" format="1">
   <advance width="896"/>
   <outline>
-    <component base="macron.uc" xOffset="-286" yOffset="-1584"/>
     <contour>
-      <point x="431" y="228" type="move" name="bottom"/>
+      <point x="-35" y="-274" type="line"/>
+      <point x="-35" y="-187" type="line"/>
+      <point x="487" y="-187" type="line"/>
+      <point x="487" y="-274" type="line"/>
+    </contour>
+    <contour>
+      <point x="212" y="-187" type="move" name="bottom"/>
     </contour>
   </outline>
 </glyph>

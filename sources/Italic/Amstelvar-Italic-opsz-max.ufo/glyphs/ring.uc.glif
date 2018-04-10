@@ -3,35 +3,86 @@
   <advance width="896"/>
   <outline>
     <contour>
-      <point x="484" y="1822" type="qcurve" smooth="yes"/>
-      <point x="484" y="1913"/>
-      <point x="606" y="2030"/>
-      <point x="701" y="2030" type="qcurve" smooth="yes"/>
-      <point x="796" y="2030"/>
-      <point x="918" y="1913"/>
-      <point x="918" y="1822" type="qcurve" smooth="yes"/>
-      <point x="918" y="1731"/>
-      <point x="796" y="1614"/>
-      <point x="701" y="1614" type="qcurve" smooth="yes"/>
-      <point x="606" y="1614"/>
-      <point x="484" y="1731"/>
+      <point x="432" y="1810" type="qcurve" smooth="yes"/>
+      <point x="432" y="1895"/>
+      <point x="542" y="2005"/>
+      <point x="628" y="2005" type="qcurve" smooth="yes"/>
+      <point x="714" y="2005"/>
+      <point x="824" y="1895"/>
+      <point x="824" y="1810" type="qcurve" smooth="yes"/>
+      <point x="824" y="1725"/>
+      <point x="714" y="1615"/>
+      <point x="628" y="1615" type="qcurve" smooth="yes"/>
+      <point x="542" y="1615"/>
+      <point x="432" y="1725"/>
     </contour>
     <contour>
-      <point x="598" y="1822" type="qcurve" smooth="yes"/>
-      <point x="598" y="1776"/>
-      <point x="654" y="1719"/>
-      <point x="701" y="1719" type="qcurve" smooth="yes"/>
-      <point x="751" y="1719"/>
-      <point x="804" y="1772"/>
-      <point x="804" y="1822" type="qcurve" smooth="yes"/>
-      <point x="804" y="1868"/>
-      <point x="748" y="1925"/>
-      <point x="701" y="1925" type="qcurve" smooth="yes"/>
-      <point x="651" y="1925"/>
-      <point x="598" y="1872"/>
+      <point x="504" y="1810" type="qcurve" smooth="yes"/>
+      <point x="504" y="1754"/>
+      <point x="571" y="1686"/>
+      <point x="628" y="1686" type="qcurve" smooth="yes"/>
+      <point x="688" y="1686"/>
+      <point x="752" y="1750"/>
+      <point x="752" y="1810" type="qcurve" smooth="yes"/>
+      <point x="752" y="1866"/>
+      <point x="685" y="1934"/>
+      <point x="628" y="1934" type="qcurve" smooth="yes"/>
+      <point x="568" y="1934"/>
+      <point x="504" y="1870"/>
     </contour>
     <contour>
-      <point x="685" y="1614" type="move" name="top"/>
+      <point x="625" y="1625" type="move" name="top"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.layerData</key>
+      <dict>
+        <key>background</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+          </array>
+          <key>components</key>
+          <array>
+          </array>
+          <key>contours</key>
+          <array>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>ring</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>896</integer>
+        </dict>
+        <key>bnackground</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+          </array>
+          <key>components</key>
+          <array>
+          </array>
+          <key>contours</key>
+          <array>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>ring</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>896</integer>
+        </dict>
+      </dict>
+    </dict>
+  </lib>
 </glyph>

@@ -3,21 +3,72 @@
   <advance width="896"/>
   <outline>
     <contour>
-      <point x="753" y="2009" type="qcurve" smooth="yes"/>
-      <point x="787" y="2009"/>
-      <point x="825" y="1978"/>
-      <point x="848" y="1936" type="qcurve" smooth="yes"/>
-      <point x="1000" y="1693" type="line"/>
-      <point x="912" y="1620" type="line"/>
-      <point x="722" y="1835" type="line"/>
-      <point x="442" y="1620" type="line"/>
-      <point x="374" y="1693" type="line"/>
-      <point x="628" y="1936" type="line" smooth="yes"/>
-      <point x="679" y="1985"/>
-      <point x="719" y="2009"/>
+      <point x="689" y="1924" type="qcurve" smooth="yes"/>
+      <point x="719" y="1923"/>
+      <point x="739" y="1879"/>
+      <point x="753" y="1836" type="qcurve" smooth="yes"/>
+      <point x="827" y="1608" type="line"/>
+      <point x="809" y="1594" type="line"/>
+      <point x="659" y="1796" type="line"/>
+      <point x="391" y="1606" type="line"/>
+      <point x="368" y="1619" type="line"/>
+      <point x="575" y="1841" type="line" smooth="yes"/>
+      <point x="622" y="1892"/>
+      <point x="659" y="1926"/>
     </contour>
     <contour>
-      <point x="705" y="1619" type="move" name="top"/>
+      <point x="625" y="1607" type="move" name="top"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.layerData</key>
+      <dict>
+        <key>background</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+          </array>
+          <key>components</key>
+          <array>
+          </array>
+          <key>contours</key>
+          <array>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>circumflex</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>896</integer>
+        </dict>
+        <key>bnackground</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+          </array>
+          <key>components</key>
+          <array>
+          </array>
+          <key>contours</key>
+          <array>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>circumflex</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>896</integer>
+        </dict>
+      </dict>
+    </dict>
+  </lib>
 </glyph>
