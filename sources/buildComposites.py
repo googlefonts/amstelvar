@@ -19,7 +19,7 @@ composites = {
 	"acircumflex": "a+circumflex@top",
 	"Acircumflexacute": "A+circumflex_acute.uc@top",
 	"acircumflexacute": "a+circumflex_acute@top",
-	"Acircumflexdotbelow.uc": "A+circumflex.uc@top+dotbelow@bottom",
+	"Acircumflexdotbelow": "A+circumflex.uc@top+dotbelow@bottom",
 	"acircumflexdotbelow": "a+circumflex@top+dotbelow@bottom",
 	"Acircumflexgrave": "A+circumflex_grave.uc@top",
 	"acircumflexgrave": "a+circumflex_grave@top",
