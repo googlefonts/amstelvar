@@ -3,6 +3,20 @@
   <advance width="896"/>
   <outline>
     <contour>
+      <point x="418" y="1497" type="line"/>
+      <point x="656" y="1631" type="line" smooth="yes"/>
+      <point x="677" y="1643"/>
+      <point x="709" y="1656"/>
+      <point x="719" y="1656" type="qcurve" smooth="yes"/>
+      <point x="751" y="1656"/>
+      <point x="784" y="1624"/>
+      <point x="784" y="1599" type="qcurve" smooth="yes"/>
+      <point x="784" y="1572"/>
+      <point x="744" y="1532"/>
+      <point x="706" y="1525" type="qcurve" smooth="yes"/>
+      <point x="430" y="1473" type="line"/>
+    </contour>
+    <contour>
       <point x="355" y="1244" type="qcurve" smooth="yes"/>
       <point x="355" y="1329"/>
       <point x="465" y="1439"/>
@@ -29,20 +43,6 @@
       <point x="551" y="1368" type="qcurve" smooth="yes"/>
       <point x="491" y="1368"/>
       <point x="427" y="1304"/>
-    </contour>
-    <contour>
-      <point x="784" y="1572"/>
-      <point x="744" y="1532"/>
-      <point x="706" y="1525" type="qcurve" smooth="yes"/>
-      <point x="430" y="1473" type="line"/>
-      <point x="418" y="1497" type="line"/>
-      <point x="656" y="1631" type="line" smooth="yes"/>
-      <point x="677" y="1643"/>
-      <point x="709" y="1656"/>
-      <point x="719" y="1656" type="qcurve" smooth="yes"/>
-      <point x="751" y="1656"/>
-      <point x="784" y="1624"/>
-      <point x="784" y="1599" type="qcurve" smooth="yes"/>
     </contour>
     <contour>
       <point x="500.0" y="1097.0" type="move" name="top"/>

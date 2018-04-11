@@ -3,9 +3,6 @@
   <advance width="896"/>
   <outline>
     <contour>
-      <point x="726" y="1921" type="qcurve" smooth="yes"/>
-      <point x="749" y="1921"/>
-      <point x="771" y="1880"/>
       <point x="784" y="1839" type="qcurve" smooth="yes"/>
       <point x="857" y="1623" type="line"/>
       <point x="839" y="1610" type="line"/>
@@ -15,10 +12,11 @@
       <point x="617" y="1843" type="line" smooth="yes"/>
       <point x="664" y="1891"/>
       <point x="697" y="1921"/>
+      <point x="726" y="1921" type="qcurve" smooth="yes"/>
+      <point x="749" y="1921"/>
+      <point x="771" y="1880"/>
     </contour>
     <contour>
-      <point x="925" y="2068"/>
-      <point x="884" y="2030"/>
       <point x="847" y="2021" type="qcurve" smooth="yes"/>
       <point x="559" y="1952" type="line"/>
       <point x="548" y="1975" type="line"/>
@@ -29,6 +27,8 @@
       <point x="892" y="2152"/>
       <point x="925" y="2120"/>
       <point x="925" y="2095" type="qcurve" smooth="yes"/>
+      <point x="925" y="2068"/>
+      <point x="884" y="2030"/>
     </contour>
     <contour>
       <point x="652" y="1621" type="move" name="top"/>
