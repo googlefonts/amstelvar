@@ -1,9 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="oogonek" format="1">
-  <advance width="969"/>
+  <advance width="1168"/>
   <unicode hex="01EB"/>
   <outline>
     <component base="o"/>
-    <component base="ogonek" xOffset="122" yOffset="-22"/>
+    <component base="ogonek.uc" xOffset="183"/>
   </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>1.0</real>
+        <real>0.0</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
 </glyph>

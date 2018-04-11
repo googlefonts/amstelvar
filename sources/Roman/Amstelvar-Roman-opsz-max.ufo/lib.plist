@@ -4,17 +4,19 @@
 <dict>
 	<key>com.typemytype.robofont.backgroud.layerStrokeColor</key>
 	<array>
+		<real>0.5</real>
 		<real>1.0</real>
-		<real>0.75</real>
 		<real>0.0</real>
 		<real>0.7</real>
 	</array>
+	<key>com.typemytype.robofont.background.layerShow</key>
+	<true/>
 	<key>com.typemytype.robofont.background.layerStrokeColor</key>
 	<array>
-		<real>1.0</real>
-		<real>0.75</real>
-		<real>0.0</real>
-		<real>0.7</real>
+		<real>0.0613</real>
+		<real>0.0923</real>
+		<real>0.1229</real>
+		<real>0.5922</real>
 	</array>
 	<key>com.typemytype.robofont.compileSettings.autohint</key>
 	<true/>
@@ -28,25 +30,35 @@
 	<integer>0</integer>
 	<key>com.typemytype.robofont.compileSettings.releaseMode</key>
 	<false/>
+	<key>com.typemytype.robofont.foreground.layerShowCoordinates</key>
+	<false/>
+	<key>com.typemytype.robofont.foreground.layerShowFill</key>
+	<false/>
+	<key>com.typemytype.robofont.foreground.layerShowPoints</key>
+	<true/>
+	<key>com.typemytype.robofont.foreground.layerShowStroke</key>
+	<true/>
 	<key>com.typemytype.robofont.foreground.layerStrokeColor</key>
 	<array>
-		<real>0.8759533110119048</real>
-		<real>0.8520636920919201</real>
-		<real>0.6924212208413115</real>
-		<real>0.3</real>
+		<real>0.1278</real>
+		<real>0.9998</real>
+		<real>0.999</real>
+		<real>1.0</real>
 	</array>
 	<key>com.typemytype.robofont.italicSlantOffset</key>
 	<integer>0</integer>
 	<key>com.typemytype.robofont.layerOrder</key>
 	<array>
 		<string>background</string>
-		<string>backgroud</string>
 		<string>original</string>
+		<string>backgroud</string>
 	</array>
+	<key>com.typemytype.robofont.original.layerShow</key>
+	<false/>
 	<key>com.typemytype.robofont.original.layerStrokeColor</key>
 	<array>
-		<real>0.5</real>
 		<real>1.0</real>
+		<real>0.75</real>
 		<real>0.0</real>
 		<real>0.7</real>
 	</array>
@@ -159,6 +171,12 @@
 				<string>Schwa</string>
 				<string>schwa</string>
 				<string>micro</string>
+				<string>Dzcaron</string>
+				<string>dzcaron</string>
+				<string>LJ</string>
+				<string>lj</string>
+				<string>NJ</string>
+				<string>nj</string>
 				<string>fi</string>
 				<string>fl</string>
 				<string>f_f</string>
@@ -184,7 +202,6 @@
 				<string>liraTurkish</string>
 				<string>manat</string>
 				<string>ruble</string>
-				<string>colonsign</string>
 				<string>currency</string>
 				<string>exclam</string>
 				<string>exclamdown</string>
@@ -255,6 +272,7 @@
 				<string>copyright</string>
 				<string>registered</string>
 				<string>commercialMinusSign</string>
+				<string>colonsign</string>
 				<string>trademark</string>
 				<string>degree</string>
 				<string>asterisk</string>
@@ -266,9 +284,6 @@
 				<string>numero</string>
 				<string>asciicircum</string>
 				<string>asciitilde</string>
-				<string>uniE0FF</string>
-				<string>uniEFFD</string>
-				<string>uniF000</string>
 				<string>Aacute</string>
 				<string>Abreve</string>
 				<string>Abreveacute</string>
@@ -614,6 +629,7 @@
 				<string>brevebelow</string>
 				<string>commaaccent</string>
 				<string>macronbelow</string>
+				<string>dieresisbelow</string>
 				<string>circumflex_acute</string>
 				<string>circumflex_grave</string>
 				<string>circumflex_hookabove</string>
@@ -662,7 +678,6 @@
 				<string>dieresis_macron.uc</string>
 				<string>tilde_macron.uc</string>
 				<string>dotaccent_macron.uc</string>
-				<string>periodcentered.loclCAT</string>
 				<string>engtail</string>
 				<string>horizontalbarH</string>
 				<string>hornu</string>
@@ -674,15 +689,6 @@
 				<string>engn</string>
 				<string>horizontalbarlc</string>
 				<string>horizontalbar</string>
-				<string>DZcaron</string>
-				<string>Dzcaron</string>
-				<string>dzcaron</string>
-				<string>LJ</string>
-				<string>Lj</string>
-				<string>lj</string>
-				<string>NJ</string>
-				<string>Nj</string>
-				<string>nj</string>
 			</array>
 			<key>type</key>
 			<string>glyphList</string>
@@ -801,6 +807,12 @@
 		<string>Schwa</string>
 		<string>schwa</string>
 		<string>micro</string>
+		<string>Dzcaron</string>
+		<string>dzcaron</string>
+		<string>LJ</string>
+		<string>lj</string>
+		<string>NJ</string>
+		<string>nj</string>
 		<string>fi</string>
 		<string>fl</string>
 		<string>f_f</string>
@@ -826,7 +838,6 @@
 		<string>liraTurkish</string>
 		<string>manat</string>
 		<string>ruble</string>
-		<string>colonsign</string>
 		<string>currency</string>
 		<string>exclam</string>
 		<string>exclamdown</string>
@@ -897,6 +908,7 @@
 		<string>copyright</string>
 		<string>registered</string>
 		<string>commercialMinusSign</string>
+		<string>colonsign</string>
 		<string>trademark</string>
 		<string>degree</string>
 		<string>asterisk</string>
@@ -908,9 +920,6 @@
 		<string>numero</string>
 		<string>asciicircum</string>
 		<string>asciitilde</string>
-		<string>uniE0FF</string>
-		<string>uniEFFD</string>
-		<string>uniF000</string>
 		<string>Aacute</string>
 		<string>Abreve</string>
 		<string>Abreveacute</string>
@@ -1256,6 +1265,7 @@
 		<string>brevebelow</string>
 		<string>commaaccent</string>
 		<string>macronbelow</string>
+		<string>dieresisbelow</string>
 		<string>circumflex_acute</string>
 		<string>circumflex_grave</string>
 		<string>circumflex_hookabove</string>
@@ -1304,7 +1314,6 @@
 		<string>dieresis_macron.uc</string>
 		<string>tilde_macron.uc</string>
 		<string>dotaccent_macron.uc</string>
-		<string>periodcentered.loclCAT</string>
 		<string>engtail</string>
 		<string>horizontalbarH</string>
 		<string>hornu</string>
@@ -1316,15 +1325,6 @@
 		<string>engn</string>
 		<string>horizontalbarlc</string>
 		<string>horizontalbar</string>
-		<string>DZcaron</string>
-		<string>Dzcaron</string>
-		<string>dzcaron</string>
-		<string>LJ</string>
-		<string>Lj</string>
-		<string>lj</string>
-		<string>NJ</string>
-		<string>Nj</string>
-		<string>nj</string>
 	</array>
 	<key>tnCurvePalet</key>
 	<dict>

@@ -1,9 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ohorn" format="1">
-  <advance width="969"/>
+  <advance width="1260"/>
   <unicode hex="01A1"/>
   <outline>
     <component base="o"/>
-    <component base="horn" xOffset="652" yOffset="-21"/>
+    <component base="horn.uc" xOffset="636" yOffset="-551"/>
   </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>1.0</real>
+        <real>0.0</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
 </glyph>
