@@ -2,22 +2,6 @@
 <glyph name="macronbelow" format="1">
   <advance width="1024"/>
   <outline>
-    <contour>
-      <point x="216" y="71" type="line"/>
-      <point x="216" y="227" type="line"/>
-      <point x="808" y="227" type="line"/>
-      <point x="808" y="71" type="line"/>
-    </contour>
+    <component base="macron.uc" yOffset="-1603"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>1.0</real>
-        <real>0.0</real>
-        <real>0.0</real>
-        <real>1.0</real>
-      </array>
-    </dict>
-  </lib>
 </glyph>
