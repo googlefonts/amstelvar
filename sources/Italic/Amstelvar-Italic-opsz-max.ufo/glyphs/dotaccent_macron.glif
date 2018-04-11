@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dotaccent_macron" format="1">
+  <advance width="896"/>
+  <outline>
+    <contour>
+      <point x="439" y="1162" type="qcurve" smooth="yes"/>
+      <point x="439" y="1116"/>
+      <point x="496" y="1059"/>
+      <point x="544" y="1059" type="qcurve" smooth="yes"/>
+      <point x="595" y="1059"/>
+      <point x="649" y="1112"/>
+      <point x="649" y="1162" type="qcurve" smooth="yes"/>
+      <point x="649" y="1208"/>
+      <point x="592" y="1265"/>
+      <point x="544" y="1265" type="qcurve" smooth="yes"/>
+      <point x="493" y="1265"/>
+      <point x="439" y="1212"/>
+    </contour>
+    <contour>
+      <point x="324" y="1421" type="line"/>
+      <point x="324" y="1334" type="line"/>
+      <point x="846" y="1334" type="line"/>
+      <point x="846" y="1421" type="line"/>
+    </contour>
+    <contour>
+      <point x="518" y="1078" type="move" name="top"/>
+    </contour>
+  </outline>
+</glyph>

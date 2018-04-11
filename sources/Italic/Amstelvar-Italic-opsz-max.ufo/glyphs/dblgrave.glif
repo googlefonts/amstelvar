@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dblgrave" format="1">
+  <advance width="896"/>
+  <outline>
+    <contour>
+      <point x="281" y="1356" type="qcurve" smooth="yes"/>
+      <point x="290" y="1378"/>
+      <point x="348" y="1401"/>
+      <point x="375" y="1389" type="qcurve" smooth="yes"/>
+      <point x="399" y="1378"/>
+      <point x="424" y="1316"/>
+      <point x="433" y="1279" type="qcurve"/>
+      <point x="481" y="1070" type="line"/>
+      <point x="444" y="1054" type="line"/>
+      <point x="307" y="1247" type="line"/>
+      <point x="284" y="1279"/>
+      <point x="271" y="1331"/>
+    </contour>
+    <contour>
+      <point x="523" y="1356" type="qcurve" smooth="yes"/>
+      <point x="532" y="1378"/>
+      <point x="590" y="1401"/>
+      <point x="617" y="1389" type="qcurve" smooth="yes"/>
+      <point x="641" y="1378"/>
+      <point x="666" y="1316"/>
+      <point x="675" y="1279" type="qcurve"/>
+      <point x="721" y="1070" type="line"/>
+      <point x="684" y="1054" type="line"/>
+      <point x="549" y="1247" type="line"/>
+      <point x="526" y="1279"/>
+      <point x="513" y="1331"/>
+    </contour>
+    <contour>
+      <point x="571" y="1067" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.0</real>
+        <real>1.0</real>
+        <real>0.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

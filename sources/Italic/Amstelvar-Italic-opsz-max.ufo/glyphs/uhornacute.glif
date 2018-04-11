@@ -4,7 +4,21 @@
   <unicode hex="1EE9"/>
   <outline>
     <component base="hornu"/>
-    <component base="horncomb" xOffset="946.0"/>
-    <component base="acutecomb" xOffset="576.0"/>
+    <component base="horn" xOffset="785" yOffset="9"/>
+    <component base="acute"/>
+    <contour>
+      <point x="1054.0" y="824.0" type="move" name="horn"/>
+    </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.0</real>
+        <real>0.0</real>
+        <real>0.0</real>
+        <real>0.5</real>
+      </array>
+    </dict>
+  </lib>
 </glyph>

@@ -1,9 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Tcommaaccent" format="1">
-  <advance width="1169.0"/>
+  <advance width="1271"/>
   <unicode hex="021A"/>
   <outline>
     <component base="T"/>
-    <component base="commaaccentcomb" xOffset="594.0"/>
+    <component base="commaaccent.uc" xOffset="105"/>
   </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>1.0</real>
+        <real>0.0</real>
+        <real>0.0</real>
+        <real>0.5</real>
+      </array>
+    </dict>
+  </lib>
 </glyph>

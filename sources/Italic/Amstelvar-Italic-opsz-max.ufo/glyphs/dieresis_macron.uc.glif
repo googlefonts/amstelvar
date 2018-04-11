@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dieresis_macron.uc" format="1">
+  <advance width="896"/>
+  <outline>
+    <contour>
+      <point x="424" y="1893" type="line"/>
+      <point x="424" y="1980" type="line"/>
+      <point x="946" y="1980" type="line"/>
+      <point x="946" y="1893" type="line"/>
+    </contour>
+    <contour>
+      <point x="371" y="1716" type="qcurve" smooth="yes"/>
+      <point x="371" y="1760"/>
+      <point x="428" y="1816"/>
+      <point x="473" y="1816" type="qcurve" smooth="yes"/>
+      <point x="518" y="1816"/>
+      <point x="575" y="1760"/>
+      <point x="575" y="1716" type="qcurve" smooth="yes"/>
+      <point x="575" y="1673"/>
+      <point x="518" y="1617"/>
+      <point x="473" y="1617" type="qcurve" smooth="yes"/>
+      <point x="428" y="1617"/>
+      <point x="371" y="1673"/>
+    </contour>
+    <contour>
+      <point x="711" y="1716" type="qcurve" smooth="yes"/>
+      <point x="711" y="1760"/>
+      <point x="768" y="1816"/>
+      <point x="813" y="1816" type="qcurve" smooth="yes"/>
+      <point x="858" y="1816"/>
+      <point x="915" y="1760"/>
+      <point x="915" y="1716" type="qcurve" smooth="yes"/>
+      <point x="915" y="1673"/>
+      <point x="858" y="1617"/>
+      <point x="813" y="1617" type="qcurve" smooth="yes"/>
+      <point x="768" y="1617"/>
+      <point x="711" y="1673"/>
+    </contour>
+    <contour>
+      <point x="654" y="1621" type="move" name="top"/>
+    </contour>
+  </outline>
+</glyph>
