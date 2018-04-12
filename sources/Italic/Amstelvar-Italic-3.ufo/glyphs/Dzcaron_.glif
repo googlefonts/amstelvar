@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Dzcaron" format="1">
+  <advance width="2334"/>
+  <unicode hex="01C5"/>
+  <outline>
+    <component base="D"/>
+    <component base="z" xOffset="1449"/>
+    <component base="caron" xOffset="1363" yOffset="-20"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>1.0</real>
+        <real>1.0</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

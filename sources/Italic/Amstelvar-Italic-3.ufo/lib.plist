@@ -2,6 +2,13 @@
 <!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>com.typemytype.robofont.foreground.layerStrokeColor</key>
+	<array>
+		<real>0.5</real>
+		<real>0.0</real>
+		<real>0.5</real>
+		<real>0.7</real>
+	</array>
 	<key>com.typemytype.robofont.layerOrder</key>
 	<array>
 	</array>
@@ -624,8 +631,11 @@
 				<string>horizontalbarlc</string>
 				<string>horizontalbar</string>
 				<string>dieresisbelow</string>
+				<string>Dzcaron</string>
 				<string>dzcaron</string>
+				<string>LJ</string>
 				<string>lj</string>
+				<string>NJ</string>
 				<string>nj</string>
 				<string>f.altbegin</string>
 				<string>f.altend</string>
@@ -1250,8 +1260,11 @@
 		<string>horizontalbarlc</string>
 		<string>horizontalbar</string>
 		<string>dieresisbelow</string>
+		<string>Dzcaron</string>
 		<string>dzcaron</string>
+		<string>LJ</string>
 		<string>lj</string>
+		<string>NJ</string>
 		<string>nj</string>
 		<string>f.altbegin</string>
 		<string>f.altend</string>

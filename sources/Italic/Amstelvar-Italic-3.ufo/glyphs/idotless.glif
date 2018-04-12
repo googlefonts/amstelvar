@@ -19,7 +19,31 @@
       <point x="514" y="76" type="line"/>
     </contour>
     <contour>
-      <point x="380" y="1000" type="move" name="top"/>
+      <point x="225.0" y="0.0" type="move" name="ogonek"/>
+    </contour>
+    <contour>
+      <point x="180.0" y="0.0" type="move" name="bottom"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.guides</key>
+      <array>
+        <dict>
+          <key>angle</key>
+          <real>79.0</real>
+          <key>isGlobal</key>
+          <false/>
+          <key>magnetic</key>
+          <integer>5</integer>
+          <key>name</key>
+          <string></string>
+          <key>x</key>
+          <integer>380</integer>
+          <key>y</key>
+          <integer>1000</integer>
+        </dict>
+      </array>
+    </dict>
+  </lib>
 </glyph>
