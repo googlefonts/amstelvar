@@ -42,6 +42,23 @@
 		<real>0.6924212208413115</real>
 		<real>0.3</real>
 	</array>
+	<key>com.typemytype.robofont.guides</key>
+	<array>
+		<dict>
+			<key>angle</key>
+			<integer>0</integer>
+			<key>isGlobal</key>
+			<integer>1</integer>
+			<key>magnetic</key>
+			<integer>5</integer>
+			<key>name</key>
+			<string>accent ht</string>
+			<key>x</key>
+			<integer>371</integer>
+			<key>y</key>
+			<integer>-123</integer>
+		</dict>
+	</array>
 	<key>com.typemytype.robofont.italicSlantOffset</key>
 	<real>-100.0</real>
 	<key>com.typemytype.robofont.layerOrder</key>
@@ -650,7 +667,6 @@
 				<string>dblgrave.uc</string>
 				<string>breveinverted.uc</string>
 				<string>commaturnedabove.uc</string>
-				<string>horn.uc</string>
 				<string>dotbelow.uc</string>
 				<string>cedilla.uc</string>
 				<string>ogonek.uc</string>
@@ -673,6 +689,7 @@
 				<string>periodcentered.loclCAT</string>
 				<string>engtail</string>
 				<string>horizontalbarH</string>
+				<string>horn.uc</string>
 				<string>hornU</string>
 				<string>strokeshort</string>
 				<string>diagonalbarO</string>
@@ -1293,7 +1310,6 @@
 		<string>dblgrave.uc</string>
 		<string>breveinverted.uc</string>
 		<string>commaturnedabove.uc</string>
-		<string>horn.uc</string>
 		<string>dotbelow.uc</string>
 		<string>cedilla.uc</string>
 		<string>ogonek.uc</string>
@@ -1316,6 +1332,7 @@
 		<string>periodcentered.loclCAT</string>
 		<string>engtail</string>
 		<string>horizontalbarH</string>
+		<string>horn.uc</string>
 		<string>hornU</string>
 		<string>strokeshort</string>
 		<string>diagonalbarO</string>
