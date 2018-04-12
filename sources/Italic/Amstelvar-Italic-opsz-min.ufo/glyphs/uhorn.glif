@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uhorn" format="1">
-  <advance width="1171"/>
+  <advance width="1471"/>
   <unicode hex="01B0"/>
   <outline>
-    <component base="hornu"/>
-    <component base="horn" xOffset="997"/>
+    <component base="horn" xOffset="1005" yOffset="-23"/>
+    <component base="u"/>
     <contour>
       <point x="1054.0" y="824.0" type="move" name="horn"/>
     </contour>
