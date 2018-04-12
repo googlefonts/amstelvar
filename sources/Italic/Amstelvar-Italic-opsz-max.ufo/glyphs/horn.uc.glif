@@ -4,28 +4,126 @@
   <outline>
     <contour>
       <point x="191" y="1500" type="line"/>
-      <point x="227" y="1489"/>
-      <point x="311" y="1477"/>
-      <point x="342" y="1477" type="qcurve" smooth="yes"/>
-      <point x="420" y="1477"/>
-      <point x="515" y="1564"/>
-      <point x="515" y="1699" type="qcurve" smooth="yes"/>
-      <point x="515" y="1714"/>
-      <point x="516" y="1749"/>
-      <point x="515" y="1768" type="qcurve"/>
-      <point x="557" y="1768" type="line"/>
-      <point x="566" y="1735"/>
-      <point x="576" y="1673"/>
-      <point x="576" y="1645" type="qcurve" smooth="yes"/>
-      <point x="576" y="1521"/>
-      <point x="444" y="1415"/>
-      <point x="339" y="1416" type="qcurve" smooth="yes"/>
-      <point x="302" y="1416"/>
-      <point x="229" y="1430"/>
-      <point x="180" y="1449" type="qcurve"/>
+      <point x="240" y="1491"/>
+      <point x="310" y="1483"/>
+      <point x="339" y="1483" type="qcurve" smooth="yes"/>
+      <point x="433" y="1483"/>
+      <point x="506" y="1587"/>
+      <point x="506" y="1708" type="qcurve" smooth="yes"/>
+      <point x="506" y="1723"/>
+      <point x="506" y="1754"/>
+      <point x="506" y="1770" type="qcurve"/>
+      <point x="543" y="1770" type="line"/>
+      <point x="556" y="1732"/>
+      <point x="570" y="1659"/>
+      <point x="570" y="1627" type="qcurve" smooth="yes"/>
+      <point x="570" y="1532"/>
+      <point x="460" y="1415"/>
+      <point x="345" y="1415" type="qcurve" smooth="yes"/>
+      <point x="309" y="1415"/>
+      <point x="228" y="1430"/>
+      <point x="179" y="1444" type="qcurve"/>
     </contour>
     <contour>
-      <point x="192" y="1501" type="move" name="horn"/>
+      <point x="-303.0" y="0.0" type="move" name="ogonek"/>
+    </contour>
+    <contour>
+      <point x="-493.0" y="0.0" type="move" name="bottom"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.layerData</key>
+      <dict>
+        <key>backgroud</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+          </array>
+          <key>components</key>
+          <array>
+          </array>
+          <key>contours</key>
+          <array>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>hornU</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>1291</integer>
+        </dict>
+        <key>background</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+          </array>
+          <key>components</key>
+          <array>
+          </array>
+          <key>contours</key>
+          <array>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>hornU</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>1291</integer>
+        </dict>
+        <key>bnackground</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+          </array>
+          <key>components</key>
+          <array>
+          </array>
+          <key>contours</key>
+          <array>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>hornU</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>1291</integer>
+        </dict>
+        <key>original</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+          </array>
+          <key>components</key>
+          <array>
+          </array>
+          <key>contours</key>
+          <array>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>hornU</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>1291</integer>
+        </dict>
+      </dict>
+    </dict>
+  </lib>
 </glyph>
