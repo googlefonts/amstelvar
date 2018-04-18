@@ -55,24 +55,25 @@ sources = [
 	dict(path="master_ufo/AmstelvarAlpha-YTRA-min.ufo", name="AmstelvarAlpha-YTRA-min.ufo", location=dict(ytransparent=800), styleName="YTRA-min", familyName=familyName, copyInfo=False),
 	dict(path="master_ufo/AmstelvarAlpha-YTRA-max.ufo", name="AmstelvarAlpha-YTRA-max.ufo", location=dict(ytransparent=1200), styleName="YTRA-max", familyName=familyName, copyInfo=False),
 ]
+
 axes = [
-	dict(minimum=100, maximum=900, default=400, name="weight", tag="wght", labelNames={"en": "Weight"}, map=[]),
-	dict(minimum=35, maximum=100, default=100, name="width", tag="wdth", labelNames={"en": "Width"}, map=[]),
 	dict(minimum=10, maximum=72, default=14, name="opticalsize", tag="opsz", labelNames={"en": "Optical Size"}, map=[]),
+	dict(minimum=100, maximum=900, default=400, name="weight", tag="wght", labelNames={"en": "Weight"}, map=[]),
+	dict(minimum=38, maximum=250, default=88, name="paraweight", tag="PWGT", labelNames={"en": "Para Weight"}, map=[]),
+	dict(minimum=35, maximum=100, default=100, name="width", tag="wdth", labelNames={"en": "Width"}, map=[]),
+	dict(minimum=60, maximum=402, default=402, name="parawidth", tag="PWDT", labelNames={"en": "Para Width"}, map=[]),
+	dict(minimum=88, maximum=150, default=88, name="grade", tag="GRAD", labelNames={"en": "Grade"}, map=[]),
 	dict(minimum=5, maximum=500, default=88, name="xopaque", tag="XOPQ", labelNames={"en": "x opaque"}, map=[]),
 	dict(minimum=42, maximum=402, default=402, name="xtransparent", tag="XTRA", labelNames={"en": "x transparent"}, map=[]),
 	dict(minimum=4, maximum=85, default=50, name="yopaque", tag="YOPQ", labelNames={"en": "y opaque"}, map=[]),
+	dict(minimum=650, maximum=950, default=750, name="ytransuc", tag="YTUC", labelNames={"en": "y transparent uppercase"}, map=[]),
 	dict(minimum=445, maximum=600, default=500, name="lcytransparent", tag="YTLC", labelNames={"en": "lc y transparent"}, map=[]),
+	dict(minimum=650, maximum=850, default=750, name="ytransas", tag="YTAS", labelNames={"en": "y transparent ascender"}, map=[]),
+	dict(minimum=150, maximum=350, default=250, name="ytransde", tag="YTDE", labelNames={"en": "y transparent descender"}, map=[]),	
 	dict(minimum=0, maximum=48, default=18, name="serifheight", tag="YTSE", labelNames={"en": "Serif height"}, map=[]),
-	dict(minimum=88, maximum=150, default=88, name="grade", tag="GRAD", labelNames={"en": "Grade"}, map=[]),
+	dict(minimum=800, maximum=1200, default=1000, name="ytransparent", tag="YTRA", labelNames={"en": "y transparent"}, map=[]),
 	dict(minimum=800, maximum=1200, default=1000, name="xtransch", tag="XTCH", labelNames={"en": "x transparent Chinese"}, map=[]),
 	dict(minimum=800, maximum=1200, default=1000, name="ytransch", tag="YTCH", labelNames={"en": "y transparent Chinese"}, map=[]),
-	dict(minimum=650, maximum=850, default=750, name="ytransas", tag="YTAS", labelNames={"en": "y transparent ascender"}, map=[]),
-	dict(minimum=150, maximum=350, default=250, name="ytransde", tag="YTDE", labelNames={"en": "y transparent descender"}, map=[]),
-	dict(minimum=650, maximum=950, default=750, name="ytransuc", tag="YTUC", labelNames={"en": "y transparent uppercase"}, map=[]),
-	dict(minimum=800, maximum=1200, default=1000, name="ytransparent", tag="YTRA", labelNames={"en": "y transparent"}, map=[]),
-	dict(minimum=38, maximum=250, default=88, name="paraweight", tag="PWGT", labelNames={"en": "Para Weight"}, map=[]),
-	dict(minimum=60, maximum=402, default=402, name="parawidth", tag="PWDT", labelNames={"en": "Para Width"}, map=[]),
 ]
 
 instances = [
