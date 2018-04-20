@@ -4,6 +4,28 @@
         <axis default="12" minimum="8" maximum="144"  name="opsz" tag="opsz">
             <labelname xml:lang="en">Optical Size</labelname>
         </axis>
+        
+        <axis default="1000" minimum="850" maximum="1140"  name="YTLC" tag="YTLC">
+            <labelname xml:lang="en">y transparent lowercase</labelname>
+        </axis>
+        
+        <axis default="1500" minimum="1000" maximum="2000"  name="YTUC" tag="YTUC">
+            <labelname xml:lang="en">y transparent uppercase</labelname>
+        </axis>
+        
+        <axis default="1500" minimum="850" maximum="2000"  name="YTFG" tag="YTFG">
+            <labelname xml:lang="en">y transparent figure height</labelname>
+        </axis>
+        
+        <axis default="-480" minimum="-1000" maximum="-276"  name="YTDE" tag="YTDE">
+            <labelname xml:lang="en">y transparent lowercase descender</labelname>
+        </axis>
+
+        
+        <axis default="1500" minimum="1000" maximum="2000"  name="YTAS" tag="YTAS">
+            <labelname xml:lang="en">y transparent lowercase ascender</labelname>
+        </axis>
+        
     </axes>
     <sources>
 
@@ -28,6 +50,89 @@
                 <dimension name="opsz" xvalue="144" />
             </location>
         </source>
+
+
+        <source familyname="Amstelvar" filename="Roman/Amstelvar-Roman-YTLC-min.ufo" name="Amstelvar-Roman-YTLC-min" stylename="Roman-YTLC-min">
+
+            <location>
+                <dimension name="YTLC" xvalue="850" />
+            </location>
+        </source>
+
+
+        <source familyname="Amstelvar" filename="Roman/Amstelvar-Roman-YTLC-max.ufo" name="Amstelvar-Roman-YTLC-max" stylename="Roman-YTLC-max">
+
+            <location>
+                <dimension name="YTLC" xvalue="1140" />
+            </location>
+        </source>
+
+
+        <source familyname="Amstelvar" filename="Roman/Amstelvar-Roman-YTUC-min.ufo" name="Amstelvar-Roman-YTUC-min" stylename="Roman-YTUC-min">
+
+            <location>
+                <dimension name="YTUC" xvalue="1000" />
+            </location>
+        </source>
+
+
+        <source familyname="Amstelvar" filename="Roman/Amstelvar-Roman-YTUC-max.ufo" name="Amstelvar-Roman-YTUC-max" stylename="Roman-YTUC-max">
+
+            <location>
+                <dimension name="YTUC" xvalue="2000" />
+            </location>
+        </source>
+        
+        
+        
+        <source familyname="Amstelvar" filename="Roman/Amstelvar-Roman-YTFG-min.ufo" name="Amstelvar-Roman-YTFG-min" stylename="Roman-YTFG-min">
+
+            <location>
+                <dimension name="YTFG" xvalue="850" />
+            </location>
+        </source>
+
+
+        <source familyname="Amstelvar" filename="Roman/Amstelvar-Roman-YTFG-max.ufo" name="Amstelvar-Roman-YTFG-max" stylename="Roman-YTFG-max">
+
+            <location>
+                <dimension name="YTFG" xvalue="2000" />
+            </location>
+        </source>
+
+
+        <source familyname="Amstelvar" filename="Roman/Amstelvar-Roman-YTDE-min.ufo" name="Amstelvar-Roman-YTDE-min" stylename="Roman-YTDE-min">
+
+            <location>
+                <dimension name="YTDE" xvalue="-1000" />
+            </location>
+        </source>
+
+
+        <source familyname="Amstelvar" filename="Roman/Amstelvar-Roman-YTDE-max.ufo" name="Amstelvar-Roman-YTDE-max" stylename="Roman-YTDE-max">
+
+            <location>
+                <dimension name="YTDE" xvalue="-276" />
+            </location>
+        </source>
+
+
+
+        <source familyname="Amstelvar" filename="Roman/Amstelvar-Roman-YTAS-min.ufo" name="Amstelvar-Roman-YTAS-min" stylename="Roman-YTAS-min">
+
+            <location>
+                <dimension name="YTAS" xvalue="1000" />
+            </location>
+        </source>
+
+
+        <source familyname="Amstelvar" filename="Roman/Amstelvar-Roman-YTAS-max.ufo" name="Amstelvar-Roman-YTAS-max" stylename="Roman-YTAS-max">
+
+            <location>
+                <dimension name="YTAS" xvalue="2000" />
+            </location>
+        </source>
+
 
 
     </sources>

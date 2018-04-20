@@ -4,8 +4,19 @@ from fontTools.varLib import build
 # Roman
 
 romans = [
-	"Roman/Amstelvar-Roman.ufo",
-#	"Roman/Amstelvar-opszmax.ufo",
+	"Roman/Amstelvar-Roman-3.ufo",
+"Roman/Amstelvar-Roman-YTUC-min.ufo",
+"Roman/Amstelvar-Roman-YTUC-max.ufo",
+"Roman/Amstelvar-Roman-YTLC-min.ufo",
+"Roman/Amstelvar-Roman-YTLC-max.ufo",
+"Roman/Amstelvar-Roman-YTFG-min.ufo",
+"Roman/Amstelvar-Roman-YTFG-max.ufo",
+"Roman/Amstelvar-Roman-YTDE-min.ufo",
+"Roman/Amstelvar-Roman-YTDE-max.ufo",
+"Roman/Amstelvar-Roman-YTAS-min.ufo",
+"Roman/Amstelvar-Roman-YTAS-max.ufo",
+"Roman/Amstelvar-Roman-opsz-min.ufo",
+"Roman/Amstelvar-Roman-opsz-max.ufo",
 ]
 
 project = FontProject()
@@ -27,7 +38,7 @@ print "DONE!"
 # Italic
 
 italics = [
-	"Italic/Amstelvar-Italic.ufo",
+	"Italic/Amstelvar-Italic-3.ufo",
 #	"Italic/Amstelvar-ital-opszmax.ufo",
 ]
 
