@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Ohorn" format="1">
+  <advance width="1664"/>
+  <unicode hex="01A0"/>
+  <outline>
+    <component base="O"/>
+    <component base="horn.uc" xOffset="971" yOffset="-98"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.2584</real>
+        <real>0.6182</real>
+        <real>0.2767</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Atilde" format="1">
+  <advance width="1506"/>
+  <unicode hex="00C3"/>
+  <outline>
+    <component base="A"/>
+    <component base="tilde.uc" xOffset="241" yOffset="-40"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.2584</real>
+        <real>0.6182</real>
+        <real>0.2767</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

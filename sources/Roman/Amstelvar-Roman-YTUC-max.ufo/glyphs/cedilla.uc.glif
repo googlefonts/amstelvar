@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="cedilla.uc" format="1">
+  <advance width="1024"/>
+  <outline>
+    <contour>
+      <point x="563" y="-4" type="line"/>
+      <point x="497" y="-139" type="line"/>
+      <point x="513" y="-135"/>
+      <point x="571" y="-126"/>
+      <point x="601" y="-126" type="qcurve" smooth="yes"/>
+      <point x="677" y="-126"/>
+      <point x="788" y="-225"/>
+      <point x="788" y="-317" type="qcurve" smooth="yes"/>
+      <point x="788" y="-422"/>
+      <point x="643" y="-536"/>
+      <point x="545" y="-536" type="qcurve" smooth="yes"/>
+      <point x="456" y="-536"/>
+      <point x="296" y="-498"/>
+      <point x="237" y="-450" type="qcurve"/>
+      <point x="289" y="-341" type="line"/>
+      <point x="321" y="-364"/>
+      <point x="446" y="-412"/>
+      <point x="510" y="-412" type="qcurve" smooth="yes"/>
+      <point x="554" y="-412"/>
+      <point x="625" y="-360"/>
+      <point x="625" y="-316" type="qcurve" smooth="yes"/>
+      <point x="625" y="-271"/>
+      <point x="566" y="-226"/>
+      <point x="514" y="-226" type="qcurve" smooth="yes"/>
+      <point x="483" y="-226"/>
+      <point x="434" y="-234"/>
+      <point x="417" y="-240" type="qcurve"/>
+      <point x="358" y="-160" type="line"/>
+      <point x="467" y="51" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.layerData</key>
+      <dict>
+        <key>background</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+          </array>
+          <key>components</key>
+          <array>
+          </array>
+          <key>contours</key>
+          <array>
+            <dict>
+              <key>points</key>
+              <array>
+                <dict>
+                  <key>segmentType</key>
+                  <string>qcurve</string>
+                  <key>smooth</key>
+                  <true/>
+                  <key>x</key>
+                  <real>375.5</real>
+                  <key>y</key>
+                  <integer>-287</integer>
+                </dict>
+                <dict>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <real>375.5</real>
+                  <key>y</key>
+                  <integer>-230</integer>
+                </dict>
+                <dict>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <real>437.5</real>
+                  <key>y</key>
+                  <integer>-169</integer>
+                </dict>
+                <dict>
+                  <key>segmentType</key>
+                  <string>qcurve</string>
+                  <key>smooth</key>
+                  <true/>
+                  <key>x</key>
+                  <real>496.5</real>
+                  <key>y</key>
+                  <integer>-169</integer>
+                </dict>
+                <dict>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <real>551.5</real>
+                  <key>y</key>
+                  <integer>-169</integer>
+                </dict>
+                <dict>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <real>617.5</real>
+                  <key>y</key>
+                  <integer>-234</integer>
+                </dict>
+                <dict>
+                  <key>segmentType</key>
+                  <string>qcurve</string>
+                  <key>smooth</key>
+                  <true/>
+                  <key>x</key>
+                  <real>617.5</real>
+                  <key>y</key>
+                  <integer>-287</integer>
+                </dict>
+                <dict>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <real>617.5</real>
+                  <key>y</key>
+                  <integer>-344</integer>
+                </dict>
+                <dict>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <real>555.5</real>
+                  <key>y</key>
+                  <integer>-405</integer>
+                </dict>
+                <dict>
+                  <key>segmentType</key>
+                  <string>qcurve</string>
+                  <key>smooth</key>
+                  <true/>
+                  <key>x</key>
+                  <real>496.5</real>
+                  <key>y</key>
+                  <integer>-405</integer>
+                </dict>
+                <dict>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <real>441.5</real>
+                  <key>y</key>
+                  <integer>-405</integer>
+                </dict>
+                <dict>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <real>375.5</real>
+                  <key>y</key>
+                  <integer>-340</integer>
+                </dict>
+              </array>
+            </dict>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>cedilla.uc</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>1024</integer>
+        </dict>
+      </dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.884</real>
+        <real>0.8791</real>
+        <real>0.0317</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

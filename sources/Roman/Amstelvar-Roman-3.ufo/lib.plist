@@ -4,16 +4,16 @@
 <dict>
 	<key>com.typemytype.robofont.backgroud.layerStrokeColor</key>
 	<array>
-		<real>0.5</real>
 		<real>1.0</real>
+		<real>0.75</real>
 		<real>0.0</real>
 		<real>0.7</real>
 	</array>
 	<key>com.typemytype.robofont.background.layerStrokeColor</key>
 	<array>
-		<real>0.8</real>
-		<real>0.11956627464065105</real>
-		<real>0.7882997809796162</real>
+		<real>0.4954812824726105</real>
+		<real>0.7630030512809753</real>
+		<real>0.8107955455780029</real>
 		<real>0.25</real>
 	</array>
 	<key>com.typemytype.robofont.compileSettings.autohint</key>
@@ -40,13 +40,13 @@
 	<key>com.typemytype.robofont.layerOrder</key>
 	<array>
 		<string>background</string>
-		<string>original</string>
 		<string>backgroud</string>
+		<string>original</string>
 	</array>
 	<key>com.typemytype.robofont.original.layerStrokeColor</key>
 	<array>
+		<real>0.5</real>
 		<real>1.0</real>
-		<real>0.75</real>
 		<real>0.0</real>
 		<real>0.7</real>
 	</array>
@@ -159,11 +159,6 @@
 				<string>Schwa</string>
 				<string>schwa</string>
 				<string>micro</string>
-				<string>Dzcaron</string>
-				<string>dzcaron</string>
-				<string>LJ</string>
-				<string>lj</string>
-				<string>nj</string>
 				<string>fi</string>
 				<string>fl</string>
 				<string>f_f</string>
@@ -189,6 +184,7 @@
 				<string>liraTurkish</string>
 				<string>manat</string>
 				<string>ruble</string>
+				<string>colonsign</string>
 				<string>currency</string>
 				<string>exclam</string>
 				<string>exclamdown</string>
@@ -259,7 +255,6 @@
 				<string>copyright</string>
 				<string>registered</string>
 				<string>commercialMinusSign</string>
-				<string>colonsign</string>
 				<string>trademark</string>
 				<string>degree</string>
 				<string>asterisk</string>
@@ -271,6 +266,9 @@
 				<string>numero</string>
 				<string>asciicircum</string>
 				<string>asciitilde</string>
+				<string>uniE0FF</string>
+				<string>uniEFFD</string>
+				<string>uniF000</string>
 				<string>Aacute</string>
 				<string>Abreve</string>
 				<string>Abreveacute</string>
@@ -616,7 +614,6 @@
 				<string>brevebelow</string>
 				<string>commaaccent</string>
 				<string>macronbelow</string>
-				<string>dieresisbelow</string>
 				<string>circumflex_acute</string>
 				<string>circumflex_grave</string>
 				<string>circumflex_hookabove</string>
@@ -665,6 +662,7 @@
 				<string>dieresis_macron.uc</string>
 				<string>tilde_macron.uc</string>
 				<string>dotaccent_macron.uc</string>
+				<string>periodcentered.loclCAT</string>
 				<string>engtail</string>
 				<string>horizontalbarH</string>
 				<string>hornu</string>
@@ -676,6 +674,18 @@
 				<string>engn</string>
 				<string>horizontalbarlc</string>
 				<string>horizontalbar</string>
+				<string>dieresisbelow</string>
+				<string>Dzcaron</string>
+				<string>Dzcaron</string>
+				<string>dzcaron</string>
+				<string>LJ</string>
+				<string>LJ</string>
+				<string>lj</string>
+				<string>NJ</string>
+				<string>NJ</string>
+				<string>nj</string>
+				<string>DZcaron</string>
+				<string>Lj</string>
 				<string>Nj</string>
 			</array>
 			<key>type</key>
@@ -795,11 +805,6 @@
 		<string>Schwa</string>
 		<string>schwa</string>
 		<string>micro</string>
-		<string>Dzcaron</string>
-		<string>dzcaron</string>
-		<string>LJ</string>
-		<string>lj</string>
-		<string>nj</string>
 		<string>fi</string>
 		<string>fl</string>
 		<string>f_f</string>
@@ -825,6 +830,7 @@
 		<string>liraTurkish</string>
 		<string>manat</string>
 		<string>ruble</string>
+		<string>colonsign</string>
 		<string>currency</string>
 		<string>exclam</string>
 		<string>exclamdown</string>
@@ -895,7 +901,6 @@
 		<string>copyright</string>
 		<string>registered</string>
 		<string>commercialMinusSign</string>
-		<string>colonsign</string>
 		<string>trademark</string>
 		<string>degree</string>
 		<string>asterisk</string>
@@ -907,6 +912,9 @@
 		<string>numero</string>
 		<string>asciicircum</string>
 		<string>asciitilde</string>
+		<string>uniE0FF</string>
+		<string>uniEFFD</string>
+		<string>uniF000</string>
 		<string>Aacute</string>
 		<string>Abreve</string>
 		<string>Abreveacute</string>
@@ -1252,7 +1260,6 @@
 		<string>brevebelow</string>
 		<string>commaaccent</string>
 		<string>macronbelow</string>
-		<string>dieresisbelow</string>
 		<string>circumflex_acute</string>
 		<string>circumflex_grave</string>
 		<string>circumflex_hookabove</string>
@@ -1301,6 +1308,7 @@
 		<string>dieresis_macron.uc</string>
 		<string>tilde_macron.uc</string>
 		<string>dotaccent_macron.uc</string>
+		<string>periodcentered.loclCAT</string>
 		<string>engtail</string>
 		<string>horizontalbarH</string>
 		<string>hornu</string>
@@ -1312,6 +1320,18 @@
 		<string>engn</string>
 		<string>horizontalbarlc</string>
 		<string>horizontalbar</string>
+		<string>dieresisbelow</string>
+		<string>Dzcaron</string>
+		<string>Dzcaron</string>
+		<string>dzcaron</string>
+		<string>LJ</string>
+		<string>LJ</string>
+		<string>lj</string>
+		<string>NJ</string>
+		<string>NJ</string>
+		<string>nj</string>
+		<string>DZcaron</string>
+		<string>Lj</string>
 		<string>Nj</string>
 	</array>
 	<key>tnCurvePalet</key>

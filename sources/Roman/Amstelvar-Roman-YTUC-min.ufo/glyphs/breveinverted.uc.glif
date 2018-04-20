@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="breveinverted.uc" format="1">
+  <advance width="1024"/>
+  <outline>
+    <contour>
+      <point x="222" y="1168" type="qcurve"/>
+      <point x="129" y="1232" type="line"/>
+      <point x="168" y="1323"/>
+      <point x="369" y="1476"/>
+      <point x="513" y="1476" type="qcurve" smooth="yes"/>
+      <point x="641" y="1476"/>
+      <point x="848" y="1336"/>
+      <point x="896" y="1231" type="qcurve"/>
+      <point x="796" y="1168" type="line"/>
+      <point x="753" y="1225"/>
+      <point x="608" y="1321"/>
+      <point x="513" y="1321" type="qcurve" smooth="yes"/>
+      <point x="411" y="1321"/>
+      <point x="265" y="1230"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.884</real>
+        <real>0.8791</real>
+        <real>0.0317</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>
