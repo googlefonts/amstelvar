@@ -26,6 +26,11 @@
             <labelname xml:lang="en">y transparent lowercase ascender</labelname>
         </axis>
         
+        <axis default="35" minimum="0" maximum="100"  name="YTSE" tag="YTSE">
+            <labelname xml:lang="en">Serif rise</labelname>
+        </axis>
+        
+        
     </axes>
     <sources>
 
@@ -130,6 +135,22 @@
 
             <location>
                 <dimension name="YTAS" xvalue="2000" />
+            </location>
+        </source>
+
+
+        <source familyname="Amstelvar" filename="Roman/Amstelvar-Roman-YTSE-max.ufo" name="Amstelvar-Roman-YTSE-min" stylename="Roman-YTSE-min">
+
+            <location>
+                <dimension name="YTSE" xvalue="0" />
+            </location>
+        </source>
+
+
+        <source familyname="Amstelvar" filename="Roman/Amstelvar-Roman-YTSE-min.ufo" name="Amstelvar-Roman-YTSE-max" stylename="Roman-YTSE-max">
+
+            <location>
+                <dimension name="YTSE" xvalue="100" />
             </location>
         </source>
 
