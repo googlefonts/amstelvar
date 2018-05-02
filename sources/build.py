@@ -40,6 +40,7 @@ spaces = [
             "Roman/Amstelvar-Roman-opsz-max.ufo",
             "Roman/Amstelvar-Roman-YTSE-min.ufo",
             "Roman/Amstelvar-Roman-YTSE-max.ufo",
+            "Roman/Amstelvar-Roman-XOPQ-min.ufo",
         ],
         "../fonts/Amstelvar-Roman-VF.ttf", # outfile
         "Roman/", # pathreplace

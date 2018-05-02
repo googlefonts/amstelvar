@@ -27,7 +27,11 @@
         </axis>
         
         <axis default="35" minimum="0" maximum="100"  name="YTSE" tag="YTSE">
-            <labelname xml:lang="en">Serif rise</labelname>
+            <labelname xml:lang="en">serif rise</labelname>
+        </axis>
+        
+        <axis default="35" minimum="0" maximum="100"  name="XOPQ" tag="XOPQ">
+            <labelname xml:lang="en">x opaque</labelname>
         </axis>
         
         
