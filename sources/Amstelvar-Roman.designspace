@@ -30,7 +30,7 @@
             <labelname xml:lang="en">serif rise</labelname>
         </axis>
         
-        <axis default="35" minimum="0" maximum="100"  name="XOPQ" tag="XOPQ">
+        <axis default="176" minimum="36" maximum="176"  name="XOPQ" tag="XOPQ">
             <labelname xml:lang="en">x opaque</labelname>
         </axis>
         
@@ -143,7 +143,7 @@
         </source>
 
 
-        <source familyname="Amstelvar" filename="Roman/Amstelvar-Roman-YTSE-max.ufo" name="Amstelvar-Roman-YTSE-min" stylename="Roman-YTSE-min">
+        <source familyname="Amstelvar" filename="Roman/Amstelvar-Roman-YTSE-max.ufo" name="Amstelvar-Roman-YTSE-max" stylename="Roman-YTSE-min">
 
             <location>
                 <dimension name="YTSE" xvalue="0" />
@@ -151,13 +151,21 @@
         </source>
 
 
-        <source familyname="Amstelvar" filename="Roman/Amstelvar-Roman-YTSE-min.ufo" name="Amstelvar-Roman-YTSE-max" stylename="Roman-YTSE-max">
+        <source familyname="Amstelvar" filename="Roman/Amstelvar-Roman-YTSE-min.ufo" name="Amstelvar-Roman-YTSE-min" stylename="Roman-YTSE-max">
 
             <location>
                 <dimension name="YTSE" xvalue="100" />
             </location>
         </source>
 
+
+
+        <source familyname="Amstelvar" filename="Roman/Amstelvar-Roman-XOPQ-min.ufo" name="Amstelvar-Roman-XOPQ-min" stylename="Roman-XOPQ-min">
+
+            <location>
+                <dimension name="XOPQ" xvalue="36" />
+            </location>
+        </source>
 
 
     </sources>
