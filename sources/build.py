@@ -129,7 +129,7 @@ for space in spaces:
                     g = f[gname]
 
                     if g.name not in f or ( g.name in f and not f[g.name].contours and not f[g.name].components ):
-                        f.insertGlyph(g, g.name)
+                        f.insertGlyph(g, name=g.name)
 
 
             
