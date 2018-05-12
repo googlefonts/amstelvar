@@ -1,25 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="apostrophemod" format="1">
+<glyph name="apostrophemod" format="2">
   <advance width="600"/>
   <unicode hex="02BC"/>
   <outline>
     <contour>
-      <point x="155" y="1062" type="line"/>
-      <point x="195" y="1092"/>
-      <point x="299" y="1210"/>
-      <point x="314" y="1277" type="qcurve"/>
-      <point x="243" y="1277"/>
-      <point x="163" y="1352"/>
-      <point x="163" y="1411" type="qcurve" smooth="yes"/>
-      <point x="163" y="1469"/>
-      <point x="244" y="1546"/>
-      <point x="307" y="1546" type="qcurve" smooth="yes"/>
-      <point x="366" y="1546"/>
-      <point x="462" y="1450"/>
-      <point x="462" y="1373" type="qcurve" smooth="yes"/>
-      <point x="462" y="1251"/>
-      <point x="303" y="1063"/>
-      <point x="198" y="1013" type="qcurve"/>
+      <point x="154.0" y="1064.0" type="line"/>
+      <point x="190.0" y="1092.0"/>
+      <point x="289.0" y="1194.0"/>
+      <point x="306.0" y="1258.0" type="qcurve" smooth="yes"/>
+      <point x="316.0" y="1296.0"/>
+      <point x="323.0" y="1350.0"/>
+      <point x="323.0" y="1405.0" type="qcurve" smooth="yes"/>
+      <point x="323.0" y="1459.0"/>
+      <point x="338.0" y="1530.0"/>
+      <point x="377.0" y="1530.0" type="qcurve" smooth="yes"/>
+      <point x="410.0" y="1530.0"/>
+      <point x="438.0" y="1467.0"/>
+      <point x="438.0" y="1395.0" type="qcurve" smooth="yes"/>
+      <point x="438.0" y="1281.0"/>
+      <point x="293.0" y="1066.0"/>
+      <point x="201.0" y="1011.0" type="qcurve"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.Image.Brightness</key>
+      <integer>0</integer>
+      <key>com.typemytype.robofont.Image.Contrast</key>
+      <integer>1</integer>
+      <key>com.typemytype.robofont.Image.Saturation</key>
+      <integer>1</integer>
+      <key>com.typemytype.robofont.Image.Sharpness</key>
+      <real>0.4</real>
+    </dict>
+  </lib>
 </glyph>
