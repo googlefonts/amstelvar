@@ -3,7 +3,7 @@ from fontTools.varLib import build
 from fontTools.ttLib import TTFont
 import os
 import shutil
-from robofab.world import OpenFont
+from fontParts.world import OpenFont
 
 # options
 addMissingGlyphsFromDefault = True
@@ -125,9 +125,11 @@ for space in spaces:
             
             if i != 0 and addMissingGlyphsFromDefault:
                 print "Adding missing glyphs in sources from default..."                    
-                for g in src:
+                for gname in src.keys():
+                    g = f[gname]
+
                     if g.name not in f or ( g.name in f and not f[g.name].contours and not f[g.name].components ):
-                        f.insertGlyph(g)
+                        f.insertGlyph(g, g.name)
 
 
             
