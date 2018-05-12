@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="four" format="1">
+<glyph name="four" format="2">
   <advance width="1170"/>
   <unicode hex="0034"/>
   <outline>
@@ -26,13 +26,8 @@
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.884</real>
-        <real>0.8791</real>
-        <real>0.0317</real>
-        <real>1.0</real>
-      </array>
+      <key>public.markColor</key>
+      <string>0.884,0.8791,0.0317,1</string>
     </dict>
   </lib>
 </glyph>

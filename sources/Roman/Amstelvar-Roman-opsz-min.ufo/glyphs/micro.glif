@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="micro" format="1">
+<glyph name="micro" format="2">
   <advance width="1243"/>
   <unicode hex="00B5"/>
+  <anchor x="688" y="1000" name="top"/>
+  <anchor x="898" y="0" name="ogonek"/>
+  <anchor x="488" y="0" name="bottom"/>
+  <anchor x="1058" y="1000" name="horn"/>
   <outline>
     <contour>
       <point x="-63" y="-317" type="line"/>
@@ -43,18 +47,6 @@
       <point x="354" y="-239" type="line"/>
       <point x="351" y="-371" type="line"/>
       <point x="-40" y="-399" type="line"/>
-    </contour>
-    <contour>
-      <point x="688" y="1000" type="move" name="top"/>
-    </contour>
-    <contour>
-      <point x="898" y="0" type="move" name="ogonek"/>
-    </contour>
-    <contour>
-      <point x="488" y="0" type="move" name="bottom"/>
-    </contour>
-    <contour>
-      <point x="1058" y="1000" type="move" name="horn"/>
     </contour>
   </outline>
 </glyph>
