@@ -126,7 +126,7 @@ for space in spaces:
             if i != 0 and addMissingGlyphsFromDefault:
                 print "Adding missing glyphs in sources from default..."                    
                 for gname in src.keys():
-                    g = f[gname]
+                    g = src[gname]
 
                     if g.name not in f or ( g.name in f and not f[g.name].contours and not f[g.name].components ):
                         f.insertGlyph(g, name=g.name)
