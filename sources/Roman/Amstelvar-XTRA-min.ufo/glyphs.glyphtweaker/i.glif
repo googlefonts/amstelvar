@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="i" format="2">
+  <advance width="500"/>
+  <unicode hex="0069"/>
+  <anchor x="159.5" y="100" name="LSB"/>
+  <anchor x="479.5" y="100" name="RSB"/>
+  <outline>
+    <contour>
+      <point x="178.5" y="0" type="line"/>
+      <point x="178.5" y="77" type="line"/>
+      <point x="286.5" y="112" type="line"/>
+      <point x="287.5" y="546" type="line"/>
+      <point x="283.5" y="845" type="line"/>
+      <point x="175.5" y="875" type="line"/>
+      <point x="175.5" y="964" type="line"/>
+      <point x="364.5" y="1000" type="line"/>
+      <point x="436.5" y="1000" type="line"/>
+      <point x="457.5" y="944" type="line"/>
+      <point x="453.5" y="543" type="line"/>
+      <point x="454.5" y="112" type="line"/>
+      <point x="562.5" y="77" type="line"/>
+      <point x="562.5" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="256.5" y="1337" type="qcurve" smooth="yes"/>
+      <point x="256.5" y="1382"/>
+      <point x="307.5" y="1460"/>
+      <point x="367.5" y="1460" type="qcurve" smooth="yes"/>
+      <point x="425.5" y="1460"/>
+      <point x="478.5" y="1378"/>
+      <point x="478.5" y="1337" type="qcurve" smooth="yes"/>
+      <point x="478.5" y="1292"/>
+      <point x="427.5" y="1214"/>
+      <point x="367.5" y="1214" type="qcurve" smooth="yes"/>
+      <point x="309.5" y="1214"/>
+      <point x="256.5" y="1296"/>
+    </contour>
+  </outline>
+</glyph>
