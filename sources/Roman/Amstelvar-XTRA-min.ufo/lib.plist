@@ -7,8 +7,50 @@
 		<dict>
 			<key>allowPseudoUnicode</key>
 			<true/>
+			<key>ascending</key>
+			<true/>
 			<key>type</key>
-			<string>cannedDesign</string>
+			<string>category</string>
+		</dict>
+		<dict>
+			<key>allowPseudoUnicode</key>
+			<true/>
+			<key>ascending</key>
+			<true/>
+			<key>type</key>
+			<string>alphabetical</string>
+		</dict>
+		<dict>
+			<key>allowPseudoUnicode</key>
+			<true/>
+			<key>ascending</key>
+			<true/>
+			<key>type</key>
+			<string>unicode</string>
+		</dict>
+		<dict>
+			<key>allowPseudoUnicode</key>
+			<true/>
+			<key>ascending</key>
+			<true/>
+			<key>type</key>
+			<string>script</string>
+		</dict>
+		<dict>
+			<key>allowPseudoUnicode</key>
+			<true/>
+			<key>ascending</key>
+			<true/>
+			<key>type</key>
+			<string>suffix</string>
+		</dict>
+		<dict>
+			<key>allowPseudoUnicode</key>
+			<true/>
+			<key>ascending</key>
+			<true/>
+			<key>type</key>
+			<string>decompositionBase</string>
 		</dict>
 	</array>
 	<key>com.typemytype.robofont.compileSettings.autohint</key>
@@ -649,8 +691,6 @@
 	</array>
 	<key>public.glyphOrder</key>
 	<array>
-		<string>space</string>
-		<string>nbspace</string>
 		<string>A</string>
 		<string>Agrave</string>
 		<string>Aacute</string>
@@ -844,6 +884,7 @@
 		<string>Tbar</string>
 		<string>Schwa</string>
 		<string>Germandbls</string>
+		<string>H.copy_1</string>
 		<string>micro</string>
 		<string>a</string>
 		<string>agrave</string>
@@ -1038,11 +1079,31 @@
 		<string>eng</string>
 		<string>oe</string>
 		<string>tbar</string>
+		<string>florin</string>
 		<string>jdotless</string>
 		<string>schwa</string>
+		<string>f_f</string>
+		<string>fi</string>
+		<string>fl</string>
+		<string>f_f_i</string>
+		<string>f_f_l</string>
 		<string>primemod</string>
 		<string>doubleprimemod</string>
 		<string>apostrophemod</string>
+		<string>circumflex</string>
+		<string>circumflex_acute</string>
+		<string>circumflex_grave</string>
+		<string>circumflex_hookabove</string>
+		<string>circumflex_tilde</string>
+		<string>caron</string>
+		<string>caron.alt</string>
+		<string>caron.alt.uc</string>
+		<string>circumflex.uc</string>
+		<string>circumflex_acute.uc</string>
+		<string>circumflex_grave.uc</string>
+		<string>circumflex_hookabove.uc</string>
+		<string>circumflex_tilde.uc</string>
+		<string>caron.uc</string>
 		<string>ordfeminine</string>
 		<string>ordmasculine</string>
 		<string>zero</string>
@@ -1055,9 +1116,9 @@
 		<string>seven</string>
 		<string>eight</string>
 		<string>nine</string>
-		<string>onesuperior</string>
 		<string>twosuperior</string>
 		<string>threesuperior</string>
+		<string>onesuperior</string>
 		<string>onequarter</string>
 		<string>onehalf</string>
 		<string>threequarters</string>
@@ -1069,70 +1130,69 @@
 		<string>emdash</string>
 		<string>horizontalbar</string>
 		<string>parenleft</string>
-		<string>parenright</string>
 		<string>bracketleft</string>
-		<string>bracketright</string>
 		<string>braceleft</string>
-		<string>braceright</string>
-		<string>leftanglebracket</string>
-		<string>rightanglebracket</string>
-		<string>numbersign</string>
-		<string>percent</string>
-		<string>perthousand</string>
-		<string>quotesingle</string>
-		<string>quotedbl</string>
-		<string>quoteleft</string>
-		<string>quoteright</string>
-		<string>quotedblleft</string>
-		<string>quotedblright</string>
 		<string>quotesinglbase</string>
 		<string>quotedblbase</string>
-		<string>guilsinglleft</string>
-		<string>guilsinglright</string>
+		<string>leftanglebracket</string>
+		<string>parenright</string>
+		<string>bracketright</string>
+		<string>braceright</string>
+		<string>rightanglebracket</string>
 		<string>guillemetleft</string>
+		<string>quoteleft</string>
+		<string>quotedblleft</string>
+		<string>guilsinglleft</string>
 		<string>guillemetright</string>
+		<string>quoteright</string>
+		<string>quotedblright</string>
+		<string>guilsinglright</string>
+		<string>exclam</string>
+		<string>quotedbl</string>
+		<string>numbersign</string>
+		<string>percent</string>
+		<string>ampersand</string>
+		<string>quotesingle</string>
 		<string>asterisk</string>
-		<string>dagger</string>
-		<string>daggerdbl</string>
-		<string>period</string>
 		<string>comma</string>
+		<string>period</string>
+		<string>slash</string>
 		<string>colon</string>
 		<string>semicolon</string>
-		<string>ellipsis</string>
-		<string>exclam</string>
-		<string>exclamdown</string>
 		<string>question</string>
-		<string>questiondown</string>
-		<string>slash</string>
-		<string>backslash</string>
-		<string>fraction</string>
-		<string>bar</string>
-		<string>brokenbar</string>
 		<string>at</string>
-		<string>ampersand</string>
+		<string>backslash</string>
+		<string>exclamdown</string>
 		<string>section</string>
 		<string>paragraph</string>
-		<string>numero</string>
 		<string>periodcentered</string>
+		<string>questiondown</string>
+		<string>dagger</string>
+		<string>daggerdbl</string>
 		<string>bullet</string>
+		<string>ellipsis</string>
+		<string>perthousand</string>
 		<string>minute</string>
 		<string>second</string>
 		<string>plus</string>
-		<string>minus</string>
-		<string>plusminus</string>
-		<string>divide</string>
-		<string>multiply</string>
-		<string>equal</string>
 		<string>less</string>
+		<string>equal</string>
 		<string>greater</string>
-		<string>lessequal</string>
-		<string>greaterequal</string>
-		<string>approxequal</string>
-		<string>notequal</string>
+		<string>bar</string>
+		<string>asciitilde</string>
 		<string>logicalnot</string>
+		<string>plusminus</string>
+		<string>multiply</string>
+		<string>divide</string>
+		<string>fraction</string>
 		<string>commercialMinusSign</string>
+		<string>minus</string>
 		<string>divisionslash</string>
 		<string>bulletoperator</string>
+		<string>approxequal</string>
+		<string>notequal</string>
+		<string>lessequal</string>
+		<string>greaterequal</string>
 		<string>dollar</string>
 		<string>cent</string>
 		<string>sterling</string>
@@ -1146,7 +1206,6 @@
 		<string>won</string>
 		<string>dong</string>
 		<string>euro</string>
-		<string>florin</string>
 		<string>kip</string>
 		<string>peso</string>
 		<string>guarani</string>
@@ -1156,36 +1215,52 @@
 		<string>manat</string>
 		<string>ruble</string>
 		<string>asciicircum</string>
-		<string>asciitilde</string>
-		<string>acute</string>
 		<string>grave</string>
-		<string>hungarumlaut</string>
-		<string>circumflex</string>
-		<string>circumflex_acute</string>
-		<string>circumflex_grave</string>
-		<string>circumflex_hookabove</string>
-		<string>circumflex_tilde</string>
-		<string>caron</string>
+		<string>dieresis</string>
+		<string>dieresis_macron</string>
+		<string>macron</string>
+		<string>acute</string>
+		<string>cedilla</string>
 		<string>breve</string>
 		<string>breve_acute</string>
 		<string>breve_grave</string>
 		<string>breve_hookabove</string>
 		<string>breve_tilde</string>
-		<string>tilde</string>
-		<string>tilde_macron</string>
-		<string>macron</string>
-		<string>dieresis</string>
-		<string>dieresis_macron</string>
 		<string>dotaccent</string>
 		<string>dotaccent_macron</string>
 		<string>ring</string>
 		<string>ring_acute</string>
-		<string>cedilla</string>
 		<string>ogonek</string>
+		<string>tilde</string>
+		<string>tilde_macron</string>
+		<string>hungarumlaut</string>
+		<string>grave.uc</string>
+		<string>dieresis.uc</string>
+		<string>dieresis_macron.uc</string>
+		<string>macron.uc</string>
+		<string>acute.uc</string>
+		<string>cedilla.uc</string>
+		<string>breve.uc</string>
+		<string>breve_acute.uc</string>
+		<string>breve_grave.uc</string>
+		<string>breve_hookabove.uc</string>
+		<string>breve_tilde.uc</string>
+		<string>dotaccent.uc</string>
+		<string>dotaccent_macron.uc</string>
+		<string>ring.uc</string>
+		<string>ring_acute.uc</string>
+		<string>ogonek.uc</string>
+		<string>tilde.uc</string>
+		<string>tilde_macron.uc</string>
+		<string>hungarumlaut.uc</string>
+		<string>brokenbar</string>
 		<string>copyright</string>
 		<string>registered</string>
-		<string>trademark</string>
 		<string>degree</string>
+		<string>numero</string>
+		<string>trademark</string>
+		<string>space</string>
+		<string>nbspace</string>
 		<string>CR</string>
 		<string>softhyphen</string>
 		<string>brevebelow</string>
@@ -1209,38 +1284,6 @@
 		<string>idotaccent</string>
 		<string>macronbelow</string>
 		<string>strokeshort</string>
-		<string>f_f</string>
-		<string>fi</string>
-		<string>fl</string>
-		<string>f_f_i</string>
-		<string>f_f_l</string>
-		<string>caron.alt</string>
-		<string>caron.alt.uc</string>
-		<string>acute.uc</string>
-		<string>grave.uc</string>
-		<string>hungarumlaut.uc</string>
-		<string>circumflex.uc</string>
-		<string>circumflex_acute.uc</string>
-		<string>circumflex_grave.uc</string>
-		<string>circumflex_hookabove.uc</string>
-		<string>circumflex_tilde.uc</string>
-		<string>caron.uc</string>
-		<string>breve.uc</string>
-		<string>breve_acute.uc</string>
-		<string>breve_grave.uc</string>
-		<string>breve_hookabove.uc</string>
-		<string>breve_tilde.uc</string>
-		<string>tilde.uc</string>
-		<string>tilde_macron.uc</string>
-		<string>macron.uc</string>
-		<string>dieresis.uc</string>
-		<string>dieresis_macron.uc</string>
-		<string>dotaccent.uc</string>
-		<string>dotaccent_macron.uc</string>
-		<string>ring.uc</string>
-		<string>ring_acute.uc</string>
-		<string>cedilla.uc</string>
-		<string>ogonek.uc</string>
 		<string>brevebelow.uc</string>
 		<string>breveinverted.uc</string>
 		<string>commaaccent.uc</string>
@@ -1250,7 +1293,6 @@
 		<string>hookabove.uc</string>
 		<string>horn.uc</string>
 		<string>macronbelow.uc</string>
-		<string>H.copy_1</string>
 	</array>
 </dict>
 </plist>
