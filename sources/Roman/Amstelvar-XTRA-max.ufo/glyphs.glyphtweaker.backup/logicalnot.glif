@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="logicalnot" format="2">
+  <advance width="500"/>
+  <unicode hex="00AC"/>
+  <anchor x="0" y="100" name="LSB"/>
+  <anchor x="1024" y="100" name="RSB"/>
+  <outline>
+    <contour>
+      <point x="65" y="708" type="line"/>
+      <point x="929" y="708" type="line"/>
+      <point x="929" y="200" type="line"/>
+      <point x="769" y="200" type="line"/>
+      <point x="769" y="556" type="line"/>
+      <point x="65" y="556" type="line"/>
+    </contour>
+  </outline>
+</glyph>
