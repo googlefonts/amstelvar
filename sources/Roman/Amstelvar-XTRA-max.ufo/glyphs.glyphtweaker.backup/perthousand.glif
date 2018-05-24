@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="perthousand" format="2">
   <advance width="500"/>
-  <unicode hex="2030"/>
   <anchor x="0" y="100" name="LSB"/>
-  <anchor x="2958" y="100" name="RSB"/>
+  <anchor x="2038" y="100" name="RSB"/>
   <outline>
     <contour>
       <point x="74" y="1081" type="qcurve" smooth="yes"/>
@@ -66,34 +65,6 @@
       <point x="1567" y="726" type="qcurve" smooth="yes"/>
       <point x="1455" y="726"/>
       <point x="1337" y="558"/>
-    </contour>
-    <contour>
-      <point x="2094" y="390" type="qcurve" smooth="yes"/>
-      <point x="2094" y="582"/>
-      <point x="2311" y="851"/>
-      <point x="2487" y="851" type="qcurve" smooth="yes"/>
-      <point x="2664" y="851"/>
-      <point x="2884" y="600"/>
-      <point x="2884" y="396" type="qcurve" smooth="yes"/>
-      <point x="2884" y="225"/>
-      <point x="2668" y="-30"/>
-      <point x="2492" y="-30" type="qcurve" smooth="yes"/>
-      <point x="2315" y="-30"/>
-      <point x="2094" y="205"/>
-    </contour>
-    <contour>
-      <point x="2257" y="407" type="qcurve" smooth="yes"/>
-      <point x="2257" y="276"/>
-      <point x="2382" y="91"/>
-      <point x="2486" y="91" type="qcurve" smooth="yes"/>
-      <point x="2597" y="91"/>
-      <point x="2716" y="257"/>
-      <point x="2716" y="396" type="qcurve" smooth="yes"/>
-      <point x="2716" y="541"/>
-      <point x="2592" y="726"/>
-      <point x="2487" y="726" type="qcurve" smooth="yes"/>
-      <point x="2375" y="726"/>
-      <point x="2257" y="558"/>
     </contour>
   </outline>
 </glyph>
