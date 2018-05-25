@@ -42,6 +42,8 @@ spaces = [
             "Roman/Amstelvar-Roman-YTSE-max.ufo",
             "Roman/Amstelvar-Roman-XOPQ-min.ufo",
             "Roman/Amstelvar-Roman-YOPQ-min.ufo",
+            "Roman/Amstelvar-XTRA-max.ufo",
+            "Roman/Amstelvar-XTRA-min.ufo",
 
         ],
         "../fonts/Amstelvar-Roman-VF.ttf", # outfile
