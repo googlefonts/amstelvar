@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="onesuperior" format="2">
-  <advance width="908"/>
+  <advance width="500"/>
   <unicode hex="00B9"/>
+  <anchor x="0" y="100" name="LSB"/>
+  <anchor x="908" y="100" name="RSB"/>
   <outline>
     <contour>
       <point x="114" y="670" type="line"/>
