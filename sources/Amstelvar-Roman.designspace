@@ -5,6 +5,18 @@
             <labelname xml:lang="en">Optical Size</labelname>
         </axis>
         
+        <axis default="176" minimum="36" maximum="574"  name="XOPQ" tag="XOPQ">
+            <labelname xml:lang="en">x opaque</labelname>
+        </axis>
+        
+        <axis default="804" minimum="314" maximum="1784" name="XTRA" tag="XTRA">
+            <labelname xml:lang="en">x transparent</labelname>
+        </axis>
+        
+        <axis default="124" minimum="16" maximum="124" name="YOPQ" tag="YOPQ">
+            <labelname xml:lang="en">y opaque</labelname>
+        </axis>
+        
         <axis default="1000" minimum="850" maximum="1140"  name="YTLC" tag="YTLC">
             <labelname xml:lang="en">y transparent lowercase</labelname>
         </axis>
@@ -21,7 +33,6 @@
             <labelname xml:lang="en">y transparent lowercase descender</labelname>
         </axis>
 
-        
         <axis default="1500" minimum="1000" maximum="2000"  name="YTAS" tag="YTAS">
             <labelname xml:lang="en">y transparent lowercase ascender</labelname>
         </axis>
@@ -29,19 +40,10 @@
         <axis default="35" minimum="0" maximum="100"  name="YTSE" tag="YTSE">
             <labelname xml:lang="en">serif rise</labelname>
         </axis>
+
+
         
-        <axis default="176" minimum="36" maximum="574"  name="XOPQ" tag="XOPQ">
-            <labelname xml:lang="en">x opaque</labelname>
-        </axis>
-        
-        <axis default="124" minimum="16" maximum="124" name="YOPQ" tag="YOPQ">
-            <labelname xml:lang="en">y opaque</labelname>
-        </axis>
-        
-        <axis default="804" minimum="314" maximum="1784" name="XTRA" tag="XTRA">
-            <labelname xml:lang="en">x transparent</labelname>
-        </axis>
-        
+
         
     </axes>
     <sources>
