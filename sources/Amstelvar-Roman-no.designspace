@@ -191,13 +191,14 @@
             </location>
         </source>
         
-        <!--
+        <!-- comment out YOPQ max because it is the same as default -->
+<!--
         <source familyname="Amstelvar" filename="Roman/Amstelvar-Roman-3.ufo" name="Amstelvar-Roman-YOPQ-max" stylename="Roman-YOPQ-max">
             <location>
                 <dimension name="YOPQ" xvalue="124" />
             </location>
         </source>
-        -->
+       --> 
         
         
         <source familyname="Amstelvar" filename="Roman/Amstelvar-XTRA-min.ufo" name="Amstelvar-Roman-XTRA-min" stylename="Roman-XTRA-min">
