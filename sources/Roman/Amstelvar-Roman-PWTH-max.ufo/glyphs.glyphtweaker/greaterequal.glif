@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="greaterequal" format="2">
+  <advance width="1652"/>
+  <unicode hex="2265"/>
+  <anchor x="-258.0" y="100" name="LSB"/>
+  <anchor x="742.0" y="100" name="RSB"/>
+  <outline>
+    <contour>
+      <point x="90" y="46" type="line"/>
+      <point x="90" y="198" type="line"/>
+      <point x="1522" y="198" type="line"/>
+      <point x="1522" y="46" type="line"/>
+    </contour>
+    <contour>
+      <point x="1412" y="684" type="qcurve"/>
+      <point x="1412" y="684"/>
+      <point x="468" y="345"/>
+      <point x="379" y="312" type="qcurve" smooth="yes"/>
+      <point x="285" y="278"/>
+      <point x="173" y="344"/>
+      <point x="253" y="380" type="qcurve" smooth="yes"/>
+      <point x="542" y="508"/>
+      <point x="953" y="665"/>
+      <point x="1078" y="687" type="qcurve"/>
+      <point x="966" y="709"/>
+      <point x="519" y="880"/>
+      <point x="292" y="987" type="qcurve"/>
+      <point x="169" y="1044"/>
+      <point x="283" y="1107"/>
+      <point x="336" y="1088" type="qcurve" smooth="yes"/>
+      <point x="467" y="1040"/>
+      <point x="1412" y="684"/>
+    </contour>
+  </outline>
+</glyph>
