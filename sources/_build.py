@@ -17,6 +17,15 @@ romans = [
 "Roman/Amstelvar-Roman-YTAS-max.ufo",
 "Roman/Amstelvar-Roman-opsz-min.ufo",
 "Roman/Amstelvar-Roman-opsz-max.ufo",
+"Roman/Amstelvar-Roman-YTSE-max.ufo",
+"Roman/Amstelvar-Roman-YTSE-min.ufo",
+"Roman/Amstelvar-Roman-XOPQ-min.ufo",
+"Roman/Amstelvar-Roman-XOPQ-max.ufo",
+"Roman/Amstelvar-Roman-YOPQ-min.ufo",
+"Roman/Amstelvar-Roman-YOPQ-max.ufo",
+"Roman/Amstelvar-XTRA-min.ufo",
+"Roman/Amstelvar-XTRA-max.ufo",
+
 ]
 
 project = FontProject()
