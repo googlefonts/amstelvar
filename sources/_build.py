@@ -48,7 +48,8 @@ print "DONE!"
 
 italics = [
 	"Italic/Amstelvar-Italic-3.ufo",
-#	"Italic/Amstelvar-ital-opszmax.ufo",
+	"Italic/Amstelvar-Italic-opsz-max.ufo",
+	"Italic/Amstelvar-Italic-opsz-min.ufo",
 ]
 
 project = FontProject()
