@@ -40,6 +40,7 @@
         <axis default="18" minimum="0" maximum="50"  name="YTSE" tag="YTSE">
             <labelname xml:lang="en">serif rise</labelname>
         </axis>
+        
 
     </axes>
 
@@ -302,7 +303,7 @@
                 <dimension name="YTDE" xvalue="-240" />
                 <dimension name="YTAS" xvalue="750" />
 
-                <dimension name="YTSE" xvalue="0" />
+                <dimension name="YTSE" xvalue="50" />
             </location>
         </source>
 
@@ -320,7 +321,7 @@
                 <dimension name="YTDE" xvalue="-240" />
                 <dimension name="YTAS" xvalue="750" />
 
-                <dimension name="YTSE" xvalue="50" />
+                <dimension name="YTSE" xvalue="0" />
             </location>
         </source>
 
@@ -433,8 +434,11 @@
                 <dimension name="YTDE" xvalue="-240" />
                 <dimension name="YTAS" xvalue="750" />
                 <dimension name="YTSE" xvalue="18" />
+                
             </location>
         </source>
+        
+                
     </sources>
     <instances>
     </instances>
