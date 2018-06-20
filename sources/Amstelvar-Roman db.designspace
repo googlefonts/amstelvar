@@ -40,7 +40,15 @@
         <axis default="18" minimum="0" maximum="50"  name="YTSE" tag="YTSE">
             <labelname xml:lang="en">serif rise</labelname>
         </axis>
-        
+
+        <axis default="62" minimum="18" maximum="287"  name="PWHT" tag="PWHT">
+            <labelname xml:lang="en">ParaWeight</labelname>
+        </axis>
+
+        <axis default="462" minimum="75" maximum="1179"  name="PWTH" tag="PWTH">
+            <labelname xml:lang="en">ParaWidth</labelname>
+        </axis>
+
 
     </axes>
 
@@ -59,6 +67,8 @@
                 <dimension name="YTDE" xvalue="-240" />
                 <dimension name="YTAS" xvalue="750" />
                 <dimension name="YTSE" xvalue="18" />
+                <dimension name="PWHT" xvalue="62" />
+                <dimension name="PWTH" xvalue="462" />
             </location>
         </source>
 
@@ -75,6 +85,8 @@
                 <dimension name="YTDE" xvalue="-240" />
                 <dimension name="YTAS" xvalue="750" />
                 <dimension name="YTSE" xvalue="18" />
+                <dimension name="PWHT" xvalue="62" />
+                <dimension name="PWTH" xvalue="462" />
             </location>
         </source>
 
@@ -92,6 +104,8 @@
                 <dimension name="YTDE" xvalue="-240" />
                 <dimension name="YTAS" xvalue="750" />
                 <dimension name="YTSE" xvalue="18" />
+                <dimension name="PWHT" xvalue="62" />
+                <dimension name="PWTH" xvalue="462" />
             </location>
         </source>
 
@@ -109,6 +123,8 @@
                 <dimension name="YTDE" xvalue="-240" />
                 <dimension name="YTAS" xvalue="750" />
                 <dimension name="YTSE" xvalue="18" />
+                <dimension name="PWHT" xvalue="62" />
+                <dimension name="PWTH" xvalue="462" />
             </location>
         </source>
 
@@ -125,7 +141,8 @@
                 <dimension name="YTFG" xvalue="750" />
                 <dimension name="YTDE" xvalue="-240" />
                 <dimension name="YTAS" xvalue="750" />
-                <dimension name="YTSE" xvalue="18" />
+                <dimension name="PWHT" xvalue="62" />
+                <dimension name="PWTH" xvalue="462" />
             </location>
         </source>
 
@@ -143,6 +160,8 @@
                 <dimension name="YTDE" xvalue="-240" />
                 <dimension name="YTAS" xvalue="750" />
                 <dimension name="YTSE" xvalue="18" />
+                <dimension name="PWHT" xvalue="62" />
+                <dimension name="PWTH" xvalue="462" />
             </location>
         </source>
 
@@ -160,6 +179,8 @@
                 <dimension name="YTDE" xvalue="-240" />
                 <dimension name="YTAS" xvalue="750" />
                 <dimension name="YTSE" xvalue="18" />
+                <dimension name="PWHT" xvalue="62" />
+                <dimension name="PWTH" xvalue="462" />
             </location>
         </source>
         
@@ -178,6 +199,8 @@
                 <dimension name="YTDE" xvalue="-240" />
                 <dimension name="YTAS" xvalue="750" />
                 <dimension name="YTSE" xvalue="18" />
+                 <dimension name="PWHT" xvalue="62" />
+                <dimension name="PWTH" xvalue="462" />
             </location>
         </source>
 
@@ -195,6 +218,8 @@
                 <dimension name="YTDE" xvalue="-240" />
                 <dimension name="YTAS" xvalue="750" />
                 <dimension name="YTSE" xvalue="18" />
+                <dimension name="PWHT" xvalue="62" />
+                <dimension name="PWTH" xvalue="462" />
             </location>
         </source>
 
@@ -212,6 +237,8 @@
                 <dimension name="YTDE" xvalue="-500" />
                 <dimension name="YTAS" xvalue="750" />
                 <dimension name="YTSE" xvalue="18" />
+                <dimension name="PWHT" xvalue="62" />
+                <dimension name="PWTH" xvalue="462" />
             </location>
         </source>
 
@@ -226,11 +253,11 @@
                 <dimension name="YTLC" xvalue="500" />
                 <dimension name="YTUC" xvalue="750" />
                 <dimension name="YTFG" xvalue="750" />
-
                 <dimension name="YTDE" xvalue="-138" />
-
                 <dimension name="YTAS" xvalue="750" />
                 <dimension name="YTSE" xvalue="18" />
+                <dimension name="PWHT" xvalue="62" />
+                <dimension name="PWTH" xvalue="462" />
             </location>
         </source>
 
@@ -247,10 +274,10 @@
                 <dimension name="YTUC" xvalue="750" />
                 <dimension name="YTFG" xvalue="750" />
                 <dimension name="YTDE" xvalue="-240" />
-
                 <dimension name="YTAS" xvalue="500" />
-
                 <dimension name="YTSE" xvalue="18" />
+                <dimension name="PWHT" xvalue="62" />
+                <dimension name="PWTH" xvalue="462" />
             </location>
         </source>
 
@@ -266,10 +293,10 @@
                 <dimension name="YTUC" xvalue="750" />
                 <dimension name="YTFG" xvalue="750" />
                 <dimension name="YTDE" xvalue="-240" />
-
                 <dimension name="YTAS" xvalue="1000" />
-
                 <dimension name="YTSE" xvalue="18" />
+                <dimension name="PWHT" xvalue="62" />
+                <dimension name="PWTH" xvalue="462" />
             </location>
         </source>
 
@@ -286,8 +313,9 @@
                 <dimension name="YTFG" xvalue="750" />
                 <dimension name="YTDE" xvalue="-240" />
                 <dimension name="YTAS" xvalue="750" />
-
                 <dimension name="YTSE" xvalue="50" />
+                <dimension name="PWHT" xvalue="62" />
+                <dimension name="PWTH" xvalue="462" />
             </location>
         </source>
 
@@ -304,8 +332,81 @@
                 <dimension name="YTFG" xvalue="750" />
                 <dimension name="YTDE" xvalue="-240" />
                 <dimension name="YTAS" xvalue="750" />
-
                 <dimension name="YTSE" xvalue="0" />
+                <dimension name="PWHT" xvalue="62" />
+                <dimension name="PWTH" xvalue="462" />
+            </location>
+        </source>
+
+        <source familyname="Amstelvar" filename="Roman/Amstelvar-Roman-PWHT-min.ufo" name="Amstelvar-Roman-PWHT-min" stylename="Roman-PWHT-min">
+
+            <location>
+                <dimension name="opsz" xvalue="12" />
+                <dimension name="XOPQ" xvalue="18" />
+                <dimension name="XTRA" xvalue="402" />
+                <dimension name="YOPQ" xvalue="62" />
+                <dimension name="YTLC" xvalue="500" />
+               <dimension name="YTUC" xvalue="750" />
+                <dimension name="YTFG" xvalue="750" />
+                <dimension name="YTDE" xvalue="-240" />
+                <dimension name="YTAS" xvalue="750" />
+                <dimension name="YTSE" xvalue="18" />
+                <dimension name="PWHT" xvalue="18" />
+                <dimension name="PWTH" xvalue="462" />
+           </location>
+        </source>
+
+        <source familyname="Amstelvar" filename="Roman/Amstelvar-Roman-PWHT-max.ufo" name="Amstelvar-Roman-PWHT-max" stylename="Roman-PWHT-max">
+
+            <location>
+                <dimension name="opsz" xvalue="12" />
+                <dimension name="XOPQ" xvalue="287" />
+                <dimension name="XTRA" xvalue="402" />
+                <dimension name="YOPQ" xvalue="62" />
+                <dimension name="YTLC" xvalue="500" />
+                <dimension name="YTUC" xvalue="750" />
+                <dimension name="YTFG" xvalue="750" />
+                <dimension name="YTDE" xvalue="-240" />
+                <dimension name="YTAS" xvalue="750" />
+                <dimension name="YTSE" xvalue="18" />
+                <dimension name="PWHT" xvalue="287" />
+                <dimension name="PWTH" xvalue="462" />
+            </location>
+        </source>
+
+        <source familyname="Amstelvar" filename="Roman/Amstelvar-Roman-PWTH-min.ufo" name="Amstelvar-Roman-PWTH-min" stylename="Roman-PWTH-min">
+
+            <location>
+                <dimension name="opsz" xvalue="12" />
+                <dimension name="XOPQ" xvalue="18" />
+                <dimension name="XTRA" xvalue="402" />
+                <dimension name="YOPQ" xvalue="62" />
+                <dimension name="YTLC" xvalue="500" />
+                <dimension name="YTUC" xvalue="750" />
+                <dimension name="YTFG" xvalue="750" />
+                <dimension name="YTDE" xvalue="-240" />
+                <dimension name="YTAS" xvalue="750" />
+                <dimension name="YTSE" xvalue="18" />
+                <dimension name="PWHT" xvalue="62" />
+                <dimension name="PWTH" xvalue="75" />
+           </location>
+        </source>
+
+        <source familyname="Amstelvar" filename="Roman/Amstelvar-Roman-PWTH-max.ufo" name="Amstelvar-Roman-PWTH-max" stylename="Roman-PWTH-max">
+
+            <location>
+                <dimension name="opsz" xvalue="12" />
+                <dimension name="XOPQ" xvalue="287" />
+                <dimension name="XTRA" xvalue="402" />
+                <dimension name="YOPQ" xvalue="62" />
+                <dimension name="YTLC" xvalue="500" />
+                <dimension name="YTUC" xvalue="750" />
+                <dimension name="YTFG" xvalue="750" />
+                <dimension name="YTDE" xvalue="-240" />
+                <dimension name="YTAS" xvalue="750" />
+                <dimension name="YTSE" xvalue="18" />
+               <dimension name="PWHT" xvalue="62" />
+                <dimension name="PWTH" xvalue="1179" />
             </location>
         </source>
 
@@ -315,9 +416,7 @@
 
             <location>
                 <dimension name="opsz" xvalue="12" />
-
                 <dimension name="XOPQ" xvalue="18" />
-
                 <dimension name="XTRA" xvalue="402" />
                 <dimension name="YOPQ" xvalue="62" />
                 <dimension name="YTLC" xvalue="500" />
@@ -326,6 +425,8 @@
                 <dimension name="YTDE" xvalue="-240" />
                 <dimension name="YTAS" xvalue="750" />
                 <dimension name="YTSE" xvalue="18" />
+                <dimension name="PWHT" xvalue="62" />
+                <dimension name="PWTH" xvalue="462" />
            </location>
         </source>
 
@@ -333,9 +434,7 @@
 
             <location>
                 <dimension name="opsz" xvalue="12" />
-
                 <dimension name="XOPQ" xvalue="287" />
-
                 <dimension name="XTRA" xvalue="402" />
                 <dimension name="YOPQ" xvalue="62" />
                 <dimension name="YTLC" xvalue="500" />
@@ -344,6 +443,8 @@
                 <dimension name="YTDE" xvalue="-240" />
                 <dimension name="YTAS" xvalue="750" />
                 <dimension name="YTSE" xvalue="18" />
+                <dimension name="PWHT" xvalue="62" />
+                <dimension name="PWTH" xvalue="462" />
             </location>
         </source>
 
@@ -360,6 +461,8 @@
                 <dimension name="YTDE" xvalue="-240" />
                 <dimension name="YTAS" xvalue="750" />
                 <dimension name="YTSE" xvalue="18" />
+                <dimension name="PWHT" xvalue="62" />
+                <dimension name="PWTH" xvalue="462" />
             </location>
         </source>
         
@@ -376,6 +479,8 @@
                 <dimension name="YTDE" xvalue="-240" />
                 <dimension name="YTAS" xvalue="750" />
                 <dimension name="YTSE" xvalue="18" />
+                <dimension name="PWHT" xvalue="62" />
+                <dimension name="PWTH" xvalue="462" />
             </location>
         </source>
                 
@@ -393,6 +498,8 @@
                 <dimension name="YTDE" xvalue="-240" />
                 <dimension name="YTAS" xvalue="750" />
                 <dimension name="YTSE" xvalue="18" />
+                <dimension name="PWHT" xvalue="62" />
+                <dimension name="PWTH" xvalue="462" />
             </location>
         </source>
 
@@ -410,11 +517,12 @@
                 <dimension name="YTDE" xvalue="-240" />
                 <dimension name="YTAS" xvalue="750" />
                 <dimension name="YTSE" xvalue="18" />
-                
+                <dimension name="PWHT" xvalue="62" />
+                <dimension name="PWTH" xvalue="462" />
             </location>
         </source>
-        
-                
+
+
     </sources>
     <instances>
 
