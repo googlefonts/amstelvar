@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="acute.uc" format="1">
+<glyph name="acute.uc" format="2">
   <advance width="1024"/>
+  <anchor x="540" y="1591" name="top"/>
   <outline>
     <contour>
       <point x="609" y="1711" type="line"/>
@@ -15,9 +16,6 @@
       <point x="992" y="2022"/>
       <point x="924" y="1964"/>
       <point x="880" y="1928" type="qcurve" smooth="yes"/>
-    </contour>
-    <contour>
-      <point x="540" y="1591" type="move" name="top"/>
     </contour>
   </outline>
 </glyph>

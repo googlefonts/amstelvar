@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="r" format="1">
+<glyph name="r" format="2">
   <advance width="783"/>
   <unicode hex="0072"/>
+  <guideline x="170" y="0" angle="79.0" identifier="P35jP8CCy2"/>
+  <anchor x="500" y="1000" name="top"/>
+  <anchor x="170" y="0" name="bottom"/>
   <outline>
     <contour>
       <point x="126" y="-14" type="line"/>
@@ -35,32 +38,11 @@
       <point x="756" y="648"/>
       <point x="700" y="648" type="qcurve" smooth="yes"/>
     </contour>
-    <contour>
-      <point x="500" y="1000" type="move" name="top"/>
-    </contour>
-    <contour>
-      <point x="170" y="0" type="move" name="bottom"/>
-    </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.guides</key>
-      <array>
-        <dict>
-          <key>angle</key>
-          <real>79.0</real>
-          <key>isGlobal</key>
-          <false/>
-          <key>magnetic</key>
-          <integer>5</integer>
-          <key>name</key>
-          <string></string>
-          <key>x</key>
-          <integer>170</integer>
-          <key>y</key>
-          <integer>0</integer>
-        </dict>
-      </array>
+      <key>com.typemytype.robofont.guideline.magnetic.P35jP8CCy2</key>
+      <integer>5</integer>
     </dict>
   </lib>
 </glyph>

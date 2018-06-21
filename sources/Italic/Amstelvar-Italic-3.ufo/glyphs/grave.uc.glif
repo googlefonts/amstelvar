@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="grave.uc" format="1">
+<glyph name="grave.uc" format="2">
   <advance width="1024"/>
+  <anchor x="931" y="1592" name="top"/>
   <outline>
     <contour>
       <point x="625" y="1796" type="qcurve" smooth="yes"/>
@@ -15,9 +16,6 @@
       <point x="546" y="1907" type="qcurve" smooth="yes"/>
       <point x="546" y="1873"/>
       <point x="593" y="1822"/>
-    </contour>
-    <contour>
-      <point x="931" y="1592" type="move" name="top"/>
     </contour>
   </outline>
 </glyph>

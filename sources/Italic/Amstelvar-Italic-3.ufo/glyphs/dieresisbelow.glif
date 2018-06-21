@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="dieresisbelow" format="1">
+<glyph name="dieresisbelow" format="2">
   <advance width="1024"/>
+  <anchor x="363" y="-212" name="bottom"/>
   <outline>
     <contour>
       <point x="22" y="-291" type="qcurve" smooth="yes"/>
@@ -30,19 +31,11 @@
       <point x="545" y="-404"/>
       <point x="482" y="-342"/>
     </contour>
-    <contour>
-      <point x="363" y="-212" type="move" name="bottom"/>
-    </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>1.0</real>
-        <real>0.0</real>
-        <real>0.0</real>
-        <real>1.0</real>
-      </array>
+      <key>public.markColor</key>
+      <string>1,0,0,1</string>
     </dict>
   </lib>
 </glyph>

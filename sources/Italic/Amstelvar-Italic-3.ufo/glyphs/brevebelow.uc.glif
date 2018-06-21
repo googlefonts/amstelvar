@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="brevebelow.uc" format="1">
+<glyph name="brevebelow.uc" format="2">
   <advance width="1024"/>
+  <anchor x="425" y="-81" name="below"/>
   <outline>
     <contour>
       <point x="717" y="-72" type="qcurve"/>
@@ -17,9 +18,6 @@
       <point x="408" y="-236" type="qcurve" smooth="yes"/>
       <point x="510" y="-236"/>
       <point x="678" y="-125"/>
-    </contour>
-    <contour>
-      <point x="425" y="-81" type="move" name="below"/>
     </contour>
   </outline>
 </glyph>

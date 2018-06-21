@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="T" format="1">
-  <advance width="1169.0"/>
+<glyph name="T" format="2">
+  <advance width="1169"/>
   <unicode hex="0054"/>
+  <guideline x="440" y="0" angle="79.0" identifier="ZPbYVlY61L"/>
+  <anchor x="494.0" y="0.0" name="bottom"/>
+  <anchor x="784.0" y="1500.0" name="top"/>
   <outline>
     <contour>
       <point x="147" y="1099" type="line"/>
@@ -25,32 +28,11 @@
       <point x="339" y="1382" type="line"/>
       <point x="247" y="1099" type="line"/>
     </contour>
-    <contour>
-      <point x="494.0" y="0.0" type="move" name="bottom"/>
-    </contour>
-    <contour>
-      <point x="784.0" y="1500.0" type="move" name="top"/>
-    </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.guides</key>
-      <array>
-        <dict>
-          <key>angle</key>
-          <real>79.0</real>
-          <key>isGlobal</key>
-          <false/>
-          <key>magnetic</key>
-          <integer>5</integer>
-          <key>name</key>
-          <string></string>
-          <key>x</key>
-          <integer>440</integer>
-          <key>y</key>
-          <integer>0</integer>
-        </dict>
-      </array>
+      <key>com.typemytype.robofont.guideline.magnetic.ZPbYVlY61L</key>
+      <integer>5</integer>
     </dict>
   </lib>
 </glyph>

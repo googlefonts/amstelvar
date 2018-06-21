@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="dieresis.uc" format="1">
+<glyph name="dieresis.uc" format="2">
   <advance width="1024"/>
+  <anchor x="752" y="1672" name="top"/>
   <outline>
     <contour>
       <point x="419" y="1748" type="qcurve" smooth="yes"/>
@@ -29,9 +30,6 @@
       <point x="997" y="1633" type="qcurve" smooth="yes"/>
       <point x="946.0" y="1633.0"/>
       <point x="879.0" y="1698.0"/>
-    </contour>
-    <contour>
-      <point x="752" y="1672" type="move" name="top"/>
     </contour>
   </outline>
 </glyph>

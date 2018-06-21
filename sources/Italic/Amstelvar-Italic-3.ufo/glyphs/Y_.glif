@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Y" format="1">
-  <advance width="1149.0"/>
+<glyph name="Y" format="2">
+  <advance width="1149"/>
   <unicode hex="0059"/>
+  <guideline x="430" y="0" angle="79.0" identifier="QALnJiLhhi"/>
+  <anchor x="775.0" y="1500.0" name="top"/>
+  <anchor x="485.0" y="0.0" name="bottom"/>
   <outline>
     <contour>
       <point x="142" y="1386" type="line"/>
@@ -30,32 +33,11 @@
       <point x="426" y="976" type="line"/>
       <point x="284" y="1370" type="line"/>
     </contour>
-    <contour>
-      <point x="775.0" y="1500.0" type="move" name="top"/>
-    </contour>
-    <contour>
-      <point x="485.0" y="0.0" type="move" name="bottom"/>
-    </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.guides</key>
-      <array>
-        <dict>
-          <key>angle</key>
-          <real>79.0</real>
-          <key>isGlobal</key>
-          <false/>
-          <key>magnetic</key>
-          <integer>5</integer>
-          <key>name</key>
-          <string></string>
-          <key>x</key>
-          <integer>430</integer>
-          <key>y</key>
-          <integer>0</integer>
-        </dict>
-      </array>
+      <key>com.typemytype.robofont.guideline.magnetic.QALnJiLhhi</key>
+      <integer>5</integer>
     </dict>
   </lib>
 </glyph>

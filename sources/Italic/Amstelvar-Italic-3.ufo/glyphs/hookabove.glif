@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="hookabove" format="1">
+<glyph name="hookabove" format="2">
   <advance width="1024"/>
+  <anchor x="569" y="957" name="top"/>
   <outline>
     <contour>
       <point x="585" y="1153" type="line"/>
@@ -32,9 +33,6 @@
       <point x="735" y="1206"/>
       <point x="676" y="1213"/>
       <point x="656" y="1222" type="qcurve"/>
-    </contour>
-    <contour>
-      <point x="569" y="957" type="move" name="top"/>
     </contour>
   </outline>
 </glyph>

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="caron.uc" format="1">
+<glyph name="caron.uc" format="2">
   <advance width="1024"/>
+  <anchor x="738" y="1616" name="top"/>
   <outline>
     <contour>
       <point x="742" y="1616" type="qcurve" smooth="yes"/>
@@ -15,9 +16,6 @@
       <point x="868" y="1689" type="line" smooth="yes"/>
       <point x="816" y="1640"/>
       <point x="776" y="1616"/>
-    </contour>
-    <contour>
-      <point x="738" y="1616" type="move" name="top"/>
     </contour>
   </outline>
 </glyph>

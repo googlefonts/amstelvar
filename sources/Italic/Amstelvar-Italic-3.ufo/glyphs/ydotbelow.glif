@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="ydotbelow" format="1">
-  <advance width="1071.1446820903839"/>
+<glyph name="ydotbelow" format="2">
+  <advance width="1071"/>
   <unicode hex="1EF5"/>
+  <anchor x="415" y="-99" name="bottom"/>
   <outline>
     <component base="y"/>
     <component base="dotbelow" xOffset="286"/>
-    <contour>
-      <point x="415" y="-99" type="move" name="bottom"/>
-    </contour>
   </outline>
 </glyph>

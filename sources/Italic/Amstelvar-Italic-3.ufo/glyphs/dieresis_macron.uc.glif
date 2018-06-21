@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="dieresis_macron.uc" format="1">
+<glyph name="dieresis_macron.uc" format="2">
   <advance width="1024"/>
+  <anchor x="759" y="1604" name="top"/>
   <outline>
     <contour>
       <point x="585" y="1932" type="line"/>
@@ -35,9 +36,6 @@
       <point x="1047" y="1623" type="qcurve" smooth="yes"/>
       <point x="996" y="1623"/>
       <point x="929" y="1688"/>
-    </contour>
-    <contour>
-      <point x="759" y="1604" type="move" name="top"/>
     </contour>
   </outline>
 </glyph>

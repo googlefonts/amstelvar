@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="horn" format="1">
+<glyph name="horn" format="2">
   <advance width="1024"/>
+  <anchor x="74.0" y="891.0" name="horn"/>
   <outline>
     <contour>
       <point x="97" y="1009" type="line"/>
@@ -23,9 +24,6 @@
       <point x="227" y="853"/>
       <point x="124" y="871"/>
       <point x="74" y="891" type="qcurve"/>
-    </contour>
-    <contour>
-      <point x="74.0" y="891.0" type="move" name="horn"/>
     </contour>
   </outline>
 </glyph>

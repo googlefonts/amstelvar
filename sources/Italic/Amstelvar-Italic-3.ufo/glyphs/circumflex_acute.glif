@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="circumflex_acute" format="1">
+<glyph name="circumflex_acute" format="2">
   <advance width="1024"/>
+  <anchor x="652" y="1085" name="top"/>
   <outline>
     <contour>
       <point x="346" y="1199" type="line"/>
@@ -29,9 +30,6 @@
       <point x="786" y="1809"/>
       <point x="693" y="1742"/>
       <point x="658" y="1710" type="qcurve" smooth="yes"/>
-    </contour>
-    <contour>
-      <point x="652" y="1085" type="move" name="top"/>
     </contour>
   </outline>
 </glyph>

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="commaturnedabove" format="1">
+<glyph name="commaturnedabove" format="2">
   <advance width="1024"/>
+  <anchor x="652" y="1179" name="top"/>
   <outline>
     <contour>
       <point x="853" y="1601" type="line"/>
@@ -19,9 +20,6 @@
       <point x="502" y="1408"/>
       <point x="698" y="1612"/>
       <point x="800" y="1671" type="qcurve"/>
-    </contour>
-    <contour>
-      <point x="652" y="1179" type="move" name="top"/>
     </contour>
   </outline>
 </glyph>

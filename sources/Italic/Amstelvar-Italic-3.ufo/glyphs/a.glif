@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="a" format="1">
+<glyph name="a" format="2">
   <advance width="1060"/>
   <unicode hex="0061"/>
+  <guideline x="440" y="0" angle="79.0" identifier="aElvfKe6lu"/>
+  <anchor x="640" y="1000" name="top"/>
+  <anchor x="440" y="0" name="bottom"/>
+  <anchor x="760" y="0" name="ogonek"/>
   <outline>
     <contour>
       <point x="68" y="248" type="qcurve" smooth="yes"/>
@@ -40,35 +44,11 @@
       <point x="481" y="852"/>
       <point x="233" y="533"/>
     </contour>
-    <contour>
-      <point x="640" y="1000" type="move" name="top"/>
-    </contour>
-    <contour>
-      <point x="440" y="0" type="move" name="bottom"/>
-    </contour>
-    <contour>
-      <point x="760" y="0" type="move" name="ogonek"/>
-    </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.guides</key>
-      <array>
-        <dict>
-          <key>angle</key>
-          <real>79.0</real>
-          <key>isGlobal</key>
-          <false/>
-          <key>magnetic</key>
-          <integer>5</integer>
-          <key>name</key>
-          <string></string>
-          <key>x</key>
-          <integer>440</integer>
-          <key>y</key>
-          <integer>0</integer>
-        </dict>
-      </array>
+      <key>com.typemytype.robofont.guideline.magnetic.aElvfKe6lu</key>
+      <integer>5</integer>
     </dict>
   </lib>
 </glyph>

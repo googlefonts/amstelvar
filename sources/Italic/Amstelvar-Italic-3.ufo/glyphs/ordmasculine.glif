@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="ordmasculine" format="1">
+<glyph name="ordmasculine" format="2">
   <advance width="903"/>
   <unicode hex="00BA"/>
+  <anchor x="581.0" y="1000.0" name="top"/>
+  <anchor x="581.0" y="0.0" name="bottom"/>
+  <anchor x="731.0" y="0.0" name="ogonek"/>
+  <anchor x="961.0" y="860.0" name="horn"/>
+  <anchor x="575" y="1486" name="top"/>
+  <anchor x="403" y="675" name="bottom"/>
+  <anchor x="532" y="675" name="ogonek"/>
+  <anchor x="835" y="1372" name="horn"/>
   <outline>
     <contour>
       <point x="154" y="1106" type="qcurve" smooth="yes"/>
@@ -30,30 +38,6 @@
       <point x="611" y="1385" type="qcurve" smooth="yes"/>
       <point x="495" y="1393"/>
       <point x="343" y="1244"/>
-    </contour>
-    <contour>
-      <point x="581.0" y="1000.0" type="move" name="top"/>
-    </contour>
-    <contour>
-      <point x="581.0" y="0.0" type="move" name="bottom"/>
-    </contour>
-    <contour>
-      <point x="731.0" y="0.0" type="move" name="ogonek"/>
-    </contour>
-    <contour>
-      <point x="961.0" y="860.0" type="move" name="horn"/>
-    </contour>
-    <contour>
-      <point x="575" y="1486" type="move" name="top"/>
-    </contour>
-    <contour>
-      <point x="403" y="675" type="move" name="bottom"/>
-    </contour>
-    <contour>
-      <point x="532" y="675" type="move" name="ogonek"/>
-    </contour>
-    <contour>
-      <point x="835" y="1372" type="move" name="horn"/>
     </contour>
   </outline>
 </glyph>

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="circumflex_hookabove.uc" format="1">
+<glyph name="circumflex_hookabove.uc" format="2">
   <advance width="1024"/>
+  <anchor x="773" y="1549" name="top"/>
   <outline>
     <contour>
       <point x="802" y="1937" type="qcurve" smooth="yes"/>
@@ -46,9 +47,6 @@
       <point x="1230" y="1528"/>
       <point x="1215" y="1532" type="qcurve"/>
       <point x="1192" y="1414" type="line"/>
-    </contour>
-    <contour>
-      <point x="773" y="1549" type="move" name="top"/>
     </contour>
   </outline>
 </glyph>

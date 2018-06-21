@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="ring_acute" format="1">
+<glyph name="ring_acute" format="2">
   <advance width="1024"/>
+  <anchor x="659.0" y="1086.0" name="top"/>
   <outline>
     <contour>
       <point x="551" y="1660" type="line"/>
@@ -43,9 +44,6 @@
       <point x="707" y="1434" type="qcurve" smooth="yes"/>
       <point x="657" y="1434"/>
       <point x="604" y="1381"/>
-    </contour>
-    <contour>
-      <point x="659.0" y="1086.0" type="move" name="top"/>
     </contour>
   </outline>
 </glyph>

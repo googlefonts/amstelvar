@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="circumflex_tilde" format="1">
+<glyph name="circumflex_tilde" format="2">
   <advance width="1024"/>
+  <anchor x="670" y="1091" name="bottom"/>
   <outline>
     <contour>
       <point x="735" y="1552" type="qcurve" smooth="yes"/>
@@ -43,9 +44,6 @@
       <point x="691" y="1475"/>
       <point x="655" y="1446"/>
       <point x="600" y="1402" type="qcurve" smooth="yes"/>
-    </contour>
-    <contour>
-      <point x="670" y="1091" type="move" name="bottom"/>
     </contour>
   </outline>
 </glyph>
