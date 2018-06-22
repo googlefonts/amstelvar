@@ -521,7 +521,79 @@
   
     </sources>
     <instances>
+		
+		<instance familyname="Amstelvar" stylename="Roman-wght-max">
 
+            <location>
+                <dimension name="opsz" xvalue="12" />
+                <dimension name="XOPQ" xvalue="286" />
+                <dimension name="XTRA" xvalue="300" />
+                <dimension name="YOPQ" xvalue="69" />
+                <dimension name="YTLC" xvalue="500" />
+                <dimension name="YTUC" xvalue="750" />
+                <dimension name="YTFG" xvalue="750" />
+                <dimension name="YTDE" xvalue="-240" />
+                <dimension name="YTAS" xvalue="750" />
+                <dimension name="YTSE" xvalue="18" />
+               <dimension name="PWHT" xvalue="286" />
+                <dimension name="PWTH" xvalue="586" />
+            </location>
+        </instance>
+        
+        <instance familyname="Amstelvar" stylename="Roman-wght-min">
+
+            <location>
+                <dimension name="opsz" xvalue="12" />
+                <dimension name="XOPQ" xvalue="22" />
+                <dimension name="XTRA" xvalue="447" />
+                <dimension name="YOPQ" xvalue="19" />
+                <dimension name="YTLC" xvalue="500" />
+                <dimension name="YTUC" xvalue="750" />
+                <dimension name="YTFG" xvalue="750" />
+                <dimension name="YTDE" xvalue="-240" />
+                <dimension name="YTAS" xvalue="750" />
+                <dimension name="YTSE" xvalue="18" />
+               <dimension name="PWHT" xvalue="22" />
+                <dimension name="PWTH" xvalue="467" />
+            </location>
+        </instance>
+        
+        <instance familyname="Amstelvar" stylename="Roman-wdth-maxn">
+
+            <location>
+                <dimension name="opsz" xvalue="12" />
+                <dimension name="XOPQ" xvalue="120" />
+                <dimension name="XTRA" xvalue="854" />
+                <dimension name="YOPQ" xvalue="76" />
+                <dimension name="YTLC" xvalue="500" />
+                <dimension name="YTUC" xvalue="750" />
+                <dimension name="YTFG" xvalue="750" />
+                <dimension name="YTDE" xvalue="-240" />
+                <dimension name="YTAS" xvalue="750" />
+                <dimension name="YTSE" xvalue="18" />
+               <dimension name="PWHT" xvalue="120" />
+                <dimension name="PWTH" xvalue="974" />
+            </location>
+        </instance>
+        
+        <instance familyname="Amstelvar" stylename="Roman-wdth-min">
+
+            <location>
+                <dimension name="opsz" xvalue="12" />
+                <dimension name="XOPQ" xvalue="84" />
+                <dimension name="XTRA" xvalue="80" />
+                <dimension name="YOPQ" xvalue="56" />
+                <dimension name="YTLC" xvalue="500" />
+                <dimension name="YTUC" xvalue="750" />
+                <dimension name="YTFG" xvalue="750" />
+                <dimension name="YTDE" xvalue="-240" />
+                <dimension name="YTAS" xvalue="750" />
+                <dimension name="YTSE" xvalue="18" />
+               <dimension name="PWHT" xvalue="88" />
+                <dimension name="PWTH" xvalue="164" />
+            </location>
+        </instance>
+        
     </instances>
 
 </designspace>
