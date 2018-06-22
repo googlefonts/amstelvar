@@ -25,7 +25,7 @@ spaces = [
     (
         "Amstelvar-Roman.designspace", # designspace 
         [   # masters
-            "Roman/Amstelvar-Roman-3.ufo",
+            "Roman/Amstelvar-Roman.ufo",
             "Roman/Amstelvar-Roman-YTUC-min.ufo",
             "Roman/Amstelvar-Roman-YTUC-max.ufo",
             "Roman/Amstelvar-Roman-YTLC-min.ufo",
