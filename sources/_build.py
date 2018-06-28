@@ -27,8 +27,8 @@ romans = [
 "Roman/Amstelvar-Roman-PWTH-max.ufo",
 "Roman/Amstelvar-Roman-PWHT-min.ufo",
 "Roman/Amstelvar-Roman-PWHT-max.ufo",
-"Roman/Amstelvar-XTRA-min.ufo",
-"Roman/Amstelvar-XTRA-max.ufo",
+"Roman/Amstelvar-Roman-XTRA-min.ufo",
+"Roman/Amstelvar-Roman-XTRA-max.ufo",
 
 ]
 
