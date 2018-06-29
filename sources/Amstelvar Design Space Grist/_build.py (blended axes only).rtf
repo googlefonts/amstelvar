@@ -47,8 +47,8 @@ project.run_from_ufos(\
 	reverse_direction=False, \
 	use_production_names=False)\
 \
-designSpace = "Amstelvar-Roman-so.designspace"\
-outfile = "../fonts/Amstelvar-Roman-VF.ttf"\
+designSpace = "Amstelvar-Roman-dbBlendedonly.designspace"\
+outfile = "../fonts/Amstelvar-RomanBlended-VF.ttf"\
 finder = lambda s: s.replace("Roman/", "master_ttf_interpolatable/").replace(".ufo", ".ttf")\
 varfont, _, _ = build(designSpace, finder)\
 print "Saving Variable Font..."\
