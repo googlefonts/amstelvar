@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="C" format="1">
+<glyph name="C" format="2">
   <advance width="1330"/>
   <unicode hex="0043"/>
+  <guideline x="620" y="0" angle="79.0" identifier="LjvDzyM7xt"/>
   <outline>
     <contour>
       <point x="110" y="862" type="qcurve" smooth="yes"/>
@@ -39,23 +39,8 @@
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.guides</key>
-      <array>
-        <dict>
-          <key>angle</key>
-          <real>79.0</real>
-          <key>isGlobal</key>
-          <false/>
-          <key>magnetic</key>
-          <integer>5</integer>
-          <key>name</key>
-          <string></string>
-          <key>x</key>
-          <integer>620</integer>
-          <key>y</key>
-          <integer>0</integer>
-        </dict>
-      </array>
-    </dict>
+	<key>com.typemytype.robofont.guideline.magnetic.LjvDzyM7xt</key>
+	<integer>5</integer>
+</dict>
   </lib>
 </glyph>

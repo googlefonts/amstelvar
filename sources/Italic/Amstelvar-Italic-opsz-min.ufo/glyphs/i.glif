@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="i" format="1">
+<glyph name="i" format="2">
   <advance width="644"/>
   <unicode hex="0069"/>
+  <guideline x="380" y="1000" angle="79.0" identifier="5usEsQpK4A"/>
   <outline>
     <contour>
       <point x="95" y="-21" type="line"/>
@@ -35,23 +35,8 @@
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.guides</key>
-      <array>
-        <dict>
-          <key>angle</key>
-          <real>79.0</real>
-          <key>isGlobal</key>
-          <false/>
-          <key>magnetic</key>
-          <integer>5</integer>
-          <key>name</key>
-          <string></string>
-          <key>x</key>
-          <integer>380</integer>
-          <key>y</key>
-          <integer>1000</integer>
-        </dict>
-      </array>
-    </dict>
+	<key>com.typemytype.robofont.guideline.magnetic.5usEsQpK4A</key>
+	<integer>5</integer>
+</dict>
   </lib>
 </glyph>
