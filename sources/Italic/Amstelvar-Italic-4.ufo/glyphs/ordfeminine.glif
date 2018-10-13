@@ -1,12 +1,6 @@
 <glyph name="ordfeminine" format="2">
   <advance width="833"/>
   <unicode hex="00AA"/>
-  <anchor x="460.0" y="1000.0" name="top"/>
-  <anchor x="480.0" y="0.0" name="bottom"/>
-  <anchor x="800.0" y="0.0" name="ogonek"/>
-  <anchor x="533" y="1468" name="top"/>
-  <anchor x="370" y="688" name="bottom"/>
-  <anchor x="630" y="688" name="ogonek"/>
   <outline>
     <contour>
       <point x="127" y="882" type="qcurve" smooth="yes"/>
@@ -24,9 +18,7 @@
       <point x="772" y="702" type="line"/>
       <point x="639" y="681" type="line"/>
       <point x="584" y="805" type="line"/>
-      <point x="518" y="745"/>
-      <point x="364" y="680"/>
-      <point x="307" y="680" type="qcurve" smooth="yes"/>
+      <point x="307" y="680" type="line"/>
       <point x="212" y="680"/>
       <point x="127" y="797"/>
     </contour>
