@@ -2,7 +2,8 @@
 
 ### About the Design
 
-Amstelvar is a typeface in the style used in The Netherlands and Belgium from the sixteenth century to the development of Times Roman in the 1930s.
+Amstelvar is a typeface inspired by the typeface designs used in The Netherlands and Belgium from the sixteenth century to the development of Times Roman in the 1930s.
+
 It is the first public demonstration of the Type Network "Parametric Axes" approach to the OpenType Variable Fonts technology.
 Read more about this axis system at [variationsguide.typenetwork.com](https://variationsguide.typenetwork.com), and [petrvanblokland.github.io/VariationsGuide](https://petrvanblokland.github.io/VariationsGuide)
 
@@ -10,13 +11,9 @@ The font is licensed under the SIL Open Font License, which permits unrestricted
 
 ### Specification
 
-In early 2017 the project scope expanded from the "Amstelvar Alpha" release of early 2017 for a "2.0"-level release in mid 2018:
-
-* Redraw for highest quality
-* Extend language support, with [Latin Plus (600)](https://github.com/TypeNetwork/Amstelvar/blob/master/Character%20Set) character set
-* Add true italics
-
-Axis work:
+The first release of "Amstelvar Alpha" was in early 2017. 
+In 2018 the project scope expanded to a "1.0"-level release with a Roman redrawn for highest quality, a new Italic, and wider language support with the [Google Latin Plus (600)](https://github.com/TypeNetwork/Amstelvar/blob/master/Character%20Set) glyph set.
+The variable axis work includes:
 
 * Reform registered axes (opsz, wght, wdth)
 * xopq and yopq will be adjusted, along the opsz axes
@@ -24,12 +21,6 @@ Axis work:
   * A monovar = opsz min (regular weight, regular width)
   * A duovar = opsz min + wght min
   * A triovar = opsz min + wght min + wdth min
-
-#### Schedule
-
-* February 1, 2018 Alpha
-* April 1, 2018 Beta
-* July 1, 2018 Final
 
 #### Axes
 
