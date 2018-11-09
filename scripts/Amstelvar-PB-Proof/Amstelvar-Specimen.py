@@ -35,8 +35,8 @@ EXPORT_PATH = '_export/FontContent.pdf'
 
 #Load Font
 DEFAULT_FONT_PATH = 'fonts/'
-FONT_PATH = DEFAULT_FONT_PATH + 'Amstelvar-Roman-VF4.ttf'
-FONT_PATH2= DEFAULT_FONT_PATH + 'Amstelvar-Italic-VF4.ttf'
+FONT_PATH = DEFAULT_FONT_PATH + 'Amstelvar-Roman-VF5.ttf'
+FONT_PATH2= DEFAULT_FONT_PATH + 'Amstelvar-Italic-VF6.ttf'
 
 # Function to know if the fonts is loading
 f = Font(FONT_PATH)
@@ -69,6 +69,7 @@ MAXOPTICALIT = getVarFontInstance(f2.path, dict(opsz=144.0))
 MINOPTICALIT = getVarFontInstance(f2.path, dict(opsz=8.0))
 H2OPTICALIT = getVarFontInstance(f2.path, dict(opsz=100))
 
+
 #Function to make the docuemnt
 def makeDocument():
     #Parameters of the docuemnt
@@ -84,7 +85,8 @@ def makeDocument():
     CH = PH
     GRIDX = ((CW, G), (CW, 0))
     GRIDY = ((CH, 0),)
-    points =' / 144pt'
+    fontSizeH1 = 144
+    points =' / ' + str(fontSizeH1)
 
     # Function for the first column in the main page layout
     def firstColumnWaterfall(b, fontStyle):
@@ -226,7 +228,7 @@ def makeDocument():
     # Function to make the one column layout
     page = page.next
     def oneColumnPage(fontStyle, textString, PageDescription, pageNumber):
-        astring = context.newString(textString, style=dict(font=fontStyle, xTextAlign=CENTER, fontSize=pt(144), leading=pt(163)))
+        astring = context.newString(textString, style=dict(font=fontStyle, xTextAlign=CENTER, fontSize=fontSizeH1, leading=pt(163)))
         page.padding = pagePaddings
         padd= pt(100)
         PW2 = W - 2*padd
@@ -263,9 +265,9 @@ def makeDocument():
     def threeColumnPage(fontStyle1, fontStyle2, fontStyle3, textString, PageDescription, pageNumber):
         page.padding = pagePaddings
         CW3 = (W-120)/3 # Column width
-        cstring = context.newString(textString, style=dict(font=fontStyle1, xTextAlign=CENTER, fontSize=pt(144), leading=pt(163)))
-        dstring = context.newString(textString, style=dict(font=fontStyle2, xTextAlign=CENTER, fontSize=pt(144), leading=pt(163), hyphenation=None))
-        spreads= dict(font=fontStyle3, fontSize=pt(144), leading=pt(163))
+        cstring = context.newString(textString, style=dict(font=fontStyle1, xTextAlign=CENTER, fontSize=fontSizeH1, leading=pt(163)))
+        dstring = context.newString(textString, style=dict(font=fontStyle2, xTextAlign=CENTER, fontSize=fontSizeH1, leading=pt(163), hyphenation=None))
+        spreads= dict(font=fontStyle3, fontSize=fontSizeH1, leading=pt(163))
         newTextBox(cstring, w=(CW3+10), parent=page, conditions=[Left2Left(), Middle2Middle()])
         newTextBox(textString, style=spreads, w=CW3, xTextAlign=CENTER, parent=page, conditions=[Center2Center(), Middle2Middle()])
         newTextBox(dstring, w=CW3, parent=page, conditions=[Right2Right(), Middle2Middle()])
@@ -315,7 +317,7 @@ def makeDocument():
     # Page 9
     page = page.next
     page.padding = pagePaddings
-    x = '1234567890!?@#$%^&*()_{}|:”/.,’;\]['
+    x = '1234567890‘?“!(%)[#]{@}/&\$:;,._^*'
     fontStyle = MAXOPTICAL.path
     PageDescription = 'Waterfall numerals and punctuation roman'
     pageNumber = '9'
@@ -404,7 +406,7 @@ def makeDocument():
     # Page 9 Italic
     page = page.next
     page.padding = pagePaddings
-    x = '1234567890!?@#$%^&*()_{}|:”/.,’;\]['
+    x = '1234567890‘?“!(%)[#]{@}/&\$:;,._^*'
     fontStyle = MAXOPTICALIT.path
     PageDescription = 'Waterfall numerals and punctuation roman'
     pageNumber = '19'
