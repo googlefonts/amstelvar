@@ -1,12 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="sterling" format="2">
   <advance width="1072"/>
   <unicode hex="00A3"/>
   <outline>
     <contour>
-      <point x="453.0" y="876" type="qcurve" smooth="yes"/>
-      <point x="544.0" y="779"/>
-      <point x="607" y="623"/>
       <point x="607" y="549" type="qcurve" smooth="yes"/>
       <point x="607" y="407"/>
       <point x="352" y="160"/>
@@ -43,6 +40,9 @@
       <point x="280.0" y="1131" type="qcurve" smooth="yes"/>
       <point x="280.0" y="1075"/>
       <point x="377" y="957"/>
+      <point x="453.0" y="876" type="qcurve" smooth="yes"/>
+      <point x="544.0" y="779"/>
+      <point x="607" y="623"/>
     </contour>
     <contour>
       <point x="186.0" y="527" type="line"/>

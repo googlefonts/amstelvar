@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="f" format="2">
   <advance width="628"/>
   <unicode hex="0066"/>
@@ -15,13 +16,15 @@
       <point x="231" y="949"/>
       <point x="360" y="1028"/>
       <point x="460" y="1028" type="qcurve" smooth="yes"/>
-      <point x="513" y="1028"/>
-      <point x="596" y="1017"/>
-      <point x="619" y="1009" type="qcurve"/>
+      <point x="502" y="1028"/>
+      <point x="571" y="1022"/>
+      <point x="600" y="1014" type="qcurve" smooth="yes"/>
+      <point x="619" y="1009" type="line"/>
       <point x="603" y="902" type="line"/>
-      <point x="587" y="906"/>
+      <point x="585" y="906" type="line" smooth="yes"/>
+      <point x="573" y="909"/>
       <point x="530" y="916"/>
-      <point x="501" y="916" type="qcurve" smooth="yes"/>
+      <point x="501" y="916.0" type="qcurve" smooth="yes"/>
       <point x="445" y="916"/>
       <point x="383" y="881"/>
       <point x="384" y="849" type="qcurve" smooth="yes"/>
