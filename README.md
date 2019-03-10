@@ -5,7 +5,7 @@
 Amstelvar is a typeface inspired by the typeface designs used in The Netherlands and Belgium from the sixteenth century to the development of Times Roman in the 1930s.
 
 It is the first public demonstration of the Type Network "Parametric Axes" approach to the OpenType Variable Fonts technology.
-Read more about this axis system at [variationsguide.typenetwork.com](https://variationsguide.typenetwork.com), and [petrvanblokland.github.io/VariationsGuide](https://petrvanblokland.github.io/VariationsGuide)
+Read more about this axis system at [variationsguide.typenetwork.com](https://variationsguide.typenetwork.com).
 
 The font is licensed under the SIL Open Font License, which permits unrestricted usage, distribution, and modification, subject to terms in the license. 
 
