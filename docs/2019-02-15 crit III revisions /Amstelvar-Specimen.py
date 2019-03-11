@@ -35,8 +35,8 @@ EXPORT_PATH = '_export/FontContent.pdf'
 
 #Load Font
 DEFAULT_FONT_PATH = 'fonts/'
-FONT_PATH = DEFAULT_FONT_PATH + 'Amstelvar-Roman-VF6.ttf'
-FONT_PATH2= DEFAULT_FONT_PATH + 'Amstelvar-Italic-VF7.ttf'
+FONT_PATH = DEFAULT_FONT_PATH + 'Amstelvar-Roman-VF5.ttf'
+FONT_PATH2= DEFAULT_FONT_PATH + 'Amstelvar-Italic-VF6.ttf'
 
 # Function to know if the fonts is loading
 f = Font(FONT_PATH)
@@ -102,8 +102,8 @@ def makeDocument():
 	        	leading2=((12+n*1)*n)+86+n
        		s += c.newString( b + '\n', style=dict(font=fontStyle, fontSize=fontSize, leading=leading))
         	s2 += c.newString( str(fontSize) + '/' +str(leading) + '\n', style=dict(font=fontStyle, fontSize=10, leading=leading2))
-        newTextBox(s ,parent=page, w=CW2, h=pt(700),font=f, pt=pt(160), nextElementName='e2',conditions=[Left2Left(),Top2Top(), Overflow2Next()])
-        newTextBox(s2 ,parent=page, w=CW2, h=pt(700),font=f, pt=(pt(70)), nextElementName='e2',conditions=[Left2Left(),Top2Top(), Overflow2Next()])
+        newTextBox(s ,parent=page, w=CW2, h=pt(700),font=f, pt=pt(160), nextElement='e2',conditions=[Left2Left(),Top2Top(), Overflow2Next()])
+        newTextBox(s2 ,parent=page, w=CW2, h=pt(700),font=f, pt=(pt(70)), nextElement='e2',conditions=[Left2Left(),Top2Top(), Overflow2Next()])
         doc.solve()
     
     # Function for the second column in the main page layout
@@ -144,10 +144,10 @@ def makeDocument():
             st += c.newString( x + '\n', style=dict(font=fontStyle, fontSize=fontSize, leading=leading))
             st2 += c.newString( str(fontSize) + 'pt' + '\n', style=dict(font=fontStyle, fontSize=12, leading=leading2))
         newTextBox(st ,parent=page, padding=pt(4), x=pt(60), y= pt(950), w=W, font=f,
-                    cconditions=[Left2Left(), Top2Top(),  Overflow2Next()],
+                    conditions=[Left2Left(), Top2Top(),  Overflow2Next()],
                     yAlign=TOP, xAlign=LEFT,)
         newTextBox(st2 ,parent=page, padding=pt(4), x=pt(60), y= pt(940), w=W, font=f,
-                    cconditions=[Left2Left(), Top2Top(),  Overflow2Next()],
+                    conditions=[Left2Left(), Top2Top(),  Overflow2Next()],
                     yAlign=TOP, xAlign=LEFT,)
         return doc 
         doc.solve()
@@ -169,11 +169,11 @@ def makeDocument():
                 leading2=(108-n*12)+24
             st += c.newString( x + '\n', style=dict(font=fontStyle, hyphenation=False, fontSize=fontSize, leading=leading))
             st2 += c.newString( str(fontSize) + 'pt' + '\n', style=dict(font=fontStyle, fontSize=12, leading=leading2))
-        newTextBox(st ,parent=page, hyphenation=False, padding=pt(4), x=pt(60), y= pt(950), w=W, font=f,
-                    cconditions=[Left2Left(), Top2Top(),  Overflow2Next()],
+        newTextBox(st ,parent=page, hyphenation=False, padding=pt(4), x=pt(60), y= pt(950), w=W-50, font=f,
+                    conditions=[Left2Left(), Top2Top(),  Overflow2Next()],
                     yAlign=TOP, xAlign=LEFT,)
         newTextBox(st2 ,parent=page, padding=pt(4), x=pt(60), y= pt(780), w=W, font=f,
-                    cconditions=[Left2Left(), Top2Top(),  Overflow2Next()],
+                    conditions=[Left2Left(), Top2Top(),  Overflow2Next()],
                     yAlign=TOP, xAlign=LEFT,)
         return doc 
         doc.solve()
@@ -317,7 +317,7 @@ def makeDocument():
     # Page 9
     page = page.next
     page.padding = pagePaddings
-    x = '1234567890‘?’“!”(%)[#]{@}/&\$:;,._^*'
+    x = '1234567890‘?“!(%)[#]{@}/&\$:;,._^*'
     fontStyle = MAXOPTICAL.path
     PageDescription = 'Waterfall numerals and punctuation roman'
     pageNumber = '9'
@@ -406,7 +406,7 @@ def makeDocument():
     # Page 9 Italic
     page = page.next
     page.padding = pagePaddings
-    x = '1234567890‘?’“!”(%)[#]{@}/&\$:;,._^*'
+    x = '1234567890‘?“!(%)[#]{@}/&\$:;,._^*'
     fontStyle = MAXOPTICALIT.path
     PageDescription = 'Waterfall numerals and punctuation roman'
     pageNumber = '19'
