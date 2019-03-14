@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="otildemacron" format="2">
+  <advance width="1168"/>
+  <unicode hex="022D"/>
+  <outline>
+    <contour>
+      <point x="273" y="1461" type="line"/>
+      <point x="273" y="1598" type="line"/>
+      <point x="865" y="1598" type="line"/>
+      <point x="865" y="1461" type="line"/>
+    </contour>
+    <component base="o"/>
+    <component base="tildecomb" xOffset="52" yOffset="-100"/>
+  </outline>
+</glyph>

@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="odotaccentmacron" format="2">
+  <advance width="1168"/>
+  <unicode hex="0231"/>
+  <outline>
+    <contour>
+      <point x="288" y="1471" type="line"/>
+      <point x="288" y="1608" type="line"/>
+      <point x="880" y="1608" type="line"/>
+      <point x="880" y="1471" type="line"/>
+    </contour>
+    <component base="o"/>
+    <component base="dotaccentcomb" xOffset="72" yOffset="-96"/>
+  </outline>
+</glyph>
