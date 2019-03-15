@@ -32,4 +32,8 @@ VUID, VOTF, YTCH, XTCH, POPS, PWTH, PWHT, UDLN
 
 Feb. 21, 2019 FB recieved approval of Default, opsz min and max, Default ital opsz min and max, ASCII
 
-March 1, 2019, FB's SO started compeltion of glyph repertoires for spec.
+March 8, 2019, FB's SO started compeltion of glyph repertoires for spec.
+
+March 15, 2019 FB's SO completed Amstelvar-Roman.ufo according to CharacterSet.txt
+
+March 18, 2019 TN takes opsz max and min, regular and italics, and ITalic default for charset update
