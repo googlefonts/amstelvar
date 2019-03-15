@@ -28,7 +28,8 @@ VUID, VOTF, YTCH, XTCH, POPS, PWTH, PWHT, UDLN
 * YTLC, YTUC, YTFG, YTAS, YTDE
 * YTOS, YTUS, YTAD, YTDD, XTAB, YTSE, VUID, VOTF, YTCH, XTCH, POPS, PWTH, PWHT, UDLN
 
-Design Progress notes
+### Design Progress notes
+
 Feb. 21, 2019 FB recieved approval of Default, opsz min and max, Default ital opsz min and max, ASCII
 
 March 1, 2019, FB's SO started compeltion of glyph repertoires for spec.
