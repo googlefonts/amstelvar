@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="J" format="2">
-  <advance width="565"/>
+  <advance width="624"/>
   <unicode hex="004A"/>
   <outline>
     <contour>
@@ -9,7 +9,7 @@
       <point x="46" y="31"/>
       <point x="75" y="31"/>
       <point x="102" y="31" type="qcurve" smooth="yes"/>
-      <point x="157.0" y="31.0"/>
+      <point x="157" y="31"/>
       <point x="248" y="122"/>
       <point x="248" y="239" type="qcurve" smooth="yes"/>
       <point x="246" y="754" type="line"/>
@@ -28,4 +28,10 @@
       <point x="42" y="-6"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.2453,0.8091,1,1</string>
+    </dict>
+  </lib>
 </glyph>

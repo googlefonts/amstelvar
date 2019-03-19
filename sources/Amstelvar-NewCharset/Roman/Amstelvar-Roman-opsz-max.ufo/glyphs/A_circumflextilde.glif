@@ -3,7 +3,55 @@
   <advance width="1212"/>
   <unicode hex="1EAA"/>
   <outline>
+    <contour>
+      <point x="605" y="1814" type="qcurve" smooth="yes"/>
+      <point x="625" y="1814"/>
+      <point x="656" y="1766"/>
+      <point x="691" y="1730" type="qcurve" smooth="yes"/>
+      <point x="882" y="1535" type="line"/>
+      <point x="861" y="1519" type="line"/>
+      <point x="605" y="1677" type="line"/>
+      <point x="359" y="1519" type="line"/>
+      <point x="340" y="1534" type="line"/>
+      <point x="519" y="1730" type="line" smooth="yes"/>
+      <point x="555" y="1770"/>
+      <point x="585" y="1814"/>
+    </contour>
+    <contour>
+      <point x="310" y="1881" type="line"/>
+      <point x="333" y="1934"/>
+      <point x="452" y="2044"/>
+      <point x="507" y="2044" type="qcurve" smooth="yes"/>
+      <point x="548" y="2044"/>
+      <point x="608" y="2021"/>
+      <point x="641" y="1998" type="qcurve" smooth="yes"/>
+      <point x="682" y="1970"/>
+      <point x="737" y="1939"/>
+      <point x="774" y="1939" type="qcurve"/>
+      <point x="807" y="1939"/>
+      <point x="859" y="1988"/>
+      <point x="875" y="2019" type="qcurve"/>
+      <point x="913" y="1989" type="line"/>
+      <point x="887" y="1926"/>
+      <point x="785" y="1838"/>
+      <point x="739" y="1838" type="qcurve" smooth="yes"/>
+      <point x="700" y="1838"/>
+      <point x="634" y="1863"/>
+      <point x="598" y="1885" type="qcurve" smooth="yes"/>
+      <point x="562" y="1907"/>
+      <point x="503" y="1945"/>
+      <point x="474" y="1945" type="qcurve" smooth="yes"/>
+      <point x="434" y="1945"/>
+      <point x="354" y="1878"/>
+      <point x="341" y="1854" type="qcurve"/>
+    </contour>
     <component base="A"/>
     <component base="circumflex_tilde.uc" xOffset="158" yOffset="-50"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.2453,0.8091,1,1</string>
+    </dict>
+  </lib>
 </glyph>

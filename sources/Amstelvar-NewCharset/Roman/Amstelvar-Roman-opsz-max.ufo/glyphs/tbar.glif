@@ -1,9 +1,23 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="tbar" format="2">
-  <advance width="494"/>
+  <advance width="518"/>
   <unicode hex="0167"/>
   <outline>
+    <contour>
+      <point x="290" y="581" type="line"/>
+      <point x="18" y="581" type="line"/>
+      <point x="27" y="617" type="line"/>
+      <point x="308" y="617" type="line"/>
+      <point x="503" y="617" type="line"/>
+      <point x="505" y="581" type="line"/>
+    </contour>
     <component base="t"/>
     <component base="horizontalbarlc" xOffset="-61" yOffset="-77"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.2453,0.8091,1,1</string>
+    </dict>
+  </lib>
 </glyph>

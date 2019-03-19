@@ -6,5 +6,12 @@
     <component base="a"/>
     <component base="breve" xOffset="-31" yOffset="-40"/>
     <component base="dotbelow" xOffset="-41" yOffset="20"/>
+    <component base="dotbelowcomb" xOffset="-17"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.2453,0.8091,1,1</string>
+    </dict>
+  </lib>
 </glyph>

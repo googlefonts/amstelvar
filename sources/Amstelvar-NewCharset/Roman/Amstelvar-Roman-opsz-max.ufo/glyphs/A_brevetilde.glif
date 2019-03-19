@@ -3,7 +3,57 @@
   <advance width="1212"/>
   <unicode hex="1EB4"/>
   <outline>
+    <contour>
+      <point x="856" y="1791" type="qcurve"/>
+      <point x="886" y="1778" type="line"/>
+      <point x="876" y="1702"/>
+      <point x="713" y="1561"/>
+      <point x="613" y="1561" type="qcurve" smooth="yes"/>
+      <point x="513" y="1561"/>
+      <point x="356" y="1686"/>
+      <point x="338" y="1775" type="qcurve"/>
+      <point x="372" y="1791" type="line"/>
+      <point x="397" y="1745"/>
+      <point x="539" y="1659"/>
+      <point x="614" y="1658" type="qcurve" smooth="yes"/>
+      <point x="691" y="1659"/>
+      <point x="835" y="1747"/>
+    </contour>
+    <contour>
+      <point x="310" y="1861" type="line"/>
+      <point x="333" y="1914"/>
+      <point x="452" y="2024"/>
+      <point x="507" y="2024" type="qcurve" smooth="yes"/>
+      <point x="548" y="2024"/>
+      <point x="608" y="2001"/>
+      <point x="641" y="1978" type="qcurve" smooth="yes"/>
+      <point x="682" y="1950"/>
+      <point x="737" y="1919"/>
+      <point x="774" y="1919" type="qcurve"/>
+      <point x="807" y="1919"/>
+      <point x="859" y="1968"/>
+      <point x="875" y="1999" type="qcurve"/>
+      <point x="913" y="1969" type="line"/>
+      <point x="887" y="1906"/>
+      <point x="785" y="1818"/>
+      <point x="739" y="1818" type="qcurve" smooth="yes"/>
+      <point x="700" y="1818"/>
+      <point x="634" y="1843"/>
+      <point x="598" y="1865" type="qcurve" smooth="yes"/>
+      <point x="562" y="1887"/>
+      <point x="503" y="1925"/>
+      <point x="474" y="1925" type="qcurve" smooth="yes"/>
+      <point x="434" y="1925"/>
+      <point x="354" y="1858"/>
+      <point x="341" y="1834" type="qcurve"/>
+    </contour>
     <component base="A"/>
     <component base="breve_tilde.uc" xOffset="168" yOffset="-30"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.2453,0.8091,1,1</string>
+    </dict>
+  </lib>
 </glyph>

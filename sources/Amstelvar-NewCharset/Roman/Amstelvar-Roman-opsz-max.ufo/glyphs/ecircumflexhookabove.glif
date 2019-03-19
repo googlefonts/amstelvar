@@ -3,7 +3,45 @@
   <advance width="843"/>
   <unicode hex="1EC3"/>
   <outline>
+    <contour>
+      <point x="724" y="906" type="line"/>
+      <point x="724" y="1003" type="line"/>
+      <point x="760" y="1039" type="line"/>
+      <point x="777" y="1034"/>
+      <point x="809" y="1030"/>
+      <point x="823" y="1030" type="qcurve" smooth="yes"/>
+      <point x="869" y="1030"/>
+      <point x="922" y="1080"/>
+      <point x="922" y="1122" type="qcurve" smooth="yes"/>
+      <point x="922" y="1165"/>
+      <point x="864" y="1210"/>
+      <point x="814" y="1210" type="qcurve" smooth="yes"/>
+      <point x="784" y="1210"/>
+      <point x="705" y="1192"/>
+      <point x="655" y="1172" type="qcurve"/>
+      <point x="641" y="1199" type="line"/>
+      <point x="689" y="1236"/>
+      <point x="803" y="1275"/>
+      <point x="858" y="1275" type="qcurve" smooth="yes"/>
+      <point x="935" y="1275"/>
+      <point x="1031" y="1196"/>
+      <point x="1031" y="1121" type="qcurve" smooth="yes"/>
+      <point x="1031" y="1051"/>
+      <point x="929" y="966"/>
+      <point x="860" y="967" type="qcurve" smooth="yes"/>
+      <point x="839" y="967"/>
+      <point x="790" y="972"/>
+      <point x="768" y="981" type="qcurve"/>
+      <point x="768" y="906" type="line"/>
+    </contour>
     <component base="e"/>
     <component base="circumflex_hookabove" xOffset="-35" yOffset="-72"/>
+    <component base="circumflexcomb" yOffset="-40"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.2453,0.8091,1,1</string>
+    </dict>
+  </lib>
 </glyph>

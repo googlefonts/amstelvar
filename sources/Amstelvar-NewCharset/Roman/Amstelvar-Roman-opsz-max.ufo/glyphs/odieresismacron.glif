@@ -3,7 +3,20 @@
   <advance width="969"/>
   <unicode hex="022B"/>
   <outline>
+    <contour>
+      <point x="243" y="1293" type="line"/>
+      <point x="243" y="1380" type="line"/>
+      <point x="725" y="1380" type="line"/>
+      <point x="725" y="1293" type="line"/>
+    </contour>
     <component base="o"/>
     <component base="dieresis_macron" xOffset="41" yOffset="-65"/>
+    <component base="dieresiscomb" xOffset="37" yOffset="-50"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.2453,0.8091,1,1</string>
+    </dict>
+  </lib>
 </glyph>

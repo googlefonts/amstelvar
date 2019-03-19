@@ -5,5 +5,13 @@
   <outline>
     <component base="a"/>
     <component base="breve_grave" xOffset="-41" yOffset="-50"/>
+    <component base="brevecomb" xOffset="-30" yOffset="-50"/>
+    <component base="gravecomb" xScale="0.984807753012208" xyScale="0.17364817766693033" yxScale="-0.17364817766693033" yScale="0.984807753012208" xOffset="235" yOffset="131"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.2453,0.8091,1,1</string>
+    </dict>
+  </lib>
 </glyph>

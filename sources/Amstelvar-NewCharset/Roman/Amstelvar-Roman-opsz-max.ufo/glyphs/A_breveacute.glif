@@ -3,7 +3,43 @@
   <advance width="1212"/>
   <unicode hex="1EAE"/>
   <outline>
+    <contour>
+      <point x="856" y="1791" type="qcurve"/>
+      <point x="886" y="1778" type="line"/>
+      <point x="876" y="1702"/>
+      <point x="713" y="1561"/>
+      <point x="613" y="1561" type="qcurve" smooth="yes"/>
+      <point x="513" y="1561"/>
+      <point x="356" y="1686"/>
+      <point x="338" y="1775" type="qcurve"/>
+      <point x="372" y="1791" type="line"/>
+      <point x="397" y="1745"/>
+      <point x="539" y="1659"/>
+      <point x="614" y="1658" type="qcurve" smooth="yes"/>
+      <point x="691" y="1659"/>
+      <point x="835" y="1747"/>
+    </contour>
+    <contour>
+      <point x="795" y="1956" type="qcurve" smooth="yes"/>
+      <point x="790" y="1941"/>
+      <point x="765" y="1908"/>
+      <point x="743" y="1901" type="qcurve" smooth="yes"/>
+      <point x="455" y="1810" type="line"/>
+      <point x="442" y="1832" type="line"/>
+      <point x="676" y="2011" type="line" smooth="yes"/>
+      <point x="698" y="2027"/>
+      <point x="747" y="2032"/>
+      <point x="764" y="2026" type="qcurve" smooth="yes"/>
+      <point x="782" y="2019"/>
+      <point x="801" y="1970"/>
+    </contour>
     <component base="A"/>
     <component base="breve_acute.uc" xOffset="159" yOffset="-30"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.2453,0.8091,1,1</string>
+    </dict>
+  </lib>
 </glyph>

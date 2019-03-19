@@ -3,7 +3,28 @@
   <advance width="843"/>
   <unicode hex="1EBF"/>
   <outline>
+    <contour>
+      <point x="437" y="1324" type="qcurve" smooth="yes"/>
+      <point x="457" y="1324"/>
+      <point x="494" y="1280"/>
+      <point x="523" y="1240" type="qcurve" smooth="yes"/>
+      <point x="664" y="1045" type="line"/>
+      <point x="643" y="1029" type="line"/>
+      <point x="437" y="1197" type="line"/>
+      <point x="231" y="1029" type="line"/>
+      <point x="212" y="1044" type="line"/>
+      <point x="351" y="1240" type="line" smooth="yes"/>
+      <point x="386" y="1289"/>
+      <point x="417" y="1324"/>
+    </contour>
     <component base="e"/>
     <component base="circumflex_acute" yOffset="-37"/>
+    <component base="acutecomb" xScale="0.9835009930373558" xyScale="-0.18090272716168704" yxScale="0.18090272716168704" yScale="0.9835009930373558" xOffset="-225" yOffset="404"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.2453,0.8091,1,1</string>
+    </dict>
+  </lib>
 </glyph>

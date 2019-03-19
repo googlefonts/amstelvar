@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="kgreenlandic" format="2">
-  <advance width="933"/>
+  <advance width="936"/>
   <unicode hex="0138"/>
   <outline>
     <contour>
@@ -11,11 +11,11 @@
       <point x="180" y="864" type="line"/>
       <point x="56" y="899" type="line"/>
       <point x="56" y="920" type="line"/>
-      <point x="448" y="920" type="line"/>
-      <point x="448" y="899" type="line"/>
-      <point x="335" y="864" type="line"/>
-      <point x="333" y="471" type="line"/>
-      <point x="335" y="56" type="line"/>
+      <point x="445" y="920" type="line"/>
+      <point x="445" y="899" type="line"/>
+      <point x="332" y="864" type="line"/>
+      <point x="330" y="471" type="line"/>
+      <point x="332" y="56" type="line"/>
       <point x="448" y="21" type="line"/>
       <point x="448" y="0" type="line"/>
     </contour>
@@ -30,14 +30,20 @@
       <point x="779" y="867" type="line"/>
     </contour>
     <contour>
+      <point x="693" y="51" type="line"/>
       <point x="408" y="539" type="line"/>
       <point x="515" y="639" type="line"/>
       <point x="863" y="58" type="line"/>
       <point x="961" y="21" type="line"/>
       <point x="961" y="0" type="line"/>
-      <point x="734" y="0" type="line"/>
-      <point x="717" y="11" type="line"/>
-      <point x="693" y="51" type="line"/>
+      <point x="611" y="0" type="line"/>
+      <point x="605" y="21" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.2453,0.8091,1,1</string>
+    </dict>
+  </lib>
 </glyph>

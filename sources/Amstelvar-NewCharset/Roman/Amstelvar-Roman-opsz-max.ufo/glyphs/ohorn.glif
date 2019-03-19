@@ -5,5 +5,12 @@
   <outline>
     <component base="o"/>
     <component base="horn" xOffset="652" yOffset="-21"/>
+    <component base="horncomb" xOffset="628" yOffset="-3"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.2453,0.8091,1,1</string>
+    </dict>
+  </lib>
 </glyph>

@@ -5,5 +5,13 @@
   <outline>
     <component base="o"/>
     <component base="circumflex_tilde" xOffset="44" yOffset="-75"/>
+    <component base="circumflex" xOffset="41" yOffset="-70"/>
+    <component base="tildecomb" xOffset="54" yOffset="218"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.2453,0.8091,1,1</string>
+    </dict>
+  </lib>
 </glyph>

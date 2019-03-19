@@ -3,7 +3,21 @@
   <advance width="1006"/>
   <unicode hex="0111"/>
   <outline>
+    <contour>
+      <point x="656" y="1195" type="line"/>
+      <point x="384" y="1195" type="line"/>
+      <point x="393" y="1231" type="line"/>
+      <point x="674" y="1231" type="line"/>
+      <point x="959" y="1231" type="line"/>
+      <point x="961" y="1195" type="line"/>
+    </contour>
     <component base="d"/>
     <component base="horizontalbarlc" xOffset="344" yOffset="503"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.2453,0.8091,1,1</string>
+    </dict>
+  </lib>
 </glyph>

@@ -1,9 +1,16 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="rcommaaccent" format="2">
-  <advance width="737"/>
+  <advance width="711"/>
   <unicode hex="0157"/>
   <outline>
     <component base="r"/>
     <component base="commaaccent" xOffset="-175" yOffset="76"/>
+    <component base="commaaccentcomb" xOffset="-192"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.2453,0.8091,1,1</string>
+    </dict>
+  </lib>
 </glyph>
