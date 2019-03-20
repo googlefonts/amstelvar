@@ -3,7 +3,13 @@
   <advance width="1760"/>
   <unicode hex="022A"/>
   <outline>
+    <contour>
+      <point x="564" y="1966" type="line"/>
+      <point x="564" y="2137" type="line"/>
+      <point x="1196" y="2137" type="line"/>
+      <point x="1196" y="1966" type="line"/>
+    </contour>
     <component base="O"/>
-    <component base="dieresis_macron.uc" xOffset="368"/>
+    <component base="dieresis" xOffset="369" yOffset="381"/>
   </outline>
 </glyph>

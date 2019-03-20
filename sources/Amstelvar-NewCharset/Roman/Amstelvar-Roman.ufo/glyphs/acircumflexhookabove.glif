@@ -34,7 +34,20 @@
       <point x="958" y="1075" type="qcurve"/>
       <point x="958" y="957" type="line"/>
     </contour>
+    <contour>
+      <point x="466" y="1481" type="qcurve" smooth="yes"/>
+      <point x="500" y="1481"/>
+      <point x="545" y="1450"/>
+      <point x="576" y="1408" type="qcurve" smooth="yes"/>
+      <point x="779" y="1165" type="line"/>
+      <point x="701" y="1092" type="line"/>
+      <point x="466" y="1307" type="line"/>
+      <point x="231" y="1092" type="line"/>
+      <point x="153" y="1165" type="line"/>
+      <point x="356" y="1408" type="line" smooth="yes"/>
+      <point x="397" y="1457"/>
+      <point x="432" y="1481"/>
+    </contour>
     <component base="a"/>
-    <component base="circumflexcomb" xOffset="-46" yOffset="-50"/>
   </outline>
 </glyph>

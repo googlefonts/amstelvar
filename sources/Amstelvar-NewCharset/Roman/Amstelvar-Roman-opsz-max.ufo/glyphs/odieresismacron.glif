@@ -9,9 +9,36 @@
       <point x="725" y="1380" type="line"/>
       <point x="725" y="1293" type="line"/>
     </contour>
+    <contour>
+      <point x="550" y="1103" type="qcurve" smooth="yes"/>
+      <point x="550" y="1144"/>
+      <point x="602" y="1194"/>
+      <point x="643" y="1194" type="qcurve" smooth="yes"/>
+      <point x="684" y="1194"/>
+      <point x="736" y="1144"/>
+      <point x="736" y="1103" type="qcurve" smooth="yes"/>
+      <point x="736" y="1064"/>
+      <point x="684" y="1013"/>
+      <point x="643" y="1013" type="qcurve" smooth="yes"/>
+      <point x="602" y="1013"/>
+      <point x="550" y="1064"/>
+    </contour>
+    <contour>
+      <point x="234" y="1103" type="qcurve" smooth="yes"/>
+      <point x="234" y="1144"/>
+      <point x="286" y="1194"/>
+      <point x="327" y="1194" type="qcurve" smooth="yes"/>
+      <point x="368" y="1194"/>
+      <point x="420" y="1144"/>
+      <point x="420" y="1103" type="qcurve" smooth="yes"/>
+      <point x="420" y="1064"/>
+      <point x="368" y="1013"/>
+      <point x="327" y="1013" type="qcurve" smooth="yes"/>
+      <point x="286" y="1013"/>
+      <point x="234" y="1064"/>
+    </contour>
     <component base="o"/>
     <component base="dieresis_macron" xOffset="41" yOffset="-65"/>
-    <component base="dieresiscomb" xOffset="37" yOffset="-50"/>
   </outline>
   <lib>
     <dict>

@@ -3,7 +3,40 @@
   <advance width="1256"/>
   <unicode hex="022B"/>
   <outline>
+    <contour>
+      <point x="265" y="1295" type="qcurve" smooth="yes"/>
+      <point x="265" y="1356"/>
+      <point x="333" y="1421"/>
+      <point x="398" y="1421" type="qcurve" smooth="yes"/>
+      <point x="459" y="1421"/>
+      <point x="531" y="1351"/>
+      <point x="531" y="1295" type="qcurve" smooth="yes"/>
+      <point x="531" y="1235"/>
+      <point x="464" y="1171"/>
+      <point x="398" y="1171" type="qcurve" smooth="yes"/>
+      <point x="337" y="1171"/>
+      <point x="265" y="1238"/>
+    </contour>
+    <contour>
+      <point x="725" y="1295" type="qcurve" smooth="yes"/>
+      <point x="725" y="1356"/>
+      <point x="793" y="1421"/>
+      <point x="858" y="1421" type="qcurve" smooth="yes"/>
+      <point x="919" y="1421"/>
+      <point x="991" y="1351"/>
+      <point x="991" y="1295" type="qcurve" smooth="yes"/>
+      <point x="991" y="1235"/>
+      <point x="924" y="1171"/>
+      <point x="858" y="1171" type="qcurve" smooth="yes"/>
+      <point x="797" y="1171"/>
+      <point x="725" y="1238"/>
+    </contour>
+    <contour>
+      <point x="312" y="1523" type="line"/>
+      <point x="312" y="1694" type="line"/>
+      <point x="944" y="1694" type="line"/>
+      <point x="944" y="1523" type="line"/>
+    </contour>
     <component base="o"/>
-    <component base="dieresis_macron" xOffset="116"/>
   </outline>
 </glyph>

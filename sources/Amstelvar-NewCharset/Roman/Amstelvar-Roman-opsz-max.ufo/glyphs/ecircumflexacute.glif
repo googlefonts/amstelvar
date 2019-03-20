@@ -17,9 +17,22 @@
       <point x="386" y="1289"/>
       <point x="417" y="1324"/>
     </contour>
+    <contour>
+      <point x="631" y="1551" type="qcurve" smooth="yes"/>
+      <point x="628" y="1535"/>
+      <point x="609" y="1499"/>
+      <point x="588" y="1489" type="qcurve" smooth="yes"/>
+      <point x="319" y="1351" type="line"/>
+      <point x="303" y="1371" type="line"/>
+      <point x="504" y="1586" type="line" smooth="yes"/>
+      <point x="523" y="1606"/>
+      <point x="570" y="1618"/>
+      <point x="588" y="1615" type="qcurve" smooth="yes"/>
+      <point x="607" y="1611"/>
+      <point x="633" y="1566"/>
+    </contour>
     <component base="e"/>
     <component base="circumflex_acute" yOffset="-37"/>
-    <component base="acutecomb" xScale="0.9835009930373558" xyScale="-0.18090272716168704" yxScale="0.18090272716168704" yScale="0.9835009930373558" xOffset="-225" yOffset="404"/>
   </outline>
   <lib>
     <dict>

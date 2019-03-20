@@ -2,6 +2,24 @@
 <glyph name="gcommaaccent" format="2">
   <advance width="1118"/>
   <outline>
+    <contour>
+      <point x="702" y="1641" type="line"/>
+      <point x="658" y="1589"/>
+      <point x="595" y="1495"/>
+      <point x="580" y="1440" type="qcurve"/>
+      <point x="645" y="1426"/>
+      <point x="704" y="1369"/>
+      <point x="704" y="1311" type="qcurve" smooth="yes"/>
+      <point x="704" y="1257"/>
+      <point x="628" y="1174"/>
+      <point x="561" y="1174" type="qcurve" smooth="yes"/>
+      <point x="497" y="1174"/>
+      <point x="396" y="1255"/>
+      <point x="396" y="1346" type="qcurve" smooth="yes"/>
+      <point x="396" y="1452"/>
+      <point x="539" y="1663"/>
+      <point x="620" y="1728" type="qcurve"/>
+    </contour>
     <component base="g"/>
     <component base="commaturnedabove" xOffset="84" yOffset="-7"/>
   </outline>

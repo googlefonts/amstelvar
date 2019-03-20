@@ -3,7 +3,34 @@
   <advance width="1256"/>
   <unicode hex="1ED1"/>
   <outline>
+    <contour>
+      <point x="628" y="1524" type="qcurve" smooth="yes"/>
+      <point x="662" y="1524"/>
+      <point x="743" y="1476"/>
+      <point x="778" y="1437" type="qcurve" smooth="yes"/>
+      <point x="961" y="1234" type="line"/>
+      <point x="863" y="1141" type="line"/>
+      <point x="628" y="1341" type="line"/>
+      <point x="393" y="1141" type="line"/>
+      <point x="295" y="1234" type="line"/>
+      <point x="478" y="1437" type="line" smooth="yes"/>
+      <point x="523" y="1487"/>
+      <point x="594" y="1524"/>
+    </contour>
+    <contour>
+      <point x="883" y="1762" type="qcurve" smooth="yes"/>
+      <point x="871" y="1716"/>
+      <point x="826" y="1678"/>
+      <point x="778" y="1663" type="qcurve" smooth="yes"/>
+      <point x="432" y="1557" type="line"/>
+      <point x="372" y="1672" type="line"/>
+      <point x="639" y="1817" type="line" smooth="yes"/>
+      <point x="685" y="1842"/>
+      <point x="766" y="1876"/>
+      <point x="802" y="1867" type="qcurve" smooth="yes"/>
+      <point x="849" y="1854"/>
+      <point x="892" y="1796"/>
+    </contour>
     <component base="o"/>
-    <component base="circumflex_acute" xOffset="116"/>
   </outline>
 </glyph>
