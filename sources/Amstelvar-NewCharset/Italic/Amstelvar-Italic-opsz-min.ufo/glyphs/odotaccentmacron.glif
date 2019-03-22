@@ -3,7 +3,26 @@
   <advance width="1158"/>
   <unicode hex="0231"/>
   <outline>
+    <contour>
+      <point x="570" y="1278" type="qcurve"/>
+      <point x="570" y="1239"/>
+      <point x="623" y="1185"/>
+      <point x="667" y="1185" type="qcurve" smooth="yes"/>
+      <point x="724" y="1185"/>
+      <point x="793" y="1248"/>
+      <point x="796" y="1307" type="qcurve"/>
+      <point x="796" y="1355"/>
+      <point x="747" y="1408"/>
+      <point x="699" y="1408" type="qcurve" smooth="yes"/>
+      <point x="637" y="1408"/>
+      <point x="570" y="1329"/>
+    </contour>
+    <contour>
+      <point x="454" y="1656" type="line"/>
+      <point x="425" y="1519" type="line"/>
+      <point x="1017" y="1519" type="line"/>
+      <point x="1046" y="1656" type="line"/>
+    </contour>
     <component base="o"/>
-    <component base="dotaccent_macron" xOffset="1"/>
   </outline>
 </glyph>

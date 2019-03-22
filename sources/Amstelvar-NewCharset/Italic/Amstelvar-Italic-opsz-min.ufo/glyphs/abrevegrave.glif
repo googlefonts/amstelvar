@@ -3,7 +3,36 @@
   <advance width="1146"/>
   <unicode hex="1EB1"/>
   <outline>
+    <contour>
+      <point x="394" y="1449" type="line"/>
+      <point x="397" y="1339"/>
+      <point x="571" y="1185"/>
+      <point x="701" y="1185" type="qcurve" smooth="yes"/>
+      <point x="831" y="1185"/>
+      <point x="1061" y="1354"/>
+      <point x="1103" y="1452" type="qcurve"/>
+      <point x="1026" y="1505" type="line"/>
+      <point x="987" y="1452"/>
+      <point x="819" y="1341"/>
+      <point x="717" y="1341" type="qcurve" smooth="yes"/>
+      <point x="621" y="1341"/>
+      <point x="497" y="1444"/>
+      <point x="478" y="1506" type="qcurve"/>
+    </contour>
+    <contour>
+      <point x="664" y="1681" type="qcurve" smooth="yes"/>
+      <point x="955" y="1525" type="line"/>
+      <point x="1019" y="1603" type="line"/>
+      <point x="827" y="1780" type="line" smooth="yes"/>
+      <point x="797" y="1808"/>
+      <point x="723" y="1869"/>
+      <point x="678" y="1869" type="qcurve" smooth="yes"/>
+      <point x="631" y="1869"/>
+      <point x="579" y="1817"/>
+      <point x="579" y="1787" type="qcurve"/>
+      <point x="579" y="1752"/>
+      <point x="624" y="1702"/>
+    </contour>
     <component base="a"/>
-    <component base="breve_grave" xOffset="34"/>
   </outline>
 </glyph>
