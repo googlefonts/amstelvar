@@ -5,6 +5,12 @@
   <outline>
     <component base="o"/>
     <component base="circumflex" xOffset="6"/>
-    <component base="dotbelow" xOffset="-15"/>
+    <component base="dotbelowcomb" xOffset="-52"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.2453,0.8091,1,1</string>
+    </dict>
+  </lib>
 </glyph>

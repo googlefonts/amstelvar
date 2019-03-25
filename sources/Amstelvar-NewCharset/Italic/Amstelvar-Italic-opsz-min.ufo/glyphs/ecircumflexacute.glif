@@ -4,18 +4,18 @@
   <unicode hex="1EBF"/>
   <outline>
     <contour>
-      <point x="384" y="1213" type="line"/>
-      <point x="452" y="1140" type="line"/>
-      <point x="732" y="1355" type="line"/>
-      <point x="922" y="1140" type="line"/>
-      <point x="1010" y="1213" type="line"/>
-      <point x="858" y="1456" type="line" smooth="yes"/>
-      <point x="835" y="1498"/>
-      <point x="797" y="1529"/>
-      <point x="763" y="1529" type="qcurve" smooth="yes"/>
-      <point x="729" y="1529"/>
-      <point x="689" y="1505"/>
-      <point x="638" y="1456" type="qcurve" smooth="yes"/>
+      <point x="384" y="1203" type="line"/>
+      <point x="452" y="1130" type="line"/>
+      <point x="732" y="1345" type="line"/>
+      <point x="922" y="1130" type="line"/>
+      <point x="1010" y="1203" type="line"/>
+      <point x="858" y="1446" type="line" smooth="yes"/>
+      <point x="835" y="1488"/>
+      <point x="797" y="1519"/>
+      <point x="763" y="1519" type="qcurve" smooth="yes"/>
+      <point x="729" y="1519"/>
+      <point x="689" y="1495"/>
+      <point x="638" y="1446" type="qcurve" smooth="yes"/>
     </contour>
     <contour>
       <point x="529" y="1604" type="line"/>
@@ -33,4 +33,10 @@
     </contour>
     <component base="e"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.2453,0.8091,1,1</string>
+    </dict>
+  </lib>
 </glyph>

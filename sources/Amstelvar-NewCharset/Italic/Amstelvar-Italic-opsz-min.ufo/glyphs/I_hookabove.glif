@@ -4,6 +4,12 @@
   <unicode hex="1EC8"/>
   <outline>
     <component base="I"/>
-    <component base="hookabove.uc" xOffset="-164"/>
+    <component base="hookabovecomb.case" xOffset="-164"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.2453,0.8091,1,1</string>
+    </dict>
+  </lib>
 </glyph>

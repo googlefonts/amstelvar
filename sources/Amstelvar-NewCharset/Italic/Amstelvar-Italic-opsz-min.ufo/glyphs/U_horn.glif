@@ -37,6 +37,12 @@
       <point x="221" y="794" type="qcurve" smooth="yes"/>
       <point x="329" y="1317" type="line"/>
     </contour>
-    <component base="horn.uc" xOffset="948" yOffset="40"/>
+    <component base="horncomb.case" xOffset="948" yOffset="40"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.2453,0.8091,1,1</string>
+    </dict>
+  </lib>
 </glyph>

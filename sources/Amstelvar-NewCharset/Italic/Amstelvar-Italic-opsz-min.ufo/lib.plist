@@ -566,6 +566,29 @@
           <string>f_f_l</string>
           <string>f_f_ij</string>
           <string>f_ij</string>
+          <string>grave.uc</string>
+          <string>acute.uc</string>
+          <string>circumflex.uc</string>
+          <string>tilde.uc</string>
+          <string>macron.uc</string>
+          <string>breve.uc</string>
+          <string>dotaccent.uc</string>
+          <string>dieresis.uc</string>
+          <string>ring.uc</string>
+          <string>hungarumlaut.uc</string>
+          <string>caron.uc</string>
+          <string>cedilla.uc</string>
+          <string>ogonek.uc</string>
+          <string>hookabove.uc</string>
+          <string>breveinverted.uc</string>
+          <string>dblgrave.uc</string>
+          <string>horn.uc</string>
+          <string>dotbelow.uc</string>
+          <string>dieresisbelow</string>
+          <string>brevebelow.uc</string>
+          <string>commaaccent.uc</string>
+          <string>macronbelow.uc</string>
+          <string>caron.alt</string>
           <string>periodcentered.loclCAT</string>
           <string>periodcentered.loclCAT.case</string>
           <string>zero.lf</string>
@@ -580,65 +603,6 @@
           <string>nine.lf</string>
           <string>minute</string>
           <string>second</string>
-          <string>hookabove</string>
-          <string>dblgrave</string>
-          <string>breveinverted</string>
-          <string>commaturnedabove</string>
-          <string>horn</string>
-          <string>dotbelow</string>
-          <string>brevebelow</string>
-          <string>commaaccent</string>
-          <string>macronbelow</string>
-          <string>circumflex_acute</string>
-          <string>circumflex_grave</string>
-          <string>circumflex_hookabove</string>
-          <string>circumflex_tilde</string>
-          <string>breve_acute</string>
-          <string>breve_grave</string>
-          <string>breve_hookabove</string>
-          <string>breve_tilde</string>
-          <string>caron.alt</string>
-          <string>ring_acute</string>
-          <string>dieresis_macron</string>
-          <string>tilde_macron</string>
-          <string>dotaccent_macron</string>
-          <string>grave.uc</string>
-          <string>acute.uc</string>
-          <string>circumflex.uc</string>
-          <string>tilde.uc</string>
-          <string>macron.uc</string>
-          <string>breve.uc</string>
-          <string>dotaccent.uc</string>
-          <string>dieresis.uc</string>
-          <string>hookabove.uc</string>
-          <string>ring.uc</string>
-          <string>hungarumlaut.uc</string>
-          <string>caron.uc</string>
-          <string>dblgrave.uc</string>
-          <string>breveinverted.uc</string>
-          <string>commaturnedabove.uc</string>
-          <string>horn.uc</string>
-          <string>dotbelow.uc</string>
-          <string>cedilla.uc</string>
-          <string>ogonek.uc</string>
-          <string>brevebelow.uc</string>
-          <string>commaaccent.uc</string>
-          <string>macronbelow.uc</string>
-          <string>circumflex_acute.uc</string>
-          <string>circumflex_grave.uc</string>
-          <string>circumflex_hookabove.uc</string>
-          <string>circumflex_tilde.uc</string>
-          <string>breve_acute.uc</string>
-          <string>breve_grave.uc</string>
-          <string>breve_hookabove.uc</string>
-          <string>breve_tilde.uc</string>
-          <string>caron.alt.uc</string>
-          <string>ring_acute.uc</string>
-          <string>dieresis_macron.uc</string>
-          <string>tilde_macron.uc</string>
-          <string>dotaccent_macron.uc</string>
-          <string>strokeshort</string>
-          <string>dieresisbelow</string>
         </array>
         <key>type</key>
         <string>glyphList</string>
@@ -677,6 +641,14 @@
       <real>0.6924212208413115</real>
       <real>0.3</real>
     </array>
+    <key>com.typemytype.robofont.guideline.magnetic.7evcLpWRaO</key>
+    <real>5.0</real>
+    <key>com.typemytype.robofont.guideline.magnetic.kVIAuvmSzB</key>
+    <real>5.0</real>
+    <key>com.typemytype.robofont.guideline.showMeasurements.7evcLpWRaO</key>
+    <false/>
+    <key>com.typemytype.robofont.guideline.showMeasurements.kVIAuvmSzB</key>
+    <false/>
     <key>com.typemytype.robofont.italicSlantOffset</key>
     <real>-100.0</real>
     <key>com.typemytype.robofont.segmentType</key>
@@ -1890,6 +1862,29 @@
       <string>f_f_l</string>
       <string>f_f_ij</string>
       <string>f_ij</string>
+      <string>gravecomb.case</string>
+      <string>acutecomb.case</string>
+      <string>circumflexcomb.case</string>
+      <string>tildecomb.case</string>
+      <string>macroncomb.case</string>
+      <string>brevecomb.case</string>
+      <string>dotaccentcomb.case</string>
+      <string>dieresiscomb.case</string>
+      <string>ringcomb.case</string>
+      <string>hungarumlautcomb.case</string>
+      <string>caroncomb.case</string>
+      <string>cedillacomb.case</string>
+      <string>ogonekcomb.case</string>
+      <string>hookabovecomb.case</string>
+      <string>breveinvertedcomb.case</string>
+      <string>dblgravecomb.case</string>
+      <string>horncomb.case</string>
+      <string>dotbelowcomb.case</string>
+      <string>dieresisbelowcomb.case</string>
+      <string>brevebelowcomb.case</string>
+      <string>commaaccentcomb.case</string>
+      <string>macronbelowcomb.case</string>
+      <string>caron.alt</string>
       <string>periodcentered.loclCAT</string>
       <string>periodcentered.loclCAT.case</string>
       <string>zero.lf</string>
@@ -1904,41 +1899,6 @@
       <string>nine.lf</string>
       <string>minute</string>
       <string>second</string>
-      <string>hookabove</string>
-      <string>dblgrave</string>
-      <string>breveinverted</string>
-      <string>commaturnedabove</string>
-      <string>horn</string>
-      <string>dotbelow</string>
-      <string>brevebelow</string>
-      <string>commaaccent</string>
-      <string>macronbelow</string>
-      <string>caron.alt</string>
-      <string>grave.uc</string>
-      <string>acute.uc</string>
-      <string>circumflex.uc</string>
-      <string>tilde.uc</string>
-      <string>macron.uc</string>
-      <string>breve.uc</string>
-      <string>dotaccent.uc</string>
-      <string>dieresis.uc</string>
-      <string>hookabove.uc</string>
-      <string>ring.uc</string>
-      <string>hungarumlaut.uc</string>
-      <string>caron.uc</string>
-      <string>dblgrave.uc</string>
-      <string>breveinverted.uc</string>
-      <string>commaturnedabove.uc</string>
-      <string>horn.uc</string>
-      <string>dotbelow.uc</string>
-      <string>cedilla.uc</string>
-      <string>ogonek.uc</string>
-      <string>brevebelow.uc</string>
-      <string>commaaccent.uc</string>
-      <string>macronbelow.uc</string>
-      <string>caron.alt.uc</string>
-      <string>ring_acute.uc</string>
-      <string>dieresisbelow</string>
     </array>
     <key>tnCurvePalet</key>
     <dict>

@@ -566,6 +566,29 @@
           <string>f_f_l</string>
           <string>f_f_ij</string>
           <string>f_ij</string>
+          <string>gravecomb.case</string>
+          <string>acutecomb.case</string>
+          <string>circumflexcomb.case</string>
+          <string>tildecomb.case</string>
+          <string>macroncomb.case</string>
+          <string>brevecomb.case</string>
+          <string>dotaccentcomb.case</string>
+          <string>dieresiscomb.case</string>
+          <string>ringcomb.case</string>
+          <string>hungarumlautcomb.case</string>
+          <string>caroncomb.case</string>
+          <string>cedillacomb.case</string>
+          <string>ogonekcomb.case</string>
+          <string>hookabovecomb.case</string>
+          <string>breveinvertedcomb.case</string>
+          <string>dblgravecomb.case</string>
+          <string>horncomb.case</string>
+          <string>dotbelowcomb.case</string>
+          <string>dieresisbelowcomb.case</string>
+          <string>brevebelowcomb.case</string>
+          <string>commaaccentcomb.case</string>
+          <string>macronbelowcomb.case</string>
+          <string>caron.alt</string>
           <string>periodcentered.loclCAT</string>
           <string>periodcentered.loclCAT.case</string>
           <string>zero.lf</string>
@@ -580,30 +603,6 @@
           <string>nine.lf</string>
           <string>minute</string>
           <string>second</string>
-          <string>grave.uc</string>
-          <string>acute.uc</string>
-          <string>circumflex.uc</string>
-          <string>tilde.uc</string>
-          <string>macron.uc</string>
-          <string>breve.uc</string>
-          <string>dotaccent.uc</string>
-          <string>dieresis.uc</string>
-          <string>ring.uc</string>
-          <string>hungarumlaut.uc</string>
-          <string>caron.uc</string>
-          <string>cedilla.uc</string>
-          <string>ogonek.uc</string>
-          <string>hookabove.uc</string>
-          <string>breveinverted.uc</string>
-          <string>dblgrave.uc</string>
-          <string>horn.uc</string>
-          <string>dotbelow.uc</string>
-          <string>dieresisbelow.uc</string>
-          <string>brevebelow.uc</string>
-          <string>commaaccent.uc</string>
-          <string>macronbelow.uc</string>
-          <string>caron.alt</string>
-          <string>commaaccent.alt</string>
         </array>
         <key>type</key>
         <string>glyphList</string>
@@ -1833,20 +1832,6 @@
       <string>f_f_l</string>
       <string>f_f_ij</string>
       <string>f_ij</string>
-      <string>periodcentered.loclCAT</string>
-      <string>periodcentered.loclCAT.case</string>
-      <string>zero.lf</string>
-      <string>one.lf</string>
-      <string>two.lf</string>
-      <string>three.lf</string>
-      <string>four.lf</string>
-      <string>five.lf</string>
-      <string>six.lf</string>
-      <string>seven.lf</string>
-      <string>eight.lf</string>
-      <string>nine.lf</string>
-      <string>minute</string>
-      <string>second</string>
       <string>gravecomb.case</string>
       <string>acutecomb.case</string>
       <string>circumflexcomb.case</string>
@@ -1870,7 +1855,20 @@
       <string>commaaccentcomb.case</string>
       <string>macronbelowcomb.case</string>
       <string>caron.alt</string>
-      <string>commaaccent.alt</string>
+      <string>periodcentered.loclCAT</string>
+      <string>periodcentered.loclCAT.case</string>
+      <string>zero.lf</string>
+      <string>one.lf</string>
+      <string>two.lf</string>
+      <string>three.lf</string>
+      <string>four.lf</string>
+      <string>five.lf</string>
+      <string>six.lf</string>
+      <string>seven.lf</string>
+      <string>eight.lf</string>
+      <string>nine.lf</string>
+      <string>minute</string>
+      <string>second</string>
     </array>
     <key>tnCurvePalet</key>
     <dict>
