@@ -218,6 +218,7 @@
           <string>Dcroat</string>
           <string>Hbar</string>
           <string>Thorn</string>
+          <string>IJ</string>
           <string>Ldot</string>
           <string>Lslash</string>
           <string>Eng</string>
@@ -226,6 +227,7 @@
           <string>Oslashacute</string>
           <string>Tbar</string>
           <string>Schwa</string>
+          <string>DZcaron</string>
           <string>LJ</string>
           <string>NJ</string>
           <string>Germandbls</string>
@@ -388,9 +390,11 @@
           <string>hbar</string>
           <string>idotless</string>
           <string>jdotless</string>
+          <string>ij</string>
           <string>kgreenlandic</string>
           <string>ldot</string>
           <string>lslash</string>
+          <string>napostrophe</string>
           <string>eng</string>
           <string>oslash</string>
           <string>oslashacute</string>
@@ -402,8 +406,33 @@
           <string>nj</string>
           <string>schwa</string>
           <string>Dzcaron</string>
+          <string>Lj</string>
+          <string>Nj</string>
+          <string>firsttonechinese</string>
           <string>ordfeminine</string>
           <string>ordmasculine</string>
+          <string>acutecomb</string>
+          <string>gravecomb</string>
+          <string>circumflexcomb</string>
+          <string>tildecomb</string>
+          <string>macroncomb</string>
+          <string>brevecomb</string>
+          <string>dotaccentcomb</string>
+          <string>dieresiscomb</string>
+          <string>ringcomb</string>
+          <string>hungarumlautcomb</string>
+          <string>caroncomb</string>
+          <string>cedillacomb</string>
+          <string>ogonekcomb</string>
+          <string>hookabovecomb</string>
+          <string>breveinvertedcomb</string>
+          <string>dblgravecomb</string>
+          <string>horncomb</string>
+          <string>dotbelowcomb</string>
+          <string>dieresisbelowcomb</string>
+          <string>commaaccentcomb</string>
+          <string>brevebelowcomb</string>
+          <string>macronbelowcomb</string>
           <string>zero</string>
           <string>one</string>
           <string>two</string>
@@ -528,12 +557,40 @@
           <string>degree</string>
           <string>CR</string>
           <string>softhyphen</string>
+          <string>IJacute</string>
+          <string>ijacute</string>
           <string>f_f</string>
           <string>fi</string>
           <string>fl</string>
           <string>f_f_i</string>
           <string>f_f_l</string>
+          <string>f_f_ij</string>
+          <string>f_ij</string>
+          <string>gravecomb.case</string>
+          <string>acutecomb.case</string>
+          <string>circumflexcomb.case</string>
+          <string>tildecomb.case</string>
+          <string>macroncomb.case</string>
+          <string>brevecomb.case</string>
+          <string>dotaccentcomb.case</string>
+          <string>dieresiscomb.case</string>
+          <string>ringcomb.case</string>
+          <string>hungarumlautcomb.case</string>
+          <string>caroncomb.case</string>
+          <string>cedillacomb.case</string>
+          <string>ogonekcomb.case</string>
+          <string>hookabovecomb.case</string>
+          <string>breveinvertedcomb.case</string>
+          <string>dblgravecomb.case</string>
+          <string>horncomb.case</string>
+          <string>dotbelowcomb.case</string>
+          <string>dieresisbelowcomb.case</string>
+          <string>brevebelowcomb.case</string>
+          <string>commaaccentcomb.case</string>
+          <string>macronbelowcomb.case</string>
+          <string>caron.alt</string>
           <string>periodcentered.loclCAT</string>
+          <string>periodcentered.loclCAT.case</string>
           <string>zero.lf</string>
           <string>one.lf</string>
           <string>two.lf</string>
@@ -546,89 +603,6 @@
           <string>nine.lf</string>
           <string>minute</string>
           <string>second</string>
-          <string>NULL</string>
-          <string>hyphentwo</string>
-          <string>apostrophemod</string>
-          <string>primemod</string>
-          <string>doubleprimemod</string>
-          <string>leftanglebracket</string>
-          <string>rightanglebracket</string>
-          <string>commercialMinusSign</string>
-          <string>Uhookabove</string>
-          <string>idotaccent</string>
-          <string>uhookabove</string>
-          <string>hookabove</string>
-          <string>dblgrave</string>
-          <string>breveinverted</string>
-          <string>commaturnedabove</string>
-          <string>horn</string>
-          <string>dotbelow</string>
-          <string>brevebelow</string>
-          <string>commaaccent</string>
-          <string>macronbelow</string>
-          <string>circumflex_acute</string>
-          <string>circumflex_grave</string>
-          <string>circumflex_hookabove</string>
-          <string>circumflex_tilde</string>
-          <string>breve_acute</string>
-          <string>breve_grave</string>
-          <string>breve_hookabove</string>
-          <string>breve_tilde</string>
-          <string>caron.alt</string>
-          <string>ring_acute</string>
-          <string>dieresis_macron</string>
-          <string>tilde_macron</string>
-          <string>dotaccent_macron</string>
-          <string>grave.uc</string>
-          <string>acute.uc</string>
-          <string>circumflex.uc</string>
-          <string>tilde.uc</string>
-          <string>macron.uc</string>
-          <string>breve.uc</string>
-          <string>dotaccent.uc</string>
-          <string>dieresis.uc</string>
-          <string>hookabove.uc</string>
-          <string>ring.uc</string>
-          <string>hungarumlaut.uc</string>
-          <string>caron.uc</string>
-          <string>dblgrave.uc</string>
-          <string>breveinverted.uc</string>
-          <string>commaturnedabove.uc</string>
-          <string>horn.uc</string>
-          <string>dotbelow.uc</string>
-          <string>cedilla.uc</string>
-          <string>ogonek.uc</string>
-          <string>brevebelow.uc</string>
-          <string>commaaccent.uc</string>
-          <string>macronbelow.uc</string>
-          <string>circumflex_acute.uc</string>
-          <string>circumflex_grave.uc</string>
-          <string>circumflex_hookabove.uc</string>
-          <string>circumflex_tilde.uc</string>
-          <string>breve_acute.uc</string>
-          <string>breve_grave.uc</string>
-          <string>breve_hookabove.uc</string>
-          <string>breve_tilde.uc</string>
-          <string>caron.alt.uc</string>
-          <string>ring_acute.uc</string>
-          <string>dieresis_macron.uc</string>
-          <string>tilde_macron.uc</string>
-          <string>dotaccent_macron.uc</string>
-          <string>engtail</string>
-          <string>horizontalbarH</string>
-          <string>hornU</string>
-          <string>strokeshort</string>
-          <string>diagonalbarO</string>
-          <string>diagonalbarl</string>
-          <string>diagonalbaro</string>
-          <string>engn</string>
-          <string>horizontalbarlc</string>
-          <string>horizontalbar</string>
-          <string>dieresisbelow</string>
-          <string>f.altbegin</string>
-          <string>f.altend</string>
-          <string>f.altshortd</string>
-          <string>f.altshorta</string>
         </array>
         <key>type</key>
         <string>glyphList</string>
@@ -1546,6 +1520,7 @@
       <string>Dcroat</string>
       <string>Hbar</string>
       <string>Thorn</string>
+      <string>IJ</string>
       <string>Ldot</string>
       <string>Lslash</string>
       <string>Eng</string>
@@ -1554,6 +1529,7 @@
       <string>Oslashacute</string>
       <string>Tbar</string>
       <string>Schwa</string>
+      <string>DZcaron</string>
       <string>LJ</string>
       <string>NJ</string>
       <string>Germandbls</string>
@@ -1716,9 +1692,11 @@
       <string>hbar</string>
       <string>idotless</string>
       <string>jdotless</string>
+      <string>ij</string>
       <string>kgreenlandic</string>
       <string>ldot</string>
       <string>lslash</string>
+      <string>napostrophe</string>
       <string>eng</string>
       <string>oslash</string>
       <string>oslashacute</string>
@@ -1730,8 +1708,33 @@
       <string>nj</string>
       <string>schwa</string>
       <string>Dzcaron</string>
+      <string>Lj</string>
+      <string>Nj</string>
+      <string>firsttonechinese</string>
       <string>ordfeminine</string>
       <string>ordmasculine</string>
+      <string>acutecomb</string>
+      <string>gravecomb</string>
+      <string>circumflexcomb</string>
+      <string>tildecomb</string>
+      <string>macroncomb</string>
+      <string>brevecomb</string>
+      <string>dotaccentcomb</string>
+      <string>dieresiscomb</string>
+      <string>ringcomb</string>
+      <string>hungarumlautcomb</string>
+      <string>caroncomb</string>
+      <string>cedillacomb</string>
+      <string>ogonekcomb</string>
+      <string>hookabovecomb</string>
+      <string>breveinvertedcomb</string>
+      <string>dblgravecomb</string>
+      <string>horncomb</string>
+      <string>dotbelowcomb</string>
+      <string>dieresisbelowcomb</string>
+      <string>commaaccentcomb</string>
+      <string>brevebelowcomb</string>
+      <string>macronbelowcomb</string>
       <string>zero</string>
       <string>one</string>
       <string>two</string>
@@ -1856,12 +1859,40 @@
       <string>degree</string>
       <string>CR</string>
       <string>softhyphen</string>
+      <string>IJacute</string>
+      <string>ijacute</string>
       <string>f_f</string>
       <string>fi</string>
       <string>fl</string>
       <string>f_f_i</string>
       <string>f_f_l</string>
+      <string>f_f_ij</string>
+      <string>f_ij</string>
+      <string>gravecomb.case</string>
+      <string>acutecomb.case</string>
+      <string>circumflexcomb.case</string>
+      <string>tildecomb.case</string>
+      <string>macroncomb.case</string>
+      <string>brevecomb.case</string>
+      <string>dotaccentcomb.case</string>
+      <string>dieresiscomb.case</string>
+      <string>ringcomb.case</string>
+      <string>hungarumlautcomb.case</string>
+      <string>caroncomb.case</string>
+      <string>cedillacomb.case</string>
+      <string>ogonekcomb.case</string>
+      <string>hookabovecomb.case</string>
+      <string>breveinvertedcomb.case</string>
+      <string>dblgravecomb.case</string>
+      <string>horncomb.case</string>
+      <string>dotbelowcomb.case</string>
+      <string>dieresisbelowcomb.case</string>
+      <string>brevebelowcomb.case</string>
+      <string>commaaccentcomb.case</string>
+      <string>macronbelowcomb.case</string>
+      <string>caron.alt</string>
       <string>periodcentered.loclCAT</string>
+      <string>periodcentered.loclCAT.case</string>
       <string>zero.lf</string>
       <string>one.lf</string>
       <string>two.lf</string>
@@ -1874,73 +1905,6 @@
       <string>nine.lf</string>
       <string>minute</string>
       <string>second</string>
-      <string>hookabove</string>
-      <string>dblgrave</string>
-      <string>breveinverted</string>
-      <string>commaturnedabove</string>
-      <string>horn</string>
-      <string>dotbelow</string>
-      <string>brevebelow</string>
-      <string>commaaccent</string>
-      <string>macronbelow</string>
-      <string>circumflex_acute</string>
-      <string>circumflex_grave</string>
-      <string>circumflex_hookabove</string>
-      <string>circumflex_tilde</string>
-      <string>breve_acute</string>
-      <string>breve_grave</string>
-      <string>breve_hookabove</string>
-      <string>breve_tilde</string>
-      <string>caron.alt</string>
-      <string>ring_acute</string>
-      <string>dieresis_macron</string>
-      <string>tilde_macron</string>
-      <string>dotaccent_macron</string>
-      <string>grave.uc</string>
-      <string>acute.uc</string>
-      <string>circumflex.uc</string>
-      <string>tilde.uc</string>
-      <string>macron.uc</string>
-      <string>breve.uc</string>
-      <string>dotaccent.uc</string>
-      <string>dieresis.uc</string>
-      <string>hookabove.uc</string>
-      <string>ring.uc</string>
-      <string>hungarumlaut.uc</string>
-      <string>caron.uc</string>
-      <string>dblgrave.uc</string>
-      <string>breveinverted.uc</string>
-      <string>commaturnedabove.uc</string>
-      <string>horn.uc</string>
-      <string>dotbelow.uc</string>
-      <string>cedilla.uc</string>
-      <string>ogonek.uc</string>
-      <string>brevebelow.uc</string>
-      <string>commaaccent.uc</string>
-      <string>macronbelow.uc</string>
-      <string>circumflex_acute.uc</string>
-      <string>circumflex_grave.uc</string>
-      <string>circumflex_hookabove.uc</string>
-      <string>circumflex_tilde.uc</string>
-      <string>breve_acute.uc</string>
-      <string>breve_grave.uc</string>
-      <string>breve_hookabove.uc</string>
-      <string>breve_tilde.uc</string>
-      <string>caron.alt.uc</string>
-      <string>ring_acute.uc</string>
-      <string>dieresis_macron.uc</string>
-      <string>tilde_macron.uc</string>
-      <string>dotaccent_macron.uc</string>
-      <string>engtail</string>
-      <string>horizontalbarH</string>
-      <string>hornU</string>
-      <string>diagonalbarO</string>
-      <string>diagonalbarl</string>
-      <string>diagonalbaro</string>
-      <string>engn</string>
-      <string>horizontalbarlc</string>
-      <string>horizontalbar</string>
-      <string>dieresisbelow</string>
     </array>
     <key>tnCurvePalet</key>
     <dict>

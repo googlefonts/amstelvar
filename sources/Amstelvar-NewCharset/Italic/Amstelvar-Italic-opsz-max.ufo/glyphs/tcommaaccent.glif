@@ -5,5 +5,12 @@
   <outline>
     <component base="t"/>
     <component base="commaaccent" xOffset="-194"/>
+    <component base="commaaccentcomb" xOffset="-156"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.2453,0.8091,1,1</string>
+    </dict>
+  </lib>
 </glyph>

@@ -3,7 +3,40 @@
   <advance width="1018"/>
   <unicode hex="1EC0"/>
   <outline>
+    <contour>
+      <point x="503" y="1600" type="line"/>
+      <point x="519" y="1581" type="line"/>
+      <point x="787" y="1752" type="line"/>
+      <point x="940" y="1570" type="line"/>
+      <point x="958" y="1583" type="line"/>
+      <point x="875" y="1799" type="line" smooth="yes"/>
+      <point x="860" y="1839"/>
+      <point x="840" y="1881"/>
+      <point x="817" y="1881" type="qcurve" smooth="yes"/>
+      <point x="788" y="1881"/>
+      <point x="755" y="1851"/>
+      <point x="708" y="1803" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="718" y="1980" type="qcurve" smooth="yes"/>
+      <point x="987" y="1913" type="line"/>
+      <point x="998" y="1936" type="line"/>
+      <point x="772" y="2084" type="line" smooth="yes"/>
+      <point x="755" y="2095"/>
+      <point x="721" y="2109"/>
+      <point x="706" y="2109" type="qcurve" smooth="yes"/>
+      <point x="674" y="2109"/>
+      <point x="640" y="2071"/>
+      <point x="640" y="2051" type="qcurve" smooth="yes"/>
+      <point x="640" y="2024"/>
+      <point x="681" y="1989"/>
+    </contour>
     <component base="E"/>
-    <component base="circumflex_grave.uc" xOffset="100" yOffset="1"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.2453,0.8091,1,1</string>
+    </dict>
+  </lib>
 </glyph>
