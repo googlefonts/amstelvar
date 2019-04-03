@@ -1,7 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<glyph name="n" format="2">
+<glyph name="f" format="2">
   <advance width="1670"/>
-  <unicode hex="006E"/>
   <outline>
     <contour>
       <point x="33" y="0" type="line"/>
@@ -24,10 +23,10 @@
       <point x="1490" y="567"/>
       <point x="1490" y="561" type="qcurve" smooth="yes"/>
       <point x="1496" y="154" type="line"/>
-      <point x="1646" y="120" type="line"/>
+      <point x="1646" y="119" type="line"/>
       <point x="1646" y="0" type="line"/>
       <point x="890" y="0" type="line"/>
-      <point x="890" y="120" type="line"/>
+      <point x="890" y="119" type="line"/>
       <point x="1004" y="155" type="line"/>
       <point x="1008" y="510" type="line"/>
       <point x="1008" y="664" type="line" smooth="yes"/>
@@ -43,10 +42,4 @@
       <point x="792" y="0" type="line"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.2453,0.8091,1,1</string>
-    </dict>
-  </lib>
 </glyph>
