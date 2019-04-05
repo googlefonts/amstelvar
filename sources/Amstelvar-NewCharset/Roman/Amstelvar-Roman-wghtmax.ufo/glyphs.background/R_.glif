@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<glyph name="P" format="2">
+<glyph name="R" format="2">
   <advance width="1643"/>
-  <unicode hex="0050"/>
+  <unicode hex="0052"/>
   <outline>
     <contour>
       <point x="42" y="0" type="line"/>
       <point x="42" y="130" type="line"/>
-      <point x="220" y="166" type="line"/>
+      <point x="220" y="165" type="line"/>
       <point x="222" y="754" type="line"/>
       <point x="220" y="1322" type="line"/>
       <point x="42" y="1356" type="line"/>
@@ -34,15 +34,9 @@
       <point x="749" y="1332" type="line"/>
       <point x="721" y="1312" type="line"/>
       <point x="719" y="764" type="line"/>
-      <point x="721" y="165" type="line"/>
+      <point x="721" y="164" type="line"/>
       <point x="901" y="130" type="line"/>
       <point x="901" y="0" type="line"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.3216,0.6784,0.4118,1</string>
-    </dict>
-  </lib>
 </glyph>
