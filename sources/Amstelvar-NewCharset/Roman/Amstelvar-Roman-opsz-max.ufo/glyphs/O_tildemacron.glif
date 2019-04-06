@@ -4,12 +4,6 @@
   <unicode hex="022C"/>
   <outline>
     <contour>
-      <point x="426" y="1858" type="line"/>
-      <point x="426" y="1955" type="line"/>
-      <point x="906" y="1955" type="line"/>
-      <point x="906" y="1858" type="line"/>
-    </contour>
-    <contour>
       <point x="355" y="1624" type="line"/>
       <point x="378" y="1677"/>
       <point x="497" y="1787"/>
@@ -37,8 +31,13 @@
       <point x="399" y="1621"/>
       <point x="386" y="1597" type="qcurve"/>
     </contour>
+    <contour>
+      <point x="426" y="1858" type="line"/>
+      <point x="426" y="1955" type="line"/>
+      <point x="906" y="1955" type="line"/>
+      <point x="906" y="1858" type="line"/>
+    </contour>
     <component base="O"/>
-    <component base="tilde_macron.uc" xOffset="214" yOffset="-22"/>
   </outline>
   <lib>
     <dict>

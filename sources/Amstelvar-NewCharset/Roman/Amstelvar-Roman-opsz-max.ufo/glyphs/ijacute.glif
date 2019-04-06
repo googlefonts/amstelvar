@@ -21,20 +21,6 @@
       <point x="645" y="-461"/>
     </contour>
     <contour>
-      <point x="907" y="1283" type="qcurve" smooth="yes"/>
-      <point x="907" y="1267"/>
-      <point x="895" y="1228"/>
-      <point x="876" y="1214" type="qcurve" smooth="yes"/>
-      <point x="637" y="1030" type="line"/>
-      <point x="617" y="1046" type="line"/>
-      <point x="776" y="1294" type="line" smooth="yes"/>
-      <point x="791" y="1317"/>
-      <point x="835" y="1338"/>
-      <point x="854" y="1338" type="qcurve" smooth="yes"/>
-      <point x="873" y="1338"/>
-      <point x="907" y="1298"/>
-    </contour>
-    <contour>
       <point x="59" y="0" type="line"/>
       <point x="59" y="21" type="line"/>
       <point x="200" y="56" type="line"/>
@@ -64,6 +50,7 @@
       <point x="226" y="1158"/>
       <point x="169" y="1218"/>
     </contour>
+    <component base="acutecomb" xOffset="273"/>
   </outline>
   <lib>
     <dict>

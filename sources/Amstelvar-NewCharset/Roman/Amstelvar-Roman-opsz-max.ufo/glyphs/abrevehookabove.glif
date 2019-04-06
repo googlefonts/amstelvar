@@ -4,6 +4,22 @@
   <unicode hex="1EB3"/>
   <outline>
     <contour>
+      <point x="662" y="1238" type="qcurve"/>
+      <point x="692" y="1225" type="line"/>
+      <point x="682" y="1149"/>
+      <point x="519" y="1008"/>
+      <point x="419" y="1008" type="qcurve" smooth="yes"/>
+      <point x="319" y="1008"/>
+      <point x="162" y="1133"/>
+      <point x="144" y="1222" type="qcurve"/>
+      <point x="178" y="1238" type="line"/>
+      <point x="203" y="1192"/>
+      <point x="345" y="1115"/>
+      <point x="420" y="1114" type="qcurve" smooth="yes"/>
+      <point x="497" y="1115"/>
+      <point x="641" y="1194"/>
+    </contour>
+    <contour>
       <point x="311" y="1171" type="line"/>
       <point x="311" y="1228" type="line"/>
       <point x="347" y="1264" type="line"/>
@@ -34,24 +50,7 @@
       <point x="355" y="1206" type="qcurve"/>
       <point x="355" y="1171" type="line"/>
     </contour>
-    <contour>
-      <point x="662" y="1238" type="qcurve"/>
-      <point x="692" y="1225" type="line"/>
-      <point x="682" y="1149"/>
-      <point x="519" y="1008"/>
-      <point x="419" y="1008" type="qcurve" smooth="yes"/>
-      <point x="319" y="1008"/>
-      <point x="162" y="1133"/>
-      <point x="144" y="1222" type="qcurve"/>
-      <point x="178" y="1238" type="line"/>
-      <point x="203" y="1192"/>
-      <point x="345" y="1115"/>
-      <point x="420" y="1114" type="qcurve" smooth="yes"/>
-      <point x="497" y="1115"/>
-      <point x="641" y="1194"/>
-    </contour>
     <component base="a"/>
-    <component base="breve_hookabove" xOffset="-31" yOffset="-90"/>
   </outline>
   <lib>
     <dict>

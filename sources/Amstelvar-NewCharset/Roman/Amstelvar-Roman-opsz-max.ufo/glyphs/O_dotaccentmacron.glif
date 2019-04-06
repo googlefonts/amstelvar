@@ -9,9 +9,21 @@
       <point x="896" y="1950" type="line"/>
       <point x="896" y="1853" type="line"/>
     </contour>
+    <contour>
+      <point x="566" y="1682" type="qcurve" smooth="yes"/>
+      <point x="566" y="1732"/>
+      <point x="620" y="1785"/>
+      <point x="671" y="1785" type="qcurve" smooth="yes"/>
+      <point x="719" y="1785"/>
+      <point x="776" y="1728"/>
+      <point x="776" y="1682" type="qcurve" smooth="yes"/>
+      <point x="776" y="1632"/>
+      <point x="722" y="1579"/>
+      <point x="671" y="1579" type="qcurve" smooth="yes"/>
+      <point x="623" y="1579"/>
+      <point x="566" y="1636"/>
+    </contour>
     <component base="O"/>
-    <component base="dotaccent_macron.uc" xOffset="217" yOffset="-30"/>
-    <component base="dotaccentcomb.case" xOffset="223" yOffset="-30"/>
   </outline>
   <lib>
     <dict>
