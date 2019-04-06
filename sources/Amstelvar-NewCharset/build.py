@@ -5,8 +5,12 @@ from fontTools.varLib import build
 
 romans = [
 	"Roman/Amstelvar-Roman.ufo",
-"Roman/Amstelvar-Roman-opsz-min.ufo",
-"Roman/Amstelvar-Roman-opsz-max.ufo",
+	"Roman/Amstelvar-Roman-opsz-min.ufo",
+	"Roman/Amstelvar-Roman-opsz-max.ufo",
+	"Roman/Amstelvar-Roman-wdthmax.ufo",
+	"Roman/Amstelvar-Roman-wdthmin.ufo",
+	"Roman/Amstelvar-Roman-wghtmin.ufo",
+	"Roman/Amstelvar-Roman-wghtmax.ufo",
 
 ]
 
@@ -18,7 +22,7 @@ project.run_from_ufos(
 	reverse_direction=False, 
 	use_production_names=False)
 
-designSpace = "Amstelvar-Roman.designspace"
+designSpace = "Amstelvar001.designspace"
 outfile = "../../fonts/Amstelvar-Roman-VF.ttf"
 finder = lambda s: s.replace("Roman/", "master_ttf_interpolatable/").replace(".ufo", ".ttf")
 varfont, _, _ = build(designSpace, finder)
