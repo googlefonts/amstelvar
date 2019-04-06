@@ -4,21 +4,6 @@
   <unicode hex="FB01"/>
   <outline>
     <contour>
-      <point x="555" y="-14" type="line"/>
-      <point x="506" y="61" type="line"/>
-      <point x="611" y="547" type="line"/>
-      <point x="668" y="833" type="line"/>
-      <point x="522" y="851" type="line"/>
-      <point x="525" y="872" type="line"/>
-      <point x="805" y="922" type="line"/>
-      <point x="832" y="908" type="line"/>
-      <point x="817" y="840" type="line"/>
-      <point x="770" y="665" type="line"/>
-      <point x="661" y="84" type="line"/>
-      <point x="838" y="102" type="line"/>
-      <point x="838" y="82" type="line"/>
-    </contour>
-    <contour>
       <point x="-499" y="-419.0" type="line"/>
       <point x="-487" y="-395.0" type="line"/>
       <point x="-356" y="-395.0" type="line" smooth="yes"/>
@@ -54,13 +39,28 @@
       <point x="-341" y="-479.0" type="qcurve"/>
     </contour>
     <contour>
+      <point x="5" y="831" type="line"/>
+      <point x="7" y="862" type="line"/>
       <point x="192" y="867" type="line"/>
       <point x="646" y="880" type="line"/>
       <point x="640" y="851" type="line"/>
       <point x="233" y="836" type="line"/>
       <point x="194" y="825" type="line"/>
-      <point x="5" y="831" type="line"/>
-      <point x="7" y="862" type="line"/>
+    </contour>
+    <contour>
+      <point x="555" y="-14" type="line"/>
+      <point x="506" y="61" type="line"/>
+      <point x="611" y="547" type="line"/>
+      <point x="668" y="833" type="line"/>
+      <point x="522" y="851" type="line"/>
+      <point x="525" y="872" type="line"/>
+      <point x="805" y="922" type="line"/>
+      <point x="832" y="908" type="line"/>
+      <point x="817" y="840" type="line"/>
+      <point x="770" y="665" type="line"/>
+      <point x="661" y="84" type="line"/>
+      <point x="838" y="102" type="line"/>
+      <point x="838" y="82" type="line"/>
     </contour>
   </outline>
   <lib>

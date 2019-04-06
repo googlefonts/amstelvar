@@ -4,6 +4,20 @@
   <unicode hex="01FB"/>
   <outline>
     <contour>
+      <point x="536" y="1660" type="line"/>
+      <point x="755" y="1815" type="line" smooth="yes"/>
+      <point x="792" y="1841"/>
+      <point x="885" y="1891"/>
+      <point x="917" y="1891" type="qcurve" smooth="yes"/>
+      <point x="965" y="1891"/>
+      <point x="1008" y="1842"/>
+      <point x="1008" y="1809" type="qcurve" smooth="yes"/>
+      <point x="1008" y="1773"/>
+      <point x="943" y="1723"/>
+      <point x="882" y="1698" type="qcurve" smooth="yes"/>
+      <point x="584" y="1577" type="line"/>
+    </contour>
+    <contour>
       <point x="481" y="1338" type="qcurve" smooth="yes"/>
       <point x="481" y="1429"/>
       <point x="603" y="1546"/>
@@ -31,22 +45,7 @@
       <point x="648" y="1441"/>
       <point x="595" y="1388"/>
     </contour>
-    <contour>
-      <point x="536" y="1660" type="line"/>
-      <point x="584" y="1577" type="line"/>
-      <point x="882" y="1698" type="line" smooth="yes"/>
-      <point x="943" y="1723"/>
-      <point x="1008" y="1773"/>
-      <point x="1008" y="1809" type="qcurve" smooth="yes"/>
-      <point x="1008" y="1842"/>
-      <point x="965" y="1891"/>
-      <point x="917" y="1891" type="qcurve" smooth="yes"/>
-      <point x="885" y="1891"/>
-      <point x="792" y="1841"/>
-      <point x="755" y="1815" type="qcurve" smooth="yes"/>
-    </contour>
     <component base="a"/>
-    <component base="ring_acute" xOffset="34"/>
   </outline>
   <lib>
     <dict>
