@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<glyph name="zero" format="2">
+<glyph name="eight" format="2">
   <advance width="1000"/>
-  <unicode hex="0030"/>
+  <unicode hex="0038"/>
   <outline>
     <contour>
       <point x="58" y="749" type="qcurve" smooth="yes"/>
@@ -32,10 +32,4 @@
       <point x="136" y="1112"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.3216,0.6784,0.4118,1</string>
-    </dict>
-  </lib>
 </glyph>
