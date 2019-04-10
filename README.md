@@ -34,6 +34,25 @@ Feb. 21, 2019 FB recieved approval of Default, opsz min and max, Default ital op
 
 March 8, 2019, FB's SO started compeltion of glyph repertoires for spec.
 
+April 10, 2019
+In Amstelvar/Docs:
+AMSTELVAR DESIGNSPACE MAP2, notes on overall design space and progress display on contols milestone.
+
+Amstelvar Artboard 2, shows entire complete glyphs, link to measurement and glyphs sheet. 
+(glyph sheets currently hiding, Jill?)
+
+Sheet at:
+https://docs.google.com/spreadsheets/d/1JYewenc_Owd6LddOpr4KVwtCKOSoIds8ZbCaeICZN4/edit#gid=0
+Contains measured values and other data forvariable font creation. 
+
 March 15, 2019 FB's SO completed Amstelvar-Roman.ufo according to CharacterSet.txt
 
 March 18, 2019 TN takes opsz max and min, regular and italics, and ITalic default for charset update
+
+April 10, 2019 Glyph Set and Axes Spreadsheet updated to reflect NewChar (the spec GF Latin Plus (567 glyphs total + 25 optional) + Build glyphs
+
+https://docs.google.com/spreadsheets/d/1EZ6nu8wDf1q3_F4Rabbn0bBvpqG41On4LcoBH0Y8EEI/edit?usp=sharing
+
+https://github.com/googlefonts/gftools/tree/master/Lib/gftools/encodings/GF%20Glyph%20Sets
+
+
