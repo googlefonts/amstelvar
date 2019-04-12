@@ -11,6 +11,13 @@ romans = [
 	"Roman/Amstelvar-Roman-wdthmin.ufo",
 	"Roman/Amstelvar-Roman-wghtmin.ufo",
 	"Roman/Amstelvar-Roman-wghtmax.ufo",
+	
+	"Roman/Amstelvar-Roman-XOPQmax.ufo",
+	"Roman/Amstelvar-Roman-XOPQmin.ufo",
+	"Roman/Amstelvar-Roman-XTRAmax.ufo",
+	"Roman/Amstelvar-Roman-XTRAmin.ufo",
+	"Roman/Amstelvar-Roman-YOPQmax.ufo",
+	"Roman/Amstelvar-Roman-YOPQmin.ufo",
 
 ]
 
