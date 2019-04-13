@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Odotaccentmacron" format="2">
+  <advance width="1664"/>
+  <unicode hex="0230"/>
+  <outline>
+    <contour>
+      <point x="536.0" y="1931.0" type="line"/>
+      <point x="536.0" y="2068.0" type="line"/>
+      <point x="1128.0" y="2068.0" type="line"/>
+      <point x="1128.0" y="1931.0" type="line"/>
+    </contour>
+    <contour>
+      <point x="711.0" y="1722.0" type="qcurve" smooth="yes"/>
+      <point x="711.0" y="1779.0"/>
+      <point x="773.0" y="1840.0"/>
+      <point x="832.0" y="1840.0" type="qcurve" smooth="yes"/>
+      <point x="887.0" y="1840.0"/>
+      <point x="953.0" y="1775.0"/>
+      <point x="953.0" y="1722.0" type="qcurve" smooth="yes"/>
+      <point x="953.0" y="1665.0"/>
+      <point x="891.0" y="1604.0"/>
+      <point x="832.0" y="1604.0" type="qcurve" smooth="yes"/>
+      <point x="777.0" y="1604.0"/>
+      <point x="711.0" y="1669.0"/>
+    </contour>
+    <component base="O"/>
+  </outline>
+</glyph>
