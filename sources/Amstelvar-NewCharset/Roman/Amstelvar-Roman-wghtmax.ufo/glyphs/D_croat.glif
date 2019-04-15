@@ -1,9 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Dcroat" format="2">
-  <advance width="1590"/>
+  <advance width="1797"/>
   <unicode hex="0110"/>
   <outline>
     <component base="D"/>
-    <component base="horizontalbar" xOffset="86" yOffset="38"/>
+    <component base="horizontalbar" xOffset="46" yOffset="38"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.3216,0.6784,0.4118,1</string>
+    </dict>
+  </lib>
 </glyph>
