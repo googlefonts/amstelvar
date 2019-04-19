@@ -17,7 +17,20 @@
       <point x="457" y="1426"/>
       <point x="491" y="1451"/>
     </contour>
+    <contour>
+      <point x="273" y="1722" type="qcurve" smooth="yes"/>
+      <point x="267" y="1757"/>
+      <point x="319" y="1810"/>
+      <point x="353" y="1816" type="qcurve" smooth="yes"/>
+      <point x="389" y="1823"/>
+      <point x="479" y="1776"/>
+      <point x="520" y="1746" type="qcurve" smooth="yes"/>
+      <point x="763" y="1590" type="line"/>
+      <point x="680" y="1467" type="line"/>
+      <point x="374" y="1622" type="line" smooth="yes"/>
+      <point x="328" y="1642"/>
+      <point x="282" y="1676"/>
+    </contour>
     <component base="e"/>
-    <component base="gravecomb" xScale="0.9837509240953488" xyScale="0.1795386291067953" yxScale="-0.1795386291067953" yScale="0.9837509240953488" xOffset="262" yOffset="240"/>
   </outline>
 </glyph>
