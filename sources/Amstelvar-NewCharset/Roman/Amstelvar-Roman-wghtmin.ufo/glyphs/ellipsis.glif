@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ellipsis" format="2">
-  <advance width="1756"/>
+  <advance width="1732"/>
   <unicode hex="2026"/>
   <outline>
     <component base="period"/>
@@ -17,6 +17,8 @@
       <integer>1</integer>
       <key>com.typemytype.robofont.Image.Sharpness</key>
       <real>0.4</real>
+      <key>public.markColor</key>
+      <string>1,0.8,0.2,1</string>
     </dict>
   </lib>
 </glyph>
