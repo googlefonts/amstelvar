@@ -3,36 +3,8 @@
   <advance width="1032"/>
   <unicode hex="1EB7"/>
   <outline>
-    <contour>
-      <point x="792" y="1461" type="qcurve"/>
-      <point x="870" y="1408" type="line"/>
-      <point x="857" y="1315"/>
-      <point x="646" y="1141"/>
-      <point x="517" y="1141" type="qcurve" smooth="yes"/>
-      <point x="388" y="1141"/>
-      <point x="184" y="1295"/>
-      <point x="162" y="1405" type="qcurve"/>
-      <point x="244" y="1462" type="line"/>
-      <point x="276" y="1405"/>
-      <point x="421" y="1299"/>
-      <point x="518" y="1297" type="qcurve" smooth="yes"/>
-      <point x="618" y="1299"/>
-      <point x="765" y="1407"/>
-    </contour>
-    <contour>
-      <point x="398" y="-279" type="qcurve" smooth="yes"/>
-      <point x="398" y="-224"/>
-      <point x="458" y="-164"/>
-      <point x="516" y="-164" type="qcurve" smooth="yes"/>
-      <point x="570" y="-164"/>
-      <point x="634" y="-228"/>
-      <point x="634" y="-279" type="qcurve" smooth="yes"/>
-      <point x="634" y="-335"/>
-      <point x="574" y="-395"/>
-      <point x="516" y="-395" type="qcurve" smooth="yes"/>
-      <point x="462" y="-395"/>
-      <point x="398" y="-331"/>
-    </contour>
     <component base="a"/>
+    <component base="brevecomb" xOffset="4" yOffset="-30"/>
+    <component base="dotbelowcomb" xOffset="4"/>
   </outline>
 </glyph>
