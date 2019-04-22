@@ -3,8 +3,34 @@
   <advance width="1168"/>
   <unicode hex="1ED9"/>
   <outline>
+    <contour>
+      <point x="584" y="1488" type="qcurve" smooth="yes"/>
+      <point x="618" y="1488"/>
+      <point x="663" y="1457"/>
+      <point x="694" y="1415" type="qcurve" smooth="yes"/>
+      <point x="897" y="1172" type="line"/>
+      <point x="819" y="1099" type="line"/>
+      <point x="584" y="1314" type="line"/>
+      <point x="349" y="1099" type="line"/>
+      <point x="271" y="1172" type="line"/>
+      <point x="474" y="1415" type="line" smooth="yes"/>
+      <point x="515" y="1464"/>
+      <point x="550" y="1488"/>
+    </contour>
+    <contour>
+      <point x="466" y="-279" type="qcurve" smooth="yes"/>
+      <point x="466" y="-224"/>
+      <point x="526" y="-164"/>
+      <point x="584" y="-164" type="qcurve" smooth="yes"/>
+      <point x="638" y="-164"/>
+      <point x="702" y="-228"/>
+      <point x="702" y="-279" type="qcurve" smooth="yes"/>
+      <point x="702" y="-335"/>
+      <point x="642" y="-395"/>
+      <point x="584" y="-395" type="qcurve" smooth="yes"/>
+      <point x="530" y="-395"/>
+      <point x="466" y="-331"/>
+    </contour>
     <component base="o"/>
-    <component base="circumflexcomb" xOffset="72" yOffset="-43"/>
-    <component base="dotbelowcomb" xOffset="72"/>
   </outline>
 </glyph>

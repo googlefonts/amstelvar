@@ -2,7 +2,20 @@
 <glyph name="IJacute" format="2">
   <advance width="1402"/>
   <outline>
+    <contour>
+      <point x="1352" y="1897" type="qcurve" smooth="yes"/>
+      <point x="1352" y="1850"/>
+      <point x="1312" y="1808"/>
+      <point x="1271" y="1780" type="qcurve" smooth="yes"/>
+      <point x="968" y="1573" type="line"/>
+      <point x="894" y="1649" type="line"/>
+      <point x="1105" y="1876" type="line" smooth="yes"/>
+      <point x="1140" y="1913"/>
+      <point x="1220" y="1975"/>
+      <point x="1257" y="1975" type="qcurve" smooth="yes"/>
+      <point x="1291" y="1975"/>
+      <point x="1352" y="1932"/>
+    </contour>
     <component base="IJ"/>
-    <component base="acutecomb.case" xOffset="611" yOffset="-19"/>
   </outline>
 </glyph>

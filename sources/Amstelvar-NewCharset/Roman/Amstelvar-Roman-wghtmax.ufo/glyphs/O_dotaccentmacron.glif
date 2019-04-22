@@ -1,28 +1,34 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Odotaccentmacron" format="2">
-  <advance width="1664"/>
+  <advance width="1904"/>
   <unicode hex="0230"/>
   <outline>
     <contour>
-      <point x="536" y="1931" type="line"/>
-      <point x="536" y="2068" type="line"/>
-      <point x="1128" y="2068" type="line"/>
-      <point x="1128" y="1931" type="line"/>
+      <point x="600" y="2003" type="line"/>
+      <point x="600" y="2197" type="line"/>
+      <point x="1304" y="2197" type="line"/>
+      <point x="1304" y="2003" type="line"/>
     </contour>
     <contour>
-      <point x="711" y="1722" type="qcurve" smooth="yes"/>
-      <point x="711" y="1779"/>
-      <point x="773" y="1840"/>
-      <point x="832" y="1840" type="qcurve" smooth="yes"/>
-      <point x="887" y="1840"/>
-      <point x="953" y="1775"/>
-      <point x="953" y="1722" type="qcurve" smooth="yes"/>
-      <point x="953" y="1665"/>
-      <point x="891" y="1604"/>
-      <point x="832" y="1604" type="qcurve" smooth="yes"/>
-      <point x="777" y="1604"/>
-      <point x="711" y="1669"/>
+      <point x="795" y="1762" type="qcurve" smooth="yes"/>
+      <point x="795" y="1837"/>
+      <point x="876" y="1916"/>
+      <point x="952" y="1916" type="qcurve" smooth="yes"/>
+      <point x="1024" y="1916"/>
+      <point x="1109" y="1831"/>
+      <point x="1109" y="1762" type="qcurve" smooth="yes"/>
+      <point x="1109" y="1688"/>
+      <point x="1030" y="1608"/>
+      <point x="952" y="1608" type="qcurve" smooth="yes"/>
+      <point x="880" y="1608"/>
+      <point x="795" y="1692"/>
     </contour>
     <component base="O"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.5333,0.7922,0.5255,1</string>
+    </dict>
+  </lib>
 </glyph>

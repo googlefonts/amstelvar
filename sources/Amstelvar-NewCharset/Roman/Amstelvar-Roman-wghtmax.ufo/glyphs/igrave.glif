@@ -1,9 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="igrave" format="2">
-  <advance width="639"/>
+  <advance width="851"/>
   <unicode hex="00EC"/>
   <outline>
     <component base="idotless"/>
-    <component base="gravecomb" xOffset="-229" yOffset="-20"/>
+    <component base="gravecomb" xOffset="-99" yOffset="-20"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.5333,0.7922,0.5255,1</string>
+    </dict>
+  </lib>
 </glyph>

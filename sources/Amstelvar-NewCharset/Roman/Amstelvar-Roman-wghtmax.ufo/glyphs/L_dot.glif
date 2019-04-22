@@ -1,22 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Ldot" format="2">
-  <advance width="1264"/>
+  <advance width="1398"/>
   <unicode hex="013F"/>
   <outline>
-    <contour>
-      <point x="983" y="763" type="qcurve" smooth="yes"/>
-      <point x="983" y="838"/>
-      <point x="1064" y="917"/>
-      <point x="1140" y="917" type="qcurve" smooth="yes"/>
-      <point x="1212" y="917"/>
-      <point x="1297" y="832"/>
-      <point x="1297" y="763" type="qcurve" smooth="yes"/>
-      <point x="1297" y="689"/>
-      <point x="1218" y="609"/>
-      <point x="1140" y="609" type="qcurve" smooth="yes"/>
-      <point x="1068" y="609"/>
-      <point x="983" y="693"/>
-    </contour>
     <component base="L"/>
+    <component base="dotaccentcomb.case" xOffset="645" yOffset="-995"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.5333,0.7922,0.5255,1</string>
+    </dict>
+  </lib>
 </glyph>

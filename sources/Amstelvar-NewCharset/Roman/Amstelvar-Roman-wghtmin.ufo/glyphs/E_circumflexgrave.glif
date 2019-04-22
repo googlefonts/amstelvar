@@ -1,36 +1,42 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Ecircumflexgrave" format="2">
-  <advance width="1260"/>
+  <advance width="1287"/>
   <unicode hex="1EC0"/>
   <outline>
     <contour>
-      <point x="693" y="1891" type="qcurve" smooth="yes"/>
-      <point x="727" y="1891"/>
-      <point x="766" y="1865"/>
-      <point x="803" y="1828" type="qcurve" smooth="yes"/>
-      <point x="1006" y="1625" type="line"/>
-      <point x="928" y="1552" type="line"/>
-      <point x="693" y="1727" type="line"/>
-      <point x="458" y="1552" type="line"/>
-      <point x="380" y="1625" type="line"/>
-      <point x="583" y="1828" type="line" smooth="yes"/>
-      <point x="628" y="1873"/>
-      <point x="659" y="1891"/>
+      <point x="540" y="2114" type="qcurve" smooth="yes"/>
+      <point x="538" y="2128"/>
+      <point x="554" y="2157"/>
+      <point x="572" y="2162" type="qcurve" smooth="yes"/>
+      <point x="589" y="2166"/>
+      <point x="624" y="2158"/>
+      <point x="645" y="2143" type="qcurve" smooth="yes"/>
+      <point x="884" y="1970" type="line"/>
+      <point x="869" y="1940" type="line"/>
+      <point x="590" y="2064" type="line" smooth="yes"/>
+      <point x="571" y="2073"/>
+      <point x="543" y="2096"/>
     </contour>
     <contour>
-      <point x="461" y="2114" type="qcurve" smooth="yes"/>
-      <point x="451" y="2148"/>
-      <point x="499" y="2206"/>
-      <point x="532" y="2215" type="qcurve" smooth="yes"/>
-      <point x="567" y="2224"/>
-      <point x="658" y="2183"/>
-      <point x="704" y="2159" type="qcurve" smooth="yes"/>
-      <point x="949" y="2032" type="line"/>
-      <point x="902" y="1934" type="line"/>
-      <point x="570" y="2023" type="line" smooth="yes"/>
-      <point x="521" y="2036"/>
-      <point x="473" y="2069"/>
+      <point x="700" y="1900" type="qcurve" smooth="yes"/>
+      <point x="724" y="1900"/>
+      <point x="757" y="1868"/>
+      <point x="790" y="1827" type="qcurve" smooth="yes"/>
+      <point x="963" y="1615" type="line"/>
+      <point x="935" y="1586" type="line"/>
+      <point x="700" y="1801" type="line"/>
+      <point x="465" y="1586" type="line"/>
+      <point x="437" y="1615" type="line"/>
+      <point x="610" y="1827" type="line" smooth="yes"/>
+      <point x="650" y="1876"/>
+      <point x="676" y="1900"/>
     </contour>
     <component base="E"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.5333,0.7922,0.5255,1</string>
+    </dict>
+  </lib>
 </glyph>

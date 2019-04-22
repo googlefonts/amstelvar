@@ -1,53 +1,59 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Acircumflexhookabove" format="2">
-  <advance width="1506"/>
+  <advance width="1637"/>
   <unicode hex="1EA8"/>
   <outline>
     <contour>
-      <point x="753" y="1920" type="qcurve" smooth="yes"/>
-      <point x="787" y="1920"/>
-      <point x="830" y="1887"/>
-      <point x="863" y="1847" type="qcurve" smooth="yes"/>
-      <point x="1049" y="1622" type="line"/>
-      <point x="988" y="1531" type="line"/>
-      <point x="753" y="1746" type="line"/>
-      <point x="518" y="1531" type="line"/>
-      <point x="440" y="1604" type="line"/>
-      <point x="643" y="1847" type="line" smooth="yes"/>
-      <point x="684" y="1896"/>
-      <point x="719" y="1920"/>
+      <point x="783" y="2023" type="qcurve" smooth="yes"/>
+      <point x="824" y="2023"/>
+      <point x="890" y="1981"/>
+      <point x="935" y="1925" type="qcurve" smooth="yes"/>
+      <point x="1159" y="1644" type="line"/>
+      <point x="1065" y="1556" type="line"/>
+      <point x="783" y="1784" type="line"/>
+      <point x="501" y="1556" type="line"/>
+      <point x="407" y="1644" type="line"/>
+      <point x="631" y="1925" type="line" smooth="yes"/>
+      <point x="679" y="1985"/>
+      <point x="742" y="2023"/>
     </contour>
     <contour>
-      <point x="1092" y="1449" type="line"/>
-      <point x="1092" y="1557" type="line"/>
-      <point x="1160" y="1652" type="line"/>
-      <point x="1176" y="1645"/>
-      <point x="1226" y="1638"/>
-      <point x="1247" y="1638" type="qcurve" smooth="yes"/>
-      <point x="1299" y="1638"/>
-      <point x="1343" y="1683"/>
-      <point x="1343" y="1728" type="qcurve" smooth="yes"/>
-      <point x="1343" y="1772"/>
-      <point x="1272" y="1824"/>
-      <point x="1228" y="1824" type="qcurve" smooth="yes"/>
-      <point x="1164" y="1824"/>
-      <point x="1102" y="1812"/>
-      <point x="1050" y="1800" type="qcurve"/>
-      <point x="998" y="1909" type="line"/>
-      <point x="1080" y="1937"/>
-      <point x="1174" y="1948"/>
-      <point x="1241" y="1948" type="qcurve" smooth="yes"/>
-      <point x="1361" y="1948"/>
-      <point x="1506" y="1834"/>
-      <point x="1506" y="1729" type="qcurve" smooth="yes"/>
-      <point x="1506" y="1637"/>
-      <point x="1395" y="1521"/>
-      <point x="1319" y="1521" type="qcurve" smooth="yes"/>
-      <point x="1289" y="1521"/>
-      <point x="1231" y="1530"/>
-      <point x="1215" y="1534" type="qcurve"/>
-      <point x="1215" y="1449" type="line"/>
+      <point x="1193" y="1413" type="line"/>
+      <point x="1193" y="1603" type="line"/>
+      <point x="1271" y="1685" type="line"/>
+      <point x="1291" y="1679"/>
+      <point x="1338" y="1672"/>
+      <point x="1354" y="1672" type="qcurve" smooth="yes"/>
+      <point x="1402" y="1672"/>
+      <point x="1453" y="1721"/>
+      <point x="1453" y="1760" type="qcurve" smooth="yes"/>
+      <point x="1453" y="1802"/>
+      <point x="1386" y="1846"/>
+      <point x="1331" y="1846" type="qcurve" smooth="yes"/>
+      <point x="1277" y="1846"/>
+      <point x="1163" y="1820"/>
+      <point x="1118" y="1801" type="qcurve"/>
+      <point x="1062" y="1944" type="line"/>
+      <point x="1120" y="1976"/>
+      <point x="1279" y="2014"/>
+      <point x="1345" y="2014" type="qcurve" smooth="yes"/>
+      <point x="1513" y="2014"/>
+      <point x="1677" y="1887"/>
+      <point x="1677" y="1763" type="qcurve" smooth="yes"/>
+      <point x="1677" y="1659"/>
+      <point x="1542" y="1531"/>
+      <point x="1436" y="1531" type="qcurve" smooth="yes"/>
+      <point x="1403" y="1531"/>
+      <point x="1360" y="1535"/>
+      <point x="1343" y="1539" type="qcurve"/>
+      <point x="1343" y="1413" type="line"/>
     </contour>
     <component base="A"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.5333,0.7922,0.5255,1</string>
+    </dict>
+  </lib>
 </glyph>

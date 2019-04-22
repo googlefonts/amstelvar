@@ -1,9 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Udieresis" format="2">
-  <advance width="1604"/>
+  <advance width="1697"/>
   <unicode hex="00DC"/>
   <outline>
     <component base="U"/>
-    <component base="dieresiscomb.case" xOffset="343"/>
+    <component base="dieresiscomb.case" xOffset="447"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.5333,0.7922,0.5255,1</string>
+    </dict>
+  </lib>
 </glyph>
