@@ -2,26 +2,13 @@
 <glyph name="IJacute" format="2">
   <advance width="1456"/>
   <outline>
-    <contour>
-      <point x="1274" y="1837" type="qcurve" smooth="yes"/>
-      <point x="1274" y="1821"/>
-      <point x="1251" y="1792"/>
-      <point x="1234" y="1780" type="qcurve" smooth="yes"/>
-      <point x="981" y="1608" type="line"/>
-      <point x="961" y="1635" type="line"/>
-      <point x="1162" y="1842" type="line" smooth="yes"/>
-      <point x="1180" y="1861"/>
-      <point x="1213" y="1880"/>
-      <point x="1231" y="1880" type="qcurve" smooth="yes"/>
-      <point x="1250" y="1880"/>
-      <point x="1274" y="1855"/>
-    </contour>
     <component base="IJ"/>
+    <component base="acutecomb.case" xOffset="551"/>
   </outline>
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.5333,0.7922,0.5255,1</string>
+      <string>1,0.8,0.2,1</string>
     </dict>
   </lib>
 </glyph>
