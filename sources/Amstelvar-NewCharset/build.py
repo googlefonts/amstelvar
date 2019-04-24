@@ -18,6 +18,11 @@ romans = [
 	"Roman/Amstelvar-Roman-XTRAmin.ufo",
 	"Roman/Amstelvar-Roman-YOPQmax.ufo",
 	"Roman/Amstelvar-Roman-YOPQmin.ufo",
+	
+	"Roman/Amstelvar-Roman-opsz-max-wgthmin.ufo",
+	"Roman/Amstelvar-Roman-opsz-max-wgthmax.ufo",
+	"Roman/Amstelvar-Roman-opsz-max-wgthmax-wdthmax.ufo",
+	"Roman/Amstelvar-Roman-opsz-max-wgthmax-wdthmin.ufo",
 
 ]
 
@@ -29,7 +34,7 @@ project.run_from_ufos(
 	reverse_direction=False, 
 	use_production_names=False)
 
-designSpace = "Amstelvar-Roman-001.designspace"
+designSpace = "Amstelvar-Roman-002.designspace"
 outfile = "../../fonts/Amstelvar-Roman-VF.ttf"
 finder = lambda s: s.replace("Roman/", "master_ttf_interpolatable/").replace(".ufo", ".ttf")
 varfont, _, _ = build(designSpace, finder)
