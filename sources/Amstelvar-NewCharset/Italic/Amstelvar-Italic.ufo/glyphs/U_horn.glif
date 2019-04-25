@@ -3,46 +3,13 @@
   <advance width="1661"/>
   <unicode hex="01AF"/>
   <outline>
-    <contour>
-      <point x="225" y="1386" type="line"/>
-      <point x="239" y="1500" type="line"/>
-      <point x="780" y="1500" type="line"/>
-      <point x="766" y="1386" type="line"/>
-      <point x="591" y="1362" type="line"/>
-      <point x="473" y="794" type="line" smooth="yes"/>
-      <point x="454" y="702"/>
-      <point x="418" y="454"/>
-      <point x="418" y="387" type="qcurve" smooth="yes"/>
-      <point x="418" y="268"/>
-      <point x="566" y="104"/>
-      <point x="707" y="104" type="qcurve" smooth="yes"/>
-      <point x="861" y="104"/>
-      <point x="1071" y="277"/>
-      <point x="1114" y="494" type="qcurve" smooth="yes"/>
-      <point x="1173" y="794" type="line"/>
-      <point x="1271" y="1362" type="line"/>
-      <point x="1079" y="1386" type="line"/>
-      <point x="1093" y="1500" type="line"/>
-      <point x="1435" y="1500" type="line"/>
-      <point x="1297" y="794" type="line"/>
-      <point x="1242" y="493" type="line" smooth="yes"/>
-      <point x="1190" y="209"/>
-      <point x="902" y="-22"/>
-      <point x="675" y="-22" type="qcurve" smooth="yes"/>
-      <point x="439" y="-22"/>
-      <point x="240" y="202"/>
-      <point x="243" y="364" type="qcurve" smooth="yes"/>
-      <point x="244" y="444"/>
-      <point x="277" y="615"/>
-      <point x="311" y="794" type="qcurve" smooth="yes"/>
-      <point x="418" y="1362" type="line"/>
-    </contour>
+    <component base="hornU"/>
     <component base="horncomb.case" xOffset="944" yOffset="40"/>
   </outline>
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.2453,0.8091,1,1</string>
+      <string>0.9908,1,0.037,1</string>
     </dict>
   </lib>
 </glyph>
