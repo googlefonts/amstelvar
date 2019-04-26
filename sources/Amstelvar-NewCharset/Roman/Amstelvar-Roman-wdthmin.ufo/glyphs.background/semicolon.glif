@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<glyph name="period" format="2">
+<glyph name="semicolon" format="2">
   <advance width="461"/>
-  <unicode hex="002E"/>
+  <unicode hex="003B"/>
   <outline>
     <contour>
       <point x="108" y="100" type="qcurve" smooth="yes"/>
@@ -17,11 +17,19 @@
       <point x="177" y="-22"/>
       <point x="108" y="51"/>
     </contour>
+    <contour>
+      <point x="108" y="757" type="qcurve" smooth="yes"/>
+      <point x="108" y="806"/>
+      <point x="177" y="879"/>
+      <point x="230" y="879" type="qcurve" smooth="yes"/>
+      <point x="284" y="879"/>
+      <point x="353" y="806"/>
+      <point x="353" y="757" type="qcurve" smooth="yes"/>
+      <point x="353" y="708"/>
+      <point x="284" y="635"/>
+      <point x="230" y="635" type="qcurve" smooth="yes"/>
+      <point x="177" y="635"/>
+      <point x="108" y="708"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.5333,0.7922,0.5255,1</string>
-    </dict>
-  </lib>
 </glyph>
