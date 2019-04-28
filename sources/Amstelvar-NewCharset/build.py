@@ -6,6 +6,8 @@ from fontTools.varLib import build
 romans = [
 	"Roman/Amstelvar-Roman.ufo",
 	"Roman/Amstelvar-Roman-opsz-min.ufo",
+	"Roman/Amstelvar-Roman-opsz-36.ufo",
+	"Roman/Amstelvar-Roman-opsz-84.ufo",
 	"Roman/Amstelvar-Roman-opsz-max.ufo",
 	"Roman/Amstelvar-Roman-wdthmax.ufo",
 	"Roman/Amstelvar-Roman-wdthmin.ufo",

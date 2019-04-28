@@ -589,7 +589,6 @@
           <string>brevebelowcomb.case</string>
           <string>macronbelowcomb.case</string>
           <string>caroncomb.alt</string>
-          <string>commaaccentcomb.alt</string>
           <string>periodcentered.loclCAT</string>
           <string>periodcentered.loclCAT.case</string>
           <string>zero.lf</string>
@@ -602,10 +601,8 @@
           <string>seven.lf</string>
           <string>eight.lf</string>
           <string>nine.lf</string>
-          <string>zero.zero</string>
           <string>minute</string>
           <string>second</string>
-          <string>hornu</string>
         </array>
         <key>type</key>
         <string>glyphList</string>
@@ -623,6 +620,13 @@
     <integer>0</integer>
     <key>com.typemytype.robofont.compileSettings.releaseMode</key>
     <false/>
+    <key>com.typemytype.robofont.foreground.layerStrokeColor</key>
+    <array>
+      <real>0.6580712795257568</real>
+      <real>0.6718154549598694</real>
+      <real>0.5572555065155029</real>
+      <real>1.0</real>
+    </array>
     <key>com.typemytype.robofont.italicSlantOffset</key>
     <integer>0</integer>
     <key>com.typemytype.robofont.segmentType</key>
@@ -1225,6 +1229,7 @@
           <string>dotaccent_macron.uc</string>
           <string>engtail</string>
           <string>horizontalbarH</string>
+          <string>hornu</string>
           <string>hornU</string>
           <string>strokeshort</string>
           <string>diagonalbarO</string>
@@ -1233,10 +1238,38 @@
           <string>engn</string>
           <string>horizontalbarlc</string>
           <string>horizontalbar</string>
+          <string>dieresisbelow</string>
         </array>
         <key>type</key>
         <string>glyphList</string>
       </dict>
+    </array>
+    <key>designspace.location</key>
+    <array>
+      <array>
+        <string>weight</string>
+        <real>400.0</real>
+      </array>
+      <array>
+        <string>optical size</string>
+        <real>144.0</real>
+      </array>
+      <array>
+        <string>width</string>
+        <real>100.0</real>
+      </array>
+      <array>
+        <string>XTRA</string>
+        <real>1015.0</real>
+      </array>
+      <array>
+        <string>XOPQ</string>
+        <real>176.0</real>
+      </array>
+      <array>
+        <string>YOPQ</string>
+        <real>124.0</real>
+      </array>
     </array>
     <key>public.glyphOrder</key>
     <array>
