@@ -1,24 +1,30 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="jdotless" format="2">
-  <advance width="556"/>
+  <advance width="422"/>
   <outline>
     <contour>
-      <point x="-12.0" y="-471" type="qcurve"/>
-      <point x="-12.0" y="-343" type="line"/>
-      <point x="117" y="-340.0"/>
-      <point x="221" y="-254"/>
-      <point x="221" y="-132" type="qcurve" smooth="yes"/>
-      <point x="219.0" y="527.0" type="line"/>
-      <point x="213.0" y="842.0" type="line"/>
-      <point x="45.0" y="872.0" type="line"/>
-      <point x="45.0" y="966.0" type="line"/>
-      <point x="323.0" y="1000.0" type="line"/>
-      <point x="370.0" y="1000.0" type="line"/>
-      <point x="393.0" y="961.0" type="line"/>
-      <point x="387.0" y="527.0" type="line"/>
-      <point x="389" y="-114" type="line" smooth="yes"/>
-      <point x="390" y="-293"/>
-      <point x="198.0" y="-482.0"/>
+      <point x="-38" y="-496" type="qcurve"/>
+      <point x="-38" y="-368" type="line"/>
+      <point x="61" y="-367"/>
+      <point x="145" y="-279"/>
+      <point x="145" y="-157" type="qcurve" smooth="yes"/>
+      <point x="143" y="527" type="line"/>
+      <point x="141" y="842" type="line"/>
+      <point x="34" y="872" type="line"/>
+      <point x="34" y="966" type="line"/>
+      <point x="233" y="1000" type="line"/>
+      <point x="281" y="1000" type="line"/>
+      <point x="304" y="966" type="line"/>
+      <point x="297" y="527" type="line"/>
+      <point x="299" y="-139" type="line" smooth="yes"/>
+      <point x="300" y="-318"/>
+      <point x="142" y="-507"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.3216,0.6784,0.4118,1</string>
+    </dict>
+  </lib>
 </glyph>

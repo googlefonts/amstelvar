@@ -1,21 +1,27 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="bullet" format="2">
-  <advance width="784"/>
+  <advance width="706"/>
   <unicode hex="2022"/>
   <outline>
     <contour>
-      <point x="104" y="773" type="qcurve" smooth="yes"/>
-      <point x="104" y="889"/>
-      <point x="266" y="1061"/>
-      <point x="392" y="1061" type="qcurve" smooth="yes"/>
-      <point x="518" y="1061"/>
-      <point x="680" y="889"/>
-      <point x="680" y="773" type="qcurve" smooth="yes"/>
-      <point x="680" y="659"/>
-      <point x="518" y="487"/>
-      <point x="392" y="487" type="qcurve" smooth="yes"/>
-      <point x="266" y="487"/>
-      <point x="104" y="659"/>
+      <point x="94" y="773" type="qcurve" smooth="yes"/>
+      <point x="94" y="878"/>
+      <point x="239" y="1032"/>
+      <point x="353" y="1032" type="qcurve" smooth="yes"/>
+      <point x="466" y="1032"/>
+      <point x="612" y="878"/>
+      <point x="612" y="773" type="qcurve" smooth="yes"/>
+      <point x="612" y="670"/>
+      <point x="466" y="516"/>
+      <point x="353" y="516" type="qcurve" smooth="yes"/>
+      <point x="239" y="516"/>
+      <point x="94" y="670"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.3216,0.6784,0.4118,1</string>
+    </dict>
+  </lib>
 </glyph>
