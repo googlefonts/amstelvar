@@ -4,20 +4,6 @@
   <unicode hex="1EA6"/>
   <outline>
     <contour>
-      <point x="374" y="2178" type="qcurve" smooth="yes"/>
-      <point x="374" y="2204"/>
-      <point x="415" y="2256"/>
-      <point x="446" y="2260" type="qcurve" smooth="yes"/>
-      <point x="479" y="2265"/>
-      <point x="555" y="2221"/>
-      <point x="591" y="2193" type="qcurve" smooth="yes"/>
-      <point x="809" y="2026" type="line"/>
-      <point x="764" y="1949.0" type="line"/>
-      <point x="460" y="2081" type="line" smooth="yes"/>
-      <point x="419" y="2099"/>
-      <point x="374" y="2140"/>
-    </contour>
-    <contour>
       <point x="582.0" y="1913" type="qcurve" smooth="yes"/>
       <point x="614" y="1913"/>
       <point x="651" y="1881"/>
@@ -30,6 +16,20 @@
       <point x="480" y="1845" type="line" smooth="yes"/>
       <point x="520" y="1889"/>
       <point x="550" y="1913"/>
+    </contour>
+    <contour>
+      <point x="374" y="2178" type="qcurve" smooth="yes"/>
+      <point x="374" y="2204"/>
+      <point x="415" y="2256"/>
+      <point x="446" y="2260" type="qcurve" smooth="yes"/>
+      <point x="479" y="2265"/>
+      <point x="555" y="2221"/>
+      <point x="591" y="2193" type="qcurve" smooth="yes"/>
+      <point x="809" y="2026" type="line"/>
+      <point x="764" y="1949.0" type="line"/>
+      <point x="460" y="2081" type="line" smooth="yes"/>
+      <point x="419" y="2099"/>
+      <point x="374" y="2140"/>
     </contour>
     <component base="A"/>
   </outline>

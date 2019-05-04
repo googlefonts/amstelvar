@@ -4,6 +4,20 @@
   <unicode hex="1EC4"/>
   <outline>
     <contour>
+      <point x="502.0" y="1943" type="qcurve" smooth="yes"/>
+      <point x="534" y="1943"/>
+      <point x="571" y="1911"/>
+      <point x="604" y="1875" type="qcurve" smooth="yes"/>
+      <point x="812" y="1646" type="line"/>
+      <point x="745" y="1572.0" type="line"/>
+      <point x="502.0" y="1763" type="line"/>
+      <point x="265" y="1572" type="line"/>
+      <point x="192" y="1646" type="line"/>
+      <point x="400" y="1875" type="line" smooth="yes"/>
+      <point x="440" y="1919"/>
+      <point x="470" y="1943"/>
+    </contour>
+    <contour>
       <point x="189" y="2088" type="line"/>
       <point x="217" y="2154"/>
       <point x="332" y="2261"/>
@@ -30,20 +44,6 @@
       <point x="336" y="2111"/>
       <point x="261" y="2036"/>
       <point x="246" y="2008" type="qcurve"/>
-    </contour>
-    <contour>
-      <point x="502.0" y="1943" type="qcurve" smooth="yes"/>
-      <point x="534" y="1943"/>
-      <point x="571" y="1911"/>
-      <point x="604" y="1875" type="qcurve" smooth="yes"/>
-      <point x="812" y="1646" type="line"/>
-      <point x="745" y="1572.0" type="line"/>
-      <point x="502.0" y="1763" type="line"/>
-      <point x="265" y="1572" type="line"/>
-      <point x="192" y="1646" type="line"/>
-      <point x="400" y="1875" type="line" smooth="yes"/>
-      <point x="440" y="1919"/>
-      <point x="470" y="1943"/>
     </contour>
     <component base="E"/>
   </outline>
