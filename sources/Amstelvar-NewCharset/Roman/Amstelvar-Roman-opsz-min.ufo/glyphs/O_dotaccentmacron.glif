@@ -1,27 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Odotaccentmacron" format="2">
-  <advance width="1760"/>
+  <advance width="1664"/>
   <outline>
-    <contour>
-      <point x="544" y="1966" type="line"/>
-      <point x="544" y="2137" type="line"/>
-      <point x="1176" y="2137" type="line"/>
-      <point x="1176" y="1966" type="line"/>
-    </contour>
-    <contour>
-      <point x="721" y="1753" type="qcurve" smooth="yes"/>
-      <point x="721" y="1819"/>
-      <point x="797" y="1899"/>
-      <point x="868" y="1899" type="qcurve" smooth="yes"/>
-      <point x="936" y="1899"/>
-      <point x="1015" y="1816"/>
-      <point x="1015" y="1753" type="qcurve" smooth="yes"/>
-      <point x="1015" y="1688"/>
-      <point x="941" y="1611"/>
-      <point x="868" y="1611" type="qcurve" smooth="yes"/>
-      <point x="801" y="1611"/>
-      <point x="721" y="1691"/>
-    </contour>
     <component base="O"/>
+    <component base="dotaccentcombstack.case" xOffset="320" yOffset="-70"/>
+    <component base="macroncombstack.case" xOffset="320" yOffset="240"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>1,0,0,1</string>
+    </dict>
+  </lib>
 </glyph>

@@ -1,28 +1,16 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="odotaccentmacron" format="2">
-  <advance width="980"/>
+  <advance width="1168"/>
   <unicode hex="0231"/>
   <outline>
-    <contour>
-      <point x="245.42307692307693" y="1307.3153846153846" type="line"/>
-      <point x="245.42307692307693" y="1397.0076923076922" type="line"/>
-      <point x="733.3461538461538" y="1397.0076923076922" type="line"/>
-      <point x="733.3461538461538" y="1307.3153846153846" type="line"/>
-    </contour>
-    <contour>
-      <point x="388.25384615384615" y="1128.1384615384616" type="qcurve" smooth="yes"/>
-      <point x="388.25384615384615" y="1173.7846153846153"/>
-      <point x="447.4153846153846" y="1231.946153846154"/>
-      <point x="494.11538461538464" y="1231.946153846154" type="qcurve" smooth="yes"/>
-      <point x="537.7615384615385" y="1231.946153846154"/>
-      <point x="599.9769230769231" y="1169.7846153846153"/>
-      <point x="599.9769230769231" y="1128.1384615384616" type="qcurve" smooth="yes"/>
-      <point x="599.9769230769231" y="1082.4923076923078"/>
-      <point x="540.8153846153846" y="1024.3307692307692"/>
-      <point x="494.11538461538464" y="1024.3307692307692" type="qcurve" smooth="yes"/>
-      <point x="450.46923076923076" y="1024.3307692307692"/>
-      <point x="388.25384615384615" y="1086.4923076923078"/>
-    </contour>
     <component base="o"/>
+    <component base="dotaccentcomb" xOffset="72" yOffset="-108"/>
+    <component base="macroncomb" xOffset="58" yOffset="190"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>1,0,0,1</string>
+    </dict>
+  </lib>
 </glyph>

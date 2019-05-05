@@ -1,36 +1,16 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Ocircumflexacute" format="2">
-  <advance width="1348"/>
+  <advance width="1664"/>
   <unicode hex="1ED0"/>
   <outline>
-    <contour>
-      <point x="677.7769230769231" y="1855.9923076923078" type="qcurve" smooth="yes"/>
-      <point x="698.5307692307692" y="1855.9923076923078"/>
-      <point x="729.9615384615385" y="1809.176923076923"/>
-      <point x="765.0692307692308" y="1773.123076923077" type="qcurve" smooth="yes"/>
-      <point x="956.7153846153847" y="1577.6923076923076" type="line"/>
-      <point x="932.6461538461539" y="1558.623076923077" type="line"/>
-      <point x="677.7769230769231" y="1717.5384615384614" type="line"/>
-      <point x="432.36923076923074" y="1558.623076923077" type="line"/>
-      <point x="410.1923076923077" y="1576.746153846154" type="line"/>
-      <point x="590.4846153846154" y="1773.123076923077" type="line" smooth="yes"/>
-      <point x="626.9692307692308" y="1813.3923076923077"/>
-      <point x="657.0230769230769" y="1855.9923076923078"/>
-    </contour>
-    <contour>
-      <point x="870.7923076923078" y="2040.2" type="qcurve" smooth="yes"/>
-      <point x="865.4153846153846" y="2023.5846153846153"/>
-      <point x="839.1769230769231" y="1990.5846153846153"/>
-      <point x="815.7230769230769" y="1983.2615384615385" type="qcurve" smooth="yes"/>
-      <point x="525.3538461538461" y="1892.3692307692309" type="line"/>
-      <point x="510.5230769230769" y="1918.4615384615386" type="line"/>
-      <point x="745.1153846153846" y="2094.6615384615384" type="line" smooth="yes"/>
-      <point x="768.4076923076923" y="2111.0923076923077"/>
-      <point x="819.6692307692308" y="2118.0307692307692"/>
-      <point x="837.6384615384616" y="2111.869230769231" type="qcurve" smooth="yes"/>
-      <point x="856.4461538461538" y="2104.7615384615383"/>
-      <point x="877.0076923076923" y="2055.276923076923"/>
-    </contour>
     <component base="O"/>
+    <component base="circumflexcombstack.case" xOffset="326" yOffset="-70"/>
+    <component base="acutecombstack.case" xOffset="277" yOffset="273"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>1,0,0,1</string>
+    </dict>
+  </lib>
 </glyph>

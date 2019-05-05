@@ -1,42 +1,16 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Otildemacron" format="2">
-  <advance width="1348"/>
+  <advance width="1664"/>
   <unicode hex="022C"/>
   <outline>
-    <contour>
-      <point x="360.33076923076925" y="1628.9538461538461" type="line"/>
-      <point x="383.4923076923077" y="1681.4153846153847"/>
-      <point x="503.62307692307695" y="1791.1461538461538"/>
-      <point x="559.4846153846154" y="1791.1461538461538" type="qcurve" smooth="yes"/>
-      <point x="600.5923076923077" y="1791.1461538461538"/>
-      <point x="661.4" y="1767.876923076923"/>
-      <point x="694.7230769230769" y="1744.7153846153847" type="qcurve" smooth="yes"/>
-      <point x="735.0230769230769" y="1717.3076923076924"/>
-      <point x="791.9615384615385" y="1685.176923076923"/>
-      <point x="829.2846153846153" y="1685.176923076923" type="qcurve" smooth="yes"/>
-      <point x="862.7692307692307" y="1685.176923076923"/>
-      <point x="916.2230769230769" y="1734.3923076923077"/>
-      <point x="932.0076923076923" y="1764.4769230769232" type="qcurve"/>
-      <point x="971.4076923076923" y="1731.8384615384616" type="line"/>
-      <point x="945.3538461538461" y="1669.376923076923"/>
-      <point x="841.9" y="1581.7"/>
-      <point x="795.2538461538461" y="1581.7" type="qcurve" smooth="yes"/>
-      <point x="755.6615384615385" y="1581.7"/>
-      <point x="687.8846153846154" y="1607.7769230769231"/>
-      <point x="652.2615384615385" y="1629.6692307692308" type="qcurve" smooth="yes"/>
-      <point x="616.3692307692307" y="1651.7230769230769"/>
-      <point x="556.4" y="1689.5615384615385"/>
-      <point x="527.3461538461538" y="1689.5615384615385" type="qcurve" smooth="yes"/>
-      <point x="486.8076923076923" y="1689.5615384615385"/>
-      <point x="406.2692307692308" y="1622.2923076923078"/>
-      <point x="393.4307692307692" y="1599.1538461538462" type="qcurve"/>
-    </contour>
-    <contour>
-      <point x="431.6538461538462" y="1861.9307692307693" type="line"/>
-      <point x="431.6538461538462" y="1961.0846153846153" type="line"/>
-      <point x="917.6846153846154" y="1961.0846153846153" type="line"/>
-      <point x="917.6846153846154" y="1861.9307692307693" type="line"/>
-    </contour>
     <component base="O"/>
+    <component base="tildecombstack.case" xOffset="300" yOffset="-80"/>
+    <component base="macroncombstack.case" xOffset="300" yOffset="247"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>1,0,0,1</string>
+    </dict>
+  </lib>
 </glyph>

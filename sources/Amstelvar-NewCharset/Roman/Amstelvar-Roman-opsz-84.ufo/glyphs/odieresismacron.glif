@@ -1,42 +1,16 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="odieresismacron" format="2">
-  <advance width="980"/>
+  <advance width="1168"/>
   <unicode hex="022B"/>
   <outline>
-    <contour>
-      <point x="245.42307692307693" y="1302.5846153846155" type="line"/>
-      <point x="245.42307692307693" y="1392.2769230769231" type="line"/>
-      <point x="733.3461538461538" y="1392.2769230769231" type="line"/>
-      <point x="733.3461538461538" y="1302.5846153846155" type="line"/>
-    </contour>
-    <contour>
-      <point x="258.9846153846154" y="1110.2153846153847" type="qcurve" smooth="yes"/>
-      <point x="258.9846153846154" y="1151.9692307692308"/>
-      <point x="311.41538461538465" y="1202.4538461538461"/>
-      <point x="353.2230769230769" y="1202.4538461538461" type="qcurve" smooth="yes"/>
-      <point x="394.8692307692308" y="1202.4538461538461"/>
-      <point x="447.46153846153845" y="1151.753846153846"/>
-      <point x="447.46153846153845" y="1110.2153846153847" type="qcurve" smooth="yes"/>
-      <point x="447.46153846153845" y="1070.4076923076923"/>
-      <point x="395.0846153846154" y="1018.9769230769231"/>
-      <point x="353.2230769230769" y="1018.9769230769231" type="qcurve" smooth="yes"/>
-      <point x="311.5769230769231" y="1018.9769230769231"/>
-      <point x="258.9846153846154" y="1070.5692307692307"/>
-    </contour>
-    <contour>
-      <point x="533.2" y="1110.2153846153847" type="qcurve" smooth="yes"/>
-      <point x="533.2" y="1151.9692307692308"/>
-      <point x="585.6307692307691" y="1202.4538461538461"/>
-      <point x="627.4384615384615" y="1202.4538461538461" type="qcurve" smooth="yes"/>
-      <point x="669.0846153846154" y="1202.4538461538461"/>
-      <point x="721.676923076923" y="1151.753846153846"/>
-      <point x="721.676923076923" y="1110.2153846153847" type="qcurve" smooth="yes"/>
-      <point x="721.676923076923" y="1070.4076923076923"/>
-      <point x="669.3" y="1018.9769230769231"/>
-      <point x="627.4384615384615" y="1018.9769230769231" type="qcurve" smooth="yes"/>
-      <point x="585.7923076923078" y="1018.9769230769231"/>
-      <point x="533.2" y="1070.5692307692307"/>
-    </contour>
     <component base="o"/>
+    <component base="dieresiscomb" xOffset="69" yOffset="-124"/>
+    <component base="macroncomb" xOffset="58" yOffset="190"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>1,0,0,1</string>
+    </dict>
+  </lib>
 </glyph>

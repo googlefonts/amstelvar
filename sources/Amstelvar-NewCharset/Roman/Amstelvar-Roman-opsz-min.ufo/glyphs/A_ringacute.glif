@@ -1,50 +1,16 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Aringacute" format="2">
-  <advance width="1571"/>
+  <advance width="1506"/>
   <unicode hex="01FA"/>
   <outline>
-    <contour>
-      <point x="556" y="1785" type="qcurve" smooth="yes"/>
-      <point x="556" y="1882"/>
-      <point x="685" y="2007"/>
-      <point x="786" y="2007" type="qcurve" smooth="yes"/>
-      <point x="887" y="2007"/>
-      <point x="1016" y="1882"/>
-      <point x="1016" y="1785" type="qcurve" smooth="yes"/>
-      <point x="1016" y="1688"/>
-      <point x="887" y="1563"/>
-      <point x="786" y="1563" type="qcurve" smooth="yes"/>
-      <point x="685" y="1563"/>
-      <point x="556" y="1688"/>
-    </contour>
-    <contour>
-      <point x="682" y="1785" type="qcurve" smooth="yes"/>
-      <point x="682" y="1739"/>
-      <point x="739" y="1680"/>
-      <point x="786" y="1680" type="qcurve" smooth="yes"/>
-      <point x="836" y="1680"/>
-      <point x="889" y="1735"/>
-      <point x="889" y="1785" type="qcurve" smooth="yes"/>
-      <point x="889" y="1831"/>
-      <point x="833" y="1890"/>
-      <point x="786" y="1890" type="qcurve" smooth="yes"/>
-      <point x="736" y="1890"/>
-      <point x="682" y="1835"/>
-    </contour>
-    <contour>
-      <point x="1043" y="2212" type="qcurve" smooth="yes"/>
-      <point x="1043" y="2168"/>
-      <point x="966" y="2124"/>
-      <point x="918" y="2113" type="qcurve" smooth="yes"/>
-      <point x="621" y="2048" type="line"/>
-      <point x="575" y="2170" type="line"/>
-      <point x="793" y="2276" type="line" smooth="yes"/>
-      <point x="839" y="2298"/>
-      <point x="889" y="2322"/>
-      <point x="937" y="2322" type="qcurve" smooth="yes"/>
-      <point x="986" y="2322"/>
-      <point x="1043" y="2255"/>
-    </contour>
     <component base="A"/>
+    <component base="ringcomb" xOffset="232" yOffset="406"/>
+    <component base="acutecombstack.case" xOffset="214" yOffset="387"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>1,0,0,1</string>
+    </dict>
+  </lib>
 </glyph>
