@@ -1,52 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ecircumflexhookabove" format="2">
-  <advance width="843"/>
+  <advance width="1006"/>
   <outline>
-    <contour>
-      <point x="437" y="1324" type="qcurve" smooth="yes"/>
-      <point x="457" y="1324"/>
-      <point x="494" y="1280"/>
-      <point x="523" y="1240" type="qcurve" smooth="yes"/>
-      <point x="664" y="1045" type="line"/>
-      <point x="643" y="1029" type="line"/>
-      <point x="437" y="1197" type="line"/>
-      <point x="231" y="1029" type="line"/>
-      <point x="212" y="1044" type="line"/>
-      <point x="351" y="1240" type="line" smooth="yes"/>
-      <point x="386" y="1289"/>
-      <point x="417" y="1324"/>
-    </contour>
-    <contour>
-      <point x="791" y="920" type="line"/>
-      <point x="791" y="1017" type="line"/>
-      <point x="827" y="1053" type="line"/>
-      <point x="844" y="1048"/>
-      <point x="876" y="1044"/>
-      <point x="890" y="1044" type="qcurve" smooth="yes"/>
-      <point x="936" y="1044"/>
-      <point x="989" y="1094"/>
-      <point x="989" y="1136" type="qcurve" smooth="yes"/>
-      <point x="989" y="1179"/>
-      <point x="931" y="1224"/>
-      <point x="881" y="1224" type="qcurve" smooth="yes"/>
-      <point x="851" y="1224"/>
-      <point x="772" y="1206"/>
-      <point x="722" y="1186" type="qcurve"/>
-      <point x="708" y="1213" type="line"/>
-      <point x="756" y="1250"/>
-      <point x="870" y="1289"/>
-      <point x="925" y="1289" type="qcurve" smooth="yes"/>
-      <point x="1002" y="1289"/>
-      <point x="1098" y="1210"/>
-      <point x="1098" y="1135" type="qcurve" smooth="yes"/>
-      <point x="1098" y="1065"/>
-      <point x="996" y="980"/>
-      <point x="927" y="981" type="qcurve" smooth="yes"/>
-      <point x="906" y="981"/>
-      <point x="857" y="986"/>
-      <point x="835" y="995" type="qcurve"/>
-      <point x="835" y="920" type="line"/>
-    </contour>
     <component base="e"/>
+    <component base="circumflexcomb" xOffset="-13" yOffset="-52"/>
+    <component base="hookabovecomb" xOffset="470"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>1,0,0,1</string>
+    </dict>
+  </lib>
 </glyph>

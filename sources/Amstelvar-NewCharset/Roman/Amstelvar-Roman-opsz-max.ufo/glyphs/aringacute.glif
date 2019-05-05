@@ -1,50 +1,16 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="aringacute" format="2">
-  <advance width="874"/>
+  <advance width="1076"/>
   <unicode hex="01FB"/>
   <outline>
-    <contour>
-      <point x="197.0" y="1178.0" type="qcurve" smooth="yes"/>
-      <point x="197.0" y="1263.0"/>
-      <point x="307.0" y="1373.0"/>
-      <point x="393.0" y="1373.0" type="qcurve" smooth="yes"/>
-      <point x="479.0" y="1373.0"/>
-      <point x="589.0" y="1263.0"/>
-      <point x="589.0" y="1178.0" type="qcurve" smooth="yes"/>
-      <point x="589.0" y="1093.0"/>
-      <point x="479.0" y="983.0"/>
-      <point x="393.0" y="983.0" type="qcurve" smooth="yes"/>
-      <point x="307.0" y="983.0"/>
-      <point x="197.0" y="1093.0"/>
-    </contour>
-    <contour>
-      <point x="271.0" y="1178.0" type="qcurve" smooth="yes"/>
-      <point x="271.0" y="1123.0"/>
-      <point x="337.0" y="1056.0"/>
-      <point x="393.0" y="1056.0" type="qcurve" smooth="yes"/>
-      <point x="452.0" y="1056.0"/>
-      <point x="515.0" y="1119.0"/>
-      <point x="515.0" y="1178.0" type="qcurve" smooth="yes"/>
-      <point x="515.0" y="1233.0"/>
-      <point x="449.0" y="1300.0"/>
-      <point x="393.0" y="1300.0" type="qcurve" smooth="yes"/>
-      <point x="334.0" y="1300.0"/>
-      <point x="271.0" y="1237.0"/>
-    </contour>
-    <contour>
-      <point x="596.0" y="1557.0" type="qcurve" smooth="yes"/>
-      <point x="593.0" y="1538.0"/>
-      <point x="570.0" y="1507.0"/>
-      <point x="548.0" y="1499.0" type="qcurve" smooth="yes"/>
-      <point x="268.0" y="1384.0" type="line"/>
-      <point x="254.0" y="1406.0" type="line"/>
-      <point x="473.0" y="1602.0" type="line" smooth="yes"/>
-      <point x="493.0" y="1621.0"/>
-      <point x="541.0" y="1629.0"/>
-      <point x="559.0" y="1624.0" type="qcurve" smooth="yes"/>
-      <point x="578.0" y="1618.0"/>
-      <point x="598.0" y="1571.0"/>
-    </contour>
     <component base="a"/>
+    <component base="ringcomb" yOffset="-77"/>
+    <component base="acutecomb" xOffset="-9" yOffset="339"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>1,0,0,1</string>
+    </dict>
+  </lib>
 </glyph>

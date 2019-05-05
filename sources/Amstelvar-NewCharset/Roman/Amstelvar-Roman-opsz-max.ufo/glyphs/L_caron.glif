@@ -1,22 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Lcaron" format="2">
-  <advance width="1041"/>
+  <advance width="1264"/>
   <unicode hex="013D"/>
   <outline>
-    <contour>
-      <point x="713.0" y="929.0" type="line"/>
-      <point x="770.0" y="1314.0" type="line" smooth="yes"/>
-      <point x="774.0" y="1341.0"/>
-      <point x="804.0" y="1379.0"/>
-      <point x="821.0" y="1388.0" type="qcurve" smooth="yes"/>
-      <point x="838.0" y="1396.0"/>
-      <point x="886.0" y="1375.0"/>
-      <point x="893.0" y="1362.0" type="qcurve" smooth="yes"/>
-      <point x="900.0" y="1347.0"/>
-      <point x="904.0" y="1307.0"/>
-      <point x="895.0" y="1286.0" type="qcurve" smooth="yes"/>
-      <point x="738.0" y="923.0" type="line"/>
-    </contour>
     <component base="L"/>
+    <component base="caroncomb.alt" xOffset="444" yOffset="-30"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>1,0,0,1</string>
+    </dict>
+  </lib>
 </glyph>

@@ -1,49 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ecircumflextilde" format="2">
-  <advance width="843"/>
+  <advance width="1006"/>
   <outline>
-    <contour>
-      <point x="437.0" y="1324.0" type="qcurve" smooth="yes"/>
-      <point x="457.0" y="1324.0"/>
-      <point x="494.0" y="1280.0"/>
-      <point x="523.0" y="1240.0" type="qcurve" smooth="yes"/>
-      <point x="664.0" y="1045.0" type="line"/>
-      <point x="643.0" y="1029.0" type="line"/>
-      <point x="437.0" y="1197.0" type="line"/>
-      <point x="231.0" y="1029.0" type="line"/>
-      <point x="212.0" y="1044.0" type="line"/>
-      <point x="351.0" y="1240.0" type="line" smooth="yes"/>
-      <point x="386.0" y="1289.0"/>
-      <point x="417.0" y="1324.0"/>
-    </contour>
-    <contour>
-      <point x="173.0" y="1381.0" type="line"/>
-      <point x="195.0" y="1429.0"/>
-      <point x="296.0" y="1528.0"/>
-      <point x="357.0" y="1528.0" type="qcurve" smooth="yes"/>
-      <point x="388.0" y="1528.0"/>
-      <point x="446.0" y="1507.0"/>
-      <point x="475.0" y="1487.0" type="qcurve" smooth="yes"/>
-      <point x="499.0" y="1471.0"/>
-      <point x="555.0" y="1434.0"/>
-      <point x="597.0" y="1434.0" type="qcurve" smooth="yes"/>
-      <point x="627.0" y="1434.0"/>
-      <point x="675.0" y="1478.0"/>
-      <point x="689.0" y="1506.0" type="qcurve"/>
-      <point x="724.0" y="1480.0" type="line"/>
-      <point x="700.0" y="1423.0"/>
-      <point x="619.0" y="1343.0"/>
-      <point x="568.0" y="1343.0" type="qcurve" smooth="yes"/>
-      <point x="532.0" y="1343.0"/>
-      <point x="462.0" y="1369.0"/>
-      <point x="436.0" y="1385.0" type="qcurve" smooth="yes"/>
-      <point x="411.0" y="1402.0"/>
-      <point x="347.0" y="1440.0"/>
-      <point x="323.0" y="1440.0" type="qcurve" smooth="yes"/>
-      <point x="287.0" y="1440.0"/>
-      <point x="214.0" y="1380.0"/>
-      <point x="201.0" y="1357.0" type="qcurve"/>
-    </contour>
     <component base="e"/>
+    <component base="circumflexcomb" xOffset="16" yOffset="-78"/>
+    <component base="tildecomb" xOffset="15" yOffset="265"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>1,0,0,1</string>
+    </dict>
+  </lib>
 </glyph>
