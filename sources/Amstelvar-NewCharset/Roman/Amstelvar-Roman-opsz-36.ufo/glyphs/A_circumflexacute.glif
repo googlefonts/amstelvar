@@ -1,36 +1,16 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Acircumflexacute" format="2">
-  <advance width="1361"/>
+  <advance width="1506"/>
   <unicode hex="1EA4"/>
   <outline>
-    <contour>
-      <point x="680.1384615384616" y="1842.9384615384615" type="qcurve" smooth="yes"/>
-      <point x="707.2461538461539" y="1842.9384615384615"/>
-      <point x="742.3076923076923" y="1806.1076923076923"/>
-      <point x="778.3230769230769" y="1769.6" type="qcurve" smooth="yes"/>
-      <point x="975.4153846153846" y="1570.5384615384614" type="line"/>
-      <point x="925.4769230769231" y="1525.6" type="line"/>
-      <point x="680.1384615384616" y="1692.2307692307693" type="line"/>
-      <point x="439.7230769230769" y="1525.6" type="line"/>
-      <point x="390.7692307692308" y="1570.0461538461539" type="line"/>
-      <point x="581.9538461538461" y="1769.6" type="line" smooth="yes"/>
-      <point x="622.5230769230769" y="1812.1384615384616"/>
-      <point x="653.0307692307692" y="1842.9384615384615"/>
-    </contour>
-    <contour>
-      <point x="898.5692307692308" y="2045.753846153846" type="qcurve" smooth="yes"/>
-      <point x="890.0153846153846" y="2015.5230769230768"/>
-      <point x="853.3384615384615" y="1982.5230769230768"/>
-      <point x="817.6307692307693" y="1972.4769230769232" type="qcurve" smooth="yes"/>
-      <point x="507.2923076923077" y="1882.4923076923078" type="line"/>
-      <point x="477.03076923076924" y="1943.076923076923" type="line"/>
-      <point x="716.6153846153846" y="2095.6769230769232" type="line" smooth="yes"/>
-      <point x="750.8" y="2115.7384615384617"/>
-      <point x="821.123076923077" y="2139.0153846153844"/>
-      <point x="847.2615384615385" y="2131.492307692308" type="qcurve" smooth="yes"/>
-      <point x="872.876923076923" y="2123.476923076923"/>
-      <point x="906.6" y="2069.9076923076923"/>
-    </contour>
     <component base="A"/>
+    <component base="circumflexcombstack.case" xOffset="227" yOffset="-40"/>
+    <component base="acutecombstack.case" xOffset="197" yOffset="330"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>1,0,0,1</string>
+    </dict>
+  </lib>
 </glyph>

@@ -1,36 +1,16 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="acircumflexgrave" format="2">
-  <advance width="977"/>
+  <advance width="1076"/>
   <unicode hex="1EA7"/>
   <outline>
-    <contour>
-      <point x="452.33846153846156" y="1373.7076923076922" type="qcurve" smooth="yes"/>
-      <point x="479.44615384615383" y="1373.7076923076922"/>
-      <point x="518.9846153846154" y="1334.7846153846153"/>
-      <point x="550.5230769230769" y="1295.2923076923078" type="qcurve" smooth="yes"/>
-      <point x="723.0" y="1081.0" type="line"/>
-      <point x="673.0615384615385" y="1036.0615384615385" type="line"/>
-      <point x="451.32307692307694" y="1221.8307692307692" type="line"/>
-      <point x="231.6153846153846" y="1036.0615384615385" type="line"/>
-      <point x="182.66153846153847" y="1080.5076923076922" type="line"/>
-      <point x="354.15384615384613" y="1295.2923076923078" type="line" smooth="yes"/>
-      <point x="392.7076923076923" y="1343.7846153846153"/>
-      <point x="425.2307692307692" y="1373.7076923076922"/>
-    </contour>
-    <contour>
-      <point x="252.53846153846155" y="1612.7076923076922" type="qcurve" smooth="yes"/>
-      <point x="247.5076923076923" y="1637.8615384615384"/>
-      <point x="288.2" y="1686.923076923077"/>
-      <point x="314.3076923076923" y="1691.4461538461537" type="qcurve" smooth="yes"/>
-      <point x="341.9384615384615" y="1695.9692307692308"/>
-      <point x="410.7692307692308" y="1666.7076923076922"/>
-      <point x="440.9384615384615" y="1641.6307692307691" type="qcurve" smooth="yes"/>
-      <point x="666.3076923076923" y="1440.8615384615384" type="line"/>
-      <point x="627.4769230769231" y="1386.8307692307692" type="line"/>
-      <point x="325.46153846153845" y="1530.4153846153847" type="line" smooth="yes"/>
-      <point x="291.7846153846154" y="1546.0"/>
-      <point x="258.0769230769231" y="1581.476923076923"/>
-    </contour>
     <component base="a"/>
+    <component base="circumflexcomb" yOffset="-110"/>
+    <component base="gravecomb" xOffset="32" yOffset="221"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>1,0,0,1</string>
+    </dict>
+  </lib>
 </glyph>

@@ -1,36 +1,16 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ecircumflexacute" format="2">
-  <advance width="926"/>
+  <advance width="1006"/>
   <unicode hex="1EBF"/>
   <outline>
-    <contour>
-      <point x="490.81538461538463" y="1384.923076923077" type="qcurve" smooth="yes"/>
-      <point x="517.9230769230769" y="1384.923076923077"/>
-      <point x="557.4615384615385" y="1346.0"/>
-      <point x="589.0" y="1306.5076923076922" type="qcurve" smooth="yes"/>
-      <point x="761.4769230769231" y="1092.2153846153847" type="line"/>
-      <point x="711.5384615384615" y="1047.2769230769231" type="line"/>
-      <point x="489.8" y="1233.0461538461539" type="line"/>
-      <point x="270.0923076923077" y="1047.2769230769231" type="line"/>
-      <point x="221.13846153846154" y="1091.7230769230769" type="line"/>
-      <point x="392.63076923076926" y="1306.5076923076922" type="line" smooth="yes"/>
-      <point x="431.18461538461537" y="1355.0"/>
-      <point x="463.7076923076923" y="1384.923076923077"/>
-    </contour>
-    <contour>
-      <point x="706.6461538461539" y="1633.753846153846" type="qcurve" smooth="yes"/>
-      <point x="700.6" y="1602.5230769230768"/>
-      <point x="667.3846153846154" y="1567.5384615384614"/>
-      <point x="634.2" y="1552.4615384615386" type="qcurve" smooth="yes"/>
-      <point x="331.18461538461537" y="1408.876923076923" type="line"/>
-      <point x="293.3538461538462" y="1463.4" type="line"/>
-      <point x="518.723076923077" y="1663.1692307692308" type="line" smooth="yes"/>
-      <point x="548.8923076923077" y="1688.246153846154"/>
-      <point x="617.7230769230769" y="1718.0153846153846"/>
-      <point x="644.8615384615384" y="1712.9846153846154" type="qcurve" smooth="yes"/>
-      <point x="671.4769230769231" y="1707.9692307692308"/>
-      <point x="710.6769230769231" y="1658.9076923076923"/>
-    </contour>
     <component base="e"/>
+    <component base="circumflexcomb" xOffset="30" yOffset="-80"/>
+    <component base="acutecomb" xOffset="2" yOffset="309"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>1,0,0,1</string>
+    </dict>
+  </lib>
 </glyph>

@@ -1,36 +1,16 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ocircumflexacute" format="2">
-  <advance width="1070"/>
+  <advance width="1168"/>
   <unicode hex="1ED1"/>
   <outline>
-    <contour>
-      <point x="536.2461538461539" y="1393.7076923076922" type="qcurve" smooth="yes"/>
-      <point x="563.3538461538461" y="1393.7076923076922"/>
-      <point x="602.8923076923077" y="1354.7846153846153"/>
-      <point x="634.4307692307692" y="1315.2923076923078" type="qcurve" smooth="yes"/>
-      <point x="806.9076923076923" y="1101.0" type="line"/>
-      <point x="756.9692307692308" y="1056.0615384615385" type="line"/>
-      <point x="535.2307692307693" y="1241.8307692307692" type="line"/>
-      <point x="315.5230769230769" y="1056.0615384615385" type="line"/>
-      <point x="266.5692307692308" y="1100.5076923076922" type="line"/>
-      <point x="438.0615384615385" y="1315.2923076923078" type="line" smooth="yes"/>
-      <point x="476.61538461538464" y="1363.7846153846153"/>
-      <point x="509.1384615384615" y="1393.7076923076922"/>
-    </contour>
-    <contour>
-      <point x="752.5846153846154" y="1642.5384615384614" type="qcurve" smooth="yes"/>
-      <point x="746.5384615384615" y="1611.3076923076924"/>
-      <point x="713.3230769230769" y="1576.323076923077"/>
-      <point x="680.1384615384616" y="1561.246153846154" type="qcurve" smooth="yes"/>
-      <point x="377.12307692307695" y="1417.6615384615384" type="line"/>
-      <point x="339.2923076923077" y="1472.6923076923076" type="line"/>
-      <point x="564.6615384615385" y="1672.4615384615386" type="line" smooth="yes"/>
-      <point x="594.8307692307692" y="1697.5384615384614"/>
-      <point x="663.6615384615385" y="1726.8"/>
-      <point x="690.8" y="1721.7692307692307" type="qcurve" smooth="yes"/>
-      <point x="717.4153846153846" y="1716.753846153846"/>
-      <point x="756.6153846153846" y="1667.6923076923076"/>
-    </contour>
     <component base="o"/>
+    <component base="circumflexcomb" xOffset="73" yOffset="-55"/>
+    <component base="acutecomb" xOffset="53" yOffset="308"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>1,0,0,1</string>
+    </dict>
+  </lib>
 </glyph>

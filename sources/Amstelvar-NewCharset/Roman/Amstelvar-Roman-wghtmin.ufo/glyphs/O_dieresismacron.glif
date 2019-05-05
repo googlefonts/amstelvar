@@ -3,46 +3,14 @@
   <advance width="1664"/>
   <unicode hex="022A"/>
   <outline>
-    <contour>
-      <point x="576" y="1892" type="line"/>
-      <point x="576" y="1971" type="line"/>
-      <point x="1088" y="1971" type="line"/>
-      <point x="1088" y="1892" type="line"/>
-    </contour>
-    <contour>
-      <point x="595" y="1709" type="qcurve" smooth="yes"/>
-      <point x="595" y="1744"/>
-      <point x="635" y="1783"/>
-      <point x="672" y="1783" type="qcurve" smooth="yes"/>
-      <point x="706" y="1783"/>
-      <point x="746" y="1742"/>
-      <point x="746" y="1709" type="qcurve" smooth="yes"/>
-      <point x="746" y="1673"/>
-      <point x="709" y="1634"/>
-      <point x="672" y="1634" type="qcurve" smooth="yes"/>
-      <point x="636" y="1634"/>
-      <point x="595" y="1674"/>
-    </contour>
-    <contour>
-      <point x="918" y="1709" type="qcurve" smooth="yes"/>
-      <point x="918" y="1744"/>
-      <point x="956" y="1783"/>
-      <point x="992" y="1783" type="qcurve" smooth="yes"/>
-      <point x="1028" y="1783"/>
-      <point x="1069" y="1742"/>
-      <point x="1069" y="1709" type="qcurve" smooth="yes"/>
-      <point x="1069" y="1673"/>
-      <point x="1030" y="1634"/>
-      <point x="992" y="1634" type="qcurve" smooth="yes"/>
-      <point x="958" y="1634"/>
-      <point x="918" y="1674"/>
-    </contour>
     <component base="O"/>
+    <component base="dieresiscombstack.case" xOffset="300" yOffset="-110"/>
+    <component base="macroncombstack.case" xOffset="300" yOffset="190"/>
   </outline>
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.5333,0.7922,0.5255,1</string>
+      <string>1,0,0,1</string>
     </dict>
   </lib>
 </glyph>
