@@ -1,42 +1,16 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Odieresismacron" format="2">
-  <advance width="1453"/>
+  <advance width="1664"/>
   <unicode hex="022A"/>
   <outline>
-    <contour>
-      <point x="512.9230769230769" y="1849.1076923076923" type="line"/>
-      <point x="512.9230769230769" y="1902.876923076923" type="line"/>
-      <point x="941.6615384615385" y="1902.876923076923" type="line"/>
-      <point x="941.6615384615385" y="1849.1076923076923" type="line"/>
-    </contour>
-    <contour>
-      <point x="750.8" y="1685.0307692307692" type="qcurve" smooth="yes"/>
-      <point x="750.8" y="1711.2"/>
-      <point x="785.7538461538461" y="1745.1538461538462"/>
-      <point x="813.2923076923078" y="1745.1538461538462" type="qcurve" smooth="yes"/>
-      <point x="840.3538461538461" y="1745.1538461538462"/>
-      <point x="873.4153846153846" y="1711.7230769230769"/>
-      <point x="873.4153846153846" y="1685.0307692307692" type="qcurve" smooth="yes"/>
-      <point x="873.4153846153846" y="1658.4923076923078"/>
-      <point x="840.8307692307692" y="1623.9076923076923"/>
-      <point x="813.2923076923078" y="1623.9076923076923" type="qcurve" smooth="yes"/>
-      <point x="784.8615384615384" y="1623.9076923076923"/>
-      <point x="750.8" y="1657.6"/>
-    </contour>
-    <contour>
-      <point x="579.9076923076923" y="1685.0307692307692" type="qcurve" smooth="yes"/>
-      <point x="579.9076923076923" y="1711.2"/>
-      <point x="612.8615384615384" y="1745.1538461538462"/>
-      <point x="640.0307692307692" y="1745.1538461538462" type="qcurve" smooth="yes"/>
-      <point x="668.4615384615385" y="1745.1538461538462"/>
-      <point x="702.5230769230769" y="1711.7230769230769"/>
-      <point x="702.5230769230769" y="1685.0307692307692" type="qcurve" smooth="yes"/>
-      <point x="702.5230769230769" y="1658.4923076923078"/>
-      <point x="667.9384615384615" y="1623.9076923076923"/>
-      <point x="640.0307692307692" y="1623.9076923076923" type="qcurve" smooth="yes"/>
-      <point x="612.9692307692308" y="1623.9076923076923"/>
-      <point x="579.9076923076923" y="1657.6"/>
-    </contour>
     <component base="O"/>
+    <component base="dieresiscombstack.case" xOffset="300" yOffset="-110"/>
+    <component base="macroncombstack.case" xOffset="300" yOffset="190"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>1,0,0,1</string>
+    </dict>
+  </lib>
 </glyph>

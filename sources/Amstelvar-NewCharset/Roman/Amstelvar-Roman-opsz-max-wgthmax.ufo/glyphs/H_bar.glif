@@ -1,15 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Hbar" format="2">
-  <advance width="1726"/>
+  <advance width="1740"/>
   <unicode hex="0126"/>
   <outline>
     <component base="H"/>
-    <component base="horizontalbarH" xOffset="-75.23076923076923" yOffset="-15"/>
+    <component base="horizontalbarH" xOffset="180" yOffset="-6"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.9908,1,0.037,1</string>
-    </dict>
-  </lib>
 </glyph>

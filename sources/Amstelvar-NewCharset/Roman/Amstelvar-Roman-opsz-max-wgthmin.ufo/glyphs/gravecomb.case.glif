@@ -1,26 +1,20 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="gravecomb.case" format="2">
-  <advance width="943"/>
+  <advance width="1024"/>
   <outline>
     <contour>
-      <point x="319.12307692307695" y="1761.2769230769231" type="qcurve" smooth="yes"/>
-      <point x="319.12307692307695" y="1766.6615384615384"/>
-      <point x="327.3538461538462" y="1789.1384615384616"/>
-      <point x="336.89230769230767" y="1789.1384615384616" type="qcurve" smooth="yes"/>
-      <point x="343.53846153846155" y="1789.1384615384616"/>
-      <point x="353.83076923076925" y="1796.0"/>
-      <point x="359.2153846153846" y="1785.8307692307692" type="qcurve" smooth="yes"/>
-      <point x="527.4153846153846" y="1565.5846153846153" type="line"/>
-      <point x="541.4769230769231" y="1576.4307692307693" type="line"/>
-      <point x="328.84615384615387" y="1733.923076923077" type="line" smooth="yes"/>
-      <point x="325.7230769230769" y="1737.0923076923077"/>
-      <point x="319.12307692307695" y="1764.8307692307692"/>
+      <point x="283" y="1916" type="qcurve" smooth="yes"/>
+      <point x="283" y="1951"/>
+      <point x="344" y="1994"/>
+      <point x="378" y="1994" type="qcurve" smooth="yes"/>
+      <point x="415" y="1994"/>
+      <point x="495" y="1932"/>
+      <point x="530" y="1895" type="qcurve" smooth="yes"/>
+      <point x="741" y="1668" type="line"/>
+      <point x="667" y="1592" type="line"/>
+      <point x="364" y="1799" type="line" smooth="yes"/>
+      <point x="323" y="1827"/>
+      <point x="283" y="1869"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.884,0.8791,0.0317,1</string>
-    </dict>
-  </lib>
 </glyph>

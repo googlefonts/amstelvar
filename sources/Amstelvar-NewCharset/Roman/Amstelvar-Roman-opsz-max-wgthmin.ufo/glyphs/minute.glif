@@ -1,24 +1,18 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="minute" format="2">
-  <advance width="481"/>
+  <advance width="654"/>
   <unicode hex="2032"/>
   <outline>
     <contour>
-      <point x="111.97692307692309" y="1017.9230769230769" type="line"/>
-      <point x="313.18" y="1420.6015384615384" type="line" smooth="yes"/>
-      <point x="351.2546153846154" y="1482.5507692307692"/>
-      <point x="393.3223076923077" y="1526.3461538461538"/>
-      <point x="418.7769230769231" y="1510.3176923076924" type="qcurve" smooth="yes"/>
-      <point x="442.8623076923077" y="1493.7376923076922"/>
-      <point x="411.3215384615385" y="1438.903076923077"/>
-      <point x="383.8953846153846" y="1390.9076923076923" type="qcurve" smooth="yes"/>
-      <point x="121.81384615384614" y="1012.876923076923" type="line"/>
+      <point x="134.0" y="964.0" type="line"/>
+      <point x="358" y="1455" type="line" smooth="yes"/>
+      <point x="377" y="1497"/>
+      <point x="464" y="1542"/>
+      <point x="517" y="1512" type="qcurve" smooth="yes"/>
+      <point x="569" y="1484"/>
+      <point x="581" y="1382.0"/>
+      <point x="551" y="1348" type="qcurve" smooth="yes"/>
+      <point x="204" y="964.0" type="line"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.993,0.8834,0.1463,1</string>
-    </dict>
-  </lib>
 </glyph>

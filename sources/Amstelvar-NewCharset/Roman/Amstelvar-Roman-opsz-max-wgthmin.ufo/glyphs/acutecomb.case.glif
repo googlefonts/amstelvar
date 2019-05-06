@@ -1,26 +1,20 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="acutecomb.case" format="2">
-  <advance width="943"/>
+  <advance width="1024"/>
   <outline>
     <contour>
-      <point x="667.5076923076923" y="1760.6461538461538" type="qcurve" smooth="yes"/>
-      <point x="667.5076923076923" y="1764.2"/>
-      <point x="662.1692307692308" y="1737.0923076923077"/>
-      <point x="659.0461538461539" y="1733.923076923077" type="qcurve" smooth="yes"/>
-      <point x="446.4153846153846" y="1576.4307692307693" type="line"/>
-      <point x="460.4769230769231" y="1565.5846153846153" type="line"/>
-      <point x="628.6769230769231" y="1785.8307692307692" type="line" smooth="yes"/>
-      <point x="634.0615384615385" y="1796.0"/>
-      <point x="644.3538461538461" y="1789.1384615384616"/>
-      <point x="651.0" y="1789.1384615384616" type="qcurve" smooth="yes"/>
-      <point x="660.5384615384615" y="1789.1384615384616"/>
-      <point x="667.5076923076923" y="1766.0307692307692"/>
+      <point x="741" y="1916" type="qcurve" smooth="yes"/>
+      <point x="741" y="1869"/>
+      <point x="701" y="1827"/>
+      <point x="660" y="1799" type="qcurve" smooth="yes"/>
+      <point x="357" y="1592" type="line"/>
+      <point x="283" y="1668" type="line"/>
+      <point x="494" y="1895" type="line" smooth="yes"/>
+      <point x="529" y="1932"/>
+      <point x="609" y="1994"/>
+      <point x="646" y="1994" type="qcurve" smooth="yes"/>
+      <point x="680" y="1994"/>
+      <point x="741" y="1951"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.884,0.8791,0.0317,1</string>
-    </dict>
-  </lib>
 </glyph>

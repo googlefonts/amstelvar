@@ -1,38 +1,16 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Abrevegrave" format="2">
-  <advance width="1303"/>
+  <advance width="1506"/>
   <unicode hex="1EB0"/>
   <outline>
-    <contour>
-      <point x="855.1846153846154" y="1775.5384615384614" type="qcurve"/>
-      <point x="867.9076923076923" y="1788.7692307692307" type="line"/>
-      <point x="851.1692307692308" y="1692.8307692307692"/>
-      <point x="734.7692307692307" y="1587.3846153846155"/>
-      <point x="648.0615384615385" y="1587.3846153846155" type="qcurve" smooth="yes"/>
-      <point x="562.3538461538461" y="1587.3846153846155"/>
-      <point x="450.0" y="1705.0923076923077"/>
-      <point x="427.6923076923077" y="1790.7692307692307" type="qcurve"/>
-      <point x="437.4153846153846" y="1773.9076923076923" type="line"/>
-      <point x="462.83076923076925" y="1707.923076923077"/>
-      <point x="570.9384615384615" y="1631.5384615384614"/>
-      <point x="647.0615384615385" y="1632.1692307692308" type="qcurve" smooth="yes"/>
-      <point x="721.5538461538462" y="1631.5384615384614"/>
-      <point x="826.6615384615385" y="1706.923076923077"/>
-    </contour>
-    <contour>
-      <point x="520.5692307692308" y="1973.2615384615385" type="qcurve" smooth="yes"/>
-      <point x="521.0923076923077" y="1974.6461538461538"/>
-      <point x="518.8" y="1997.9692307692308"/>
-      <point x="527.3384615384615" y="2001.7076923076922" type="qcurve" smooth="yes"/>
-      <point x="532.9846153846154" y="2003.8153846153846"/>
-      <point x="541.4923076923077" y="2018.523076923077"/>
-      <point x="547.3538461538461" y="2008.5692307692307" type="qcurve" smooth="yes"/>
-      <point x="779.4153846153846" y="1802.7692307692307" type="line"/>
-      <point x="785.8615384615384" y="1820.7076923076922" type="line"/>
-      <point x="534.6153846153846" y="1945.9692307692308" type="line" smooth="yes"/>
-      <point x="532.6461538461539" y="1951.1846153846154"/>
-      <point x="519.1538461538462" y="1974.1846153846154"/>
-    </contour>
     <component base="A"/>
+    <component base="brevecombstack.case" xOffset="230" yOffset="-60"/>
+    <component base="gravecombstack.case" xOffset="250" yOffset="323"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>1,0,0,1</string>
+    </dict>
+  </lib>
 </glyph>
