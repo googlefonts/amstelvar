@@ -1,58 +1,16 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Abrevetilde" format="2">
-  <advance width="1166"/>
+  <advance width="1506"/>
   <unicode hex="1EB4"/>
   <outline>
-    <contour>
-      <point x="816" y="1904" type="qcurve"/>
-      <point x="890" y="1841" type="line"/>
-      <point x="859" y="1752"/>
-      <point x="708" y="1612"/>
-      <point x="583" y="1612" type="qcurve" smooth="yes"/>
-      <point x="471" y="1612"/>
-      <point x="315" y="1740"/>
-      <point x="277" y="1842" type="qcurve"/>
-      <point x="357" y="1904" type="line"/>
-      <point x="391" y="1848"/>
-      <point x="507" y="1754"/>
-      <point x="583" y="1754" type="qcurve" smooth="yes"/>
-      <point x="665" y="1754"/>
-      <point x="781" y="1843"/>
-    </contour>
-    <contour>
-      <point x="269" y="2038" type="line"/>
-      <point x="297" y="2104"/>
-      <point x="412" y="2211"/>
-      <point x="470" y="2211" type="qcurve" smooth="yes"/>
-      <point x="505" y="2211"/>
-      <point x="568" y="2183"/>
-      <point x="599" y="2156" type="qcurve" smooth="yes"/>
-      <point x="622" y="2139"/>
-      <point x="696" y="2086"/>
-      <point x="732" y="2086" type="qcurve" smooth="yes"/>
-      <point x="766" y="2086"/>
-      <point x="831" y="2140"/>
-      <point x="851" y="2177" type="qcurve"/>
-      <point x="903" y="2096" type="line"/>
-      <point x="871" y="2019"/>
-      <point x="775" y="1934"/>
-      <point x="717" y="1934" type="qcurve" smooth="yes"/>
-      <point x="677" y="1934"/>
-      <point x="596" y="1981"/>
-      <point x="572" y="2001" type="qcurve" smooth="yes"/>
-      <point x="544" y="2025"/>
-      <point x="482" y="2061"/>
-      <point x="456" y="2061" type="qcurve" smooth="yes"/>
-      <point x="416" y="2061"/>
-      <point x="341" y="1986"/>
-      <point x="326" y="1958" type="qcurve"/>
-    </contour>
     <component base="A"/>
+    <component base="brevecombstack.case" xOffset="230" yOffset="-60"/>
+    <component base="tildecombstack.case" xOffset="222" yOffset="289"/>
   </outline>
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.5333,0.7922,0.5255,1</string>
+      <string>1,0,0,1</string>
     </dict>
   </lib>
 </glyph>

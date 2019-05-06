@@ -1,42 +1,16 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Ocircumflexgrave" format="2">
-  <advance width="1093"/>
+  <advance width="1664"/>
   <unicode hex="1ED2"/>
   <outline>
-    <contour>
-      <point x="282" y="2178" type="qcurve" smooth="yes"/>
-      <point x="282" y="2204"/>
-      <point x="323" y="2256"/>
-      <point x="354" y="2260" type="qcurve" smooth="yes"/>
-      <point x="387" y="2265"/>
-      <point x="463" y="2221"/>
-      <point x="499.0" y="2193.0" type="qcurve" smooth="yes"/>
-      <point x="717" y="2026" type="line"/>
-      <point x="672.0" y="1949.0" type="line"/>
-      <point x="368" y="2081" type="line" smooth="yes"/>
-      <point x="327" y="2099"/>
-      <point x="282" y="2140"/>
-    </contour>
-    <contour>
-      <point x="549.0" y="1913.0" type="qcurve" smooth="yes"/>
-      <point x="581" y="1913"/>
-      <point x="611" y="1889"/>
-      <point x="651" y="1845" type="qcurve" smooth="yes"/>
-      <point x="859" y="1616" type="line"/>
-      <point x="786" y="1542" type="line"/>
-      <point x="549.0" y="1733.0" type="line"/>
-      <point x="306.0" y="1542.0" type="line"/>
-      <point x="239" y="1616" type="line"/>
-      <point x="447" y="1845" type="line" smooth="yes"/>
-      <point x="480" y="1881"/>
-      <point x="517" y="1913"/>
-    </contour>
     <component base="O"/>
+    <component base="circumflexcombstack.case" xOffset="326" yOffset="-70"/>
+    <component base="gravecombstack.case" xOffset="344" yOffset="283"/>
   </outline>
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.5333,0.7922,0.5255,1</string>
+      <string>1,0,0,1</string>
     </dict>
   </lib>
 </glyph>

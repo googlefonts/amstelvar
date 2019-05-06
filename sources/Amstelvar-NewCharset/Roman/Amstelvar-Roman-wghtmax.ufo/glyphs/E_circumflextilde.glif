@@ -1,50 +1,16 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Ecircumflextilde" format="2">
-  <advance width="1441"/>
+  <advance width="1260"/>
   <unicode hex="1EC4"/>
   <outline>
-    <contour>
-      <point x="713" y="2013" type="qcurve" smooth="yes"/>
-      <point x="754" y="2013"/>
-      <point x="819" y="1970"/>
-      <point x="865" y="1915" type="qcurve" smooth="yes"/>
-      <point x="1089" y="1644" type="line"/>
-      <point x="995" y="1556" type="line"/>
-      <point x="713" y="1784" type="line"/>
-      <point x="431" y="1556" type="line"/>
-      <point x="337" y="1644" type="line"/>
-      <point x="561" y="1915" type="line" smooth="yes"/>
-      <point x="610" y="1974"/>
-      <point x="672" y="2013"/>
-    </contour>
-    <contour>
-      <point x="338" y="2159" type="line"/>
-      <point x="372" y="2233"/>
-      <point x="503" y="2352"/>
-      <point x="583" y="2352" type="qcurve" smooth="yes"/>
-      <point x="626" y="2352"/>
-      <point x="699" y="2328"/>
-      <point x="740" y="2304" type="qcurve" smooth="yes"/>
-      <point x="772" y="2284"/>
-      <point x="859" y="2239"/>
-      <point x="902" y="2239" type="qcurve" smooth="yes"/>
-      <point x="943" y="2239"/>
-      <point x="1022" y="2288"/>
-      <point x="1046" y="2325" type="qcurve"/>
-      <point x="1110" y="2235" type="line"/>
-      <point x="1071" y="2150"/>
-      <point x="952.0" y="2053.0"/>
-      <point x="885" y="2053.0" type="qcurve" smooth="yes"/>
-      <point x="835" y="2053.0"/>
-      <point x="736" y="2096"/>
-      <point x="707" y="2113" type="qcurve" smooth="yes"/>
-      <point x="668" y="2136"/>
-      <point x="597" y="2166"/>
-      <point x="566" y="2166" type="qcurve" smooth="yes"/>
-      <point x="517" y="2166"/>
-      <point x="427" y="2099"/>
-      <point x="408" y="2071" type="qcurve"/>
-    </contour>
     <component base="E"/>
+    <component base="circumflexcombstack.case" xOffset="190" yOffset="-50"/>
+    <component base="tildecombstack.case" xOffset="190" yOffset="261"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>1,0,0,1</string>
+    </dict>
+  </lib>
 </glyph>

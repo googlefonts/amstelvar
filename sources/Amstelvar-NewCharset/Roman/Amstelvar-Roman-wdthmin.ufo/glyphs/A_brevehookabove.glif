@@ -1,61 +1,16 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Abrevehookabove" format="2">
-  <advance width="1166"/>
+  <advance width="1506"/>
   <unicode hex="1EB2"/>
   <outline>
-    <contour>
-      <point x="816" y="1904" type="qcurve"/>
-      <point x="890" y="1841" type="line"/>
-      <point x="859" y="1752"/>
-      <point x="708" y="1612"/>
-      <point x="583" y="1612" type="qcurve" smooth="yes"/>
-      <point x="471" y="1612"/>
-      <point x="315" y="1740"/>
-      <point x="277" y="1842" type="qcurve"/>
-      <point x="357" y="1904" type="line"/>
-      <point x="391" y="1848"/>
-      <point x="507" y="1754"/>
-      <point x="583" y="1754" type="qcurve" smooth="yes"/>
-      <point x="665" y="1754"/>
-      <point x="781" y="1843"/>
-    </contour>
-    <contour>
-      <point x="486" y="1850" type="line"/>
-      <point x="486" y="1987" type="line"/>
-      <point x="543" y="2062" type="line"/>
-      <point x="557" y="2056"/>
-      <point x="600" y="2050"/>
-      <point x="617" y="2050" type="qcurve" smooth="yes"/>
-      <point x="653" y="2050"/>
-      <point x="699" y="2090"/>
-      <point x="699" y="2131" type="qcurve" smooth="yes"/>
-      <point x="699" y="2170"/>
-      <point x="639" y="2217"/>
-      <point x="591" y="2217" type="qcurve" smooth="yes"/>
-      <point x="537" y="2217"/>
-      <point x="449" y="2190"/>
-      <point x="416" y="2173" type="qcurve"/>
-      <point x="372" y="2271" type="line"/>
-      <point x="420" y="2297"/>
-      <point x="555" y="2329"/>
-      <point x="612" y="2329" type="qcurve" smooth="yes"/>
-      <point x="714" y="2329"/>
-      <point x="838" y="2226"/>
-      <point x="838" y="2132" type="qcurve" smooth="yes"/>
-      <point x="838" y="2042"/>
-      <point x="736" y="1945"/>
-      <point x="666" y="1945" type="qcurve" smooth="yes"/>
-      <point x="640" y="1945"/>
-      <point x="604" y="1950"/>
-      <point x="590" y="1956" type="qcurve"/>
-      <point x="590" y="1850" type="line"/>
-    </contour>
     <component base="A"/>
+    <component base="brevecombstack.case" xOffset="230" yOffset="-60"/>
+    <component base="hookabovecombstack.case" xOffset="230" yOffset="283"/>
   </outline>
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.5333,0.7922,0.5255,1</string>
+      <string>1,0,0,1</string>
     </dict>
   </lib>
 </glyph>

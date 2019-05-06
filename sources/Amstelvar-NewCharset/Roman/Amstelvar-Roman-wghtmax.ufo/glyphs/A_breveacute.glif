@@ -1,38 +1,16 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Abreveacute" format="2">
-  <advance width="1637"/>
+  <advance width="1506"/>
   <unicode hex="1EAE"/>
   <outline>
-    <contour>
-      <point x="1133" y="1969" type="qcurve"/>
-      <point x="1227" y="1925" type="line"/>
-      <point x="1211" y="1804"/>
-      <point x="1003" y="1585"/>
-      <point x="833" y="1585" type="qcurve" smooth="yes"/>
-      <point x="663" y="1585"/>
-      <point x="454" y="1780"/>
-      <point x="437" y="1922" type="qcurve"/>
-      <point x="536" y="1970" type="line"/>
-      <point x="574" y="1892"/>
-      <point x="720" y="1782"/>
-      <point x="834" y="1782" type="qcurve" smooth="yes"/>
-      <point x="954" y="1782"/>
-      <point x="1101" y="1894"/>
-    </contour>
-    <contour>
-      <point x="1104" y="2207" type="qcurve" smooth="yes"/>
-      <point x="1097" y="2167"/>
-      <point x="1036" y="2103"/>
-      <point x="979" y="2082" type="qcurve"/>
-      <point x="649" y="1958" type="line"/>
-      <point x="592" y="2052" type="line"/>
-      <point x="795" y="2236" type="line" smooth="yes"/>
-      <point x="846" y="2283"/>
-      <point x="953" y="2341"/>
-      <point x="999" y="2333" type="qcurve" smooth="yes"/>
-      <point x="1047" y="2324"/>
-      <point x="1111" y="2245"/>
-    </contour>
     <component base="A"/>
+    <component base="brevecombstack.case" xOffset="230" yOffset="-61"/>
+    <component base="acutecombstack.case" xOffset="220" yOffset="336"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>1,0,0,1</string>
+    </dict>
+  </lib>
 </glyph>

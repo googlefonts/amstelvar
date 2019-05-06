@@ -1,56 +1,16 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Aringacute" format="2">
-  <advance width="1166"/>
+  <advance width="1506"/>
   <unicode hex="01FA"/>
   <outline>
-    <contour>
-      <point x="376" y="1752" type="qcurve" smooth="yes"/>
-      <point x="376" y="1838"/>
-      <point x="492" y="1949"/>
-      <point x="582" y="1949" type="qcurve" smooth="yes"/>
-      <point x="672" y="1949"/>
-      <point x="788" y="1838"/>
-      <point x="788" y="1752" type="qcurve" smooth="yes"/>
-      <point x="788" y="1665"/>
-      <point x="672" y="1554"/>
-      <point x="582" y="1554" type="qcurve" smooth="yes"/>
-      <point x="492" y="1554"/>
-      <point x="376" y="1665"/>
-    </contour>
-    <contour>
-      <point x="484" y="1752" type="qcurve" smooth="yes"/>
-      <point x="484" y="1708"/>
-      <point x="537" y="1654"/>
-      <point x="582" y="1654" type="qcurve" smooth="yes"/>
-      <point x="630" y="1654"/>
-      <point x="680" y="1704"/>
-      <point x="680" y="1752" type="qcurve" smooth="yes"/>
-      <point x="680" y="1795"/>
-      <point x="627" y="1849"/>
-      <point x="582" y="1849" type="qcurve" smooth="yes"/>
-      <point x="534" y="1849"/>
-      <point x="484" y="1799"/>
-    </contour>
-    <contour>
-      <point x="849" y="2208" type="qcurve" smooth="yes"/>
-      <point x="849" y="2170"/>
-      <point x="804" y="2129"/>
-      <point x="763" y="2111" type="qcurve" smooth="yes"/>
-      <point x="459" y="1979.0" type="line"/>
-      <point x="414" y="2056" type="line"/>
-      <point x="632.0" y="2223" type="line" smooth="yes"/>
-      <point x="668" y="2251"/>
-      <point x="744" y="2295"/>
-      <point x="777" y="2290" type="qcurve" smooth="yes"/>
-      <point x="808" y="2286"/>
-      <point x="849" y="2234"/>
-    </contour>
     <component base="A"/>
+    <component base="ringcomb" xOffset="232" yOffset="406"/>
+    <component base="acutecombstack.case" xOffset="214" yOffset="387"/>
   </outline>
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.5333,0.7922,0.5255,1</string>
+      <string>1,0,0,1</string>
     </dict>
   </lib>
 </glyph>

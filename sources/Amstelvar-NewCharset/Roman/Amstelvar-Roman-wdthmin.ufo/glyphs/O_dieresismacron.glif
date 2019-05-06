@@ -1,48 +1,16 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Odieresismacron" format="2">
-  <advance width="1093"/>
+  <advance width="1664"/>
   <unicode hex="022A"/>
   <outline>
-    <contour>
-      <point x="261" y="1899" type="line"/>
-      <point x="261" y="2040" type="line"/>
-      <point x="833" y="2040" type="line"/>
-      <point x="833" y="1899" type="line"/>
-    </contour>
-    <contour>
-      <point x="266" y="1711" type="qcurve" smooth="yes"/>
-      <point x="266" y="1760"/>
-      <point x="320" y="1813"/>
-      <point x="370" y="1813" type="qcurve" smooth="yes"/>
-      <point x="418" y="1813"/>
-      <point x="474" y="1757"/>
-      <point x="474" y="1711" type="qcurve" smooth="yes"/>
-      <point x="474" y="1662"/>
-      <point x="421" y="1609"/>
-      <point x="370" y="1609" type="qcurve" smooth="yes"/>
-      <point x="322" y="1609"/>
-      <point x="266" y="1665"/>
-    </contour>
-    <contour>
-      <point x="620" y="1711" type="qcurve" smooth="yes"/>
-      <point x="620" y="1760"/>
-      <point x="674" y="1813"/>
-      <point x="724" y="1813" type="qcurve" smooth="yes"/>
-      <point x="772" y="1813"/>
-      <point x="828" y="1757"/>
-      <point x="828" y="1711" type="qcurve" smooth="yes"/>
-      <point x="828" y="1662"/>
-      <point x="775" y="1609"/>
-      <point x="724" y="1609" type="qcurve" smooth="yes"/>
-      <point x="676" y="1609"/>
-      <point x="620" y="1665"/>
-    </contour>
     <component base="O"/>
+    <component base="dieresiscombstack.case" xOffset="300" yOffset="-110"/>
+    <component base="macroncombstack.case" xOffset="300" yOffset="190"/>
   </outline>
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.5333,0.7922,0.5255,1</string>
+      <string>1,0,0,1</string>
     </dict>
   </lib>
 </glyph>

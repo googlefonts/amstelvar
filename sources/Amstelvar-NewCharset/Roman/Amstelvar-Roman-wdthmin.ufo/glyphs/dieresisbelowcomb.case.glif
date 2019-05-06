@@ -2,39 +2,6 @@
 <glyph name="dieresisbelowcomb.case" format="2">
   <advance width="1024"/>
   <outline>
-    <contour>
-      <point x="217" y="-255" type="qcurve" smooth="yes"/>
-      <point x="217" y="-204"/>
-      <point x="274" y="-148.0"/>
-      <point x="326" y="-148.0" type="qcurve" smooth="yes"/>
-      <point x="377" y="-148.0"/>
-      <point x="435" y="-207"/>
-      <point x="435" y="-255" type="qcurve" smooth="yes"/>
-      <point x="435" y="-307"/>
-      <point x="380" y="-362"/>
-      <point x="326" y="-362" type="qcurve" smooth="yes"/>
-      <point x="276" y="-362"/>
-      <point x="217" y="-303"/>
-    </contour>
-    <contour>
-      <point x="589" y="-255" type="qcurve" smooth="yes"/>
-      <point x="589" y="-204"/>
-      <point x="645" y="-148.0"/>
-      <point x="698" y="-148.0" type="qcurve" smooth="yes"/>
-      <point x="748" y="-148.0"/>
-      <point x="807" y="-207"/>
-      <point x="807" y="-255" type="qcurve" smooth="yes"/>
-      <point x="807" y="-307"/>
-      <point x="751" y="-362"/>
-      <point x="698" y="-362" type="qcurve" smooth="yes"/>
-      <point x="647" y="-362"/>
-      <point x="589" y="-303"/>
-    </contour>
+    <component base="dieresisbelowcomb"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>1,0.8,0.2,1</string>
-    </dict>
-  </lib>
 </glyph>

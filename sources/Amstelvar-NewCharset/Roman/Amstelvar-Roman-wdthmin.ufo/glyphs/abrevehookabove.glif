@@ -1,61 +1,16 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="abrevehookabove" format="2">
-  <advance width="781"/>
+  <advance width="1076"/>
   <unicode hex="1EB3"/>
   <outline>
-    <contour>
-      <point x="180" y="1358" type="line"/>
-      <point x="200" y="1302"/>
-      <point x="300" y="1218"/>
-      <point x="380" y="1218" type="qcurve" smooth="yes"/>
-      <point x="454" y="1218"/>
-      <point x="557" y="1301"/>
-      <point x="582" y="1359" type="qcurve"/>
-      <point x="645" y="1311" type="line"/>
-      <point x="619" y="1217"/>
-      <point x="489" y="1094.0"/>
-      <point x="381" y="1094.0" type="qcurve" smooth="yes"/>
-      <point x="273" y="1094.0"/>
-      <point x="139" y="1234"/>
-      <point x="119" y="1312" type="qcurve"/>
-    </contour>
-    <contour>
-      <point x="289" y="1298" type="line"/>
-      <point x="289" y="1408" type="line"/>
-      <point x="342" y="1485" type="line"/>
-      <point x="357" y="1480"/>
-      <point x="387" y="1474.0"/>
-      <point x="400" y="1474.0" type="qcurve" smooth="yes"/>
-      <point x="436" y="1474.0"/>
-      <point x="484" y="1512.0"/>
-      <point x="484" y="1548" type="qcurve" smooth="yes"/>
-      <point x="484" y="1582"/>
-      <point x="432" y="1616"/>
-      <point x="391" y="1616" type="qcurve" smooth="yes"/>
-      <point x="349" y="1616"/>
-      <point x="259" y="1597"/>
-      <point x="225" y="1581" type="qcurve"/>
-      <point x="184" y="1669" type="line"/>
-      <point x="239" y="1691"/>
-      <point x="342" y="1717"/>
-      <point x="389" y="1717" type="qcurve" smooth="yes"/>
-      <point x="487" y="1717"/>
-      <point x="613" y="1629"/>
-      <point x="613" y="1542" type="qcurve" smooth="yes"/>
-      <point x="613" y="1470"/>
-      <point x="527" y="1380"/>
-      <point x="467" y="1380" type="qcurve" smooth="yes"/>
-      <point x="444" y="1380"/>
-      <point x="399" y="1388"/>
-      <point x="387" y="1390" type="qcurve"/>
-      <point x="387" y="1298" type="line"/>
-    </contour>
     <component base="a"/>
+    <component base="brevecomb" yOffset="-103"/>
+    <component base="hookabovecomb" yOffset="327"/>
   </outline>
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.5333,0.7922,0.5255,1</string>
+      <string>1,0,0,1</string>
     </dict>
   </lib>
 </glyph>
