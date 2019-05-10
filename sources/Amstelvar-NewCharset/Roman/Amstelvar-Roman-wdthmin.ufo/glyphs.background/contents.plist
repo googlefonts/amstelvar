@@ -40,6 +40,8 @@
     <string>G_ermandbls.glif</string>
     <key>I</key>
     <string>I_.glif</string>
+    <key>IJacute</key>
+    <string>I_J_acute.glif</string>
     <key>J</key>
     <string>J_.glif</string>
     <key>K</key>
@@ -56,6 +58,10 @@
     <string>O_E_.glif</string>
     <key>Ocircumflexacute</key>
     <string>O_circumflexacute.glif</string>
+    <key>Ocircumflexgrave</key>
+    <string>O_circumflexgrave.glif</string>
+    <key>Ocircumflextilde</key>
+    <string>O_circumflextilde.glif</string>
     <key>Odieresismacron</key>
     <string>O_dieresismacron.glif</string>
     <key>Ohorn</key>
@@ -100,6 +106,8 @@
     <string>acircumflextilde.glif</string>
     <key>ae</key>
     <string>ae.glif</string>
+    <key>apostrophemod</key>
+    <string>apostrophemod.glif</string>
     <key>approxequal</key>
     <string>approxequal.glif</string>
     <key>aringacute</key>
@@ -114,6 +122,8 @@
     <string>brevebelowcomb.case.glif</string>
     <key>brevecomb.case</key>
     <string>brevecomb.case.glif</string>
+    <key>brevecombstack.case</key>
+    <string>brevecombstack.case.glif</string>
     <key>breveinvertedcomb.case</key>
     <string>breveinvertedcomb.case.glif</string>
     <key>brokenbar</key>
@@ -128,6 +138,8 @@
     <string>cedi.glif</string>
     <key>cent</key>
     <string>cent.glif</string>
+    <key>circumflexcombstack.case</key>
+    <string>circumflexcombstack.case.glif</string>
     <key>colonsign</key>
     <string>colonsign.glif</string>
     <key>comma</key>
@@ -154,6 +166,8 @@
     <string>dong.glif</string>
     <key>dotaccent</key>
     <string>dotaccent.glif</string>
+    <key>doubleprimemod</key>
+    <string>doubleprimemod.glif</string>
     <key>e</key>
     <string>e.glif</string>
     <key>ecircumflexacute</key>
@@ -166,6 +180,8 @@
     <string>ecircumflextilde.glif</string>
     <key>eight</key>
     <string>eight.glif</string>
+    <key>eight.lf</key>
+    <string>eight.lf.glif</string>
     <key>engn</key>
     <string>engn.glif</string>
     <key>equal</key>
@@ -178,10 +194,28 @@
     <string>exclamdown.glif</string>
     <key>f</key>
     <string>f.glif</string>
+    <key>f_f</key>
+    <string>f_f.glif</string>
+    <key>f_f_i</key>
+    <string>f_f_i.glif</string>
+    <key>f_f_ij</key>
+    <string>f_f_ij.glif</string>
+    <key>f_f_l</key>
+    <string>f_f_l.glif</string>
+    <key>f_ij</key>
+    <string>f_ij.glif</string>
+    <key>fi</key>
+    <string>fi.glif</string>
     <key>five</key>
     <string>five.glif</string>
+    <key>five.lf</key>
+    <string>five.lf.glif</string>
+    <key>fl</key>
+    <string>fl.glif</string>
     <key>four</key>
     <string>four.glif</string>
+    <key>four.lf</key>
+    <string>four.lf.glif</string>
     <key>foursuperior</key>
     <string>foursuperior.glif</string>
     <key>franc</key>
@@ -216,6 +250,8 @@
     <string>kip.glif</string>
     <key>l</key>
     <string>l.glif</string>
+    <key>leftanglebracket</key>
+    <string>leftanglebracket.glif</string>
     <key>lira</key>
     <string>lira.glif</string>
     <key>logicalnot</key>
@@ -240,6 +276,8 @@
     <string>naira.glif</string>
     <key>nine</key>
     <string>nine.glif</string>
+    <key>nine.lf</key>
+    <string>nine.lf.glif</string>
     <key>notequal</key>
     <string>notequal.glif</string>
     <key>numero</key>
@@ -256,6 +294,8 @@
     <string>oe.glif</string>
     <key>one</key>
     <string>one.glif</string>
+    <key>one.lf</key>
+    <string>one.lf.glif</string>
     <key>ordfeminine</key>
     <string>ordfeminine.glif</string>
     <key>ordmasculine</key>
@@ -286,6 +326,8 @@
     <string>quotesinglbase.glif</string>
     <key>r</key>
     <string>r.glif</string>
+    <key>rightanglebracket</key>
+    <string>rightanglebracket.glif</string>
     <key>ruble</key>
     <string>ruble.glif</string>
     <key>schwa</key>
@@ -298,12 +340,20 @@
     <string>thorn.glif</string>
     <key>three</key>
     <string>three.glif</string>
+    <key>three.lf</key>
+    <string>three.lf.glif</string>
     <key>threequarters</key>
     <string>threequarters.glif</string>
     <key>tilde</key>
     <string>tilde.glif</string>
+    <key>tildecombstack.case</key>
+    <string>tildecombstack.case.glif</string>
+    <key>trademark</key>
+    <string>trademark.glif</string>
     <key>two</key>
     <string>two.glif</string>
+    <key>two.lf</key>
+    <string>two.lf.glif</string>
     <key>u</key>
     <string>u.glif</string>
     <key>w</key>
