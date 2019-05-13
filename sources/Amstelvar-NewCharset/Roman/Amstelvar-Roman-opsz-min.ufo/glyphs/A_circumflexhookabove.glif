@@ -1,15 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Acircumflexhookabove" format="2">
-  <advance width="1506"/>
+  <advance width="1571"/>
   <outline>
     <component base="A"/>
-    <component base="circumflexcomb.case" xOffset="225" yOffset="-40"/>
-    <component base="hookabovecomb.case" xOffset="687" yOffset="-28"/>
+    <component base="circumflexcomb.case" xOffset="260" yOffset="-40"/>
+    <component base="hookabovecomb.case" xOffset="800" yOffset="-28"/>
   </outline>
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>1,0,0,1</string>
+      <string>0.3216,0.6784,0.4118,1</string>
     </dict>
   </lib>
 </glyph>
