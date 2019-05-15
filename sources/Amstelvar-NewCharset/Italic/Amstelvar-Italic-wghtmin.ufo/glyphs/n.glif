@@ -2,20 +2,19 @@
 <glyph name="n" format="2">
   <advance width="1143"/>
   <unicode hex="006E"/>
-  <guideline x="710" y="1000" angle="79.0" identifier="fI0xi51wWb"/>
   <outline>
     <contour>
       <point x="132" y="-23" type="line"/>
       <point x="100" y="56" type="line"/>
       <point x="211" y="527" type="line"/>
-      <point x="272" y="871" type="line"/>
-      <point x="90" y="867" type="line"/>
+      <point x="272" y="875" type="line"/>
+      <point x="90" y="871" type="line"/>
       <point x="93" y="915" type="line"/>
       <point x="302" y="1000" type="line"/>
       <point x="348" y="1000" type="line"/>
       <point x="321" y="736" type="line"/>
       <point x="294" y="588" type="line"/>
-      <point x="179" y="65" type="line"/>
+      <point x="182" y="77" type="line"/>
       <point x="220" y="-6" type="line"/>
     </contour>
     <contour>
@@ -44,6 +43,8 @@
     <dict>
       <key>com.typemytype.robofont.guideline.magnetic.fI0xi51wWb</key>
       <integer>5</integer>
+      <key>public.markColor</key>
+      <string>0.2453,0.8091,1,1</string>
     </dict>
   </lib>
 </glyph>
