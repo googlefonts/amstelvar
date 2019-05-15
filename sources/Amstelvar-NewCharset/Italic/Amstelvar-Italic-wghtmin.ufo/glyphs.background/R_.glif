@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<glyph name="P" format="2">
+<glyph name="R" format="2">
   <advance width="1069"/>
-  <unicode hex="0050"/>
+  <unicode hex="0052"/>
   <outline>
     <contour>
       <point x="252" y="1500" type="line"/>
@@ -27,7 +27,7 @@
       <point x="758" y="1440" type="qcurve" smooth="yes"/>
       <point x="553" y="1440" type="line"/>
       <point x="527" y="1418" type="line"/>
-      <point x="406" y="764" type="line"/>
+      <point x="409" y="764" type="line"/>
       <point x="271" y="78" type="line"/>
       <point x="471" y="48" type="line"/>
       <point x="465" y="0" type="line"/>
@@ -39,10 +39,4 @@
       <point x="250" y="1453" type="line"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.3216,0.6784,0.4118,1</string>
-    </dict>
-  </lib>
 </glyph>
