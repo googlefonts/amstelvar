@@ -1,45 +1,47 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="r" format="2">
-  <advance width="783"/>
+  <advance width="699"/>
   <unicode hex="0072"/>
   <outline>
     <contour>
-      <point x="126" y="-14" type="line"/>
-      <point x="85" y="75" type="line"/>
-      <point x="190" y="527" type="line"/>
-      <point x="228" y="822" type="line"/>
+      <point x="109" y="-10" type="line"/>
+      <point x="76" y="63" type="line"/>
+      <point x="175" y="527" type="line"/>
+      <point x="218" y="822" type="line"/>
       <point x="86" y="818" type="line"/>
       <point x="88" y="915" type="line"/>
-      <point x="297" y="1001" type="line"/>
-      <point x="353" y="1001" type="line"/>
-      <point x="370" y="807" type="line"/>
-      <point x="385" y="741" type="line"/>
-      <point x="269" y="137" type="line"/>
-      <point x="400" y="106" type="line"/>
-      <point x="400" y="18" type="line"/>
+      <point x="287" y="1001" type="line"/>
+      <point x="339" y="1001" type="line"/>
+      <point x="350" y="807" type="line"/>
+      <point x="365" y="741" type="line"/>
+      <point x="247" y="129" type="line"/>
+      <point x="380" y="106" type="line"/>
+      <point x="380" y="28" type="line"/>
     </contour>
     <contour>
-      <point x="665" y="648" type="line"/>
-      <point x="665" y="865" type="line"/>
-      <point x="567" y="865"/>
-      <point x="389" y="737"/>
-      <point x="333" y="650" type="qcurve"/>
-      <point x="312" y="720" type="line"/>
-      <point x="385" y="847"/>
-      <point x="607" y="1013"/>
-      <point x="718" y="1013" type="qcurve" smooth="yes"/>
-      <point x="773" y="1013"/>
-      <point x="828" y="980"/>
-      <point x="828" y="937" type="qcurve" smooth="yes"/>
-      <point x="828" y="853"/>
-      <point x="756" y="648"/>
-      <point x="700" y="648" type="qcurve" smooth="yes"/>
+      <point x="595" y="648" type="line"/>
+      <point x="595" y="870" type="line"/>
+      <point x="513" y="870"/>
+      <point x="369" y="737"/>
+      <point x="313" y="650" type="qcurve"/>
+      <point x="292" y="720" type="line"/>
+      <point x="365" y="847"/>
+      <point x="537" y="1013"/>
+      <point x="648" y="1013" type="qcurve" smooth="yes"/>
+      <point x="703" y="1013"/>
+      <point x="758" y="963"/>
+      <point x="758" y="920" type="qcurve" smooth="yes"/>
+      <point x="758" y="836"/>
+      <point x="686" y="648"/>
+      <point x="630" y="648" type="qcurve" smooth="yes"/>
     </contour>
   </outline>
   <lib>
     <dict>
       <key>com.typemytype.robofont.guideline.magnetic.P35jP8CCy2</key>
       <integer>5</integer>
+      <key>public.markColor</key>
+      <string>0.3216,0.6784,0.4118,1</string>
     </dict>
   </lib>
 </glyph>
