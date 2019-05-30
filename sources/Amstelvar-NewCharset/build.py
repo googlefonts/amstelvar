@@ -29,7 +29,7 @@ romans = [
 
 ]
 
-print "Cleaning up..."
+print ("Cleaning up...")
 
 # clean up previous build
 if os.path.exists("instances"):
@@ -58,9 +58,9 @@ designSpace = "Amstelvar-Roman-004.designspace"
 outfile = "../../fonts/Amstelvar-Roman-VF.ttf"
 finder = lambda s: s.replace("Roman/", "master_ttf/").replace(".ufo", ".ttf")
 varfont, _, _ = build(designSpace, finder)
-print "Saving Variable Font..."
+print ("Saving Variable Font...")
 varfont.save(outfile)
-print "DONE!"
+print ("DONE!")
 
 # Italic
 
@@ -87,6 +87,6 @@ designSpace = "Amstelvar-Italic-001.designspace"
 outfile = "../../fonts/Amstelvar-Italic-VF.ttf"
 finder = lambda s: s.replace("Italic/", "master_ttf/").replace(".ufo", ".ttf")
 varfont, _, _ = build(designSpace, finder)
-print "Saving Variable Font..."
+print ("Saving Variable Font...")
 varfont.save(outfile)
-print "DONE!"
+print ("DONE!")
