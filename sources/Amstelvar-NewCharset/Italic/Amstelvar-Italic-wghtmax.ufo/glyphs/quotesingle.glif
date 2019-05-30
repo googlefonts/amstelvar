@@ -1,18 +1,24 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="quotesingle" format="2">
-  <advance width="543"/>
+  <advance width="583"/>
   <unicode hex="0027"/>
   <outline>
     <contour>
-      <point x="300" y="964" type="line"/>
-      <point x="304" y="1413" type="line" smooth="yes"/>
-      <point x="304" y="1462"/>
-      <point x="381" y="1558"/>
-      <point x="444" y="1558" type="qcurve" smooth="yes"/>
-      <point x="503" y="1558"/>
-      <point x="561" y="1458"/>
-      <point x="542" y="1413" type="qcurve" smooth="yes"/>
-      <point x="354" y="964" type="line"/>
+      <point x="278" y="934" type="line"/>
+      <point x="283" y="1383" type="line" smooth="yes"/>
+      <point x="284" y="1462"/>
+      <point x="391" y="1558"/>
+      <point x="479" y="1558" type="qcurve" smooth="yes"/>
+      <point x="562" y="1558"/>
+      <point x="648" y="1437"/>
+      <point x="608" y="1368" type="qcurve" smooth="yes"/>
+      <point x="373" y="934" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.3216,0.6784,0.4118,1</string>
+    </dict>
+  </lib>
 </glyph>
