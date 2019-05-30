@@ -64,6 +64,7 @@ print ("DONE!")
 
 # Italic
 
+
 italics = [
 	"Italic/Amstelvar-Italic.ufo",
 	"Italic/Amstelvar-Italic-opsz-min.ufo",
@@ -90,3 +91,4 @@ varfont, _, _ = build(designSpace, finder)
 print ("Saving Variable Font...")
 varfont.save(outfile)
 print ("DONE!")
+

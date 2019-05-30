@@ -24,13 +24,7 @@
   <rules>
     <rule name="heavy-bars">
       <conditionset>
-        <condition name="wght" minimum="700" maximum="900"/>
-      </conditionset>
-      <sub name="dollar" with="dollar.rvrn"/>
-    </rule>
-    <rule name="narrow-bars">
-      <conditionset>
-        <condition name="wdth" minimum="50" maximum="60"/>
+        <condition name="weight" minimum="800" maximum="900"/>
       </conditionset>
       <sub name="dollar" with="dollar.rvrn"/>
     </rule>
