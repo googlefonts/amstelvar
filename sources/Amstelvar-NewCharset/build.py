@@ -1,5 +1,8 @@
 from fontmake.font_project import FontProject
 from fontTools.varLib import build
+import shutil
+import os
+import sys
 
 # Roman
 
@@ -26,6 +29,23 @@ romans = [
 
 ]
 
+print "Cleaning up..."
+
+# clean up previous build
+if os.path.exists("instances"):
+	shutil.rmtree("instances", ignore_errors=True)
+	os.makedirs("instances")
+if os.path.exists("master_ttf"):
+	shutil.rmtree("master_ttf", ignore_errors=True)
+	os.makedirs("master_ttf")
+if os.path.exists("master_ufo"):
+	shutil.rmtree("master_ufo", ignore_errors=True)
+	os.makedirs("master_ufo")
+if os.path.exists("master_ttf_interpolatable"):
+	shutil.rmtree("master_ttf_interpolatable", ignore_errors=True)
+	os.makedirs("master_ttf_interpolatable")
+
+
 project = FontProject()
 project.run_from_ufos(
 	romans, 
@@ -36,7 +56,7 @@ project.run_from_ufos(
 
 designSpace = "Amstelvar-Roman-004.designspace"
 outfile = "../../fonts/Amstelvar-Roman-VF.ttf"
-finder = lambda s: s.replace("Roman/", "master_ttf_interpolatable/").replace(".ufo", ".ttf")
+finder = lambda s: s.replace("Roman/", "master_ttf/").replace(".ufo", ".ttf")
 varfont, _, _ = build(designSpace, finder)
 print "Saving Variable Font..."
 varfont.save(outfile)
@@ -65,7 +85,7 @@ project.run_from_ufos(
 
 designSpace = "Amstelvar-Italic-001.designspace"
 outfile = "../../fonts/Amstelvar-Italic-VF.ttf"
-finder = lambda s: s.replace("Italic/", "master_ttf_interpolatable/").replace(".ufo", ".ttf")
+finder = lambda s: s.replace("Italic/", "master_ttf/").replace(".ufo", ".ttf")
 varfont, _, _ = build(designSpace, finder)
 print "Saving Variable Font..."
 varfont.save(outfile)
