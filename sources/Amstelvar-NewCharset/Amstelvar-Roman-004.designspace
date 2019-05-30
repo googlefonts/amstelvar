@@ -20,6 +20,22 @@
       <labelname xml:lang="en">YOPQ</labelname>
     </axis>
   </axes>
+  
+  <rules>
+    <rule name="heavy-bars">
+      <conditionset>
+        <condition name="wght" minimum="700" maximum="900"/>
+      </conditionset>
+      <sub name="dollar" with="dollar.rvrn"/>
+    </rule>
+    <rule name="narrow-bars">
+      <conditionset>
+        <condition name="wdth" minimum="50" maximum="60"/>
+      </conditionset>
+      <sub name="dollar" with="dollar.rvrn"/>
+    </rule>
+  </rules>
+  
   <sources>
     <source filename="Roman/Amstelvar-Roman-wdthmax.ufo" familyname="Amstelvar" stylename="Roman-wdthmax">
       <location>
