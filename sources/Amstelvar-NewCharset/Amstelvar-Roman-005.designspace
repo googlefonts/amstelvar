@@ -20,7 +20,6 @@
       <labelname xml:lang="en">YOPQ</labelname>
     </axis>
   </axes>
-  
   <rules>
     <rule name="heavy-bars">
       <conditionset>
@@ -29,7 +28,6 @@
       <sub name="dollar" with="dollar.rvrn"/>
     </rule>
   </rules>
-  
   <sources>
     <source filename="Roman/Amstelvar-Roman-wdthmax.ufo" familyname="Amstelvar" stylename="Roman-wdthmax">
       <location>
@@ -231,6 +229,17 @@
           <string>weight</string>
         </array>
       </dict>
+      <key>com.letterror.skateboard.mutedSources</key>
+      <array>
+        <array>
+          <string>Amstelvar-Roman-opsz-max-wgthmax.ufo</string>
+          <string>foreground</string>
+        </array>
+        <array>
+          <string>Amstelvar-Roman-opsz-max-wgthmin.ufo</string>
+          <string>foreground</string>
+        </array>
+      </array>
       <key>com.letterror.skateboard.previewLocation</key>
       <dict>
         <key>XOPQ</key>
