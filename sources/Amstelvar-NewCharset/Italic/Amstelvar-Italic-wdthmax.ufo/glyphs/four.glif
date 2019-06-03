@@ -1,29 +1,35 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="four" format="2">
-  <advance width="1000"/>
+  <advance width="1500"/>
   <unicode hex="0034"/>
   <outline>
     <contour>
-      <point x="27" y="455" type="line"/>
-      <point x="27" y="540" type="line"/>
-      <point x="874" y="1536" type="line"/>
-      <point x="957" y="1493" type="line"/>
-      <point x="957" y="1453" type="line"/>
-      <point x="789" y="520" type="line"/>
-      <point x="780" y="487" type="line"/>
-      <point x="716" y="176" type="line"/>
-      <point x="716" y="18" type="line"/>
-      <point x="539" y="-34" type="line"/>
-      <point x="509" y="31" type="line"/>
-      <point x="603" y="483" type="line"/>
-      <point x="613" y="520" type="line"/>
-      <point x="751" y="1272" type="line"/>
-      <point x="182" y="560" type="line"/>
-      <point x="186" y="550" type="line"/>
-      <point x="693" y="550" type="line"/>
-      <point x="983" y="550" type="line"/>
-      <point x="966" y="454" type="line"/>
-      <point x="682" y="440" type="line"/>
+      <point x="17" y="455" type="line"/>
+      <point x="17" y="540" type="line"/>
+      <point x="1114" y="1536" type="line"/>
+      <point x="1197" y="1493" type="line"/>
+      <point x="1197" y="1453" type="line"/>
+      <point x="1029" y="520" type="line"/>
+      <point x="1020" y="487" type="line"/>
+      <point x="956" y="176" type="line"/>
+      <point x="956" y="18" type="line"/>
+      <point x="779" y="-34" type="line"/>
+      <point x="749" y="31" type="line"/>
+      <point x="843" y="483" type="line"/>
+      <point x="853" y="520" type="line"/>
+      <point x="993" y="1284" type="line"/>
+      <point x="202" y="560" type="line"/>
+      <point x="206" y="550" type="line"/>
+      <point x="933" y="550" type="line"/>
+      <point x="1263" y="550" type="line"/>
+      <point x="1246" y="454" type="line"/>
+      <point x="922" y="440" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.3216,0.6784,0.4118,1</string>
+    </dict>
+  </lib>
 </glyph>
