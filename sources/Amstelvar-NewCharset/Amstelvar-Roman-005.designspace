@@ -70,6 +70,9 @@
       </location>
     </source>
     <source filename="Roman/Amstelvar-Roman.ufo" familyname="Amstelvar" stylename="Roman">
+      <lib copy="1"/>
+      <groups copy="1"/>
+      <features copy="1"/>
       <info copy="1"/>
       <location>
         <dimension name="weight" xvalue="400"/>
@@ -121,7 +124,6 @@
       </location>
     </source>
     <source filename="Roman/Amstelvar-Roman-XTRAmax.ufo" familyname="Amstelvar" stylename="Roman-XTRAmax">
-      <info copy="1"/>
       <location>
         <dimension name="weight" xvalue="400"/>
         <dimension name="optical size" xvalue="14"/>
@@ -132,7 +134,6 @@
       </location>
     </source>
     <source filename="Roman/Amstelvar-Roman-XTRAmin.ufo" familyname="Amstelvar" stylename="Roman-XTRAmin">
-      <info copy="1"/>
       <location>
         <dimension name="weight" xvalue="400"/>
         <dimension name="optical size" xvalue="14"/>
@@ -143,7 +144,6 @@
       </location>
     </source>
     <source filename="Roman/Amstelvar-Roman-XOPQmax.ufo" familyname="Amstelvar" stylename="Roman-XOPQmax">
-      <info copy="1"/>
       <location>
         <dimension name="weight" xvalue="400"/>
         <dimension name="optical size" xvalue="14"/>
@@ -154,7 +154,6 @@
       </location>
     </source>
     <source filename="Roman/Amstelvar-Roman-XOPQmin.ufo" familyname="Amstelvar" stylename="Roman-XOPQmin">
-      <info copy="1"/>
       <location>
         <dimension name="weight" xvalue="400"/>
         <dimension name="optical size" xvalue="14"/>
@@ -165,7 +164,6 @@
       </location>
     </source>
     <source filename="Roman/Amstelvar-Roman-YOPQmax.ufo" familyname="Amstelvar" stylename="Roman-YOPQmax">
-      <info copy="1"/>
       <location>
         <dimension name="weight" xvalue="400"/>
         <dimension name="optical size" xvalue="14"/>
@@ -176,7 +174,6 @@
       </location>
     </source>
     <source filename="Roman/Amstelvar-Roman-YOPQmin.ufo" familyname="Amstelvar" stylename="Roman-YOPQmin">
-      <info copy="1"/>
       <location>
         <dimension name="weight" xvalue="400"/>
         <dimension name="optical size" xvalue="14"/>
@@ -184,28 +181,6 @@
         <dimension name="XTRA" xvalue="980"/>
         <dimension name="XOPQ" xvalue="176"/>
         <dimension name="YOPQ" xvalue="29"/>
-      </location>
-    </source>
-    <source filename="Roman/Amstelvar-Roman-opsz-max-wgthmin.ufo" familyname="Amstelvar" stylename="Roman-opsz-max-wgthmin">
-      <info copy="1"/>
-      <location>
-        <dimension name="weight" xvalue="100"/>
-        <dimension name="optical size" xvalue="144"/>
-        <dimension name="width" xvalue="100"/>
-        <dimension name="XTRA" xvalue="980"/>
-        <dimension name="XOPQ" xvalue="176"/>
-        <dimension name="YOPQ" xvalue="124"/>
-      </location>
-    </source>
-    <source filename="Roman/Amstelvar-Roman-opsz-max-wgthmax.ufo" familyname="Amstelvar" stylename="Roman-opsz-max-wgthmax">
-      <info copy="1"/>
-      <location>
-        <dimension name="weight" xvalue="900"/>
-        <dimension name="optical size" xvalue="144"/>
-        <dimension name="width" xvalue="100"/>
-        <dimension name="XTRA" xvalue="980"/>
-        <dimension name="XOPQ" xvalue="176"/>
-        <dimension name="YOPQ" xvalue="124"/>
       </location>
     </source>
   </sources>
