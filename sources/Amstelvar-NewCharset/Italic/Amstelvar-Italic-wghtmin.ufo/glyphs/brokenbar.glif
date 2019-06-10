@@ -1,27 +1,33 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="brokenbar" format="2">
-  <advance width="604"/>
+  <advance width="554"/>
   <unicode hex="00A6"/>
   <outline>
     <contour>
-      <point x="267" y="725" type="line"/>
-      <point x="321" y="1012" type="line"/>
-      <point x="335" y="1138" type="line"/>
-      <point x="390" y="1480" type="line"/>
-      <point x="583" y="1550" type="line"/>
-      <point x="491" y="1138" type="line"/>
-      <point x="451" y="1012" type="line"/>
-      <point x="397" y="725" type="line"/>
+      <point x="286" y="725" type="line"/>
+      <point x="340" y="1012" type="line"/>
+      <point x="361" y="1138" type="line"/>
+      <point x="421" y="1500" type="line"/>
+      <point x="532" y="1550" type="line"/>
+      <point x="440" y="1138" type="line"/>
+      <point x="410" y="1012" type="line"/>
+      <point x="356" y="725" type="line"/>
     </contour>
     <contour>
-      <point x="-3.0" y="-540.0" type="line"/>
-      <point x="103.0" y="-58.0" type="line"/>
-      <point x="149" y="100" type="line"/>
-      <point x="197" y="387" type="line"/>
-      <point x="332" y="387" type="line"/>
-      <point x="279" y="100" type="line"/>
-      <point x="259.0" y="-58.0" type="line"/>
-      <point x="191.0" y="-470.0" type="line"/>
+      <point x="26.0" y="-540.0" type="line"/>
+      <point x="132.0" y="-58.0" type="line"/>
+      <point x="168" y="100" type="line"/>
+      <point x="222" y="387" type="line"/>
+      <point x="292" y="387" type="line"/>
+      <point x="238" y="100" type="line"/>
+      <point x="208.0" y="-58.0" type="line"/>
+      <point x="135.0" y="-495.0" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.3216,0.6784,0.4118,1</string>
+    </dict>
+  </lib>
 </glyph>

@@ -4,17 +4,17 @@
   <unicode hex="2248"/>
   <outline>
     <contour>
-      <point x="58" y="751" type="line"/>
-      <point x="120" y="844"/>
-      <point x="300" y="956"/>
-      <point x="388" y="956" type="qcurve"/>
-      <point x="731" y="821" type="line"/>
-      <point x="791" y="821"/>
-      <point x="883" y="909"/>
-      <point x="916" y="963" type="qcurve"/>
-      <point x="1006" y="911" type="line"/>
-      <point x="956" y="807"/>
-      <point x="812" y="666"/>
+      <point x="93" y="718" type="line"/>
+      <point x="146" y="785"/>
+      <point x="292" y="869"/>
+      <point x="380" y="869" type="qcurve"/>
+      <point x="723" y="734" type="line"/>
+      <point x="783" y="734"/>
+      <point x="894" y="825"/>
+      <point x="927" y="879" type="qcurve"/>
+      <point x="974" y="854" type="line"/>
+      <point x="935" y="780"/>
+      <point x="797" y="666"/>
       <point x="680" y="666" type="qcurve"/>
       <point x="360" y="793" type="line"/>
       <point x="299" y="793"/>
@@ -22,22 +22,28 @@
       <point x="126" y="687" type="qcurve"/>
     </contour>
     <contour>
-      <point x="58" y="371" type="line"/>
-      <point x="120" y="464"/>
-      <point x="300" y="576"/>
-      <point x="388" y="576" type="qcurve"/>
-      <point x="731" y="441" type="line"/>
-      <point x="791" y="441"/>
-      <point x="883" y="529"/>
-      <point x="916" y="583" type="qcurve"/>
-      <point x="1006" y="531" type="line"/>
-      <point x="956" y="427"/>
-      <point x="812" y="286"/>
-      <point x="680" y="286" type="qcurve"/>
-      <point x="360" y="413" type="line"/>
-      <point x="299" y="413"/>
-      <point x="183" y="359"/>
-      <point x="126" y="307" type="qcurve"/>
+      <point x="93" y="428" type="line"/>
+      <point x="146" y="495"/>
+      <point x="292" y="579"/>
+      <point x="380" y="579" type="qcurve"/>
+      <point x="723" y="444" type="line"/>
+      <point x="783" y="444"/>
+      <point x="894" y="535"/>
+      <point x="927" y="589" type="qcurve"/>
+      <point x="974" y="564" type="line"/>
+      <point x="935" y="490"/>
+      <point x="797" y="376"/>
+      <point x="680" y="376" type="qcurve"/>
+      <point x="360" y="503" type="line"/>
+      <point x="299" y="503"/>
+      <point x="183" y="449"/>
+      <point x="126" y="397" type="qcurve"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.3216,0.6784,0.4118,1</string>
+    </dict>
+  </lib>
 </glyph>

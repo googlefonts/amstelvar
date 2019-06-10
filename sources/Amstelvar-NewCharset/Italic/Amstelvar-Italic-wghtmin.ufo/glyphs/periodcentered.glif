@@ -1,21 +1,27 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="periodcentered" format="2">
-  <advance width="584"/>
+  <advance width="496"/>
   <unicode hex="00B7"/>
   <outline>
     <contour>
-      <point x="163" y="667" type="qcurve" smooth="yes"/>
-      <point x="163" y="722"/>
-      <point x="240" y="804"/>
-      <point x="300" y="804" type="qcurve" smooth="yes"/>
-      <point x="360" y="804"/>
-      <point x="437" y="722"/>
-      <point x="437" y="667" type="qcurve" smooth="yes"/>
-      <point x="437" y="613"/>
-      <point x="360" y="531"/>
-      <point x="300" y="531" type="qcurve" smooth="yes"/>
-      <point x="240" y="531"/>
-      <point x="163" y="613"/>
+      <point x="186" y="696" type="qcurve" smooth="yes"/>
+      <point x="186" y="732"/>
+      <point x="236" y="785"/>
+      <point x="275" y="785" type="qcurve" smooth="yes"/>
+      <point x="314" y="785"/>
+      <point x="364" y="732"/>
+      <point x="364" y="696" type="qcurve" smooth="yes"/>
+      <point x="364" y="661"/>
+      <point x="314" y="608"/>
+      <point x="275" y="608" type="qcurve" smooth="yes"/>
+      <point x="236" y="608"/>
+      <point x="186" y="661"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.3216,0.6784,0.4118,1</string>
+    </dict>
+  </lib>
 </glyph>
