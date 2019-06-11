@@ -3,18 +3,24 @@
   <advance width="1024"/>
   <outline>
     <contour>
-      <point x="625" y="1796" type="qcurve" smooth="yes"/>
-      <point x="883" y="1592" type="line"/>
-      <point x="957" y="1664" type="line"/>
-      <point x="778" y="1919" type="line" smooth="yes"/>
-      <point x="754" y="1953"/>
-      <point x="686" y="2007"/>
-      <point x="648" y="2007" type="qcurve" smooth="yes"/>
-      <point x="608" y="2007"/>
-      <point x="546" y="1943"/>
-      <point x="546" y="1907" type="qcurve" smooth="yes"/>
-      <point x="546" y="1873"/>
-      <point x="593" y="1822"/>
+      <point x="541" y="1776" type="qcurve" smooth="yes"/>
+      <point x="811" y="1594" type="line"/>
+      <point x="834" y="1621" type="line"/>
+      <point x="617" y="1845" type="line" smooth="yes"/>
+      <point x="587" y="1876"/>
+      <point x="531" y="1925"/>
+      <point x="504" y="1922" type="qcurve" smooth="yes"/>
+      <point x="483" y="1920"/>
+      <point x="456" y="1886"/>
+      <point x="459" y="1864" type="qcurve" smooth="yes"/>
+      <point x="461" y="1841"/>
+      <point x="506" y="1799"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.9439,1,0.5736,1</string>
+    </dict>
+  </lib>
 </glyph>

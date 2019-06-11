@@ -1,9 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="itilde" format="2">
-  <advance width="618"/>
+  <advance width="497"/>
   <unicode hex="0129"/>
   <outline>
     <component base="idotless"/>
-    <component base="tilde" xOffset="-326" yOffset="-10"/>
+    <component base="tilde" xOffset="-356" yOffset="-10"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.5333,0.7922,0.5255,1</string>
+    </dict>
+  </lib>
 </glyph>

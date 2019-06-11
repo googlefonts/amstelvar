@@ -4,6 +4,16 @@
   <dict>
     <key>AE</key>
     <string>A_E_.glif</string>
+    <key>Abreveacute</key>
+    <string>A_breveacute.glif</string>
+    <key>Acircumflexacute</key>
+    <string>A_circumflexacute.glif</string>
+    <key>Acircumflexhookabove</key>
+    <string>A_circumflexhookabove.glif</string>
+    <key>Acircumflextilde</key>
+    <string>A_circumflextilde.glif</string>
+    <key>Aringacute</key>
+    <string>A_ringacute.glif</string>
     <key>B</key>
     <string>B_.glif</string>
     <key>C</key>
@@ -24,6 +34,8 @@
     <string>H_.glif</string>
     <key>I</key>
     <string>I_.glif</string>
+    <key>IJacute</key>
+    <string>I_J_acute.glif</string>
     <key>Iacute_J.loclNLD</key>
     <string>I_acute_J_.loclN_L_D_.glif</string>
     <key>J</key>
@@ -72,6 +84,10 @@
     <string>abrevedotbelow.glif</string>
     <key>acute</key>
     <string>acute.glif</string>
+    <key>acutecomb.case</key>
+    <string>acutecomb.case.glif</string>
+    <key>acutecombstack.case</key>
+    <string>acutecombstack.case.glif</string>
     <key>adblgrave</key>
     <string>adblgrave.glif</string>
     <key>ae</key>
@@ -108,6 +124,8 @@
     <string>bracketright.glif</string>
     <key>breve</key>
     <string>breve.glif</string>
+    <key>brevecombstack.case</key>
+    <string>brevecombstack.case.glif</string>
     <key>breveinvertedcomb</key>
     <string>breveinvertedcomb.glif</string>
     <key>brokenbar</key>
@@ -128,6 +146,8 @@
     <string>cent.glif</string>
     <key>circumflex</key>
     <string>circumflex.glif</string>
+    <key>circumflexcombstack.case</key>
+    <string>circumflexcombstack.case.glif</string>
     <key>colon</key>
     <string>colon.glif</string>
     <key>colonsign</key>
@@ -146,10 +166,14 @@
     <string>daggerdbl.glif</string>
     <key>dblgravecomb</key>
     <string>dblgravecomb.glif</string>
+    <key>dblgravecomb.case</key>
+    <string>dblgravecomb.case.glif</string>
     <key>diagonalbarO</key>
     <string>diagonalbarO_.glif</string>
     <key>diagonalbaro</key>
     <string>diagonalbaro.glif</string>
+    <key>dieresis</key>
+    <string>dieresis.glif</string>
     <key>dieresisbelowcomb</key>
     <string>dieresisbelowcomb.glif</string>
     <key>dollar</key>
@@ -220,10 +244,16 @@
     <string>franc.glif</string>
     <key>g</key>
     <string>g.glif</string>
+    <key>gcommaaccent</key>
+    <string>gcommaaccent.glif</string>
     <key>germandbls</key>
     <string>germandbls.glif</string>
     <key>grave</key>
     <string>grave.glif</string>
+    <key>gravecomb.case</key>
+    <string>gravecomb.case.glif</string>
+    <key>gravecombstack.case</key>
+    <string>gravecombstack.case.glif</string>
     <key>greater</key>
     <string>greater.glif</string>
     <key>greaterequal</key>
@@ -240,12 +270,22 @@
     <string>h.glif</string>
     <key>hookabovecomb</key>
     <string>hookabovecomb.glif</string>
+    <key>hookabovecomb.case</key>
+    <string>hookabovecomb.case.glif</string>
+    <key>hookabovecombstack.case</key>
+    <string>hookabovecombstack.case.glif</string>
     <key>horizontalbar</key>
     <string>horizontalbar.glif</string>
     <key>horizontalbarH</key>
     <string>horizontalbarH_.glif</string>
+    <key>hornU</key>
+    <string>hornU_.glif</string>
+    <key>horncomb.case</key>
+    <string>horncomb.case.glif</string>
     <key>hungarumlaut</key>
     <string>hungarumlaut.glif</string>
+    <key>hungarumlautcomb.case</key>
+    <string>hungarumlautcomb.case.glif</string>
     <key>hyphen</key>
     <string>hyphen.glif</string>
     <key>hyphentwo</key>
@@ -278,6 +318,8 @@
     <string>l.glif</string>
     <key>ldot</key>
     <string>ldot.glif</string>
+    <key>leftanglebracket</key>
+    <string>leftanglebracket.glif</string>
     <key>less</key>
     <string>less.glif</string>
     <key>lessequal</key>

@@ -3,26 +3,14 @@
   <advance width="1528"/>
   <unicode hex="0230"/>
   <outline>
-    <contour>
-      <point x="863" y="1736" type="qcurve" smooth="yes"/>
-      <point x="863" y="1683"/>
-      <point x="934" y="1614"/>
-      <point x="989" y="1614" type="qcurve" smooth="yes"/>
-      <point x="1044" y="1614"/>
-      <point x="1115" y="1683"/>
-      <point x="1115" y="1736" type="qcurve" smooth="yes"/>
-      <point x="1115" y="1789"/>
-      <point x="1044" y="1858"/>
-      <point x="989" y="1858" type="qcurve" smooth="yes"/>
-      <point x="934" y="1858"/>
-      <point x="863" y="1789"/>
-    </contour>
-    <contour>
-      <point x="770" y="2062" type="line"/>
-      <point x="741" y="1925" type="line"/>
-      <point x="1333" y="1925" type="line"/>
-      <point x="1362" y="2062" type="line"/>
-    </contour>
     <component base="O"/>
+    <component base="dotaccentcombstack.case" xOffset="253"/>
+    <component base="macroncombstack.case" xOffset="272" yOffset="214"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.5333,0.7922,0.5255,1</string>
+    </dict>
+  </lib>
 </glyph>

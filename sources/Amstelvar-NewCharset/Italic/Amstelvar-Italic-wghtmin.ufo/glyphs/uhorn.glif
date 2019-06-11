@@ -1,10 +1,16 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uhorn" format="2">
-  <advance width="1285"/>
+  <advance width="1259"/>
   <unicode hex="01B0"/>
   <outline>
     <component base="u"/>
     <component base="horn" xOffset="897" yOffset="12"/>
-    <component base="horncomb" xOffset="897" yOffset="12"/>
+    <component base="horncomb" xOffset="287" yOffset="12"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.5333,0.7922,0.5255,1</string>
+    </dict>
+  </lib>
 </glyph>
