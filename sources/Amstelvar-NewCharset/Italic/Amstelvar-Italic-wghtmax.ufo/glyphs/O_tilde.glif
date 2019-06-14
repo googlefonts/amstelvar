@@ -1,9 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Otilde" format="2">
-  <advance width="1528"/>
+  <advance width="1815"/>
   <unicode hex="00D5"/>
   <outline>
     <component base="O"/>
-    <component base="tildecomb.case" xOffset="232"/>
+    <component base="tildecomb.case" xOffset="399"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.5333,0.7922,0.5255,1</string>
+    </dict>
+  </lib>
 </glyph>
