@@ -4,6 +4,8 @@
   <dict>
     <key>A</key>
     <string>A_.glif</string>
+    <key>AE</key>
+    <string>A_E_.glif</string>
     <key>B</key>
     <string>B_.glif</string>
     <key>C</key>
@@ -18,6 +20,8 @@
     <string>F_.glif</string>
     <key>G</key>
     <string>G_.glif</string>
+    <key>Germandbls</key>
+    <string>G_ermandbls.glif</string>
     <key>Iacute_J.loclNLD</key>
     <string>I_acute_J_.loclN_L_D_.glif</string>
     <key>J</key>
@@ -32,12 +36,16 @@
     <string>N_.glif</string>
     <key>O</key>
     <string>O_.glif</string>
+    <key>OE</key>
+    <string>O_E_.glif</string>
     <key>P</key>
     <string>P_.glif</string>
     <key>Q</key>
     <string>Q_.glif</string>
     <key>R</key>
     <string>R_.glif</string>
+    <key>Schwa</key>
+    <string>S_chwa.glif</string>
     <key>T</key>
     <string>T_.glif</string>
     <key>Thorn</key>
@@ -66,6 +74,8 @@
     <string>ahookabove.glif</string>
     <key>ainvertedbreve</key>
     <string>ainvertedbreve.glif</string>
+    <key>ampersand</key>
+    <string>ampersand.glif</string>
     <key>asciicircum</key>
     <string>asciicircum.glif</string>
     <key>b</key>
@@ -94,8 +104,14 @@
     <string>currency.glif</string>
     <key>d</key>
     <string>d.glif</string>
+    <key>daggerdbl</key>
+    <string>daggerdbl.glif</string>
+    <key>divide</key>
+    <string>divide.glif</string>
     <key>dollar</key>
     <string>dollar.glif</string>
+    <key>dollar.rvrn</key>
+    <string>dollar.rvrn.glif</string>
     <key>e</key>
     <string>e.glif</string>
     <key>ecircumflexdotbelow</key>
@@ -106,8 +122,14 @@
     <string>ehookabove.glif</string>
     <key>einvertedbreve</key>
     <string>einvertedbreve.glif</string>
+    <key>ellipsis</key>
+    <string>ellipsis.glif</string>
+    <key>engtail</key>
+    <string>engtail.glif</string>
     <key>equal</key>
     <string>equal.glif</string>
+    <key>eth</key>
+    <string>eth.glif</string>
     <key>exclamdown</key>
     <string>exclamdown.glif</string>
     <key>f</key>
@@ -124,12 +146,18 @@
     <string>fl.glif</string>
     <key>four</key>
     <string>four.glif</string>
+    <key>fraction</key>
+    <string>fraction.glif</string>
     <key>g</key>
     <string>g.glif</string>
+    <key>germandbls</key>
+    <string>germandbls.glif</string>
     <key>greater</key>
     <string>greater.glif</string>
     <key>h</key>
     <string>h.glif</string>
+    <key>horizontalbarlc</key>
+    <string>horizontalbarlc.glif</string>
     <key>iacute_j.loclNLD</key>
     <string>iacute_j.loclN_L_D_.glif</string>
     <key>idblgrave</key>
@@ -156,16 +184,22 @@
     <string>less.glif</string>
     <key>lira</key>
     <string>lira.glif</string>
+    <key>logicalnot</key>
+    <string>logicalnot.glif</string>
     <key>m</key>
     <string>m.glif</string>
     <key>micro</key>
     <string>micro.glif</string>
+    <key>minus</key>
+    <string>minus.glif</string>
     <key>n</key>
     <string>n.glif</string>
     <key>nine</key>
     <string>nine.glif</string>
     <key>nine.lf</key>
     <string>nine.lf.glif</string>
+    <key>notequal</key>
+    <string>notequal.glif</string>
     <key>o</key>
     <string>o.glif</string>
     <key>ocircumflexdotbelow</key>
@@ -182,8 +216,14 @@
     <string>ohornacute.glif</string>
     <key>oinvertedbreve</key>
     <string>oinvertedbreve.glif</string>
+    <key>ordfeminine</key>
+    <string>ordfeminine.glif</string>
+    <key>ordmasculine</key>
+    <string>ordmasculine.glif</string>
     <key>p</key>
     <string>p.glif</string>
+    <key>paragraph</key>
+    <string>paragraph.glif</string>
     <key>parenright</key>
     <string>parenright.glif</string>
     <key>percent</key>
@@ -202,8 +242,22 @@
     <string>q.glif</string>
     <key>question</key>
     <string>question.glif</string>
+    <key>questiondown</key>
+    <string>questiondown.glif</string>
     <key>quotedbl</key>
     <string>quotedbl.glif</string>
+    <key>quotedblbase</key>
+    <string>quotedblbase.glif</string>
+    <key>quotedblleft</key>
+    <string>quotedblleft.glif</string>
+    <key>quotedblright</key>
+    <string>quotedblright.glif</string>
+    <key>quoteleft</key>
+    <string>quoteleft.glif</string>
+    <key>quoteright</key>
+    <string>quoteright.glif</string>
+    <key>quotesinglbase</key>
+    <string>quotesinglbase.glif</string>
     <key>r</key>
     <string>r.glif</string>
     <key>rdblgrave</key>
@@ -214,6 +268,8 @@
     <string>schwa.glif</string>
     <key>semicolon</key>
     <string>semicolon.glif</string>
+    <key>thorn</key>
+    <string>thorn.glif</string>
     <key>two</key>
     <string>two.glif</string>
     <key>u</key>

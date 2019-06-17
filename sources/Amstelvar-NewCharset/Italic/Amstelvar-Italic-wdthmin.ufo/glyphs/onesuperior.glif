@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="onesuperior" format="2">
-  <advance width="593"/>
+  <advance width="513"/>
   <unicode hex="00B9"/>
   <outline>
     <contour>
@@ -22,4 +22,10 @@
       <point x="343" y="696" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.3216,0.6784,0.4118,1</string>
+    </dict>
+  </lib>
 </glyph>
