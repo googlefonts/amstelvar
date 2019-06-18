@@ -1,15 +1,21 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="rightanglebracket" format="2">
-  <advance width="983"/>
+  <advance width="840"/>
   <outline>
     <contour>
-      <point x="-99" y="-177" type="line"/>
-      <point x="-166" y="-99" type="line"/>
-      <point x="752" y="631" type="line"/>
-      <point x="117" y="1424" type="line"/>
-      <point x="237" y="1518" type="line"/>
-      <point x="923" y="719" type="line"/>
-      <point x="923" y="540" type="line"/>
+      <point x="-2.0" y="-174.0" type="line"/>
+      <point x="-69.0" y="-96.0" type="line"/>
+      <point x="722.0" y="648.0" type="line"/>
+      <point x="231.0" y="1450.0" type="line"/>
+      <point x="328.0" y="1518.0" type="line"/>
+      <point x="877.0" y="692.0" type="line"/>
+      <point x="854.0" y="573.0" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.3216,0.6784,0.4118,1</string>
+    </dict>
+  </lib>
 </glyph>

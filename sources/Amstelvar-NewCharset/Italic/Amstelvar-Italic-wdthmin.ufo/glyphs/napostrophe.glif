@@ -1,9 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="napostrophe" format="2">
-  <advance width="1447"/>
+  <advance width="1077"/>
   <unicode hex="0149"/>
   <outline>
-    <component base="quoteright" xOffset="-196"/>
-    <component base="n" xOffset="274"/>
+    <component base="quoteright" xOffset="-146" yOffset="-50"/>
+    <component base="n" xOffset="210"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.3216,0.6784,0.4118,1</string>
+    </dict>
+  </lib>
 </glyph>

@@ -1,6 +1,18 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="macroncombstack.case" format="2">
-  <advance width="500"/>
+  <advance width="1024"/>
   <outline>
+    <contour>
+      <point x="364" y="1664" type="line"/>
+      <point x="393" y="1819" type="line"/>
+      <point x="985" y="1819" type="line"/>
+      <point x="956" y="1664" type="line"/>
+    </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.3216,0.6784,0.4118,1</string>
+    </dict>
+  </lib>
 </glyph>
