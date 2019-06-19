@@ -156,6 +156,8 @@
     <string>I_J_acute.glif</string>
     <key>Iacute</key>
     <string>I_acute.glif</string>
+    <key>Iacute_J.loclNLD</key>
+    <string>I_acute_J_.loclN_L_D_.glif</string>
     <key>Ibreve</key>
     <string>I_breve.glif</string>
     <key>Icircumflex</key>
@@ -182,6 +184,8 @@
     <string>I_tilde.glif</string>
     <key>J</key>
     <string>J_.glif</string>
+    <key>Jacute.loclNLD</key>
+    <string>J_acute.loclN_L_D_.glif</string>
     <key>Jcircumflex</key>
     <string>J_circumflex.glif</string>
     <key>K</key>
@@ -340,6 +344,8 @@
     <string>U_dotbelow.glif</string>
     <key>Ugrave</key>
     <string>U_grave.glif</string>
+    <key>Uhookabove</key>
+    <string>U_hookabove.glif</string>
     <key>Uhorn</key>
     <string>U_horn.glif</string>
     <key>Uhornacute</key>
@@ -438,6 +444,8 @@
     <string>acutecomb.glif</string>
     <key>acutecomb.case</key>
     <string>acutecomb.case.glif</string>
+    <key>acutecombstack.case</key>
+    <string>acutecombstack.case.glif</string>
     <key>adblgrave</key>
     <string>adblgrave.glif</string>
     <key>adieresis</key>
@@ -460,6 +468,8 @@
     <string>ampersand.glif</string>
     <key>aogonek</key>
     <string>aogonek.glif</string>
+    <key>apostrophemod</key>
+    <string>apostrophemod.glif</string>
     <key>approxequal</key>
     <string>approxequal.glif</string>
     <key>aring</key>
@@ -500,6 +510,8 @@
     <string>brevecomb.glif</string>
     <key>brevecomb.case</key>
     <string>brevecomb.case.glif</string>
+    <key>brevecombstack.case</key>
+    <string>brevecombstack.case.glif</string>
     <key>breveinvertedcomb</key>
     <string>breveinvertedcomb.glif</string>
     <key>breveinvertedcomb.case</key>
@@ -546,6 +558,8 @@
     <string>circumflexcomb.glif</string>
     <key>circumflexcomb.case</key>
     <string>circumflexcomb.case.glif</string>
+    <key>circumflexcombstack.case</key>
+    <string>circumflexcombstack.case.glif</string>
     <key>colon</key>
     <string>colon.glif</string>
     <key>colonsign</key>
@@ -556,6 +570,8 @@
     <string>commaaccentcomb.glif</string>
     <key>commaaccentcomb.case</key>
     <string>commaaccentcomb.case.glif</string>
+    <key>commercialMinusSign</key>
+    <string>commercialM_inusS_ign.glif</string>
     <key>copyright</key>
     <string>copyright.glif</string>
     <key>currency</key>
@@ -576,6 +592,12 @@
     <string>dcroat.glif</string>
     <key>degree</key>
     <string>degree.glif</string>
+    <key>diagonalbarO</key>
+    <string>diagonalbarO_.glif</string>
+    <key>diagonalbarl</key>
+    <string>diagonalbarl.glif</string>
+    <key>diagonalbaro</key>
+    <string>diagonalbaro.glif</string>
     <key>dieresis</key>
     <string>dieresis.glif</string>
     <key>dieresisbelowcomb</key>
@@ -586,6 +608,8 @@
     <string>dieresiscomb.glif</string>
     <key>dieresiscomb.case</key>
     <string>dieresiscomb.case.glif</string>
+    <key>dieresiscombstack.case</key>
+    <string>dieresiscombstack.case.glif</string>
     <key>divide</key>
     <string>divide.glif</string>
     <key>divisionslash</key>
@@ -602,10 +626,14 @@
     <string>dotaccentcomb.glif</string>
     <key>dotaccentcomb.case</key>
     <string>dotaccentcomb.case.glif</string>
+    <key>dotaccentcombstack.case</key>
+    <string>dotaccentcombstack.case.glif</string>
     <key>dotbelowcomb</key>
     <string>dotbelowcomb.glif</string>
     <key>dotbelowcomb.case</key>
     <string>dotbelowcomb.case.glif</string>
+    <key>doubleprimemod</key>
+    <string>doubleprimemod.glif</string>
     <key>dzcaron</key>
     <string>dzcaron.glif</string>
     <key>e</key>
@@ -656,6 +684,10 @@
     <string>endash.glif</string>
     <key>eng</key>
     <string>eng.glif</string>
+    <key>engn</key>
+    <string>engn.glif</string>
+    <key>engtail</key>
+    <string>engtail.glif</string>
     <key>eogonek</key>
     <string>eogonek.glif</string>
     <key>equal</key>
@@ -676,12 +708,8 @@
     <string>f_f.glif</string>
     <key>f_f_i</key>
     <string>f_f_i.glif</string>
-    <key>f_f_ij</key>
-    <string>f_f_ij.glif</string>
     <key>f_f_l</key>
     <string>f_f_l.glif</string>
-    <key>f_ij</key>
-    <string>f_ij.glif</string>
     <key>fi</key>
     <string>fi.glif</string>
     <key>firsttonechinese</key>
@@ -724,6 +752,8 @@
     <string>gravecomb.glif</string>
     <key>gravecomb.case</key>
     <string>gravecomb.case.glif</string>
+    <key>gravecombstack.case</key>
+    <string>gravecombstack.case.glif</string>
     <key>greater</key>
     <string>greater.glif</string>
     <key>greaterequal</key>
@@ -748,10 +778,22 @@
     <string>hookabovecomb.glif</string>
     <key>hookabovecomb.case</key>
     <string>hookabovecomb.case.glif</string>
+    <key>hookabovecombstack.case</key>
+    <string>hookabovecombstack.case.glif</string>
+    <key>horizontalbar</key>
+    <string>horizontalbar.glif</string>
+    <key>horizontalbarH</key>
+    <string>horizontalbarH_.glif</string>
+    <key>horizontalbarlc</key>
+    <string>horizontalbarlc.glif</string>
+    <key>hornU</key>
+    <string>hornU_.glif</string>
     <key>horncomb</key>
     <string>horncomb.glif</string>
     <key>horncomb.case</key>
     <string>horncomb.case.glif</string>
+    <key>hornu</key>
+    <string>hornu.glif</string>
     <key>hungarumlaut</key>
     <string>hungarumlaut.glif</string>
     <key>hungarumlautcomb</key>
@@ -760,10 +802,14 @@
     <string>hungarumlautcomb.case.glif</string>
     <key>hyphen</key>
     <string>hyphen.glif</string>
+    <key>hyphentwo</key>
+    <string>hyphentwo.glif</string>
     <key>i</key>
     <string>i.glif</string>
     <key>iacute</key>
     <string>iacute.glif</string>
+    <key>iacute_j.loclNLD</key>
+    <string>iacute_j.loclN_L_D_.glif</string>
     <key>ibreve</key>
     <string>ibreve.glif</string>
     <key>icircumflex</key>
@@ -772,6 +818,8 @@
     <string>idblgrave.glif</string>
     <key>idieresis</key>
     <string>idieresis.glif</string>
+    <key>idotaccent</key>
+    <string>idotaccent.glif</string>
     <key>idotbelow</key>
     <string>idotbelow.glif</string>
     <key>idotless</key>
@@ -794,6 +842,8 @@
     <string>itilde.glif</string>
     <key>j</key>
     <string>j.glif</string>
+    <key>jacute.loclNLD</key>
+    <string>jacute.loclN_L_D_.glif</string>
     <key>jcircumflex</key>
     <string>jcircumflex.glif</string>
     <key>jdotless</key>
@@ -816,6 +866,8 @@
     <string>lcommaaccent.glif</string>
     <key>ldot</key>
     <string>ldot.glif</string>
+    <key>leftanglebracket</key>
+    <string>leftanglebracket.glif</string>
     <key>less</key>
     <string>less.glif</string>
     <key>lessequal</key>
@@ -842,6 +894,8 @@
     <string>macroncomb.glif</string>
     <key>macroncomb.case</key>
     <string>macroncomb.case.glif</string>
+    <key>macroncombstack.case</key>
+    <string>macroncombstack.case.glif</string>
     <key>manat</key>
     <string>manat.glif</string>
     <key>micro</key>
@@ -990,6 +1044,8 @@
     <string>plus.glif</string>
     <key>plusminus</key>
     <string>plusminus.glif</string>
+    <key>primemod</key>
+    <string>primemod.glif</string>
     <key>q</key>
     <string>q.glif</string>
     <key>question</key>
@@ -1024,6 +1080,8 @@
     <string>rdblgrave.glif</string>
     <key>registered</key>
     <string>registered.glif</string>
+    <key>rightanglebracket</key>
+    <string>rightanglebracket.glif</string>
     <key>ring</key>
     <string>ring.glif</string>
     <key>ringcomb</key>
@@ -1098,6 +1156,8 @@
     <string>tildecomb.glif</string>
     <key>tildecomb.case</key>
     <string>tildecomb.case.glif</string>
+    <key>tildecombstack.case</key>
+    <string>tildecombstack.case.glif</string>
     <key>trademark</key>
     <string>trademark.glif</string>
     <key>two</key>
@@ -1122,6 +1182,8 @@
     <string>udotbelow.glif</string>
     <key>ugrave</key>
     <string>ugrave.glif</string>
+    <key>uhookabove</key>
+    <string>uhookabove.glif</string>
     <key>uhorn</key>
     <string>uhorn.glif</string>
     <key>uhornacute</key>

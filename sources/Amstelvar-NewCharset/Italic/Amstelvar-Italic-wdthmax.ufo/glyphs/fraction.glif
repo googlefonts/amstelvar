@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="fraction" format="2">
-  <advance width="420"/>
+  <advance width="628"/>
   <unicode hex="2044"/>
   <outline>
     <contour>
@@ -10,4 +10,10 @@
       <point x="-273" y="-40" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.3216,0.6784,0.4118,1</string>
+    </dict>
+  </lib>
 </glyph>

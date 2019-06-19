@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="jdotless" format="2">
-  <advance width="556"/>
+  <advance width="676"/>
   <unicode hex="0237"/>
   <outline>
     <contour>
-      <point x="272" y="822" type="qcurve"/>
-      <point x="110" y="818" type="line"/>
-      <point x="112" y="915" type="line"/>
+      <point x="262" y="822" type="qcurve"/>
+      <point x="70" y="818" type="line"/>
+      <point x="72" y="915" type="line"/>
       <point x="363" y="1004" type="line"/>
       <point x="433" y="1004" type="line"/>
       <point x="457" y="889" type="line"/>
@@ -19,10 +19,16 @@
       <point x="-332" y="-328" type="line"/>
       <point x="-144" y="-330" type="line" smooth="yes"/>
       <point x="-31" y="-331"/>
-      <point x="104" y="-128"/>
-      <point x="150" y="112" type="qcurve" smooth="yes"/>
-      <point x="182" y="277"/>
-      <point x="249" y="662"/>
+      <point x="98" y="-135"/>
+      <point x="144" y="105" type="qcurve" smooth="yes"/>
+      <point x="176" y="270"/>
+      <point x="239" y="662"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.3216,0.6784,0.4118,1</string>
+    </dict>
+  </lib>
 </glyph>

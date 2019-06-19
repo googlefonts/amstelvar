@@ -1,28 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Hbar" format="2">
-  <advance width="1576"/>
+  <advance width="2200"/>
   <unicode hex="0126"/>
   <outline>
-    <contour>
-      <point x="1556" y="1045" type="line"/>
-      <point x="465" y="1045" type="line"/>
-      <point x="468" y="1062" type="line"/>
-      <point x="445" y="1062" type="line"/>
-      <point x="465" y="1164" type="line"/>
-      <point x="488" y="1164" type="line"/>
-      <point x="492" y="1182" type="line"/>
-      <point x="1593" y="1182" type="line"/>
-    </contour>
-    <contour>
-      <point x="209" y="1046" type="line"/>
-      <point x="227" y="1182" type="line"/>
-      <point x="449" y="1182" type="line"/>
-      <point x="445" y="1164" type="line"/>
-      <point x="465" y="1164" type="line"/>
-      <point x="445" y="1062" type="line"/>
-      <point x="425" y="1062" type="line"/>
-      <point x="422" y="1046" type="line"/>
-    </contour>
     <component base="H"/>
+    <component base="horizontalbarH" xOffset="110"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.3216,0.6784,0.4118,1</string>
+    </dict>
+  </lib>
 </glyph>
