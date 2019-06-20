@@ -3,40 +3,8 @@
   <advance width="1315"/>
   <unicode hex="1ED0"/>
   <outline>
-    <contour>
-      <point x="1001" y="1798" type="qcurve" smooth="yes"/>
-      <point x="1084" y="1582" type="line"/>
-      <point x="1066" y="1569" type="line"/>
-      <point x="913" y="1751" type="line"/>
-      <point x="645" y="1580" type="line"/>
-      <point x="629" y="1599" type="line"/>
-      <point x="834" y="1802" type="line" smooth="yes"/>
-      <point x="882" y="1849"/>
-      <point x="914" y="1880"/>
-      <point x="943" y="1880" type="qcurve" smooth="yes"/>
-      <point x="966" y="1880"/>
-      <point x="988" y="1839"/>
-    </contour>
-    <contour>
-      <point x="1064" y="1980" type="qcurve" smooth="yes"/>
-      <point x="776" y="1911" type="line"/>
-      <point x="765" y="1934" type="line"/>
-      <point x="1014" y="2086" type="line" smooth="yes"/>
-      <point x="1031" y="2096"/>
-      <point x="1067" y="2111"/>
-      <point x="1077" y="2111" type="qcurve" smooth="yes"/>
-      <point x="1109" y="2111"/>
-      <point x="1142" y="2079"/>
-      <point x="1142" y="2054" type="qcurve" smooth="yes"/>
-      <point x="1142" y="2027"/>
-      <point x="1101" y="1989"/>
-    </contour>
     <component base="O"/>
+    <component base="circumflexcombstack.case" xOffset="228"/>
+    <component base="acutecombstack.case" xOffset="235" yOffset="290"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.2453,0.8091,1,1</string>
-    </dict>
-  </lib>
 </glyph>

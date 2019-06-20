@@ -3,56 +3,8 @@
   <advance width="1146"/>
   <unicode hex="1EB5"/>
   <outline>
-    <contour>
-      <point x="761" y="1611" type="qcurve" smooth="yes"/>
-      <point x="786" y="1590"/>
-      <point x="876" y="1542"/>
-      <point x="926" y="1542" type="qcurve" smooth="yes"/>
-      <point x="984" y="1542"/>
-      <point x="1130" y="1629"/>
-      <point x="1185" y="1709" type="qcurve"/>
-      <point x="1117" y="1792" type="line"/>
-      <point x="1085" y="1753"/>
-      <point x="995" y="1697"/>
-      <point x="953" y="1697" type="qcurve" smooth="yes"/>
-      <point x="910" y="1697"/>
-      <point x="830" y="1752"/>
-      <point x="806" y="1770" type="qcurve" smooth="yes"/>
-      <point x="772" y="1797"/>
-      <point x="703" y="1827"/>
-      <point x="660" y="1827" type="qcurve" smooth="yes"/>
-      <point x="589" y="1827"/>
-      <point x="433" y="1719"/>
-      <point x="385" y="1653" type="qcurve"/>
-      <point x="452" y="1566" type="line"/>
-      <point x="477" y="1596"/>
-      <point x="582" y="1672"/>
-      <point x="632" y="1672" type="qcurve" smooth="yes"/>
-      <point x="662" y="1672"/>
-      <point x="732" y="1635"/>
-    </contour>
-    <contour>
-      <point x="396" y="1449" type="line"/>
-      <point x="399" y="1339"/>
-      <point x="573" y="1185"/>
-      <point x="703" y="1185" type="qcurve" smooth="yes"/>
-      <point x="841" y="1185"/>
-      <point x="1056" y="1341"/>
-      <point x="1105" y="1452" type="qcurve"/>
-      <point x="1028" y="1505" type="line"/>
-      <point x="989" y="1452"/>
-      <point x="835" y="1341"/>
-      <point x="719" y="1341" type="qcurve" smooth="yes"/>
-      <point x="623" y="1341"/>
-      <point x="499" y="1444"/>
-      <point x="480" y="1506" type="qcurve"/>
-    </contour>
     <component base="a"/>
+    <component base="brevecomb" xOffset="20" yOffset="-40"/>
+    <component base="tildecomb" xOffset="73" yOffset="315"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.2453,0.8091,1,1</string>
-    </dict>
-  </lib>
 </glyph>

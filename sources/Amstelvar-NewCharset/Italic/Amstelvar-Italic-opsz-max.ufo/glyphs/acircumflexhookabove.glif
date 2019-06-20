@@ -3,57 +3,8 @@
   <advance width="913"/>
   <unicode hex="1EA9"/>
   <outline>
-    <contour>
-      <point x="609" y="1343" type="qcurve" smooth="yes"/>
-      <point x="632" y="1343"/>
-      <point x="654" y="1302"/>
-      <point x="667" y="1261" type="qcurve" smooth="yes"/>
-      <point x="740" y="1045" type="line"/>
-      <point x="722" y="1032" type="line"/>
-      <point x="579" y="1224" type="line"/>
-      <point x="321" y="1043" type="line"/>
-      <point x="305" y="1062" type="line"/>
-      <point x="500" y="1265" type="line" smooth="yes"/>
-      <point x="547" y="1313"/>
-      <point x="580" y="1343"/>
-    </contour>
-    <contour>
-      <point x="786" y="1074" type="line"/>
-      <point x="812" y="1182" type="line"/>
-      <point x="836" y="1207" type="line"/>
-      <point x="854" y="1204"/>
-      <point x="895" y="1194"/>
-      <point x="910" y="1194" type="qcurve" smooth="yes"/>
-      <point x="971" y="1194"/>
-      <point x="1032" y="1252"/>
-      <point x="1032" y="1295" type="qcurve"/>
-      <point x="1032" y="1324"/>
-      <point x="1011" y="1357"/>
-      <point x="992" y="1366" type="qcurve" smooth="yes"/>
-      <point x="951" y="1383"/>
-      <point x="834" y="1366"/>
-      <point x="780" y="1346" type="qcurve"/>
-      <point x="772" y="1372" type="line"/>
-      <point x="809" y="1398"/>
-      <point x="968" y="1448"/>
-      <point x="1038" y="1433" type="qcurve" smooth="yes"/>
-      <point x="1086" y="1423"/>
-      <point x="1144" y="1353"/>
-      <point x="1144" y="1307" type="qcurve" smooth="yes"/>
-      <point x="1144" y="1234"/>
-      <point x="1027" y="1137"/>
-      <point x="940" y="1135" type="qcurve" smooth="yes"/>
-      <point x="918" y="1135"/>
-      <point x="871" y="1141"/>
-      <point x="849" y="1147" type="qcurve"/>
-      <point x="833" y="1074" type="line"/>
-    </contour>
     <component base="a"/>
+    <component base="circumflexcomb" xOffset="33" yOffset="-60"/>
+    <component base="hookabovecomb" xOffset="389" yOffset="-37"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.2453,0.8091,1,1</string>
-    </dict>
-  </lib>
 </glyph>

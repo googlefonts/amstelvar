@@ -3,54 +3,8 @@
   <advance width="1146"/>
   <unicode hex="01FB"/>
   <outline>
-    <contour>
-      <point x="536" y="1660" type="line"/>
-      <point x="755" y="1815" type="line" smooth="yes"/>
-      <point x="792" y="1841"/>
-      <point x="885" y="1891"/>
-      <point x="917" y="1891" type="qcurve" smooth="yes"/>
-      <point x="965" y="1891"/>
-      <point x="1008" y="1842"/>
-      <point x="1008" y="1809" type="qcurve" smooth="yes"/>
-      <point x="1008" y="1773"/>
-      <point x="943" y="1723"/>
-      <point x="882" y="1698" type="qcurve" smooth="yes"/>
-      <point x="584" y="1577" type="line"/>
-    </contour>
-    <contour>
-      <point x="481" y="1338" type="qcurve" smooth="yes"/>
-      <point x="481" y="1429"/>
-      <point x="603" y="1546"/>
-      <point x="698" y="1546" type="qcurve" smooth="yes"/>
-      <point x="793" y="1546"/>
-      <point x="915" y="1429"/>
-      <point x="915" y="1338" type="qcurve" smooth="yes"/>
-      <point x="915" y="1247"/>
-      <point x="793" y="1130"/>
-      <point x="698" y="1130" type="qcurve" smooth="yes"/>
-      <point x="603" y="1130"/>
-      <point x="481" y="1247"/>
-    </contour>
-    <contour>
-      <point x="595" y="1338" type="qcurve" smooth="yes"/>
-      <point x="595" y="1292"/>
-      <point x="651" y="1235"/>
-      <point x="698" y="1235" type="qcurve" smooth="yes"/>
-      <point x="748" y="1235"/>
-      <point x="801" y="1288"/>
-      <point x="801" y="1338" type="qcurve" smooth="yes"/>
-      <point x="801" y="1384"/>
-      <point x="745" y="1441"/>
-      <point x="698" y="1441" type="qcurve" smooth="yes"/>
-      <point x="648" y="1441"/>
-      <point x="595" y="1388"/>
-    </contour>
     <component base="a"/>
+    <component base="ringcomb" xOffset="55" yOffset="-54"/>
+    <component base="acutecomb" xOffset="114" yOffset="409"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.2453,0.8091,1,1</string>
-    </dict>
-  </lib>
 </glyph>

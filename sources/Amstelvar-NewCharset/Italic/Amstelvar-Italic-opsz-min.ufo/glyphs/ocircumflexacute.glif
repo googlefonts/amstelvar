@@ -3,40 +3,8 @@
   <advance width="1158"/>
   <unicode hex="1ED1"/>
   <outline>
-    <contour>
-      <point x="347" y="1204" type="line"/>
-      <point x="415" y="1131" type="line"/>
-      <point x="695" y="1346" type="line"/>
-      <point x="885" y="1131" type="line"/>
-      <point x="973" y="1204" type="line"/>
-      <point x="821" y="1447" type="line" smooth="yes"/>
-      <point x="798" y="1489"/>
-      <point x="760" y="1520"/>
-      <point x="726" y="1520" type="qcurve" smooth="yes"/>
-      <point x="692" y="1520"/>
-      <point x="652" y="1496"/>
-      <point x="601" y="1447" type="qcurve" smooth="yes"/>
-    </contour>
-    <contour>
-      <point x="492" y="1605" type="line"/>
-      <point x="540" y="1522" type="line"/>
-      <point x="887" y="1672" type="line" smooth="yes"/>
-      <point x="948" y="1698"/>
-      <point x="1013" y="1747"/>
-      <point x="1013" y="1783" type="qcurve" smooth="yes"/>
-      <point x="1013" y="1816"/>
-      <point x="970" y="1865"/>
-      <point x="922" y="1865" type="qcurve" smooth="yes"/>
-      <point x="890" y="1865"/>
-      <point x="798" y="1815"/>
-      <point x="760" y="1789" type="qcurve" smooth="yes"/>
-    </contour>
     <component base="o"/>
+    <component base="circumflexcomb" xOffset="-37" yOffset="-40"/>
+    <component base="acutecomb" xOffset="-44" yOffset="315"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.2453,0.8091,1,1</string>
-    </dict>
-  </lib>
 </glyph>

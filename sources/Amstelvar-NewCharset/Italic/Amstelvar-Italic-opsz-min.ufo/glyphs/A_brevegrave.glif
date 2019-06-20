@@ -3,42 +3,8 @@
   <advance width="1424"/>
   <unicode hex="1EB0"/>
   <outline>
-    <contour>
-      <point x="746" y="1899" type="line"/>
-      <point x="749" y="1789"/>
-      <point x="923" y="1635"/>
-      <point x="1053" y="1635" type="qcurve" smooth="yes"/>
-      <point x="1183" y="1635"/>
-      <point x="1413" y="1804"/>
-      <point x="1455" y="1902" type="qcurve"/>
-      <point x="1378" y="1955" type="line"/>
-      <point x="1339" y="1902"/>
-      <point x="1171" y="1791"/>
-      <point x="1069" y="1791" type="qcurve" smooth="yes"/>
-      <point x="973" y="1791"/>
-      <point x="849" y="1894"/>
-      <point x="830" y="1956" type="qcurve"/>
-    </contour>
-    <contour>
-      <point x="1004" y="2067" type="qcurve" smooth="yes"/>
-      <point x="1320" y="1974" type="line"/>
-      <point x="1359" y="2060" type="line"/>
-      <point x="1123" y="2191" type="line" smooth="yes"/>
-      <point x="1059" y="2226"/>
-      <point x="979" y="2257"/>
-      <point x="947" y="2257" type="qcurve" smooth="yes"/>
-      <point x="913" y="2257"/>
-      <point x="861" y="2211"/>
-      <point x="861" y="2179" type="qcurve"/>
-      <point x="861" y="2137"/>
-      <point x="924" y="2091"/>
-    </contour>
     <component base="A"/>
+    <component base="brevecombstack.case" xOffset="273"/>
+    <component base="gravecombstack.case" xOffset="326" yOffset="304"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.2453,0.8091,1,1</string>
-    </dict>
-  </lib>
 </glyph>

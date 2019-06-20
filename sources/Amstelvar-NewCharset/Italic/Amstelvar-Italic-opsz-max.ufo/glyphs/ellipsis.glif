@@ -1,55 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ellipsis" format="2">
-  <advance width="1658"/>
+  <advance width="1672"/>
   <unicode hex="2026"/>
   <outline>
-    <contour>
-      <point x="28" y="98" type="qcurve" smooth="yes"/>
-      <point x="28" y="143"/>
-      <point x="91" y="210"/>
-      <point x="141" y="210" type="qcurve" smooth="yes"/>
-      <point x="190" y="210"/>
-      <point x="254" y="143"/>
-      <point x="254" y="98" type="qcurve" smooth="yes"/>
-      <point x="254" y="52"/>
-      <point x="190" y="-15"/>
-      <point x="141" y="-15" type="qcurve" smooth="yes"/>
-      <point x="91" y="-15"/>
-      <point x="28" y="52"/>
-    </contour>
-    <contour>
-      <point x="589" y="98" type="qcurve" smooth="yes"/>
-      <point x="589" y="143"/>
-      <point x="652" y="210"/>
-      <point x="701" y="210" type="qcurve" smooth="yes"/>
-      <point x="751" y="210"/>
-      <point x="815" y="143"/>
-      <point x="815" y="98" type="qcurve" smooth="yes"/>
-      <point x="815" y="52"/>
-      <point x="751" y="-15"/>
-      <point x="701" y="-15" type="qcurve" smooth="yes"/>
-      <point x="652" y="-15"/>
-      <point x="589" y="52"/>
-    </contour>
-    <contour>
-      <point x="1149" y="98" type="qcurve" smooth="yes"/>
-      <point x="1149" y="143"/>
-      <point x="1212" y="210"/>
-      <point x="1262" y="210" type="qcurve" smooth="yes"/>
-      <point x="1311" y="210"/>
-      <point x="1375" y="143"/>
-      <point x="1375" y="98" type="qcurve" smooth="yes"/>
-      <point x="1375" y="52"/>
-      <point x="1311" y="-15"/>
-      <point x="1262" y="-15" type="qcurve" smooth="yes"/>
-      <point x="1212" y="-15"/>
-      <point x="1149" y="52"/>
-    </contour>
+    <component base="period"/>
+    <component base="period" xOffset="564"/>
+    <component base="period" xOffset="1128"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.2453,0.8091,1,1</string>
-    </dict>
-  </lib>
 </glyph>

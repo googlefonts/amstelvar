@@ -1,19 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="macronbelowcomb.case" format="2">
   <advance width="896"/>
-  <anchor x="293" y="-212" name="below"/>
   <outline>
     <contour>
-      <point x="20" y="-311" type="line"/>
+      <point x="0" y="-311" type="line"/>
       <point x="20" y="-206" type="line"/>
       <point x="542" y="-206" type="line"/>
-      <point x="542" y="-311" type="line"/>
+      <point x="522" y="-311" type="line"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.3216,0.6784,0.4118,1</string>
-    </dict>
-  </lib>
 </glyph>

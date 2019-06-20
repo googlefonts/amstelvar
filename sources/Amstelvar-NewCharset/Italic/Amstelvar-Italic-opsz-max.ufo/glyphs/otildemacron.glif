@@ -3,46 +3,8 @@
   <advance width="936"/>
   <unicode hex="022D"/>
   <outline>
-    <contour>
-      <point x="529" y="1117" type="qcurve" smooth="yes"/>
-      <point x="552" y="1102"/>
-      <point x="633" y="1057"/>
-      <point x="670" y="1057" type="qcurve" smooth="yes"/>
-      <point x="714" y="1057"/>
-      <point x="804" y="1137"/>
-      <point x="832" y="1197" type="qcurve"/>
-      <point x="810" y="1218" type="line"/>
-      <point x="789" y="1192"/>
-      <point x="744" y="1155"/>
-      <point x="704" y="1155" type="qcurve"/>
-      <point x="674" y="1155"/>
-      <point x="611" y="1196"/>
-      <point x="572" y="1225" type="qcurve" smooth="yes"/>
-      <point x="532" y="1255"/>
-      <point x="473" y="1275"/>
-      <point x="439" y="1273" type="qcurve" smooth="yes"/>
-      <point x="397" y="1271"/>
-      <point x="285" y="1174"/>
-      <point x="260" y="1125" type="qcurve"/>
-      <point x="282" y="1101" type="line"/>
-      <point x="307" y="1130"/>
-      <point x="380" y="1175"/>
-      <point x="413" y="1175" type="qcurve" smooth="yes"/>
-      <point x="439" y="1175"/>
-      <point x="505" y="1136"/>
-    </contour>
-    <contour>
-      <point x="316" y="1431" type="line"/>
-      <point x="316" y="1344" type="line"/>
-      <point x="838" y="1344" type="line"/>
-      <point x="838" y="1431" type="line"/>
-    </contour>
     <component base="o"/>
+    <component base="tildecomb" xOffset="-5" yOffset="-70"/>
+    <component base="macroncomb" xOffset="40" yOffset="191"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.2453,0.8091,1,1</string>
-    </dict>
-  </lib>
 </glyph>
