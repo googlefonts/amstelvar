@@ -12,6 +12,9 @@ romans = [
 	"Roman/Amstelvar-Roman-opsz-36.ufo",
 	"Roman/Amstelvar-Roman-opsz-84.ufo",
 	"Roman/Amstelvar-Roman-opsz-max.ufo",
+	"Roman/Amstelvar-Roman-opsz-max-wghtmin.ufo",
+	"Roman/Amstelvar-Roman-opsz-84-wghtmin.ufo",
+	"Roman/Amstelvar-Roman-opsz-max-wdthmin-wghtmax.ufo",
 	"Roman/Amstelvar-Roman-wdthmax.ufo",
 	"Roman/Amstelvar-Roman-wdthmin.ufo",
 	"Roman/Amstelvar-Roman-wghtmin.ufo",
@@ -52,8 +55,8 @@ project.run_from_ufos(
 	reverse_direction=False, 
 	use_production_names=False)
 
-designSpace = "Amstelvar-Roman-006.designspace"
-outfile = "../../fonts/Amstelvar-Roman-VF111.ttf"
+designSpace = "Amstelvar-Roman-007.designspace"
+outfile = "../../fonts/Amstelvar-Roman-VF.ttf"
 finder = lambda s: s.replace("Roman/", "master_ttf/").replace(".ufo", ".ttf")
 varfont, _, _ = build(designSpace, finder)
 print ("Saving Variable Font...")
@@ -85,7 +88,7 @@ project.run_from_ufos(
 	use_production_names=False)
 
 designSpace = "Amstelvar-Italic-002.designspace"
-outfile = "../../fonts/Amstelvar-Italic-VF111.ttf"
+outfile = "../../fonts/Amstelvar-Italic-VF.ttf"
 finder = lambda s: s.replace("Italic/", "master_ttf/").replace(".ufo", ".ttf")
 varfont, _, _ = build(designSpace, finder)
 print ("Saving Variable Font...")
