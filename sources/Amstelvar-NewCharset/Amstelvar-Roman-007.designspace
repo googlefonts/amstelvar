@@ -23,7 +23,13 @@
   <rules>
     <rule name="heavy-bars">
       <conditionset>
-        <condition name="weight" minimum="800" maximum="900"/>
+        <condition name="weight" minimum="800" maximum="850"/>
+      </conditionset>
+      <sub name="dollar" with="dollar.rvrn2"/>
+    </rule>
+    <rule name="heavier-bars">
+      <conditionset>
+        <condition name="weight" minimum="850" maximum="900"/>
       </conditionset>
       <sub name="dollar" with="dollar.rvrn"/>
     </rule>
