@@ -55,7 +55,7 @@ project.run_from_ufos(
 	reverse_direction=False, 
 	use_production_names=False)
 
-designSpace = "Amstelvar-Roman-007.designspace"
+designSpace = "Amstelvar-Roman-008.designspace"
 outfile = "../../fonts/Amstelvar-Roman-VF.ttf"
 finder = lambda s: s.replace("Roman/", "master_ttf/").replace(".ufo", ".ttf")
 varfont, _, _ = build(designSpace, finder)
