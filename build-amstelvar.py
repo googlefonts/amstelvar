@@ -4,6 +4,11 @@ import shutil
 import os
 import sys
 
+
+buildNumberRoman = 116
+buildNumberItalic = buildNumberRoman 
+#buildNumberItalic = 116
+
 # Roman
 
 romans = [
@@ -62,41 +67,25 @@ project.run_from_ufos(
 
 
 
-# increment version 
-from datetime import date, timedelta
 
 
-start_date = date(2019, 1, 17)
-
-end_date = date.today()
-all_days = [start_date + timedelta(days=x) for x in range((end_date-start_date).days + 1)]
-weekday_build_number = sum(1 for d in all_days if d.weekday() < 5)
 
 
-buildNumber = weekday_build_number
-
-#buildNumber = 112
-#buildNumber = ''
 
 
 
 #designSpace = "sources/Amstelvar-NewCharset/Amstelvar-Roman-006.designspace"
 designSpace = "sources/Amstelvar-NewCharset/Amstelvar-Roman-008.designspace"
-#outfile = "fonts/Amstelvar-Roman-VF"+str(buildNumber)+".ttf"
 
 
-# for some reason this isn't working in Travis so for now just save to home directory
 
-# outputBase = 'fonts'
 
-# if os.path.exists(outputBase):
-# 	os.makedirs(outputBase)
 
 
 #outfile = "Amstelvar-Roman-VF.ttf"
 outfile = "fonts/Amstelvar-Roman-VF.ttf"
 
-#outfile = os.path.join(outputBase, "Amstelvar-Roman-VF.ttf")
+
 
 finder = lambda s: s.replace("sources/Amstelvar-NewCharset/Roman/", "master_ttf/").replace(".ufo", ".ttf")
 
@@ -114,7 +103,7 @@ print ("DONE!")
 # duplicate latest version of Roman with build number
 old_name = outfile
 base, ext = os.path.splitext(outfile)
-new_name = base+str(buildNumber) +ext
+new_name = base+str(buildNumberRoman) +ext
 
 shutil.copy(old_name, new_name)
 
@@ -150,13 +139,8 @@ designSpace = "sources/Amstelvar-NewCharset/Amstelvar-Italic-002.designspace"
 
 
 
-#outfile = "fonts/Amstelvar-Italic-VF"+ str(buildNumber) +".ttf"
 
-#outfile = "Amstelvar-Italic-VF.ttf"
 outfile = "fonts/Amstelvar-Italic-VF.ttf"
-
-
-#outfile = os.path.join(outputBase, "Amstelvar-Italic-VF.ttf")
 
 
 
@@ -168,7 +152,7 @@ varfont.save(outfile)
 # duplicate latest version of Italic with build number
 old_name = outfile
 base, ext = os.path.splitext(outfile)
-new_name = base+str(buildNumber) +ext
+new_name = base+str(buildNumberItalic) +ext
 
 shutil.copy(old_name, new_name)
 
