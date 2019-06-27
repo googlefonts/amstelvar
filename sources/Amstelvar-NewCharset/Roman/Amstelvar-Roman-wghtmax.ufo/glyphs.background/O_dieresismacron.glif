@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Odieresismacron" format="2">
+  <advance width="1904"/>
+  <unicode hex="022A"/>
+  <outline>
+    <contour>
+      <point x="568" y="1755" type="qcurve" smooth="yes"/>
+      <point x="568" y="1826"/>
+      <point x="645" y="1901"/>
+      <point x="718" y="1901" type="qcurve" smooth="yes"/>
+      <point x="787" y="1901"/>
+      <point x="868" y="1820"/>
+      <point x="868" y="1755" type="qcurve" smooth="yes"/>
+      <point x="868" y="1684"/>
+      <point x="791" y="1608"/>
+      <point x="718" y="1608" type="qcurve" smooth="yes"/>
+      <point x="649" y="1608"/>
+      <point x="568" y="1688"/>
+    </contour>
+    <contour>
+      <point x="1036" y="1755" type="qcurve" smooth="yes"/>
+      <point x="1036" y="1826"/>
+      <point x="1114" y="1901"/>
+      <point x="1186" y="1901" type="qcurve" smooth="yes"/>
+      <point x="1255" y="1901"/>
+      <point x="1336" y="1820"/>
+      <point x="1336" y="1755" type="qcurve" smooth="yes"/>
+      <point x="1336" y="1684"/>
+      <point x="1260" y="1608"/>
+      <point x="1186" y="1608" type="qcurve" smooth="yes"/>
+      <point x="1117" y="1608"/>
+      <point x="1036" y="1688"/>
+    </contour>
+    <component base="dieresiscomb.case" xOffset="440"/>
+  </outline>
+</glyph>

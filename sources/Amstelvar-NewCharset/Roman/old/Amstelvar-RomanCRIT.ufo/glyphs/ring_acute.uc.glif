@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ring_acute.uc" format="2">
+  <advance width="1024"/>
+  <outline>
+    <contour>
+      <point x="289" y="1742" type="qcurve" smooth="yes"/>
+      <point x="289" y="1833"/>
+      <point x="411" y="1950"/>
+      <point x="506" y="1950" type="qcurve" smooth="yes"/>
+      <point x="601" y="1950"/>
+      <point x="723" y="1833"/>
+      <point x="723" y="1742" type="qcurve" smooth="yes"/>
+      <point x="723" y="1651"/>
+      <point x="601" y="1534"/>
+      <point x="506" y="1534" type="qcurve" smooth="yes"/>
+      <point x="411" y="1534"/>
+      <point x="289" y="1651"/>
+    </contour>
+    <contour>
+      <point x="403" y="1742" type="qcurve" smooth="yes"/>
+      <point x="403" y="1696"/>
+      <point x="459" y="1639"/>
+      <point x="506" y="1639" type="qcurve" smooth="yes"/>
+      <point x="556" y="1639"/>
+      <point x="609" y="1692"/>
+      <point x="609" y="1742" type="qcurve" smooth="yes"/>
+      <point x="609" y="1788"/>
+      <point x="553" y="1845"/>
+      <point x="506" y="1845" type="qcurve" smooth="yes"/>
+      <point x="456" y="1845"/>
+      <point x="403" y="1792"/>
+    </contour>
+    <contour>
+      <point x="758" y="2134" type="qcurve" smooth="yes"/>
+      <point x="746" y="2089"/>
+      <point x="698" y="2056"/>
+      <point x="649" y="2043" type="qcurve" smooth="yes"/>
+      <point x="317" y="1954" type="line"/>
+      <point x="270" y="2052" type="line"/>
+      <point x="515" y="2179" type="line" smooth="yes"/>
+      <point x="561" y="2203"/>
+      <point x="652" y="2244"/>
+      <point x="687" y="2235" type="qcurve" smooth="yes"/>
+      <point x="720" y="2226"/>
+      <point x="768" y="2168"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.9882,0.0471,0.2471,1</string>
+    </dict>
+  </lib>
+</glyph>

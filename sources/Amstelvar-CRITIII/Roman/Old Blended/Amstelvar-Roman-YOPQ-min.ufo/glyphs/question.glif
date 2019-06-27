@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="question" format="2">
+  <advance width="934"/>
+  <unicode hex="003F"/>
+  <outline>
+    <contour>
+      <point x="231" y="121" type="qcurve" smooth="yes"/>
+      <point x="231" y="179"/>
+      <point x="312" y="265"/>
+      <point x="375" y="265" type="qcurve" smooth="yes"/>
+      <point x="438" y="265"/>
+      <point x="519" y="179"/>
+      <point x="519" y="121" type="qcurve" smooth="yes"/>
+      <point x="519" y="64"/>
+      <point x="438" y="-22"/>
+      <point x="375" y="-22" type="qcurve" smooth="yes"/>
+      <point x="312" y="-22"/>
+      <point x="231" y="64"/>
+    </contour>
+    <contour>
+      <point x="33" y="1234" type="qcurve" smooth="yes"/>
+      <point x="33" y="1377"/>
+      <point x="266" y="1540"/>
+      <point x="470" y="1540" type="qcurve" smooth="yes"/>
+      <point x="667" y="1540"/>
+      <point x="914" y="1348"/>
+      <point x="914" y="1163" type="qcurve" smooth="yes"/>
+      <point x="914" y="970"/>
+      <point x="679" y="771"/>
+      <point x="594" y="737" type="qcurve" smooth="yes"/>
+      <point x="518" y="707"/>
+      <point x="357" y="605.0"/>
+      <point x="357" y="522.0" type="qcurve" smooth="yes"/>
+      <point x="357" y="435.0" type="line"/>
+      <point x="343" y="435.0" type="line"/>
+      <point x="341" y="519.0" type="line" smooth="yes"/>
+      <point x="339" y="594.0"/>
+      <point x="383" y="756"/>
+      <point x="495" y="820" type="qcurve" smooth="yes"/>
+      <point x="585" y="872"/>
+      <point x="726" y="1030"/>
+      <point x="726" y="1171" type="qcurve" smooth="yes"/>
+      <point x="726" y="1306"/>
+      <point x="588" y="1529"/>
+      <point x="418" y="1529.0" type="qcurve" smooth="yes"/>
+      <point x="278" y="1529"/>
+      <point x="62" y="1382"/>
+      <point x="62" y="1315" type="qcurve" smooth="yes"/>
+      <point x="62" y="1286"/>
+      <point x="268" y="1204"/>
+      <point x="270" y="1155" type="qcurve" smooth="yes"/>
+      <point x="273" y="1115"/>
+      <point x="212" y="1051"/>
+      <point x="162" y="1051.0" type="qcurve" smooth="yes"/>
+      <point x="105" y="1051"/>
+      <point x="33" y="1144"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.Image.Brightness</key>
+      <integer>0</integer>
+      <key>com.typemytype.robofont.Image.Contrast</key>
+      <integer>1</integer>
+      <key>com.typemytype.robofont.Image.Saturation</key>
+      <integer>1</integer>
+      <key>com.typemytype.robofont.Image.Sharpness</key>
+      <real>0.4</real>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="exclam" format="2">
+  <advance width="604"/>
+  <unicode hex="0021"/>
+  <outline>
+    <contour>
+      <point x="224" y="55" type="qcurve" smooth="yes"/>
+      <point x="224" y="87"/>
+      <point x="268" y="133"/>
+      <point x="302.0" y="133" type="qcurve" smooth="yes"/>
+      <point x="336" y="133"/>
+      <point x="380" y="87"/>
+      <point x="380" y="55" type="qcurve" smooth="yes"/>
+      <point x="380" y="24"/>
+      <point x="336" y="-22.0"/>
+      <point x="302.0" y="-22.0" type="qcurve" smooth="yes"/>
+      <point x="268" y="-22.0"/>
+      <point x="224" y="24"/>
+    </contour>
+    <contour>
+      <point x="286" y="1421.0" type="line" smooth="yes"/>
+      <point x="286" y="1489"/>
+      <point x="290" y="1576.0"/>
+      <point x="297" y="1577.0" type="qcurve" smooth="yes"/>
+      <point x="303" y="1578.0"/>
+      <point x="308.0" y="1491.0"/>
+      <point x="308" y="1422.0" type="qcurve" smooth="yes"/>
+      <point x="307" y="1108.0" type="line"/>
+      <point x="331.0" y="800.0" type="line"/>
+      <point x="348.0" y="435.0" type="line"/>
+      <point x="254.0" y="435.0" type="line"/>
+      <point x="271.0" y="800.0" type="line"/>
+      <point x="287" y="1108.0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.Image.Brightness</key>
+      <integer>0</integer>
+      <key>com.typemytype.robofont.Image.Contrast</key>
+      <integer>1</integer>
+      <key>com.typemytype.robofont.Image.Saturation</key>
+      <integer>1</integer>
+      <key>com.typemytype.robofont.Image.Sharpness</key>
+      <real>0.4</real>
+    </dict>
+  </lib>
+</glyph>

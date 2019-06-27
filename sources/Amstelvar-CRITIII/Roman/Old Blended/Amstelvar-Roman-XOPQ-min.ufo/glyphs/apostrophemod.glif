@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="apostrophemod" format="2">
+  <advance width="600"/>
+  <unicode hex="02BC"/>
+  <outline>
+    <contour>
+      <point x="154.0" y="1064.0" type="line"/>
+      <point x="190.0" y="1092.0"/>
+      <point x="289.0" y="1194.0"/>
+      <point x="306.0" y="1258.0" type="qcurve" smooth="yes"/>
+      <point x="316.0" y="1296.0"/>
+      <point x="323.0" y="1350.0"/>
+      <point x="323.0" y="1405.0" type="qcurve" smooth="yes"/>
+      <point x="323.0" y="1459.0"/>
+      <point x="338.0" y="1530.0"/>
+      <point x="377.0" y="1530.0" type="qcurve" smooth="yes"/>
+      <point x="410.0" y="1530.0"/>
+      <point x="438.0" y="1467.0"/>
+      <point x="438.0" y="1395.0" type="qcurve" smooth="yes"/>
+      <point x="438.0" y="1281.0"/>
+      <point x="293.0" y="1066.0"/>
+      <point x="201.0" y="1011.0" type="qcurve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.Image.Brightness</key>
+      <integer>0</integer>
+      <key>com.typemytype.robofont.Image.Contrast</key>
+      <integer>1</integer>
+      <key>com.typemytype.robofont.Image.Saturation</key>
+      <integer>1</integer>
+      <key>com.typemytype.robofont.Image.Sharpness</key>
+      <real>0.4</real>
+    </dict>
+  </lib>
+</glyph>
