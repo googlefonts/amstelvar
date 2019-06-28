@@ -11,7 +11,7 @@ printf "Build fonts…\n"
 
 #if ! python "sources/Amstelvar-NewCharset/build-amstelvar.py"
 
-if ! python "build-amstelvar.py"
+if ! python "build-amstelvar_TEST-TRAVIS-BUILD.py"
 
 
     then
