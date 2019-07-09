@@ -5,9 +5,9 @@ import os
 import sys
 
 
-buildNumberRoman = 116
-buildNumberItalic = buildNumberRoman 
-#buildNumberItalic = 116
+# buildNumberRoman = 116
+# buildNumberItalic = buildNumberRoman 
+# #buildNumberItalic = 116
 
 # Roman
 
@@ -100,12 +100,12 @@ varfont.save(outfile)
 print ("DONE!")
 
 
-# duplicate latest version of Roman with build number
-old_name = outfile
-base, ext = os.path.splitext(outfile)
-new_name = base+str(buildNumberRoman) +ext
+# # duplicate latest version of Roman with build number
+# old_name = outfile
+# base, ext = os.path.splitext(outfile)
+# new_name = base+str(buildNumberRoman) +ext
 
-shutil.copy(old_name, new_name)
+# shutil.copy(old_name, new_name)
 
 
 
@@ -149,12 +149,12 @@ varfont, _, _ = build(designSpace, finder)
 print ("Saving Variable Font...")
 varfont.save(outfile)
 
-# duplicate latest version of Italic with build number
-old_name = outfile
-base, ext = os.path.splitext(outfile)
-new_name = base+str(buildNumberItalic) +ext
+# # duplicate latest version of Italic with build number
+# old_name = outfile
+# base, ext = os.path.splitext(outfile)
+# new_name = base+str(buildNumberItalic) +ext
 
-shutil.copy(old_name, new_name)
+# shutil.copy(old_name, new_name)
 
 
 print ("DONE!")
