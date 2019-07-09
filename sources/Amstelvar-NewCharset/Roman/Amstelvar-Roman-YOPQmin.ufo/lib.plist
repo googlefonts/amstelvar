@@ -313,7 +313,6 @@
           <string>Udblgrave</string>
           <string>Uinvertedbreve</string>
           <string>Udotbelow</string>
-          <string>Uhookabove</string>
           <string>Uhornacute</string>
           <string>Uhorngrave</string>
           <string>Uhornhookabove</string>
@@ -334,20 +333,19 @@
           <string>Zdotaccent</string>
           <string>Zcaron</string>
           <string>AEacute</string>
-          <string>Oslashacute</string>
           <string>Dcroat</string>
           <string>Hbar</string>
           <string>IJ</string>
           <string>Ldot</string>
           <string>Lslash</string>
           <string>Eng</string>
+          <string>Oslashacute</string>
           <string>Tbar</string>
           <string>Schwa</string>
           <string>DZcaron</string>
           <string>LJ</string>
           <string>NJ</string>
           <string>Germandbls</string>
-          <string>micro</string>
           <string>amacron</string>
           <string>abreve</string>
           <string>aogonek</string>
@@ -453,7 +451,6 @@
           <string>udblgrave</string>
           <string>uinvertedbreve</string>
           <string>udotbelow</string>
-          <string>uhookabove</string>
           <string>uhornacute</string>
           <string>uhorngrave</string>
           <string>uhornhookabove</string>
@@ -473,17 +470,19 @@
           <string>zdotaccent</string>
           <string>zcaron</string>
           <string>aeacute</string>
-          <string>oslashacute</string>
           <string>dcroat</string>
           <string>hbar</string>
           <string>idotless</string>
+          <string>jdotless</string>
           <string>ij</string>
           <string>kgreenlandic</string>
           <string>ldot</string>
           <string>lslash</string>
           <string>napostrophe</string>
           <string>eng</string>
+          <string>oslashacute</string>
           <string>tbar</string>
+          <string>micro</string>
           <string>dzcaron</string>
           <string>lj</string>
           <string>nj</string>
@@ -491,64 +490,38 @@
           <string>Dzcaron</string>
           <string>Lj</string>
           <string>Nj</string>
-          <string>primemod</string>
-          <string>doubleprimemod</string>
-          <string>apostrophemod</string>
           <string>firsttonechinese</string>
-          <string>gravecomb</string>
           <string>acutecomb</string>
+          <string>gravecomb</string>
           <string>circumflexcomb</string>
           <string>tildecomb</string>
           <string>macroncomb</string>
           <string>brevecomb</string>
           <string>dotaccentcomb</string>
           <string>dieresiscomb</string>
-          <string>hookabovecomb</string>
           <string>ringcomb</string>
           <string>hungarumlautcomb</string>
           <string>caroncomb</string>
+          <string>cedillacomb</string>
+          <string>ogonekcomb</string>
+          <string>hookabovecomb</string>
           <string>breveinvertedcomb</string>
           <string>dblgravecomb</string>
           <string>horncomb</string>
           <string>dotbelowcomb</string>
           <string>dieresisbelowcomb</string>
           <string>commaaccentcomb</string>
-          <string>cedillacomb</string>
-          <string>ogonekcomb</string>
           <string>brevebelowcomb</string>
           <string>macronbelowcomb</string>
           <string>foursuperior</string>
-          <string>hyphentwo</string>
-          <string>endash</string>
-          <string>emdash</string>
-          <string>horizontalbar</string>
-          <string>leftanglebracket</string>
-          <string>rightanglebracket</string>
-          <string>perthousand</string>
-          <string>quotedblleft</string>
-          <string>quotedblright</string>
-          <string>quotesinglbase</string>
-          <string>quotedblbase</string>
-          <string>guilsinglleft</string>
-          <string>guilsinglright</string>
-          <string>guillemetleft</string>
-          <string>guillemetright</string>
-          <string>dagger</string>
-          <string>daggerdbl</string>
-          <string>ellipsis</string>
-          <string>fraction</string>
-          <string>numero</string>
-          <string>bullet</string>
-          <string>minute</string>
-          <string>second</string>
           <string>lessequal</string>
           <string>greaterequal</string>
           <string>approxequal</string>
           <string>notequal</string>
-          <string>commercialMinusSign</string>
           <string>divisionslash</string>
           <string>bulletoperator</string>
-          <string>colonsign</string>
+          <string>perthousand</string>
+          <string>fraction</string>
           <string>franc</string>
           <string>lira</string>
           <string>naira</string>
@@ -561,26 +534,31 @@
           <string>peso</string>
           <string>guarani</string>
           <string>cedi</string>
+          <string>colonsign</string>
           <string>rupeeIndian</string>
           <string>liraTurkish</string>
           <string>manat</string>
           <string>ruble</string>
+          <string>numero</string>
+          <string>endash</string>
+          <string>emdash</string>
+          <string>quotedblleft</string>
+          <string>quotedblright</string>
+          <string>quotesinglbase</string>
+          <string>quotedblbase</string>
+          <string>guilsinglleft</string>
+          <string>guilsinglright</string>
+          <string>guillemetleft</string>
+          <string>guillemetright</string>
+          <string>dagger</string>
+          <string>daggerdbl</string>
+          <string>ellipsis</string>
+          <string>bullet</string>
           <string>trademark</string>
           <string>CR</string>
           <string>softhyphen</string>
           <string>IJacute</string>
-          <string>diagonalbarO</string>
-          <string>diagonalbarl</string>
-          <string>diagonalbaro</string>
-          <string>engn</string>
-          <string>engtail</string>
-          <string>horizontalbarH</string>
-          <string>horizontalbarlc</string>
-          <string>hornU</string>
-          <string>hornu</string>
-          <string>idotaccent</string>
           <string>ijacute</string>
-          <string>jdotless</string>
           <string>f_f</string>
           <string>fi</string>
           <string>fl</string>
@@ -594,29 +572,20 @@
           <string>brevecomb.case</string>
           <string>dotaccentcomb.case</string>
           <string>dieresiscomb.case</string>
-          <string>hookabovecomb.case</string>
           <string>ringcomb.case</string>
           <string>hungarumlautcomb.case</string>
           <string>caroncomb.case</string>
+          <string>cedillacomb.case</string>
+          <string>ogonekcomb.case</string>
+          <string>hookabovecomb.case</string>
           <string>breveinvertedcomb.case</string>
           <string>dblgravecomb.case</string>
           <string>horncomb.case</string>
           <string>dotbelowcomb.case</string>
           <string>dieresisbelowcomb.case</string>
           <string>commaaccentcomb.case</string>
-          <string>cedillacomb.case</string>
-          <string>ogonekcomb.case</string>
           <string>brevebelowcomb.case</string>
           <string>macronbelowcomb.case</string>
-          <string>acutecombstack.case</string>
-          <string>brevecombstack.case</string>
-          <string>circumflexcombstack.case</string>
-          <string>dieresiscombstack.case</string>
-          <string>dotaccentcombstack.case</string>
-          <string>gravecombstack.case</string>
-          <string>hookabovecombstack.case</string>
-          <string>macroncombstack.case</string>
-          <string>tildecombstack.case</string>
           <string>caroncomb.alt</string>
           <string>periodcentered.loclCAT</string>
           <string>periodcentered.loclCAT.case</string>
@@ -630,6 +599,41 @@
           <string>seven.lf</string>
           <string>eight.lf</string>
           <string>nine.lf</string>
+          <string>minute</string>
+          <string>second</string>
+          <string>primemod</string>
+          <string>doubleprimemod</string>
+          <string>apostrophemod</string>
+          <string>Uhookabove</string>
+          <string>uhookabove</string>
+          <string>hyphentwo</string>
+          <string>horizontalbar</string>
+          <string>commercialMinusSign</string>
+          <string>diagonalbarO</string>
+          <string>diagonalbarl</string>
+          <string>diagonalbaro</string>
+          <string>engn</string>
+          <string>engtail</string>
+          <string>horizontalbarH</string>
+          <string>horizontalbarlc</string>
+          <string>leftanglebracket</string>
+          <string>rightanglebracket</string>
+          <string>hornU</string>
+          <string>hornu</string>
+          <string>idotaccent</string>
+          <string>gravecombstack.case</string>
+          <string>acutecombstack.case</string>
+          <string>circumflexcombstack.case</string>
+          <string>tildecombstack.case</string>
+          <string>brevecombstack.case</string>
+          <string>hookabovecombstack.case</string>
+          <string>dieresiscombstack.case</string>
+          <string>macroncombstack.case</string>
+          <string>dotaccentcombstack.case</string>
+          <string>Iacute_J.loclNLD</string>
+          <string>iacute_j.loclNLD</string>
+          <string>Jacute.loclNLD</string>
+          <string>jacute.loclNLD</string>
           <string>dollar.rvrn</string>
           <string>dollar.rvrn2</string>
         </array>
@@ -1581,7 +1585,6 @@
       <string>Udblgrave</string>
       <string>Uinvertedbreve</string>
       <string>Udotbelow</string>
-      <string>Uhookabove</string>
       <string>Uhornacute</string>
       <string>Uhorngrave</string>
       <string>Uhornhookabove</string>
@@ -1602,20 +1605,19 @@
       <string>Zdotaccent</string>
       <string>Zcaron</string>
       <string>AEacute</string>
-      <string>Oslashacute</string>
       <string>Dcroat</string>
       <string>Hbar</string>
       <string>IJ</string>
       <string>Ldot</string>
       <string>Lslash</string>
       <string>Eng</string>
+      <string>Oslashacute</string>
       <string>Tbar</string>
       <string>Schwa</string>
       <string>DZcaron</string>
       <string>LJ</string>
       <string>NJ</string>
       <string>Germandbls</string>
-      <string>micro</string>
       <string>amacron</string>
       <string>abreve</string>
       <string>aogonek</string>
@@ -1721,7 +1723,6 @@
       <string>udblgrave</string>
       <string>uinvertedbreve</string>
       <string>udotbelow</string>
-      <string>uhookabove</string>
       <string>uhornacute</string>
       <string>uhorngrave</string>
       <string>uhornhookabove</string>
@@ -1741,17 +1742,19 @@
       <string>zdotaccent</string>
       <string>zcaron</string>
       <string>aeacute</string>
-      <string>oslashacute</string>
       <string>dcroat</string>
       <string>hbar</string>
       <string>idotless</string>
+      <string>jdotless</string>
       <string>ij</string>
       <string>kgreenlandic</string>
       <string>ldot</string>
       <string>lslash</string>
       <string>napostrophe</string>
       <string>eng</string>
+      <string>oslashacute</string>
       <string>tbar</string>
+      <string>micro</string>
       <string>dzcaron</string>
       <string>lj</string>
       <string>nj</string>
@@ -1759,64 +1762,38 @@
       <string>Dzcaron</string>
       <string>Lj</string>
       <string>Nj</string>
-      <string>primemod</string>
-      <string>doubleprimemod</string>
-      <string>apostrophemod</string>
       <string>firsttonechinese</string>
-      <string>gravecomb</string>
       <string>acutecomb</string>
+      <string>gravecomb</string>
       <string>circumflexcomb</string>
       <string>tildecomb</string>
       <string>macroncomb</string>
       <string>brevecomb</string>
       <string>dotaccentcomb</string>
       <string>dieresiscomb</string>
-      <string>hookabovecomb</string>
       <string>ringcomb</string>
       <string>hungarumlautcomb</string>
       <string>caroncomb</string>
+      <string>cedillacomb</string>
+      <string>ogonekcomb</string>
+      <string>hookabovecomb</string>
       <string>breveinvertedcomb</string>
       <string>dblgravecomb</string>
       <string>horncomb</string>
       <string>dotbelowcomb</string>
       <string>dieresisbelowcomb</string>
       <string>commaaccentcomb</string>
-      <string>cedillacomb</string>
-      <string>ogonekcomb</string>
       <string>brevebelowcomb</string>
       <string>macronbelowcomb</string>
       <string>foursuperior</string>
-      <string>hyphentwo</string>
-      <string>endash</string>
-      <string>emdash</string>
-      <string>horizontalbar</string>
-      <string>leftanglebracket</string>
-      <string>rightanglebracket</string>
-      <string>perthousand</string>
-      <string>quotedblleft</string>
-      <string>quotedblright</string>
-      <string>quotesinglbase</string>
-      <string>quotedblbase</string>
-      <string>guilsinglleft</string>
-      <string>guilsinglright</string>
-      <string>guillemetleft</string>
-      <string>guillemetright</string>
-      <string>dagger</string>
-      <string>daggerdbl</string>
-      <string>ellipsis</string>
-      <string>fraction</string>
-      <string>numero</string>
-      <string>bullet</string>
-      <string>minute</string>
-      <string>second</string>
       <string>lessequal</string>
       <string>greaterequal</string>
       <string>approxequal</string>
       <string>notequal</string>
-      <string>commercialMinusSign</string>
       <string>divisionslash</string>
       <string>bulletoperator</string>
-      <string>colonsign</string>
+      <string>perthousand</string>
+      <string>fraction</string>
       <string>franc</string>
       <string>lira</string>
       <string>naira</string>
@@ -1829,26 +1806,31 @@
       <string>peso</string>
       <string>guarani</string>
       <string>cedi</string>
+      <string>colonsign</string>
       <string>rupeeIndian</string>
       <string>liraTurkish</string>
       <string>manat</string>
       <string>ruble</string>
+      <string>numero</string>
+      <string>endash</string>
+      <string>emdash</string>
+      <string>quotedblleft</string>
+      <string>quotedblright</string>
+      <string>quotesinglbase</string>
+      <string>quotedblbase</string>
+      <string>guilsinglleft</string>
+      <string>guilsinglright</string>
+      <string>guillemetleft</string>
+      <string>guillemetright</string>
+      <string>dagger</string>
+      <string>daggerdbl</string>
+      <string>ellipsis</string>
+      <string>bullet</string>
       <string>trademark</string>
       <string>CR</string>
       <string>softhyphen</string>
       <string>IJacute</string>
-      <string>diagonalbarO</string>
-      <string>diagonalbarl</string>
-      <string>diagonalbaro</string>
-      <string>engn</string>
-      <string>engtail</string>
-      <string>horizontalbarH</string>
-      <string>horizontalbarlc</string>
-      <string>hornU</string>
-      <string>hornu</string>
-      <string>idotaccent</string>
       <string>ijacute</string>
-      <string>jdotless</string>
       <string>f_f</string>
       <string>fi</string>
       <string>fl</string>
@@ -1862,29 +1844,20 @@
       <string>brevecomb.case</string>
       <string>dotaccentcomb.case</string>
       <string>dieresiscomb.case</string>
-      <string>hookabovecomb.case</string>
       <string>ringcomb.case</string>
       <string>hungarumlautcomb.case</string>
       <string>caroncomb.case</string>
+      <string>cedillacomb.case</string>
+      <string>ogonekcomb.case</string>
+      <string>hookabovecomb.case</string>
       <string>breveinvertedcomb.case</string>
       <string>dblgravecomb.case</string>
       <string>horncomb.case</string>
       <string>dotbelowcomb.case</string>
       <string>dieresisbelowcomb.case</string>
       <string>commaaccentcomb.case</string>
-      <string>cedillacomb.case</string>
-      <string>ogonekcomb.case</string>
       <string>brevebelowcomb.case</string>
       <string>macronbelowcomb.case</string>
-      <string>acutecombstack.case</string>
-      <string>brevecombstack.case</string>
-      <string>circumflexcombstack.case</string>
-      <string>dieresiscombstack.case</string>
-      <string>dotaccentcombstack.case</string>
-      <string>gravecombstack.case</string>
-      <string>hookabovecombstack.case</string>
-      <string>macroncombstack.case</string>
-      <string>tildecombstack.case</string>
       <string>caroncomb.alt</string>
       <string>periodcentered.loclCAT</string>
       <string>periodcentered.loclCAT.case</string>
@@ -1898,6 +1871,41 @@
       <string>seven.lf</string>
       <string>eight.lf</string>
       <string>nine.lf</string>
+      <string>minute</string>
+      <string>second</string>
+      <string>primemod</string>
+      <string>doubleprimemod</string>
+      <string>apostrophemod</string>
+      <string>Uhookabove</string>
+      <string>uhookabove</string>
+      <string>hyphentwo</string>
+      <string>horizontalbar</string>
+      <string>commercialMinusSign</string>
+      <string>diagonalbarO</string>
+      <string>diagonalbarl</string>
+      <string>diagonalbaro</string>
+      <string>engn</string>
+      <string>engtail</string>
+      <string>horizontalbarH</string>
+      <string>horizontalbarlc</string>
+      <string>leftanglebracket</string>
+      <string>rightanglebracket</string>
+      <string>hornU</string>
+      <string>hornu</string>
+      <string>idotaccent</string>
+      <string>gravecombstack.case</string>
+      <string>acutecombstack.case</string>
+      <string>circumflexcombstack.case</string>
+      <string>tildecombstack.case</string>
+      <string>brevecombstack.case</string>
+      <string>hookabovecombstack.case</string>
+      <string>dieresiscombstack.case</string>
+      <string>macroncombstack.case</string>
+      <string>dotaccentcombstack.case</string>
+      <string>Iacute_J.loclNLD</string>
+      <string>iacute_j.loclNLD</string>
+      <string>Jacute.loclNLD</string>
+      <string>jacute.loclNLD</string>
       <string>dollar.rvrn</string>
       <string>dollar.rvrn2</string>
     </array>
