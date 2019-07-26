@@ -31,6 +31,15 @@ romans = [
 	"sources/Amstelvar-NewCharset/Roman/Amstelvar-Roman-XTRAmin.ufo",
 	"sources/Amstelvar-NewCharset/Roman/Amstelvar-Roman-YOPQmax.ufo",
 	"sources/Amstelvar-NewCharset/Roman/Amstelvar-Roman-YOPQmin.ufo",
+	
+	"sources/Amstelvar-NewCharset/Roman/Amstelvar-Roman-YTASmax.ufo",
+	"sources/Amstelvar-NewCharset/Roman/Amstelvar-Roman-YTASmin.ufo",
+	"sources/Amstelvar-NewCharset/Roman/Amstelvar-Roman-YTDEmax.ufo",
+	"sources/Amstelvar-NewCharset/Roman/Amstelvar-Roman-YTDEmin.ufo",
+	"sources/Amstelvar-NewCharset/Roman/Amstelvar-Roman-YTLCmax.ufo",
+	"sources/Amstelvar-NewCharset/Roman/Amstelvar-Roman-YTLCmin.ufo",
+	"sources/Amstelvar-NewCharset/Roman/Amstelvar-Roman-YTUCmax.ufo",
+	"sources/Amstelvar-NewCharset/Roman/Amstelvar-Roman-YTUCmin.ufo",
 
 
 ]
@@ -75,7 +84,7 @@ project.run_from_ufos(
 
 
 #designSpace = "sources/Amstelvar-NewCharset/Amstelvar-Roman-006.designspace"
-designSpace = "sources/Amstelvar-NewCharset/Amstelvar-Roman-008.designspace"
+designSpace = "sources/Amstelvar-NewCharset/Amstelvar-Roman-009.designspace"
 
 
 

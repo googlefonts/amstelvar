@@ -6,7 +6,11 @@
       "wdth",
       "XTRA",
       "XOPQ",
-      "YOPQ"
+      "YOPQ",
+      "YTAS",
+      "YTDE",
+      "YTUC",
+      "YTLC"
     ],
     "wght": {
       "name": "weight",
@@ -43,6 +47,30 @@
       "min": 29.0,
       "max": 224.0,
       "default": 124.0
+    },
+    "YTAS": {
+      "name": "y transparent ascender",
+      "min": 667.0,
+      "max": 867.0,
+      "default": 767.0
+    },
+    "YTDE": {
+      "name": "y transparent descender",
+      "min": 140.0,
+      "max": 340.0,
+      "default": 240.0
+    },
+    "YTUC": {
+      "name": "y transparent uppercase",
+      "min": 550.0,
+      "max": 850.0,
+      "default": 750.0
+    },
+    "YTLC": {
+      "name": "y transparent lowercase",
+      "min": 445.0,
+      "max": 600.0,
+      "default": 500.0
     },
     "instances": []
   },
@@ -53,7 +81,11 @@
       "wdth",
       "XTRA",
       "XOPQ",
-      "YOPQ"
+      "YOPQ",
+      "YTAS",
+      "YTDE",
+      "YTUC",
+      "YTLC"
     ],
     "wght": {
       "name": "weight",
@@ -90,6 +122,30 @@
       "min": 29.0,
       "max": 224.0,
       "default": 124.0
+    },
+    "YTAS": {
+      "name": "y transparent ascender",
+      "min": 667.0,
+      "max": 867.0,
+      "default": 767.0
+    },
+    "YTDE": {
+      "name": "y transparent descender",
+      "min": 140.0,
+      "max": 340.0,
+      "default": 240.0
+    },
+    "YTUC": {
+      "name": "y transparent uppercase",
+      "min": 550.0,
+      "max": 850.0,
+      "default": 750.0
+    },
+    "YTLC": {
+      "name": "y transparent lowercase",
+      "min": 445.0,
+      "max": 600.0,
+      "default": 500.0
     },
     "instances": []
   },
@@ -126,7 +182,11 @@
       "wdth",
       "XTRA",
       "XOPQ",
-      "YOPQ"
+      "YOPQ",
+      "YTAS",
+      "YTDE",
+      "YTUC",
+      "YTLC"
     ],
     "wght": {
       "name": "weight",
@@ -164,16 +224,70 @@
       "max": 224.0,
       "default": 124.0
     },
+    "YTAS": {
+      "name": "y transparent ascender",
+      "min": 667.0,
+      "max": 867.0,
+      "default": 767.0
+    },
+    "YTDE": {
+      "name": "y transparent descender",
+      "min": 140.0,
+      "max": 340.0,
+      "default": 240.0
+    },
+    "YTUC": {
+      "name": "y transparent uppercase",
+      "min": 550.0,
+      "max": 850.0,
+      "default": 750.0
+    },
+    "YTLC": {
+      "name": "y transparent lowercase",
+      "min": 445.0,
+      "max": 600.0,
+      "default": 500.0
+    },
     "instances": []
   },
-  "Amstelvar-Roman-APPS": {
+  "Amstelvar-Italic-VF116": {
+    "order": [
+      "wght",
+      "opsz",
+      "wdth"
+    ],
+    "wght": {
+      "name": "weight",
+      "min": 100.0,
+      "max": 900.0,
+      "default": 400.0
+    },
+    "opsz": {
+      "name": "opsize",
+      "min": 8.0,
+      "max": 144.0,
+      "default": 14.0
+    },
+    "wdth": {
+      "name": "width",
+      "min": 25.0,
+      "max": 140.0,
+      "default": 100.0
+    },
+    "instances": []
+  },
+  "Amstelvar-Roman-VF-APPS": {
     "order": [
       "wght",
       "opsz",
       "wdth",
       "XTRA",
       "XOPQ",
-      "YOPQ"
+      "YOPQ",
+      "YTAS",
+      "YTDE",
+      "YTUC",
+      "YTLC"
     ],
     "wght": {
       "name": "weight",
@@ -211,31 +325,29 @@
       "max": 224.0,
       "default": 124.0
     },
-    "instances": []
-  },
-  "Amstelvar-Italic-VF116": {
-    "order": [
-      "wght",
-      "opsz",
-      "wdth"
-    ],
-    "wght": {
-      "name": "weight",
-      "min": 100.0,
-      "max": 900.0,
-      "default": 400.0
+    "YTAS": {
+      "name": "y transparent ascender",
+      "min": 667.0,
+      "max": 867.0,
+      "default": 767.0
     },
-    "opsz": {
-      "name": "opsize",
-      "min": 8.0,
-      "max": 144.0,
-      "default": 14.0
+    "YTDE": {
+      "name": "y transparent descender",
+      "min": 140.0,
+      "max": 340.0,
+      "default": 240.0
     },
-    "wdth": {
-      "name": "width",
-      "min": 25.0,
-      "max": 140.0,
-      "default": 100.0
+    "YTUC": {
+      "name": "y transparent uppercase",
+      "min": 550.0,
+      "max": 850.0,
+      "default": 750.0
+    },
+    "YTLC": {
+      "name": "y transparent lowercase",
+      "min": 445.0,
+      "max": 600.0,
+      "default": 500.0
     },
     "instances": []
   }
