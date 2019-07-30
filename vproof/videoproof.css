@@ -192,6 +192,36 @@ input[type=range][disabled] {
 }
 
 
+#select-glyphs label {
+	font-weight: normal;
+	font-size: smaller;
+}
+
+#select-glyphs ul {
+	margin: 0;
+}
+
+#select-glyphs li {
+	padding-left: 1em;
+	text-indent: 0;
+}
+
+#layout-specific-controls {
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+
+#layout-specific-controls > li {
+	margin: 0;
+	padding: 0;
+	text-indent: 0;
+}
+
+#layout-specific-controls > li + li {
+	margin-top: 1rem;
+}
+
 /* ANIMATIION */
 
 #animation-controls {
@@ -270,52 +300,70 @@ output#aniparams {
 }
 
 
-#keyframes-display {
+ul.sidebar-list {
 	white-space: nowrap;
 	overflow: auto;
 }
 
-#keyframes-display li {
+ul.sidebar-list li {
 	font-family: MomentumSansVariable !important;
 	font-size: 10px;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 }
 
-#keyframes-display li.current {
+
+ul.sidebar-list li.current {
 	color: red;
 	font-weight: bold;
 }
 
-#keyframes-display a {
+ul.sidebar-list a {
 	color: inherit;
 	cursor: pointer;
 	font-variation-settings: normal !important;
 }
 
-#keyframes-display a:hover {
+ul.sidebar-list a:hover {
 	color: red;
 }
 
 /* CONTENT */
 
-#mode-sections {
-	padding: 1rem;
-}
-
-#mode-sections > section {
-	display: none;
-}
-
-#mode-sections > section:first-child {
-	display: block;
-}
-
-#mode-sections figure {
-	width: 100%;
+#the-proof {
+/* 	width: 100%; */
 	max-width: none;
-	margin: 0;
+	margin: 1rem;
 }
 
-.variable-demo-target, #keyframes-display a {
+#the-proof.fixed-line-breaks {
+	word-break: break-all;
+	word-wrap: break-word;
+	overflow-wrap: break-word;
+	font-size: 36pt;
+	line-height: 1.5;
+	text-align: left;
+}
+
+#the-proof.fixed-line-breaks div, #the-proof.fixed-line-breaks span {
+	display: block;
+	white-space: nowrap;
+	word-break: normal;
+	word-wrap: normal;
+	overflow-wrap: normal;
+}
+
+#the-proof.fixed-line-breaks span {
+	display: inline-block;
+	min-width: 1em;
+/* 	font: inherit; */
+	text-align: left;
+}
+
+
+/* ANIMATION */
+
+#the-proof, #keyframes-display a {
 	animation-name: videoproof;
     animation-timing-function: linear;
     animation-iteration-count: 1;
@@ -326,6 +374,16 @@ output#aniparams {
     outline-width: 1px;
 }
 
-.paused .variable-demo-target, .paused #keyframes-display a {
-	animation-play-state: paused !important;
+.paused #the-proof, .paused #keyframes-display a {
+	animation-play-state: paused;
+}
+
+.moar #the-proof {
+	animation-name: moar;
+	animation-duration: 6s;
+	animation-iteration-count: infinite;
+}
+
+.moar #keyframes-display a {
+	animation-play-state: paused;
 }

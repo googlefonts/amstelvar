@@ -2,6 +2,7 @@
 	"use strict";
 
 	var temp;
+	var currentFont;
 	
 	function fvsToAxes(fvs) {
 		if (!fvs) {
@@ -47,7 +48,7 @@
 
 	function slidersToElement() {
 		var styleEl = $('#style-general');
-		var selector = '.variable-demo-target';
+		var selector = '#the-proof';
 		
 		var rules = [];
 		
@@ -69,9 +70,145 @@
 			+ selector + ' {\n\t' + rules.join(';\n\t') + ';\n}\n'
 		);
 	}
+
+	//find characters in the font that aren't in any of the defined glyph groups
+	function getMiscChars() {
+		var definedGlyphs = {};
+		Array.from(getKnownGlyphs()).forEach(function(c) {
+			definedGlyphs[c] = true;
+		});
+		var result = "";
+		if (!currentFont) {
+			return result;
+		}
+		Object.keys(currentFont.tables.cmap.glyphIndexMap).forEach(function(u) {
+			var c = String.fromCodePoint(u);
+			if (!(c in definedGlyphs)) {
+				result += c;
+			}
+		});
+		return result;
+	}
 	
-	function doGridSize() {
-		var grid = document.getElementById('proof-grid');
+	function getKnownGlyphs() {
+		var glyphset = '';
+		var addthing = function(thing) {
+			switch (typeof thing) {
+				case "string":
+					glyphset += thing;
+					break;
+				case "object":
+					$.each(thing, function(k, v) {
+						addthing(v);
+					});
+					break;
+			}
+		};
+		addthing(window.glyphsets);
+		return glyphset;
+	}
+	
+	function getAllGlyphs() {
+		return getKnownGlyphs() + getMiscChars();
+	}
+	
+	function getGlyphString() {
+		var input = document.querySelector('#select-glyphs input:checked');
+		var extended = document.getElementById('show-extended-glyphs').checked;
+
+		var glyphset = input.value;
+		if (extended && input.hasAttribute('data-extended')) {
+			glyphset += input.getAttribute('data-extended');
+		}
+		var glyphsort = glyphset === 'all-gid' ? 'gid' : 'group';
+
+		switch (glyphset) {
+			case 'all-gid':
+			case 'all-groups':
+				glyphset = getAllGlyphs();
+				break;
+			case 'misc':
+				glyphset = getMiscChars();
+				break;
+		}
+
+		if (!glyphset) {
+			glyphset = getAllGlyphs();
+		}
+
+		//and now sort them by the selected method
+		if (!currentFont) {
+			return glyphset;
+		}
+
+		var cmap = currentFont.tables.cmap.glyphIndexMap;
+		var unicodes = [];
+		var checkCmap = false;
+		switch (glyphsort) {
+			case 'gid': // sort by glyph ID
+				unicodes = Object.keys(cmap);
+				unicodes.sort(function(a, b) { return cmap[a] - cmap[b]; });
+				unicodes.forEach(function(u, i) {
+					unicodes[i] = String.fromCodePoint(u);
+				});
+				break;
+			case 'group': // sort by defined groups
+				unicodes = Array.from(glyphset);
+				checkCmap = true;
+				break;
+			default: // sort by unicode 
+				unicodes = Object.keys(cmap);
+				unicodes.sort(function(a, b) { return a-b; });
+				unicodes.forEach(function(u, i) {
+					unicodes[i] = String.fromCodePoint(u);
+				});
+				break;
+		}
+
+		var temp = [];
+		if (checkCmap) {
+			unicodes.forEach(function(c) {
+				if (c.codePointAt(0) in cmap) {
+					temp.push(c);
+				}
+			});
+			unicodes = temp;
+		}
+		
+		return unicodes.join('');
+	}
+	
+	function sizeToSpace() {
+		//shrink the font so it fits on the page
+		var winHeight = window.innerHeight - 96;
+		var gridHeight = theProof.getBoundingClientRect().height, fontsize = parseFloat(getComputedStyle(theProof).fontSize);
+
+		while (gridHeight < winHeight) {
+			fontsize *= 1.5;
+			theProof.style.fontSize = Math.floor(fontsize) + 'px';
+			gridHeight = theProof.getBoundingClientRect().height;
+			if (fontsize > 144) {
+				break;
+			}
+		}
+
+		while (gridHeight > winHeight) {
+			fontsize *= 0.9;
+			theProof.style.fontSize = Math.floor(fontsize) + 'px';
+			gridHeight = theProof.getBoundingClientRect().height;
+			if (fontsize < 24) {
+				break;
+			}
+		}
+		
+		return fontsize;
+	}
+	
+	function fixLineBreaks() {
+		var grid = document.querySelector('#the-proof.fixed-line-breaks');
+		if (!grid) {
+			return;
+		}
 		var axes = fontInfo[$('#select-font').val()].axes;
 
 		//disable the animation for a minute
@@ -93,28 +230,8 @@
 			fvs.opsz = axes.opsz.min;
 		}
 		grid.style.fontVariationSettings = axesToFVS(fvs);
-		
-		//shrink the font so it fits on the page
-		var winHeight = window.innerHeight - 96;
-		var gridHeight = grid.getBoundingClientRect().height, fontsize = parseFloat(getComputedStyle(grid).fontSize);
 
-		while (gridHeight < winHeight) {
-			fontsize *= 1.5;
-			grid.style.fontSize = Math.floor(fontsize) + 'px';
-			gridHeight = grid.getBoundingClientRect().height;
-			if (fontsize > 144) {
-				break;
-			}
-		}
-
-		while (gridHeight > winHeight) {
-			fontsize *= 0.9;
-			grid.style.fontSize = Math.floor(fontsize) + 'px';
-			gridHeight = grid.getBoundingClientRect().height;
-			if (fontsize < 24) {
-				break;
-			}
-		}
+		var fontsize = VideoProof.sizeToSpace();
 		
 		var lines = [], line = [], lastX = Infinity;
 		$.each(grid.childNodes, function(i, span) {
@@ -125,7 +242,7 @@
 			if (box.width > 0) {
 				if (!span.style.width) {
 					//hard-code the max width so it doesn't move around
-					span.style.width = (box.width / fontsize) + 'em';
+					span.style.width = (box.width / fontsize + 0.3) + 'em';
 				}
 				if (box.left < lastX) {
 					if (line && line.length) {
@@ -166,7 +283,11 @@
 		$.each(registeredAxes, function(index, axis) {
 			if (axis in font.axes) {
 				raxisPresent.push(axis);
-				axesMDM.push([font.axes[axis].default, font.axes[axis].min, font.axes[axis].max]);
+				if (axis === 'opsz') {
+					axesMDM.push([font.axes[axis].min, font.axes[axis].default, font.axes[axis].max]);
+				} else {
+					axesMDM.push([font.axes[axis].default, font.axes[axis].min, font.axes[axis].max]);
+				}
 			}
 		});
 
@@ -213,15 +334,15 @@
 		return fvsPerms;
 	}
 
-	var videoproofOutputInterval, videoproofActiveTarget, animationRunning = false;
+	var videoproofOutputInterval, theProof, animationRunning = false;
 	function animationUpdateOutput() {
 		var output = document.getElementById('aniparams');
 // 		var timestamp = $('label[for=animation-scrub]');
 // 		var scrub = $('#animation-scrub')[0];
-		var mode = $('#select-mode')[0];
+		var mode = $('#select-layout')[0];
 
-		var css = videoproofActiveTarget ? getComputedStyle(videoproofActiveTarget) : {};
-		var percent = animationRunning ? parseFloat(css.outlineOffset) : -parseFloat(css.animationDelay) / parseFloat(css.animationDuration) * 100;
+		var css = theProof ? getComputedStyle(theProof) : {};
+		//var percent = animationRunning ? parseFloat(css.outlineOffset) : -parseFloat(css.animationDelay) / parseFloat(css.animationDuration) * 100;
 		var axes = fvsToAxes(css.fontVariationSettings);
 		var outputAxes = [];
 		$.each(registeredAxes, function(i, axis) {
@@ -229,6 +350,9 @@
 				outputAxes.push(axis + ' ' + Math.floor(axes[axis]));
 			}
 		});
+		if (moarAxis) {
+			outputAxes.push(moarAxis + ' ' + Math.floor(axes[moarAxis]));
+		}
 		var bits = [
 			window.fontInfo[$('#select-font').val()].name,
 			mode.options[mode.selectedIndex].textContent,
@@ -238,21 +362,30 @@
 		output.textContent = bits.join(": ");
 // 		scrub.value = percent;
 // 		timestamp.text(Math.round(percent));
-		if (animationRunning && percent == 100) {
-			resetAnimation();
-		}
+		//if (animationRunning && percent == 100) {
+		//	resetAnimation();
+		//}
 	}
 
-	function startAnimation() {
-		//just in case it had been removed
-		updateAnimationParam('animation-name', null);
+	function startAnimation(anim) {
+		console.log('start', anim, Date.now());
+		if (anim === 'moar') {
+			$('html').addClass('moar');
+		} else {
+			$('html').removeClass('moar');
+			updateAnimationParam('animation-name', typeof anim === 'string' ? anim : null);
+			resetMoarAxes();
+		}
 		$('html').removeClass('paused');
-		videoproofOutputInterval = setInterval(animationUpdateOutput, 100);
+		if (!videoproofOutputInterval) {
+			videoproofOutputInterval = setInterval(animationUpdateOutput, 100);
+		}
 		animationRunning = true;
 		currentKeyframe = null;
 	}
 	
 	function stopAnimation() {
+		console.log('stop', Date.now());
 		animationRunning = false;
 		$('html').addClass('paused');
 		if (videoproofOutputInterval) {
@@ -263,7 +396,9 @@
 
 	var currentKeyframe;
 	function jumpToKeyframe(index) {
+		console.log('jump');
 		stopAnimation();
+		resetMoarAxes();
 		currentKeyframe = index;
 		var duration = parseFloat($('#animation-duration').val());
 		var ratio = index / currentKeyframes.length;
@@ -288,19 +423,20 @@
 	}
 
 	function setupAnimation() {
+		theProof = document.getElementById('the-proof');
 		$('#animation-controls button.play-pause').on('click', function() {
 			videoproofOutputInterval ? stopAnimation() : startAnimation();
 		});
 		
 		$('#animation-controls').find('button.back, button.forward').on('click', function() {
-			if (!videoproofActiveTarget || !currentKeyframes) {
+			if (!theProof || !currentKeyframes) {
 				return;
 			}			
 			var toIndex;
 			if (typeof currentKeyframe === 'number') {
 				toIndex = $(this).hasClass('back') ? currentKeyframe - 1 : currentKeyframe + 1;
 			} else {
-				var css = getComputedStyle(videoproofActiveTarget);
+				var css = getComputedStyle(theProof);
 				var percent = parseFloat(css.outlineOffset);
 				var exactIndex = percent / 100 * currentKeyframes.length;
 				//if we're already on an index, go to the next int
@@ -318,10 +454,10 @@
 		
 		$('#animation-controls button.beginning').on('click', resetAnimation);
 		$('#animation-controls button.end').on('click', function() {
-			if (!videoproofActiveTarget || !currentKeyframes) {
+			if (!theProof || !currentKeyframes) {
 				return;
 			}
-			fakeFrame(currentKeyframes.length - 1);
+			jumpToKeyframe(currentKeyframes.length - 1);
 		});
 		
 		$('#animation-duration').on('change input', function() {
@@ -332,7 +468,8 @@
 	}
 
 	var currentKeyframes;
-	function animationNameOnOff(callback) {
+	function animationNameOnOff() {
+		console.log('onoff');
 		updateAnimationParam('animation-name', 'none !important');
 		setTimeout(function() {
 			updateAnimationParam('animation-name', null);
@@ -347,14 +484,15 @@
 			$('head').append("<style class='" + k + "'></style>");
 			style = $('style.' + k);
 		}
-		if (v === null) {
+		if (v === '' || v === null) {
 			style.empty();
 		} else {
-			style.text('.variable-demo-target, #keyframes-display a { ' + k + ': ' + v + '; }');
+			style.text('#the-proof, #keyframes-display a { ' + k + ': ' + v + '; }');
 		}
 	}
 
 	function resetAnimation() {
+		console.log('reset');
 		stopAnimation();
 		
 		var keyframes = currentKeyframes = calculateKeyframes(fontInfo[$('#select-font').val()]);
@@ -395,8 +533,65 @@
 		animationNameOnOff();
 	}
 
+	var moarAxis = null;
+	var moarFresh = false;
+	function resetMoarAxes() {
+		if (moarFresh) { return; }
+
+		moarAxis = null;
+		moarFresh = true;
+
+		var style = document.getElementById('videoproof-moar-animation');
+		style.textContent = "";
+
+		var moar = document.getElementById('moar-axes-display');
+		moar.innerHTML = "";
+		
+		var fontname = $('#select-font').val();
+		fontInfo[fontname].axisOrder.forEach(function(axis) {
+			if (registeredAxes.indexOf(axis) >= 0) {
+				return;
+			}
+			var info = fontInfo[fontname].axes[axis];
+			var li = document.createElement('li');
+			var a = document.createElement('a');
+			a.textContent = axis + " " + info.min + " " + info['default'] + " " + info.max;
+			li.appendChild(a);
+			moar.appendChild(li);
+			a.addEventListener('click', function(evt) {
+				moarFresh = false;
+				evt.preventDefault();
+				
+				var fvs = fvsToAxes(getComputedStyle(theProof).fontVariationSettings);
+				var fvsBase = {};
+				registeredAxes.forEach(function(k) {
+					if (k in fvs) {
+						fvsBase[k] = fvs[k];
+					}
+				});
+				fvsBase = axesToFVS(fvsBase);
+
+				if (animationRunning && evt.target.parentNode.className === 'current') {
+					console.log('moarpause');
+					stopAnimation();
+				} else {
+					console.log('moarstart');
+					moarAxis = axis;
+					$(moar).find('.current').removeClass('current');
+					li.className = 'current';
+					var kf = {};
+					kf['default'] = 'font-variation-settings: ' + fvsBase + ', "' + axis + '" ' + info['default'];
+					kf['min'] = 'font-variation-settings: ' + fvsBase + ', "' + axis + '" ' + info['min'];
+					kf['max'] = 'font-variation-settings: ' + fvsBase + ', "' + axis + '" ' + info['max'];
+					style.textContent = "@keyframes moar { 0%, 100% { " + kf['default'] + "; } 33.333% { " + kf.min + "; } 66.666% { " + kf.max + "; } }";
+					startAnimation('moar');
+				}
+			});
+		});
+	}
 	
-	function handleFontChange(font) {
+	function handleFontChange() {
+		var fonturl = $(this).val();
 		var spectropts = {
 			'showInput': true,
 			'showAlpha': true,
@@ -416,8 +611,25 @@
 		$('#background').spectrum(spectropts);
 		
 		$('head style[id^="style-"]').empty().removeData();
+
+		if (window.fontInfo[fonturl] && window.fontInfo[fonturl].fontobj) {
+			window.font = currentFont = window.fontInfo[fonturl].fontobj;
+			$(document).trigger('videoproof:fontLoaded');
+		} else {
+			var url = 'fonts/' + fonturl + '.woff';
+			window.opentype.load(url, function (err, font) {
+				if (err) {
+					alert(err);
+					return;
+				}
+				window.font = window.fontInfo[fonturl].fontobj = currentFont = font;
+				$(document).trigger('videoproof:fontLoaded');
+			});
+		}
 		
+		slidersToElement();
 		resetAnimation();
+		resetMoarAxes();
 	}
 
 	function addCustomFont(fonttag, url, format, font) {
@@ -487,9 +699,61 @@
 			reader.readAsDataURL(blob);
 		});
 	}
-	
 
-	window.TNTools = {
+	var layouts = {};
+	function registerLayout(layout, options) {
+		layouts[layout] = options;
+	}
+
+	function handleLayoutChange() {
+		var layout = $('#select-layout').val();
+		var options = layouts[layout] || {};
+		var previousLayout = (theProof.className || '').replace(/ (fixed-line-breaks|size-to-space)/g, '');
+		var customControls = document.getElementById('layout-specific-controls');
+
+		if (previousLayout && previousLayout in layouts && 'deinit' in layouts[previousLayout]) {
+			layouts[previousLayout].deinit(theProof);
+		}
+		
+		theProof.className = layout;
+		theProof.removeAttribute('style');
+		customControls.innerHTML = "";
+		
+		if (options.fixedLineBreaks) {
+			theProof.className += ' fixed-line-breaks';
+		}
+		
+		if (options.sizeToSpace) {
+			theProof.className += ' size-to-space';
+		}
+
+		if (options.controls) {
+			$.each(options.controls, function(name, html) {
+				var li = document.createElement('li');
+				li.innerHTML = html;
+
+				var label = document.createElement('label');
+				label.textContent = name;
+
+				var input = li.querySelector('[id]');
+				if (input) {
+					label.for = input.id;
+				}
+
+				if (li.childNodes.length) {
+					li.insertBefore(document.createTextNode(' '), li.firstChild);
+					li.insertBefore(label, li.firstChild);
+					customControls.appendChild(li);
+				}
+			});
+		}
+
+		if (options.init) {
+			options.init(theProof);
+		}
+	}
+
+	window.VideoProof = {
 		'customFonts': {},
 		'clone': function(obj) { return JSON.parse(JSON.stringify(obj)); },
 		'slidersToElement': slidersToElement,
@@ -499,29 +763,24 @@
 		'addCustomFonts': addCustomFonts,
 		'addCustomFont': addCustomFont,
 		'resetAnimation': resetAnimation,
-		'doGridSize': doGridSize
+		'getMiscChars': getMiscChars,
+		'getKnownGlyphs': getKnownGlyphs,
+		'getAllGlyphs': getAllGlyphs,
+		'getGlyphString': getGlyphString,
+		'fixLineBreaks': fixLineBreaks,
+		'sizeToSpace': sizeToSpace,
+		'registerLayout': registerLayout
 	};
 	
 	//jquery overhead is sometimes causing window.load to fire before this! So use native events.
 	document.addEventListener('DOMContentLoaded', function() {
+		var theProof = document.getElementById('the-proof');
 		var controls = $('#controls');
 		$('head').append("<style id='style-general'></style>");
-		$('#mode-sections > sections').each(function() {
-			var styleid = 'style-' + this.id;
-			if ($('#' + styleid).length === 0) {
-				$('head').append("<style id='" + styleid + "'></style>");
-			}
-		});
 
-		$('#select-mode').on('change', function(evt) {
-			var newActiveSection = $('#mode-sections > #' + this.value);
-			$('#mode-sections > section').hide();
-			newActiveSection.show();
-			videoproofActiveTarget = newActiveSection.find('.variable-demo-target').get(0);
-		});
-
-		$('#select-font').on('change', TNTools.handleFontChange);
-		$('#foreground, #background').on('move.spectrum change.spectrum hide.spectrum', function() { TNTools.slidersToElement(); });
+		$('#select-layout').on('change', handleLayoutChange);
+		$('#select-font').on('change', VideoProof.handleFontChange);
+		$('#foreground, #background').on('move.spectrum change.spectrum hide.spectrum', function() { VideoProof.slidersToElement(); });
 
 		$('#add-your-own-button').on('click', function(evt) {
 			$('#custom-fonts')[0].click();
@@ -596,14 +855,24 @@
 		}, 100);
 			
 		setupAnimation();
-		$('#select-mode').trigger('change');
+		$('#select-layout').trigger('change');
 		$('#select-font').trigger('change');
+
+		var theProof = $('#the-proof');
+		function realResize() {
+			if (theProof.hasClass('fixed-line-breaks')) {
+				VideoProof.fixLineBreaks();
+			} else if (theProof.hasClass('size-to-space')) {
+				VideoProof.sizeToSpace();
+			}
+		}
+
 		var resizeTimeout;
 		$(window).on('resize', function() {
 			if (resizeTimeout) {
 				clearTimeout(resizeTimeout);
 			}
-			resizeTimeout = setTimeout(TNTools.doGridSize, 500);
-		}).trigger('resize');
+			resizeTimeout = setTimeout(realResize, 500);
+		});
 	});
 })();

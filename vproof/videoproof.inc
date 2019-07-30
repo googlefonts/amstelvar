@@ -6,112 +6,54 @@ class VideoProof {
 	
 	private $tools = array(
 // 		'typespec' => "Ramp", 
-		'proof' => "Array",
+		'grid' => "Array",
 // 		'waterfall' => "Waterfall",
 //		'grid' => "Grid",
-		'logopogo' => "Input", 
+		'type-your-own' => "Input", 
+		'contextual' => "Contextual",
 	);
 	
-	private $registeredAxes = array('opsz', 'wdth', 'wght', 'ital', 'slnt', 'grad', 'GRAD');
+	private $registeredAxes = array('opsz', 'wdth', 'wght'); //, 'ital', 'slnt', 'grad', 'GRAD');
 	
-	private $glyphsets = array(
-		'Latin Uppercase' => [
-			'default' => 'ABCDEFGHIJKLMNOPQRSTUVWXYZ&',
-			'extended' => 'ÀÁÂÃÄÅĀĂǺȀȂẠẢẤẦẨẪẬẮẰẲẴẶĄÆǼÇĆĈĊČĎÐĐǄÈÉÊËĒĔĖĘĚȄȆẸẺẼẾỀỂỄỆƏÞĜĞĠĢǦĤĦÌÍÎÏĨĪĬĮİȈȊỈỊĲĴĶĹĻĽĿŁǇÑŃŅŇŊǊÒÓÔÕÖŌŎŐƠǪȌȎȪȬȰỌỎỐỒỔỖỘỚỜỞỠỢØǾŒÙÚÛÜŔŖŘȐȒŚŜŞŠȘẞŢŤȚŦŨŪŬŮŰŲƯȔȖỤỦỨỪỬỮỰŴẀẂẄÝŶŸȲỲỴỶỸŹŻŽ', // /IJacute
-			'mixed case' => 'ǅǈǋǉ',
-
-/*
-			'A' => 'ÀÁÂÃÄÅĀĂǺȀȂẠẢẤẦẨẪẬẮẰẲẴẶÆǼ',
-			'C' => 'ÇĆĈĊČ',
-			'D' => 'ĎÐĐǄǅ',
-			'E' => 'ÈÉÊËĒĔĖĘĚȄȆẸẺẼẾỀỂỄỆÆǼŒ',
-			'G' => 'ĜĞĠĢǦ',
-			'H' => 'ĤĦ',
-			'I' => ' ÌÍÎÏĨĪĬĮİȈȊỈỊĲǉǇǊ', // /IJacute 
-			'J' => 'ĴĲ', // /IJacute
-			'K' => 'Ķ',
-			'L' => 'ĹĻĽĿŁǇǈ',
-			'N' => 'ÑŃŅŇŊǊǋ',
-			'O' => 'ÒÓÔÕÖŌŎŐƠǪȌȎȪȬȰỌỎỐỒỔỖỘỚỜỞỠỢØǾŒ',
-			'P' => 'Þ',
-			'R' => 'ŔŖŘȐȒ',
-			'S' => 'ŚŜŞŠȘẞ',
-			'T' => 'ŢŤȚŦ',
-			'U' => 'ÙÚÛÜŨŪŬŮŰŲƯȔȖỤỦỨỪỬỮỰ',
-			'W' => 'ŴẀẂẄ',
-			'Y' => 'ÝŶŸȲỲỴỶỸ',
-			'Z' => 'ŹŻŽǄ',
-*/
-		],
-		'Latin Lowercase' => [
-			'default' => 'abcdefghijklmnopqrstuvwxyz',
-			'extended' => 'àáâãäåāăąǻȁȃạảấầẩẫậắằẳẵặæǽçćĉċčďđǆèéêëēĕėęěȅȇẹẻẽếềểễệəþﬀﬁﬂﬃﬄĝğġģǧĥħıĩīĭįȉȋỉịìíîïĳȷĵķĸĺļľŀłðñńņňŉŋǌòóôõöōŏőơǫȍȏȫȭȱọỏốồổỗộớờởỡợøǿœŕŗřȑȓśŝşšșßţťțŧùúûüũūŭůűųưȕȗụủứừửữựŵẁẃẅýÿŷȳỳỵỷỹźżž', // /f_f_ij /f_ij /idotaccent /ijacute
-			'superiors' => 'ªº',
-			
-/*
-			'a' => 'àáâãäåāăąǻȁȃạảấầẩẫậắằẳẵặæǽ',
-			'c' => 'çćĉċč',
-			'd' => 'ďđǆð',
-			'e' => 'èéêëēĕėęěȅȇẹẻẽếềểễệəæǽœ',
-			'f' => 'ﬀﬁﬂﬃﬄ', // /f_f_ij /f_ij ',
-			'g' => 'ĝğġģǧ',
-			'h' => 'ĥħ',
-			'i' => 'ıĩīĭįȉȋỉịìíîïĳﬁﬃ', // /idotaccent /ijacute /f_ij /f_f_ij',
-			'j' => 'ȷĵǉĳǌǈ', ///f_ij  /f_f_ij
-			'k' => 'ķĸ',
-			'l' => 'ĺļľŀłﬂﬄ',
-			'n' => 'ñńņňŉŋǌ',
-			'o' => 'òóôõöōŏőơǫȍȏȫȭȱọỏốồổỗộớờởỡợøǿœ',
-			'p' => 'þ',
-			'r' => 'ŕŗřȑȓ',
-			's' => 'śŝşšșß',
-			't' => 'ţťțŧ',
-			'u' => 'ùúûüũūŭůűųưȕȗụủứừửữự',
-			'w' => 'ŵẁẃẅ',
-			'y' => 'ýÿŷȳỳỵỷỹ',
-			'z' => 'źżžǅ',
-*/
-		],
-		'Figures' => [
-			'default' => '0123456789',
-
-			'extended' => '⁰¹²³⁴⁵⁶⁷⁸⁹⅛⅙⅕¼⅓⅜⅖½⅗⅔⅝¾⅘⅚⅞%‰',
-		],
-		'Monetary' => [
-			'default' => '$¢£¥',
-			'extended' => '₡₣₤₦₧₩₫€ƒ₭₱₲₵₹₺₼₽¤',
-		],
-		'Symbols' => [
-			'Latin punctuation' => ',-.:;…∙·!¡?¿–—―‐',
-			'Latin reference' => '*§¶†‡•',
-			'Latin quotation' => '"\'“”‚„‹›«»′″',
-			'Latin parenthetical' => '()[]{}',
-			'Latin math' => '+÷×−±<>≤≥≈≠=^~¬∕­/',
-			'Latin commercial' => '®©™#@⁒ʹʺ/\¦|_№⟨⟩µ⁄',
-		],
-		'Accents' => [
-			'Latin encoded' => '`¨¯°´ˆˇ˘˙˚˛˜˝‘’¸ʼ',
-			'Latin combining' => 'ˉ̧̨̛̣̤̦̮̱̀́̂̃̄̆̇̈̉̊̋̌̏̑',
-		],
-	);
+	private $glyphsets;
 	
+	public static function requireLogin($user, $password) {
+		if (!isset($_SERVER['PHP_AUTH_USER']) || $_SERVER['PHP_AUTH_USER'] !== $user || $_SERVER['PHP_AUTH_PW'] !== $password) {
+			header('HTTP/1.1 401 Unauthorized');
+			header('WWW-Authenticate: Basic realm="TN Video Proof"');
+			echo 'Varfontnügen';
+			exit;
+		}	
+	}
+
 	function __construct() {
+		$this->glyphsets = yaml_parse_file(__DIR__ . '/glyph-groups.yaml');
 		$this->axesFile = __DIR__ . "/fonts/axes.json";
 		if (!file_exists($this->axesFile)) {
-    		$this->axesFile = __DIR__ . "/fonts/example-axes.json";
+			$this->axesFile = __DIR__ . "/fonts/example-axes.json";
 		}
 		
 		$this->fontinfo = json_decode(file_get_contents($this->axesFile));
 		$this->fontinfo = get_object_vars($this->fontinfo);
 		ksort($this->fontinfo);
 			
+		$specific_font = false;
+		if (isset($_SERVER['HTTP_HOST']) and preg_match('/^(.+)-videoproof\./', $_SERVER['HTTP_HOST'], $matches)) {
+			$specific_font = strtolower($matches[1]);
+		}
+		
 		foreach ($this->fontinfo as $filebase => $axes) {
-/*
+			if ($specific_font) {
+				if (strpos(strtolower($filebase), $specific_font) !== 0) {
+					unset($this->fontinfo[$filebase]);
+					continue;
+				}
+			}
+			
 			if (!isset($axes->wght) || !isset($axes->wdth)) {
 				unset($this->fontinfo[$filebase]);
 				continue;
 			}
-*/
 	
 			#take off dev stuff from the end of the filename
 			//$fontname = preg_replace('/(?:[Vv]\d+|[Aa]lpha|[Bb]eta)?-VF$/', '', $filebase);
@@ -180,87 +122,33 @@ class VideoProof {
 		}
 	}
 
-	public function pageHead($title) {
-	?>
-<!DOCTYPE html>
-<html lang="en" id="videoproof">
-	<head>
-		<meta charset="utf-8">
-		<title><?= $title ?></title>
-		<meta name="viewport" content="initial-scale=1,shrink-to-fit=no">
-		<link rel="stylesheet" href="https://www.typenetwork.com/assets_content/css/reset.css">
-		<link rel="stylesheet" href="https://www.typenetwork.com/assets_content/css/adobe-blank.css">
-		<link rel="stylesheet" href="https://www.typenetwork.com/assets_content/css/fonts-momentum-sans.css">
-		<link rel="stylesheet" href="https://www.typenetwork.com/assets_content/css/style.css">
-		<link rel="icon" type="image/png" href="./favicon-32x32.png" sizes="32x32">
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-		<script src="./opentype.js/dist/opentype.min.js"></script>
-		<script src="./spectrum/spectrum.js"></script>
-		<link rel="stylesheet" href="./spectrum/spectrum.css">
+	public function pageHead() {
+		foreach ($this->fontinfo as $filebase => $info) {
+			print <<<EOD
+			<style>
+				@font-face {
+					font-family: "$filebase-VP";
+					src: url("./fonts/$filebase.woff") format("woff");
+					font-weight: 100 900;
+				}
+			</style>
+EOD;
+		}
 
-		<style id='videoproof-keyframes'></style>
-		
-		<style>
-<?php foreach ($this->fontinfo as $filebase => $info): ?>
-			@font-face {
-				font-family: "<?= $filebase ?>-VP";
-				src: url("./fonts/<?= $filebase ?>.woff") format("woff");
-				font-weight: 100 900;
-			}
-<?php endforeach; ?>
-		</style>
-		<link rel="stylesheet" href="videoproof.css">
-		<link rel="stylesheet" href="form-controls.css">
-<?php foreach ($this->tools as $tool => $name): ?>
-		<link rel="stylesheet" href="<?= $tool ?>/<?= $tool ?>.css">
-<?php endforeach; ?>
-		<script>
-			var fontInfo = <?= json_encode($this->fontinfo) ?>;
-			var registeredAxes = <?= json_encode($this->registeredAxes) ?>;
-			var glyphsets = <?= json_encode($this->glyphsets) ?>;
-		</script>
-		<script src="https://www.typenetwork.com/assets_content/js/functions.js"></script>
-		<script src="videoproof.js"></script>
-<?php foreach ($this->tools as $tool => $name): ?>
-		<script src="<?= $tool ?>/<?= $tool ?>.js"></script>
-<?php endforeach; ?>
-	</head>
-	<body>
-		<div class="wrapper">
-			<header class="header-global">
-				<h1><a href="https://www.typenetwork.com/">Type Network</a></h1>
-			</header>
-		
-			<nav class="nav-global">
-				<a class="nav-global-reveal" href="#">Menu</a>
-				<ul>
-<!--
-					<li><a class="nav-home-link" href="https://www.typenetwork.com/">Home</a></li>
-					<li><a href="http://store.typenetwork.com">Fonts</a></li>
-					<li><a href="https://www.typenetwork.com/news" >News</a></li>
-					<li><a href="https://www.typenetwork.com/gallery" >Gallery</a></li>
--->
-				</ul>
-			</nav>
-			
-			<nav class="nav-user">
-				<a class="nav-user-reveal" href="#">Menu</a>
-				<ul>
-<!--
-					<li><a href="http://store.typenetwork.com/account/licenses" class="nav-user-account"></a></li>
-					<li><a href="http://store.typenetwork.com/account/favorites" class="nav-user-favorites"></a></li>
-					<li><a href="http://store.typenetwork.com/cart" class="nav-user-cart"></a></li>
--->
-				</ul>
-			</nav>
-			
-			<?= $this->pageSidebar() ?>
-			
-			<div class="content-main">
-				<a class="content-options-show-filters" href="#">Sidebar</a>
-				<output id='aniparams'>This animation will eat your CPU alive (depending on browser), so it doesn’t auto-start. Ready? <span id='first-play'>▶️</span></output>
+		foreach ($this->tools as $tool => $name) {
+			print "<link rel='stylesheet' href='layouts/$tool.css'>\n";
+		}
 
-<?php
+		print "<script>\n";
+		print "var fontInfo = " . json_encode($this->fontinfo) . ";\n";
+		print "var registeredAxes = " . json_encode($this->registeredAxes) . ";\n";
+		print "var glyphsets = " . json_encode($this->glyphsets, JSON_UNESCAPED_UNICODE) . ";\n";
+		print "</script>\n";
+		
+		foreach ($this->tools as $tool => $name) {
+			print "<script src='layouts/$tool.js'></script>\n";
+		}
+
 		return "";
 	}
 
@@ -273,6 +161,9 @@ class VideoProof {
 					<?= $this->selectFont() ?>
 					<?= $this->selectGlyphGroup(); ?>
 					<?= $this->selectMode() ?>
+
+					<ul id='layout-specific-controls'>
+					</ul>
 
 					<div id='alignment-color'>
 						<label for='foreground'>Foreground</label>
@@ -293,40 +184,11 @@ class VideoProof {
 		return "";
 	}
 	
-	public function pageSections() {
-		print "<div id='mode-sections'>";
-		foreach ($this->tools as $tool => $name) {
-			print "<section id='$tool'>";
-			include("$tool/$tool.php");
-			print "</section>";
-		}
-		print "</div>";
-		return "";
-	}
-	
-	public function pageFoot() {
-?>
-				<footer class="footer-global">
-					<ul>
-						<li><a href="//www.typenetwork.com/about">About Type Network</a></li>
-						<li><a href="//www.typenetwork.com/about#subscribe">Subscribe to the Newsletter</a></li>
-						<li><a href="//www.typenetwork.com/support">Help and Support</a></li>
-					</ul>
-					<p>&copy; Type Network <?= date("Y") ?>. All rights reserved.</p>
-				</footer>
-			</div> <!-- content-main -->
-		</div> <!-- wrapper -->
-	</body>
-</html>
-<?php
-		return "";
-	}
-	
 	public function selectMode() {
 	?>
 		<div>
-			<h3 class="inline"><label for="select-mode">Layout:</label></h3>
-			<select name="mode" id='select-mode'>
+			<h3 class="inline"><label for="select-layout">Layout:</label></h3>
+			<select name="mode" id='select-layout'>
 <?php foreach ($this->tools as $tool => $name): ?>
 				<option value="<?= $tool ?>"><?= $name ?></option>
 <?php endforeach ?>
@@ -375,35 +237,59 @@ class VideoProof {
 		print <<<EOD
 		<div>
 			<h3 class="inline"><label for="select-glyphs">Glyphs:</label></h3>
-			<select name="glyphs" id='select-glyphs'>
-				<option value='all-gid'>All by GlyphID</option>
-				<option value='all-groups'>All by group</option>
+			<ul id='select-glyphs'>
+				<li><label><input type='radio' name='glyph-group' value='all-gid' checked> All by GlyphID</label></li>
+				<li><label><input type='radio' name='glyph-group' value='all-groups'> All by group</label></li>
 EOD;
 
-		foreach ($this->glyphsets as $group => $sets) {
-			if (is_array($sets)) {
-				if (isset($sets['default'])) {
-					print "<option value=\"$group\">$group</option>";
+print "<!-- ";
+var_dump($this->glyphsets);
+print " -->";
+
+		$showgroup = function($name, $group, $extended='') use (&$showgroup) {
+			if ($name[0] === '_') {
+				return;
+			}
+			print "<li>";
+			if (is_array($group)) {
+				if (isset($group['_default']) and isset($group['_extended'])) {
+					$showgroup($name, $group['_default'], $group['_extended']);
 				} else {
-					print "<optgroup label=\"$group\">";
-					foreach ($sets as $k => $glyphset) {
-						print "<option value=\"$group::$k\">$k</option>";
+					print "<strong>{$name}</strong>";
+					foreach ($group as $nn => $gg) {
+						print "<ul>";
+						$showgroup($nn, $gg);
+						print "</ul>";
 					}
-					if (count($sets) > 1) {
-						print "<option value=\"$group::concat\">All $group</option>";
-					}
-					print "</optgroup>";
 				}
 			} else {
-				print "<option value=\"$group\">$group</option>";
+				print '<label><input type="radio" name="glyph-group" value="' . htmlspecialchars($group) . '"';
+				if (!is_string($extended)) {
+					$extended = "";
+				}
+
+				for ($i=0, $l=mb_strlen($group); $i < $l; $i++) {
+					$c = mb_substr($group, $i, 1);
+					if (isset($this->glyphsets['_extended'][$c])) {
+						$extended .= $this->glyphsets['_extended'][$c];
+					}
+				}
+
+				if ($extended) {
+					print ' data-extended="' . htmlspecialchars($extended) . '"';
+				}
+				print "> $name</label>";
 			}
+			print "</li>";
+		};
+
+		foreach ($this->glyphsets as $n => $g) {
+			$showgroup($n, $g);
 		}
 		
 		print <<<EOD
-				<optgroup label="Miscellaneous">
-					<option value="misc">None of the above</option>
-				</optgroup>
-			</select>
+				<li><label><input type='radio' name='glyph-group' value='misc'> None of the above</label></li>
+			</ul>
 			<label for='show-extended-glyphs'><input id='show-extended-glyphs' type='checkbox' name='extended'> Show Extended</label>
 		</div>
 EOD;
@@ -418,12 +304,18 @@ EOD;
 			<button type='button' class='play-pause' title="Play/Pause">⏯</button>
 			<button type='button' class='forward' title="Next keyframe">⏩</button>
 			<button type='button' class='end' title="Go to end">⏭</button>
+<!--
 			<input type='range' min="0" max="100" step="0.1" id='animation-scrub' value='0'>
 			<label for='animation-scrub'>0</label>
+-->
 		</div>
 		
 		<label>Keyframes</label>
-		<ul id='keyframes-display'>
+		<ul id='keyframes-display' class='sidebar-list'>
+		</ul>
+		
+		<label>But wait, there’s more</label>
+		<ul id='moar-axes-display' class='sidebar-list'>
 		</ul>
 		
 		<label for='animation-duration'>Full cycle</label>
@@ -461,9 +353,9 @@ EOD;
 		<ul>
 			<!-- <p><a id="bookmark" href="?">Bookmark these settings</a></p> -->
 <!-- 			<li><a href="/" id='reset'>Reset to font defaults</a></li> -->
-			<?php if (!empty($_SERVER['DOCUMENT_ROOT'])): ?>
-			<li><a href='updatefonts.php' id='grab-new-fonts' title='Last updated <?= $this->lastFontUpdate() ?>'>Grab latest font files</a></li>
-			<?php endif; ?>
+			<?php /* don't print this if not PHP */
+				print "<li><a href='updatefonts.php' id='grab-new-fonts' title='Last updated " . $this->lastFontUpdate() . "'>Grab latest font files</a></li>";
+			?>
 		</ul>
 	<?php
 		return "";
