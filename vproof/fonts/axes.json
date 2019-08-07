@@ -153,7 +153,8 @@
     "order": [
       "wght",
       "opsz",
-      "wdth"
+      "wdth",
+      "YOPQ"
     ],
     "wght": {
       "name": "weight",
@@ -172,6 +173,12 @@
       "min": 25.0,
       "max": 140.0,
       "default": 100.0
+    },
+    "YOPQ": {
+      "name": "YOPQ",
+      "min": 14.0,
+      "max": 125.0,
+      "default": 54.0
     },
     "instances": []
   },
@@ -254,7 +261,8 @@
     "order": [
       "wght",
       "opsz",
-      "wdth"
+      "wdth",
+      "YOPQ"
     ],
     "wght": {
       "name": "weight",
@@ -273,6 +281,12 @@
       "min": 25.0,
       "max": 140.0,
       "default": 100.0
+    },
+    "YOPQ": {
+      "name": "YOPQ",
+      "min": 14.0,
+      "max": 125.0,
+      "default": 54.0
     },
     "instances": []
   },
