@@ -124,6 +124,8 @@ italics = [
 	"sources/Amstelvar-NewCharset/Italic/Amstelvar-Italic-wdthmin.ufo",
 	"sources/Amstelvar-NewCharset/Italic/Amstelvar-Italic-wghtmin.ufo",
 	"sources/Amstelvar-NewCharset/Italic/Amstelvar-Italic-wghtmax.ufo",
+	"sources/Amstelvar-NewCharset/Italic/Amstelvar-Italic-YOPQmin.ufo",
+	"sources/Amstelvar-NewCharset/Italic/Amstelvar-Italic-YOPQmax.ufo",
 
 ]
 
@@ -135,7 +137,7 @@ project.run_from_ufos(
 	reverse_direction=False, 
 	use_production_names=False)
 
-designSpace = "sources/Amstelvar-NewCharset/Amstelvar-Italic-002.designspace"
+designSpace = "sources/Amstelvar-NewCharset/Amstelvar-Italic-003.designspace"
 
 
 
