@@ -20,6 +20,10 @@
     </dict>
     <key>F</key>
     <dict>
+      <key>acircumflexgrave</key>
+      <integer>0</integer>
+      <key>ecircumflexgrave</key>
+      <integer>0</integer>
       <key>imacron</key>
       <integer>0</integer>
     </dict>
@@ -77,6 +81,8 @@
       <integer>0</integer>
       <key>ecaron</key>
       <integer>0</integer>
+      <key>ecircumflexgrave</key>
+      <integer>0</integer>
       <key>ecircumflextilde</key>
       <integer>0</integer>
       <key>edieresis</key>
@@ -95,9 +101,13 @@
       <integer>0</integer>
       <key>imacron</key>
       <integer>0</integer>
+      <key>ocircumflexgrave</key>
+      <integer>0</integer>
       <key>odieresis</key>
       <integer>0</integer>
       <key>ograve</key>
+      <integer>0</integer>
+      <key>ohorntilde</key>
       <integer>0</integer>
       <key>ohungarumlaut</key>
       <integer>0</integer>
@@ -106,6 +116,13 @@
       <key>scaron</key>
       <integer>0</integer>
       <key>zcaron</key>
+      <integer>0</integer>
+    </dict>
+    <key>acircumflexhookabove</key>
+    <dict>
+      <key>public.kern2.b</key>
+      <integer>0</integer>
+      <key>public.kern2.straight_left_asc</key>
       <integer>0</integer>
     </dict>
     <key>aogonek</key>
@@ -120,6 +137,13 @@
     <key>comma</key>
     <dict>
       <key>public.kern2.y</key>
+      <integer>0</integer>
+    </dict>
+    <key>ecircumflexhookabove</key>
+    <dict>
+      <key>public.kern2.b</key>
+      <integer>0</integer>
+      <key>public.kern2.straight_left_asc</key>
       <integer>0</integer>
     </dict>
     <key>eogonek</key>
@@ -183,6 +207,11 @@
     <key>nine.lf</key>
     <dict>
       <key>less</key>
+      <integer>0</integer>
+    </dict>
+    <key>ocircumflexhookabove</key>
+    <dict>
+      <key>public.kern2.b</key>
       <integer>0</integer>
     </dict>
     <key>one.lf</key>
@@ -254,6 +283,8 @@
       <integer>0</integer>
       <key>imacron</key>
       <integer>0</integer>
+      <key>ocircumflexgrave</key>
+      <integer>0</integer>
       <key>odieresis</key>
       <integer>0</integer>
       <key>ohorntilde</key>
@@ -279,6 +310,8 @@
       <integer>0</integer>
       <key>acircumflexdotbelow</key>
       <integer>0</integer>
+      <key>acircumflexgrave</key>
+      <integer>0</integer>
       <key>acircumflextilde</key>
       <integer>0</integer>
       <key>adieresis</key>
@@ -286,6 +319,8 @@
       <key>agrave</key>
       <integer>0</integer>
       <key>ahookabove</key>
+      <integer>0</integer>
+      <key>ecircumflexgrave</key>
       <integer>0</integer>
       <key>ecircumflextilde</key>
       <integer>0</integer>
@@ -297,7 +332,11 @@
       <integer>0</integer>
       <key>ihookabove</key>
       <integer>0</integer>
+      <key>ocircumflexgrave</key>
+      <integer>0</integer>
       <key>odieresis</key>
+      <integer>0</integer>
+      <key>ohorntilde</key>
       <integer>0</integer>
     </dict>
     <key>public.kern1.Y</key>
@@ -314,6 +353,8 @@
       <integer>0</integer>
       <key>acircumflexacute</key>
       <integer>0</integer>
+      <key>acircumflexgrave</key>
+      <integer>0</integer>
       <key>acircumflextilde</key>
       <integer>0</integer>
       <key>adieresis</key>
@@ -324,9 +365,17 @@
       <integer>0</integer>
       <key>aring</key>
       <integer>0</integer>
+      <key>ecircumflexgrave</key>
+      <integer>0</integer>
       <key>ecircumflextilde</key>
       <integer>0</integer>
+      <key>etilde</key>
+      <integer>0</integer>
       <key>ihookabove</key>
+      <integer>0</integer>
+      <key>ocircumflexgrave</key>
+      <integer>0</integer>
+      <key>ohorntilde</key>
       <integer>0</integer>
       <key>rcaron</key>
       <integer>0</integer>
