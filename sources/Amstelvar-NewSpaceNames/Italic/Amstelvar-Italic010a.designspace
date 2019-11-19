@@ -1,0 +1,147 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<designspace format="4.0">
+  <axes>
+    <axis tag="wght" name="weight" minimum="100" maximum="900" default="400"/>
+    <axis tag="wdth" name="width" minimum="50" maximum="125" default="100"/>
+    <axis tag="opsz" name="optical size" minimum="8" maximum="144" default="14"/>
+    <axis tag="GRAD" name="grade" minimum="-1" maximum="1" default="0"/>
+    <axis tag="YOPQ" name="ystems" minimum="-1" maximum="1" default="0"/>
+  </axes>
+  <sources>
+    <source filename="Amstelvar-Italic-GRAD-1.ufo" familyname="Amstelvar" stylename="Italic-GRAD-1">
+      <location>
+        <dimension name="weight" xvalue="400"/>
+        <dimension name="width" xvalue="100"/>
+        <dimension name="optical size" xvalue="14"/>
+        <dimension name="grade" xvalue="1"/>
+        <dimension name="ystems" xvalue="0"/>
+      </location>
+    </source>
+    <source filename="Amstelvar-Italic-GRAD1.ufo" familyname="Amstelvar" stylename="Italic-GRAD1">
+      <location>
+        <dimension name="weight" xvalue="400"/>
+        <dimension name="width" xvalue="100"/>
+        <dimension name="optical size" xvalue="14"/>
+        <dimension name="grade" xvalue="-1"/>
+        <dimension name="ystems" xvalue="0"/>
+      </location>
+    </source>
+    <source filename="Amstelvar-Italic-opsz144.ufo" familyname="Amstelvar" stylename="Italic-opsz144">
+      <location>
+        <dimension name="weight" xvalue="400"/>
+        <dimension name="width" xvalue="100"/>
+        <dimension name="optical size" xvalue="144"/>
+        <dimension name="grade" xvalue="0"/>
+        <dimension name="ystems" xvalue="0"/>
+      </location>
+    </source>
+    <source filename="Amstelvar-Italic-opsz8.ufo" familyname="Amstelvar" stylename="Italic-opsz8">
+      <location>
+        <dimension name="weight" xvalue="400"/>
+        <dimension name="width" xvalue="100"/>
+        <dimension name="optical size" xvalue="8"/>
+        <dimension name="grade" xvalue="0"/>
+        <dimension name="ystems" xvalue="0"/>
+      </location>
+    </source>
+    <source filename="Amstelvar-Italic-wdth125.ufo" familyname="Amstelvar" stylename="Italic-wdth125">
+      <location>
+        <dimension name="weight" xvalue="400"/>
+        <dimension name="width" xvalue="125"/>
+        <dimension name="optical size" xvalue="14"/>
+        <dimension name="grade" xvalue="0"/>
+        <dimension name="ystems" xvalue="0"/>
+      </location>
+    </source>
+    <source filename="Amstelvar-Italic-wdth50.ufo" familyname="Amstelvar" stylename="Italic-wdth50">
+      <location>
+        <dimension name="weight" xvalue="400"/>
+        <dimension name="width" xvalue="50"/>
+        <dimension name="optical size" xvalue="14"/>
+        <dimension name="grade" xvalue="0"/>
+        <dimension name="ystems" xvalue="0"/>
+      </location>
+    </source>
+    <source filename="Amstelvar-Italic-wght100.ufo" familyname="Amstelvar" stylename="Italic-wght100">
+      <location>
+        <dimension name="weight" xvalue="100"/>
+        <dimension name="width" xvalue="100"/>
+        <dimension name="optical size" xvalue="14"/>
+        <dimension name="grade" xvalue="0"/>
+        <dimension name="ystems" xvalue="0"/>
+      </location>
+    </source>
+    <source filename="Amstelvar-Italic-wght900.ufo" familyname="Amstelvar Italic" stylename="Italic-wght900">
+      <location>
+        <dimension name="weight" xvalue="900"/>
+        <dimension name="width" xvalue="100"/>
+        <dimension name="optical size" xvalue="14"/>
+        <dimension name="grade" xvalue="0"/>
+        <dimension name="ystems" xvalue="0"/>
+      </location>
+    </source>
+    <source filename="Amstelvar-Italic.ufo" familyname="Amstelvar" stylename="Italic">
+      <location>
+        <dimension name="weight" xvalue="400"/>
+        <dimension name="width" xvalue="100"/>
+        <dimension name="optical size" xvalue="14"/>
+        <dimension name="grade" xvalue="0"/>
+        <dimension name="ystems" xvalue="0"/>
+      </location>
+    </source>
+    <source filename="Amstelvar-Italic-YOPQmax.ufo" familyname="Amstelvar" stylename="Italic-YOPQmax">
+      <location>
+        <dimension name="weight" xvalue="400"/>
+        <dimension name="width" xvalue="100"/>
+        <dimension name="optical size" xvalue="14"/>
+        <dimension name="grade" xvalue="0"/>
+        <dimension name="ystems" xvalue="1"/>
+      </location>
+    </source>
+    <source filename="Amstelvar-Italic-YOPQmin.ufo" familyname="Amstelvar" stylename="Italic-YOPQmin">
+      <location>
+        <dimension name="weight" xvalue="400"/>
+        <dimension name="width" xvalue="100"/>
+        <dimension name="optical size" xvalue="14"/>
+        <dimension name="grade" xvalue="0"/>
+        <dimension name="ystems" xvalue="-1"/>
+      </location>
+    </source>
+    <source filename="Amstelvar-Italic-opsz144-wght100.ufo" familyname="Amstelvar" stylename="Italic-opsz144-wght100">
+      <location>
+        <dimension name="weight" xvalue="100"/>
+        <dimension name="width" xvalue="100"/>
+        <dimension name="optical size" xvalue="144"/>
+        <dimension name="grade" xvalue="0"/>
+        <dimension name="ystems" xvalue="0"/>
+      </location>
+    </source>
+    <source filename="Amstelvar-Italic-opsz36.ufo" familyname="Amstelvar" stylename="Italic-opsz36">
+      <location>
+        <dimension name="weight" xvalue="400"/>
+        <dimension name="width" xvalue="100"/>
+        <dimension name="optical size" xvalue="36"/>
+        <dimension name="grade" xvalue="0"/>
+        <dimension name="ystems" xvalue="0"/>
+      </location>
+    </source>
+    <source filename="Amstelvar-Italic-opsz84-wght100.ufo" familyname="Amstelvar" stylename="Italic-opsz84-wght100">
+      <location>
+        <dimension name="weight" xvalue="100"/>
+        <dimension name="width" xvalue="100"/>
+        <dimension name="optical size" xvalue="84"/>
+        <dimension name="grade" xvalue="0"/>
+        <dimension name="ystems" xvalue="0"/>
+      </location>
+    </source>
+    <source filename="Amstelvar-Italic-opsz84.ufo" familyname="Amstelvar" stylename="Italic-opsz84">
+      <location>
+        <dimension name="weight" xvalue="400"/>
+        <dimension name="width" xvalue="100"/>
+        <dimension name="optical size" xvalue="84"/>
+        <dimension name="grade" xvalue="0"/>
+        <dimension name="ystems" xvalue="0"/>
+      </location>
+    </source>
+  </sources>
+</designspace>
