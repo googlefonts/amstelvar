@@ -2,27 +2,41 @@
   "Amstelvar-Italic-VF": {
     "order": [
       "wght",
-      "opsz",
       "wdth",
+      "opsz",
+      "GRAD",
+      "XTRA",
       "YOPQ"
     ],
     "wght": {
-      "name": "weight",
+      "name": "wght",
       "min": 100.0,
       "max": 900.0,
       "default": 400.0
     },
+    "wdth": {
+      "name": "wdth",
+      "min": 50.0,
+      "max": 125.0,
+      "default": 100.0
+    },
     "opsz": {
-      "name": "opsize",
+      "name": "opsz",
       "min": 8.0,
       "max": 144.0,
       "default": 14.0
     },
-    "wdth": {
-      "name": "width",
-      "min": 25.0,
-      "max": 140.0,
-      "default": 100.0
+    "GRAD": {
+      "name": "GRAD",
+      "min": -1.0,
+      "max": 1.0,
+      "default": 0.0
+    },
+    "XTRA": {
+      "name": "XTRA",
+      "min": 444.0,
+      "max": 1104.0,
+      "default": 980.0
     },
     "YOPQ": {
       "name": "YOPQ",
@@ -35,33 +49,40 @@
   "Amstelvar-Roman-VF": {
     "order": [
       "wght",
-      "opsz",
       "wdth",
+      "opsz",
+      "GRAD",
       "XTRA",
       "XOPQ",
       "YOPQ",
-      "YTAS",
-      "YTDE",
+      "YTLC",
       "YTUC",
-      "YTLC"
+      "YTAS",
+      "YTDE"
     ],
     "wght": {
-      "name": "weight",
+      "name": "wght",
       "min": 100.0,
       "max": 900.0,
       "default": 400.0
     },
+    "wdth": {
+      "name": "wdth",
+      "min": 50.0,
+      "max": 125.0,
+      "default": 100.0
+    },
     "opsz": {
-      "name": "opsize",
+      "name": "opsz",
       "min": 8.0,
       "max": 144.0,
       "default": 14.0
     },
-    "wdth": {
-      "name": "width",
-      "min": 50.0,
-      "max": 125.0,
-      "default": 100.0
+    "GRAD": {
+      "name": "GRAD",
+      "min": -1.0,
+      "max": 1.0,
+      "default": 0.0
     },
     "XTRA": {
       "name": "XTRA",
@@ -81,29 +102,29 @@
       "max": 224.0,
       "default": 124.0
     },
+    "YTLC": {
+      "name": "YTLC",
+      "min": 445.0,
+      "max": 600.0,
+      "default": 500.0
+    },
+    "YTUC": {
+      "name": "YTUC",
+      "min": 550.0,
+      "max": 850.0,
+      "default": 750.0
+    },
     "YTAS": {
-      "name": "y transparent ascender",
+      "name": "YTAS",
       "min": 667.0,
       "max": 867.0,
       "default": 767.0
     },
     "YTDE": {
-      "name": "y transparent descender",
+      "name": "YTDE",
       "min": 140.0,
       "max": 340.0,
       "default": 240.0
-    },
-    "YTUC": {
-      "name": "y transparent uppercase",
-      "min": 550.0,
-      "max": 850.0,
-      "default": 750.0
-    },
-    "YTLC": {
-      "name": "y transparent lowercase",
-      "min": 445.0,
-      "max": 600.0,
-      "default": 500.0
     },
     "instances": []
   }

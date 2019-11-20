@@ -1,0 +1,182 @@
+<?xml version='1.0' encoding='utf-8'?>
+<designspace format="3">
+    <axes>
+        <axis default="400" maximum="900" minimum="100" name="wght" tag="wght">
+            <labelname xml:lang="en">wght</labelname>
+        </axis>
+        <axis default="100" maximum="125" minimum="50" name="wdth" tag="wdth">
+            <labelname xml:lang="en">wdth</labelname>
+        </axis>
+        <axis default="14" maximum="144" minimum="8" name="opsz" tag="opsz">
+            <labelname xml:lang="en">opsz</labelname>
+        </axis>
+        <axis default="0" maximum="1" minimum="-1" name="GRAD" tag="GRAD">
+            <labelname xml:lang="en">GRAD</labelname>
+        </axis>
+        <axis default="980" maximum="1104" minimum="444" name="XTRA" tag="XTRA">
+            <labelname xml:lang="en">XTRA</labelname>
+        </axis>
+        <axis default="54" maximum="125" minimum="14" name="YOPQ" tag="YOPQ">
+            <labelname xml:lang="en">YOPQ</labelname>
+        </axis>
+    </axes>
+    <rules>
+        <rule name="heavier-bars-wght">
+            <condition maximum="900" minimum="800" name="wght" />
+            <sub name="dollar" with="dollar.rvrn" />
+        </rule>
+    </rules>
+    <sources>
+        <source familyname="Amstelvar" filename="../../../master_ufo/Amstelvar-Italic.ufo" name="Amstelvar-Italic.ufo" stylename="Regular">
+            <info copy="1" />
+            <location>
+                <dimension name="wght" xvalue="400" />
+                <dimension name="wdth" xvalue="100" />
+                <dimension name="opsz" xvalue="14" />
+                <dimension name="GRAD" xvalue="0" />
+                <dimension name="XTRA" xvalue="980" />
+                <dimension name="YOPQ" xvalue="54" />
+            </location>
+        </source>
+        <source familyname="Amstelvar" filename="../../../master_ufo/Amstelvar-Italic-GRAD-1.ufo" name="Amstelvar-Italic-GRAD-1.ufo" stylename="GRAD-1">
+            <location>
+                <dimension name="wght" xvalue="400" />
+                <dimension name="wdth" xvalue="100" />
+                <dimension name="opsz" xvalue="14" />
+                <dimension name="GRAD" xvalue="-1" />
+                <dimension name="XTRA" xvalue="980" />
+                <dimension name="YOPQ" xvalue="54" />
+            </location>
+        </source>
+        <source familyname="Amstelvar" filename="../../../master_ufo/Amstelvar-Italic-GRAD1.ufo" name="Amstelvar-Italic-GRAD1.ufo" stylename="GRAD1">
+            <location>
+                <dimension name="wght" xvalue="400" />
+                <dimension name="wdth" xvalue="100" />
+                <dimension name="opsz" xvalue="14" />
+                <dimension name="GRAD" xvalue="1" />
+                <dimension name="XTRA" xvalue="980" />
+                <dimension name="YOPQ" xvalue="54" />
+            </location>
+        </source>
+        <source familyname="Amstelvar" filename="../../../master_ufo/Amstelvar-Italic-wght100.ufo" name="Amstelvar-Italic-wght100.ufo" stylename="wght100">
+            <location>
+                <dimension name="wght" xvalue="100" />
+                <dimension name="wdth" xvalue="100" />
+                <dimension name="opsz" xvalue="14" />
+                <dimension name="GRAD" xvalue="0" />
+                <dimension name="XTRA" xvalue="980" />
+                <dimension name="YOPQ" xvalue="54" />
+            </location>
+        </source>
+        <source familyname="Amstelvar" filename="../../../master_ufo/Amstelvar-Italic-wght900.ufo" name="Amstelvar-Italic-wght900.ufo" stylename="wght900">
+            <location>
+                <dimension name="wght" xvalue="900" />
+                <dimension name="wdth" xvalue="100" />
+                <dimension name="opsz" xvalue="14" />
+                <dimension name="GRAD" xvalue="0" />
+                <dimension name="XTRA" xvalue="980" />
+                <dimension name="YOPQ" xvalue="54" />
+            </location>
+        </source>
+        <source familyname="Amstelvar" filename="../../../master_ufo/Amstelvar-Italic-opsz8.ufo" name="Amstelvar-Italic-opsz8.ufo" stylename="opsz8">
+            <location>
+                <dimension name="wght" xvalue="400" />
+                <dimension name="wdth" xvalue="100" />
+                <dimension name="opsz" xvalue="8" />
+                <dimension name="GRAD" xvalue="0" />
+                <dimension name="XTRA" xvalue="980" />
+                <dimension name="YOPQ" xvalue="54" />
+            </location>
+        </source>
+        <source familyname="Amstelvar" filename="../../../master_ufo/Amstelvar-Italic-opsz36.ufo" name="Amstelvar-Italic-opsz36.ufo" stylename="opsz36">
+            <location>
+                <dimension name="wght" xvalue="400" />
+                <dimension name="wdth" xvalue="100" />
+                <dimension name="opsz" xvalue="36" />
+                <dimension name="GRAD" xvalue="0" />
+                <dimension name="XTRA" xvalue="980" />
+                <dimension name="YOPQ" xvalue="54" />
+            </location>
+        </source>
+        <source familyname="Amstelvar" filename="../../../master_ufo/Amstelvar-Italic-opsz84.ufo" name="Amstelvar-Italic-opsz84.ufo" stylename="opsz84">
+            <location>
+                <dimension name="wght" xvalue="400" />
+                <dimension name="wdth" xvalue="100" />
+                <dimension name="opsz" xvalue="84" />
+                <dimension name="GRAD" xvalue="0" />
+                <dimension name="XTRA" xvalue="980" />
+                <dimension name="YOPQ" xvalue="54" />
+            </location>
+        </source>
+        <source familyname="Amstelvar" filename="../../../master_ufo/Amstelvar-Italic-opsz144.ufo" name="Amstelvar-Italic-opsz144.ufo" stylename="opsz144">
+            <location>
+                <dimension name="wght" xvalue="400" />
+                <dimension name="wdth" xvalue="100" />
+                <dimension name="opsz" xvalue="144" />
+                <dimension name="GRAD" xvalue="0" />
+                <dimension name="XTRA" xvalue="980" />
+                <dimension name="YOPQ" xvalue="54" />
+            </location>
+        </source>
+        <source familyname="Amstelvar" filename="../../../master_ufo/Amstelvar-Italic-wdth50.ufo" name="Amstelvar-Italic-wdth50.ufo" stylename="wdth50">
+            <location>
+                <dimension name="wght" xvalue="400" />
+                <dimension name="wdth" xvalue="50" />
+                <dimension name="opsz" xvalue="14" />
+                <dimension name="GRAD" xvalue="0" />
+                <dimension name="XTRA" xvalue="980" />
+                <dimension name="YOPQ" xvalue="54" />
+            </location>
+        </source>
+        <source familyname="Amstelvar" filename="../../../master_ufo/Amstelvar-Italic-wdth125.ufo" name="Amstelvar-Italic-wdth125.ufo" stylename="wdth125">
+            <location>
+                <dimension name="wght" xvalue="400" />
+                <dimension name="wdth" xvalue="125" />
+                <dimension name="opsz" xvalue="14" />
+                <dimension name="GRAD" xvalue="0" />
+                <dimension name="XTRA" xvalue="980" />
+                <dimension name="YOPQ" xvalue="54" />
+            </location>
+        </source>
+        <source familyname="Amstelvar" filename="../../../master_ufo/Amstelvar-Italic-YOPQmin.ufo" name="Amstelvar-Italic-YOPQmin.ufo" stylename="YOPQmin">
+            <location>
+                <dimension name="wght" xvalue="400" />
+                <dimension name="wdth" xvalue="100" />
+                <dimension name="opsz" xvalue="14" />
+                <dimension name="GRAD" xvalue="0" />
+                <dimension name="XTRA" xvalue="980" />
+                <dimension name="YOPQ" xvalue="14" />
+            </location>
+        </source>
+        <source familyname="Amstelvar" filename="../../../master_ufo/Amstelvar-Italic-YOPQmax.ufo" name="Amstelvar-Italic-YOPQmax.ufo" stylename="YOPQmax">
+            <location>
+                <dimension name="wght" xvalue="400" />
+                <dimension name="wdth" xvalue="100" />
+                <dimension name="opsz" xvalue="14" />
+                <dimension name="GRAD" xvalue="0" />
+                <dimension name="XTRA" xvalue="980" />
+                <dimension name="YOPQ" xvalue="125" />
+            </location>
+        </source>
+        <source familyname="Amstelvar" filename="../../../master_ufo/Amstelvar-Italic-opsz84-wght100.ufo" name="Amstelvar-Italic-opsz84-wght100.ufo" stylename="opsz84-wght100">
+            <location>
+                <dimension name="wght" xvalue="100" />
+                <dimension name="wdth" xvalue="100" />
+                <dimension name="opsz" xvalue="84" />
+                <dimension name="GRAD" xvalue="0" />
+                <dimension name="XTRA" xvalue="980" />
+                <dimension name="YOPQ" xvalue="54" />
+            </location>
+        </source>
+        <source familyname="Amstelvar" filename="../../../master_ufo/Amstelvar-Italic-opsz144-wght100.ufo" name="Amstelvar-Italic-opsz144-wght100.ufo" stylename="opsz144-wght100">
+            <location>
+                <dimension name="wght" xvalue="100" />
+                <dimension name="wdth" xvalue="100" />
+                <dimension name="opsz" xvalue="144" />
+                <dimension name="GRAD" xvalue="0" />
+                <dimension name="XTRA" xvalue="980" />
+                <dimension name="YOPQ" xvalue="54" />
+            </location>
+        </source>
+    </sources>
+</designspace>
