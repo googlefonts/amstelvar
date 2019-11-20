@@ -1,377 +1,471 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<designspace format="4.0">
-  <axes>
-    <axis tag="wght" name="weight" minimum="100" maximum="900" default="400">
-      <labelname xml:lang="en">weight</labelname>
-    </axis>
-    <axis tag="opsz" name="optical size" minimum="8" maximum="144" default="14">
-      <labelname xml:lang="en">opsize</labelname>
-    </axis>
-    <axis tag="wdth" name="width" minimum="50" maximum="125" default="100">
-      <labelname xml:lang="en">width</labelname>
-    </axis>
-    <axis tag="XTRA" name="XTRA" minimum="444" maximum="1104" default="980">
-      <labelname xml:lang="en">XTRA</labelname>
-    </axis>
-    <axis tag="XOPQ" name="XOPQ" minimum="36" maximum="526" default="176">
-      <labelname xml:lang="en">XOPQ</labelname>
-    </axis>
-    <axis tag="YOPQ" name="YOPQ" minimum="29" maximum="224" default="124">
-      <labelname xml:lang="en">YOPQ</labelname>
-    </axis>
-    <axis tag="YTAS" name="YTAS" minimum="667" maximum="867" default="767">
-      <labelname xml:lang="en">y transparent ascender</labelname>
-    </axis>
-    <axis tag="YTDE" name="YTDE" minimum="140" maximum="340" default="240">
-      <labelname xml:lang="en">y transparent descender</labelname>
-    </axis>
-    <axis tag="YTUC" name="YTUC" minimum="550" maximum="850" default="750">
-      <labelname xml:lang="en">y transparent uppercase</labelname>
-    </axis>
-    <axis tag="YTLC" name="YTLC" minimum="445" maximum="600" default="500">
-      <labelname xml:lang="en">y transparent lowercase</labelname>
-    </axis>
-  </axes>
-  <rules>
-    <rule name="heavy-bars">
-      <conditionset>
-        <condition name="weight" minimum="800" maximum="850"/>
-      </conditionset>
-      <sub name="dollar" with="dollar.rvrn2"/>
-    </rule>
-    <rule name="heavier-bars">
-      <conditionset>
-        <condition name="weight" minimum="850" maximum="900"/>
-      </conditionset>
-      <sub name="dollar" with="dollar.rvrn"/>
-    </rule>
-  </rules>
-  <sources>
-    <source filename="Roman/Amstelvar-Roman.ufo" familyname="Amstelvar" stylename="Roman">
-      <lib copy="1"/>
-      <groups copy="1"/>
-      <features copy="1"/>
-      <info copy="1"/>
-      <location>
-        <dimension name="weight" xvalue="400"/>
-        <dimension name="optical size" xvalue="14"/>
-        <dimension name="width" xvalue="100"/>
-        <dimension name="XTRA" xvalue="980"/>
-        <dimension name="XOPQ" xvalue="176"/>
-        <dimension name="YOPQ" xvalue="124"/>
-        <dimension name="YTAS" xvalue="767"/>
-        <dimension name="YTDE" xvalue="240"/>
-        <dimension name="YTUC" xvalue="750"/>
-        <dimension name="YTLC" xvalue="500"/>
-      </location>
-    </source>
-    <source filename="Roman/Amstelvar-Roman-XTRAmax.ufo" familyname="Amstelvar" stylename="Roman-XTRAmax">
-      <location>
-        <dimension name="weight" xvalue="400"/>
-        <dimension name="optical size" xvalue="14"/>
-        <dimension name="width" xvalue="100"/>
-        <dimension name="XTRA" xvalue="1104"/>
-        <dimension name="XOPQ" xvalue="176"/>
-        <dimension name="YOPQ" xvalue="124"/>
-        <dimension name="YTAS" xvalue="767"/>
-        <dimension name="YTDE" xvalue="240"/>
-        <dimension name="YTUC" xvalue="750"/>
-        <dimension name="YTLC" xvalue="500"/>
-      </location>
-    </source>
-    <source filename="Roman/Amstelvar-Roman-XTRAmin.ufo" familyname="Amstelvar" stylename="Roman-XTRAmin">
-      <location>
-        <dimension name="weight" xvalue="400"/>
-        <dimension name="optical size" xvalue="14"/>
-        <dimension name="width" xvalue="100"/>
-        <dimension name="XTRA" xvalue="444"/>
-        <dimension name="XOPQ" xvalue="176"/>
-        <dimension name="YOPQ" xvalue="124"/>
-        <dimension name="YTAS" xvalue="767"/>
-        <dimension name="YTDE" xvalue="240"/>
-        <dimension name="YTUC" xvalue="750"/>
-        <dimension name="YTLC" xvalue="500"/>
-      </location>
-    </source>
-    <source filename="Roman/Amstelvar-Roman-XOPQmax.ufo" familyname="Amstelvar" stylename="Roman-XOPQmax">
-      <location>
-        <dimension name="weight" xvalue="400"/>
-        <dimension name="optical size" xvalue="14"/>
-        <dimension name="width" xvalue="100"/>
-        <dimension name="XTRA" xvalue="980"/>
-        <dimension name="XOPQ" xvalue="526"/>
-        <dimension name="YOPQ" xvalue="124"/>
-        <dimension name="YTAS" xvalue="767"/>
-        <dimension name="YTDE" xvalue="240"/>
-        <dimension name="YTUC" xvalue="750"/>
-        <dimension name="YTLC" xvalue="500"/>
-      </location>
-    </source>
-    <source filename="Roman/Amstelvar-Roman-XOPQmin.ufo" familyname="Amstelvar" stylename="Roman-XOPQmin">
-      <location>
-        <dimension name="weight" xvalue="400"/>
-        <dimension name="optical size" xvalue="14"/>
-        <dimension name="width" xvalue="100"/>
-        <dimension name="XTRA" xvalue="980"/>
-        <dimension name="XOPQ" xvalue="36"/>
-        <dimension name="YOPQ" xvalue="124"/>
-        <dimension name="YTAS" xvalue="767"/>
-        <dimension name="YTDE" xvalue="240"/>
-        <dimension name="YTUC" xvalue="750"/>
-        <dimension name="YTLC" xvalue="500"/>
-      </location>
-    </source>
-    <source filename="Roman/Amstelvar-Roman-YOPQmax.ufo" familyname="Amstelvar" stylename="Roman-YOPQmax">
-      <location>
-        <dimension name="weight" xvalue="400"/>
-        <dimension name="optical size" xvalue="14"/>
-        <dimension name="width" xvalue="100"/>
-        <dimension name="XTRA" xvalue="980"/>
-        <dimension name="XOPQ" xvalue="176"/>
-        <dimension name="YOPQ" xvalue="224"/>
-        <dimension name="YTAS" xvalue="767"/>
-        <dimension name="YTDE" xvalue="240"/>
-        <dimension name="YTUC" xvalue="750"/>
-        <dimension name="YTLC" xvalue="500"/>
-      </location>
-    </source>
-    <source filename="Roman/Amstelvar-Roman-YOPQmin.ufo" familyname="Amstelvar" stylename="Roman-YOPQmin">
-      <location>
-        <dimension name="weight" xvalue="400"/>
-        <dimension name="optical size" xvalue="14"/>
-        <dimension name="width" xvalue="100"/>
-        <dimension name="XTRA" xvalue="980"/>
-        <dimension name="XOPQ" xvalue="176"/>
-        <dimension name="YOPQ" xvalue="29"/>
-        <dimension name="YTAS" xvalue="767"/>
-        <dimension name="YTDE" xvalue="240"/>
-        <dimension name="YTUC" xvalue="750"/>
-        <dimension name="YTLC" xvalue="500"/>
-      </location>
-    </source>
-    <source filename="Roman/Amstelvar-Roman-YTASmax.ufo" familyname="Amstelvar" stylename="Roman-YTASmax">
-      <location>
-        <dimension name="weight" xvalue="400"/>
-        <dimension name="optical size" xvalue="14"/>
-        <dimension name="width" xvalue="100"/>
-        <dimension name="XTRA" xvalue="980"/>
-        <dimension name="XOPQ" xvalue="176"/>
-        <dimension name="YOPQ" xvalue="124"/>
-        <dimension name="YTAS" xvalue="867"/>
-        <dimension name="YTDE" xvalue="240"/>
-        <dimension name="YTUC" xvalue="750"/>
-        <dimension name="YTLC" xvalue="500"/>
-      </location>
-    </source>
-    <source filename="Roman/Amstelvar-Roman-YTASmin.ufo" familyname="Amstelvar" stylename="Roman-YTASmin">
-      <location>
-        <dimension name="weight" xvalue="400"/>
-        <dimension name="optical size" xvalue="14"/>
-        <dimension name="width" xvalue="100"/>
-        <dimension name="XTRA" xvalue="980"/>
-        <dimension name="XOPQ" xvalue="176"/>
-        <dimension name="YOPQ" xvalue="124"/>
-        <dimension name="YTAS" xvalue="667"/>
-        <dimension name="YTDE" xvalue="240"/>
-        <dimension name="YTUC" xvalue="750"/>
-        <dimension name="YTLC" xvalue="500"/>
-      </location>
-    </source>
-    <source filename="Roman/Amstelvar-Roman-YTDEmax.ufo" familyname="Amstelvar" stylename="Roman-YTDEmax">
-      <location>
-        <dimension name="weight" xvalue="400"/>
-        <dimension name="optical size" xvalue="14"/>
-        <dimension name="width" xvalue="100"/>
-        <dimension name="XTRA" xvalue="980"/>
-        <dimension name="XOPQ" xvalue="176"/>
-        <dimension name="YOPQ" xvalue="124"/>
-        <dimension name="YTAS" xvalue="767"/>
-        <dimension name="YTDE" xvalue="340"/>
-        <dimension name="YTUC" xvalue="750"/>
-        <dimension name="YTLC" xvalue="500"/>
-      </location>
-    </source>
-    <source filename="Roman/Amstelvar-Roman-YTDEmin.ufo" familyname="Amstelvar" stylename="Roman-YTDEmin">
-      <location>
-        <dimension name="weight" xvalue="400"/>
-        <dimension name="optical size" xvalue="14"/>
-        <dimension name="width" xvalue="100"/>
-        <dimension name="XTRA" xvalue="980"/>
-        <dimension name="XOPQ" xvalue="176"/>
-        <dimension name="YOPQ" xvalue="124"/>
-        <dimension name="YTAS" xvalue="767"/>
-        <dimension name="YTDE" xvalue="140"/>
-        <dimension name="YTUC" xvalue="750"/>
-        <dimension name="YTLC" xvalue="500"/>
-      </location>
-    </source>
-    <source filename="Roman/Amstelvar-Roman-YTUCmax.ufo" familyname="Amstelvar" stylename="Roman-YTUCmax">
-      <location>
-        <dimension name="weight" xvalue="400"/>
-        <dimension name="optical size" xvalue="14"/>
-        <dimension name="width" xvalue="100"/>
-        <dimension name="XTRA" xvalue="980"/>
-        <dimension name="XOPQ" xvalue="176"/>
-        <dimension name="YOPQ" xvalue="124"/>
-        <dimension name="YTAS" xvalue="767"/>
-        <dimension name="YTDE" xvalue="240"/>
-        <dimension name="YTUC" xvalue="850"/>
-        <dimension name="YTLC" xvalue="500"/>
-      </location>
-    </source>
-    <source filename="Roman/Amstelvar-Roman-YTUCmin.ufo" familyname="Amstelvar" stylename="Roman-YTUCmin">
-      <location>
-        <dimension name="weight" xvalue="400"/>
-        <dimension name="optical size" xvalue="14"/>
-        <dimension name="width" xvalue="100"/>
-        <dimension name="XTRA" xvalue="980"/>
-        <dimension name="XOPQ" xvalue="176"/>
-        <dimension name="YOPQ" xvalue="124"/>
-        <dimension name="YTAS" xvalue="767"/>
-        <dimension name="YTDE" xvalue="240"/>
-        <dimension name="YTUC" xvalue="550"/>
-        <dimension name="YTLC" xvalue="500"/>
-      </location>
-    </source>
-    <source filename="Roman/Amstelvar-Roman-YTLCmax.ufo" familyname="Amstelvar" stylename="Roman-YTLCmax">
-      <location>
-        <dimension name="weight" xvalue="400"/>
-        <dimension name="optical size" xvalue="14"/>
-        <dimension name="width" xvalue="100"/>
-        <dimension name="XTRA" xvalue="980"/>
-        <dimension name="XOPQ" xvalue="176"/>
-        <dimension name="YOPQ" xvalue="124"/>
-        <dimension name="YTAS" xvalue="767"/>
-        <dimension name="YTDE" xvalue="240"/>
-        <dimension name="YTUC" xvalue="750"/>
-        <dimension name="YTLC" xvalue="600"/>
-      </location>
-    </source>
-    <source filename="Roman/Amstelvar-Roman-YTLCmin.ufo" familyname="Amstelvar" stylename="Roman-YTLCmin">
-      <location>
-        <dimension name="weight" xvalue="400"/>
-        <dimension name="optical size" xvalue="14"/>
-        <dimension name="width" xvalue="100"/>
-        <dimension name="XTRA" xvalue="980"/>
-        <dimension name="XOPQ" xvalue="176"/>
-        <dimension name="YOPQ" xvalue="124"/>
-        <dimension name="YTAS" xvalue="767"/>
-        <dimension name="YTDE" xvalue="240"/>
-        <dimension name="YTUC" xvalue="750"/>
-        <dimension name="YTLC" xvalue="445"/>
-      </location>
-    </source>
-    <source filename="Primary/Amstelvar-Roman-wdth50.ufo" familyname="Amstelvar" stylename="Roman-wdthmin">
-      <location>
-        <dimension name="weight" xvalue="400"/>
-        <dimension name="optical size" xvalue="14"/>
-        <dimension name="width" xvalue="50"/>
-        <dimension name="XTRA" xvalue="980"/>
-        <dimension name="XOPQ" xvalue="176"/>
-        <dimension name="YOPQ" xvalue="124"/>
-        <dimension name="YTAS" xvalue="767"/>
-        <dimension name="YTDE" xvalue="240"/>
-        <dimension name="YTUC" xvalue="750"/>
-        <dimension name="YTLC" xvalue="500"/>
-      </location>
-    </source>
-    <source filename="Primary/Amstelvar-Roman-wght100.ufo" familyname="Amstelvar" stylename="Roman-wghtmin">
-      <location>
-        <dimension name="weight" xvalue="100"/>
-        <dimension name="optical size" xvalue="14"/>
-        <dimension name="width" xvalue="100"/>
-        <dimension name="XTRA" xvalue="980"/>
-        <dimension name="XOPQ" xvalue="176"/>
-        <dimension name="YOPQ" xvalue="124"/>
-        <dimension name="YTAS" xvalue="767"/>
-        <dimension name="YTDE" xvalue="240"/>
-        <dimension name="YTUC" xvalue="750"/>
-        <dimension name="YTLC" xvalue="500"/>
-      </location>
-    </source>
-    <source filename="Primary/Amstelvar-Roman-wght900.ufo" familyname="Amstelvar" stylename="Roman-wghtmax">
-      <location>
-        <dimension name="weight" xvalue="900"/>
-        <dimension name="optical size" xvalue="14"/>
-        <dimension name="width" xvalue="100"/>
-        <dimension name="XTRA" xvalue="980"/>
-        <dimension name="XOPQ" xvalue="176"/>
-        <dimension name="YOPQ" xvalue="124"/>
-        <dimension name="YTAS" xvalue="767"/>
-        <dimension name="YTDE" xvalue="240"/>
-        <dimension name="YTUC" xvalue="750"/>
-        <dimension name="YTLC" xvalue="500"/>
-      </location>
-    </source>
-    <source filename="Primary/Amstelvar-Roman-wdt125.ufo" familyname="Amstelvar" stylename="Roman-wdthmax">
-      <location>
-        <dimension name="weight" xvalue="400"/>
-        <dimension name="optical size" xvalue="14"/>
-        <dimension name="width" xvalue="125"/>
-        <dimension name="XTRA" xvalue="980"/>
-        <dimension name="XOPQ" xvalue="176"/>
-        <dimension name="YOPQ" xvalue="124"/>
-        <dimension name="YTAS" xvalue="767"/>
-        <dimension name="YTDE" xvalue="240"/>
-        <dimension name="YTUC" xvalue="750"/>
-        <dimension name="YTLC" xvalue="500"/>
-      </location>
-    </source>
-    <source filename="Primary/Amstelvar-Roman-opsz8.ufo" familyname="Amstelvar" stylename="Roman-opsz-min">
-      <location>
-        <dimension name="weight" xvalue="400"/>
-        <dimension name="optical size" xvalue="8"/>
-        <dimension name="width" xvalue="100"/>
-        <dimension name="XTRA" xvalue="980"/>
-        <dimension name="XOPQ" xvalue="176"/>
-        <dimension name="YOPQ" xvalue="124"/>
-        <dimension name="YTAS" xvalue="767"/>
-        <dimension name="YTDE" xvalue="240"/>
-        <dimension name="YTUC" xvalue="750"/>
-        <dimension name="YTLC" xvalue="500"/>
-      </location>
-    </source>
-    <source filename="Primary/Amstelvar-Roman-opsz144.ufo" familyname="Amstelvar" stylename="Roman-opsz-max">
-      <location>
-        <dimension name="weight" xvalue="400"/>
-        <dimension name="optical size" xvalue="144"/>
-        <dimension name="width" xvalue="100"/>
-        <dimension name="XTRA" xvalue="980"/>
-        <dimension name="XOPQ" xvalue="176"/>
-        <dimension name="YOPQ" xvalue="124"/>
-        <dimension name="YTAS" xvalue="767"/>
-        <dimension name="YTDE" xvalue="240"/>
-        <dimension name="YTUC" xvalue="750"/>
-        <dimension name="YTLC" xvalue="500"/>
-      </location>
-    </source>
-    <source filename="Primary/Amstelvar-Roman-GRAD1.ufo" familyname="Amstelvar" stylename="Roman-GRADmax">
-      <location>
-        <dimension name="weight" xvalue="400"/>
-        <dimension name="optical size" xvalue="14"/>
-        <dimension name="width" xvalue="100"/>
-        <dimension name="XTRA" xvalue="980"/>
-        <dimension name="XOPQ" xvalue="176"/>
-        <dimension name="YOPQ" xvalue="124"/>
-        <dimension name="YTAS" xvalue="767"/>
-        <dimension name="YTDE" xvalue="240"/>
-        <dimension name="YTUC" xvalue="750"/>
-        <dimension name="YTLC" xvalue="500"/>
-      </location>
-    </source>
-    <source filename="Primary/Amstelvar-Roman-GRAD-1.ufo" familyname="Amstelvar" stylename="Roman-GRADmin">
-      <location>
-        <dimension name="weight" xvalue="400"/>
-        <dimension name="optical size" xvalue="14"/>
-        <dimension name="width" xvalue="100"/>
-        <dimension name="XTRA" xvalue="980"/>
-        <dimension name="XOPQ" xvalue="176"/>
-        <dimension name="YOPQ" xvalue="124"/>
-        <dimension name="YTAS" xvalue="767"/>
-        <dimension name="YTDE" xvalue="240"/>
-        <dimension name="YTUC" xvalue="750"/>
-        <dimension name="YTLC" xvalue="500"/>
-      </location>
-    </source>
-  </sources>
+<?xml version='1.0' encoding='utf-8'?>
+<designspace format="3">
+    <axes>
+        <axis default="400" maximum="900" minimum="100" name="wght" tag="wght">
+            <labelname xml:lang="en">wght</labelname>
+        </axis>
+        <axis default="100" maximum="125" minimum="50" name="wdth" tag="wdth">
+            <labelname xml:lang="en">wdth</labelname>
+        </axis>
+        <axis default="14" maximum="144" minimum="8" name="opsz" tag="opsz">
+            <labelname xml:lang="en">opsz</labelname>
+        </axis>
+        <axis default="0" maximum="1" minimum="-1" name="GRAD" tag="GRAD">
+            <labelname xml:lang="en">GRAD</labelname>
+        </axis>
+        <axis default="980" maximum="1104" minimum="444" name="XTRA" tag="XTRA">
+            <labelname xml:lang="en">XTRA</labelname>
+        </axis>
+        <axis default="176" maximum="526" minimum="36" name="XOPQ" tag="XOPQ">
+            <labelname xml:lang="en">XOPQ</labelname>
+        </axis>
+        <axis default="124" maximum="224" minimum="29" name="YOPQ" tag="YOPQ">
+            <labelname xml:lang="en">YOPQ</labelname>
+        </axis>
+        <axis default="500" maximum="600" minimum="445" name="YTLC" tag="YTLC">
+            <labelname xml:lang="en">YTLC</labelname>
+        </axis>
+        <axis default="750" maximum="850" minimum="550" name="YTUC" tag="YTUC">
+            <labelname xml:lang="en">YTUC</labelname>
+        </axis>
+        <axis default="767" maximum="867" minimum="667" name="YTAS" tag="YTAS">
+            <labelname xml:lang="en">YTAS</labelname>
+        </axis>
+        <axis default="240" maximum="340" minimum="140" name="YTDE" tag="YTDE">
+            <labelname xml:lang="en">YTDE</labelname>
+        </axis>
+    </axes>
+    <rules>
+        <rule name="heavy-bars-wght">
+            <condition maximum="850" minimum="800" name="wght" />
+            <sub name="dollar" with="dollar.rvrn2" />
+        </rule>
+        <rule name="heavier-bars-wght">
+            <condition maximum="900" minimum="850" name="wght" />
+            <sub name="dollar" with="dollar.rvrn" />
+        </rule>
+    </rules>
+    <sources>
+        <source familyname="Amstelvar" filename="../../../master_ufo/Amstelvar-Roman.ufo" name="Amstelvar-Roman.ufo" stylename="Regular">
+            <info copy="1" />
+            <location>
+                <dimension name="wght" xvalue="400" />
+                <dimension name="wdth" xvalue="100" />
+                <dimension name="opsz" xvalue="14" />
+                <dimension name="GRAD" xvalue="0" />
+                <dimension name="XTRA" xvalue="980" />
+                <dimension name="XOPQ" xvalue="176" />
+                <dimension name="YOPQ" xvalue="124" />
+                <dimension name="YTLC" xvalue="500" />
+                <dimension name="YTUC" xvalue="750" />
+                <dimension name="YTAS" xvalue="767" />
+                <dimension name="YTDE" xvalue="240" />
+            </location>
+        </source>
+        <source familyname="Amstelvar" filename="../../../master_ufo/Amstelvar-Roman-GRAD-1.ufo" name="Amstelvar-Roman-GRAD-1.ufo" stylename="GRAD-1">
+            <location>
+                <dimension name="wght" xvalue="400" />
+                <dimension name="wdth" xvalue="100" />
+                <dimension name="opsz" xvalue="14" />
+                <dimension name="GRAD" xvalue="-1" />
+                <dimension name="XTRA" xvalue="980" />
+                <dimension name="XOPQ" xvalue="176" />
+                <dimension name="YOPQ" xvalue="124" />
+                <dimension name="YTLC" xvalue="500" />
+                <dimension name="YTUC" xvalue="750" />
+                <dimension name="YTAS" xvalue="767" />
+                <dimension name="YTDE" xvalue="240" />
+            </location>
+        </source>
+        <source familyname="Amstelvar" filename="../../../master_ufo/Amstelvar-Roman-GRAD1.ufo" name="Amstelvar-Roman-GRAD1.ufo" stylename="GRAD1">
+            <location>
+                <dimension name="wght" xvalue="400" />
+                <dimension name="wdth" xvalue="100" />
+                <dimension name="opsz" xvalue="14" />
+                <dimension name="GRAD" xvalue="1" />
+                <dimension name="XTRA" xvalue="980" />
+                <dimension name="XOPQ" xvalue="176" />
+                <dimension name="YOPQ" xvalue="124" />
+                <dimension name="YTLC" xvalue="500" />
+                <dimension name="YTUC" xvalue="750" />
+                <dimension name="YTAS" xvalue="767" />
+                <dimension name="YTDE" xvalue="240" />
+            </location>
+        </source>
+        <source familyname="Amstelvar" filename="../../../master_ufo/Amstelvar-Roman-wght100.ufo" name="Amstelvar-Roman-wght100.ufo" stylename="wght100">
+            <location>
+                <dimension name="wght" xvalue="100" />
+                <dimension name="wdth" xvalue="100" />
+                <dimension name="opsz" xvalue="14" />
+                <dimension name="GRAD" xvalue="0" />
+                <dimension name="XTRA" xvalue="980" />
+                <dimension name="XOPQ" xvalue="176" />
+                <dimension name="YOPQ" xvalue="124" />
+                <dimension name="YTLC" xvalue="500" />
+                <dimension name="YTUC" xvalue="750" />
+                <dimension name="YTAS" xvalue="767" />
+                <dimension name="YTDE" xvalue="240" />
+            </location>
+        </source>
+        <source familyname="Amstelvar" filename="../../../master_ufo/Amstelvar-Roman-wght900.ufo" name="Amstelvar-Roman-wght900.ufo" stylename="wght900">
+            <location>
+                <dimension name="wght" xvalue="900" />
+                <dimension name="wdth" xvalue="100" />
+                <dimension name="opsz" xvalue="14" />
+                <dimension name="GRAD" xvalue="0" />
+                <dimension name="XTRA" xvalue="980" />
+                <dimension name="XOPQ" xvalue="176" />
+                <dimension name="YOPQ" xvalue="124" />
+                <dimension name="YTLC" xvalue="500" />
+                <dimension name="YTUC" xvalue="750" />
+                <dimension name="YTAS" xvalue="767" />
+                <dimension name="YTDE" xvalue="240" />
+            </location>
+        </source>
+        <source familyname="Amstelvar" filename="../../../master_ufo/Amstelvar-Roman-opsz8.ufo" name="Amstelvar-Roman-opsz8.ufo" stylename="opsz8">
+            <location>
+                <dimension name="wght" xvalue="400" />
+                <dimension name="wdth" xvalue="100" />
+                <dimension name="opsz" xvalue="8" />
+                <dimension name="GRAD" xvalue="0" />
+                <dimension name="XTRA" xvalue="980" />
+                <dimension name="XOPQ" xvalue="176" />
+                <dimension name="YOPQ" xvalue="124" />
+                <dimension name="YTLC" xvalue="500" />
+                <dimension name="YTUC" xvalue="750" />
+                <dimension name="YTAS" xvalue="767" />
+                <dimension name="YTDE" xvalue="240" />
+            </location>
+        </source>
+        <source familyname="Amstelvar" filename="../../../master_ufo/Amstelvar-Roman-opsz36.ufo" name="Amstelvar-Roman-opsz36.ufo" stylename="opsz36">
+            <location>
+                <dimension name="wght" xvalue="400" />
+                <dimension name="wdth" xvalue="100" />
+                <dimension name="opsz" xvalue="36" />
+                <dimension name="GRAD" xvalue="0" />
+                <dimension name="XTRA" xvalue="980" />
+                <dimension name="XOPQ" xvalue="176" />
+                <dimension name="YOPQ" xvalue="124" />
+                <dimension name="YTLC" xvalue="500" />
+                <dimension name="YTUC" xvalue="750" />
+                <dimension name="YTAS" xvalue="767" />
+                <dimension name="YTDE" xvalue="240" />
+            </location>
+        </source>
+        <source familyname="Amstelvar" filename="../../../master_ufo/Amstelvar-Roman-opsz84.ufo" name="Amstelvar-Roman-opsz84.ufo" stylename="opsz84">
+            <location>
+                <dimension name="wght" xvalue="400" />
+                <dimension name="wdth" xvalue="100" />
+                <dimension name="opsz" xvalue="84" />
+                <dimension name="GRAD" xvalue="0" />
+                <dimension name="XTRA" xvalue="980" />
+                <dimension name="XOPQ" xvalue="176" />
+                <dimension name="YOPQ" xvalue="124" />
+                <dimension name="YTLC" xvalue="500" />
+                <dimension name="YTUC" xvalue="750" />
+                <dimension name="YTAS" xvalue="767" />
+                <dimension name="YTDE" xvalue="240" />
+            </location>
+        </source>
+        <source familyname="Amstelvar" filename="../../../master_ufo/Amstelvar-Roman-opsz144.ufo" name="Amstelvar-Roman-opsz144.ufo" stylename="opsz144">
+            <location>
+                <dimension name="wght" xvalue="400" />
+                <dimension name="wdth" xvalue="100" />
+                <dimension name="opsz" xvalue="144" />
+                <dimension name="GRAD" xvalue="0" />
+                <dimension name="XTRA" xvalue="980" />
+                <dimension name="XOPQ" xvalue="176" />
+                <dimension name="YOPQ" xvalue="124" />
+                <dimension name="YTLC" xvalue="500" />
+                <dimension name="YTUC" xvalue="750" />
+                <dimension name="YTAS" xvalue="767" />
+                <dimension name="YTDE" xvalue="240" />
+            </location>
+        </source>
+        <source familyname="Amstelvar" filename="../../../master_ufo/Amstelvar-Roman-wdth50.ufo" name="Amstelvar-Roman-wdth50.ufo" stylename="wdth50">
+            <location>
+                <dimension name="wght" xvalue="400" />
+                <dimension name="wdth" xvalue="50" />
+                <dimension name="opsz" xvalue="14" />
+                <dimension name="GRAD" xvalue="0" />
+                <dimension name="XTRA" xvalue="980" />
+                <dimension name="XOPQ" xvalue="176" />
+                <dimension name="YOPQ" xvalue="124" />
+                <dimension name="YTLC" xvalue="500" />
+                <dimension name="YTUC" xvalue="750" />
+                <dimension name="YTAS" xvalue="767" />
+                <dimension name="YTDE" xvalue="240" />
+            </location>
+        </source>
+        <source familyname="Amstelvar" filename="../../../master_ufo/Amstelvar-Roman-wdth125.ufo" name="Amstelvar-Roman-wdth125.ufo" stylename="wdth125">
+            <location>
+                <dimension name="wght" xvalue="400" />
+                <dimension name="wdth" xvalue="125" />
+                <dimension name="opsz" xvalue="14" />
+                <dimension name="GRAD" xvalue="0" />
+                <dimension name="XTRA" xvalue="980" />
+                <dimension name="XOPQ" xvalue="176" />
+                <dimension name="YOPQ" xvalue="124" />
+                <dimension name="YTLC" xvalue="500" />
+                <dimension name="YTUC" xvalue="750" />
+                <dimension name="YTAS" xvalue="767" />
+                <dimension name="YTDE" xvalue="240" />
+            </location>
+        </source>
+        <source familyname="Amstelvar" filename="../../../master_ufo/Amstelvar-Roman-XOPQmin.ufo" name="Amstelvar-Roman-XOPQmin.ufo" stylename="XOPQmin">
+            <location>
+                <dimension name="wght" xvalue="400" />
+                <dimension name="wdth" xvalue="100" />
+                <dimension name="opsz" xvalue="14" />
+                <dimension name="GRAD" xvalue="0" />
+                <dimension name="XTRA" xvalue="980" />
+                <dimension name="XOPQ" xvalue="36" />
+                <dimension name="YOPQ" xvalue="124" />
+                <dimension name="YTLC" xvalue="500" />
+                <dimension name="YTUC" xvalue="750" />
+                <dimension name="YTAS" xvalue="767" />
+                <dimension name="YTDE" xvalue="240" />
+            </location>
+        </source>
+        <source familyname="Amstelvar" filename="../../../master_ufo/Amstelvar-Roman-XOPQmax.ufo" name="Amstelvar-Roman-XOPQmax.ufo" stylename="XOPQmax">
+            <location>
+                <dimension name="wght" xvalue="400" />
+                <dimension name="wdth" xvalue="100" />
+                <dimension name="opsz" xvalue="14" />
+                <dimension name="GRAD" xvalue="0" />
+                <dimension name="XTRA" xvalue="980" />
+                <dimension name="XOPQ" xvalue="526" />
+                <dimension name="YOPQ" xvalue="124" />
+                <dimension name="YTLC" xvalue="500" />
+                <dimension name="YTUC" xvalue="750" />
+                <dimension name="YTAS" xvalue="767" />
+                <dimension name="YTDE" xvalue="240" />
+            </location>
+        </source>
+        <source familyname="Amstelvar" filename="../../../master_ufo/Amstelvar-Roman-XTRAmin.ufo" name="Amstelvar-Roman-XTRAmin.ufo" stylename="XTRAmin">
+            <location>
+                <dimension name="wght" xvalue="400" />
+                <dimension name="wdth" xvalue="100" />
+                <dimension name="opsz" xvalue="14" />
+                <dimension name="GRAD" xvalue="0" />
+                <dimension name="XTRA" xvalue="444" />
+                <dimension name="XOPQ" xvalue="176" />
+                <dimension name="YOPQ" xvalue="124" />
+                <dimension name="YTLC" xvalue="500" />
+                <dimension name="YTUC" xvalue="750" />
+                <dimension name="YTAS" xvalue="767" />
+                <dimension name="YTDE" xvalue="240" />
+            </location>
+        </source>
+        <source familyname="Amstelvar" filename="../../../master_ufo/Amstelvar-Roman-XTRAmax.ufo" name="Amstelvar-Roman-XTRAmax.ufo" stylename="XTRAmax">
+            <location>
+                <dimension name="wght" xvalue="400" />
+                <dimension name="wdth" xvalue="100" />
+                <dimension name="opsz" xvalue="14" />
+                <dimension name="GRAD" xvalue="0" />
+                <dimension name="XTRA" xvalue="1104" />
+                <dimension name="XOPQ" xvalue="176" />
+                <dimension name="YOPQ" xvalue="124" />
+                <dimension name="YTLC" xvalue="500" />
+                <dimension name="YTUC" xvalue="750" />
+                <dimension name="YTAS" xvalue="767" />
+                <dimension name="YTDE" xvalue="240" />
+            </location>
+        </source>
+        <source familyname="Amstelvar" filename="../../../master_ufo/Amstelvar-Roman-YOPQmin.ufo" name="Amstelvar-Roman-YOPQmin.ufo" stylename="YOPQmin">
+            <location>
+                <dimension name="wght" xvalue="400" />
+                <dimension name="wdth" xvalue="100" />
+                <dimension name="opsz" xvalue="14" />
+                <dimension name="GRAD" xvalue="0" />
+                <dimension name="XTRA" xvalue="980" />
+                <dimension name="XOPQ" xvalue="176" />
+                <dimension name="YOPQ" xvalue="29" />
+                <dimension name="YTLC" xvalue="500" />
+                <dimension name="YTUC" xvalue="750" />
+                <dimension name="YTAS" xvalue="767" />
+                <dimension name="YTDE" xvalue="240" />
+            </location>
+        </source>
+        <source familyname="Amstelvar" filename="../../../master_ufo/Amstelvar-Roman-YOPQmax.ufo" name="Amstelvar-Roman-YOPQmax.ufo" stylename="YOPQmax">
+            <location>
+                <dimension name="wght" xvalue="400" />
+                <dimension name="wdth" xvalue="100" />
+                <dimension name="opsz" xvalue="14" />
+                <dimension name="GRAD" xvalue="0" />
+                <dimension name="XTRA" xvalue="980" />
+                <dimension name="XOPQ" xvalue="176" />
+                <dimension name="YOPQ" xvalue="224" />
+                <dimension name="YTLC" xvalue="500" />
+                <dimension name="YTUC" xvalue="750" />
+                <dimension name="YTAS" xvalue="767" />
+                <dimension name="YTDE" xvalue="240" />
+            </location>
+        </source>
+        <source familyname="Amstelvar" filename="../../../master_ufo/Amstelvar-Roman-YTLCmin.ufo" name="Amstelvar-Roman-YTLCmin.ufo" stylename="YTLCmin">
+            <location>
+                <dimension name="wght" xvalue="400" />
+                <dimension name="wdth" xvalue="100" />
+                <dimension name="opsz" xvalue="14" />
+                <dimension name="GRAD" xvalue="0" />
+                <dimension name="XTRA" xvalue="980" />
+                <dimension name="XOPQ" xvalue="176" />
+                <dimension name="YOPQ" xvalue="124" />
+                <dimension name="YTLC" xvalue="445" />
+                <dimension name="YTUC" xvalue="750" />
+                <dimension name="YTAS" xvalue="767" />
+                <dimension name="YTDE" xvalue="240" />
+            </location>
+        </source>
+        <source familyname="Amstelvar" filename="../../../master_ufo/Amstelvar-Roman-YTLCmax.ufo" name="Amstelvar-Roman-YTLCmax.ufo" stylename="YTLCmax">
+            <location>
+                <dimension name="wght" xvalue="400" />
+                <dimension name="wdth" xvalue="100" />
+                <dimension name="opsz" xvalue="14" />
+                <dimension name="GRAD" xvalue="0" />
+                <dimension name="XTRA" xvalue="980" />
+                <dimension name="XOPQ" xvalue="176" />
+                <dimension name="YOPQ" xvalue="124" />
+                <dimension name="YTLC" xvalue="600" />
+                <dimension name="YTUC" xvalue="750" />
+                <dimension name="YTAS" xvalue="767" />
+                <dimension name="YTDE" xvalue="240" />
+            </location>
+        </source>
+        <source familyname="Amstelvar" filename="../../../master_ufo/Amstelvar-Roman-YTUCmin.ufo" name="Amstelvar-Roman-YTUCmin.ufo" stylename="YTUCmin">
+            <location>
+                <dimension name="wght" xvalue="400" />
+                <dimension name="wdth" xvalue="100" />
+                <dimension name="opsz" xvalue="14" />
+                <dimension name="GRAD" xvalue="0" />
+                <dimension name="XTRA" xvalue="980" />
+                <dimension name="XOPQ" xvalue="176" />
+                <dimension name="YOPQ" xvalue="124" />
+                <dimension name="YTLC" xvalue="500" />
+                <dimension name="YTUC" xvalue="550" />
+                <dimension name="YTAS" xvalue="767" />
+                <dimension name="YTDE" xvalue="240" />
+            </location>
+        </source>
+        <source familyname="Amstelvar" filename="../../../master_ufo/Amstelvar-Roman-YTUCmax.ufo" name="Amstelvar-Roman-YTUCmax.ufo" stylename="YTUCmax">
+            <location>
+                <dimension name="wght" xvalue="400" />
+                <dimension name="wdth" xvalue="100" />
+                <dimension name="opsz" xvalue="14" />
+                <dimension name="GRAD" xvalue="0" />
+                <dimension name="XTRA" xvalue="980" />
+                <dimension name="XOPQ" xvalue="176" />
+                <dimension name="YOPQ" xvalue="124" />
+                <dimension name="YTLC" xvalue="500" />
+                <dimension name="YTUC" xvalue="850" />
+                <dimension name="YTAS" xvalue="767" />
+                <dimension name="YTDE" xvalue="240" />
+            </location>
+        </source>
+        <source familyname="Amstelvar" filename="../../../master_ufo/Amstelvar-Roman-YTASmin.ufo" name="Amstelvar-Roman-YTASmin.ufo" stylename="YTASmin">
+            <location>
+                <dimension name="wght" xvalue="400" />
+                <dimension name="wdth" xvalue="100" />
+                <dimension name="opsz" xvalue="14" />
+                <dimension name="GRAD" xvalue="0" />
+                <dimension name="XTRA" xvalue="980" />
+                <dimension name="XOPQ" xvalue="176" />
+                <dimension name="YOPQ" xvalue="124" />
+                <dimension name="YTLC" xvalue="500" />
+                <dimension name="YTUC" xvalue="750" />
+                <dimension name="YTAS" xvalue="667" />
+                <dimension name="YTDE" xvalue="240" />
+            </location>
+        </source>
+        <source familyname="Amstelvar" filename="../../../master_ufo/Amstelvar-Roman-YTASmax.ufo" name="Amstelvar-Roman-YTASmax.ufo" stylename="YTASmax">
+            <location>
+                <dimension name="wght" xvalue="400" />
+                <dimension name="wdth" xvalue="100" />
+                <dimension name="opsz" xvalue="14" />
+                <dimension name="GRAD" xvalue="0" />
+                <dimension name="XTRA" xvalue="980" />
+                <dimension name="XOPQ" xvalue="176" />
+                <dimension name="YOPQ" xvalue="124" />
+                <dimension name="YTLC" xvalue="500" />
+                <dimension name="YTUC" xvalue="750" />
+                <dimension name="YTAS" xvalue="867" />
+                <dimension name="YTDE" xvalue="240" />
+            </location>
+        </source>
+        <source familyname="Amstelvar" filename="../../../master_ufo/Amstelvar-Roman-YTDEmin.ufo" name="Amstelvar-Roman-YTDEmin.ufo" stylename="YTDEmin">
+            <location>
+                <dimension name="wght" xvalue="400" />
+                <dimension name="wdth" xvalue="100" />
+                <dimension name="opsz" xvalue="14" />
+                <dimension name="GRAD" xvalue="0" />
+                <dimension name="XTRA" xvalue="980" />
+                <dimension name="XOPQ" xvalue="176" />
+                <dimension name="YOPQ" xvalue="124" />
+                <dimension name="YTLC" xvalue="500" />
+                <dimension name="YTUC" xvalue="750" />
+                <dimension name="YTAS" xvalue="767" />
+                <dimension name="YTDE" xvalue="140" />
+            </location>
+        </source>
+        <source familyname="Amstelvar" filename="../../../master_ufo/Amstelvar-Roman-YTDEmax.ufo" name="Amstelvar-Roman-YTDEmax.ufo" stylename="YTDEmax">
+            <location>
+                <dimension name="wght" xvalue="400" />
+                <dimension name="wdth" xvalue="100" />
+                <dimension name="opsz" xvalue="14" />
+                <dimension name="GRAD" xvalue="0" />
+                <dimension name="XTRA" xvalue="980" />
+                <dimension name="XOPQ" xvalue="176" />
+                <dimension name="YOPQ" xvalue="124" />
+                <dimension name="YTLC" xvalue="500" />
+                <dimension name="YTUC" xvalue="750" />
+                <dimension name="YTAS" xvalue="767" />
+                <dimension name="YTDE" xvalue="340" />
+            </location>
+        </source>
+        <source familyname="Amstelvar" filename="../../../master_ufo/Amstelvar-Roman-opsz84-wght100.ufo" name="Amstelvar-Roman-opsz84-wght100.ufo" stylename="opsz84-wght100">
+            <location>
+                <dimension name="wght" xvalue="100" />
+                <dimension name="wdth" xvalue="100" />
+                <dimension name="opsz" xvalue="84" />
+                <dimension name="GRAD" xvalue="0" />
+                <dimension name="XTRA" xvalue="980" />
+                <dimension name="XOPQ" xvalue="176" />
+                <dimension name="YOPQ" xvalue="124" />
+                <dimension name="YTLC" xvalue="500" />
+                <dimension name="YTUC" xvalue="750" />
+                <dimension name="YTAS" xvalue="767" />
+                <dimension name="YTDE" xvalue="240" />
+            </location>
+        </source>
+        <source familyname="Amstelvar" filename="../../../master_ufo/Amstelvar-Roman-opsz144-wght100.ufo" name="Amstelvar-Roman-opsz144-wght100.ufo" stylename="opsz144-wght100">
+            <location>
+                <dimension name="wght" xvalue="100" />
+                <dimension name="wdth" xvalue="100" />
+                <dimension name="opsz" xvalue="144" />
+                <dimension name="GRAD" xvalue="0" />
+                <dimension name="XTRA" xvalue="980" />
+                <dimension name="XOPQ" xvalue="176" />
+                <dimension name="YOPQ" xvalue="124" />
+                <dimension name="YTLC" xvalue="500" />
+                <dimension name="YTUC" xvalue="750" />
+                <dimension name="YTAS" xvalue="767" />
+                <dimension name="YTDE" xvalue="240" />
+            </location>
+        </source>
+        <source familyname="Amstelvar" filename="../../../master_ufo/Amstelvar-Roman-opsz144-wght900-wdth50.ufo" name="Amstelvar-Roman-opsz144-wght900-wdth50.ufo" stylename="opsz144-wght900-wdth50">
+            <location>
+                <dimension name="wght" xvalue="900" />
+                <dimension name="wdth" xvalue="50" />
+                <dimension name="opsz" xvalue="144" />
+                <dimension name="GRAD" xvalue="0" />
+                <dimension name="XTRA" xvalue="980" />
+                <dimension name="XOPQ" xvalue="176" />
+                <dimension name="YOPQ" xvalue="124" />
+                <dimension name="YTLC" xvalue="500" />
+                <dimension name="YTUC" xvalue="750" />
+                <dimension name="YTAS" xvalue="767" />
+                <dimension name="YTDE" xvalue="240" />
+            </location>
+        </source>
+    </sources>
 </designspace>
