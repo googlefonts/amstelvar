@@ -249,14 +249,29 @@
         <dimension name="YTDE" xvalue="240"/>
       </location>
     </source>
-    <source filename="Multivars/Amstelvar-Roman-opsz144-wght900-wdth50.ufo" familyname="Amstelvar" stylename="Roman-opsz144-wght900-wdth50">
+    <source filename="Multivars/Amstelvar-Roman-XOPQmax.ufo" familyname="Amstelvar" stylename="Roman-XOPQmax">
       <location>
         <dimension name="wght" xvalue="900"/>
         <dimension name="wdth" xvalue="50"/>
         <dimension name="opsz" xvalue="144"/>
         <dimension name="GRAD" xvalue="0"/>
         <dimension name="XTRA" xvalue="980"/>
-        <dimension name="XOPQ" xvalue="176"/>
+        <dimension name="XOPQ" xvalue="526"/>
+        <dimension name="YOPQ" xvalue="124"/>
+        <dimension name="YTLC" xvalue="500"/>
+        <dimension name="YTUC" xvalue="750"/>
+        <dimension name="YTAS" xvalue="767"/>
+        <dimension name="YTDE" xvalue="240"/>
+      </location>
+    </source>
+    <source filename="Primary/Amstelvar-Roman-XOPQmin.ufo" familyname="Amstelvar" stylename="Roman-XOPQmin">
+      <location>
+        <dimension name="wght" xvalue="400"/>
+        <dimension name="wdth" xvalue="100"/>
+        <dimension name="opsz" xvalue="14"/>
+        <dimension name="GRAD" xvalue="-1"/>
+        <dimension name="XTRA" xvalue="980"/>
+        <dimension name="XOPQ" xvalue="36"/>
         <dimension name="YOPQ" xvalue="124"/>
         <dimension name="YTLC" xvalue="500"/>
         <dimension name="YTUC" xvalue="750"/>
