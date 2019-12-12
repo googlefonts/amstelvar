@@ -291,14 +291,14 @@ sources = [
 # 	dict(path="master_ufo/Amstelvar-Italic-XTRAmax.ufo", name="Amstelvar-Italic-XTRAmax.ufo", location=dict(XTRA=1104), styleName="XTRAmax", familyName=familyName, copyInfo=False),
 	dict(path="master_ufo/Amstelvar-Italic-YOPQmin.ufo", name="Amstelvar-Italic-YOPQmin.ufo", location=dict(YOPQ=14), styleName="YOPQmin", familyName=familyName, copyInfo=False),
 	dict(path="master_ufo/Amstelvar-Italic-YOPQmax.ufo", name="Amstelvar-Italic-YOPQmax.ufo", location=dict(YOPQ=125), styleName="YOPQmax", familyName=familyName, copyInfo=False),
-# 	dict(path="master_ufo/Amstelvar-Italic-YTLCmin.ufo", name="Amstelvar-Italic-YTLCmin.ufo", location=dict(YTLC=445), styleName="YTLCmin", familyName=familyName, copyInfo=False),
-# 	dict(path="master_ufo/Amstelvar-Italic-YTLCmax.ufo", name="Amstelvar-Italic-YTLCmax.ufo", location=dict(YTLC=600), styleName="YTLCmax", familyName=familyName, copyInfo=False),
-# 	dict(path="master_ufo/Amstelvar-Italic-YTUCmin.ufo", name="Amstelvar-Italic-YTUCmin.ufo", location=dict(YTUC=550), styleName="YTUCmin", familyName=familyName, copyInfo=False),
-# 	dict(path="master_ufo/Amstelvar-Italic-YTUCmax.ufo", name="Amstelvar-Italic-YTUCmax.ufo", location=dict(YTUC=850), styleName="YTUCmax", familyName=familyName, copyInfo=False),
-# 	dict(path="master_ufo/Amstelvar-Italic-YTASmin.ufo", name="Amstelvar-Italic-YTASmin.ufo", location=dict(YTAS=667), styleName="YTASmin", familyName=familyName, copyInfo=False),
-# 	dict(path="master_ufo/Amstelvar-Italic-YTASmax.ufo", name="Amstelvar-Italic-YTASmax.ufo", location=dict(YTAS=867), styleName="YTASmax", familyName=familyName, copyInfo=False),
-# 	dict(path="master_ufo/Amstelvar-Italic-YTDEmin.ufo", name="Amstelvar-Italic-YTDEmin.ufo", location=dict(YTDE=140), styleName="YTDEmin", familyName=familyName, copyInfo=False),
-# 	dict(path="master_ufo/Amstelvar-Italic-YTDEmax.ufo", name="Amstelvar-Italic-YTDEmax.ufo", location=dict(YTDE=340), styleName="YTDEmax", familyName=familyName, copyInfo=False),
+	dict(path="master_ufo/Amstelvar-Italic-YTLCmin.ufo", name="Amstelvar-Italic-YTLCmin.ufo", location=dict(YTLC=445), styleName="YTLCmin", familyName=familyName, copyInfo=False),
+	dict(path="master_ufo/Amstelvar-Italic-YTLCmax.ufo", name="Amstelvar-Italic-YTLCmax.ufo", location=dict(YTLC=600), styleName="YTLCmax", familyName=familyName, copyInfo=False),
+	dict(path="master_ufo/Amstelvar-Italic-YTUCmin.ufo", name="Amstelvar-Italic-YTUCmin.ufo", location=dict(YTUC=550), styleName="YTUCmin", familyName=familyName, copyInfo=False),
+	dict(path="master_ufo/Amstelvar-Italic-YTUCmax.ufo", name="Amstelvar-Italic-YTUCmax.ufo", location=dict(YTUC=850), styleName="YTUCmax", familyName=familyName, copyInfo=False),
+	dict(path="master_ufo/Amstelvar-Italic-YTASmin.ufo", name="Amstelvar-Italic-YTASmin.ufo", location=dict(YTAS=667), styleName="YTASmin", familyName=familyName, copyInfo=False),
+	dict(path="master_ufo/Amstelvar-Italic-YTASmax.ufo", name="Amstelvar-Italic-YTASmax.ufo", location=dict(YTAS=867), styleName="YTASmax", familyName=familyName, copyInfo=False),
+	dict(path="master_ufo/Amstelvar-Italic-YTDEmin.ufo", name="Amstelvar-Italic-YTDEmin.ufo", location=dict(YTDE=140), styleName="YTDEmin", familyName=familyName, copyInfo=False),
+	dict(path="master_ufo/Amstelvar-Italic-YTDEmax.ufo", name="Amstelvar-Italic-YTDEmax.ufo", location=dict(YTDE=340), styleName="YTDEmax", familyName=familyName, copyInfo=False),
 # 
 ##	Multivars
 	dict(path="master_ufo/Amstelvar-Italic-opsz84-wght100.ufo", name="Amstelvar-Italic-opsz84-wght100.ufo", location=dict(wght=100, opsz=84), styleName="opsz84-wght100", familyName=familyName, copyInfo=False),
@@ -319,10 +319,10 @@ axes = [
 	dict(minimum=444, maximum=1104, default=980, name="XTRA", tag="XTRA", labelNames={"en": "XTRA"}, map=[]),
 # 	dict(minimum=36, maximum=526, default=176, name="XOPQ", tag="XOPQ", labelNames={"en": "XOPQ"}, map=[]),
 	dict(minimum=14, maximum=125, default=54, name="YOPQ", tag="YOPQ", labelNames={"en": "YOPQ"}, map=[]),
-# 	dict(minimum=445, maximum=600, default=500, name="YTLC", tag="YTLC", labelNames={"en": "YTLC"}, map=[]),
-# 	dict(minimum=550, maximum=850, default=750, name="YTUC", tag="YTUC", labelNames={"en": "YTUC"}, map=[]),
-# 	dict(minimum=667, maximum=867, default=767, name="YTAS", tag="YTAS", labelNames={"en": "YTAS"}, map=[]),
-# 	dict(minimum=140, maximum=340, default=240, name="YTDE", tag="YTDE", labelNames={"en": "YTDE"}, map=[]),
+	dict(minimum=445, maximum=600, default=500, name="YTLC", tag="YTLC", labelNames={"en": "YTLC"}, map=[]),
+	dict(minimum=550, maximum=850, default=750, name="YTUC", tag="YTUC", labelNames={"en": "YTUC"}, map=[]),
+	dict(minimum=667, maximum=867, default=767, name="YTAS", tag="YTAS", labelNames={"en": "YTAS"}, map=[]),
+	dict(minimum=140, maximum=340, default=240, name="YTDE", tag="YTDE", labelNames={"en": "YTDE"}, map=[]),
 
 ]
 
