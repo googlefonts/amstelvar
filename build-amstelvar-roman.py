@@ -307,7 +307,8 @@ sources = [
 ##	Multivars
 	dict(path="master_ufo/Amstelvar-Roman-opsz84-wght100.ufo", name="Amstelvar-Roman-opsz84-wght100.ufo", location=dict(wght=100, opsz=84), styleName="opsz84-wght100", familyName=familyName, copyInfo=False),
 	dict(path="master_ufo/Amstelvar-Roman-opsz144-wght100.ufo", name="Amstelvar-Roman-opsz144-wght100.ufo", location=dict(wght=100, opsz=144), styleName="opsz144-wght100", familyName=familyName, copyInfo=False),
-	dict(path="master_ufo/Amstelvar-Roman-opsz144-wght900-wdth50.ufo", name="Amstelvar-Roman-opsz144-wght900-wdth50.ufo", location=dict(wght=900, wdth=50, opsz=144), styleName="opsz144-wght900-wdth50", familyName=familyName, copyInfo=False),
+	dict(path="master_ufo/Amstelvar-Roman-opsz144-wght100-wdth50.ufo", name="Amstelvar-Roman-opsz144-wght100-wdth50.ufo", location=dict(wght=100, opsz=144, wdth=50, ), styleName="opsz144-wght100-wdth50", familyName=familyName, copyInfo=False),
+	dict(path="master_ufo/Amstelvar-Roman-opsz144-wght900-wdth50.ufo", name="Amstelvar-Roman-opsz144-wght900-wdth50.ufo", location=dict(wght=900, opsz=144, wdth=50), styleName="opsz144-wght900-wdth50", familyName=familyName, copyInfo=False),
 	
 ]
 #instances = []
