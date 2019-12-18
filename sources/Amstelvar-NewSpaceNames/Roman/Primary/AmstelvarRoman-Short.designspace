@@ -7,6 +7,10 @@
   </axes>
   <sources>
     <source filename="Amstelvar-Roman.ufo" familyname="Amstelvar" stylename="Roman">
+      <lib copy="1"/>
+      <groups copy="1"/>
+      <features copy="1"/>
+      <info copy="1"/>
       <location>
         <dimension name="weight" xvalue="400"/>
         <dimension name="width" xvalue="100"/>
@@ -88,6 +92,20 @@
         <dimension name="weight" xvalue="400"/>
         <dimension name="width" xvalue="100"/>
         <dimension name="size" xvalue="36"/>
+      </location>
+    </source>
+    <source filename="../Multivars/Amstelvar-Roman-opsz144-wght100-wdth125.ufo" familyname="Amstelvar" stylename="Roman-opsz144-wght100-wdth125">
+      <location>
+        <dimension name="weight" xvalue="100"/>
+        <dimension name="width" xvalue="125"/>
+        <dimension name="size" xvalue="144"/>
+      </location>
+    </source>
+    <source filename="../Multivars/Amstelvar-Roman-opsz144-wght100-wdth50.ufo" familyname="Amstelvar" stylename="Roman-opsz144-wght100-wdth50.ufo">
+      <location>
+        <dimension name="weight" xvalue="100"/>
+        <dimension name="width" xvalue="50"/>
+        <dimension name="size" xvalue="144"/>
       </location>
     </source>
   </sources>
