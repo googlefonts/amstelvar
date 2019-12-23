@@ -196,11 +196,7 @@ if os.path.exists("sources/1-drawings"):
 
 
 # New
-src = {	"sources/Amstelvar-NewSpaceNames/Roman/Primary",
-		"sources/Amstelvar-NewSpaceNames/Roman/Parametric",
-		"sources/Amstelvar-NewSpaceNames/Roman/Multivars",
-		"sources/Amstelvar-NewSpaceNames/Roman/opsz",
-		"sources/Amstelvar-NewSpaceNames/Roman/Ytrans",
+src = {	"sources/Amstelvar-NewSpaceNames/Roman",
 		
 		}
 	
