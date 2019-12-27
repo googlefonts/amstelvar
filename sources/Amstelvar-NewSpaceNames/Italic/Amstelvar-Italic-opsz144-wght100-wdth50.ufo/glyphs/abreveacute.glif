@@ -1,16 +1,18 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="abreveacute" format="2">
-  <advance width="670"/>
-  <unicode hex="1EAF"/>
-  <outline>
-    <component base="a"/>
-    <component base="brevecomb" xOffset="-53.52302566995678" yOffset="11"/>
-    <component base="acutecomb" xOffset="-24.708829882447787" yOffset="280"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.8337,1,0.1931,1</string>
-    </dict>
-  </lib>
+	<advance width="665"/>
+	<unicode hex="1EAF"/>
+	<outline>
+		<component base="a"/>
+		<component base="brevecomb" xOffset="-53.523" yOffset="11"/>
+		<component base="acutecomb" xOffset="-24.709" yOffset="280"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2019-12-27 16:08:44 +0000</string>
+			<key>public.markColor</key>
+			<string>0.83,1,0.19,1</string>
+		</dict>
+	</lib>
 </glyph>

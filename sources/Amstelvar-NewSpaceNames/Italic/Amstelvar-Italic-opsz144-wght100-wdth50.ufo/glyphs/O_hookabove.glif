@@ -1,15 +1,17 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Ohookabove" format="2">
-  <advance width="817"/>
-  <unicode hex="1ECE"/>
-  <outline>
-    <component base="O"/>
-    <component base="hookabovecomb.case" xOffset="-17.638522027119677" yOffset="-33"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.8337,1,0.1931,1</string>
-    </dict>
-  </lib>
+	<advance width="833"/>
+	<unicode hex="1ECE"/>
+	<outline>
+		<component base="O"/>
+		<component base="hookabovecomb.case" xOffset="-17.639" yOffset="-33"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2019-12-27 16:08:44 +0000</string>
+			<key>public.markColor</key>
+			<string>0.83,1,0.19,1</string>
+		</dict>
+	</lib>
 </glyph>

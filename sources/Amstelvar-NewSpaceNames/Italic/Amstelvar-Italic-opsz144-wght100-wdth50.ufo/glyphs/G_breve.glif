@@ -1,15 +1,17 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Gbreve" format="2">
-  <advance width="747"/>
-  <unicode hex="011E"/>
-  <outline>
-    <component base="G"/>
-    <component base="brevecomb.case" xOffset="-26.550932151442453" yOffset="33"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.8337,1,0.1931,1</string>
-    </dict>
-  </lib>
+	<advance width="688"/>
+	<unicode hex="011E"/>
+	<outline>
+		<component base="G"/>
+		<component base="brevecomb.case" xOffset="-26.551" yOffset="33"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2019-12-27 16:08:44 +0000</string>
+			<key>public.markColor</key>
+			<string>0.83,1,0.19,1</string>
+		</dict>
+	</lib>
 </glyph>

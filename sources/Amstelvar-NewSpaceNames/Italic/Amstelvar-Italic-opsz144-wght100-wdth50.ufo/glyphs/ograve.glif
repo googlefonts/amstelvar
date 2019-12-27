@@ -1,15 +1,17 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ograve" format="2">
-  <advance width="668"/>
-  <unicode hex="00F2"/>
-  <outline>
-    <component base="o"/>
-    <component base="gravecomb" xOffset="-60.801564091378054" yOffset="25"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.8337,1,0.1931,1</string>
-    </dict>
-  </lib>
+	<advance width="616"/>
+	<unicode hex="00F2"/>
+	<outline>
+		<component base="o"/>
+		<component base="gravecomb" xOffset="-60.802" yOffset="25"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2019-12-27 16:08:44 +0000</string>
+			<key>public.markColor</key>
+			<string>0.83,1,0.19,1</string>
+		</dict>
+	</lib>
 </glyph>

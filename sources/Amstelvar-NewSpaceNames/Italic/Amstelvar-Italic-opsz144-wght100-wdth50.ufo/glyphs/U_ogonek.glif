@@ -1,15 +1,15 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Uogonek" format="2">
-  <advance width="889"/>
-  <unicode hex="0172"/>
-  <outline>
-    <component base="U"/>
-    <component base="ogonekcomb.case" xOffset="-10.607401897519708" yOffset="17.02469135802471"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.8337,1,0.1931,1</string>
-    </dict>
-  </lib>
+	<advance width="889"/>
+	<unicode hex="0172"/>
+	<outline>
+		<component base="U"/>
+		<component base="ogonekcomb.case" xOffset="-10.607" yOffset="17.025"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0.83,1,0.19,1</string>
+		</dict>
+	</lib>
 </glyph>
