@@ -1,41 +1,41 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="zero" format="2">
-	<advance width="824"/>
-	<unicode hex="0030"/>
-	<outline>
-		<contour>
-			<point x="218" y="852" type="qcurve" smooth="yes"/>
-			<point x="299" y="1177"/>
-			<point x="574" y="1536"/>
-			<point x="709" y="1511" type="qcurve" smooth="yes"/>
-			<point x="835" y="1488"/>
-			<point x="918" y="1062"/>
-			<point x="833" y="699" type="qcurve" smooth="yes"/>
-			<point x="761" y="390"/>
-			<point x="464" y="-51"/>
-			<point x="312" y="-23" type="qcurve" smooth="yes"/>
-			<point x="184" y="1"/>
-			<point x="130" y="500"/>
-		</contour>
-		<contour>
-			<point x="295" y="832" type="qcurve" smooth="yes"/>
-			<point x="221" y="518"/>
-			<point x="215" y="28"/>
-			<point x="324" y="6" type="qcurve" smooth="yes"/>
-			<point x="446" y="-19"/>
-			<point x="689" y="418"/>
-			<point x="762" y="745" type="qcurve" smooth="yes"/>
-			<point x="834" y="1081"/>
-			<point x="812" y="1461"/>
-			<point x="697" y="1483" type="qcurve" smooth="yes"/>
-			<point x="580" y="1505"/>
-			<point x="367" y="1138"/>
-		</contour>
-	</outline>
-	<lib>
-		<dict>
-			<key>public.markColor</key>
-			<string>0.32,0.68,0.41,1</string>
-		</dict>
-	</lib>
+  <advance width="550"/>
+  <unicode hex="0030"/>
+  <outline>
+    <contour>
+      <point x="79" y="841" type="qcurve" smooth="yes"/>
+      <point x="157" y="1166"/>
+      <point x="383" y="1528"/>
+      <point x="489" y="1511" type="qcurve" smooth="yes"/>
+      <point x="584" y="1496"/>
+      <point x="602" y="1079"/>
+      <point x="518" y="737" type="qcurve" smooth="yes"/>
+      <point x="437" y="409"/>
+      <point x="217" y="-32"/>
+      <point x="96" y="-11" type="qcurve" smooth="yes"/>
+      <point x="-3" y="6"/>
+      <point x="-5" y="489"/>
+    </contour>
+    <contour>
+      <point x="139" y="821" type="qcurve" smooth="yes"/>
+      <point x="65" y="507"/>
+      <point x="24" y="19"/>
+      <point x="104" y="6" type="qcurve" smooth="yes"/>
+      <point x="195" y="-9"/>
+      <point x="383" y="436"/>
+      <point x="459" y="761" type="qcurve" smooth="yes"/>
+      <point x="538" y="1097"/>
+      <point x="564" y="1479"/>
+      <point x="480" y="1493" type="qcurve" smooth="yes"/>
+      <point x="392" y="1508"/>
+      <point x="211" y="1127"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.32,0.68,0.41,1</string>
+    </dict>
+  </lib>
 </glyph>
