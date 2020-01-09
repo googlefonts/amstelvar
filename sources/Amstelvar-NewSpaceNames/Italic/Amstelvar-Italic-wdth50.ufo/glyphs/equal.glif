@@ -4,20 +4,26 @@
   <unicode hex="003D"/>
   <outline>
     <contour>
-      <point x="185" y="391" type="line"/>
-      <point x="185" y="532" type="line"/>
-      <point x="509" y="528" type="line"/>
-      <point x="837" y="532" type="line"/>
-      <point x="837" y="391" type="line"/>
-      <point x="509" y="395" type="line"/>
+      <point x="125" y="391" type="line"/>
+      <point x="125" y="532" type="line"/>
+      <point x="449" y="528" type="line"/>
+      <point x="777" y="532" type="line"/>
+      <point x="777" y="391" type="line"/>
+      <point x="449" y="395" type="line"/>
     </contour>
     <contour>
-      <point x="185" y="710" type="line"/>
-      <point x="185" y="851" type="line"/>
-      <point x="509" y="847" type="line"/>
-      <point x="837" y="851" type="line"/>
-      <point x="837" y="710" type="line"/>
-      <point x="509" y="714" type="line"/>
+      <point x="125" y="710" type="line"/>
+      <point x="125" y="851" type="line"/>
+      <point x="449" y="847" type="line"/>
+      <point x="777" y="851" type="line"/>
+      <point x="777" y="710" type="line"/>
+      <point x="449" y="714" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>1,0.8,0.2,1</string>
+    </dict>
+  </lib>
 </glyph>
