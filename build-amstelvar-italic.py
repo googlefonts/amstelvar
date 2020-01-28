@@ -197,7 +197,8 @@ if os.path.exists("sources/1-drawings"):
 
 # New
 src = {	"sources/Amstelvar-NewSpaceNames/Italic",
-		"sources/Amstelvar-NewSpaceNames/Italic/Italic Parametric Axes",	
+		"sources/Amstelvar-NewSpaceNames/Italic/Italic Parametric Axes",
+		"sources/Amstelvar-NewSpaceNames/Italic/Put-asides",	
 		
 		}
 	
@@ -279,8 +280,8 @@ sources = [
 	dict(path="master_ufo/Amstelvar-Italic-wght100.ufo", name="Amstelvar-Italic-wght100.ufo", location=dict(wght=100), styleName="wght100", familyName=familyName, copyInfo=False),
 	dict(path="master_ufo/Amstelvar-Italic-wght900.ufo", name="Amstelvar-Italic-wght900.ufo", location=dict(wght=900), styleName="wght900", familyName=familyName, copyInfo=False),
 	dict(path="master_ufo/Amstelvar-Italic-opsz8.ufo", name="Amstelvar-Italic-opsz8.ufo", location=dict(opsz=8), styleName="opsz8", familyName=familyName, copyInfo=False),
-	#dict(path="master_ufo/Amstelvar-Italic-opsz36.ufo", name="Amstelvar-Italic-opsz36.ufo", location=dict(opsz=36), styleName="opsz36", familyName=familyName, copyInfo=False),
-	#dict(path="master_ufo/Amstelvar-Italic-opsz84.ufo", name="Amstelvar-Italic-opsz84.ufo", location=dict(opsz=84), styleName="opsz84", familyName=familyName, copyInfo=False),
+	dict(path="master_ufo/Amstelvar-Italic-opsz36.ufo", name="Amstelvar-Italic-opsz36.ufo", location=dict(opsz=36), styleName="opsz36", familyName=familyName, copyInfo=False),
+	dict(path="master_ufo/Amstelvar-Italic-opsz84.ufo", name="Amstelvar-Italic-opsz84.ufo", location=dict(opsz=84), styleName="opsz84", familyName=familyName, copyInfo=False),
 	dict(path="master_ufo/Amstelvar-Italic-opsz144.ufo", name="Amstelvar-Italic-opsz144.ufo", location=dict(opsz=144), styleName="opsz144", familyName=familyName, copyInfo=False),
 	dict(path="master_ufo/Amstelvar-Italic-wdth50.ufo", name="Amstelvar-Italic-wdth50.ufo", location=dict(wdth=50), styleName="wdth50", familyName=familyName, copyInfo=False),
 	dict(path="master_ufo/Amstelvar-Italic-wdth125.ufo", name="Amstelvar-Italic-wdth125.ufo", location=dict(wdth=125), styleName="wdth125", familyName=familyName, copyInfo=False),
@@ -303,6 +304,10 @@ sources = [
 # 
 ##	Multivars
 	#dict(path="master_ufo/Amstelvar-Italic-opsz84-wght100.ufo", name="Amstelvar-Italic-opsz84-wght100.ufo", location=dict(wght=100, opsz=84), styleName="opsz84-wght100", familyName=familyName, copyInfo=False),
+	dict(path="master_ufo/Amstlevar-Italic-opsz8-wght100-wdth50.ufo", name="Amstlevar-Italic-opsz8-wght100-wdth50.ufo", location=dict(wght=100, opsz=8, wdth=50), styleName="opsz8-wght100-wdth50", familyName=familyName, copyInfo=False),
+	dict(path="master_ufo/Amstlevar-Italic-opsz8-wght100-wdth100.ufo", name="Amstlevar-Italic-opsz8-wght100-wdth100.ufo", location=dict(wght=100, opsz=8, wdth=100), styleName="opsz8-wght100-wdth100", familyName=familyName, copyInfo=False),
+	dict(path="master_ufo/Amstlevar-Italic-opsz8-wght100-wdth125.ufo", name="Amstlevar-Italic-opsz8-wght100-wdth125.ufo", location=dict(wght=100, opsz=8, wdth=125), styleName="opsz8-wght100-wdth125", familyName=familyName, copyInfo=False),
+	
 	dict(path="master_ufo/Amstelvar-Italic-opsz144-wght100.ufo", name="Amstelvar-Italic-opsz144-wght100.ufo", location=dict(wght=100, opsz=144), styleName="opsz144-wght100", familyName=familyName, copyInfo=False),
 	dict(path="master_ufo/Amstelvar-Italic-opsz144-wght100-wdth50.ufo", name="Amstelvar-Italic-opsz144-wght100-wdth50.ufo", location=dict(wght=100, opsz=144, wdth=50), styleName="opsz144-wght100-wdth50.", familyName=familyName, copyInfo=False),
 	dict(path="master_ufo/Amstelvar-Italic-opsz144-wght100-wdth125.ufo", name="Amstelvar-Italic-opsz144-wght100-wdth125.ufo", location=dict(wght=100, opsz=144, wdth=125), styleName="opsz144-wght100-wdth125", familyName=familyName, copyInfo=False),
