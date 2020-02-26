@@ -338,7 +338,7 @@ axes = [
 	
 	dict(minimum=100, maximum=900, default=400, name="wght", tag="wght", labelNames={"en": "wght"}, map=[]),
 	dict(minimum=50, maximum=125, default=100, name="wdth", tag="wdth", labelNames={"en": "wdth"}, map=[]),
-	dict(minimum=8, maximum=144, default=14, name="opsz", tag="opsz", labelNames={"en": "opsz"}, map=[ (8.0, -1), (14.0, 0), (24.0, 0.12), (78.0, 0.21), (137.0, 0.56), (144.0, 1.0) ]),
+	dict(minimum=8, maximum=144, default=14, name="opsz", tag="opsz", labelNames={"en": "opsz"}, map=[ (8.0, -1), (14.0, 0), (24.0, 0.077), (78.0, 0.492), (137.0, 0.946), (144.0, 1.0) ]),
 	dict(minimum=-1, maximum=1, default=0, name="GRAD", tag="GRAD", labelNames={"en": "GRAD"}, map=[]),
 	dict(minimum=324, maximum=640, default=562, name="XTRA", tag="XTRA", labelNames={"en": "XTRA"}, map=[]),
 	dict(minimum=18, maximum=263, default=176, name="XOPQ", tag="XOPQ", labelNames={"en": "XOPQ"}, map=[]),
