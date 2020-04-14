@@ -217,12 +217,12 @@ sources = [
 ##	Main 
 	dict(path="master_ufo/Amstelvar-Roman-GRAD-1.ufo", name="Amstelvar-Roman-GRAD-1.ufo", location=dict(GRAD=-1, opsz=0), styleName="GRAD-1", familyName=familyName, copyInfo=False),
 	dict(path="master_ufo/Amstelvar-Roman-GRAD1.ufo", name="Amstelvar-Roman-GRAD1.ufo", location=dict(GRAD=1, opsz=0), styleName="GRAD1", familyName=familyName, copyInfo=False),	
-	dict(path="master_ufo/Amstelvar-Roman-wght100.ufo", name="Amstelvar-Roman-wght100.ufo", location=dict(wght=100, opsz=0), styleName="wght100", familyName=familyName, copyInfo=False),
-	dict(path="master_ufo/Amstelvar-Roman-wght900.ufo", name="Amstelvar-Roman-wght900.ufo", location=dict(wght=900, opsz=0), styleName="wght900", familyName=familyName, copyInfo=False),
+	dict(path="master_ufo/Amstelvar-Roman-opsz14-wght100-wdth100.ufo", name="Amstelvar-Roman-opsz14-wght100-wdth100.ufo", location=dict(wght=100, opsz=0), styleName="wght100", familyName=familyName, copyInfo=False),
+	dict(path="master_ufo/Amstelvar-Roman-opsz14-wght900-wdth100.ufo", name="Amstelvar-Roman-opsz14-wght900-wdth100.ufo", location=dict(wght=900, opsz=0), styleName="wght900", familyName=familyName, copyInfo=False),
 	dict(path="master_ufo/Amstelvar-Roman-opsz8.ufo", name="Amstelvar-Roman-opsz8.ufo", location=dict(opsz=-1), styleName="opsz8", familyName=familyName, copyInfo=False),
 	dict(path="master_ufo/Amstelvar-Roman-opsz144.ufo", name="Amstelvar-Roman-opsz144.ufo", location=dict(opsz=1), styleName="opsz144", familyName=familyName, copyInfo=False),
-	dict(path="master_ufo/Amstelvar-Roman-wdth50.ufo", name="Amstelvar-Roman-wdth50.ufo", location=dict(wdth=50, opsz=0), styleName="wdth50", familyName=familyName, copyInfo=False),
-	dict(path="master_ufo/Amstelvar-Roman-wdth125.ufo", name="Amstelvar-Roman-wdth125.ufo", location=dict(wdth=125, opsz=0), styleName="wdth125", familyName=familyName, copyInfo=False),
+	dict(path="master_ufo/Amstelvar-Roman-opsz14-wght400-wdth50.ufo", name="Amstelvar-Roman-opsz14-wght400-wdth50.ufo", location=dict(wdth=50, opsz=0), styleName="wdth50", familyName=familyName, copyInfo=False),
+	dict(path="master_ufo/Amstelvar-Roman-opsz14-wght400-wdth125.ufo", name="Amstelvar-Roman-opsz14-wght400-wdth125.ufo", location=dict(wdth=125, opsz=0), styleName="wdth125", familyName=familyName, copyInfo=False),
 
 ##	Parametric
 	dict(path="master_ufo/Amstelvar-Roman-XOPQ18.ufo", name="Amstelvar-Roman-XOPQ18.ufo", location=dict(XOPQ=18, opsz=0), styleName="XOPQ18", familyName=familyName, copyInfo=False),
@@ -261,8 +261,8 @@ sources = [
 	dict(path="master_ufo/Amstelvar-Roman-opsz14-wght900-wdth50.ufo", name="Amstelvar-Roman-opsz14-wght900-wdth50.ufo", location=dict(wght=900, opsz=0, wdth=50), styleName="opsz14-wght900-wdth50", familyName=familyName, copyInfo=False),
 	dict(path="master_ufo/Amstelvar-Roman-opsz14-wght900-wdth125.ufo", name="Amstelvar-Roman-opsz14-wght900-wdth125.ufo", location=dict(wght=900, opsz=0, wdth=125), styleName="opsz14-wght900-wdth125", familyName=familyName, copyInfo=False),
 	
-	dict(path="master_ufo/Amstelvar-Roman-opsz144-wght100.ufo", name="Amstelvar-Roman-opsz144-wght100.ufo", location=dict(wght=100, opsz=1), styleName="opsz144-wght100", familyName=familyName, copyInfo=False),
 	dict(path="master_ufo/Amstelvar-Roman-opsz144-wght100-wdth50.ufo", name="Amstelvar-Roman-opsz144-wght100-wdth50.ufo", location=dict(wght=100, opsz=1, wdth=50), styleName="opsz144-wght100-wdth50", familyName=familyName, copyInfo=False),
+	dict(path="master_ufo/Amstelvar-Roman-opsz144-wght100-wdth100.ufo", name="Amstelvar-Roman-opsz144-wght100-wdth100.ufo", location=dict(wght=100, opsz=1), styleName="opsz144-wght100-wdth100", familyName=familyName, copyInfo=False),
 	dict(path="master_ufo/Amstelvar-Roman-opsz144-wght100-wdth125.ufo", name="Amstelvar-Roman-opsz144-wght100-wdth125.ufo", location=dict(wght=100, opsz=1, wdth=125), styleName="opsz144-wght100-wdth125", familyName=familyName, copyInfo=False),
 	
 	dict(path="master_ufo/Amstelvar-Roman-opsz144-wght400-wdth50.ufo", name="Amstelvar-Roman-opsz144-wght400-wdth50.ufo", location=dict(wght=400, opsz=1, wdth=50), styleName="opsz144-wght400-wdth50", familyName=familyName, copyInfo=False),
