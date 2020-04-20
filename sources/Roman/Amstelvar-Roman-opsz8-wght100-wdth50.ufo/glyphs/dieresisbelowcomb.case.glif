@@ -2,33 +2,6 @@
 <glyph name="dieresisbelowcomb.case" format="2">
   <advance width="1024"/>
   <outline>
-    <contour>
-      <point x="592" y="-222" type="qcurve" smooth="yes"/>
-      <point x="592" y="-180"/>
-      <point x="640" y="-132"/>
-      <point x="676" y="-132" type="qcurve" smooth="yes"/>
-      <point x="712" y="-132"/>
-      <point x="763" y="-181.0"/>
-      <point x="763" y="-222" type="qcurve" smooth="yes"/>
-      <point x="763" y="-266"/>
-      <point x="714.0" y="-314"/>
-      <point x="676" y="-314" type="qcurve" smooth="yes"/>
-      <point x="642.0" y="-314"/>
-      <point x="592" y="-265.0"/>
-    </contour>
-    <contour>
-      <point x="261" y="-222" type="qcurve" smooth="yes"/>
-      <point x="261" y="-180"/>
-      <point x="311.0" y="-132"/>
-      <point x="348" y="-132" type="qcurve" smooth="yes"/>
-      <point x="382" y="-132"/>
-      <point x="432" y="-181.0"/>
-      <point x="432" y="-222" type="qcurve" smooth="yes"/>
-      <point x="432" y="-266"/>
-      <point x="385" y="-314"/>
-      <point x="348" y="-314" type="qcurve" smooth="yes"/>
-      <point x="312" y="-314"/>
-      <point x="261" y="-265.0"/>
-    </contour>
+    <component base="dieresisbelowcomb"/>
   </outline>
 </glyph>
