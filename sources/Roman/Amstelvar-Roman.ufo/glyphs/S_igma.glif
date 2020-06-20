@@ -1,7 +1,34 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Sigma" format="2">
-  <advance width="500"/>
+  <advance width="1173"/>
   <unicode hex="03A3"/>
   <outline>
+    <contour>
+      <point x="70" y="0" type="line"/>
+      <point x="40" y="92" type="line"/>
+      <point x="523" y="739" type="line"/>
+      <point x="95" y="1389" type="line"/>
+      <point x="95" y="1500" type="line"/>
+      <point x="1116" y="1500" type="line"/>
+      <point x="1116" y="1058" type="line"/>
+      <point x="994" y="1058" type="line"/>
+      <point x="958" y="1382" type="line"/>
+      <point x="354" y="1382" type="line"/>
+      <point x="345" y="1374" type="line"/>
+      <point x="713" y="805" type="line"/>
+      <point x="713" y="763" type="line"/>
+      <point x="228" y="134" type="line"/>
+      <point x="236" y="128" type="line"/>
+      <point x="967" y="128" type="line"/>
+      <point x="1043" y="398" type="line"/>
+      <point x="1153" y="398" type="line"/>
+      <point x="1106" y="0" type="line"/>
+    </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.4,0.8,0.9989,1</string>
+    </dict>
+  </lib>
 </glyph>
