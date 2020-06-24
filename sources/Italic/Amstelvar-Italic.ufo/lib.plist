@@ -31,13 +31,13 @@
     <key>com.typemytype.robofont.compileSettings.decompose</key>
     <integer>1</integer>
     <key>com.typemytype.robofont.compileSettings.generateFormat</key>
-    <integer>0</integer>
+    <integer>1</integer>
     <key>com.typemytype.robofont.compileSettings.layerName</key>
     <string>foreground</string>
     <key>com.typemytype.robofont.compileSettings.path</key>
-    <string>/Users/richardlipton/Desktop/Git fonts/Amstelvar/sources/Amstelvar-NewCharset/Italic/Amstelvar-Italic.otf</string>
+    <string>/Users/iv/Documents/Github/Amstelvar/sources/Roman/GRK_Preview/20200624/Amstelvar-Italic.ttf</string>
     <key>com.typemytype.robofont.compileSettings.releaseMode</key>
-    <false/>
+    <integer>1</integer>
     <key>com.typemytype.robofont.foreground.layerStrokeColor</key>
     <array>
       <real>0.5</real>
@@ -45,21 +45,9 @@
       <real>0.5</real>
       <real>0.7</real>
     </array>
-    <key>com.typemytype.robofont.guideline.magnetic.5kX0M0UC7I</key>
+    <key>com.typemytype.robofont.guideline.magnetic.KYEZcHzWMr</key>
     <real>5.0</real>
-    <key>com.typemytype.robofont.guideline.magnetic.CvYZemKuUu</key>
-    <real>5.0</real>
-    <key>com.typemytype.robofont.guideline.magnetic.RQzTGkD5rV</key>
-    <real>5.0</real>
-    <key>com.typemytype.robofont.guideline.magnetic.cHods2VRcs</key>
-    <real>5.0</real>
-    <key>com.typemytype.robofont.guideline.showMeasurements.5kX0M0UC7I</key>
-    <false/>
-    <key>com.typemytype.robofont.guideline.showMeasurements.CvYZemKuUu</key>
-    <false/>
-    <key>com.typemytype.robofont.guideline.showMeasurements.RQzTGkD5rV</key>
-    <false/>
-    <key>com.typemytype.robofont.guideline.showMeasurements.cHods2VRcs</key>
+    <key>com.typemytype.robofont.guideline.showMeasurements.KYEZcHzWMr</key>
     <false/>
     <key>com.typemytype.robofont.italicSlantOffset</key>
     <integer>0</integer>
@@ -1419,12 +1407,12 @@
     <array>
       <string>space</string>
       <string>exclam</string>
+      <string>quotesingle</string>
       <string>quotedbl</string>
       <string>numbersign</string>
       <string>dollar</string>
       <string>percent</string>
       <string>ampersand</string>
-      <string>quotesingle</string>
       <string>parenleft</string>
       <string>parenright</string>
       <string>asterisk</string>
@@ -1522,6 +1510,7 @@
       <string>dieresis</string>
       <string>copyright</string>
       <string>ordfeminine</string>
+      <string>guillemetleft</string>
       <string>logicalnot</string>
       <string>registered</string>
       <string>macron</string>
@@ -1535,6 +1524,7 @@
       <string>cedilla</string>
       <string>onesuperior</string>
       <string>ordmasculine</string>
+      <string>guillemetright</string>
       <string>onequarter</string>
       <string>onehalf</string>
       <string>threequarters</string>
@@ -1564,7 +1554,6 @@
       <string>Odieresis</string>
       <string>multiply</string>
       <string>Oslash</string>
-      <string>OE</string>
       <string>Ugrave</string>
       <string>Uacute</string>
       <string>Ucircumflex</string>
@@ -1597,7 +1586,6 @@
       <string>odieresis</string>
       <string>divide</string>
       <string>oslash</string>
-      <string>oe</string>
       <string>ugrave</string>
       <string>uacute</string>
       <string>ucircumflex</string>
@@ -1616,6 +1604,8 @@
       <string>quoteleft</string>
       <string>quoteright</string>
       <string>minus</string>
+      <string>OE</string>
+      <string>oe</string>
       <string>nbspace</string>
       <string>Amacron</string>
       <string>Abreve</string>
@@ -1958,8 +1948,6 @@
       <string>quotedblbase</string>
       <string>guilsinglleft</string>
       <string>guilsinglright</string>
-      <string>guillemetleft</string>
-      <string>guillemetright</string>
       <string>dagger</string>
       <string>daggerdbl</string>
       <string>ellipsis</string>
@@ -2066,6 +2054,93 @@
       <string>eight.lc</string>
       <string>nine.lc</string>
       <string>dollar.rvrn2</string>
+      <string>Alpha</string>
+      <string>Alphatonos</string>
+      <string>Beta</string>
+      <string>Gamma</string>
+      <string>Delta</string>
+      <string>Epsilon</string>
+      <string>Epsilontonos</string>
+      <string>Zeta</string>
+      <string>Eta</string>
+      <string>Etatonos</string>
+      <string>Theta</string>
+      <string>Iota</string>
+      <string>Iotatonos</string>
+      <string>Iotadieresis</string>
+      <string>Kappa</string>
+      <string>Lambda</string>
+      <string>Mu</string>
+      <string>Nu</string>
+      <string>Xi</string>
+      <string>Omicron</string>
+      <string>Omicrontonos</string>
+      <string>Pi</string>
+      <string>Rho</string>
+      <string>Sigma</string>
+      <string>Tau</string>
+      <string>Upsilon</string>
+      <string>Upsilontonos</string>
+      <string>Upsilondieresis</string>
+      <string>Phi</string>
+      <string>Chi</string>
+      <string>Psi</string>
+      <string>Omega</string>
+      <string>Omegatonos</string>
+      <string>Kaisymbol</string>
+      <string>ohm</string>
+      <string>alpha</string>
+      <string>alphatonos</string>
+      <string>beta</string>
+      <string>gamma</string>
+      <string>delta</string>
+      <string>epsilon</string>
+      <string>epsilontonos</string>
+      <string>zeta</string>
+      <string>eta</string>
+      <string>etatonos</string>
+      <string>theta</string>
+      <string>iota</string>
+      <string>iotadieresistonos</string>
+      <string>iotatonos</string>
+      <string>iotadieresis</string>
+      <string>kappa</string>
+      <string>lambda</string>
+      <string>mu</string>
+      <string>nu</string>
+      <string>xi</string>
+      <string>omicron</string>
+      <string>omicrontonos</string>
+      <string>pi</string>
+      <string>rho</string>
+      <string>finalsigma</string>
+      <string>sigma</string>
+      <string>tau</string>
+      <string>upsilon</string>
+      <string>upsilondieresistonos</string>
+      <string>upsilondieresis</string>
+      <string>upsilontonos</string>
+      <string>phi</string>
+      <string>chi</string>
+      <string>psi</string>
+      <string>omega</string>
+      <string>omegatonos</string>
+      <string>numeralsign</string>
+      <string>kaisymbol</string>
+      <string>gr:question</string>
+      <string>anoteleia</string>
+      <string>increment</string>
+      <string>dieresistonos</string>
+      <string>lownumeralsign</string>
+      <string>tonos</string>
+      <string>dieresistonoscmb</string>
+      <string>tonoscmb</string>
+      <string>tonos.case</string>
+    </array>
+    <key>public.skipExportGlyphs</key>
+    <array>
+      <string>Kaisymbol</string>
+      <string>kaisymbol</string>
     </array>
     <key>tnCurvePalet</key>
     <dict>
