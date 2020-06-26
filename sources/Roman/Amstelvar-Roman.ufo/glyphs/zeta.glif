@@ -1,7 +1,43 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="zeta" format="2">
-  <advance width="500"/>
+  <advance width="919"/>
   <unicode hex="03B6"/>
   <outline>
+    <contour>
+      <point x="768" y="-313" type="line"/>
+      <point x="768" y="-182" type="line" smooth="yes"/>
+      <point x="768" y="-108"/>
+      <point x="730" y="-41"/>
+      <point x="659" y="-38" type="qcurve" smooth="yes"/>
+      <point x="633" y="-37" type="line" smooth="yes"/>
+      <point x="365" y="-27"/>
+      <point x="93" y="174"/>
+      <point x="93" y="376" type="qcurve" smooth="yes"/>
+      <point x="93" y="538"/>
+      <point x="331" y="918"/>
+      <point x="744" y="1358" type="qcurve"/>
+      <point x="185" y="1348" type="line"/>
+      <point x="158" y="1382" type="line"/>
+      <point x="174" y="1512" type="line"/>
+      <point x="905" y="1502" type="line"/>
+      <point x="905" y="1370" type="line"/>
+      <point x="425" y="846"/>
+      <point x="263" y="536"/>
+      <point x="263" y="397" type="qcurve" smooth="yes"/>
+      <point x="263" y="255"/>
+      <point x="449" y="134"/>
+      <point x="655" y="131" type="qcurve" smooth="yes"/>
+      <point x="720" y="130" type="line" smooth="yes"/>
+      <point x="821" y="128"/>
+      <point x="908" y="58"/>
+      <point x="905" y="-8" type="qcurve"/>
+      <point x="856" y="-313" type="line"/>
+    </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.989,0.4357,0.8117,1</string>
+    </dict>
+  </lib>
 </glyph>
