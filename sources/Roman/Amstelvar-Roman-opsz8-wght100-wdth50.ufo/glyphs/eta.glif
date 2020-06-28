@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="eta" format="2">
+  <advance width="945"/>
+  <unicode hex="03B7"/>
+  <anchor x="349" y="1050" name="GRKtop"/>
+  <outline>
+    <contour>
+      <point x="701" y="-480" type="line"/>
+      <point x="679" y="-463" type="line"/>
+      <point x="683" y="567" type="line"/>
+      <point x="681" y="707" type="line" smooth="yes"/>
+      <point x="679" y="849"/>
+      <point x="606" y="945"/>
+      <point x="532" y="945" type="qcurve" smooth="yes"/>
+      <point x="463" y="945"/>
+      <point x="330" y="863"/>
+      <point x="295" y="793" type="qcurve"/>
+      <point x="293" y="574" type="line"/>
+      <point x="296" y="6" type="line"/>
+      <point x="201" y="0" type="line"/>
+      <point x="179" y="17" type="line"/>
+      <point x="183" y="572" type="line"/>
+      <point x="182" y="857"/>
+      <point x="154" y="940"/>
+      <point x="112" y="940" type="qcurve" smooth="yes"/>
+      <point x="73" y="940" type="line"/>
+      <point x="73" y="1020" type="line"/>
+      <point x="101" y="1043"/>
+      <point x="155" y="1058"/>
+      <point x="179" y="1058" type="qcurve" smooth="yes"/>
+      <point x="234" y="1058"/>
+      <point x="289" y="988"/>
+      <point x="290" y="903" type="qcurve"/>
+      <point x="290" y="901" type="line"/>
+      <point x="331" y="970"/>
+      <point x="478" y="1066"/>
+      <point x="564" y="1066" type="qcurve" smooth="yes"/>
+      <point x="676" y="1066"/>
+      <point x="793" y="934"/>
+      <point x="793" y="729" type="qcurve" smooth="yes"/>
+      <point x="793" y="574" type="line"/>
+      <point x="796" y="-474" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.989,0.4357,0.8117,1</string>
+    </dict>
+  </lib>
+</glyph>
