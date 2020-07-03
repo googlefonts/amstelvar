@@ -1,26 +1,20 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="iota" format="2">
-  <advance width="586"/>
+  <advance width="589"/>
   <unicode hex="03B9"/>
-  <anchor x="281" y="1000" name="GRKtop"/>
+  <anchor x="284" y="1000" name="GRKtop"/>
   <outline>
     <contour>
-      <point x="68" y="-14" type="line"/>
-      <point x="27" y="74" type="line"/>
-      <point x="110" y="511" type="line"/>
-      <point x="168" y="979" type="line"/>
-      <point x="342" y="1000" type="line"/>
-      <point x="370" y="972" type="line"/>
-      <point x="250" y="475" type="line"/>
-      <point x="195" y="134" type="line"/>
-      <point x="450" y="160" type="line"/>
-      <point x="450" y="72" type="line"/>
+      <point x="89" y="-15" type="line"/>
+      <point x="15" y="117" type="line"/>
+      <point x="105" y="511" type="line"/>
+      <point x="185" y="980" type="line"/>
+      <point x="334" y="1000" type="line"/>
+      <point x="364" y="973" type="line"/>
+      <point x="255" y="475" type="line"/>
+      <point x="198" y="134" type="line"/>
+      <point x="453" y="160" type="line"/>
+      <point x="453" y="72" type="line"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.989,0.4357,0.8117,1</string>
-    </dict>
-  </lib>
 </glyph>
