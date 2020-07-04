@@ -22,13 +22,13 @@
     <key>com.typemytype.robofont.compileSettings.createDummyDSIG</key>
     <true/>
     <key>com.typemytype.robofont.compileSettings.decompose</key>
-    <false/>
-    <key>com.typemytype.robofont.compileSettings.generateFormat</key>
     <integer>1</integer>
+    <key>com.typemytype.robofont.compileSettings.generateFormat</key>
+    <integer>0</integer>
     <key>com.typemytype.robofont.compileSettings.layerName</key>
     <string>foreground</string>
     <key>com.typemytype.robofont.compileSettings.path</key>
-    <string>/Users/iv/Desktop/Amstelvar-Roman.ttf</string>
+    <string>/Users/iv/Desktop/Amstelvar-Roman.otf</string>
     <key>com.typemytype.robofont.compileSettings.releaseMode</key>
     <integer>1</integer>
     <key>com.typemytype.robofont.foreground.layerStrokeColor</key>
@@ -2125,9 +2125,7 @@
       <string>iacute_j.loclNLD</string>
     </array>
     <key>public.skipExportGlyphs</key>
-    <array>
-      <string>Kaisymbol</string>
-    </array>
+    <array/>
     <key>tnCurvePalet</key>
     <dict>
       <key>sliderBottomMax</key>
