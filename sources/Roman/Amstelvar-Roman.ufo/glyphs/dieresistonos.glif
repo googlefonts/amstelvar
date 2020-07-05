@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="dieresistonos" format="2">
-  <advance width="1114"/>
+  <advance width="1124"/>
   <unicode hex="0385"/>
   <anchor x="544" y="1000" name="_GRKtop"/>
   <outline>
@@ -19,31 +19,25 @@
       <point x="339" y="1164"/>
     </contour>
     <contour>
-      <point x="569" y="1160" type="line"/>
-      <point x="473" y="1186" type="line"/>
-      <point x="534" y="1611" type="line"/>
-      <point x="694" y="1621" type="line"/>
-      <point x="728" y="1581" type="line"/>
+      <point x="573" y="1160" type="line"/>
+      <point x="477" y="1176" type="line"/>
+      <point x="508" y="1611" type="line"/>
+      <point x="668" y="1621" type="line"/>
+      <point x="702" y="1581" type="line"/>
     </contour>
     <contour>
-      <point x="832" y="1164" type="qcurve" smooth="yes"/>
-      <point x="779" y="1164"/>
-      <point x="716" y="1226"/>
-      <point x="716" y="1277" type="qcurve" smooth="yes"/>
-      <point x="716" y="1332"/>
-      <point x="776" y="1391"/>
-      <point x="832" y="1391" type="qcurve" smooth="yes"/>
-      <point x="885" y="1391"/>
-      <point x="948" y="1328"/>
-      <point x="948" y="1277" type="qcurve" smooth="yes"/>
-      <point x="948" y="1223"/>
-      <point x="889" y="1164"/>
+      <point x="842" y="1164" type="qcurve" smooth="yes"/>
+      <point x="789" y="1164"/>
+      <point x="726" y="1226"/>
+      <point x="726" y="1277" type="qcurve" smooth="yes"/>
+      <point x="726" y="1332"/>
+      <point x="786" y="1391"/>
+      <point x="842" y="1391" type="qcurve" smooth="yes"/>
+      <point x="895" y="1391"/>
+      <point x="958" y="1328"/>
+      <point x="958" y="1277" type="qcurve" smooth="yes"/>
+      <point x="958" y="1223"/>
+      <point x="899" y="1164"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>1,0.9999,0.041,1</string>
-    </dict>
-  </lib>
 </glyph>
