@@ -1,6 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="gamma" format="2">
-<<<<<<< HEAD
   <advance width="1368"/>
   <unicode hex="03B3"/>
   <guideline x="673" y="-40" angle="0" identifier="g2zcNzszsg"/>
@@ -34,46 +33,4 @@
       <point x="956" y="-456" type="line"/>
     </contour>
   </outline>
-=======
-  <advance width="1017"/>
-  <unicode hex="03B3"/>
-  <guideline x="639" y="31" angle="0" identifier="g2zcNzszsg"/>
-  <outline>
-    <contour>
-      <point x="485" y="-10" type="line"/>
-      <point x="293" y="481" type="line"/>
-      <point x="172" y="808" type="line" smooth="yes"/>
-      <point x="162" y="835"/>
-      <point x="140" y="854"/>
-      <point x="109" y="860" type="qcurve" smooth="yes"/>
-      <point x="10" y="880" type="line"/>
-      <point x="10" y="974" type="line"/>
-      <point x="199" y="1008" type="line"/>
-      <point x="244" y="1008"/>
-      <point x="296" y="961"/>
-      <point x="321" y="881" type="qcurve" smooth="yes"/>
-      <point x="440" y="535" type="line"/>
-      <point x="552" y="199" type="line"/>
-      <point x="669" y="538" type="line"/>
-      <point x="801" y="980" type="line"/>
-      <point x="962" y="1000" type="line"/>
-      <point x="997" y="973" type="line"/>
-      <point x="801" y="497" type="line"/>
-      <point x="603" y="-10" type="line"/>
-    </contour>
-    <contour>
-      <point x="483" y="-480" type="line"/>
-      <point x="448" y="-453" type="line"/>
-      <point x="472" y="102" type="line"/>
-      <point x="617" y="102" type="line"/>
-      <point x="629" y="-459" type="line"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.989,0.4357,0.8117,1</string>
-    </dict>
-  </lib>
->>>>>>> 1159d8af8d212b7f820e97b88bd4e5da0e73c351
 </glyph>
