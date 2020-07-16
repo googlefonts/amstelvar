@@ -1,13 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="en.bgr" format="2">
-	<advance width="1138"/>
+	<advance width="1267"/>
 	<outline>
-		<component base="en"/>
+		<contour>
+			<point x="302" y="574" type="line"/>
+			<point x="627" y="571" type="line"/>
+			<point x="953" y="574" type="line"/>
+			<point x="953" y="469" type="line"/>
+			<point x="627" y="471" type="line"/>
+			<point x="302" y="469" type="line"/>
+		</contour>
+		<contour>
+			<point x="389" y="964" type="line"/>
+			<point x="386" y="500" type="line"/>
+			<point x="388" y="115" type="line"/>
+			<point x="536" y="80" type="line"/>
+			<point x="536" y="0" type="line"/>
+			<point x="80" y="0" type="line"/>
+			<point x="80" y="80" type="line"/>
+			<point x="218" y="115" type="line"/>
+			<point x="220" y="500" type="line"/>
+			<point x="219" y="842" type="line"/>
+			<point x="71" y="872" type="line"/>
+			<point x="71" y="966" type="line"/>
+			<point x="329" y="1000" type="line"/>
+			<point x="364" y="1000" type="line"/>
+		</contour>
+		<contour>
+			<point x="1039" y="964" type="line"/>
+			<point x="1034" y="500" type="line"/>
+			<point x="1039" y="115" type="line"/>
+			<point x="1187" y="80" type="line"/>
+			<point x="1187" y="0" type="line"/>
+			<point x="711" y="0" type="line"/>
+			<point x="711" y="80" type="line"/>
+			<point x="869" y="115" type="line"/>
+			<point x="871" y="500" type="line"/>
+			<point x="869" y="842" type="line"/>
+			<point x="731" y="872" type="line"/>
+			<point x="731" y="966" type="line"/>
+			<point x="979" y="1000" type="line"/>
+			<point x="1014" y="1000" type="line"/>
+		</contour>
 	</outline>
 	<lib>
 		<dict>
 			<key>public.markColor</key>
-			<string>0.8564,0.8564,0.8564,1</string>
+			<string>1,0.868,0.7015,1</string>
 		</dict>
 	</lib>
 </glyph>
