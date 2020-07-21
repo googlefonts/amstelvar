@@ -1,37 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="soft" format="2">
 	<unicode hex="044C"/>
-	<advance width="1058"/>
+	<advance width="1077"/>
 	<outline>
 		<contour>
-			<point x="313" y="516" type="line"/>
-			<point x="313" y="621" type="line"/>
-			<point x="586" y="621" type="line" smooth="yes"/>
-			<point x="784" y="621"/>
-			<point x="998" y="455"/>
-			<point x="998" y="314" type="qcurve" smooth="yes"/>
-			<point x="998" y="172"/>
-			<point x="784" y="0"/>
-			<point x="586" y="0" type="qcurve" smooth="yes"/>
+			<point x="441" y="158" type="line"/>
+			<point x="606" y="158" type="line" smooth="yes"/>
+			<point x="725" y="158"/>
+			<point x="822" y="255.3488372093"/>
+			<point x="822" y="340" type="qcurve" smooth="yes"/>
+			<point x="822" y="426.6590909091"/>
+			<point x="725" y="526"/>
+			<point x="615" y="526" type="qcurve" smooth="yes"/>
+			<point x="335" y="526" type="line"/>
+			<point x="335" y="681" type="line"/>
+			<point x="606" y="681" type="line" smooth="yes"/>
+			<point x="810" y="681"/>
+			<point x="1032" y="512"/>
+			<point x="1032" y="336" type="qcurve" smooth="yes"/>
+			<point x="1032" y="175"/>
+			<point x="815" y="0"/>
+			<point x="606" y="0" type="qcurve" smooth="yes"/>
 			<point x="80" y="0" type="line"/>
-			<point x="80" y="80" type="line"/>
-			<point x="228" y="115" type="line"/>
-			<point x="230" y="500" type="line"/>
-			<point x="228" y="885" type="line"/>
-			<point x="80" y="920" type="line"/>
-			<point x="80" y="1000" type="line"/>
-			<point x="536" y="1000" type="line"/>
-			<point x="536" y="920" type="line"/>
-			<point x="398" y="885" type="line"/>
-			<point x="396" y="500" type="line"/>
-			<point x="398" y="105" type="line"/>
-			<point x="586" y="105" type="line" smooth="yes"/>
-			<point x="711" y="105"/>
-			<point x="812" y="224"/>
-			<point x="812" y="314" type="qcurve" smooth="yes"/>
-			<point x="812" y="402"/>
-			<point x="711" y="516"/>
-			<point x="586" y="516" type="qcurve" smooth="yes"/>
+			<point x="80" y="137" type="line"/>
+			<point x="228" y="172" type="line"/>
+			<point x="230" y="535" type="line"/>
+			<point x="228" y="878" type="line"/>
+			<point x="80" y="913" type="line"/>
+			<point x="80" y="1050" type="line"/>
+			<point x="589" y="1050" type="line"/>
+			<point x="589" y="913" type="line"/>
+			<point x="441" y="878" type="line"/>
+			<point x="439" y="545" type="line"/>
 		</contour>
 	</outline>
 	<guideline x="302" y="625" angle="90" identifier="A4qVwRmZ22"/>
@@ -40,10 +40,8 @@
 	<guideline x="329" y="565" angle="0" identifier="Iz6BEWeM15"/>
 	<lib>
 		<dict>
-			<key>com.typemytype.robofont.guideline.showMeasurements.Iz6BEWeM15</key>
-			<true/>
 			<key>public.markColor</key>
-			<string>0.8564,0.8564,0.8564,1</string>
+			<string>1,0.868,0.7015,1</string>
 		</dict>
 	</lib>
 </glyph>
