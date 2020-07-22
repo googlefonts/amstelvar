@@ -1,61 +1,55 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="epsilon" format="2">
-  <advance width="1042"/>
+  <advance width="1423"/>
   <unicode hex="03B5"/>
-  <anchor x="570.0" y="1000" name="GRKtop"/>
+  <anchor x="778" y="1009" name="GRKtop"/>
   <outline>
     <contour>
-      <point x="523" y="-22" type="qcurve" smooth="yes"/>
-      <point x="321" y="-22"/>
-      <point x="84" y="125"/>
-      <point x="84" y="260" type="qcurve" smooth="yes"/>
-      <point x="84" y="348"/>
-      <point x="215" y="475"/>
-      <point x="323" y="500" type="qcurve"/>
-      <point x="323" y="501" type="line"/>
-      <point x="228" y="528"/>
-      <point x="121" y="646"/>
-      <point x="121" y="725" type="qcurve" smooth="yes"/>
-      <point x="121" y="854"/>
-      <point x="341" y="1022"/>
-      <point x="550" y="1022" type="qcurve" smooth="yes"/>
-      <point x="676" y="1022"/>
-      <point x="864" y="964"/>
-      <point x="899" y="928" type="qcurve"/>
-      <point x="899" y="654" type="line"/>
-      <point x="802" y="654" type="line"/>
-      <point x="744" y="862" type="line"/>
-      <point x="717.0" y="883.0"/>
-      <point x="603.0" y="908.0"/>
-      <point x="545" y="908" type="qcurve" smooth="yes"/>
-      <point x="423" y="908"/>
-      <point x="297" y="816"/>
-      <point x="297" y="729" type="qcurve" smooth="yes"/>
-      <point x="297.0" y="678.0"/>
-      <point x="369.0" y="591.0"/>
-      <point x="459" y="565" type="qcurve"/>
-      <point x="672" y="601" type="line"/>
-      <point x="699" y="565" type="line"/>
-      <point x="635" y="406" type="line"/>
-      <point x="456" y="439" type="line"/>
-      <point x="391" y="433"/>
-      <point x="273" y="354"/>
-      <point x="273" y="278" type="qcurve" smooth="yes"/>
-      <point x="273" y="194"/>
-      <point x="421" y="107"/>
-      <point x="531" y="107" type="qcurve" smooth="yes"/>
-      <point x="684" y="107"/>
-      <point x="888" y="212"/>
-      <point x="947" y="268" type="qcurve"/>
-      <point x="998" y="208" type="line"/>
-      <point x="915" y="90"/>
-      <point x="661" y="-22"/>
+      <point x="714" y="-31" type="qcurve" smooth="yes"/>
+      <point x="438" y="-31"/>
+      <point x="115" y="119"/>
+      <point x="115" y="256" type="qcurve" smooth="yes"/>
+      <point x="115" y="402"/>
+      <point x="608" y="576"/>
+      <point x="859" y="598" type="qcurve" smooth="yes"/>
+      <point x="918" y="603" type="line"/>
+      <point x="955" y="566" type="line"/>
+      <point x="867" y="404" type="line"/>
+      <point x="819" y="412" type="line" smooth="yes"/>
+      <point x="545" y="452"/>
+      <point x="165" y="604"/>
+      <point x="165" y="729" type="qcurve" smooth="yes"/>
+      <point x="165" y="860"/>
+      <point x="466" y="1031"/>
+      <point x="751" y="1031" type="qcurve" smooth="yes"/>
+      <point x="923" y="1031"/>
+      <point x="1180" y="972"/>
+      <point x="1228" y="935" type="qcurve"/>
+      <point x="1228" y="657" type="line"/>
+      <point x="1136" y="659" type="line"/>
+      <point x="1045" y="873" type="line"/>
+      <point x="1002" y="896"/>
+      <point x="823" y="921"/>
+      <point x="730" y="921" type="qcurve" smooth="yes"/>
+      <point x="538" y="921"/>
+      <point x="339" y="826"/>
+      <point x="339" y="736" type="qcurve" smooth="yes"/>
+      <point x="339" y="667"/>
+      <point x="520" y="568"/>
+      <point x="828" y="503" type="qcurve"/>
+      <point x="806" y="466" type="line"/>
+      <point x="533" y="450"/>
+      <point x="301" y="349"/>
+      <point x="301" y="270" type="qcurve" smooth="yes"/>
+      <point x="301" y="184"/>
+      <point x="534" y="94"/>
+      <point x="708" y="94" type="qcurve" smooth="yes"/>
+      <point x="924" y="94"/>
+      <point x="1244" y="181"/>
+      <point x="1365" y="260" type="qcurve"/>
+      <point x="1363" y="203" type="line"/>
+      <point x="1250" y="83"/>
+      <point x="903" y="-31"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.989,0.4357,0.8117,1</string>
-    </dict>
-  </lib>
 </glyph>

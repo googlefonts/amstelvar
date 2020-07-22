@@ -1,9 +1,18 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="iotadieresis" format="2">
+<<<<<<< HEAD
   <advance width="691"/>
   <unicode hex="03CA"/>
   <outline>
     <component base="iota"/>
     <component base="dieresiscomb" xOffset="-225"/>
   </outline>
+=======
+	<unicode hex="03CA"/>
+	<advance width="691"/>
+	<outline>
+		<component base="iota"/>
+		<component base="dieresis" xOffset="-225"/>
+	</outline>
+>>>>>>> 812e24955b6a5f3374b1302226200e7511b54438
 </glyph>
