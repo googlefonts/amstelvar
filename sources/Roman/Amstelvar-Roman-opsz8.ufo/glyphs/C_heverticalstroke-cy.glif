@@ -10,8 +10,22 @@
 			<point x="777" y="1145" type="line"/>
 		</contour>
 		<contour>
-			<point x="280" y="1097" type="qcurve" smooth="yes"/>
-			<point x="278" y="1302" type="line"/>
+			<point x="1034" y="0" type="line"/>
+			<point x="1034" y="150" type="line"/>
+			<point x="1242" y="185" type="line"/>
+			<point x="1244" y="754" type="line"/>
+			<point x="1242" y="1302" type="line"/>
+			<point x="1034" y="1336" type="line"/>
+			<point x="1034" y="1500" type="line"/>
+			<point x="1674" y="1500" type="line"/>
+			<point x="1674" y="1336" type="line"/>
+			<point x="1466" y="1302" type="line"/>
+			<point x="1464" y="754" type="line"/>
+			<point x="1466" y="185" type="line"/>
+			<point x="1674" y="150" type="line"/>
+			<point x="1674" y="0" type="line"/>
+		</contour>
+		<contour>
 			<point x="70" y="1336" type="line"/>
 			<point x="70" y="1500" type="line"/>
 			<point x="710" y="1500" type="line"/>
@@ -30,22 +44,8 @@
 			<point x="850" y="555" type="qcurve" smooth="yes"/>
 			<point x="572" y="555"/>
 			<point x="283" y="801"/>
-		</contour>
-		<contour>
-			<point x="1034" y="0" type="line"/>
-			<point x="1034" y="150" type="line"/>
-			<point x="1242" y="185" type="line"/>
-			<point x="1244" y="754" type="line"/>
-			<point x="1242" y="1302" type="line"/>
-			<point x="1034" y="1336" type="line"/>
-			<point x="1034" y="1500" type="line"/>
-			<point x="1674" y="1500" type="line"/>
-			<point x="1674" y="1336" type="line"/>
-			<point x="1466" y="1302" type="line"/>
-			<point x="1464" y="754" type="line"/>
-			<point x="1466" y="185" type="line"/>
-			<point x="1674" y="150" type="line"/>
-			<point x="1674" y="0" type="line"/>
+			<point x="280" y="1097" type="qcurve" smooth="yes"/>
+			<point x="278" y="1302" type="line"/>
 		</contour>
 	</outline>
 	<guideline x="1330" y="777" angle="90" identifier="SFQDOVOlnA"/>

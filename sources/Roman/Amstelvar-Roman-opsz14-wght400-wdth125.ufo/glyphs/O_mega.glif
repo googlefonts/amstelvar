@@ -1,54 +1,48 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Omega" format="2">
-  <advance width="1565"/>
+  <advance width="2121"/>
   <unicode hex="03A9"/>
-  <anchor x="140" y="1500" name="GRKtopleft"/>
+  <anchor x="182" y="1513" name="GRKtopleft"/>
   <outline>
     <contour>
-      <point x="47" y="0" type="line"/>
-      <point x="7" y="378" type="line"/>
-      <point x="117" y="378" type="line"/>
-      <point x="186" y="131" type="line"/>
-      <point x="523" y="129" type="line"/>
-      <point x="534" y="236" type="line"/>
-      <point x="336" y="305"/>
-      <point x="82" y="612"/>
-      <point x="82" y="862" type="qcurve" smooth="yes"/>
-      <point x="82" y="1155"/>
-      <point x="471" y="1520"/>
-      <point x="783" y="1520" type="qcurve" smooth="yes"/>
-      <point x="1124" y="1520"/>
-      <point x="1483" y="1168"/>
-      <point x="1483.0" y="874" type="qcurve" smooth="yes"/>
-      <point x="1483.0" y="635"/>
-      <point x="1209" y="301"/>
-      <point x="1027" y="240" type="qcurve"/>
-      <point x="1042" y="129" type="line"/>
-      <point x="1380" y="131" type="line"/>
-      <point x="1450" y="378" type="line"/>
-      <point x="1560" y="378" type="line"/>
-      <point x="1520" y="0" type="line"/>
-      <point x="908" y="0" type="line"/>
-      <point x="878" y="310" type="line"/>
-      <point x="1112" y="377"/>
-      <point x="1292" y="667"/>
-      <point x="1292" y="869" type="qcurve" smooth="yes"/>
-      <point x="1292.0" y="1110.0"/>
-      <point x="1022" y="1380"/>
-      <point x="782" y="1380" type="qcurve" smooth="yes"/>
-      <point x="541" y="1379"/>
-      <point x="273" y="1110"/>
-      <point x="273" y="852" type="qcurve" smooth="yes"/>
-      <point x="273" y="646"/>
-      <point x="480" y="373"/>
-      <point x="687" y="310" type="qcurve"/>
-      <point x="657" y="0" type="line"/>
+      <point x="55" y="-13" type="line"/>
+      <point x="0" y="371" type="line"/>
+      <point x="150" y="371" type="line"/>
+      <point x="244" y="120" type="line"/>
+      <point x="705" y="118" type="line"/>
+      <point x="720" y="227" type="line"/>
+      <point x="449" y="297"/>
+      <point x="102" y="609"/>
+      <point x="102" y="864" type="qcurve" smooth="yes"/>
+      <point x="102" y="1162"/>
+      <point x="634" y="1533"/>
+      <point x="1060" y="1533" type="qcurve" smooth="yes"/>
+      <point x="1526" y="1533"/>
+      <point x="2016" y="1175"/>
+      <point x="2016" y="876" type="qcurve" smooth="yes"/>
+      <point x="2016" y="633"/>
+      <point x="1642" y="293"/>
+      <point x="1393" y="231" type="qcurve"/>
+      <point x="1414" y="118" type="line"/>
+      <point x="1875" y="120" type="line"/>
+      <point x="1971" y="371" type="line"/>
+      <point x="2121" y="371" type="line"/>
+      <point x="2066" y="-13" type="line"/>
+      <point x="1259" y="-24" type="line"/>
+      <point x="1212" y="296" type="line"/>
+      <point x="1581" y="365"/>
+      <point x="1866" y="665"/>
+      <point x="1866" y="874" type="qcurve" smooth="yes"/>
+      <point x="1866" y="1123"/>
+      <point x="1439" y="1402"/>
+      <point x="1059" y="1402" type="qcurve" smooth="yes"/>
+      <point x="678" y="1401"/>
+      <point x="254" y="1123"/>
+      <point x="254" y="857" type="qcurve" smooth="yes"/>
+      <point x="254" y="643"/>
+      <point x="582" y="361"/>
+      <point x="910" y="296" type="qcurve"/>
+      <point x="862" y="-24" type="line"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.989,0.4357,0.8117,1</string>
-    </dict>
-  </lib>
 </glyph>

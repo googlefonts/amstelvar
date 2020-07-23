@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="De" format="2">
+	<unicode hex="0414"/>
 	<advance width="1732"/>
 	<outline>
+		<contour>
+			<point x="1498" y="-338" type="line"/>
+			<point x="1429" y="0" type="line"/>
+			<point x="256" y="0" type="line"/>
+			<point x="187" y="-338" type="line"/>
+			<point x="35" y="-338" type="line"/>
+			<point x="45" y="158" type="line"/>
+			<point x="1640" y="158" type="line"/>
+			<point x="1650" y="-338" type="line"/>
+		</contour>
 		<contour>
 			<point x="377" y="841" type="qcurve" smooth="yes"/>
 			<point x="407" y="1302" type="line"/>
@@ -25,16 +36,6 @@
 			<point x="176" y="77" type="line"/>
 			<point x="258" y="199"/>
 			<point x="348" y="507"/>
-		</contour>
-		<contour>
-			<point x="1498" y="-338" type="line"/>
-			<point x="1429" y="0" type="line"/>
-			<point x="256" y="0" type="line"/>
-			<point x="187" y="-338" type="line"/>
-			<point x="35" y="-338" type="line"/>
-			<point x="45" y="158" type="line"/>
-			<point x="1640" y="158" type="line"/>
-			<point x="1650" y="-338" type="line"/>
 		</contour>
 	</outline>
 	<lib>
