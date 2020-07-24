@@ -4,18 +4,6 @@
 	<advance width="986"/>
 	<outline>
 		<contour>
-			<point x="50" y="667" type="line"/>
-			<point x="935" y="667" type="line"/>
-			<point x="905" y="541" type="line"/>
-			<point x="74" y="541" type="line"/>
-		</contour>
-		<contour>
-			<point x="74" y="984" type="line"/>
-			<point x="905" y="984" type="line"/>
-			<point x="936" y="858" type="line"/>
-			<point x="50" y="858" type="line"/>
-		</contour>
-		<contour>
 			<point x="912" y="257" type="line"/>
 			<point x="852" y="128"/>
 			<point x="654" y="1"/>
@@ -70,6 +58,18 @@
 			<point x="618" y="122"/>
 			<point x="772" y="246"/>
 			<point x="816" y="335" type="qcurve"/>
+		</contour>
+		<contour>
+			<point x="50" y="667" type="line"/>
+			<point x="935" y="667" type="line"/>
+			<point x="905" y="541" type="line"/>
+			<point x="74" y="541" type="line"/>
+		</contour>
+		<contour>
+			<point x="74" y="984" type="line"/>
+			<point x="905" y="984" type="line"/>
+			<point x="936" y="858" type="line"/>
+			<point x="50" y="858" type="line"/>
 		</contour>
 	</outline>
 	<lib>

@@ -4,6 +4,12 @@
 	<advance width="690"/>
 	<outline>
 		<contour>
+			<point x="136" y="561" type="line"/>
+			<point x="489" y="564" type="line"/>
+			<point x="489" y="459" type="line"/>
+			<point x="136" y="461" type="line"/>
+		</contour>
+		<contour>
 			<point x="50" y="467" type="qcurve" smooth="yes"/>
 			<point x="50" y="709"/>
 			<point x="231" y="1019"/>
@@ -34,12 +40,6 @@
 			<point x="392" y="-17" type="qcurve" smooth="yes"/>
 			<point x="245" y="-17"/>
 			<point x="50" y="256"/>
-		</contour>
-		<contour>
-			<point x="136" y="561" type="line"/>
-			<point x="489" y="564" type="line"/>
-			<point x="489" y="459" type="line"/>
-			<point x="136" y="461" type="line"/>
 		</contour>
 	</outline>
 	<guideline x="180" y="548" angle="90" identifier="n4jm0tBg3Y"/>

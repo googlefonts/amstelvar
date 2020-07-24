@@ -4,15 +4,19 @@
 	<advance width="860"/>
 	<outline>
 		<contour>
-			<point x="210" y="885" type="line"/>
-			<point x="110" y="920" type="line"/>
-			<point x="110" y="1000" type="line"/>
-			<point x="800" y="1000" type="line"/>
-			<point x="800" y="920" type="line"/>
-			<point x="700" y="885" type="line"/>
-			<point x="698" y="500" type="line"/>
+			<point x="728" y="-318" type="line"/>
+			<point x="642" y="0" type="line"/>
+			<point x="193" y="0" type="line"/>
+			<point x="107" y="-318" type="line"/>
+			<point x="25" y="-318" type="line"/>
+			<point x="35" y="100" type="line"/>
+			<point x="800" y="100" type="line"/>
+			<point x="810" y="-318" type="line"/>
+		</contour>
+		<contour>
 			<point x="700" y="0" type="line"/>
 			<point x="543" y="0" type="line"/>
+			<point x="545" y="494" type="line"/>
 			<point x="543" y="900" type="line"/>
 			<point x="332" y="900" type="line"/>
 			<point x="312" y="500" type="line" smooth="yes"/>
@@ -23,16 +27,13 @@
 			<point x="147" y="167"/>
 			<point x="183" y="357"/>
 			<point x="190" y="500" type="qcurve" smooth="yes"/>
-		</contour>
-		<contour>
-			<point x="728" y="-318" type="line"/>
-			<point x="642" y="0" type="line"/>
-			<point x="193" y="0" type="line"/>
-			<point x="107" y="-318" type="line"/>
-			<point x="25" y="-318" type="line"/>
-			<point x="35" y="100" type="line"/>
-			<point x="800" y="100" type="line"/>
-			<point x="810" y="-318" type="line"/>
+			<point x="210" y="885" type="line"/>
+			<point x="110" y="920" type="line"/>
+			<point x="110" y="1000" type="line"/>
+			<point x="800" y="1000" type="line"/>
+			<point x="800" y="920" type="line"/>
+			<point x="700" y="885" type="line"/>
+			<point x="697" y="500" type="line"/>
 		</contour>
 	</outline>
 	<guideline x="302" y="625" angle="90" identifier="jHuxcyi1x5"/>

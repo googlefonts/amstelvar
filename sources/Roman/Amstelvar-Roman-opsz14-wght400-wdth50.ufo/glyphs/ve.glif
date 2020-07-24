@@ -4,27 +4,7 @@
 	<advance width="762"/>
 	<outline>
 		<contour>
-			<point x="307" y="900" type="line"/>
-			<point x="307" y="500" type="line"/>
-			<point x="307" y="100" type="line"/>
-			<point x="365" y="100" type="line" smooth="yes"/>
-			<point x="462" y="100"/>
-			<point x="563" y="195"/>
-			<point x="563" y="290" type="qcurve" smooth="yes"/>
-			<point x="563" y="379"/>
-			<point x="471" y="474"/>
-			<point x="385" y="474" type="qcurve" smooth="yes"/>
-			<point x="229" y="474" type="line"/>
-			<point x="229" y="574" type="line"/>
-			<point x="349" y="574" type="line" smooth="yes"/>
-			<point x="434" y="574"/>
-			<point x="520" y="663"/>
-			<point x="520" y="744" type="qcurve" smooth="yes"/>
-			<point x="520" y="828"/>
-			<point x="436" y="900"/>
-			<point x="356" y="900" type="qcurve" smooth="yes"/>
-		</contour>
-		<contour>
+			<point x="371" y="0" type="qcurve" smooth="yes"/>
 			<point x="50" y="0" type="line"/>
 			<point x="50" y="80" type="line"/>
 			<point x="150" y="115" type="line"/>
@@ -45,7 +25,27 @@
 			<point x="722" y="286" type="qcurve" smooth="yes"/>
 			<point x="722" y="149"/>
 			<point x="534" y="0"/>
-			<point x="371" y="0" type="qcurve" smooth="yes"/>
+		</contour>
+		<contour>
+			<point x="229" y="574" type="line"/>
+			<point x="349" y="574" type="line" smooth="yes"/>
+			<point x="434" y="574"/>
+			<point x="520" y="663"/>
+			<point x="520" y="744" type="qcurve" smooth="yes"/>
+			<point x="520" y="828"/>
+			<point x="436" y="900"/>
+			<point x="356" y="900" type="qcurve" smooth="yes"/>
+			<point x="307" y="900" type="line"/>
+			<point x="307" y="500" type="line"/>
+			<point x="307" y="100" type="line"/>
+			<point x="365" y="100" type="line" smooth="yes"/>
+			<point x="462" y="100"/>
+			<point x="563" y="195"/>
+			<point x="563" y="290" type="qcurve" smooth="yes"/>
+			<point x="563" y="379"/>
+			<point x="471" y="474"/>
+			<point x="385" y="474" type="qcurve" smooth="yes"/>
+			<point x="229" y="474" type="line"/>
 		</contour>
 	</outline>
 	<guideline x="302" y="625" angle="90" identifier="FqbstdQzDn"/>

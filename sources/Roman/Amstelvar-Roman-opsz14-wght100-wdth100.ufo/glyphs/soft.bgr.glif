@@ -5,9 +5,11 @@
 		<contour>
 			<point x="579" y="-22" type="qcurve" smooth="yes"/>
 			<point x="386.446685879" y="-22"/>
-			<point x="229.4516648594" y="170.0048319204"/>
+			<point x="229" y="170"/>
 			<point x="231" y="314" type="qcurve" smooth="yes"/>
-			<point x="233" y="500" type="line"/>
+			<point x="232" y="378"/>
+			<point x="233" y="440"/>
+			<point x="233" y="500" type="qcurve" smooth="yes"/>
 			<point x="231" y="915" type="line"/>
 			<point x="42" y="935" type="line"/>
 			<point x="42" y="986" type="line"/>
@@ -23,9 +25,6 @@
 			<point x="736" y="-22"/>
 		</contour>
 		<contour>
-			<point x="309" y="314" type="line" smooth="yes"/>
-			<point x="309" y="191"/>
-			<point x="438" y="30"/>
 			<point x="578" y="30" type="qcurve" smooth="yes"/>
 			<point x="713" y="30"/>
 			<point x="845" y="192"/>
@@ -34,6 +33,9 @@
 			<point x="730" y="546"/>
 			<point x="572" y="546" type="qcurve" smooth="yes"/>
 			<point x="309" y="546" type="line"/>
+			<point x="309" y="314" type="line" smooth="yes"/>
+			<point x="309" y="191"/>
+			<point x="438" y="30"/>
 		</contour>
 	</outline>
 	<guideline x="302" y="625" angle="90" identifier="gLmfoKuSkA"/>
