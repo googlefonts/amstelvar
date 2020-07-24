@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="yeru" format="2">
+	<unicode hex="044B"/>
+	<advance width="1073"/>
+	<outline>
+		<contour>
+			<point x="921" y="500" type="line"/>
+			<point x="923" y="115" type="line"/>
+			<point x="1023" y="80" type="line"/>
+			<point x="1023" y="0" type="line"/>
+			<point x="697" y="0" type="line"/>
+			<point x="697" y="80" type="line"/>
+			<point x="766" y="115" type="line"/>
+			<point x="766" y="500" type="line"/>
+			<point x="766" y="885" type="line"/>
+			<point x="697" y="920" type="line"/>
+			<point x="697" y="1000" type="line"/>
+			<point x="1023" y="1000" type="line"/>
+			<point x="1023" y="920" type="line"/>
+			<point x="923" y="885" type="line"/>
+		</contour>
+		<component base="soft"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>1,0.868,0.7015,1</string>
+		</dict>
+	</lib>
+</glyph>

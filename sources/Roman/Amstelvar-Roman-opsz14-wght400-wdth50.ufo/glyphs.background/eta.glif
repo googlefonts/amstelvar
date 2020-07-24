@@ -1,23 +1,23 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="eta" format="2">
-  <advance width="798"/>
-  <unicode hex="03B7"/>
-  <outline>
-    <contour>
-      <point x="310" y="752" type="move"/>
-      <point x="303" y="340" type="line"/>
-      <point x="305" y="-458" type="line"/>
-      <point x="166" y="-480.0" type="line"/>
-      <point x="131" y="-453.0" type="line"/>
-      <point x="151" y="338.0" type="line"/>
-      <point x="151" y="722.0" type="line" smooth="yes"/>
-    </contour>
-    <contour>
-      <point x="698" y="241.0" type="move"/>
-      <point x="705" y="-288.0" type="line"/>
-      <point x="566" y="-310" type="line"/>
-      <point x="531" y="-283" type="line"/>
-      <point x="548" y="334" type="line"/>
-    </contour>
-  </outline>
+	<unicode hex="03B7"/>
+	<advance width="798"/>
+	<outline>
+		<contour>
+			<point x="310" y="752" type="move"/>
+			<point x="303" y="340" type="line"/>
+			<point x="305" y="-458" type="line"/>
+			<point x="166" y="-480" type="line"/>
+			<point x="131" y="-453" type="line"/>
+			<point x="151" y="338" type="line"/>
+			<point x="151" y="722" type="line" smooth="yes"/>
+		</contour>
+		<contour>
+			<point x="698" y="241" type="move"/>
+			<point x="705" y="-288" type="line"/>
+			<point x="566" y="-310" type="line"/>
+			<point x="531" y="-283" type="line"/>
+			<point x="548" y="334" type="line"/>
+		</contour>
+	</outline>
 </glyph>
