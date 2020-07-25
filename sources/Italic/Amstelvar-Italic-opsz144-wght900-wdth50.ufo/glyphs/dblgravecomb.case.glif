@@ -3,9 +3,6 @@
   <advance width="896"/>
   <outline>
     <contour>
-      <point x="299" y="1732" type="line" smooth="yes"/>
-      <point x="251" y="1774"/>
-      <point x="209" y="1840"/>
       <point x="209" y="1874" type="qcurve" smooth="yes"/>
       <point x="209" y="1911"/>
       <point x="276" y="1969"/>
@@ -15,11 +12,11 @@
       <point x="467" y="1807" type="qcurve" smooth="yes"/>
       <point x="539" y="1581" type="line"/>
       <point x="497" y="1557" type="line"/>
+      <point x="299" y="1732" type="line" smooth="yes"/>
+      <point x="251" y="1774"/>
+      <point x="209" y="1840"/>
     </contour>
     <contour>
-      <point x="637" y="1732" type="line" smooth="yes"/>
-      <point x="589" y="1774"/>
-      <point x="547" y="1840"/>
       <point x="547" y="1874" type="qcurve" smooth="yes"/>
       <point x="547" y="1911"/>
       <point x="614" y="1969"/>
@@ -29,6 +26,9 @@
       <point x="805" y="1807" type="qcurve" smooth="yes"/>
       <point x="877" y="1581" type="line"/>
       <point x="835" y="1557" type="line"/>
+      <point x="637" y="1732" type="line" smooth="yes"/>
+      <point x="589" y="1774"/>
+      <point x="547" y="1840"/>
     </contour>
   </outline>
 </glyph>
