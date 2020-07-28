@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="iota" format="2">
-  <advance width="645"/>
+  <advance width="697"/>
   <unicode hex="03B9"/>
   <anchor x="234" y="920" name="GRKtop"/>
   <outline>
     <contour>
-      <point x="347" y="-8" type="qcurve" smooth="yes"/>
-      <point x="268" y="-8"/>
-      <point x="204" y="69"/>
+      <point x="369" y="-8" type="line"/>
+      <point x="297" y="-8"/>
+      <point x="204" y="82.0"/>
       <point x="204" y="167" type="qcurve" smooth="yes"/>
       <point x="204" y="485" type="line"/>
       <point x="201" y="921" type="line"/>
@@ -15,13 +15,11 @@
       <point x="263" y="922" type="line"/>
       <point x="260" y="507" type="line"/>
       <point x="260" y="209" type="line" smooth="yes"/>
-      <point x="260" y="108"/>
-      <point x="292" y="30"/>
-      <point x="374" y="29" type="qcurve" smooth="yes"/>
-      <point x="565" y="29" type="line"/>
-      <point x="565" y="22" type="line"/>
-      <point x="494" y="10"/>
-      <point x="389" y="-8"/>
+      <point x="260.0" y="117.0"/>
+      <point x="330.0" y="40"/>
+      <point x="398" y="40" type="qcurve" smooth="yes"/>
+      <point x="613" y="40" type="line"/>
+      <point x="613" y="28" type="line"/>
     </contour>
   </outline>
   <lib>

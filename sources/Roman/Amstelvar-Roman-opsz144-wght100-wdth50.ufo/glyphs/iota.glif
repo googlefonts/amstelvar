@@ -1,27 +1,25 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="iota" format="2">
-  <advance width="274"/>
+  <advance width="270"/>
   <unicode hex="03B9"/>
   <anchor x="127.0" y="920" name="GRKtop"/>
   <outline>
     <contour>
-      <point x="184" y="-8" type="qcurve" smooth="yes"/>
-      <point x="142" y="-8"/>
-      <point x="105" y="36"/>
-      <point x="105" y="81" type="qcurve" smooth="yes"/>
+      <point x="179" y="-8" type="line"/>
+      <point x="148" y="-8"/>
+      <point x="105.0" y="31.0"/>
+      <point x="105" y="91" type="qcurve"/>
       <point x="105" y="477" type="line"/>
       <point x="100" y="919" type="line"/>
       <point x="139" y="923" type="line"/>
       <point x="152" y="922" type="line"/>
       <point x="152" y="477" type="line"/>
-      <point x="152" y="95" type="line" smooth="yes"/>
-      <point x="152" y="55"/>
-      <point x="179" y="25"/>
-      <point x="219" y="25" type="qcurve" smooth="yes"/>
-      <point x="264" y="25" type="line"/>
-      <point x="264" y="18" type="line"/>
-      <point x="247" y="5"/>
-      <point x="207" y="-8"/>
+      <point x="152" y="115" type="line"/>
+      <point x="152" y="71.0"/>
+      <point x="188.0" y="25"/>
+      <point x="255" y="25" type="qcurve" smooth="yes"/>
+      <point x="294" y="25" type="line"/>
+      <point x="294" y="18" type="line"/>
     </contour>
   </outline>
   <lib>
