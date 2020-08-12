@@ -1,9 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="omicron" format="2">
-  <advance width="1979"/>
+  <advance width="1977"/>
   <unicode hex="03BF"/>
   <anchor x="974.0" y="1050.0" name="GRKtop"/>
   <outline>
     <component base="o"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0,0,1,1</string>
+    </dict>
+  </lib>
 </glyph>

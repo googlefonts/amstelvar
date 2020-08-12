@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="iota" format="2">
-  <advance width="1081"/>
+  <advance width="500"/>
   <unicode hex="03B9"/>
   <anchor x="457.0" y="1050.0" name="GRKtop"/>
   <outline>
@@ -10,22 +10,16 @@
       <point x="192.0" y="98.0"/>
       <point x="193.0" y="183.0" type="qcurve" smooth="yes"/>
       <point x="196.0" y="470.0" type="line"/>
-      <point x="185.0" y="1019.0" type="line"/>
-      <point x="650.0" y="1070.0" type="line"/>
-      <point x="698.0" y="1021.0" type="line"/>
-      <point x="685.0" y="469.0" type="line"/>
+      <point x="185.0" y="1025.0" type="line"/>
+      <point x="650.0" y="1052.0" type="line"/>
+      <point x="698.0" y="1003.0" type="line"/>
+      <point x="686.0" y="469.0" type="line"/>
       <point x="687.0" y="308.0" type="line" smooth="yes"/>
-      <point x="688" y="248"/>
+      <point x="687.0" y="248.0"/>
       <point x="746.0" y="175.0"/>
       <point x="841.0" y="174.0" type="qcurve" smooth="yes"/>
       <point x="1042.0" y="174.0" type="line"/>
       <point x="1042.0" y="32.0" type="line"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>1,0,0,1</string>
-    </dict>
-  </lib>
 </glyph>
