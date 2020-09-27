@@ -1,24 +1,30 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="kaisymbol" format="2">
-  <advance width="1119"/>
+  <advance width="1452"/>
   <unicode hex="03D7"/>
   <outline>
     <contour>
-      <point x="510" y="-510" type="qcurve" smooth="yes"/>
-      <point x="339" y="-510"/>
-      <point x="52" y="-351"/>
-      <point x="-34" y="-194" type="qcurve"/>
-      <point x="47" y="-134" type="line"/>
-      <point x="106" y="-220"/>
-      <point x="338" y="-363"/>
-      <point x="520" y="-363" type="qcurve" smooth="yes"/>
-      <point x="748" y="-363"/>
-      <point x="968" y="-81"/>
-      <point x="970" y="118" type="qcurve"/>
-      <point x="1103" y="118" type="line"/>
-      <point x="1121" y="-129"/>
-      <point x="794" y="-510"/>
+      <point x="686.0" y="-500" type="qcurve"/>
+      <point x="391.0" y="-500"/>
+      <point x="62" y="-326"/>
+      <point x="6.0" y="-198" type="qcurve"/>
+      <point x="52.0" y="-161" type="line"/>
+      <point x="107" y="-268"/>
+      <point x="392.0" y="-436"/>
+      <point x="684.0" y="-436" type="qcurve"/>
+      <point x="1032" y="-436"/>
+      <point x="1373" y="-128"/>
+      <point x="1372.0" y="82" type="qcurve"/>
+      <point x="1442.0" y="82" type="line"/>
+      <point x="1442.0" y="-162.0"/>
+      <point x="1050" y="-500"/>
     </contour>
     <component base="kappa"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.989,0.4357,0.8117,1</string>
+    </dict>
+  </lib>
 </glyph>
