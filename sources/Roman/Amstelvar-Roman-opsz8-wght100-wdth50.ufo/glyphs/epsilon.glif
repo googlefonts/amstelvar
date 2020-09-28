@@ -2,7 +2,6 @@
 <glyph name="epsilon" format="2">
   <advance width="745"/>
   <unicode hex="03B5"/>
-  <anchor x="423" y="1050" name="GRKtop"/>
   <outline>
     <contour>
       <point x="397" y="-16" type="qcurve" smooth="yes"/>
@@ -52,10 +51,4 @@
       <point x="489" y="-16"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.989,0.4357,0.8117,1</string>
-    </dict>
-  </lib>
 </glyph>

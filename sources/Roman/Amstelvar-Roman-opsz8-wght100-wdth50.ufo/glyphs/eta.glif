@@ -2,7 +2,6 @@
 <glyph name="eta" format="2">
   <advance width="862"/>
   <unicode hex="03B7"/>
-  <anchor x="325" y="1050" name="GRKtop"/>
   <outline>
     <contour>
       <point x="649" y="-480" type="line"/>
@@ -40,10 +39,4 @@
       <point x="754" y="-469" type="line"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.989,0.4357,0.8117,1</string>
-    </dict>
-  </lib>
 </glyph>

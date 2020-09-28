@@ -3,7 +3,6 @@
   <advance width="1860"/>
   <unicode hex="03B5"/>
   <anchor x="931" y="1100" name="GRKtop"/>
-  <anchor x="1040" y="1107" name="GRKtop"/>
   <outline>
     <contour>
       <point x="949" y="-34" type="qcurve" smooth="yes"/>
@@ -53,10 +52,4 @@
       <point x="1218" y="-34"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.989,0.4357,0.8117,1</string>
-    </dict>
-  </lib>
 </glyph>
