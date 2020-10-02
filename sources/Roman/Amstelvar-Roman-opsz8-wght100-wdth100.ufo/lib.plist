@@ -13,37 +13,63 @@
     </array>
     <key>com.typemytype.glyphBuilder.lastSavedFileName</key>
     <string>Amstelvar-Roman</string>
-    <key>com.typemytype.robofont.compileSettings.autohint</key>
-    <true/>
-    <key>com.typemytype.robofont.compileSettings.checkOutlines</key>
+    <key>com.typemytype.robofont.compileSettings.MacRomanFirst</key>
     <false/>
+    <key>com.typemytype.robofont.compileSettings.autohint</key>
+    <integer>0</integer>
+    <key>com.typemytype.robofont.compileSettings.checkOutlines</key>
+    <integer>1</integer>
     <key>com.typemytype.robofont.compileSettings.createDummyDSIG</key>
     <true/>
     <key>com.typemytype.robofont.compileSettings.decompose</key>
-    <false/>
+    <integer>1</integer>
     <key>com.typemytype.robofont.compileSettings.generateFormat</key>
     <integer>0</integer>
+    <key>com.typemytype.robofont.compileSettings.layerName</key>
+    <string>foreground</string>
+    <key>com.typemytype.robofont.compileSettings.path</key>
+    <string>/Users/iv/Desktop/Amstelvar-Roman.otf</string>
     <key>com.typemytype.robofont.compileSettings.releaseMode</key>
-    <false/>
+    <integer>1</integer>
     <key>com.typemytype.robofont.foreground.layerStrokeColor</key>
     <array>
-      <real>0.6580712795257568</real>
-      <real>0.6718154549598694</real>
-      <real>0.5572555065155029</real>
-      <real>1.0</real>
+      <real>0.6580712795</real>
+      <real>0.671815455</real>
+      <real>0.5572555065</real>
+      <integer>1</integer>
     </array>
     <key>com.typemytype.robofont.guideline.magnetic.8Z3Oati6mz</key>
-    <real>5.0</real>
+    <integer>5</integer>
     <key>com.typemytype.robofont.guideline.magnetic.BfFj7tl4Ho</key>
-    <real>5.0</real>
+    <integer>5</integer>
     <key>com.typemytype.robofont.guideline.magnetic.M8EGgiRgyS</key>
-    <real>5.0</real>
+    <integer>5</integer>
+    <key>com.typemytype.robofont.guideline.showMeasurements.0EvbGaTcBw</key>
+    <true/>
+    <key>com.typemytype.robofont.guideline.showMeasurements.3W447yEdIg</key>
+    <true/>
+    <key>com.typemytype.robofont.guideline.showMeasurements.7bdlwDKcwn</key>
+    <true/>
     <key>com.typemytype.robofont.guideline.showMeasurements.8Z3Oati6mz</key>
     <false/>
     <key>com.typemytype.robofont.guideline.showMeasurements.BfFj7tl4Ho</key>
     <false/>
+    <key>com.typemytype.robofont.guideline.showMeasurements.DjWKf2HK9X</key>
+    <true/>
+    <key>com.typemytype.robofont.guideline.showMeasurements.KkWwWyrwKQ</key>
+    <true/>
     <key>com.typemytype.robofont.guideline.showMeasurements.M8EGgiRgyS</key>
     <false/>
+    <key>com.typemytype.robofont.guideline.showMeasurements.UnN1tppJmk</key>
+    <true/>
+    <key>com.typemytype.robofont.guideline.showMeasurements.aK42b0obQh</key>
+    <true/>
+    <key>com.typemytype.robofont.guideline.showMeasurements.rSm1oie6dq</key>
+    <true/>
+    <key>com.typemytype.robofont.guideline.showMeasurements.vLxL8xb3wZ</key>
+    <true/>
+    <key>com.typemytype.robofont.guideline.showMeasurements.y4Fl0uEEJx</key>
+    <true/>
     <key>com.typemytype.robofont.italicSlantOffset</key>
     <integer>0</integer>
     <key>com.typemytype.robofont.segmentType</key>
@@ -51,7 +77,7 @@
     <key>com.typemytype.robofont.shouldAddPointsInSplineConversion</key>
     <integer>1</integer>
     <key>com.typemytype.robofont.smartSets.uniqueKey</key>
-    <string>8459914128</string>
+    <string>4899147088</string>
     <key>com.typesupply.defcon.sortDescriptor</key>
     <array>
       <dict>
@@ -667,715 +693,715 @@
     <dict>
       <key>public.kern1.A</key>
       <array>
-        <real>1.0</real>
-        <real>0.0</real>
-        <real>0.0</real>
+        <integer>1</integer>
+        <integer>0</integer>
+        <integer>0</integer>
         <real>0.25</real>
       </array>
       <key>public.kern1.C</key>
       <array>
-        <real>1.0</real>
+        <integer>1</integer>
         <real>0.5</real>
-        <real>0.0</real>
+        <integer>0</integer>
         <real>0.25</real>
       </array>
       <key>public.kern1.E</key>
       <array>
-        <real>1.0</real>
-        <real>1.0</real>
-        <real>0.0</real>
+        <integer>1</integer>
+        <integer>1</integer>
+        <integer>0</integer>
         <real>0.25</real>
       </array>
       <key>public.kern1.G</key>
       <array>
-        <real>0.0</real>
-        <real>1.0</real>
-        <real>0.0</real>
+        <integer>0</integer>
+        <integer>1</integer>
+        <integer>0</integer>
         <real>0.25</real>
       </array>
       <key>public.kern1.I</key>
       <array>
-        <real>0.0</real>
-        <real>1.0</real>
-        <real>1.0</real>
+        <integer>0</integer>
+        <integer>1</integer>
+        <integer>1</integer>
         <real>0.25</real>
       </array>
       <key>public.kern1.J</key>
       <array>
-        <real>0.0</real>
+        <integer>0</integer>
         <real>0.5</real>
-        <real>1.0</real>
+        <integer>1</integer>
         <real>0.25</real>
       </array>
       <key>public.kern1.K</key>
       <array>
-        <real>0.0</real>
-        <real>0.0</real>
-        <real>1.0</real>
+        <integer>0</integer>
+        <integer>0</integer>
+        <integer>1</integer>
         <real>0.25</real>
       </array>
       <key>public.kern1.L</key>
       <array>
         <real>0.5</real>
-        <real>0.0</real>
-        <real>1.0</real>
+        <integer>0</integer>
+        <integer>1</integer>
         <real>0.25</real>
       </array>
       <key>public.kern1.N</key>
       <array>
-        <real>0.0</real>
+        <integer>0</integer>
         <real>0.5</real>
-        <real>1.0</real>
+        <integer>1</integer>
         <real>0.25</real>
       </array>
       <key>public.kern1.O</key>
       <array>
-        <real>1.0</real>
-        <real>0.0</real>
-        <real>1.0</real>
+        <integer>1</integer>
+        <integer>0</integer>
+        <integer>1</integer>
         <real>0.25</real>
       </array>
       <key>public.kern1.Ohorn</key>
       <array>
-        <real>1.0</real>
-        <real>0.0</real>
+        <integer>1</integer>
+        <integer>0</integer>
         <real>0.5</real>
         <real>0.25</real>
       </array>
       <key>public.kern1.R</key>
       <array>
-        <real>1.0</real>
-        <real>0.0</real>
+        <integer>1</integer>
+        <integer>0</integer>
         <real>0.5</real>
         <real>0.25</real>
       </array>
       <key>public.kern1.S</key>
       <array>
-        <real>1.0</real>
-        <real>0.0</real>
-        <real>0.0</real>
+        <integer>1</integer>
+        <integer>0</integer>
+        <integer>0</integer>
         <real>0.25</real>
       </array>
       <key>public.kern1.Straight_right</key>
       <array>
-        <real>1.0</real>
+        <integer>1</integer>
         <real>0.5</real>
-        <real>0.0</real>
+        <integer>0</integer>
         <real>0.25</real>
       </array>
       <key>public.kern1.T</key>
       <array>
-        <real>1.0</real>
-        <real>1.0</real>
-        <real>0.0</real>
+        <integer>1</integer>
+        <integer>1</integer>
+        <integer>0</integer>
         <real>0.25</real>
       </array>
       <key>public.kern1.U</key>
       <array>
-        <real>0.0</real>
-        <real>1.0</real>
-        <real>0.0</real>
+        <integer>0</integer>
+        <integer>1</integer>
+        <integer>0</integer>
         <real>0.25</real>
       </array>
       <key>public.kern1.Uhorn</key>
       <array>
-        <real>1.0</real>
-        <real>0.0</real>
-        <real>0.0</real>
+        <integer>1</integer>
+        <integer>0</integer>
+        <integer>0</integer>
         <real>0.25</real>
       </array>
       <key>public.kern1.W</key>
       <array>
-        <real>0.0</real>
-        <real>1.0</real>
-        <real>1.0</real>
+        <integer>0</integer>
+        <integer>1</integer>
+        <integer>1</integer>
         <real>0.25</real>
       </array>
       <key>public.kern1.Y</key>
       <array>
-        <real>0.0</real>
+        <integer>0</integer>
         <real>0.5</real>
-        <real>1.0</real>
+        <integer>1</integer>
         <real>0.25</real>
       </array>
       <key>public.kern1.Z</key>
       <array>
-        <real>0.0</real>
-        <real>0.0</real>
-        <real>1.0</real>
+        <integer>0</integer>
+        <integer>0</integer>
+        <integer>1</integer>
         <real>0.25</real>
       </array>
       <key>public.kern1.a</key>
       <array>
         <real>0.5</real>
-        <real>0.0</real>
-        <real>1.0</real>
+        <integer>0</integer>
+        <integer>1</integer>
         <real>0.25</real>
       </array>
       <key>public.kern1.b_p</key>
       <array>
-        <real>1.0</real>
-        <real>0.0</real>
-        <real>1.0</real>
+        <integer>1</integer>
+        <integer>0</integer>
+        <integer>1</integer>
         <real>0.25</real>
       </array>
       <key>public.kern1.braces</key>
       <array>
-        <real>1.0</real>
-        <real>0.0</real>
+        <integer>1</integer>
+        <integer>0</integer>
         <real>0.5</real>
         <real>0.25</real>
       </array>
       <key>public.kern1.bullet</key>
       <array>
-        <real>1.0</real>
-        <real>0.0</real>
-        <real>0.0</real>
+        <integer>1</integer>
+        <integer>0</integer>
+        <integer>0</integer>
         <real>0.25</real>
       </array>
       <key>public.kern1.c</key>
       <array>
-        <real>1.0</real>
+        <integer>1</integer>
         <real>0.5</real>
-        <real>0.0</real>
+        <integer>0</integer>
         <real>0.25</real>
       </array>
       <key>public.kern1.carons</key>
       <array>
-        <real>1.0</real>
+        <integer>1</integer>
         <real>0.5</real>
-        <real>0.0</real>
+        <integer>0</integer>
         <real>0.25</real>
       </array>
       <key>public.kern1.circles</key>
       <array>
-        <real>1.0</real>
-        <real>1.0</real>
-        <real>0.0</real>
+        <integer>1</integer>
+        <integer>1</integer>
+        <integer>0</integer>
         <real>0.25</real>
       </array>
       <key>public.kern1.colons</key>
       <array>
-        <real>0.0</real>
-        <real>1.0</real>
-        <real>0.0</real>
+        <integer>0</integer>
+        <integer>1</integer>
+        <integer>0</integer>
         <real>0.25</real>
       </array>
       <key>public.kern1.dashes</key>
       <array>
-        <real>0.0</real>
-        <real>1.0</real>
-        <real>1.0</real>
+        <integer>0</integer>
+        <integer>1</integer>
+        <integer>1</integer>
         <real>0.25</real>
       </array>
       <key>public.kern1.dots</key>
       <array>
-        <real>0.0</real>
+        <integer>0</integer>
         <real>0.5</real>
-        <real>1.0</real>
+        <integer>1</integer>
         <real>0.25</real>
       </array>
       <key>public.kern1.e</key>
       <array>
-        <real>0.0</real>
-        <real>0.0</real>
-        <real>1.0</real>
+        <integer>0</integer>
+        <integer>0</integer>
+        <integer>1</integer>
         <real>0.25</real>
       </array>
       <key>public.kern1.f</key>
       <array>
-        <real>0.0</real>
-        <real>1.0</real>
-        <real>1.0</real>
+        <integer>0</integer>
+        <integer>1</integer>
+        <integer>1</integer>
         <real>0.25</real>
       </array>
       <key>public.kern1.g</key>
       <array>
         <real>0.5</real>
-        <real>0.0</real>
-        <real>1.0</real>
+        <integer>0</integer>
+        <integer>1</integer>
         <real>0.25</real>
       </array>
       <key>public.kern1.guilleft</key>
       <array>
-        <real>1.0</real>
-        <real>0.0</real>
-        <real>1.0</real>
+        <integer>1</integer>
+        <integer>0</integer>
+        <integer>1</integer>
         <real>0.25</real>
       </array>
       <key>public.kern1.guilright</key>
       <array>
-        <real>1.0</real>
-        <real>0.0</real>
+        <integer>1</integer>
+        <integer>0</integer>
         <real>0.5</real>
         <real>0.25</real>
       </array>
       <key>public.kern1.h_n_m</key>
       <array>
-        <real>1.0</real>
-        <real>0.0</real>
-        <real>0.0</real>
+        <integer>1</integer>
+        <integer>0</integer>
+        <integer>0</integer>
         <real>0.25</real>
       </array>
       <key>public.kern1.i</key>
       <array>
-        <real>1.0</real>
+        <integer>1</integer>
         <real>0.5</real>
-        <real>0.0</real>
+        <integer>0</integer>
         <real>0.25</real>
       </array>
       <key>public.kern1.j</key>
       <array>
-        <real>1.0</real>
-        <real>1.0</real>
-        <real>0.0</real>
+        <integer>1</integer>
+        <integer>1</integer>
+        <integer>0</integer>
         <real>0.25</real>
       </array>
       <key>public.kern1.k</key>
       <array>
-        <real>0.0</real>
-        <real>1.0</real>
-        <real>0.0</real>
+        <integer>0</integer>
+        <integer>1</integer>
+        <integer>0</integer>
         <real>0.25</real>
       </array>
       <key>public.kern1.l</key>
       <array>
-        <real>0.0</real>
-        <real>1.0</real>
-        <real>1.0</real>
+        <integer>0</integer>
+        <integer>1</integer>
+        <integer>1</integer>
         <real>0.25</real>
       </array>
       <key>public.kern1.math</key>
       <array>
-        <real>0.0</real>
+        <integer>0</integer>
         <real>0.5</real>
-        <real>1.0</real>
+        <integer>1</integer>
         <real>0.25</real>
       </array>
       <key>public.kern1.minute</key>
       <array>
-        <real>0.0</real>
-        <real>0.0</real>
-        <real>1.0</real>
+        <integer>0</integer>
+        <integer>0</integer>
+        <integer>1</integer>
         <real>0.25</real>
       </array>
       <key>public.kern1.o</key>
       <array>
-        <real>0.0</real>
-        <real>0.0</real>
-        <real>1.0</real>
+        <integer>0</integer>
+        <integer>0</integer>
+        <integer>1</integer>
         <real>0.25</real>
       </array>
       <key>public.kern1.ohorn</key>
       <array>
-        <real>1.0</real>
-        <real>1.0</real>
-        <real>0.0</real>
+        <integer>1</integer>
+        <integer>1</integer>
+        <integer>0</integer>
         <real>0.25</real>
       </array>
       <key>public.kern1.percent</key>
       <array>
         <real>0.5</real>
-        <real>0.0</real>
-        <real>1.0</real>
+        <integer>0</integer>
+        <integer>1</integer>
         <real>0.25</real>
       </array>
       <key>public.kern1.prime</key>
       <array>
         <real>0.5</real>
-        <real>0.0</real>
-        <real>1.0</real>
+        <integer>0</integer>
+        <integer>1</integer>
         <real>0.25</real>
       </array>
       <key>public.kern1.quotebase</key>
       <array>
-        <real>1.0</real>
-        <real>0.0</real>
-        <real>1.0</real>
+        <integer>1</integer>
+        <integer>0</integer>
+        <integer>1</integer>
         <real>0.25</real>
       </array>
       <key>public.kern1.quoteleft</key>
       <array>
-        <real>1.0</real>
-        <real>0.0</real>
+        <integer>1</integer>
+        <integer>0</integer>
         <real>0.5</real>
         <real>0.25</real>
       </array>
       <key>public.kern1.quoteright</key>
       <array>
-        <real>1.0</real>
-        <real>0.0</real>
-        <real>0.0</real>
+        <integer>1</integer>
+        <integer>0</integer>
+        <integer>0</integer>
         <real>0.25</real>
       </array>
       <key>public.kern1.quotes</key>
       <array>
-        <real>1.0</real>
+        <integer>1</integer>
         <real>0.5</real>
-        <real>0.0</real>
+        <integer>0</integer>
         <real>0.25</real>
       </array>
       <key>public.kern1.r</key>
       <array>
-        <real>1.0</real>
-        <real>1.0</real>
-        <real>0.0</real>
+        <integer>1</integer>
+        <integer>1</integer>
+        <integer>0</integer>
         <real>0.25</real>
       </array>
       <key>public.kern1.s</key>
       <array>
-        <real>0.0</real>
-        <real>1.0</real>
-        <real>0.0</real>
+        <integer>0</integer>
+        <integer>1</integer>
+        <integer>0</integer>
         <real>0.25</real>
       </array>
       <key>public.kern1.t</key>
       <array>
-        <real>0.0</real>
-        <real>1.0</real>
-        <real>1.0</real>
+        <integer>0</integer>
+        <integer>1</integer>
+        <integer>1</integer>
         <real>0.25</real>
       </array>
       <key>public.kern1.u</key>
       <array>
-        <real>0.0</real>
+        <integer>0</integer>
         <real>0.5</real>
-        <real>1.0</real>
+        <integer>1</integer>
         <real>0.25</real>
       </array>
       <key>public.kern1.uhorn</key>
       <array>
-        <real>0.0</real>
-        <real>1.0</real>
-        <real>0.0</real>
+        <integer>0</integer>
+        <integer>1</integer>
+        <integer>0</integer>
         <real>0.25</real>
       </array>
       <key>public.kern1.w</key>
       <array>
-        <real>0.0</real>
-        <real>0.0</real>
-        <real>1.0</real>
+        <integer>0</integer>
+        <integer>0</integer>
+        <integer>1</integer>
         <real>0.25</real>
       </array>
       <key>public.kern1.y</key>
       <array>
         <real>0.5</real>
-        <real>0.0</real>
-        <real>1.0</real>
+        <integer>0</integer>
+        <integer>1</integer>
         <real>0.25</real>
       </array>
       <key>public.kern1.z</key>
       <array>
-        <real>1.0</real>
-        <real>0.0</real>
-        <real>1.0</real>
+        <integer>1</integer>
+        <integer>0</integer>
+        <integer>1</integer>
         <real>0.25</real>
       </array>
       <key>public.kern2.A</key>
       <array>
-        <real>1.0</real>
-        <real>0.0</real>
-        <real>0.0</real>
+        <integer>1</integer>
+        <integer>0</integer>
+        <integer>0</integer>
         <real>0.25</real>
       </array>
       <key>public.kern2.AE</key>
       <array>
-        <real>1.0</real>
-        <real>0.0</real>
-        <real>0.0</real>
+        <integer>1</integer>
+        <integer>0</integer>
+        <integer>0</integer>
         <real>0.25</real>
       </array>
       <key>public.kern2.C_G_O</key>
       <array>
-        <real>1.0</real>
+        <integer>1</integer>
         <real>0.5</real>
-        <real>0.0</real>
+        <integer>0</integer>
         <real>0.25</real>
       </array>
       <key>public.kern2.I</key>
       <array>
-        <real>1.0</real>
-        <real>1.0</real>
-        <real>0.0</real>
+        <integer>1</integer>
+        <integer>1</integer>
+        <integer>0</integer>
         <real>0.25</real>
       </array>
       <key>public.kern2.J</key>
       <array>
-        <real>0.0</real>
-        <real>1.0</real>
-        <real>0.0</real>
+        <integer>0</integer>
+        <integer>1</integer>
+        <integer>0</integer>
         <real>0.25</real>
       </array>
       <key>public.kern2.S</key>
       <array>
-        <real>0.0</real>
-        <real>1.0</real>
-        <real>1.0</real>
+        <integer>0</integer>
+        <integer>1</integer>
+        <integer>1</integer>
         <real>0.25</real>
       </array>
       <key>public.kern2.Straight_left</key>
       <array>
-        <real>0.0</real>
+        <integer>0</integer>
         <real>0.5</real>
-        <real>1.0</real>
+        <integer>1</integer>
         <real>0.25</real>
       </array>
       <key>public.kern2.T</key>
       <array>
-        <real>0.0</real>
-        <real>0.0</real>
-        <real>1.0</real>
+        <integer>0</integer>
+        <integer>0</integer>
+        <integer>1</integer>
         <real>0.25</real>
       </array>
       <key>public.kern2.U</key>
       <array>
         <real>0.5</real>
-        <real>0.0</real>
-        <real>1.0</real>
+        <integer>0</integer>
+        <integer>1</integer>
         <real>0.25</real>
       </array>
       <key>public.kern2.W</key>
       <array>
-        <real>1.0</real>
-        <real>0.0</real>
-        <real>1.0</real>
+        <integer>1</integer>
+        <integer>0</integer>
+        <integer>1</integer>
         <real>0.25</real>
       </array>
       <key>public.kern2.Y</key>
       <array>
-        <real>1.0</real>
-        <real>0.0</real>
+        <integer>1</integer>
+        <integer>0</integer>
         <real>0.5</real>
         <real>0.25</real>
       </array>
       <key>public.kern2.Z</key>
       <array>
-        <real>1.0</real>
-        <real>0.0</real>
-        <real>0.0</real>
+        <integer>1</integer>
+        <integer>0</integer>
+        <integer>0</integer>
         <real>0.25</real>
       </array>
       <key>public.kern2.a</key>
       <array>
-        <real>1.0</real>
+        <integer>1</integer>
         <real>0.5</real>
-        <real>0.0</real>
+        <integer>0</integer>
         <real>0.25</real>
       </array>
       <key>public.kern2.b</key>
       <array>
-        <real>1.0</real>
-        <real>1.0</real>
-        <real>0.0</real>
+        <integer>1</integer>
+        <integer>1</integer>
+        <integer>0</integer>
         <real>0.25</real>
       </array>
       <key>public.kern2.braces</key>
       <array>
-        <real>0.0</real>
-        <real>1.0</real>
-        <real>0.0</real>
+        <integer>0</integer>
+        <integer>1</integer>
+        <integer>0</integer>
         <real>0.25</real>
       </array>
       <key>public.kern2.bullet</key>
       <array>
-        <real>0.0</real>
-        <real>1.0</real>
-        <real>1.0</real>
+        <integer>0</integer>
+        <integer>1</integer>
+        <integer>1</integer>
         <real>0.25</real>
       </array>
       <key>public.kern2.c_e_o</key>
       <array>
-        <real>0.0</real>
+        <integer>0</integer>
         <real>0.5</real>
-        <real>1.0</real>
+        <integer>1</integer>
         <real>0.25</real>
       </array>
       <key>public.kern2.circles</key>
       <array>
-        <real>0.0</real>
-        <real>0.0</real>
-        <real>1.0</real>
+        <integer>0</integer>
+        <integer>0</integer>
+        <integer>1</integer>
         <real>0.25</real>
       </array>
       <key>public.kern2.colons</key>
       <array>
         <real>0.5</real>
-        <real>0.0</real>
-        <real>1.0</real>
+        <integer>0</integer>
+        <integer>1</integer>
         <real>0.25</real>
       </array>
       <key>public.kern2.d_q</key>
       <array>
-        <real>1.0</real>
-        <real>0.0</real>
-        <real>1.0</real>
+        <integer>1</integer>
+        <integer>0</integer>
+        <integer>1</integer>
         <real>0.25</real>
       </array>
       <key>public.kern2.dashes</key>
       <array>
-        <real>1.0</real>
-        <real>0.0</real>
+        <integer>1</integer>
+        <integer>0</integer>
         <real>0.5</real>
         <real>0.25</real>
       </array>
       <key>public.kern2.dots</key>
       <array>
-        <real>1.0</real>
-        <real>0.0</real>
-        <real>0.0</real>
+        <integer>1</integer>
+        <integer>0</integer>
+        <integer>0</integer>
         <real>0.25</real>
       </array>
       <key>public.kern2.f</key>
       <array>
-        <real>1.0</real>
+        <integer>1</integer>
         <real>0.5</real>
-        <real>0.0</real>
+        <integer>0</integer>
         <real>0.25</real>
       </array>
       <key>public.kern2.g</key>
       <array>
-        <real>1.0</real>
+        <integer>1</integer>
         <real>0.5</real>
-        <real>0.0</real>
+        <integer>0</integer>
         <real>0.25</real>
       </array>
       <key>public.kern2.guilleft</key>
       <array>
-        <real>1.0</real>
-        <real>1.0</real>
-        <real>0.0</real>
+        <integer>1</integer>
+        <integer>1</integer>
+        <integer>0</integer>
         <real>0.25</real>
       </array>
       <key>public.kern2.guilright</key>
       <array>
-        <real>0.0</real>
-        <real>1.0</real>
-        <real>0.0</real>
+        <integer>0</integer>
+        <integer>1</integer>
+        <integer>0</integer>
         <real>0.25</real>
       </array>
       <key>public.kern2.i</key>
       <array>
-        <real>0.0</real>
-        <real>1.0</real>
-        <real>1.0</real>
+        <integer>0</integer>
+        <integer>1</integer>
+        <integer>1</integer>
         <real>0.25</real>
       </array>
       <key>public.kern2.j</key>
       <array>
-        <real>0.0</real>
+        <integer>0</integer>
         <real>0.5</real>
-        <real>1.0</real>
+        <integer>1</integer>
         <real>0.25</real>
       </array>
       <key>public.kern2.math</key>
       <array>
-        <real>0.0</real>
-        <real>0.0</real>
-        <real>1.0</real>
+        <integer>0</integer>
+        <integer>0</integer>
+        <integer>1</integer>
         <real>0.25</real>
       </array>
       <key>public.kern2.minute</key>
       <array>
-        <real>1.0</real>
-        <real>1.0</real>
-        <real>0.0</real>
+        <integer>1</integer>
+        <integer>1</integer>
+        <integer>0</integer>
         <real>0.25</real>
       </array>
       <key>public.kern2.percent</key>
       <array>
         <real>0.5</real>
-        <real>0.0</real>
-        <real>1.0</real>
+        <integer>0</integer>
+        <integer>1</integer>
         <real>0.25</real>
       </array>
       <key>public.kern2.prime</key>
       <array>
-        <real>0.0</real>
-        <real>1.0</real>
-        <real>0.0</real>
+        <integer>0</integer>
+        <integer>1</integer>
+        <integer>0</integer>
         <real>0.25</real>
       </array>
       <key>public.kern2.quotebase</key>
       <array>
-        <real>1.0</real>
-        <real>0.0</real>
-        <real>1.0</real>
+        <integer>1</integer>
+        <integer>0</integer>
+        <integer>1</integer>
         <real>0.25</real>
       </array>
       <key>public.kern2.quoteleft</key>
       <array>
-        <real>1.0</real>
-        <real>0.0</real>
+        <integer>1</integer>
+        <integer>0</integer>
         <real>0.5</real>
         <real>0.25</real>
       </array>
       <key>public.kern2.quoteright</key>
       <array>
-        <real>1.0</real>
-        <real>0.0</real>
-        <real>0.0</real>
+        <integer>1</integer>
+        <integer>0</integer>
+        <integer>0</integer>
         <real>0.25</real>
       </array>
       <key>public.kern2.quotes</key>
       <array>
-        <real>1.0</real>
+        <integer>1</integer>
         <real>0.5</real>
-        <real>0.0</real>
+        <integer>0</integer>
         <real>0.25</real>
       </array>
       <key>public.kern2.s</key>
       <array>
-        <real>1.0</real>
-        <real>1.0</real>
-        <real>0.0</real>
+        <integer>1</integer>
+        <integer>1</integer>
+        <integer>0</integer>
         <real>0.25</real>
       </array>
       <key>public.kern2.straight_left_asc</key>
       <array>
-        <real>0.0</real>
-        <real>1.0</real>
-        <real>0.0</real>
+        <integer>0</integer>
+        <integer>1</integer>
+        <integer>0</integer>
         <real>0.25</real>
       </array>
       <key>public.kern2.straight_left_x</key>
       <array>
-        <real>0.0</real>
-        <real>1.0</real>
-        <real>1.0</real>
+        <integer>0</integer>
+        <integer>1</integer>
+        <integer>1</integer>
         <real>0.25</real>
       </array>
       <key>public.kern2.t</key>
       <array>
-        <real>0.0</real>
+        <integer>0</integer>
         <real>0.5</real>
-        <real>1.0</real>
+        <integer>1</integer>
         <real>0.25</real>
       </array>
       <key>public.kern2.u</key>
       <array>
-        <real>0.0</real>
-        <real>0.0</real>
-        <real>1.0</real>
+        <integer>0</integer>
+        <integer>0</integer>
+        <integer>1</integer>
         <real>0.25</real>
       </array>
       <key>public.kern2.w</key>
       <array>
         <real>0.5</real>
-        <real>0.0</real>
-        <real>1.0</real>
+        <integer>0</integer>
+        <integer>1</integer>
         <real>0.25</real>
       </array>
       <key>public.kern2.y</key>
       <array>
-        <real>1.0</real>
-        <real>0.0</real>
-        <real>1.0</real>
+        <integer>1</integer>
+        <integer>0</integer>
+        <integer>1</integer>
         <real>0.25</real>
       </array>
       <key>public.kern2.z</key>
       <array>
-        <real>1.0</real>
-        <real>0.0</real>
+        <integer>1</integer>
+        <integer>0</integer>
         <real>0.5</real>
         <real>0.25</real>
       </array>
@@ -1387,44 +1413,8 @@
         <real>100.0</real>
       </array>
       <array>
-        <string>wdth</string>
-        <real>100.0</real>
-      </array>
-      <array>
         <string>opsz</string>
         <real>8.0</real>
-      </array>
-      <array>
-        <string>GRAD</string>
-        <real>0.0</real>
-      </array>
-      <array>
-        <string>XTRA</string>
-        <real>980.0</real>
-      </array>
-      <array>
-        <string>XOPQ</string>
-        <real>176.0</real>
-      </array>
-      <array>
-        <string>YOPQ</string>
-        <real>124.0</real>
-      </array>
-      <array>
-        <string>YTLC</string>
-        <real>500.0</real>
-      </array>
-      <array>
-        <string>YTUC</string>
-        <real>750.0</real>
-      </array>
-      <array>
-        <string>YTAS</string>
-        <real>767.0</real>
-      </array>
-      <array>
-        <string>YTDE</string>
-        <real>240.0</real>
       </array>
     </array>
     <key>public.glyphOrder</key>
@@ -1542,6 +1532,7 @@
       <string>twosuperior</string>
       <string>threesuperior</string>
       <string>acute</string>
+      <string>mu</string>
       <string>paragraph</string>
       <string>periodcentered</string>
       <string>cedilla</string>
@@ -1628,180 +1619,11 @@
       <string>quoteleft</string>
       <string>quoteright</string>
       <string>minus</string>
-      <string>f_f</string>
-      <string>f_f_i</string>
-      <string>f_f_l</string>
-      <string>ellipsis</string>
-      <string>endash</string>
-      <string>emdash</string>
-      <string>quotedblleft</string>
-      <string>quotedblright</string>
-      <string>quotesinglbase</string>
-      <string>quotedblbase</string>
-      <string>guilsinglleft</string>
-      <string>guilsinglright</string>
-      <string>dagger</string>
-      <string>daggerdbl</string>
-      <string>bullet</string>
-      <string>Aringacute</string>
+      <string>nbspace</string>
       <string>Amacron</string>
       <string>Abreve</string>
       <string>Aogonek</string>
-      <string>AEacute</string>
-      <string>Cacute</string>
-      <string>Ccircumflex</string>
-      <string>Cdotaccent</string>
-      <string>Ccaron</string>
-      <string>Dcaron</string>
-      <string>Dcroat</string>
-      <string>Emacron</string>
-      <string>Ebreve</string>
-      <string>Edotaccent</string>
-      <string>Eogonek</string>
-      <string>Ecaron</string>
-      <string>Gcircumflex</string>
-      <string>Gbreve</string>
-      <string>Gdotaccent</string>
-      <string>Gcommaaccent</string>
-      <string>Hcircumflex</string>
-      <string>Hbar</string>
-      <string>Itilde</string>
-      <string>Imacron</string>
-      <string>Ibreve</string>
-      <string>Iogonek</string>
-      <string>Idotaccent</string>
-      <string>IJ</string>
-      <string>Jcircumflex</string>
-      <string>Kcommaaccent</string>
-      <string>Lacute</string>
-      <string>Lcommaaccent</string>
-      <string>Lcaron</string>
-      <string>Ldot</string>
-      <string>Lslash</string>
-      <string>Nacute</string>
-      <string>Ncommaaccent</string>
-      <string>Ncaron</string>
-      <string>Eng</string>
-      <string>Omacron</string>
-      <string>Obreve</string>
-      <string>Ohungarumlaut</string>
-      <string>Oslashacute</string>
-      <string>Ohorn</string>
-      <string>Racute</string>
-      <string>Rcommaaccent</string>
-      <string>Rcaron</string>
-      <string>Sacute</string>
-      <string>Scircumflex</string>
-      <string>Scedilla</string>
-      <string>Scaron</string>
-      <string>Scommaaccent</string>
-      <string>Tcommaaccent</string>
-      <string>Tcaron</string>
-      <string>Tbar</string>
-      <string>Utilde</string>
-      <string>Umacron</string>
-      <string>Ubreve</string>
-      <string>Uring</string>
-      <string>Uhungarumlaut</string>
-      <string>Uogonek</string>
-      <string>Uhorn</string>
-      <string>Wgrave</string>
-      <string>Wacute</string>
-      <string>Wcircumflex</string>
-      <string>Wdieresis</string>
-      <string>Ygrave</string>
-      <string>Ycircumflex</string>
-      <string>Ydieresis</string>
-      <string>Zacute</string>
-      <string>Zdotaccent</string>
-      <string>Zcaron</string>
-      <string>aringacute</string>
-      <string>amacron</string>
-      <string>abreve</string>
-      <string>aogonek</string>
-      <string>aeacute</string>
-      <string>cacute</string>
-      <string>ccircumflex</string>
-      <string>cdotaccent</string>
-      <string>ccaron</string>
-      <string>dcaron</string>
-      <string>dcroat</string>
-      <string>emacron</string>
-      <string>ebreve</string>
-      <string>edotaccent</string>
-      <string>eogonek</string>
-      <string>ecaron</string>
-      <string>gcircumflex</string>
-      <string>gbreve</string>
-      <string>gdotaccent</string>
-      <string>gcommaaccent</string>
-      <string>hcircumflex</string>
-      <string>hbar</string>
-      <string>itilde</string>
-      <string>imacron</string>
-      <string>ibreve</string>
-      <string>iogonek</string>
-      <string>ij</string>
-      <string>jcircumflex</string>
-      <string>kcommaaccent</string>
-      <string>kgreenlandic</string>
-      <string>lacute</string>
-      <string>lcommaaccent</string>
-      <string>lcaron</string>
-      <string>ldot</string>
-      <string>lslash</string>
-      <string>napostrophe</string>
-      <string>nacute</string>
-      <string>ncommaaccent</string>
-      <string>ncaron</string>
-      <string>eng</string>
-      <string>omacron</string>
-      <string>obreve</string>
-      <string>ohungarumlaut</string>
-      <string>oslashacute</string>
-      <string>ohorn</string>
-      <string>racute</string>
-      <string>rcommaaccent</string>
-      <string>rcaron</string>
-      <string>sacute</string>
-      <string>scircumflex</string>
-      <string>scedilla</string>
-      <string>scaron</string>
-      <string>scommaaccent</string>
-      <string>tcommaaccent</string>
-      <string>tcaron</string>
-      <string>tbar</string>
-      <string>utilde</string>
-      <string>umacron</string>
-      <string>ubreve</string>
-      <string>uring</string>
-      <string>uhungarumlaut</string>
-      <string>uogonek</string>
-      <string>uhorn</string>
-      <string>wgrave</string>
-      <string>wacute</string>
-      <string>wcircumflex</string>
-      <string>wdieresis</string>
-      <string>ygrave</string>
-      <string>ycircumflex</string>
-      <string>zacute</string>
-      <string>zdotaccent</string>
-      <string>zcaron</string>
-      <string>schwa</string>
-      <string>trademark</string>
-      <string>lessequal</string>
-      <string>greaterequal</string>
-      <string>notequal</string>
-      <string>approxequal</string>
-      <string>florin</string>
-      <string>perthousand</string>
-      <string>minute</string>
-      <string>second</string>
-      <string>fraction</string>
-      <string>CR</string>
-      <string>fi</string>
-      <string>fl</string>
-      <string>nbspace</string>
+      <string>Aringacute</string>
       <string>Adblgrave</string>
       <string>Ainvertedbreve</string>
       <string>Adotbelow</string>
@@ -1816,6 +1638,16 @@
       <string>Abrevehookabove</string>
       <string>Abrevetilde</string>
       <string>Abrevedotbelow</string>
+      <string>Cacute</string>
+      <string>Ccircumflex</string>
+      <string>Cdotaccent</string>
+      <string>Ccaron</string>
+      <string>Dcaron</string>
+      <string>Emacron</string>
+      <string>Ebreve</string>
+      <string>Edotaccent</string>
+      <string>Eogonek</string>
+      <string>Ecaron</string>
       <string>Edblgrave</string>
       <string>Einvertedbreve</string>
       <string>Edotbelow</string>
@@ -1826,11 +1658,33 @@
       <string>Ecircumflexhookabove</string>
       <string>Ecircumflextilde</string>
       <string>Ecircumflexdotbelow</string>
+      <string>Gcircumflex</string>
+      <string>Gbreve</string>
+      <string>Gdotaccent</string>
+      <string>Gcommaaccent</string>
       <string>Gcaron</string>
+      <string>Hcircumflex</string>
+      <string>Itilde</string>
+      <string>Imacron</string>
+      <string>Ibreve</string>
+      <string>Iogonek</string>
+      <string>Idotaccent</string>
       <string>Idblgrave</string>
       <string>Iinvertedbreve</string>
       <string>Ihookabove</string>
       <string>Idotbelow</string>
+      <string>Jcircumflex</string>
+      <string>Kcommaaccent</string>
+      <string>Lacute</string>
+      <string>Lcommaaccent</string>
+      <string>Lcaron</string>
+      <string>Nacute</string>
+      <string>Ncommaaccent</string>
+      <string>Ncaron</string>
+      <string>Omacron</string>
+      <string>Obreve</string>
+      <string>Ohungarumlaut</string>
+      <string>Ohorn</string>
       <string>Oogonek</string>
       <string>Odblgrave</string>
       <string>Oinvertedbreve</string>
@@ -1849,9 +1703,26 @@
       <string>Ohornhookabove</string>
       <string>Ohorntilde</string>
       <string>Ohorndotbelow</string>
+      <string>Racute</string>
+      <string>Rcommaaccent</string>
+      <string>Rcaron</string>
       <string>Rdblgrave</string>
       <string>Rinvertedbreve</string>
+      <string>Sacute</string>
+      <string>Scircumflex</string>
+      <string>Scedilla</string>
+      <string>Scaron</string>
+      <string>Scommaaccent</string>
       <string>Tcedilla</string>
+      <string>Tcaron</string>
+      <string>Tcommaaccent</string>
+      <string>Utilde</string>
+      <string>Umacron</string>
+      <string>Ubreve</string>
+      <string>Uring</string>
+      <string>Uhungarumlaut</string>
+      <string>Uogonek</string>
+      <string>Uhorn</string>
       <string>Udblgrave</string>
       <string>Uinvertedbreve</string>
       <string>Udotbelow</string>
@@ -1861,428 +1732,34 @@
       <string>Uhornhookabove</string>
       <string>Uhorntilde</string>
       <string>Uhorndotbelow</string>
+      <string>Wcircumflex</string>
+      <string>Wgrave</string>
+      <string>Wacute</string>
+      <string>Wdieresis</string>
+      <string>Ycircumflex</string>
+      <string>Ydieresis</string>
       <string>Ymacron</string>
+      <string>Ygrave</string>
       <string>Ydotbelow</string>
       <string>Yhookabove</string>
       <string>Ytilde</string>
+      <string>Zacute</string>
+      <string>Zdotaccent</string>
+      <string>Zcaron</string>
+      <string>AEacute</string>
+      <string>Oslashacute</string>
+      <string>Dcroat</string>
+      <string>Hbar</string>
+      <string>IJ</string>
+      <string>Ldot</string>
+      <string>Lslash</string>
+      <string>Eng</string>
+      <string>Tbar</string>
       <string>Schwa</string>
       <string>DZcaron</string>
       <string>LJ</string>
       <string>NJ</string>
       <string>Germandbls</string>
-      <string>micro</string>
-      <string>adblgrave</string>
-      <string>ainvertedbreve</string>
-      <string>adotbelow</string>
-      <string>ahookabove</string>
-      <string>acircumflexacute</string>
-      <string>acircumflexgrave</string>
-      <string>acircumflexhookabove</string>
-      <string>acircumflextilde</string>
-      <string>acircumflexdotbelow</string>
-      <string>abreveacute</string>
-      <string>abrevegrave</string>
-      <string>abrevehookabove</string>
-      <string>abrevetilde</string>
-      <string>abrevedotbelow</string>
-      <string>edblgrave</string>
-      <string>einvertedbreve</string>
-      <string>edotbelow</string>
-      <string>ehookabove</string>
-      <string>etilde</string>
-      <string>ecircumflexacute</string>
-      <string>ecircumflexgrave</string>
-      <string>ecircumflexhookabove</string>
-      <string>ecircumflextilde</string>
-      <string>ecircumflexdotbelow</string>
-      <string>gcaron</string>
-      <string>idblgrave</string>
-      <string>iinvertedbreve</string>
-      <string>ihookabove</string>
-      <string>idotbelow</string>
-      <string>oogonek</string>
-      <string>odblgrave</string>
-      <string>oinvertedbreve</string>
-      <string>odieresismacron</string>
-      <string>otildemacron</string>
-      <string>odotaccentmacron</string>
-      <string>odotbelow</string>
-      <string>ohookabove</string>
-      <string>ocircumflexacute</string>
-      <string>ocircumflexgrave</string>
-      <string>ocircumflexhookabove</string>
-      <string>ocircumflextilde</string>
-      <string>ocircumflexdotbelow</string>
-      <string>ohornacute</string>
-      <string>ohorngrave</string>
-      <string>ohornhookabove</string>
-      <string>ohorntilde</string>
-      <string>ohorndotbelow</string>
-      <string>rdblgrave</string>
-      <string>rinvertedbreve</string>
-      <string>tcedilla</string>
-      <string>udblgrave</string>
-      <string>uinvertedbreve</string>
-      <string>udotbelow</string>
-      <string>uhookabove</string>
-      <string>uhornacute</string>
-      <string>uhorngrave</string>
-      <string>uhornhookabove</string>
-      <string>uhorntilde</string>
-      <string>uhorndotbelow</string>
-      <string>ymacron</string>
-      <string>ydotbelow</string>
-      <string>yhookabove</string>
-      <string>ytilde</string>
-      <string>idotless</string>
-      <string>dzcaron</string>
-      <string>lj</string>
-      <string>nj</string>
-      <string>Dzcaron</string>
-      <string>Lj</string>
-      <string>Nj</string>
-      <string>primemod</string>
-      <string>doubleprimemod</string>
-      <string>apostrophemod</string>
-      <string>firsttonechinese</string>
-      <string>gravecomb</string>
-      <string>acutecomb</string>
-      <string>circumflexcomb</string>
-      <string>tildecomb</string>
-      <string>macroncomb</string>
-      <string>brevecomb</string>
-      <string>dotaccentcomb</string>
-      <string>dieresiscomb</string>
-      <string>hookabovecomb</string>
-      <string>ringcomb</string>
-      <string>hungarumlautcomb</string>
-      <string>caroncomb</string>
-      <string>breveinvertedcomb</string>
-      <string>dblgravecomb</string>
-      <string>horncomb</string>
-      <string>dotbelowcomb</string>
-      <string>dieresisbelowcomb</string>
-      <string>commaaccentcomb</string>
-      <string>cedillacomb</string>
-      <string>ogonekcomb</string>
-      <string>brevebelowcomb</string>
-      <string>macronbelowcomb</string>
-      <string>foursuperior</string>
-      <string>hyphentwo</string>
-      <string>horizontalbar</string>
-      <string>leftanglebracket</string>
-      <string>rightanglebracket</string>
-      <string>guillemetleft</string>
-      <string>guillemetright</string>
-      <string>numero</string>
-      <string>commercialMinusSign</string>
-      <string>divisionslash</string>
-      <string>bulletoperator</string>
-      <string>colonsign</string>
-      <string>franc</string>
-      <string>lira</string>
-      <string>naira</string>
-      <string>peseta</string>
-      <string>won</string>
-      <string>dong</string>
-      <string>euro</string>
-      <string>kip</string>
-      <string>peso</string>
-      <string>guarani</string>
-      <string>cedi</string>
-      <string>rupeeIndian</string>
-      <string>liraTurkish</string>
-      <string>manat</string>
-      <string>ruble</string>
-      <string>softhyphen</string>
-      <string>IJacute</string>
-      <string>diagonalbarO</string>
-      <string>diagonalbarl</string>
-      <string>diagonalbaro</string>
-      <string>engn</string>
-      <string>engtail</string>
-      <string>horizontalbarH</string>
-      <string>horizontalbarlc</string>
-      <string>hornU</string>
-      <string>hornu</string>
-      <string>idotaccent</string>
-      <string>ijacute</string>
-      <string>jdotless</string>
-      <string>gravecomb.case</string>
-      <string>acutecomb.case</string>
-      <string>circumflexcomb.case</string>
-      <string>tildecomb.case</string>
-      <string>macroncomb.case</string>
-      <string>brevecomb.case</string>
-      <string>dotaccentcomb.case</string>
-      <string>dieresiscomb.case</string>
-      <string>hookabovecomb.case</string>
-      <string>ringcomb.case</string>
-      <string>hungarumlautcomb.case</string>
-      <string>caroncomb.case</string>
-      <string>breveinvertedcomb.case</string>
-      <string>dblgravecomb.case</string>
-      <string>horncomb.case</string>
-      <string>dotbelowcomb.case</string>
-      <string>dieresisbelowcomb.case</string>
-      <string>commaaccentcomb.case</string>
-      <string>cedillacomb.case</string>
-      <string>ogonekcomb.case</string>
-      <string>brevebelowcomb.case</string>
-      <string>macronbelowcomb.case</string>
-      <string>acutecombstack.case</string>
-      <string>brevecombstack.case</string>
-      <string>circumflexcombstack.case</string>
-      <string>dieresiscombstack.case</string>
-      <string>dotaccentcombstack.case</string>
-      <string>gravecombstack.case</string>
-      <string>hookabovecombstack.case</string>
-      <string>macroncombstack.case</string>
-      <string>tildecombstack.case</string>
-      <string>caroncomb.alt</string>
-      <string>periodcentered.loclCAT</string>
-      <string>periodcentered.loclCAT.case</string>
-      <string>dollar.rvrn</string>
-      <string>dollar.rvrn2</string>
-      <string>zero.lf</string>
-      <string>one.lf</string>
-      <string>two.lf</string>
-      <string>three.lf</string>
-      <string>four.lf</string>
-      <string>five.lf</string>
-      <string>six.lf</string>
-      <string>seven.lf</string>
-      <string>eight.lf</string>
-      <string>nine.lf</string>
-      <string>Jacute.loclNLD</string>
-      <string>jacute.loclNLD</string>
-      <string>Iacute_J.loclNLD</string>
-      <string>iacute_j.loclNLD</string>
-      <string>zero.tab</string>
-      <string>one.tab</string>
-      <string>two.tab</string>
-      <string>three.tab</string>
-      <string>four.tab</string>
-      <string>five.tab</string>
-      <string>six.tab</string>
-      <string>seven.tab</string>
-      <string>eight.tab</string>
-      <string>nine.tab</string>
-      <string>zero.lc</string>
-      <string>one.lc</string>
-      <string>two.lc</string>
-      <string>three.lc</string>
-      <string>four.lc</string>
-      <string>five.lc</string>
-      <string>six.lc</string>
-      <string>seven.lc</string>
-      <string>eight.lc</string>
-      <string>nine.lc</string>
-      <string>dieresistonoscmb</string>
-      <string>tonoscmb</string>
-      <string>Abrevecyr</string>
-      <string>Acyr</string>
-      <string>Adieresiscyr</string>
-      <string>Amacroncyr</string>
-      <string>Be</string>
-      <string>Che</string>
-      <string>Chedescender-cy</string>
-      <string>Cheverticalstroke-cy</string>
-      <string>De</string>
-      <string>De.bgr</string>
-      <string>Dje</string>
-      <string>Dze</string>
-      <string>Dzhe</string>
-      <string>Ebrevecyr</string>
-      <string>Ecyr</string>
-      <string>Ef</string>
-      <string>El</string>
-      <string>El.bgr</string>
-      <string>Em</string>
-      <string>Emacroncyr</string>
-      <string>En</string>
-      <string>Endescender</string>
-      <string>Er</string>
-      <string>Es</string>
-      <string>Esdescendercyr</string>
-      <string>Ghe</string>
-      <string>Ghestroke</string>
-      <string>Gheup</string>
-      <string>Gje</string>
-      <string>Ha</string>
-      <string>Hadescender</string>
-      <string>Hard</string>
-      <string>Hastroke-cy</string>
-      <string>Icyr</string>
-      <string>Ie</string>
-      <string>Iebrevecyr</string>
-      <string>Iemacroncyr</string>
-      <string>Ieukran</string>
-      <string>Igravecyr</string>
-      <string>Io</string>
-      <string>Ishort</string>
-      <string>Iukran</string>
-      <string>Je</string>
-      <string>Ka</string>
-      <string>Ka.bgr</string>
-      <string>Kabashkircyr</string>
-      <string>Kadescender</string>
-      <string>Kaverticalstrokecyr</string>
-      <string>Kje</string>
-      <string>Lje</string>
-      <string>Nje</string>
-      <string>Obarcyr</string>
-      <string>Obrevecyr</string>
-      <string>Ocyr</string>
-      <string>Odieresiscyr</string>
-      <string>Omacroncyr</string>
-      <string>Palochka</string>
-      <string>Pe</string>
-      <string>Schwacyr</string>
-      <string>Sha</string>
-      <string>Shcha</string>
-      <string>Shha</string>
-      <string>Soft</string>
-      <string>Te</string>
-      <string>Tedescender-cy</string>
-      <string>Tse</string>
-      <string>Tshe</string>
-      <string>Ucyr</string>
-      <string>Udieresiscyr</string>
-      <string>Uhungarumlautcyr</string>
-      <string>Umacroncyr</string>
-      <string>Ushort</string>
-      <string>Ustraight</string>
-      <string>Ustraightstroke</string>
-      <string>Ve</string>
-      <string>Ya</string>
-      <string>Yamacron</string>
-      <string>Yeru</string>
-      <string>Yi</string>
-      <string>Yu</string>
-      <string>Yumacron</string>
-      <string>Ze</string>
-      <string>Zedescendercyr</string>
-      <string>Zhe</string>
-      <string>Zhe.bgr</string>
-      <string>Zhebrevecyr</string>
-      <string>Zhedescender</string>
-      <string>Zhedieresiscyr</string>
-      <string>abrevecyr</string>
-      <string>acyr</string>
-      <string>adieresiscyr</string>
-      <string>amacroncyr</string>
-      <string>be</string>
-      <string>be.locl</string>
-      <string>breve.cyr</string>
-      <string>breve.cyr.case</string>
-      <string>che</string>
-      <string>che.bgr</string>
-      <string>chedescender-cy</string>
-      <string>cheverticalstroke-cy</string>
-      <string>de</string>
-      <string>de.bgr</string>
-      <string>de.locl</string>
-      <string>dieresiscomp</string>
-      <string>dje</string>
-      <string>dze</string>
-      <string>dzhe</string>
-      <string>ebrevecyr</string>
-      <string>ecyr</string>
-      <string>ef</string>
-      <string>el</string>
-      <string>el.bgr</string>
-      <string>em</string>
-      <string>emacroncyr</string>
-      <string>en</string>
-      <string>en.bgr</string>
-      <string>endescender</string>
-      <string>er</string>
-      <string>es</string>
-      <string>esdescendercyr</string>
-      <string>ghe</string>
-      <string>ghe.bgr</string>
-      <string>ghe.locl</string>
-      <string>ghestroke</string>
-      <string>gheup</string>
-      <string>gje</string>
-      <string>ha</string>
-      <string>hadescender</string>
-      <string>hard</string>
-      <string>hard.bgr</string>
-      <string>hastroke-cy</string>
-      <string>hryvnia</string>
-      <string>i.bgr</string>
-      <string>icyr</string>
-      <string>ie</string>
-      <string>iebrevecyr</string>
-      <string>iemacroncyr</string>
-      <string>ieukran</string>
-      <string>igrave.bgr</string>
-      <string>igravecyr</string>
-      <string>io</string>
-      <string>ishort</string>
-      <string>ishort.bgr</string>
-      <string>iukran</string>
-      <string>je</string>
-      <string>ka</string>
-      <string>ka.bgr</string>
-      <string>kabashkircyr</string>
-      <string>kadescender</string>
-      <string>kaverticalstrokecyr</string>
-      <string>kje</string>
-      <string>lje</string>
-      <string>nje</string>
-      <string>obarcyr</string>
-      <string>obrevecyr</string>
-      <string>ocyr</string>
-      <string>odieresiscyr</string>
-      <string>omacroncyr</string>
-      <string>palochka</string>
-      <string>pe</string>
-      <string>pe.bgr</string>
-      <string>pe.locl</string>
-      <string>schwacyr</string>
-      <string>sha</string>
-      <string>sha.bgr</string>
-      <string>shcha</string>
-      <string>shcha.bgr</string>
-      <string>shha</string>
-      <string>soft</string>
-      <string>soft.bgr</string>
-      <string>te</string>
-      <string>te.bgr</string>
-      <string>te.locl</string>
-      <string>tedescender-cy</string>
-      <string>tenge</string>
-      <string>tse</string>
-      <string>tse.bgr</string>
-      <string>tshe</string>
-      <string>ucyr</string>
-      <string>udieresiscyr</string>
-      <string>uhungarumlautcyr</string>
-      <string>umacroncyr</string>
-      <string>ushort</string>
-      <string>ustraight</string>
-      <string>ustraightstroke</string>
-      <string>ve</string>
-      <string>ve.bgr</string>
-      <string>ya</string>
-      <string>yamacron</string>
-      <string>yeru</string>
-      <string>yi</string>
-      <string>yu</string>
-      <string>yu.bgr</string>
-      <string>yumacron</string>
-      <string>ze</string>
-      <string>ze.bgr</string>
-      <string>zedescendercyr</string>
-      <string>zhe</string>
-      <string>zhe.bgr</string>
-      <string>zhebrevecyr</string>
-      <string>zhedescender</string>
-      <string>zhedieresiscyr</string>
-      <string>mu</string>
       <string>Alpha</string>
       <string>Alphatonos</string>
       <string>Beta</string>
@@ -2318,6 +1795,223 @@
       <string>Omegatonos</string>
       <string>Kaisymbol</string>
       <string>ohm</string>
+      <string>Dje</string>
+      <string>Ieukran</string>
+      <string>Dze</string>
+      <string>Iukran</string>
+      <string>Yi</string>
+      <string>Je</string>
+      <string>Lje</string>
+      <string>Nje</string>
+      <string>Tshe</string>
+      <string>Dzhe</string>
+      <string>Acyr</string>
+      <string>Abrevecyr</string>
+      <string>Adieresiscyr</string>
+      <string>Be</string>
+      <string>Ve</string>
+      <string>Ghe</string>
+      <string>Gje</string>
+      <string>De</string>
+      <string>Ie</string>
+      <string>Io</string>
+      <string>Iebrevecyr</string>
+      <string>Zhe</string>
+      <string>Zhebrevecyr</string>
+      <string>Zhedieresiscyr</string>
+      <string>Ze</string>
+      <string>Icyr</string>
+      <string>Igravecyr</string>
+      <string>Ishort</string>
+      <string>Ka</string>
+      <string>Kje</string>
+      <string>El</string>
+      <string>Em</string>
+      <string>En</string>
+      <string>Ocyr</string>
+      <string>Odieresiscyr</string>
+      <string>Pe</string>
+      <string>Er</string>
+      <string>Es</string>
+      <string>Te</string>
+      <string>Ucyr</string>
+      <string>Ushort</string>
+      <string>Umacroncyr</string>
+      <string>Udieresiscyr</string>
+      <string>Uhungarumlautcyr</string>
+      <string>Ef</string>
+      <string>Ha</string>
+      <string>Tse</string>
+      <string>Che</string>
+      <string>Sha</string>
+      <string>Shcha</string>
+      <string>Hard</string>
+      <string>Yeru</string>
+      <string>Soft</string>
+      <string>Ecyr</string>
+      <string>Yu</string>
+      <string>Ya</string>
+      <string>Gheup</string>
+      <string>Ghestroke</string>
+      <string>Zhedescender</string>
+      <string>Zedescendercyr</string>
+      <string>Kadescender</string>
+      <string>Kaverticalstrokecyr</string>
+      <string>Kabashkircyr</string>
+      <string>Endescender</string>
+      <string>Esdescendercyr</string>
+      <string>Tedescender-cy</string>
+      <string>Ustraight</string>
+      <string>Ustraightstroke</string>
+      <string>Hadescender</string>
+      <string>Chedescender-cy</string>
+      <string>Cheverticalstroke-cy</string>
+      <string>Shha</string>
+      <string>Palochka</string>
+      <string>Schwacyr</string>
+      <string>Obarcyr</string>
+      <string>Hastroke-cy</string>
+      <string>micro</string>
+      <string>amacron</string>
+      <string>abreve</string>
+      <string>aogonek</string>
+      <string>aringacute</string>
+      <string>adblgrave</string>
+      <string>ainvertedbreve</string>
+      <string>adotbelow</string>
+      <string>ahookabove</string>
+      <string>acircumflexacute</string>
+      <string>acircumflexgrave</string>
+      <string>acircumflexhookabove</string>
+      <string>acircumflextilde</string>
+      <string>acircumflexdotbelow</string>
+      <string>abreveacute</string>
+      <string>abrevegrave</string>
+      <string>abrevehookabove</string>
+      <string>abrevetilde</string>
+      <string>abrevedotbelow</string>
+      <string>cacute</string>
+      <string>ccircumflex</string>
+      <string>cdotaccent</string>
+      <string>ccaron</string>
+      <string>dcaron</string>
+      <string>emacron</string>
+      <string>ebreve</string>
+      <string>edotaccent</string>
+      <string>eogonek</string>
+      <string>ecaron</string>
+      <string>edblgrave</string>
+      <string>einvertedbreve</string>
+      <string>edotbelow</string>
+      <string>ehookabove</string>
+      <string>etilde</string>
+      <string>ecircumflexacute</string>
+      <string>ecircumflexgrave</string>
+      <string>ecircumflexhookabove</string>
+      <string>ecircumflextilde</string>
+      <string>ecircumflexdotbelow</string>
+      <string>gcircumflex</string>
+      <string>gbreve</string>
+      <string>gdotaccent</string>
+      <string>gcommaaccent</string>
+      <string>gcaron</string>
+      <string>hcircumflex</string>
+      <string>itilde</string>
+      <string>imacron</string>
+      <string>ibreve</string>
+      <string>iogonek</string>
+      <string>idblgrave</string>
+      <string>iinvertedbreve</string>
+      <string>ihookabove</string>
+      <string>idotbelow</string>
+      <string>jcircumflex</string>
+      <string>kcommaaccent</string>
+      <string>lacute</string>
+      <string>lcommaaccent</string>
+      <string>lcaron</string>
+      <string>nacute</string>
+      <string>ncommaaccent</string>
+      <string>ncaron</string>
+      <string>omacron</string>
+      <string>obreve</string>
+      <string>ohungarumlaut</string>
+      <string>ohorn</string>
+      <string>oogonek</string>
+      <string>odblgrave</string>
+      <string>oinvertedbreve</string>
+      <string>odieresismacron</string>
+      <string>otildemacron</string>
+      <string>odotaccentmacron</string>
+      <string>odotbelow</string>
+      <string>ohookabove</string>
+      <string>ocircumflexacute</string>
+      <string>ocircumflexgrave</string>
+      <string>ocircumflexhookabove</string>
+      <string>ocircumflextilde</string>
+      <string>ocircumflexdotbelow</string>
+      <string>ohornacute</string>
+      <string>ohorngrave</string>
+      <string>ohornhookabove</string>
+      <string>ohorntilde</string>
+      <string>ohorndotbelow</string>
+      <string>racute</string>
+      <string>rcommaaccent</string>
+      <string>rcaron</string>
+      <string>rdblgrave</string>
+      <string>rinvertedbreve</string>
+      <string>sacute</string>
+      <string>scircumflex</string>
+      <string>scedilla</string>
+      <string>scaron</string>
+      <string>scommaaccent</string>
+      <string>tcedilla</string>
+      <string>tcaron</string>
+      <string>tcommaaccent</string>
+      <string>utilde</string>
+      <string>umacron</string>
+      <string>ubreve</string>
+      <string>uring</string>
+      <string>uhungarumlaut</string>
+      <string>uogonek</string>
+      <string>uhorn</string>
+      <string>udblgrave</string>
+      <string>uinvertedbreve</string>
+      <string>udotbelow</string>
+      <string>uhookabove</string>
+      <string>uhornacute</string>
+      <string>uhorngrave</string>
+      <string>uhornhookabove</string>
+      <string>uhorntilde</string>
+      <string>uhorndotbelow</string>
+      <string>wcircumflex</string>
+      <string>wgrave</string>
+      <string>wacute</string>
+      <string>wdieresis</string>
+      <string>ycircumflex</string>
+      <string>ymacron</string>
+      <string>ygrave</string>
+      <string>ydotbelow</string>
+      <string>yhookabove</string>
+      <string>ytilde</string>
+      <string>zacute</string>
+      <string>zdotaccent</string>
+      <string>zcaron</string>
+      <string>aeacute</string>
+      <string>oslashacute</string>
+      <string>dcroat</string>
+      <string>hbar</string>
+      <string>idotless</string>
+      <string>ij</string>
+      <string>kgreenlandic</string>
+      <string>ldot</string>
+      <string>lslash</string>
+      <string>napostrophe</string>
+      <string>eng</string>
+      <string>tbar</string>
+      <string>dzcaron</string>
+      <string>lj</string>
+      <string>nj</string>
+      <string>schwa</string>
       <string>alpha</string>
       <string>alphatonos</string>
       <string>beta</string>
@@ -2353,18 +2047,316 @@
       <string>psi</string>
       <string>omega</string>
       <string>omegatonos</string>
+      <string>acyr</string>
+      <string>abrevecyr</string>
+      <string>adieresiscyr</string>
+      <string>be</string>
+      <string>ve</string>
+      <string>ghe</string>
+      <string>gje</string>
+      <string>de</string>
+      <string>ie</string>
+      <string>io</string>
+      <string>iebrevecyr</string>
+      <string>zhe</string>
+      <string>zhebrevecyr</string>
+      <string>zhedieresiscyr</string>
+      <string>ze</string>
+      <string>icyr</string>
+      <string>ishort</string>
+      <string>igravecyr</string>
+      <string>ka</string>
+      <string>kje</string>
+      <string>el</string>
+      <string>em</string>
+      <string>en</string>
+      <string>ocyr</string>
+      <string>odieresiscyr</string>
+      <string>pe</string>
+      <string>er</string>
+      <string>es</string>
+      <string>te</string>
+      <string>ucyr</string>
+      <string>ushort</string>
+      <string>umacroncyr</string>
+      <string>udieresiscyr</string>
+      <string>uhungarumlautcyr</string>
+      <string>ef</string>
+      <string>ha</string>
+      <string>tse</string>
+      <string>che</string>
+      <string>sha</string>
+      <string>shcha</string>
+      <string>hard</string>
+      <string>yeru</string>
+      <string>soft</string>
+      <string>ecyr</string>
+      <string>yu</string>
+      <string>ya</string>
+      <string>dje</string>
+      <string>ieukran</string>
+      <string>dze</string>
+      <string>iukran</string>
+      <string>yi</string>
+      <string>je</string>
+      <string>lje</string>
+      <string>nje</string>
+      <string>tshe</string>
+      <string>dzhe</string>
+      <string>gheup</string>
+      <string>ghestroke</string>
+      <string>zhedescender</string>
+      <string>zedescendercyr</string>
+      <string>kadescender</string>
+      <string>kaverticalstrokecyr</string>
+      <string>kabashkircyr</string>
+      <string>endescender</string>
+      <string>esdescendercyr</string>
+      <string>tedescender-cy</string>
+      <string>ustraight</string>
+      <string>ustraightstroke</string>
+      <string>hadescender</string>
+      <string>chedescender-cy</string>
+      <string>cheverticalstroke-cy</string>
+      <string>shha</string>
+      <string>palochka</string>
+      <string>schwacyr</string>
+      <string>obarcyr</string>
+      <string>hastroke-cy</string>
+      <string>Dzcaron</string>
+      <string>Lj</string>
+      <string>Nj</string>
+      <string>primemod</string>
+      <string>doubleprimemod</string>
+      <string>apostrophemod</string>
+      <string>firsttonechinese</string>
       <string>numeralsign</string>
+      <string>gravecomb</string>
+      <string>acutecomb</string>
+      <string>circumflexcomb</string>
+      <string>tildecomb</string>
+      <string>macroncomb</string>
+      <string>brevecomb</string>
+      <string>dotaccentcomb</string>
+      <string>dieresiscomb</string>
+      <string>hookabovecomb</string>
+      <string>ringcomb</string>
+      <string>hungarumlautcomb</string>
+      <string>caroncomb</string>
+      <string>breveinvertedcomb</string>
+      <string>dblgravecomb</string>
+      <string>horncomb</string>
+      <string>dotbelowcomb</string>
+      <string>dieresisbelowcomb</string>
+      <string>commaaccentcomb</string>
+      <string>cedillacomb</string>
+      <string>ogonekcomb</string>
+      <string>brevebelowcomb</string>
+      <string>macronbelowcomb</string>
+      <string>foursuperior</string>
+      <string>hyphentwo</string>
+      <string>endash</string>
+      <string>emdash</string>
+      <string>horizontalbar</string>
+      <string>leftanglebracket</string>
+      <string>rightanglebracket</string>
+      <string>perthousand</string>
+      <string>quotedblleft</string>
+      <string>quotedblright</string>
+      <string>quotesinglbase</string>
+      <string>quotedblbase</string>
+      <string>guilsinglleft</string>
+      <string>guilsinglright</string>
+      <string>guillemetleft</string>
+      <string>guillemetright</string>
+      <string>dagger</string>
+      <string>daggerdbl</string>
+      <string>ellipsis</string>
+      <string>fraction</string>
       <string>kaisymbol</string>
+      <string>numero</string>
+      <string>bullet</string>
       <string>gr:question</string>
       <string>anoteleia</string>
+      <string>minute</string>
+      <string>second</string>
+      <string>lessequal</string>
+      <string>greaterequal</string>
+      <string>approxequal</string>
+      <string>notequal</string>
+      <string>commercialMinusSign</string>
       <string>increment</string>
+      <string>divisionslash</string>
+      <string>bulletoperator</string>
+      <string>colonsign</string>
+      <string>franc</string>
+      <string>lira</string>
+      <string>naira</string>
+      <string>peseta</string>
+      <string>won</string>
+      <string>dong</string>
+      <string>euro</string>
+      <string>florin</string>
+      <string>kip</string>
+      <string>peso</string>
+      <string>guarani</string>
+      <string>hryvnia</string>
+      <string>cedi</string>
+      <string>tenge</string>
+      <string>rupeeIndian</string>
+      <string>liraTurkish</string>
+      <string>manat</string>
+      <string>ruble</string>
       <string>dieresistonos</string>
       <string>lownumeralsign</string>
       <string>tonos</string>
+      <string>trademark</string>
+      <string>CR</string>
+      <string>softhyphen</string>
+      <string>Amacroncyr</string>
+      <string>amacroncyr</string>
+      <string>Iemacroncyr</string>
+      <string>iemacroncyr</string>
+      <string>Omacroncyr</string>
+      <string>omacroncyr</string>
+      <string>Obrevecyr</string>
+      <string>obrevecyr</string>
+      <string>Emacroncyr</string>
+      <string>emacroncyr</string>
+      <string>Ebrevecyr</string>
+      <string>ebrevecyr</string>
+      <string>Yamacron</string>
+      <string>yamacron</string>
+      <string>Yumacron</string>
+      <string>yumacron</string>
+      <string>IJacute</string>
+      <string>diagonalbarO</string>
+      <string>diagonalbarl</string>
+      <string>diagonalbaro</string>
+      <string>dieresiscomp</string>
       <string>dieresistonoscomb</string>
+      <string>engn</string>
+      <string>engtail</string>
+      <string>horizontalbarH</string>
+      <string>horizontalbarlc</string>
+      <string>hornU</string>
+      <string>hornu</string>
+      <string>idotaccent</string>
+      <string>ijacute</string>
+      <string>jdotless</string>
       <string>tonoscomb</string>
+      <string>f_f</string>
+      <string>fi</string>
+      <string>fl</string>
+      <string>f_f_i</string>
+      <string>f_f_l</string>
+      <string>caroncomb.alt</string>
+      <string>periodcentered.loclCAT</string>
+      <string>periodcentered.loclCAT.case</string>
+      <string>breve.cyr</string>
+      <string>dollar.rvrn</string>
+      <string>dollar.rvrn2</string>
+      <string>breve.cyr.case</string>
+      <string>gravecomb.case</string>
+      <string>acutecomb.case</string>
+      <string>circumflexcomb.case</string>
+      <string>tildecomb.case</string>
+      <string>macroncomb.case</string>
+      <string>brevecomb.case</string>
+      <string>dotaccentcomb.case</string>
+      <string>dieresiscomb.case</string>
+      <string>hookabovecomb.case</string>
+      <string>ringcomb.case</string>
+      <string>hungarumlautcomb.case</string>
+      <string>caroncomb.case</string>
+      <string>breveinvertedcomb.case</string>
+      <string>dblgravecomb.case</string>
+      <string>horncomb.case</string>
+      <string>dotbelowcomb.case</string>
+      <string>dieresisbelowcomb.case</string>
+      <string>commaaccentcomb.case</string>
+      <string>cedillacomb.case</string>
+      <string>ogonekcomb.case</string>
+      <string>brevebelowcomb.case</string>
+      <string>macronbelowcomb.case</string>
       <string>tonos.case</string>
+      <string>acutecombstack.case</string>
+      <string>brevecombstack.case</string>
+      <string>circumflexcombstack.case</string>
+      <string>dieresiscombstack.case</string>
+      <string>dotaccentcombstack.case</string>
+      <string>gravecombstack.case</string>
+      <string>hookabovecombstack.case</string>
+      <string>macroncombstack.case</string>
+      <string>tildecombstack.case</string>
+      <string>zero.lc</string>
+      <string>one.lc</string>
+      <string>two.lc</string>
+      <string>three.lc</string>
+      <string>four.lc</string>
+      <string>five.lc</string>
+      <string>six.lc</string>
+      <string>seven.lc</string>
+      <string>eight.lc</string>
+      <string>nine.lc</string>
+      <string>zero.lf</string>
+      <string>one.lf</string>
+      <string>two.lf</string>
+      <string>three.lf</string>
+      <string>four.lf</string>
+      <string>five.lf</string>
+      <string>six.lf</string>
+      <string>seven.lf</string>
+      <string>eight.lf</string>
+      <string>nine.lf</string>
+      <string>zero.tab</string>
+      <string>one.tab</string>
+      <string>two.tab</string>
+      <string>three.tab</string>
+      <string>four.tab</string>
+      <string>five.tab</string>
+      <string>six.tab</string>
+      <string>seven.tab</string>
+      <string>eight.tab</string>
+      <string>nine.tab</string>
+      <string>De.bgr</string>
+      <string>Zhe.bgr</string>
+      <string>Ka.bgr</string>
+      <string>El.bgr</string>
+      <string>i.bgr</string>
+      <string>igrave.bgr</string>
+      <string>ve.bgr</string>
+      <string>ghe.bgr</string>
+      <string>de.bgr</string>
+      <string>zhe.bgr</string>
+      <string>ze.bgr</string>
+      <string>ka.bgr</string>
+      <string>el.bgr</string>
+      <string>en.bgr</string>
+      <string>pe.bgr</string>
+      <string>te.bgr</string>
+      <string>tse.bgr</string>
+      <string>che.bgr</string>
+      <string>sha.bgr</string>
+      <string>shcha.bgr</string>
+      <string>hard.bgr</string>
+      <string>soft.bgr</string>
+      <string>yu.bgr</string>
+      <string>ishort.bgr</string>
+      <string>be.locl</string>
+      <string>ghe.locl</string>
+      <string>de.locl</string>
+      <string>pe.locl</string>
+      <string>te.locl</string>
+      <string>Jacute.loclNLD</string>
+      <string>jacute.loclNLD</string>
+      <string>Iacute_J.loclNLD</string>
+      <string>iacute_j.loclNLD</string>
     </array>
+    <key>public.postscriptNames</key>
+    <dict/>
+    <key>public.skipExportGlyphs</key>
+    <array/>
     <key>tnCurvePalet</key>
     <dict>
       <key>sliderBottomMax</key>
