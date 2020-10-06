@@ -1,10 +1,10 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Ocircumflexhookabove" format="2">
-  <advance width="1237"/>
-  <unicode hex="1ED4"/>
-  <outline>
-    <component base="O"/>
-    <component base="circumflexcombstack.case" xOffset="166" yOffset="-10"/>
-    <component base="hookabovecombstack.case" xOffset="443" yOffset="185"/>
-  </outline>
+	<unicode hex="1ED4"/>
+	<advance width="1237"/>
+	<outline>
+		<component base="O"/>
+		<component base="circumflexcombstack.case" xOffset="166" yOffset="-10"/>
+		<component base="hookabovecombstack.case" xOffset="443" yOffset="185"/>
+	</outline>
 </glyph>
