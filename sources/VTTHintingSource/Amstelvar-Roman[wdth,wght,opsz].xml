@@ -5330,7 +5330,7 @@ ENDF[]
   </fpgm>
   <prep>
     <assembly>/* auto-generated pre-program */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:19 2020 */
 
 /* Grey scaling? */
 CALL[], 84
@@ -5404,7 +5404,7 @@ CALL[], 2, 89
 SVTCA[Y]
 CALL[], 8, 89
 CALL[], 3, 50, 2, 85
-CALL[], 9, 33, 8, 85
+CALL[], 9, 50, 8, 85
 SVTCA[Y]
 CALL[], 0, 89
 SVTCA[Y]
@@ -5601,7 +5601,6 @@ CALL[], 175, 75, 100, 31
 CALL[], 176, 75, 67, 31
 CALL[], 178, 52, 177, 85
 RTG[]
-
 </assembly>
   </prep>
   <cvt>
@@ -5636,7 +5635,7 @@ ASM("SVTCA[Y]")
 ASM("CALL[], 8, 89")
   RoundHeight
       3:    20 ~   2 @ 50 /* cap height overshoot */
-      9:   -31 ~   8 @ 33 /* base line undershoot */
+      9:   -31 ~   8 @ 50 /* base line undershoot */
 
 LowerCase
   SquareHeight
@@ -6012,7 +6011,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 0, char 0xffff */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:12 2020 */
 SVTCA[Y]
 MDAP[R], 0
 MDAP[R], 3
@@ -6039,7 +6038,7 @@ IUP[X]
 
 </talk>
         <assembly>/* TT glyph 1, char 0xd */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:12 2020 */
 </assembly>
       </instructions>
     </TTGlyph>
@@ -6058,7 +6057,7 @@ IUP[X]
 /*Auto-Hinting Light is not applied: Empty glyph or glyph with one point*/
 </talk>
         <assembly>/* TT glyph 2, char 0x20 */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:12 2020 */
 
 </assembly>
       </instructions>
@@ -6083,7 +6082,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 3, char 0x21 (!) */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:12 2020 */
 SVTCA[Y]
 CALL[], 9, 11, 114
 SHP[2], 3
@@ -6115,7 +6114,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 4, char 0x22 (") */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:12 2020 */
 SVTCA[Y]
 CALL[], 4, 1, 114
 SHP[2], 13
@@ -6151,7 +6150,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 5, char 0x23 (#) */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:12 2020 */
 SVTCA[Y]
 MIAP[R], 9, 5
 SHP[1], 13
@@ -6198,7 +6197,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 6, char 0x24 ($) */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:12 2020 */
 SVTCA[Y]
 MIAP[R], 16, 4
 SHP[1], 23
@@ -6251,7 +6250,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 7, char 0x25 (%) */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:12 2020 */
 SVTCA[Y]
 MIAP[R], 3, 5
 SHP[1], 21
@@ -6309,7 +6308,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 8, char 0x26 (&amp;) */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:12 2020 */
 SVTCA[Y]
 MIAP[R], 0, 11
 SHP[2], 51
@@ -6358,7 +6357,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 9, char 0x27 (') */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:12 2020 */
 SVTCA[Y]
 CALL[], 4, 1, 114
 SMD[], 128
@@ -6395,7 +6394,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 10, char 0x28 (() */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:12 2020 */
 SVTCA[Y]
 MDAP[R], 11
 CALL[], 3, 3, 114
@@ -6431,7 +6430,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 11, char 0x29 ()) */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:12 2020 */
 SVTCA[Y]
 MDAP[R], 3
 CALL[], 11, 3, 114
@@ -6459,7 +6458,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 12, char 0x2a (*) */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:12 2020 */
 SVTCA[Y]
 MDAP[R], 27
 SHP[1], 0
@@ -6487,7 +6486,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 13, char 0x2b (+) */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:12 2020 */
 SVTCA[Y]
 MDAP[R], 0
 SHP[2], 4
@@ -6517,7 +6516,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 14, char 0x2c (,) */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:12 2020 */
 SVTCA[Y]
 MDAP[R], 9
 SMD[], 128
@@ -6545,7 +6544,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 15, char 0x2d (-) */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:12 2020 */
 SVTCA[Y]
 MDAP[R], 5
 SHP[1], 2
@@ -6570,7 +6569,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 16, char 0x2e (.) */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:12 2020 */
 SVTCA[Y]
 CALL[], 9, 11, 114
 SHP[2], 3
@@ -6609,7 +6608,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 17, char 0x2f (/) */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:12 2020 */
 SVTCA[Y]
 MDAP[R], 3
 CALL[], 2, 2, 114
@@ -6635,7 +6634,7 @@ YShift(9,15)
 Smooth()
 </talk>
         <assembly>/* TT glyph 18, char 0x30 (0) */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:12 2020 */
 SVTCA[Y]
 CALL[], 3, 5, 114
 SHP[2], 21
@@ -6660,7 +6659,7 @@ ResYAnchor(7,4)
 Smooth()
 </talk>
         <assembly>/* TT glyph 19, char 0x31 (1) */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:12 2020 */
 SVTCA[Y]
 CALL[], 0, 12, 114
 CALL[], 7, 4, 114
@@ -6689,7 +6688,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 20, char 0x32 (2) */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:12 2020 */
 SVTCA[Y]
 CALL[], 0, 12, 114
 SHP[2], 27
@@ -6723,7 +6722,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 21, char 0x33 (3) */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:12 2020 */
 SVTCA[Y]
 CALL[], 26, 5, 114
 SHP[2], 19
@@ -6762,7 +6761,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 22, char 0x34 (4) */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:12 2020 */
 SVTCA[Y]
 CALL[], 1, 5, 114
 SHP[2], 3
@@ -6800,7 +6799,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 23, char 0x35 (5) */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:12 2020 */
 SVTCA[Y]
 CALL[], 14, 4, 114
 SHP[2], 17
@@ -6838,7 +6837,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 24, char 0x36 (6) */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:12 2020 */
 SVTCA[Y]
 MIAP[R], 3, 5
 SHP[1], 4
@@ -6869,7 +6868,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 25, char 0x37 (7) */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:12 2020 */
 SVTCA[Y]
 CALL[], 1, 4, 114
 SHP[2], 11
@@ -6899,7 +6898,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 26, char 0x38 (8) */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:12 2020 */
 SVTCA[Y]
 CALL[], 22, 5, 114
 SHP[2], 35
@@ -6934,7 +6933,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 27, char 0x39 (9) */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:12 2020 */
 SVTCA[Y]
 CALL[], 3, 5, 114
 SHP[2], 16
@@ -6967,7 +6966,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 28, char 0x3a (:) */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:12 2020 */
 SVTCA[Y]
 CALL[], 9, 19, 114
 SHP[2], 3
@@ -6999,7 +6998,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 29, char 0x3b (;) */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:12 2020 */
 SVTCA[Y]
 MDAP[R], 15
 SHP[1], 9
@@ -7032,7 +7031,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 30, char 0x3c (&lt;) */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:12 2020 */
 SVTCA[Y]
 MDAP[R], 14
 SHP[1], 4
@@ -7065,7 +7064,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 31, char 0x3d (=) */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:12 2020 */
 SVTCA[Y]
 MDAP[R], 11
 SHP[1], 8
@@ -7093,7 +7092,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 32, char 0x3e (&gt;) */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:12 2020 */
 SVTCA[Y]
 MDAP[R], 16
 SHP[1], 8
@@ -7126,7 +7125,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 33, char 0x3f (?) */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:12 2020 */
 SVTCA[Y]
 CALL[], 9, 19, 114
 SHP[2], 3
@@ -7172,7 +7171,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 34, char 0x40 (@) */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:12 2020 */
 SVTCA[Y]
 CALL[], 3, 3, 114
 SHP[2], 63
@@ -7227,7 +7226,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 35, char 0x41 (A) */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:12 2020 */
 SVTCA[Y]
 CALL[], 0, 8, 114
 SHP[2], 10
@@ -7271,7 +7270,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 36, char 0x42 (B) */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:12 2020 */
 SVTCA[Y]
 CALL[], 0, 8, 114
 SHP[2], 22
@@ -7314,7 +7313,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 37, char 0x43 (C) */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:12 2020 */
 SVTCA[Y]
 CALL[], 3, 3, 114
 SHP[2], 10
@@ -7353,7 +7352,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 38, char 0x44 (D) */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:12 2020 */
 SVTCA[Y]
 CALL[], 0, 8, 114
 SHP[2], 17
@@ -7386,7 +7385,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 39, char 0x45 (E) */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:12 2020 */
 SVTCA[Y]
 CALL[], 0, 8, 114
 SHP[2], 15
@@ -7421,7 +7420,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 40, char 0x46 (F) */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:12 2020 */
 SVTCA[Y]
 CALL[], 0, 8, 114
 CALL[], 6, 2, 114
@@ -7460,7 +7459,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 41, char 0x47 (G) */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:12 2020 */
 SVTCA[Y]
 CALL[], 3, 3, 114
 SHP[2], 10
@@ -7503,7 +7502,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 42, char 0x48 (H) */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:12 2020 */
 SVTCA[Y]
 CALL[], 0, 8, 114
 SHP[2], 20
@@ -7547,7 +7546,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 43, char 0x49 (I) */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:12 2020 */
 SVTCA[Y]
 CALL[], 0, 8, 114
 CALL[], 6, 2, 114
@@ -7573,7 +7572,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 44, char 0x4a (J) */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:12 2020 */
 SVTCA[Y]
 CALL[], 11, 2, 114
 MDAP[R], 19
@@ -7603,7 +7602,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 45, char 0x4b (K) */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:12 2020 */
 SVTCA[Y]
 CALL[], 0, 8, 114
 SHP[2], 28
@@ -7635,7 +7634,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 46, char 0x4c (L) */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:12 2020 */
 SVTCA[Y]
 CALL[], 0, 8, 114
 SHP[2], 12
@@ -7667,7 +7666,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 47, char 0x4d (M) */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:12 2020 */
 SVTCA[Y]
 CALL[], 0, 8, 114
 SHP[2], 19
@@ -7703,7 +7702,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 48, char 0x4e (N) */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:12 2020 */
 SVTCA[Y]
 CALL[], 0, 8, 114
 SHP[2], 19
@@ -7734,7 +7733,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 49, char 0x4f (O) */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:12 2020 */
 SVTCA[Y]
 CALL[], 3, 3, 114
 SHP[2], 21
@@ -7765,7 +7764,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 50, char 0x50 (P) */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:12 2020 */
 SVTCA[Y]
 CALL[], 0, 8, 114
 CALL[], 6, 2, 114
@@ -7803,7 +7802,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 51, char 0x51 (Q) */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:12 2020 */
 SVTCA[Y]
 CALL[], 3, 3, 114
 SHP[2], 21
@@ -7846,7 +7845,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 52, char 0x52 (R) */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:12 2020 */
 SVTCA[Y]
 CALL[], 0, 8, 114
 SHP[2], 38
@@ -7886,7 +7885,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 53, char 0x53 (S) */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:12 2020 */
 SVTCA[Y]
 CALL[], 0, 8, 114
 CALL[], 18, 3, 114
@@ -7932,7 +7931,7 @@ YShift(18,6) /*along bottom edge*/
 Smooth()
 </talk>
         <assembly>/* TT glyph 54, char 0x54 (T) */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:12 2020 */
 SVTCA[Y]
 CALL[], 12, 8, 114
 CALL[], 1, 2, 114
@@ -7976,7 +7975,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 55, char 0x55 (U) */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:12 2020 */
 SVTCA[Y]
 CALL[], 24, 9, 114
 CALL[], 1, 2, 114
@@ -8006,7 +8005,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 56, char 0x56 (V) */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:12 2020 */
 SVTCA[Y]
 CALL[], 1, 2, 114
 SHP[2], 11
@@ -8039,7 +8038,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 57, char 0x57 (W) */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:12 2020 */
 SVTCA[Y]
 CALL[], 1, 2, 114
 SHP[2], 16
@@ -8073,7 +8072,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 58, char 0x58 (X) */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:12 2020 */
 SVTCA[Y]
 CALL[], 0, 8, 114
 SHP[2], 25
@@ -8105,7 +8104,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 59, char 0x59 (Y) */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:12 2020 */
 SVTCA[Y]
 CALL[], 1, 2, 114
 SHP[2], 11
@@ -8139,7 +8138,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 60, char 0x5a (Z) */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:12 2020 */
 SVTCA[Y]
 CALL[], 0, 8, 114
 SHP[2], 11
@@ -8173,7 +8172,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 61, char 0x5b ([) */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:12 2020 */
 SVTCA[Y]
 CALL[], 3, 2, 114
 SHP[2], 6
@@ -8203,7 +8202,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 62, char 0x5c (\) */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:12 2020 */
 SVTCA[Y]
 CALL[], 0, 2, 114
 SHP[2], 1
@@ -8232,7 +8231,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 63, char 0x5d (]) */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:12 2020 */
 SVTCA[Y]
 MDAP[R], 0
 SHP[2], 2
@@ -8264,7 +8263,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 64, char 0x5e (^) */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:12 2020 */
 SVTCA[Y]
 CALL[], 3, 17, 114
 MDRP[m&gt;RBl], 13
@@ -8295,7 +8294,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 65, char 0x5f (_) */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:12 2020 */
 SVTCA[Y]
 MDAP[R], 2
 SHP[1], 5
@@ -8319,7 +8318,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 66, char 0x60 (`) */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:12 2020 */
 SVTCA[Y]
 MDAP[R], 8
 SMD[], 128
@@ -8355,7 +8354,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 67, char 0x61 (a) */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:12 2020 */
 SVTCA[Y]
 CALL[], 32, 7, 114
 SHP[2], 17
@@ -8402,7 +8401,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 68, char 0x62 (b) */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:12 2020 */
 SVTCA[Y]
 CALL[], 0, 10, 114
 CALL[], 5, 0, 114
@@ -8445,7 +8444,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 69, char 0x63 (c) */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:12 2020 */
 SVTCA[Y]
 CALL[], 3, 7, 114
 SHP[2], 14
@@ -8482,7 +8481,7 @@ YShift(31,19)
 Smooth()
 </talk>
         <assembly>/* TT glyph 70, char 0x64 (d) */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:12 2020 */
 SVTCA[Y]
 CALL[], 3, 7, 114
 SHP[2], 36
@@ -8523,7 +8522,7 @@ YShift(9,8)
 Smooth()
 </talk>
         <assembly>/* TT glyph 71, char 0x65 (e) */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:12 2020 */
 SVTCA[Y]
 CALL[], 3, 7, 114
 SHP[2], 13
@@ -8559,7 +8558,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 72, char 0x66 (f) */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:12 2020 */
 SVTCA[Y]
 CALL[], 0, 10, 114
 CALL[], 11, 1, 114
@@ -8602,7 +8601,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 73, char 0x67 (g) */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:12 2020 */
 SVTCA[Y]
 CALL[], 35, 15, 114
 SHP[2], 10
@@ -8649,7 +8648,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 74, char 0x68 (h) */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:12 2020 */
 SVTCA[Y]
 CALL[], 0, 10, 114
 SHP[2], 23
@@ -8681,7 +8680,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 75, char 0x69 (i) */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:12 2020 */
 SVTCA[Y]
 CALL[], 0, 10, 114
 CALL[], 7, 6, 114
@@ -8713,7 +8712,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 76, char 0x6a (j) */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:12 2020 */
 SVTCA[Y]
 CALL[], 0, 14, 114
 SHP[2], 1
@@ -8745,7 +8744,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 77, char 0x6b (k) */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:12 2020 */
 SVTCA[Y]
 CALL[], 0, 10, 114
 SHP[2], 26
@@ -8775,7 +8774,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 78, char 0x6c (l) */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:12 2020 */
 SVTCA[Y]
 CALL[], 0, 10, 114
 CALL[], 7, 0, 114
@@ -8813,7 +8812,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 79, char 0x6d (m) */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:12 2020 */
 SVTCA[Y]
 CALL[], 0, 10, 114
 SHP[2], 28
@@ -8860,7 +8859,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 80, char 0x6e (n) */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:12 2020 */
 SVTCA[Y]
 CALL[], 0, 10, 114
 SHP[2], 22
@@ -8889,7 +8888,7 @@ YShift(9,15)
 Smooth()
 </talk>
         <assembly>/* TT glyph 81, char 0x6f (o) */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:12 2020 */
 SVTCA[Y]
 CALL[], 3, 7, 114
 SHP[2], 21
@@ -8924,7 +8923,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 82, char 0x70 (p) */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:12 2020 */
 SVTCA[Y]
 CALL[], 0, 14, 114
 CALL[], 12, 7, 114
@@ -8972,7 +8971,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 83, char 0x71 (q) */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:12 2020 */
 SVTCA[Y]
 CALL[], 3, 7, 114
 SHP[2], 7
@@ -9024,7 +9023,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 84, char 0x72 (r) */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:12 2020 */
 SVTCA[Y]
 CALL[], 0, 10, 114
 CALL[], 7, 6, 114
@@ -9058,7 +9057,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 85, char 0x73 (s) */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:12 2020 */
 SVTCA[Y]
 CALL[], 0, 10, 114
 CALL[], 18, 7, 114
@@ -9096,7 +9095,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 86, char 0x74 (t) */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:12 2020 */
 SVTCA[Y]
 CALL[], 7, 6, 114
 SHP[2], 1
@@ -9132,7 +9131,7 @@ YShift(26,12)
 Smooth()
 </talk>
         <assembly>/* TT glyph 87, char 0x75 (u) */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:12 2020 */
 SVTCA[Y]
 CALL[], 2, 6, 114
 SHP[2], 16
@@ -9169,7 +9168,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 88, char 0x76 (v) */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:12 2020 */
 SVTCA[Y]
 CALL[], 1, 6, 114
 SHP[2], 11
@@ -9202,7 +9201,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 89, char 0x77 (w) */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:12 2020 */
 SVTCA[Y]
 CALL[], 1, 6, 114
 SHP[2], 16
@@ -9238,7 +9237,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 90, char 0x78 (x) */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:12 2020 */
 SVTCA[Y]
 CALL[], 0, 10, 114
 SHP[2], 25
@@ -9272,7 +9271,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 91, char 0x79 (y) */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:12 2020 */
 SVTCA[Y]
 CALL[], 1, 6, 114
 SHP[2], 11
@@ -9318,7 +9317,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 92, char 0x7a (z) */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:12 2020 */
 SVTCA[Y]
 CALL[], 0, 10, 114
 CALL[], 6, 6, 114
@@ -9351,7 +9350,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 93, char 0x7b ({) */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:12 2020 */
 SVTCA[Y]
 CALL[], 11, 3, 114
 SHP[2], 18
@@ -9387,7 +9386,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 94, char 0x7c (|) */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:12 2020 */
 SVTCA[Y]
 MDAP[R], 0
 MDAP[R], 6
@@ -9419,7 +9418,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 95, char 0x7d (}) */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:12 2020 */
 SVTCA[Y]
 CALL[], 29, 3, 114
 SHP[2], 22
@@ -9456,7 +9455,7 @@ YShift(15,0)
 Smooth()
 </talk>
         <assembly>/* TT glyph 96, char 0x7e (~) */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:12 2020 */
 SVTCA[Y]
 MDAP[R], 11
 SHP[1], 4
@@ -9491,7 +9490,7 @@ IUP[X]
 /*Auto-Hinting Light is not applied: Empty glyph or glyph with one point*/
 </talk>
         <assembly>/* TT glyph 97, char 0xa0 */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:12 2020 */
 </assembly>
       </instructions>
     </TTGlyph>
@@ -9512,7 +9511,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 98, char 0xa1 */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:12 2020 */
 SVTCA[Y]
 MDAP[R], 9
 SHP[1], 3
@@ -9548,7 +9547,7 @@ YShift(30,37)
 Smooth()
 </talk>
         <assembly>/* TT glyph 99, char 0xa2 */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:12 2020 */
 SVTCA[Y]
 MIAP[R], 3, 7
 SHP[1], 14
@@ -9594,7 +9593,7 @@ YShift(39,40)
 Smooth()
 </talk>
         <assembly>/* TT glyph 100, char 0xa3 */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:12 2020 */
 SVTCA[Y]
 MIAP[R], 9, 12
 SHP[1], 4
@@ -9643,7 +9642,7 @@ YShift(34,38)
 Smooth()
 </talk>
         <assembly>/* TT glyph 101, char 0xa4 */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:12 2020 */
 SVTCA[Y]
 MIAP[R], 3, 4
 SHP[1], 26
@@ -9697,7 +9696,7 @@ YShift(30,29)
 Smooth()
 </talk>
         <assembly>/* TT glyph 102, char 0xa5 */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:12 2020 */
 SVTCA[Y]
 MIAP[R], 8, 4
 SHP[1], 17
@@ -9736,7 +9735,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 103, char 0xa6 */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:12 2020 */
 SVTCA[Y]
 MDAP[R], 8
 MDAP[R], 4
@@ -9768,7 +9767,7 @@ YShift(36,35)
 Smooth()
 </talk>
         <assembly>/* TT glyph 104, char 0xa7 */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:12 2020 */
 SVTCA[Y]
 MDAP[R], 3
 SHP[1], 14
@@ -9805,7 +9804,7 @@ YShift(9,3)
 Smooth()
 </talk>
         <assembly>/* TT glyph 105, char 0xa8 */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:12 2020 */
 SVTCA[Y]
 MDAP[R], 21
 SHP[1], 15
@@ -9839,7 +9838,7 @@ YShift(27,20)
 Smooth()
 </talk>
         <assembly>/* TT glyph 106, char 0xa9 */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:12 2020 */
 SVTCA[Y]
 CALL[], 33, 3, 114
 SHP[2], 51
@@ -9881,7 +9880,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 107, char 0xaa */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:12 2020 */
 SVTCA[Y]
 MIAP[R], 32, 3
 SHP[1], 17
@@ -9921,7 +9920,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 108, char 0xab */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:12 2020 */
 SVTCA[Y]
 MDAP[R], 14
 SHP[1], 33
@@ -9955,7 +9954,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 109, char 0xac */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:12 2020 */
 SVTCA[Y]
 MDAP[R], 0
 MDRP[m&gt;RGr], 2
@@ -9980,7 +9979,7 @@ IUP[X]
 /*Auto-Hinting Light is not applied: Empty glyph or glyph with one point*/
 </talk>
         <assembly>/* TT glyph 110, char 0xad */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:12 2020 */
 
 </assembly>
       </instructions>
@@ -10012,7 +10011,7 @@ YShift(55,56)
 Smooth()
 </talk>
         <assembly>/* TT glyph 111, char 0xae */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:12 2020 */
 SVTCA[Y]
 MIAP[R], 3, 3
 SHP[1], 21
@@ -10057,7 +10056,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 112, char 0xaf */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:12 2020 */
 SVTCA[Y]
 MDAP[R], 0
 SHP[2], 1
@@ -10083,7 +10082,7 @@ YShift(3,21)
 Smooth()
 </talk>
         <assembly>/* TT glyph 113, char 0xb0 */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:12 2020 */
 SVTCA[Y]
 MDAP[R], 9
 SHP[1], 15
@@ -10115,7 +10114,7 @@ YShift(1,5)
 Smooth()
 </talk>
         <assembly>/* TT glyph 114, char 0xb1 */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:12 2020 */
 SVTCA[Y]
 MDAP[R], 11
 SHP[1], 10
@@ -10151,7 +10150,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 115, char 0xb2 */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:12 2020 */
 SVTCA[Y]
 CALL[], 17, 5, 114
 SHP[2], 10
@@ -10188,7 +10187,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 116, char 0xb3 */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:12 2020 */
 SVTCA[Y]
 MIAP[R], 26, 5
 SHP[1], 19
@@ -10220,7 +10219,7 @@ YDist(4,9,&gt;=2)
 Smooth()
 </talk>
         <assembly>/* TT glyph 117, char 0xb4 */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:12 2020 */
 SVTCA[Y]
 MDAP[R], 4
 SMD[], 128
@@ -10256,7 +10255,7 @@ YAnchor(38,14)
 Smooth()
 </talk>
         <assembly>/* TT glyph 118, char 0xb5 */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:12 2020 */
 SVTCA[Y]
 MIAP[R], 8, 6
 SHP[1], 19
@@ -10300,7 +10299,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 119, char 0xb6 */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:12 2020 */
 SVTCA[Y]
 CALL[], 2, 18, 114
 SHP[2], 3
@@ -10332,7 +10331,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 120, char 0xb7 */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:12 2020 */
 SVTCA[Y]
 MDAP[R], 9
 SHP[1], 3
@@ -10364,7 +10363,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 121, char 0xb8 */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:12 2020 */
 SVTCA[Y]
 MDAP[R], 28
 SHP[1], 0
@@ -10402,7 +10401,7 @@ YShift(7,8)
 Smooth()
 </talk>
         <assembly>/* TT glyph 122, char 0xb9 */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:12 2020 */
 SVTCA[Y]
 CALL[], 7, 5, 114
 MDRP[m&gt;RGr], 0
@@ -10430,7 +10429,7 @@ YShift(9,15)
 Smooth()
 </talk>
         <assembly>/* TT glyph 123, char 0xba */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:12 2020 */
 SVTCA[Y]
 CALL[], 3, 5, 114
 SHP[2], 21
@@ -10461,7 +10460,7 @@ YInterpolate(23,0,19,8,27,37,18,33)
 Smooth()
 </talk>
         <assembly>/* TT glyph 124, char 0xbb */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:12 2020 */
 SVTCA[Y]
 MDAP[R], 23
 SHP[1], 4
@@ -10538,7 +10537,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 128, char 0xbf */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:12 2020 */
 SVTCA[Y]
 MDAP[R], 15
 SHP[1], 36
@@ -10763,7 +10762,7 @@ YShift(38,39)
 Smooth()
 </talk>
         <assembly>/* TT glyph 135, char 0xc6 */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:12 2020 */
 SVTCA[Y]
 MIAP[R], 6, 2
 SHP[1], 11
@@ -11323,7 +11322,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 152, char 0xd7 */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:12 2020 */
 SVTCA[Y]
 MDAP[R], 4
 SHP[1], 7
@@ -11555,7 +11554,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 159, char 0xde */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:12 2020 */
 SVTCA[Y]
 CALL[], 0, 8, 114
 CALL[], 6, 2, 114
@@ -11594,7 +11593,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 160, char 0xdf */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:12 2020 */
 SVTCA[Y]
 CALL[], 15, 11, 114
 SHP[2], 19
@@ -11845,7 +11844,7 @@ YShift(13,68)
 Smooth()
 </talk>
         <assembly>/* TT glyph 167, char 0xe6 */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:12 2020 */
 SVTCA[Y]
 CALL[], 42, 7, 114
 SHP[2], 52
@@ -12211,7 +12210,7 @@ YInterpolate(29,7,3)
 Smooth()
 </talk>
         <assembly>/* TT glyph 177, char 0xf0 */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:12 2020 */
 SVTCA[Y]
 CALL[], 3, 6, 114
 SHP[2], 10
@@ -12456,7 +12455,7 @@ YShift(7,13)
 Smooth()
 </talk>
         <assembly>/* TT glyph 184, char 0xf7 */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:12 2020 */
 SVTCA[Y]
 MDAP[R], 0
 SHP[2], 1
@@ -12681,7 +12680,7 @@ YShift(19,29)
 Smooth()
 </talk>
         <assembly>/* TT glyph 191, char 0xfe */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:12 2020 */
 SVTCA[Y]
 CALL[], 0, 14, 114
 CALL[], 7, 0, 114
@@ -14303,7 +14302,7 @@ ResYAnchor(7,6)
 Smooth()
 </talk>
         <assembly>/* TT glyph 242, char 0x131 */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:12 2020 */
 SVTCA[Y]
 CALL[], 0, 10, 114
 CALL[], 7, 6, 114
@@ -14455,7 +14454,7 @@ YInterpolate(0,14,15,22,23,6)
 Smooth()
 </talk>
         <assembly>/* TT glyph 249, char 0x138 */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:12 2020 */
 SVTCA[Y]
 CALL[], 0, 10, 114
 SHP[2], 26
@@ -15143,7 +15142,7 @@ YShift(40,41)
 Smooth()
 </talk>
         <assembly>/* TT glyph 275, char 0x152 */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:12 2020 */
 SVTCA[Y]
 CALL[], 3, 3, 114
 SHP[2], 6
@@ -15193,7 +15192,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 276, char 0x153 */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:12 2020 */
 SVTCA[Y]
 CALL[], 3, 7, 114
 SHP[2], 10
@@ -16540,7 +16539,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 320, char 0x18f */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:12 2020 */
 SVTCA[Y]
 CALL[], 3, 3, 114
 SHP[2], 27
@@ -16577,7 +16576,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 321, char 0x192 */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:12 2020 */
 SVTCA[Y]
 MDAP[R], 3
 SHP[1], 12
@@ -18338,7 +18337,7 @@ YShift(10,7)
 Smooth()
 </talk>
         <assembly>/* TT glyph 381, char 0x259 */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 CALL[], 3, 11, 114
 SHP[2], 13
@@ -18369,7 +18368,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 382, char 0x2b9 */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 MIAP[R], 0, 2
 SMD[], 128
@@ -18402,7 +18401,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 383, char 0x2ba */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 MIAP[R], 0, 2
 SHP[2], 4
@@ -18436,7 +18435,7 @@ YInterpolate(15,3,9)
 Smooth()
 </talk>
         <assembly>/* TT glyph 384, char 0x2bc */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 MIAP[R], 9, 3
 SMD[], 192
@@ -18465,7 +18464,7 @@ YInterpolate(7,6,0)
 Smooth()
 </talk>
         <assembly>/* TT glyph 385, char 0x2c6 */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 MDAP[R], 7
 SHP[1], 5
@@ -18499,7 +18498,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 386, char 0x2c7 */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 MDAP[R], 0
 SMD[], 128
@@ -18541,7 +18540,7 @@ YShift(8,0)
 Smooth()
 </talk>
         <assembly>/* TT glyph 388, char 0x2d8 */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 MDAP[R], 4
 SHP[1], 11
@@ -18568,7 +18567,7 @@ YShift(9,3)
 Smooth()
 </talk>
         <assembly>/* TT glyph 389, char 0x2d9 */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 MDAP[R], 9
 SHP[1], 3
@@ -18594,7 +18593,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 390, char 0x2da */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 MDAP[R], 9
 SHP[1], 15
@@ -18623,7 +18622,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 391, char 0x2db */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 MDAP[R], 17
 SHP[1], 18
@@ -18659,7 +18658,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 392, char 0x2dc */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 MDAP[R], 16
 SHP[1], 9
@@ -18697,7 +18696,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 393, char 0x2dd */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 MDAP[R], 4
 SHP[1], 16
@@ -18817,7 +18816,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 402, char 0x309 */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 MDAP[R], 28
 SMD[], 192
@@ -18879,7 +18878,7 @@ YShift(4,11)
 Smooth()
 </talk>
         <assembly>/* TT glyph 406, char 0x30f */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 MDAP[R], 0
 SHP[2], 8
@@ -18910,7 +18909,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 407, char 0x311 */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 MDAP[R], 8
 SHP[1], 20
@@ -18940,7 +18939,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 408, char 0x31b */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 MDAP[R], 9
 SMD[], 128
@@ -18966,7 +18965,7 @@ YShift(3,9)
 Smooth()
 </talk>
         <assembly>/* TT glyph 409, char 0x323 */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 MDAP[R], 3
 SHP[1], 9
@@ -18993,7 +18992,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 410, char 0x324 */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 MDAP[R], 3
 SHP[1], 9
@@ -19022,7 +19021,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 411, char 0x326 */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 MDAP[R], 9
 SHP[1], 3
@@ -19075,7 +19074,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 414, char 0x32e */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 MDAP[R], 8
 SHP[1], 0
@@ -19103,7 +19102,7 @@ YShift(1,0)
 Smooth()
 </talk>
         <assembly>/* TT glyph 415, char 0x331 */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 MDAP[R], 1
 SHP[1], 0
@@ -19130,7 +19129,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 416, char 0x374 */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 MDAP[R], 0
 SHP[2], 1
@@ -19162,7 +19161,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 417, char 0x375 */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 MDAP[R], 3
 SHP[1], 4
@@ -19203,7 +19202,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 419, char 0x384 */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 MDAP[R], 0
 SMD[], 128
@@ -19233,7 +19232,7 @@ YDist(12,15,&gt;=2)
 Smooth()
 </talk>
         <assembly>/* TT glyph 420, char 0x385 */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 MDAP[R], 0
 SHP[2], 6
@@ -19486,7 +19485,7 @@ YShift(6,11)
 Smooth()
 </talk>
         <assembly>/* TT glyph 432, char 0x393 */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 CALL[], 0, 8, 114
 CALL[], 6, 2, 114
@@ -19514,7 +19513,7 @@ YInterpolate(0,12,3)
 Smooth()
 </talk>
         <assembly>/* TT glyph 433, char 0x394 */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 CALL[], 0, 8, 114
 SHP[2], 9
@@ -19584,7 +19583,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 437, char 0x398 */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 CALL[], 0, 9, 114
 SHP[2], 12
@@ -19641,7 +19640,7 @@ YInterpolate(10,14,4)
 Smooth()
 </talk>
         <assembly>/* TT glyph 440, char 0x39b */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 CALL[], 0, 8, 114
 SHP[2], 10
@@ -19695,7 +19694,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 443, char 0x39e */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 CALL[], 0, 8, 114
 SHP[2], 4
@@ -19741,7 +19740,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 445, char 0x3a0 */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 CALL[], 0, 8, 114
 SHP[2], 14
@@ -19783,7 +19782,7 @@ YInterpolate(0,2,12,11,4)
 Smooth()
 </talk>
         <assembly>/* TT glyph 447, char 0x3a3 */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 CALL[], 0, 8, 114
 SHP[2], 14
@@ -19849,7 +19848,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 450, char 0x3a6 */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 CALL[], 0, 9, 114
 SHP[2], 38
@@ -19919,7 +19918,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 452, char 0x3a8 */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 CALL[], 0, 8, 114
 SHP[2], 31
@@ -19966,7 +19965,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 453, char 0x3a9 */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 CALL[], 0, 8, 114
 SHP[2], 4
@@ -20223,7 +20222,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 461, char 0x3b1 */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 CALL[], 6, 7, 114
 SHP[2], 23
@@ -20265,7 +20264,7 @@ YShift(36,37)
 Smooth()
 </talk>
         <assembly>/* TT glyph 462, char 0x3b2 */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 CALL[], 0, 14, 114
 CALL[], 6, 1, 114
@@ -20304,7 +20303,7 @@ YInterpolate(0,10,2,23,18)
 Smooth()
 </talk>
         <assembly>/* TT glyph 463, char 0x3b3 */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 CALL[], 0, 14, 114
 CALL[], 18, 6, 114
@@ -20337,7 +20336,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 464, char 0x3b4 */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 CALL[], 0, 11, 114
 SHP[2], 14
@@ -20372,7 +20371,7 @@ YShift(31,7)
 Smooth()
 </talk>
         <assembly>/* TT glyph 465, char 0x3b5 */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 CALL[], 0, 11, 114
 SHP[2], 38
@@ -20409,7 +20408,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 466, char 0x3b6 */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 MDAP[R], 0
 CALL[], 15, 3, 114
@@ -20443,7 +20442,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 467, char 0x3b7 */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 CALL[], 0, 14, 114
 MIAP[R], 12, 10
@@ -20478,7 +20477,7 @@ YInterpolate(29,15,21,26)
 Smooth()
 </talk>
         <assembly>/* TT glyph 468, char 0x3b8 */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 CALL[], 0, 11, 114
 SHP[2], 12
@@ -20513,7 +20512,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 469, char 0x3b9 */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 CALL[], 0, 10, 114
 SHP[2], 12
@@ -20544,7 +20543,7 @@ YInterpolate(0,7,8,22,23,14,12)
 Smooth()
 </talk>
         <assembly>/* TT glyph 470, char 0x3ba */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 CALL[], 0, 10, 114
 SHP[2], 18
@@ -20580,7 +20579,7 @@ YInterpolate(0,4,15,26,25,5,11)
 Smooth()
 </talk>
         <assembly>/* TT glyph 471, char 0x3bb */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 CALL[], 0, 10, 114
 SHP[2], 19
@@ -20619,7 +20618,7 @@ YShift(9,26)
 Smooth()
 </talk>
         <assembly>/* TT glyph 472, char 0x3bc */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 CALL[], 0, 14, 114
 CALL[], 4, 6, 114
@@ -20653,7 +20652,7 @@ YInterpolate(20,14,8)
 Smooth()
 </talk>
         <assembly>/* TT glyph 473, char 0x3bd */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 CALL[], 8, 6, 114
 SHP[2], 17
@@ -20685,7 +20684,7 @@ YShift(26,27)
 Smooth()
 </talk>
         <assembly>/* TT glyph 474, char 0x3be */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 MDAP[R], 0
 CALL[], 25, 3, 114
@@ -20734,7 +20733,7 @@ YShift(13,22)
 Smooth()
 </talk>
         <assembly>/* TT glyph 476, char 0x3c0 */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 MIAP[R], 4, 6
 SHP[1], 1
@@ -20771,7 +20770,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 477, char 0x3c1 */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 CALL[], 0, 14, 114
 CALL[], 6, 7, 114
@@ -20805,7 +20804,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 478, char 0x3c2 */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 MDAP[R], 0
 CALL[], 11, 7, 114
@@ -20835,7 +20834,7 @@ YInterpolate(10,22,24,23,6)
 Smooth()
 </talk>
         <assembly>/* TT glyph 479, char 0x3c3 */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 CALL[], 0, 11, 114
 SHP[2], 16
@@ -20867,7 +20866,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 480, char 0x3c4 */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 CALL[], 3, 6, 114
 SHP[2], 1
@@ -20896,7 +20895,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 481, char 0x3c5 */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 CALL[], 0, 11, 114
 SHP[2], 17
@@ -20954,7 +20953,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 482, char 0x3c6 */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 CALL[], 0, 11, 114
 SHP[2], 14
@@ -21008,7 +21007,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 483, char 0x3c7 */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 CALL[], 0, 14, 114
 SHP[2], 19
@@ -21053,7 +21052,7 @@ YShift(17,39)
 Smooth()
 </talk>
         <assembly>/* TT glyph 484, char 0x3c8 */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 CALL[], 10, 6, 114
 SHP[2], 37
@@ -21101,7 +21100,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 485, char 0x3c9 */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 CALL[], 0, 11, 114
 SHP[2], 13
@@ -21319,7 +21318,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 491, char 0x3cf */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 CALL[], 6, 2, 114
 SHP[2], 18
@@ -21363,7 +21362,7 @@ YShift(42,10)
 Smooth()
 </talk>
         <assembly>/* TT glyph 492, char 0x3d7 */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 CALL[], 17, 6, 114
 SHP[2], 26
@@ -21623,7 +21622,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 499, char 0x1e9e */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 CALL[], 4, 0, 114
 SHP[2], 44
@@ -24727,7 +24726,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 591, char 0x2013 */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 MDAP[R], 5
 SHP[1], 2
@@ -24752,7 +24751,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 592, char 0x2014 */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 MDAP[R], 5
 SHP[1], 2
@@ -24777,7 +24776,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 593, char 0x2015 */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 MDAP[R], 0
 SHP[2], 3
@@ -24803,7 +24802,7 @@ YInterpolate(9,3,15)
 Smooth()
 </talk>
         <assembly>/* TT glyph 594, char 0x2018 */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 CALL[], 15, 3, 114
 SHP[2], 0
@@ -24831,7 +24830,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 595, char 0x2019 */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 CALL[], 9, 3, 114
 MDRP[m&gt;RGr], 15
@@ -24858,7 +24857,7 @@ YInterpolate(15,3,9)
 Smooth()
 </talk>
         <assembly>/* TT glyph 596, char 0x201a */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 MDAP[R], 9
 MDRP[m&gt;RGr], 15
@@ -24891,7 +24890,7 @@ YShift(31,16)
 Smooth()
 </talk>
         <assembly>/* TT glyph 597, char 0x201c */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 CALL[], 15, 3, 114
 SHP[2], 0
@@ -24932,7 +24931,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 598, char 0x201d */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 CALL[], 9, 3, 114
 SHP[2], 25
@@ -24971,7 +24970,7 @@ YShift(31,16)
 Smooth()
 </talk>
         <assembly>/* TT glyph 599, char 0x201e */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 MDAP[R], 9
 SHP[1], 25
@@ -25007,7 +25006,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 600, char 0x2020 */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 MIAP[R], 5, 2
 MDAP[R], 11
@@ -25039,7 +25038,7 @@ YShift(20,23)
 Smooth()
 </talk>
         <assembly>/* TT glyph 601, char 0x2021 */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 MDAP[R], 0
 MIAP[R], 5, 2
@@ -25068,7 +25067,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 602, char 0x2022 */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 MDAP[R], 9
 SHP[1], 3
@@ -25124,7 +25123,7 @@ YShift(55,73)
 Smooth()
 </talk>
         <assembly>/* TT glyph 604, char 0x2030 */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 CALL[], 3, 5, 114
 SHP[2], 21
@@ -25167,7 +25166,7 @@ YDist(8,3,&gt;=2)
 Smooth()
 </talk>
         <assembly>/* TT glyph 605, char 0x2032 */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 MDAP[R], 8
 SMD[], 128
@@ -25195,7 +25194,7 @@ YShift(3,12)
 Smooth()
 </talk>
         <assembly>/* TT glyph 606, char 0x2033 */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 MDAP[R], 8
 SHP[1], 17
@@ -25226,7 +25225,7 @@ YInterpolate(14,18,9,0,4)
 Smooth()
 </talk>
         <assembly>/* TT glyph 607, char 0x2039 */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 MDAP[R], 14
 SHP[1], 4
@@ -25255,7 +25254,7 @@ YInterpolate(4,0,9,18,14)
 Smooth()
 </talk>
         <assembly>/* TT glyph 608, char 0x203a */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 MDAP[R], 4
 SHP[1], 14
@@ -25283,7 +25282,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 609, char 0x2044 */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 CALL[], 1, 3, 114
 CALL[], 3, 19, 114
@@ -25315,7 +25314,7 @@ YShift(1,2)
 Smooth()
 </talk>
         <assembly>/* TT glyph 610, char 0x2052 */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 MIAP[R], 13, 13
 SHP[1], 7
@@ -25350,7 +25349,7 @@ YShift(14,13)
 Smooth()
 </talk>
         <assembly>/* TT glyph 611, char 0x2074 */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 MIAP[R], 1, 5
 SHP[1], 12
@@ -25406,7 +25405,7 @@ YInterpolate(23,30,38,54,46,29,39,55,45,3)
 Smooth()
 </talk>
         <assembly>/* TT glyph 612, char 0x20a1 */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 MDAP[R], 3
 SHP[1], 10
@@ -25478,7 +25477,7 @@ YShift(26,25)
 Smooth()
 </talk>
         <assembly>/* TT glyph 613, char 0x20a3 */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 CALL[], 0, 12, 114
 CALL[], 6, 4, 114
@@ -25515,7 +25514,7 @@ YShift(40,39)
 Smooth()
 </talk>
         <assembly>/* TT glyph 614, char 0x20a4 */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 MIAP[R], 9, 12
 SHP[1], 4
@@ -25562,7 +25561,7 @@ YShift(53,54,46,45,55)
 Smooth()
 </talk>
         <assembly>/* TT glyph 615, char 0x20a6 */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 MIAP[R], 0, 12
 SHP[2], 19
@@ -25628,7 +25627,7 @@ YShift(102,101)
 Smooth()
 </talk>
         <assembly>/* TT glyph 616, char 0x20a7 */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 CALL[], 6, 2, 114
 SHP[2], 27
@@ -25695,7 +25694,7 @@ YShift(54,55,38,37)
 Smooth()
 </talk>
         <assembly>/* TT glyph 617, char 0x20a9 */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 CALL[], 1, 4, 114
 SHP[2], 16
@@ -25741,7 +25740,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 618, char 0x20ab */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 CALL[], 10, 5, 114
 SHP[2], 7
@@ -25781,7 +25780,7 @@ YShift(26,27)
 Smooth()
 </talk>
         <assembly>/* TT glyph 619, char 0x20ac */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 CALL[], 3, 5, 114
 SHP[2], 10
@@ -25824,7 +25823,7 @@ YShift(14,15)
 Smooth()
 </talk>
         <assembly>/* TT glyph 620, char 0x20ad */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 MIAP[R], 0, 12
 SHP[2], 29
@@ -25875,7 +25874,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 621, char 0x20b1 */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 MIAP[R], 0, 12
 CALL[], 6, 4, 114
@@ -25925,7 +25924,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 622, char 0x20b2 */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 MIAP[R], 3, 5
 SHP[1], 7
@@ -25982,7 +25981,7 @@ YInterpolate(23,29,30,38,39,3)
 Smooth()
 </talk>
         <assembly>/* TT glyph 623, char 0x20b5 */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 MDAP[R], 3
 SHP[1], 10
@@ -26036,7 +26035,7 @@ YShift(18,16)
 Smooth()
 </talk>
         <assembly>/* TT glyph 624, char 0x20b9 */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 MIAP[R], 1, 4
 SHP[1], 33
@@ -26084,7 +26083,7 @@ YInterpolate(17,31,27,32,36,35,6)
 Smooth()
 </talk>
         <assembly>/* TT glyph 625, char 0x20ba */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 MIAP[R], 0, 13
 SHP[2], 13
@@ -26123,7 +26122,7 @@ YShift(34,33)
 Smooth()
 </talk>
         <assembly>/* TT glyph 626, char 0x20bc */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 MIAP[R], 16, 12
 SHP[1], 2
@@ -26161,7 +26160,7 @@ YShift(34,36)
 Smooth()
 </talk>
         <assembly>/* TT glyph 627, char 0x20bd */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 MDAP[R], 0
 CALL[], 6, 4, 114
@@ -26205,7 +26204,7 @@ YInterpolate(25,9,21,6)
 Smooth()
 </talk>
         <assembly>/* TT glyph 628, char 0x2116 */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 CALL[], 6, 2, 114
 SHP[2], 13
@@ -26262,7 +26261,7 @@ YAnchor(29)
 Smooth()
 </talk>
         <assembly>/* TT glyph 629, char 0x2122 */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 CALL[], 1, 2, 114
 SHP[2], 0
@@ -26332,7 +26331,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 632, char 0x2212 */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 MDAP[R], 0
 SHP[2], 1
@@ -26359,7 +26358,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 633, char 0x2215 */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 CALL[], 1, 3, 114
 SHP[2], 2
@@ -26386,7 +26385,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 634, char 0x2219 */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 MDAP[R], 9
 SHP[1], 3
@@ -26429,7 +26428,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 635, char 0x2248 */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 MDAP[R], 27
 SHP[1], 20
@@ -26483,7 +26482,7 @@ YShift(13,14)
 Smooth()
 </talk>
         <assembly>/* TT glyph 636, char 0x2260 */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 MDAP[R], 11
 MDRP[m&gt;RBl], 2
@@ -26520,7 +26519,7 @@ YInterpolate(18,13,4,21,5,8)
 Smooth()
 </talk>
         <assembly>/* TT glyph 637, char 0x2264 */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 MDAP[R], 0
 SHP[2], 1
@@ -26552,7 +26551,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 638, char 0x2265 */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 MDAP[R], 0
 SHP[2], 1
@@ -26584,7 +26583,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 639, char 0x27e8 */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 CALL[], 0, 2, 114
 SHP[2], 1
@@ -26615,7 +26614,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 640, char 0x27e9 */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 CALL[], 4, 2, 114
 SHP[2], 3
@@ -26655,7 +26654,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 641, char 0xfb00 */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 CALL[], 29, 1, 114
 SHP[2], 38
@@ -26702,7 +26701,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 642, char 0xfb01 */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 CALL[], 11, 0, 114
 SHP[2], 20
@@ -26745,7 +26744,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 643, char 0xfb02 */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 CALL[], 11, 1, 114
 SHP[2], 15
@@ -26795,7 +26794,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 644, char 0xfb03 */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 CALL[], 24, 6, 114
 SHP[2], 7
@@ -26848,7 +26847,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 645, char 0xfb04 */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 CALL[], 29, 1, 114
 SHP[2], 11
@@ -26909,7 +26908,7 @@ YInterpolate(8,4,3,13,12,0)
 Smooth()
 </talk>
         <assembly>/* TT glyph 647, char 0xffff */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 MDAP[R], 0
 MDAP[R], 8
@@ -26934,7 +26933,7 @@ YDist(4,1,&gt;=2)
 Smooth()
 </talk>
         <assembly>/* TT glyph 648, char 0xffff */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 MDAP[R], 4
 SMD[], 128
@@ -26962,7 +26961,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 649, char 0xffff */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 MDAP[R], 0
 MDAP[R], 8
@@ -27006,7 +27005,7 @@ YShift(9,28)
 Smooth()
 </talk>
         <assembly>/* TT glyph 651, char 0xffff */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 MDAP[R], 0
 SHP[2], 20
@@ -27044,7 +27043,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 652, char 0xffff */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 MDAP[R], 0
 SHP[2], 18
@@ -27070,7 +27069,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 653, char 0xffff */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 MDAP[R], 4
 SLOOP[], 5
@@ -27095,7 +27094,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 654, char 0xffff */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 MDAP[R], 0
 SHP[2], 3
@@ -27123,7 +27122,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 655, char 0xffff */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 MDAP[R], 1
 SHP[1], 17
@@ -27224,7 +27223,7 @@ ResYAnchor(9,6)
 Smooth()
 </talk>
         <assembly>/* TT glyph 659, char 0xffff */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 MIAP[R], 0, 14
 SHP[2], 1
@@ -27260,7 +27259,7 @@ YDist(11,4,&gt;=2)
 Smooth()
 </talk>
         <assembly>/* TT glyph 661, char 0xffff */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 MDAP[R], 11
 SMD[], 128
@@ -27314,7 +27313,7 @@ YShift(38,45)
 Smooth()
 </talk>
         <assembly>/* TT glyph 664, char 0xffff */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 CALL[], 16, 4, 114
 SHP[2], 23
@@ -27360,7 +27359,7 @@ YShift(38,45)
 Smooth()
 </talk>
         <assembly>/* TT glyph 665, char 0xffff */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 CALL[], 16, 4, 114
 SHP[2], 23
@@ -27397,7 +27396,7 @@ YDist(8,3,&gt;=2)
 Smooth()
 </talk>
         <assembly>/* TT glyph 666, char 0xffff */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 MDAP[R], 8
 SMD[], 128
@@ -27422,7 +27421,7 @@ YDist(4,9,&gt;=2)
 Smooth()
 </talk>
         <assembly>/* TT glyph 667, char 0xffff */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 MDAP[R], 4
 SMD[], 128
@@ -27453,7 +27452,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 668, char 0xffff */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 MDAP[R], 5
 SHP[1], 4
@@ -27490,7 +27489,7 @@ YShift(25,0)
 Smooth()
 </talk>
         <assembly>/* TT glyph 669, char 0xffff */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 MDAP[R], 16
 SHP[1], 9
@@ -27525,7 +27524,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 670, char 0xffff */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 MDAP[R], 0
 SHP[2], 1
@@ -27554,7 +27553,7 @@ YShift(0,1)
 Smooth()
 </talk>
         <assembly>/* TT glyph 671, char 0xffff */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 MDAP[R], 4
 SHP[1], 11
@@ -27585,7 +27584,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 672, char 0xffff */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 MDAP[R], 9
 SHP[1], 3
@@ -27612,7 +27611,7 @@ YShift(21,15)
 Smooth()
 </talk>
         <assembly>/* TT glyph 673, char 0xffff */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 MDAP[R], 9
 SHP[1], 3
@@ -27641,7 +27640,7 @@ YInterpolate(18,5,27,24,0)
 Smooth()
 </talk>
         <assembly>/* TT glyph 674, char 0xffff */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 MDAP[R], 0
 SMD[], 192
@@ -27670,7 +27669,7 @@ YShift(3,21)
 Smooth()
 </talk>
         <assembly>/* TT glyph 675, char 0xffff */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 MDAP[R], 9
 SHP[1], 15
@@ -27703,7 +27702,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 676, char 0xffff */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 MIAP[R], 4, 17
 SHP[1], 5
@@ -27734,7 +27733,7 @@ YInterpolate(0,6,5)
 Smooth()
 </talk>
         <assembly>/* TT glyph 677, char 0xffff */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 MDAP[R], 0
 SMD[], 128
@@ -27764,7 +27763,7 @@ YShift(4,11)
 Smooth()
 </talk>
         <assembly>/* TT glyph 678, char 0xffff */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 MDAP[R], 0
 SHP[2], 8
@@ -27799,7 +27798,7 @@ YShift(20,19)
 Smooth()
 </talk>
         <assembly>/* TT glyph 679, char 0xffff */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 MDAP[R], 8
 SHP[1], 7
@@ -27832,7 +27831,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 680, char 0xffff */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 MDAP[R], 16
 SHP[1], 3
@@ -27858,7 +27857,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 681, char 0xffff */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 MDAP[R], 3
 SHP[1], 9
@@ -27895,7 +27894,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 683, char 0xffff */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 MDAP[R], 9
 SMD[], 192
@@ -27924,7 +27923,7 @@ YShift(23,26)
 Smooth()
 </talk>
         <assembly>/* TT glyph 684, char 0xffff */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 MDAP[R], 28
 SHP[1], 0
@@ -27959,7 +27958,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 685, char 0xffff */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 MDAP[R], 4
 SHP[1], 5
@@ -27992,7 +27991,7 @@ YShift(4,11)
 Smooth()
 </talk>
         <assembly>/* TT glyph 686, char 0xffff */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 RUTG[]
 MDAP[R], 8
@@ -28025,7 +28024,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 687, char 0xffff */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 MDAP[R], 1
 SHP[1], 0
@@ -28060,7 +28059,7 @@ YDist(4,9,&gt;=2)
 Smooth()
 </talk>
         <assembly>/* TT glyph 689, char 0xffff */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 MDAP[R], 4
 SMD[], 128
@@ -28091,7 +28090,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 690, char 0xffff */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 MDAP[R], 4
 SHP[1], 11
@@ -28125,7 +28124,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 691, char 0xffff */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 MDAP[R], 7
 SHP[1], 8
@@ -28157,7 +28156,7 @@ YShift(21,15)
 Smooth()
 </talk>
         <assembly>/* TT glyph 692, char 0xffff */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 MDAP[R], 9
 SHP[1], 3
@@ -28185,7 +28184,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 693, char 0xffff */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 MDAP[R], 9
 SHP[1], 3
@@ -28210,7 +28209,7 @@ YShift(8,7)
 Smooth()
 </talk>
         <assembly>/* TT glyph 694, char 0xffff */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 MDAP[R], 8
 SMD[], 128
@@ -28240,7 +28239,7 @@ YShift(2,1)
 Smooth()
 </talk>
         <assembly>/* TT glyph 695, char 0xffff */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 MDAP[R], 0
 SMD[], 192
@@ -28272,7 +28271,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 696, char 0xffff */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 MDAP[R], 0
 SHP[2], 1
@@ -28304,7 +28303,7 @@ YShift(25,0)
 Smooth()
 </talk>
         <assembly>/* TT glyph 697, char 0xffff */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 MDAP[R], 16
 SHP[1], 9
@@ -28341,7 +28340,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 698, char 0xffff */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 MIAP[R], 3, 178
 SHP[1], 21
@@ -28368,7 +28367,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 699, char 0xffff */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 MIAP[R], 0, 12
 MIAP[R], 7, 177
@@ -28397,7 +28396,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 700, char 0xffff */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 MDAP[R], 0
 SHP[2], 27
@@ -28431,7 +28430,7 @@ YShift(12,31,32)
 Smooth()
 </talk>
         <assembly>/* TT glyph 701, char 0xffff */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 MIAP[R], 25, 178
 SHP[1], 18
@@ -28468,7 +28467,7 @@ YShift(4,3)
 Smooth()
 </talk>
         <assembly>/* TT glyph 702, char 0xffff */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 MDAP[R], 0
 MIAP[R], 9, 178
@@ -28503,7 +28502,7 @@ YShift(15,4)
 Smooth()
 </talk>
         <assembly>/* TT glyph 703, char 0xffff */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 MIAP[R], 7, 177
 SHP[1], 10
@@ -28537,7 +28536,7 @@ YShift(23,16)
 Smooth()
 </talk>
         <assembly>/* TT glyph 704, char 0xffff */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 MDAP[R], 3
 SHP[1], 4
@@ -28569,7 +28568,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 705, char 0xffff */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 MIAP[R], 1, 177
 SHP[1], 11
@@ -28597,7 +28596,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 706, char 0xffff */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 MDAP[R], 22
 SHP[1], 35
@@ -28630,7 +28629,7 @@ YShift(23,16)
 Smooth()
 </talk>
         <assembly>/* TT glyph 707, char 0xffff */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 MDAP[R], 3
 SHP[1], 4
@@ -28680,7 +28679,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 708, char 0xffff */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 CALL[], 9, 13, 114
 CALL[], 3, 5, 114
@@ -28725,7 +28724,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 709, char 0xffff */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 CALL[], 0, 12, 114
 CALL[], 7, 4, 114
@@ -28762,7 +28761,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 710, char 0xffff */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 CALL[], 0, 12, 114
 SHP[2], 27
@@ -28800,7 +28799,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 711, char 0xffff */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 CALL[], 26, 5, 114
 SHP[2], 19
@@ -28841,7 +28840,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 712, char 0xffff */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 CALL[], 1, 5, 114
 SHP[2], 3
@@ -28877,7 +28876,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 713, char 0xffff */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 CALL[], 14, 4, 114
 SHP[2], 17
@@ -28913,7 +28912,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 714, char 0xffff */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 MIAP[R], 3, 5
 SHP[1], 4
@@ -28946,7 +28945,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 715, char 0xffff */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 CALL[], 1, 4, 114
 SHP[2], 11
@@ -28976,7 +28975,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 716, char 0xffff */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 CALL[], 22, 5, 114
 SHP[2], 35
@@ -29011,7 +29010,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 717, char 0xffff */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 CALL[], 3, 5, 114
 SHP[2], 16
@@ -29043,7 +29042,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 718, char 0xffff */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 CALL[], 3, 5, 114
 SHP[2], 21
@@ -29070,7 +29069,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 719, char 0xffff */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 CALL[], 0, 12, 114
 CALL[], 7, 4, 114
@@ -29101,7 +29100,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 720, char 0xffff */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 CALL[], 0, 12, 114
 SHP[2], 27
@@ -29137,7 +29136,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 721, char 0xffff */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 CALL[], 26, 5, 114
 SHP[2], 19
@@ -29176,7 +29175,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 722, char 0xffff */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 CALL[], 1, 5, 114
 SHP[2], 3
@@ -29212,7 +29211,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 723, char 0xffff */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 CALL[], 14, 4, 114
 SHP[2], 17
@@ -29252,7 +29251,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 724, char 0xffff */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 MIAP[R], 3, 5
 SHP[1], 4
@@ -29285,7 +29284,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 725, char 0xffff */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 CALL[], 1, 4, 114
 SHP[2], 11
@@ -29315,7 +29314,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 726, char 0xffff */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 CALL[], 22, 5, 114
 SHP[2], 35
@@ -29348,7 +29347,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 727, char 0xffff */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 MDAP[R], 3
 SHP[1], 4
@@ -29639,7 +29638,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 736, char 0x411 */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 CALL[], 9, 8, 114
 SHP[2], 24
@@ -29676,7 +29675,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 737, char 0x427 */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 CALL[], 0, 8, 114
 CALL[], 15, 2, 114
@@ -29717,7 +29716,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 738, char 0x4b6 */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 CALL[], 1, 2, 114
 SHP[2], 32
@@ -29760,7 +29759,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 739, char 0x4b8 */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 CALL[], 4, 8, 114
 CALL[], 19, 2, 114
@@ -29803,7 +29802,7 @@ YShift(11,21)
 Smooth()
 </talk>
         <assembly>/* TT glyph 740, char 0x414 */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 MDAP[R], 0
 SHP[2], 4
@@ -29843,7 +29842,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 741, char 0xffff */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 CALL[], 7, 2, 114
 MDAP[R], 11
@@ -29885,7 +29884,7 @@ YShift(14,7)
 Smooth()
 </talk>
         <assembly>/* TT glyph 742, char 0x402 */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 CALL[], 21, 2, 114
 SHP[2], 20
@@ -29940,7 +29939,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 744, char 0x40f */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 MIAP[R], 1, 8
 MDRP[m&gt;RBl], 0
@@ -30017,7 +30016,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 746, char 0x42d */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 CALL[], 0, 9, 114
 SHP[2], 3
@@ -30065,7 +30064,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 747, char 0x424 */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 CALL[], 28, 9, 114
 SHP[2], 0
@@ -30106,7 +30105,7 @@ YShift(22,29)
 Smooth()
 </talk>
         <assembly>/* TT glyph 748, char 0x41b */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 CALL[], 3, 2, 114
 SHP[2], 17
@@ -30136,7 +30135,7 @@ YInterpolate(10,6,15)
 Smooth()
 </talk>
         <assembly>/* TT glyph 749, char 0xffff */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 MIAP[R], 10, 8
 SHP[1], 2
@@ -30232,7 +30231,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 753, char 0x4a2 */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 CALL[], 16, 8, 114
 SHP[2], 1
@@ -30314,7 +30313,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 757, char 0x413 */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 CALL[], 0, 8, 114
 CALL[], 6, 2, 114
@@ -30367,7 +30366,7 @@ YShift(16,4)
 Smooth()
 </talk>
         <assembly>/* TT glyph 759, char 0x490 */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 CALL[], 10, 8, 114
 CALL[], 16, 2, 114
@@ -30446,7 +30445,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 762, char 0x4b2 */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 MIAP[R], 7, 2
 MIAP[R], 17, 2
@@ -30486,7 +30485,7 @@ YShift(1,31)
 Smooth()
 </talk>
         <assembly>/* TT glyph 763, char 0x42a */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 CALL[], 9, 8, 114
 SHP[2], 23
@@ -30527,7 +30526,7 @@ YShift(10,27)
 Smooth()
 </talk>
         <assembly>/* TT glyph 764, char 0x4fe */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 MIAP[R], 21, 8
 SHP[1], 31
@@ -30572,7 +30571,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 765, char 0x418 */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 MIAP[R], 0, 8
 MIAP[R], 6, 2
@@ -30689,7 +30688,7 @@ YShift(0,1)
 Smooth()
 </talk>
         <assembly>/* TT glyph 769, char 0x404 */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 CALL[], 11, 3, 114
 SHP[2], 18
@@ -30839,7 +30838,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 775, char 0x41a */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 CALL[], 0, 8, 114
 SHP[2], 29
@@ -30902,7 +30901,7 @@ YShift(31,11)
 Smooth()
 </talk>
         <assembly>/* TT glyph 777, char 0x4a0 */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 CALL[], 19, 8, 114
 SHP[2], 15
@@ -30960,7 +30959,7 @@ YShift(24,23)
 Smooth()
 </talk>
         <assembly>/* TT glyph 778, char 0x49a */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 CALL[], 0, 8, 114
 MDRP[m&gt;RGr], 34
@@ -31021,7 +31020,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 779, char 0x49c */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 CALL[], 0, 8, 114
 SHP[2], 29
@@ -31111,7 +31110,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 781, char 0x409 */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 CALL[], 0, 8, 114
 SHP[2], 39
@@ -31150,7 +31149,7 @@ YShift(40,28)
 Smooth()
 </talk>
         <assembly>/* TT glyph 782, char 0x40a */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 CALL[], 0, 8, 114
 SHP[2], 20
@@ -31192,7 +31191,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 783, char 0x4e8 */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 CALL[], 9, 3, 114
 SHP[2], 27
@@ -31356,7 +31355,7 @@ YShift(14,2)
 Smooth()
 </talk>
         <assembly>/* TT glyph 789, char 0x41f */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 CALL[], 8, 8, 114
 SHP[2], 22
@@ -31393,7 +31392,7 @@ YShift(2,16)
 Smooth()
 </talk>
         <assembly>/* TT glyph 790, char 0x4d8 */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 CALL[], 9, 9, 114
 SHP[2], 22
@@ -31436,7 +31435,7 @@ YAnchor(34)
 Smooth()
 </talk>
         <assembly>/* TT glyph 791, char 0x428 */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 CALL[], 15, 8, 114
 SHP[2], 27
@@ -31474,7 +31473,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 792, char 0x429 */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 CALL[], 1, 8, 114
 MDRP[m&gt;RGr], 38
@@ -31511,7 +31510,7 @@ YShift(22,25)
 Smooth()
 </talk>
         <assembly>/* TT glyph 793, char 0x4ba */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 CALL[], 7, 8, 114
 SHP[2], 16
@@ -31547,7 +31546,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 794, char 0x42c */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 CALL[], 20, 8, 114
 SHP[2], 3
@@ -31597,7 +31596,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 796, char 0x4ac */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 CALL[], 1, 8, 114
 SHP[2], 18
@@ -31634,7 +31633,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 797, char 0x426 */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 CALL[], 13, 8, 114
 MDRP[m&gt;RGr], 10
@@ -31669,7 +31668,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 798, char 0x40b */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 CALL[], 19, 2, 114
 SHP[2], 36
@@ -31703,7 +31702,7 @@ YInterpolate(12,22,31,0,26)
 Smooth()
 </talk>
         <assembly>/* TT glyph 799, char 0x423 */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 CALL[], 12, 9, 114
 SHP[2], 19
@@ -31884,7 +31883,7 @@ YShift(0,1)
 Smooth()
 </talk>
         <assembly>/* TT glyph 805, char 0x4b0 */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 CALL[], 5, 2, 114
 SHP[2], 15
@@ -31938,7 +31937,7 @@ YShift(9,38)
 Smooth()
 </talk>
         <assembly>/* TT glyph 807, char 0x42f */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 CALL[], 5, 8, 114
 SHP[2], 7
@@ -32064,7 +32063,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 811, char 0x42e */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 CALL[], 0, 8, 114
 CALL[], 6, 2, 114
@@ -32150,7 +32149,7 @@ YInterpolate(19,44,43,18)
 Smooth()
 </talk>
         <assembly>/* TT glyph 813, char 0x417 */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 CALL[], 0, 9, 114
 SHP[2], 11
@@ -32221,7 +32220,7 @@ YShift(14,15,33,43,44,51,25,26,3,10)
 Smooth()
 </talk>
         <assembly>/* TT glyph 815, char 0x416 */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 CALL[], 38, 2, 114
 SHP[2], 6
@@ -32267,7 +32266,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 816, char 0xffff */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 CALL[], 37, 2, 114
 SHP[2], 6
@@ -32353,7 +32352,7 @@ YShift(14,32,42,15,50,43,25,26)
 Smooth()
 </talk>
         <assembly>/* TT glyph 818, char 0x496 */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 CALL[], 37, 2, 114
 SHP[2], 6
@@ -32553,7 +32552,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 824, char 0x431 */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 CALL[], 3, 7, 114
 SHP[2], 41
@@ -32593,7 +32592,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 825, char 0xffff */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 CALL[], 22, 0, 114
 SHP[2], 26
@@ -32631,7 +32630,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 826, char 0xffff */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 MDAP[R], 0
 SHP[2], 7
@@ -32667,7 +32666,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 827, char 0xffff */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 MDAP[R], 7
 SHP[1], 0
@@ -32702,7 +32701,7 @@ YShift(27,28)
 Smooth()
 </talk>
         <assembly>/* TT glyph 828, char 0x447 */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 CALL[], 4, 10, 114
 CALL[], 17, 6, 114
@@ -32741,7 +32740,7 @@ YShift(12,13)
 Smooth()
 </talk>
         <assembly>/* TT glyph 829, char 0xffff */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 CALL[], 3, 6, 114
 SHP[2], 33
@@ -32783,7 +32782,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 830, char 0x4b7 */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 CALL[], 3, 6, 114
 SHP[2], 32
@@ -32830,7 +32829,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 831, char 0x4b9 */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 CALL[], 3, 6, 114
 SHP[2], 31
@@ -32877,7 +32876,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 832, char 0x434 */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 CALL[], 8, 10, 114
 MDRP[m&gt;RBl], 0
@@ -32929,7 +32928,7 @@ YShift(40,38)
 Smooth()
 </talk>
         <assembly>/* TT glyph 833, char 0xffff */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 CALL[], 23, 7, 114
 SHP[2], 10
@@ -32983,7 +32982,7 @@ OFFSET[R], 832, 0, 0
 /*Auto-Hinting Light is not applied: Empty glyph or glyph with one point*/
 </talk>
         <assembly>/* TT glyph 835, char 0xffff */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 
 </assembly>
       </instructions>
@@ -33010,7 +33009,7 @@ YShift(37,22)
 Smooth()
 </talk>
         <assembly>/* TT glyph 836, char 0x452 */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 CALL[], 10, 14, 114
 SHP[2], 11
@@ -33061,7 +33060,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 838, char 0x45f */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 CALL[], 3, 6, 114
 SHP[2], 14
@@ -33132,7 +33131,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 840, char 0x44d */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 CALL[], 4, 11, 114
 SHP[2], 15
@@ -33175,7 +33174,7 @@ YShift(43,12)
 Smooth()
 </talk>
         <assembly>/* TT glyph 841, char 0x444 */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 CALL[], 6, 14, 114
 CALL[], 17, 0, 114
@@ -33211,7 +33210,7 @@ YShift(28,15)
 Smooth()
 </talk>
         <assembly>/* TT glyph 842, char 0x43b */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 CALL[], 11, 11, 114
 SHP[2], 4
@@ -33242,7 +33241,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 843, char 0xffff */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 MDAP[R], 1
 SHP[1], 11
@@ -33277,7 +33276,7 @@ YInterpolate(3,12,31,26,9)
 Smooth()
 </talk>
         <assembly>/* TT glyph 844, char 0x43c */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 CALL[], 3, 10, 114
 SHP[2], 22
@@ -33349,7 +33348,7 @@ YShift(4,1)
 Smooth()
 </talk>
         <assembly>/* TT glyph 846, char 0x43d */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 CALL[], 9, 6, 114
 SHP[2], 30
@@ -33386,7 +33385,7 @@ YShift(4,1)
 Smooth()
 </talk>
         <assembly>/* TT glyph 847, char 0xffff */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 MDAP[R], 10
 SHP[1], 24
@@ -33426,7 +33425,7 @@ YShift(4,1)
 Smooth()
 </talk>
         <assembly>/* TT glyph 848, char 0x4a3 */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 CALL[], 9, 6, 114
 SHP[2], 32
@@ -33509,7 +33508,7 @@ YShift(15,4)
 Smooth()
 </talk>
         <assembly>/* TT glyph 852, char 0x433 */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 CALL[], 9, 10, 114
 CALL[], 15, 6, 114
@@ -33544,7 +33543,7 @@ YShift(30,29)
 Smooth()
 </talk>
         <assembly>/* TT glyph 853, char 0xffff */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 CALL[], 3, 7, 114
 SHP[2], 14
@@ -33613,7 +33612,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 856, char 0x491 */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 CALL[], 9, 10, 114
 CALL[], 15, 6, 114
@@ -33692,7 +33691,7 @@ YInterpolate(0,27,11,12,3,4,21,17)
 Smooth()
 </talk>
         <assembly>/* TT glyph 859, char 0x4b3 */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 CALL[], 0, 10, 114
 SHP[2], 24
@@ -33731,7 +33730,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 860, char 0x44a */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 CALL[], 4, 6, 114
 SHP[2], 1
@@ -33765,7 +33764,7 @@ YShift(14,13)
 Smooth()
 </talk>
         <assembly>/* TT glyph 861, char 0xffff */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 CALL[], 21, 11, 114
 SHP[2], 6
@@ -33806,7 +33805,7 @@ YShift(5,2)
 Smooth()
 </talk>
         <assembly>/* TT glyph 862, char 0x4ff */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 MDAP[R], 6
 SHP[1], 30
@@ -33849,7 +33848,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 863, char 0x20b4 */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 MIAP[R], 3, 8
 SHP[1], 50
@@ -33902,7 +33901,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 865, char 0x438 */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 CALL[], 9, 6, 114
 SHP[2], 30
@@ -34026,7 +34025,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 869, char 0x454 */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 CALL[], 7, 7, 114
 SHP[2], 18
@@ -34237,7 +34236,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 877, char 0x43a */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 CALL[], 3, 6, 114
 SHP[2], 26
@@ -34294,7 +34293,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 879, char 0x4a1 */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 CALL[], 21, 10, 114
 SHP[2], 4
@@ -34343,7 +34342,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 880, char 0x49b */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 CALL[], 3, 6, 114
 SHP[2], 25
@@ -34395,7 +34394,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 881, char 0x49d */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 CALL[], 7, 6, 114
 SHP[2], 30
@@ -34476,7 +34475,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 883, char 0x459 */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 CALL[], 26, 6, 114
 SHP[2], 43
@@ -34521,7 +34520,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 884, char 0x45a */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 CALL[], 9, 6, 114
 SHP[2], 36
@@ -34566,7 +34565,7 @@ YShift(28,25)
 Smooth()
 </talk>
         <assembly>/* TT glyph 885, char 0x4e9 */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 CALL[], 3, 7, 114
 SHP[2], 21
@@ -34727,7 +34726,7 @@ YAnchor(11)
 Smooth()
 </talk>
         <assembly>/* TT glyph 891, char 0x43f */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 CALL[], 3, 6, 114
 SHP[2], 16
@@ -34795,7 +34794,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 895, char 0x448 */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 CALL[], 1, 10, 114
 SHP[2], 12
@@ -34843,7 +34842,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 896, char 0xffff */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 CALL[], 2, 6, 114
 SHP[2], 18
@@ -34894,7 +34893,7 @@ YAnchor(28)
 Smooth()
 </talk>
         <assembly>/* TT glyph 897, char 0x449 */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 CALL[], 1, 10, 114
 MDRP[m&gt;RGr], 34
@@ -34943,7 +34942,7 @@ YShift(62,57)
 Smooth()
 </talk>
         <assembly>/* TT glyph 898, char 0xffff */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 CALL[], 3, 11, 114
 SHP[2], 20
@@ -35003,7 +35002,7 @@ YShift(1,0)
 Smooth()
 </talk>
         <assembly>/* TT glyph 900, char 0x44c */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 CALL[], 9, 10, 114
 SHP[2], 20
@@ -35035,7 +35034,7 @@ YShift(13,27)
 Smooth()
 </talk>
         <assembly>/* TT glyph 901, char 0xffff */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 CALL[], 0, 11, 114
 SHP[2], 20
@@ -35070,7 +35069,7 @@ YAnchor(13)
 Smooth()
 </talk>
         <assembly>/* TT glyph 902, char 0x442 */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 CALL[], 2, 10, 114
 CALL[], 10, 6, 114
@@ -35128,7 +35127,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 905, char 0x4ad */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 CALL[], 5, 10, 114
 SHP[2], 0
@@ -35161,7 +35160,7 @@ YShift(18,6)
 Smooth()
 </talk>
         <assembly>/* TT glyph 906, char 0x20b8 */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 MIAP[R], 12, 8
 MIAP[R], 21, 2
@@ -35197,7 +35196,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 907, char 0x446 */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 CALL[], 5, 10, 114
 MDRP[m&gt;RGr], 2
@@ -35236,7 +35235,7 @@ YAnchor(31)
 Smooth()
 </talk>
         <assembly>/* TT glyph 908, char 0xffff */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 CALL[], 6, 11, 114
 SHP[2], 1
@@ -35436,7 +35435,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 915, char 0x4af */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 CALL[], 1, 6, 114
 SHP[2], 11
@@ -35472,7 +35471,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 916, char 0x4b1 */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 CALL[], 5, 6, 114
 SHP[2], 15
@@ -35510,7 +35509,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 917, char 0x432 */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 CALL[], 1, 10, 114
 SHP[2], 31
@@ -35549,7 +35548,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 918, char 0xffff */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 CALL[], 4, 1, 114
 SHP[2], 20
@@ -35589,7 +35588,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 919, char 0x44f */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 CALL[], 9, 6, 114
 SHP[2], 22
@@ -35664,7 +35663,7 @@ YShift(15,14)
 Smooth()
 </talk>
         <assembly>/* TT glyph 921, char 0x44b */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 CALL[], 23, 10, 114
 SHP[2], 3
@@ -35702,7 +35701,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 922, char 0x457 */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 CALL[], 0, 10, 114
 CALL[], 7, 6, 114
@@ -35738,7 +35737,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 923, char 0x44e */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 CALL[], 7, 6, 114
 CALL[], 15, 10, 114
@@ -35776,7 +35775,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 924, char 0xffff */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 CALL[], 7, 0, 114
 MIAP[R], 13, 10
@@ -35855,7 +35854,7 @@ YShift(44,42)
 Smooth()
 </talk>
         <assembly>/* TT glyph 926, char 0x437 */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 CALL[], 26, 7, 114
 SHP[2], 15
@@ -35914,7 +35913,7 @@ YShift(43,18)
 Smooth()
 </talk>
         <assembly>/* TT glyph 927, char 0xffff */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 CALL[], 11, 7, 114
 SHP[2], 0
@@ -35992,7 +35991,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 929, char 0x436 */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 CALL[], 36, 10, 114
 SHP[2], 10
@@ -36036,7 +36035,7 @@ YInterpolate(41,30,14,37,15,38,22,23,45,33)
 Smooth()
 </talk>
         <assembly>/* TT glyph 930, char 0xffff */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 CALL[], 7, 0, 114
 CALL[], 33, 6, 114
@@ -36120,7 +36119,7 @@ Smooth()
 
 </talk>
         <assembly>/* TT glyph 932, char 0x497 */
-/* VTT 6.33 compiler Wed Sep 23 15:08:43 2020 */
+/* VTT 6.33 compiler Tue Oct 13 13:16:13 2020 */
 SVTCA[Y]
 MIAP[R], 34, 10
 SHP[1], 11
