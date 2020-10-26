@@ -1,9 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="tonos.case" format="2">
-	<advance width="886"/>
-	<outline>
-		<component base="tonos" xOffset="-10" yOffset="-53"/>
-	</outline>
-	<anchor name="_GRKtopleft" x="846" y="1500"/>
-	<guideline x="806" y="1482" angle="90" identifier="pIShuzXZi2"/>
+  <advance width="886"/>
+  <guideline x="806" y="1482" angle="90" identifier="pIShuzXZi2"/>
+  <anchor x="846" y="1500" name="_GRKtopleft"/>
+  <outline>
+    <component base="tonos" xOffset="-10" yOffset="-53"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.4,0.8,0.9989,1</string>
+    </dict>
+  </lib>
 </glyph>
