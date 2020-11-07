@@ -16,11 +16,22 @@
   <guideline x="1208" y="674" angle="90" identifier="TuTQBtBwh7"/>
   <outline>
     <contour>
-      <point x="172" y="857" type="line"/>
-      <point x="30" y="887" type="line"/>
-      <point x="30" y="1020" type="line"/>
-      <point x="539" y="1052" type="line"/>
-      <point x="617" y="1052" type="line"/>
+      <point x="787" y="0" type="line"/>
+      <point x="787" y="120" type="line"/>
+      <point x="954" y="155" type="line"/>
+      <point x="957" y="525" type="line"/>
+      <point x="956" y="857" type="line"/>
+      <point x="814" y="887" type="line"/>
+      <point x="814" y="1020" type="line"/>
+      <point x="1323" y="1052" type="line"/>
+      <point x="1401" y="1052" type="line"/>
+      <point x="1444" y="1003" type="line"/>
+      <point x="1435" y="525" type="line"/>
+      <point x="1437" y="155" type="line"/>
+      <point x="1585" y="120" type="line"/>
+      <point x="1585" y="0" type="line"/>
+    </contour>
+    <contour>
       <point x="660" y="1003" type="line"/>
       <point x="651" y="742" type="line" smooth="yes"/>
       <point x="647.3553784455" y="636.3059749191"/>
@@ -36,22 +47,11 @@
       <point x="446" y="396"/>
       <point x="174.4526625516" y="557.7751687065"/>
       <point x="173" y="735" type="qcurve" smooth="yes"/>
-    </contour>
-    <contour>
-      <point x="1444" y="1003" type="line"/>
-      <point x="1435" y="525" type="line"/>
-      <point x="1437" y="155" type="line"/>
-      <point x="1585" y="120" type="line"/>
-      <point x="1585" y="0" type="line"/>
-      <point x="787" y="0" type="line"/>
-      <point x="787" y="120" type="line"/>
-      <point x="954" y="155" type="line"/>
-      <point x="957" y="525" type="line"/>
-      <point x="956" y="857" type="line"/>
-      <point x="814" y="887" type="line"/>
-      <point x="814" y="1020" type="line"/>
-      <point x="1323" y="1052" type="line"/>
-      <point x="1401" y="1052" type="line"/>
+      <point x="172" y="857" type="line"/>
+      <point x="30" y="887" type="line"/>
+      <point x="30" y="1020" type="line"/>
+      <point x="539" y="1052" type="line"/>
+      <point x="617" y="1052" type="line"/>
     </contour>
   </outline>
   <lib>

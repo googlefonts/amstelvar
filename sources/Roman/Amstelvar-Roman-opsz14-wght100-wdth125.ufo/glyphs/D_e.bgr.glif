@@ -1,29 +1,35 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="De.bgr" format="2">
-	<advance width="1984"/>
-	<outline>
-		<contour>
-			<point x="1680" y="0" type="line"/>
-			<point x="1354" y="677" type="line"/>
-			<point x="978" y="1456" type="line"/>
-			<point x="631" y="687" type="line"/>
-			<point x="328" y="0" type="line"/>
-			<point x="224" y="0" type="line"/>
-			<point x="554" y="700" type="line"/>
-			<point x="939" y="1507" type="line"/>
-			<point x="1026" y="1507" type="line"/>
-			<point x="1425" y="710" type="line"/>
-			<point x="1784" y="0" type="line"/>
-		</contour>
-		<contour>
-			<point x="1911" y="-338" type="line"/>
-			<point x="1848" y="0" type="line"/>
-			<point x="135" y="0" type="line"/>
-			<point x="72" y="-338" type="line"/>
-			<point x="12" y="-338" type="line"/>
-			<point x="22" y="63" type="line"/>
-			<point x="1962" y="63" type="line"/>
-			<point x="1972" y="-338" type="line"/>
-		</contour>
-	</outline>
+  <advance width="2064"/>
+  <outline>
+    <contour>
+      <point x="1738" y="21" type="line"/>
+      <point x="1377" y="739" type="line"/>
+      <point x="1028" y="1417" type="line"/>
+      <point x="671" y="719" type="line"/>
+      <point x="325" y="26" type="line"/>
+      <point x="239" y="21" type="line"/>
+      <point x="615" y="751" type="line"/>
+      <point x="995" y="1507" type="line"/>
+      <point x="1069" y="1507" type="line"/>
+      <point x="1440" y="768" type="line"/>
+      <point x="1824" y="23" type="line"/>
+    </contour>
+    <contour>
+      <point x="1973" y="-338" type="line"/>
+      <point x="1910" y="0" type="line"/>
+      <point x="153" y="0" type="line"/>
+      <point x="90" y="-338" type="line"/>
+      <point x="30" y="-338" type="line"/>
+      <point x="40" y="63" type="line"/>
+      <point x="2024" y="63" type="line"/>
+      <point x="2034" y="-338" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>1,0.868,0.7015,1</string>
+    </dict>
+  </lib>
 </glyph>

@@ -1,26 +1,32 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Ghe" format="2">
-	<unicode hex="0413"/>
-	<advance width="1682"/>
-	<outline>
-		<contour>
-			<point x="115" y="0" type="line"/>
-			<point x="115" y="-27" type="line"/>
-			<point x="340" y="6" type="line"/>
-			<point x="342" y="763" type="line"/>
-			<point x="340" y="1504" type="line"/>
-			<point x="115" y="1538" type="line"/>
-			<point x="115" y="1500" type="line"/>
-			<point x="1578" y="1500" type="line"/>
-			<point x="1578" y="1178" type="line"/>
-			<point x="1592" y="1178" type="line"/>
-			<point x="1494" y="1531" type="line"/>
-			<point x="431" y="1531" type="line"/>
-			<point x="407" y="1502" type="line"/>
-			<point x="408" y="763" type="line"/>
-			<point x="411" y="8" type="line"/>
-			<point x="669" y="-27" type="line"/>
-			<point x="669" y="0" type="line"/>
-		</contour>
-	</outline>
+  <advance width="1397"/>
+  <unicode hex="0413"/>
+  <outline>
+    <contour>
+      <point x="115" y="0" type="line"/>
+      <point x="115" y="18" type="line"/>
+      <point x="344" y="51" type="line"/>
+      <point x="346" y="770" type="line"/>
+      <point x="344" y="1444" type="line"/>
+      <point x="115" y="1477" type="line"/>
+      <point x="115" y="1500" type="line"/>
+      <point x="1358" y="1500" type="line"/>
+      <point x="1358" y="1133" type="line"/>
+      <point x="1340" y="1133" type="line"/>
+      <point x="1257" y="1478" type="line"/>
+      <point x="428" y="1481" type="line"/>
+      <point x="403" y="1442" type="line"/>
+      <point x="404" y="815" type="line"/>
+      <point x="406" y="56" type="line"/>
+      <point x="631" y="18" type="line"/>
+      <point x="631" y="0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>1,0.868,0.7015,1</string>
+    </dict>
+  </lib>
 </glyph>
