@@ -1,26 +1,32 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Ghe" format="2">
-  <advance width="995"/>
+  <advance width="954"/>
   <unicode hex="0413"/>
   <outline>
     <contour>
       <point x="42" y="0" type="line"/>
       <point x="42" y="94" type="line"/>
-      <point x="220" y="127" type="line"/>
+      <point x="221" y="127" type="line"/>
       <point x="222" y="748" type="line"/>
-      <point x="220" y="1375" type="line"/>
+      <point x="221" y="1375" type="line"/>
       <point x="42" y="1409" type="line"/>
       <point x="42" y="1500" type="line"/>
-      <point x="939" y="1500" type="line"/>
-      <point x="939" y="1139" type="line"/>
-      <point x="846" y="1139" type="line"/>
-      <point x="823" y="1393" type="line"/>
-      <point x="362" y="1393" type="line"/>
-      <point x="335" y="1367" type="line"/>
+      <point x="919" y="1500" type="line"/>
+      <point x="919" y="1139" type="line"/>
+      <point x="826" y="1139" type="line"/>
+      <point x="803" y="1393" type="line"/>
+      <point x="360" y="1393" type="line"/>
+      <point x="333" y="1367" type="line"/>
       <point x="332" y="754" type="line"/>
-      <point x="335" y="131" type="line"/>
+      <point x="333" y="131" type="line"/>
       <point x="530" y="94" type="line"/>
       <point x="530" y="0" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>1,0.868,0.7015,1</string>
+    </dict>
+  </lib>
 </glyph>

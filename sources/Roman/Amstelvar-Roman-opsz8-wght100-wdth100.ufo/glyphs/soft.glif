@@ -1,47 +1,49 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="soft" format="2">
-	<unicode hex="044C"/>
-	<advance width="1010"/>
-	<outline>
-		<contour>
-			<point x="319" y="556" type="line"/>
-			<point x="319" y="661" type="line"/>
-			<point x="616" y="661" type="line" smooth="yes"/>
-			<point x="799" y="661"/>
-			<point x="985" y="503"/>
-			<point x="985" y="336" type="qcurve" smooth="yes"/>
-			<point x="985" y="175"/>
-			<point x="804" y="0"/>
-			<point x="616" y="0" type="qcurve" smooth="yes"/>
-			<point x="90" y="0" type="line"/>
-			<point x="90" y="97" type="line"/>
-			<point x="258" y="124" type="line"/>
-			<point x="260" y="535" type="line"/>
-			<point x="258" y="926" type="line"/>
-			<point x="90" y="953" type="line"/>
-			<point x="90" y="1050" type="line"/>
-			<point x="548" y="1050" type="line"/>
-			<point x="548" y="953" type="line"/>
-			<point x="380" y="926" type="line"/>
-			<point x="378" y="545" type="line"/>
-			<point x="380" y="111" type="line"/>
-			<point x="609" y="111" type="line" smooth="yes"/>
-			<point x="761" y="111"/>
-			<point x="872" y="235"/>
-			<point x="872" y="340" type="qcurve" smooth="yes"/>
-			<point x="872" y="440"/>
-			<point x="761" y="556"/>
-			<point x="618" y="556" type="qcurve" smooth="yes"/>
-		</contour>
-	</outline>
-	<guideline x="302" y="625" angle="90" identifier="A4qVwRmZ22"/>
-	<guideline x="953" y="554" angle="90" identifier="h0tFJgBRAh"/>
-	<guideline x="627" y="553" angle="90" identifier="x6MEKzPxp5"/>
-	<guideline x="329" y="565" angle="0" identifier="Iz6BEWeM15"/>
-	<lib>
-		<dict>
-			<key>com.typemytype.robofont.guideline.showMeasurements.Iz6BEWeM15</key>
-			<true/>
-		</dict>
-	</lib>
+  <advance width="1040"/>
+  <unicode hex="044C"/>
+  <guideline x="302" y="625" angle="90" identifier="A4qVwRmZ22"/>
+  <guideline x="953" y="554" angle="90" identifier="h0tFJgBRAh"/>
+  <guideline x="627" y="553" angle="90" identifier="x6MEKzPxp5"/>
+  <guideline x="329" y="565" angle="0" identifier="Iz6BEWeM15"/>
+  <outline>
+    <contour>
+      <point x="380" y="111" type="line"/>
+      <point x="609" y="111" type="line" smooth="yes"/>
+      <point x="765.6235741444866" y="111"/>
+      <point x="880.0" y="235.0"/>
+      <point x="880" y="340" type="qcurve" smooth="yes"/>
+      <point x="880.0" y="440.0"/>
+      <point x="765.503937007874" y="556"/>
+      <point x="618" y="556" type="qcurve" smooth="yes"/>
+      <point x="319" y="556" type="line"/>
+      <point x="319" y="661" type="line"/>
+      <point x="616" y="661" type="line" smooth="yes"/>
+      <point x="808.9186991869918" y="661"/>
+      <point x="1005.0" y="505.0"/>
+      <point x="1005" y="340" type="qcurve" smooth="yes"/>
+      <point x="1005.0" y="177.0"/>
+      <point x="814.189701897019" y="0"/>
+      <point x="616" y="0" type="qcurve" smooth="yes"/>
+      <point x="90" y="0" type="line"/>
+      <point x="90" y="97" type="line"/>
+      <point x="258" y="124" type="line"/>
+      <point x="260" y="535" type="line"/>
+      <point x="258" y="926" type="line"/>
+      <point x="90" y="953" type="line"/>
+      <point x="90" y="1050" type="line"/>
+      <point x="548" y="1050" type="line"/>
+      <point x="548" y="953" type="line"/>
+      <point x="380" y="926" type="line"/>
+      <point x="378" y="545" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.guideline.showMeasurements.Iz6BEWeM15</key>
+      <true/>
+      <key>public.markColor</key>
+      <string>1,0.868,0.7015,1</string>
+    </dict>
+  </lib>
 </glyph>

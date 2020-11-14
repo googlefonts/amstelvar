@@ -1,52 +1,57 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="kabashkircyr" format="2">
-	<unicode hex="04A1"/>
-	<advance width="1334"/>
-	<outline>
-		<contour>
-			<point x="749" y="496" type="line"/>
-			<point x="865" y="566" type="line"/>
-			<point x="1179" y="131" type="line"/>
-			<point x="1372" y="97" type="line"/>
-			<point x="1372" y="0" type="line"/>
-			<point x="1117" y="0" type="line"/>
-			<point x="1085" y="-20" type="line"/>
-			<point x="1072" y="53" type="line"/>
-		</contour>
-		<contour>
-			<point x="544" y="582" type="line"/>
-			<point x="785" y="579" type="line"/>
-			<point x="1046" y="936" type="line"/>
-			<point x="916" y="958" type="line"/>
-			<point x="916" y="1050" type="line"/>
-			<point x="1359" y="1050" type="line"/>
-			<point x="1359" y="958" type="line"/>
-			<point x="1183" y="935" type="line"/>
-			<point x="861" y="521" type="line"/>
-			<point x="815" y="467" type="line"/>
-			<point x="544" y="465" type="line"/>
-		</contour>
-		<contour>
-			<point x="761" y="97" type="line"/>
-			<point x="761" y="0" type="line"/>
-			<point x="304" y="0" type="line"/>
-			<point x="304" y="97" type="line"/>
-			<point x="472" y="124" type="line"/>
-			<point x="474" y="525" type="line"/>
-			<point x="472" y="936" type="line"/>
-			<point x="200" y="936" type="line"/>
-			<point x="112" y="702" type="line"/>
-			<point x="35" y="702" type="line"/>
-			<point x="45" y="1050" type="line"/>
-			<point x="763" y="1050" type="line"/>
-			<point x="763" y="953" type="line"/>
-			<point x="595" y="926" type="line"/>
-			<point x="593" y="525" type="line"/>
-			<point x="595" y="124" type="line"/>
-		</contour>
-	</outline>
-	<guideline x="302" y="625" angle="90" identifier="0glbwjr6f1"/>
-	<guideline x="953" y="554" angle="90" identifier="41A0uQDzZV"/>
-	<guideline x="627" y="553" angle="90" identifier="rA3XBl1QkZ"/>
-	<guideline x="241" y="553" angle="90" identifier="UwAftolvUF"/>
+  <advance width="1388"/>
+  <unicode hex="04A1"/>
+  <guideline x="302" y="625" angle="90" identifier="0glbwjr6f1"/>
+  <guideline x="953" y="554" angle="90" identifier="41A0uQDzZV"/>
+  <guideline x="627" y="553" angle="90" identifier="rA3XBl1QkZ"/>
+  <guideline x="241" y="553" angle="90" identifier="UwAftolvUF"/>
+  <outline>
+    <contour>
+      <point x="760" y="496" type="line"/>
+      <point x="866" y="566" type="line"/>
+      <point x="1200" y="131" type="line"/>
+      <point x="1373" y="97" type="line"/>
+      <point x="1373" y="0" type="line"/>
+      <point x="1106" y="0" type="line"/>
+      <point x="1086" y="22" type="line"/>
+      <point x="1069" y="91" type="line"/>
+    </contour>
+    <contour>
+      <point x="545" y="582" type="line"/>
+      <point x="786" y="579" type="line"/>
+      <point x="1047" y="936" type="line"/>
+      <point x="917" y="958" type="line"/>
+      <point x="917" y="1050" type="line"/>
+      <point x="1360" y="1050" type="line"/>
+      <point x="1360" y="958" type="line"/>
+      <point x="1184" y="935" type="line"/>
+      <point x="836" y="467" type="line"/>
+      <point x="545" y="465" type="line"/>
+    </contour>
+    <contour>
+      <point x="473" y="936" type="line"/>
+      <point x="190" y="936" type="line"/>
+      <point x="132" y="702" type="line"/>
+      <point x="45" y="702" type="line"/>
+      <point x="55" y="1050" type="line"/>
+      <point x="763" y="1050" type="line"/>
+      <point x="763" y="953" type="line"/>
+      <point x="595" y="926" type="line"/>
+      <point x="593" y="525" type="line"/>
+      <point x="595" y="124" type="line"/>
+      <point x="762" y="97" type="line"/>
+      <point x="762" y="0" type="line"/>
+      <point x="305" y="0" type="line"/>
+      <point x="305" y="97" type="line"/>
+      <point x="473" y="124" type="line"/>
+      <point x="475" y="525" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>1,0.868,0.7015,1</string>
+    </dict>
+  </lib>
 </glyph>

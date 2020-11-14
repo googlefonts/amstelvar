@@ -1,9 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Amacroncyr" format="2">
-  <advance width="1178"/>
+  <advance width="1213"/>
   <unicode hex="F50E"/>
   <outline>
     <component base="A"/>
-    <component base="macroncomb.case" xOffset="57" yOffset="1"/>
+    <component base="macroncomb.case" xOffset="87" yOffset="1"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>1,0.868,0.7015,1</string>
+    </dict>
+  </lib>
 </glyph>

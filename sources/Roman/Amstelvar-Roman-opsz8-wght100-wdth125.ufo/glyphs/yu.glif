@@ -1,57 +1,63 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="yu" format="2">
-	<unicode hex="044E"/>
-	<advance width="2214"/>
-	<outline>
-		<contour>
-			<point x="393" y="574" type="line"/>
-			<point x="802" y="571" type="line"/>
-			<point x="802" y="460" type="line"/>
-			<point x="393" y="458" type="line"/>
-		</contour>
-		<contour>
-			<point x="332" y="525" type="line"/>
-			<point x="330" y="923" type="line"/>
-			<point x="122" y="950" type="line"/>
-			<point x="122" y="1050" type="line"/>
-			<point x="673" y="1050" type="line"/>
-			<point x="673" y="950" type="line"/>
-			<point x="457" y="923" type="line"/>
-			<point x="455" y="525" type="line"/>
-			<point x="457" y="127" type="line"/>
-			<point x="671" y="100" type="line"/>
-			<point x="671" y="0" type="line"/>
-			<point x="122" y="0" type="line"/>
-			<point x="122" y="100" type="line"/>
-			<point x="330" y="127" type="line"/>
-		</contour>
-		<contour>
-			<point x="740" y="525" type="qcurve"/>
-			<point x="740" y="754"/>
-			<point x="1127" y="1079"/>
-			<point x="1430" y="1079" type="qcurve"/>
-			<point x="1740" y="1079"/>
-			<point x="2126" y="774"/>
-			<point x="2126" y="531" type="qcurve"/>
-			<point x="2126" y="303"/>
-			<point x="1743" y="-29"/>
-			<point x="1438" y="-29" type="qcurve"/>
-			<point x="1132" y="-29"/>
-			<point x="740" y="281"/>
-		</contour>
-		<contour>
-			<point x="864" y="545" type="qcurve"/>
-			<point x="865" y="353"/>
-			<point x="1179" y="81"/>
-			<point x="1433" y="81" type="qcurve"/>
-			<point x="1703" y="81"/>
-			<point x="2001" y="330"/>
-			<point x="2001" y="530" type="qcurve"/>
-			<point x="2001" y="714"/>
-			<point x="1690" y="959"/>
-			<point x="1435" y="959" type="qcurve"/>
-			<point x="1160" y="959"/>
-			<point x="863" y="735"/>
-		</contour>
-	</outline>
+  <advance width="2296"/>
+  <unicode hex="044E"/>
+  <outline>
+    <contour>
+      <point x="389" y="585" type="line"/>
+      <point x="802" y="582" type="line"/>
+      <point x="802" y="481" type="line"/>
+      <point x="389" y="479" type="line"/>
+    </contour>
+    <contour>
+      <point x="328" y="536" type="line"/>
+      <point x="326" y="923" type="line"/>
+      <point x="106" y="950" type="line"/>
+      <point x="106" y="1050" type="line"/>
+      <point x="683" y="1050" type="line"/>
+      <point x="683" y="950" type="line"/>
+      <point x="453" y="923" type="line"/>
+      <point x="451" y="536" type="line"/>
+      <point x="453" y="127" type="line"/>
+      <point x="683" y="100" type="line"/>
+      <point x="683" y="0" type="line"/>
+      <point x="106" y="0" type="line"/>
+      <point x="106" y="100" type="line"/>
+      <point x="326" y="127" type="line"/>
+    </contour>
+    <contour>
+      <point x="740" y="525" type="qcurve" smooth="yes"/>
+      <point x="740.0" y="754.0"/>
+      <point x="1148.7700534759358" y="1081.0"/>
+      <point x="1468" y="1081" type="qcurve" smooth="yes"/>
+      <point x="1794.1140583554377" y="1081.0"/>
+      <point x="2202.0" y="774.0"/>
+      <point x="2202" y="531" type="qcurve" smooth="yes"/>
+      <point x="2202.0" y="283.0"/>
+      <point x="1790.1609498680739" y="-31.0"/>
+      <point x="1464" y="-31" type="qcurve" smooth="yes"/>
+      <point x="1137.032258064516" y="-31.0"/>
+      <point x="740.0" y="281.0"/>
+    </contour>
+    <contour>
+      <point x="869" y="533" type="qcurve" smooth="yes"/>
+      <point x="869.0" y="339.0"/>
+      <point x="1188.2857142857142" y="72.0"/>
+      <point x="1465" y="72" type="qcurve" smooth="yes"/>
+      <point x="1754.4928457869635" y="72.0"/>
+      <point x="2074.0" y="327.0"/>
+      <point x="2074" y="530" type="qcurve" smooth="yes"/>
+      <point x="2074.0" y="714.0"/>
+      <point x="1744.8108108108108" y="966.0"/>
+      <point x="1465" y="966" type="qcurve" smooth="yes"/>
+      <point x="1193.1233766233765" y="966.0"/>
+      <point x="869.0" y="735.0"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>1,0.868,0.7015,1</string>
+    </dict>
+  </lib>
 </glyph>
