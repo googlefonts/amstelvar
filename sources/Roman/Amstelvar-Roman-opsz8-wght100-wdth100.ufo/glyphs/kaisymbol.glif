@@ -1,24 +1,24 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="kaisymbol" format="2">
-	<unicode hex="03D7"/>
-	<advance width="1233"/>
-	<outline>
-		<contour>
-			<point x="617" y="-538" type="qcurve" smooth="yes"/>
-			<point x="439" y="-538"/>
-			<point x="126" y="-381"/>
-			<point x="34" y="-213" type="qcurve"/>
-			<point x="109" y="-159" type="line"/>
-			<point x="175" y="-261"/>
-			<point x="423" y="-437"/>
-			<point x="616" y="-437" type="qcurve" smooth="yes"/>
-			<point x="858" y="-437"/>
-			<point x="1131" y="-176"/>
-			<point x="1124" y="109" type="qcurve"/>
-			<point x="1215" y="114" type="line"/>
-			<point x="1229" y="-202"/>
-			<point x="879" y="-538"/>
-		</contour>
-		<component base="kappa" xScale="1.0854950917" yScale="1.0488471977" yOffset="-13"/>
-	</outline>
+  <advance width="1310"/>
+  <unicode hex="03D7"/>
+  <outline>
+    <contour>
+      <point x="704" y="-523" type="qcurve" smooth="yes"/>
+      <point x="491" y="-523"/>
+      <point x="147" y="-366"/>
+      <point x="45" y="-206" type="qcurve"/>
+      <point x="123" y="-150" type="line"/>
+      <point x="197" y="-254"/>
+      <point x="482" y="-419"/>
+      <point x="714" y="-419" type="qcurve" smooth="yes"/>
+      <point x="997" y="-419"/>
+      <point x="1278" y="-130"/>
+      <point x="1278" y="110" type="qcurve"/>
+      <point x="1384" y="110" type="line"/>
+      <point x="1407" y="-147"/>
+      <point x="1043" y="-523"/>
+    </contour>
+    <component base="kappa" xScale="1.0448597124974868" yScale="1.0163092780280278" yOffset="-4"/>
+  </outline>
 </glyph>
