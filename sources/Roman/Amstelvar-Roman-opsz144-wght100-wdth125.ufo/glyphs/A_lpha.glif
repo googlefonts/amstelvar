@@ -1,9 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Alpha" format="2">
-  <advance width="1291"/>
+  <advance width="1784"/>
   <unicode hex="0391"/>
-  <anchor x="492" y="1500" name="GRKtopleft"/>
+  <anchor x="392" y="1500" name="GRKtopleft"/>
   <outline>
     <component base="A"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.4,0.8,0.9989,1</string>
+    </dict>
+  </lib>
 </glyph>

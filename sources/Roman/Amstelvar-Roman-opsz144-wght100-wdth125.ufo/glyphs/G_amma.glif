@@ -1,26 +1,32 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Gamma" format="2">
-  <advance width="948"/>
+  <advance width="1427"/>
   <unicode hex="0393"/>
   <outline>
     <contour>
-      <point x="61" y="0" type="line"/>
-      <point x="61" y="25" type="line"/>
-      <point x="226" y="62" type="line"/>
-      <point x="228" y="767" type="line"/>
-      <point x="226" y="1437" type="line"/>
-      <point x="61" y="1471" type="line"/>
-      <point x="61" y="1500" type="line"/>
-      <point x="916" y="1500" type="line"/>
-      <point x="916" y="1124" type="line"/>
-      <point x="887" y="1124" type="line"/>
-      <point x="785" y="1470" type="line"/>
-      <point x="416" y="1470" type="line"/>
-      <point x="389" y="1447" type="line"/>
-      <point x="391" y="767" type="line"/>
-      <point x="393" y="57" type="line"/>
-      <point x="578" y="25" type="line"/>
-      <point x="578" y="0" type="line"/>
+      <point x="115" y="0" type="line"/>
+      <point x="115" y="18" type="line"/>
+      <point x="344" y="51" type="line"/>
+      <point x="346" y="770" type="line"/>
+      <point x="344" y="1444" type="line"/>
+      <point x="115" y="1477" type="line"/>
+      <point x="115" y="1500" type="line"/>
+      <point x="1368" y="1500" type="line"/>
+      <point x="1368" y="1111" type="line"/>
+      <point x="1354" y="1111" type="line"/>
+      <point x="1256" y="1478" type="line"/>
+      <point x="428" y="1481" type="line"/>
+      <point x="403" y="1442" type="line"/>
+      <point x="404" y="815" type="line"/>
+      <point x="406" y="56" type="line"/>
+      <point x="631" y="18" type="line"/>
+      <point x="631" y="0" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.4,0.8,0.9989,1</string>
+    </dict>
+  </lib>
 </glyph>

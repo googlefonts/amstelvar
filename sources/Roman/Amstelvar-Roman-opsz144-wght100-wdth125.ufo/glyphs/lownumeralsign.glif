@@ -1,14 +1,20 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="lownumeralsign" format="2">
-  <advance width="349"/>
+  <advance width="519"/>
   <unicode hex="0375"/>
   <outline>
     <contour>
-      <point x="98" y="-205" type="line"/>
-      <point x="-38" y="-170" type="line"/>
-      <point x="-47" y="-149" type="line"/>
-      <point x="160" y="198" type="line"/>
-      <point x="184" y="190" type="line"/>
+      <point x="216" y="-195" type="line"/>
+      <point x="144" y="-182" type="line"/>
+      <point x="139" y="-174" type="line"/>
+      <point x="334" y="251" type="line"/>
+      <point x="344" y="245" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.4,0.8,0.9989,1</string>
+    </dict>
+  </lib>
 </glyph>
