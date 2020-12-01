@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="tse.bgr" format="2">
-  <advance width="1737"/>
+  <advance width="1741"/>
   <outline>
     <contour>
-      <point x="1421" y="0" type="line"/>
+      <point x="1454" y="0" type="line"/>
       <point x="1109" y="0" type="line"/>
       <point x="1059" y="39" type="line"/>
       <point x="1035" y="128" type="line"/>
@@ -38,10 +38,16 @@
       <point x="1525" y="1102" type="line"/>
       <point x="1568" y="1053" type="line"/>
       <point x="1566" y="523" type="line"/>
-      <point x="1567" y="214" type="line"/>
-      <point x="1702" y="214" type="line"/>
-      <point x="1712" y="-318" type="line"/>
-      <point x="1530" y="-318" type="line"/>
+      <point x="1567" y="216" type="line"/>
+      <point x="1716" y="216" type="line"/>
+      <point x="1726" y="-318" type="line"/>
+      <point x="1543" y="-318" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>1,1,0,1</string>
+    </dict>
+  </lib>
 </glyph>

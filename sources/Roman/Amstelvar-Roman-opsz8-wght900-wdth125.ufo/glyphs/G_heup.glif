@@ -1,19 +1,19 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Gheup" format="2">
-  <advance width="1996"/>
+  <advance width="1978"/>
   <unicode hex="0490"/>
   <outline>
     <contour>
-      <point x="1656" y="1500" type="line"/>
-      <point x="1742" y="1838" type="line"/>
-      <point x="1957" y="1838" type="line"/>
-      <point x="1947" y="1292" type="line"/>
-      <point x="922" y="1292" type="line"/>
-      <point x="858" y="1268" type="line"/>
-      <point x="862" y="760" type="line"/>
-      <point x="864" y="215" type="line"/>
-      <point x="1083" y="181" type="line"/>
-      <point x="1083" y="0" type="line"/>
+      <point x="1635" y="1500" type="line"/>
+      <point x="1687" y="1828" type="line"/>
+      <point x="1948" y="1828" type="line"/>
+      <point x="1948" y="1301" type="line"/>
+      <point x="926" y="1301" type="line"/>
+      <point x="863" y="1277" type="line"/>
+      <point x="861" y="760" type="line"/>
+      <point x="863" y="215" type="line"/>
+      <point x="1085" y="181" type="line"/>
+      <point x="1085" y="0" type="line"/>
       <point x="90" y="0" type="line"/>
       <point x="90" y="180" type="line"/>
       <point x="308" y="215" type="line"/>
@@ -23,4 +23,10 @@
       <point x="90" y="1500" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>1,1,0,1</string>
+    </dict>
+  </lib>
 </glyph>

@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="el.bgr" format="2">
-  <advance width="1488"/>
+  <advance width="1508"/>
   <outline>
     <contour>
       <point x="1478" y="191" type="line"/>
@@ -8,9 +8,9 @@
       <point x="631" y="0" type="line"/>
       <point x="631" y="181" type="line"/>
       <point x="758" y="217" type="line"/>
-      <point x="656" y="479" type="line"/>
-      <point x="550" y="709" type="line"/>
-      <point x="445" y="463" type="line"/>
+      <point x="656" y="477" type="line"/>
+      <point x="552" y="728" type="line"/>
+      <point x="448" y="463" type="line"/>
       <point x="364" y="216" type="line"/>
       <point x="489" y="181" type="line"/>
       <point x="489" y="0" type="line"/>
@@ -24,4 +24,10 @@
       <point x="1329" y="226" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>1,1,0,1</string>
+    </dict>
+  </lib>
 </glyph>

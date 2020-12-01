@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="endescender" format="2">
-  <advance width="1745"/>
+  <advance width="1749"/>
   <unicode hex="04A3"/>
   <outline>
     <contour>
@@ -28,11 +28,11 @@
       <point x="183" y="212" type="line"/>
     </contour>
     <contour>
-      <point x="1556" y="214" type="line"/>
-      <point x="1690" y="214" type="line"/>
-      <point x="1700" y="-318" type="line"/>
-      <point x="1518" y="-318" type="line"/>
-      <point x="1409" y="0" type="line"/>
+      <point x="1556" y="216" type="line"/>
+      <point x="1704" y="216" type="line"/>
+      <point x="1714" y="-318" type="line"/>
+      <point x="1532" y="-318" type="line"/>
+      <point x="1442" y="0" type="line"/>
       <point x="914" y="0" type="line"/>
       <point x="914" y="177" type="line"/>
       <point x="1031" y="212" type="line"/>
@@ -46,4 +46,10 @@
       <point x="1554" y="550" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>1,1,0,1</string>
+    </dict>
+  </lib>
 </glyph>

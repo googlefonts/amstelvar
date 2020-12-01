@@ -1,9 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="gje" format="2">
-  <advance width="956"/>
+  <advance width="973"/>
   <unicode hex="0453"/>
   <outline>
     <component base="ghe"/>
-    <component base="acute" xOffset="35"/>
+    <component base="acute" xOffset="30"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>1,1,0,1</string>
+    </dict>
+  </lib>
 </glyph>

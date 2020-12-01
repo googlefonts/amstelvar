@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ustraight" format="2">
-  <advance width="1498"/>
+  <advance width="1508"/>
   <unicode hex="04AF"/>
   <outline>
     <contour>
@@ -31,4 +31,10 @@
       <point x="149" y="874" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>1,1,0,1</string>
+    </dict>
+  </lib>
 </glyph>

@@ -4,6 +4,12 @@
   <unicode hex="0499"/>
   <outline>
     <component base="ze"/>
-    <component base="cedilla" xOffset="330"/>
+    <component base="cedilla" xOffset="310"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>1,1,0,1</string>
+    </dict>
+  </lib>
 </glyph>

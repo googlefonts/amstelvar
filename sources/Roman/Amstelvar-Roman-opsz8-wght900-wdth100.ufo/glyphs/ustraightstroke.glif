@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ustraightstroke" format="2">
-  <advance width="1498"/>
+  <advance width="1508"/>
   <unicode hex="04B1"/>
   <outline>
     <contour>
       <point x="257" y="-149" type="line"/>
       <point x="257" y="0" type="line"/>
-      <point x="1257" y="0" type="line"/>
-      <point x="1257" y="-149" type="line"/>
+      <point x="1260" y="0" type="line"/>
+      <point x="1260" y="-149" type="line"/>
     </contour>
     <contour>
       <point x="0" y="909" type="line"/>
@@ -37,4 +37,10 @@
       <point x="149" y="874" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>1,1,0,1</string>
+    </dict>
+  </lib>
 </glyph>
