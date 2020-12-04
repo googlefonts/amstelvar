@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="hadescender" format="2">
+  <advance width="848"/>
+  <unicode hex="04B3"/>
+  <outline>
+    <contour>
+      <point x="-47" y="71" type="line"/>
+      <point x="-17" y="95" type="line"/>
+      <point x="101" y="101" type="line" smooth="yes"/>
+      <point x="152" y="104"/>
+      <point x="330" y="391"/>
+      <point x="440" y="573" type="qcurve" smooth="yes"/>
+      <point x="552" y="759"/>
+      <point x="790" y="1069"/>
+      <point x="856" y="1069" type="qcurve" smooth="yes"/>
+      <point x="899" y="1069"/>
+      <point x="967" y="991"/>
+      <point x="966" y="919" type="qcurve" smooth="yes"/>
+      <point x="964" y="868"/>
+      <point x="894" y="788"/>
+      <point x="840" y="788" type="qcurve"/>
+      <point x="828" y="800" type="line"/>
+      <point x="829" y="881" type="line"/>
+      <point x="829" y="889"/>
+      <point x="821" y="900"/>
+      <point x="813" y="900" type="qcurve" smooth="yes"/>
+      <point x="767" y="900"/>
+      <point x="563" y="677"/>
+      <point x="455" y="499" type="qcurve" smooth="yes"/>
+      <point x="341" y="309"/>
+      <point x="157" y="-25"/>
+      <point x="57" y="-25" type="qcurve"/>
+    </contour>
+    <contour>
+      <point x="494" y="25" type="line"/>
+      <point x="562" y="19" type="line"/>
+      <point x="426" y="459" type="line"/>
+      <point x="295" y="949" type="line"/>
+      <point x="190" y="936" type="line"/>
+      <point x="160" y="985" type="line"/>
+      <point x="294" y="1068" type="line"/>
+      <point x="379" y="1049" type="line"/>
+      <point x="498" y="616" type="line"/>
+      <point x="629" y="109" type="line"/>
+      <point x="748" y="109" type="line"/>
+      <point x="750" y="43" type="line"/>
+    </contour>
+    <contour>
+      <point x="657" y="109" type="line"/>
+      <point x="633" y="54" type="line"/>
+      <point x="552" y="-313" type="line"/>
+      <point x="490" y="-313" type="line"/>
+      <point x="558" y="109" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>1,0.868,0.7015,1</string>
+    </dict>
+  </lib>
+</glyph>
