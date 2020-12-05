@@ -1,9 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="upsilondieresistonos" format="2">
-  <advance width="1152"/>
+  <advance width="1617"/>
   <unicode hex="03B0"/>
   <outline>
     <component base="upsilon"/>
-    <component base="dieresistonoscomb" xOffset="-167"/>
+    <component base="dieresistonoscomb" xOffset="286" yOffset="113"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.989,0.4357,0.8117,1</string>
+    </dict>
+  </lib>
 </glyph>
