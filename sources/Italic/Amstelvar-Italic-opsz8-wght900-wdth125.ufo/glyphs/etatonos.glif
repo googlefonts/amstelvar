@@ -1,9 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="etatonos" format="2">
-  <advance width="1087"/>
+  <advance width="2111"/>
   <unicode hex="03AE"/>
   <outline>
     <component base="eta"/>
-    <component base="tonos" xOffset="-27"/>
+    <component base="tonoscomb" xOffset="582" yOffset="70"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.989,0.4357,0.8117,1</string>
+    </dict>
+  </lib>
 </glyph>
