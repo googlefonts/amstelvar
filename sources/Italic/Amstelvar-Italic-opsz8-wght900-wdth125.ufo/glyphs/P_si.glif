@@ -1,53 +1,63 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Psi" format="2">
-  <advance width="2928"/>
+  <advance width="2775"/>
   <unicode hex="03A8"/>
   <outline>
     <contour>
-      <point x="813" y="0" type="line"/>
-      <point x="845" y="165" type="line"/>
-      <point x="1075" y="180" type="line"/>
-      <point x="1233" y="856" type="line"/>
-      <point x="1308" y="1289" type="line"/>
-      <point x="1121" y="1312" type="line"/>
-      <point x="1145" y="1500" type="line"/>
-      <point x="2000" y="1500" type="line"/>
-      <point x="1966" y="1312" type="line"/>
-      <point x="1800" y="1289" type="line"/>
-      <point x="1701" y="825" type="line"/>
-      <point x="1587" y="179" type="line"/>
-      <point x="1829" y="165" type="line"/>
-      <point x="1817" y="0" type="line"/>
+      <point x="741" y="0" type="line"/>
+      <point x="777" y="176" type="line"/>
+      <point x="985" y="195" type="line"/>
+      <point x="1063" y="560" type="line"/>
+      <point x="1068" y="560" type="line"/>
+      <point x="1132" y="861" type="line"/>
+      <point x="1205" y="1288" type="line"/>
+      <point x="985" y="1311" type="line"/>
+      <point x="1010" y="1500" type="line"/>
+      <point x="1984" y="1500" type="line"/>
+      <point x="1950" y="1311" type="line"/>
+      <point x="1748" y="1288" type="line"/>
+      <point x="1664" y="861" type="line"/>
+      <point x="1606" y="560" type="line"/>
+      <point x="1612" y="560" type="line"/>
+      <point x="1541" y="196" type="line"/>
+      <point x="1754" y="178" type="line"/>
+      <point x="1728" y="0" type="line"/>
     </contour>
     <contour>
-      <point x="1281" y="452" type="line"/>
-      <point x="672" y="452"/>
-      <point x="294" y="747"/>
-      <point x="325" y="983" type="qcurve" smooth="yes"/>
-      <point x="348" y="1279" type="line"/>
-      <point x="152" y="1313" type="line"/>
-      <point x="178" y="1500" type="line"/>
-      <point x="850" y="1507" type="line"/>
-      <point x="894" y="1474" type="line"/>
-      <point x="837" y="981" type="line" smooth="yes"/>
-      <point x="817" y="812"/>
-      <point x="1011" y="702"/>
-      <point x="1338" y="694" type="qcurve"/>
+      <point x="1069" y="464" type="line"/>
+      <point x="633" y="464"/>
+      <point x="255" y="676"/>
+      <point x="285" y="991" type="qcurve" smooth="yes"/>
+      <point x="313" y="1288" type="line"/>
+      <point x="124" y="1312" type="line"/>
+      <point x="161" y="1500" type="line"/>
+      <point x="806" y="1500" type="line"/>
+      <point x="856" y="1452" type="line"/>
+      <point x="804" y="970" type="line"/>
+      <point x="782" y="774"/>
+      <point x="946" y="658"/>
+      <point x="1107" y="658" type="qcurve"/>
     </contour>
     <contour>
-      <point x="1504" y="452" type="qcurve"/>
-      <point x="1561" y="694" type="line"/>
-      <point x="1889" y="702"/>
-      <point x="2109" y="799"/>
-      <point x="2162" y="999" type="qcurve" smooth="yes"/>
-      <point x="2273" y="1474" type="line"/>
-      <point x="2313" y="1507" type="line"/>
-      <point x="2991" y="1500" type="line"/>
-      <point x="2954" y="1301" type="line"/>
-      <point x="2740" y="1279" type="line"/>
-      <point x="2658" y="983" type="line" smooth="yes"/>
-      <point x="2579" y="694"/>
-      <point x="2088" y="442"/>
+      <point x="1556" y="464" type="qcurve"/>
+      <point x="1594" y="658" type="line"/>
+      <point x="1755" y="658"/>
+      <point x="1965" y="774"/>
+      <point x="2019" y="970" type="qcurve"/>
+      <point x="2153" y="1452" type="line"/>
+      <point x="2223" y="1500" type="line"/>
+      <point x="2868" y="1500" type="line"/>
+      <point x="2831" y="1312" type="line"/>
+      <point x="2632" y="1288" type="line"/>
+      <point x="2546" y="991" type="line" smooth="yes"/>
+      <point x="2454" y="676"/>
+      <point x="1992" y="464"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.989,0.4357,0.8117,1</string>
+    </dict>
+  </lib>
 </glyph>
