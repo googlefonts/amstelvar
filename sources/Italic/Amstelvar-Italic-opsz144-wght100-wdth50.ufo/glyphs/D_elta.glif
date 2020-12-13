@@ -1,26 +1,32 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Delta" format="2">
-  <advance width="1374"/>
+  <advance width="934"/>
   <unicode hex="0394"/>
   <outline>
     <contour>
-      <point x="-29" y="0" type="line"/>
-      <point x="-5" y="100" type="line"/>
-      <point x="351" y="659" type="line"/>
-      <point x="907" y="1531" type="line"/>
-      <point x="1027" y="1513" type="line"/>
-      <point x="1085" y="531" type="line"/>
-      <point x="1122" y="100" type="line"/>
-      <point x="1098" y="0" type="line"/>
+      <point x="-31" y="0" type="line"/>
+      <point x="-31" y="17" type="line"/>
+      <point x="223" y="569" type="line"/>
+      <point x="657" y="1517" type="line"/>
+      <point x="711" y="1506" type="line"/>
+      <point x="693" y="561" type="line"/>
+      <point x="691" y="16" type="line"/>
+      <point x="688" y="0" type="line"/>
     </contour>
     <contour>
-      <point x="139" y="116" type="line"/>
-      <point x="603" y="113" type="line"/>
-      <point x="949" y="117" type="line"/>
-      <point x="926" y="549" type="line"/>
-      <point x="888" y="1249" type="line"/>
-      <point x="859" y="1260" type="line"/>
-      <point x="450" y="625" type="line"/>
+      <point x="25" y="51" type="line"/>
+      <point x="340" y="18" type="line"/>
+      <point x="633" y="44" type="line"/>
+      <point x="639" y="546" type="line"/>
+      <point x="658" y="1450" type="line"/>
+      <point x="655" y="1453" type="line"/>
+      <point x="250" y="561" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.989,0.4357,0.8117,1</string>
+    </dict>
+  </lib>
 </glyph>
