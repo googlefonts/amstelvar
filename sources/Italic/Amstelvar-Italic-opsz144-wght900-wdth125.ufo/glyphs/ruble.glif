@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ruble" format="2">
-  <advance width="1683"/>
+  <advance width="1622"/>
   <unicode hex="20BD"/>
   <outline>
     <contour>
-      <point x="8" y="303" type="line"/>
-      <point x="22" y="366" type="line"/>
-      <point x="822" y="366" type="line"/>
-      <point x="822" y="303" type="line"/>
+      <point x="27" y="382" type="line"/>
+      <point x="41" y="445" type="line"/>
+      <point x="1166" y="445" type="line"/>
+      <point x="1141" y="382" type="line"/>
     </contour>
     <contour>
       <point x="-65" y="0" type="line"/>
@@ -24,12 +24,12 @@
       <point x="1623" y="870"/>
       <point x="1305" y="610"/>
       <point x="863" y="610" type="qcurve" smooth="yes"/>
-      <point x="680" y="610"/>
-      <point x="241" y="669"/>
-      <point x="111" y="717" type="qcurve"/>
-      <point x="122" y="784" type="line"/>
-      <point x="224" y="738"/>
-      <point x="632" y="675"/>
+      <point x="676" y="610"/>
+      <point x="246" y="671"/>
+      <point x="94" y="726" type="qcurve"/>
+      <point x="105" y="793" type="line"/>
+      <point x="229" y="739"/>
+      <point x="628" y="675"/>
       <point x="796" y="675" type="qcurve" smooth="yes"/>
       <point x="1008" y="675"/>
       <point x="1153" y="871"/>
@@ -45,4 +45,10 @@
       <point x="653" y="0" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>1,0.868,0.7015,1</string>
+    </dict>
+  </lib>
 </glyph>
