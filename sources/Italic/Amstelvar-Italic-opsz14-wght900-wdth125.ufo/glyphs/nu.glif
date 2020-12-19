@@ -4,12 +4,8 @@
   <unicode hex="03BD"/>
   <outline>
     <contour>
-      <point x="746" y="4" type="qcurve"/>
-      <point x="317" y="-8" type="line"/>
-      <point x="246" y="525" type="line"/>
-      <point x="202" y="832" type="line"/>
-      <point x="-10" y="829" type="line"/>
-      <point x="-10" y="961" type="line"/>
+      <point x="-10" y="819" type="line"/>
+      <point x="-10" y="951" type="line"/>
       <point x="461" y="1051" type="line"/>
       <point x="666" y="1051" type="line"/>
       <point x="716" y="584" type="line"/>
@@ -28,6 +24,16 @@
       <point x="1609" y="870" type="qcurve" smooth="yes"/>
       <point x="1600" y="737"/>
       <point x="1195" y="333"/>
+      <point x="746" y="4" type="qcurve"/>
+      <point x="317" y="-8" type="line"/>
+      <point x="246" y="525" type="line"/>
+      <point x="202" y="799" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.989,0.4357,0.8117,1</string>
+    </dict>
+  </lib>
 </glyph>
