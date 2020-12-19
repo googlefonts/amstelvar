@@ -1,14 +1,20 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="tonos" format="2">
-  <advance width="768"/>
+  <advance width="759"/>
   <unicode hex="0384"/>
   <outline>
     <contour>
-      <point x="402" y="1247" type="line"/>
-      <point x="290" y="1297" type="line"/>
-      <point x="478" y="1845" type="line"/>
-      <point x="682" y="1815" type="line"/>
-      <point x="710" y="1760" type="line"/>
+      <point x="491" y="1131" type="line"/>
+      <point x="373" y="1168" type="line"/>
+      <point x="560" y="1820" type="line"/>
+      <point x="776" y="1775" type="line"/>
+      <point x="793" y="1732" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.989,0.4357,0.8117,1</string>
+    </dict>
+  </lib>
 </glyph>

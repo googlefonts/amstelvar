@@ -1,14 +1,20 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="numeralsign" format="2">
-  <advance width="696"/>
+  <advance width="479"/>
   <unicode hex="0374"/>
   <outline>
     <contour>
-      <point x="412" y="932" type="line"/>
-      <point x="324" y="975" type="line"/>
-      <point x="501" y="1568" type="line"/>
-      <point x="705" y="1529" type="line"/>
-      <point x="723" y="1455" type="line"/>
+      <point x="281" y="928" type="line"/>
+      <point x="185" y="970" type="line"/>
+      <point x="365" y="1568" type="line"/>
+      <point x="557" y="1538" type="line"/>
+      <point x="568" y="1489" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.989,0.4357,0.8117,1</string>
+    </dict>
+  </lib>
 </glyph>

@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Gamma" format="2">
-  <advance width="1613"/>
+  <advance width="1594"/>
   <unicode hex="0393"/>
   <outline>
     <contour>
@@ -11,11 +11,11 @@
       <point x="495" y="1317" type="line"/>
       <point x="256" y="1340" type="line"/>
       <point x="280" y="1500" type="line"/>
-      <point x="1634" y="1500" type="line"/>
-      <point x="1567" y="1142" type="line"/>
-      <point x="1411" y="1142" type="line"/>
-      <point x="1412" y="1335" type="line"/>
-      <point x="772" y="1343" type="line"/>
+      <point x="1631" y="1500" type="line"/>
+      <point x="1555" y="1101" type="line"/>
+      <point x="1381" y="1101" type="line"/>
+      <point x="1385" y="1345" type="line"/>
+      <point x="762" y="1343" type="line"/>
       <point x="726" y="1323" type="line"/>
       <point x="606" y="767" type="line"/>
       <point x="505" y="161" type="line"/>
@@ -23,4 +23,10 @@
       <point x="699" y="0" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.989,0.4357,0.8117,1</string>
+    </dict>
+  </lib>
 </glyph>

@@ -1,21 +1,27 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="iota" format="2">
-  <advance width="928"/>
+  <advance width="837"/>
   <unicode hex="03B9"/>
-  <anchor x="511" y="1101" name="GRKtop"/>
+  <anchor x="531" y="1101" name="GRKtop"/>
   <outline>
     <contour>
-      <point x="94" y="-25" type="line"/>
-      <point x="26" y="53" type="line"/>
-      <point x="132" y="535" type="line"/>
-      <point x="222" y="1036" type="line"/>
-      <point x="484" y="1096" type="line"/>
-      <point x="663" y="1096" type="line"/>
-      <point x="737" y="966" type="line"/>
-      <point x="645" y="508" type="line"/>
-      <point x="601" y="225" type="line"/>
-      <point x="757" y="204" type="line"/>
-      <point x="752" y="40" type="line"/>
+      <point x="21" y="-8" type="line"/>
+      <point x="-12" y="90" type="line"/>
+      <point x="114" y="507" type="line"/>
+      <point x="219" y="1064" type="line"/>
+      <point x="551" y="1108" type="line"/>
+      <point x="711" y="1074" type="line"/>
+      <point x="741" y="960" type="line"/>
+      <point x="685" y="778" type="line"/>
+      <point x="547" y="215" type="line"/>
+      <point x="728" y="203" type="line"/>
+      <point x="719" y="44" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.989,0.4357,0.8117,1</string>
+    </dict>
+  </lib>
 </glyph>

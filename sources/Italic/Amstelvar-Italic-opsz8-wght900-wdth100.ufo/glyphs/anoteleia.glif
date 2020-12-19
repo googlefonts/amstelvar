@@ -1,8 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="anoteleia" format="2">
-  <advance width="494"/>
+  <advance width="692"/>
   <unicode hex="0387"/>
   <outline>
-    <component base="periodcentered" xOffset="-163" yOffset="185"/>
+    <component base="periodcentered" xOffset="40" yOffset="206"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.989,0.4357,0.8117,1</string>
+    </dict>
+  </lib>
 </glyph>

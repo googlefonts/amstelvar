@@ -1,8 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Kappa" format="2">
-  <advance width="1057"/>
+  <advance width="1155"/>
   <unicode hex="039A"/>
   <outline>
     <component base="K"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.989,0.4357,0.8117,1</string>
+    </dict>
+  </lib>
 </glyph>

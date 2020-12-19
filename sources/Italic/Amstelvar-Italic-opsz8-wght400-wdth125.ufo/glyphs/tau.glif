@@ -1,27 +1,33 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="tau" format="2">
-  <advance width="1502"/>
+  <advance width="1297"/>
   <unicode hex="03C4"/>
   <guideline x="23" y="851" angle="79.0" identifier="53zjnOj8zy"/>
   <outline>
     <contour>
-      <point x="1440" y="852" type="line"/>
-      <point x="163" y="876" type="line"/>
-      <point x="165" y="985" type="line"/>
-      <point x="352" y="1039" type="line"/>
-      <point x="1462" y="1060" type="line"/>
-      <point x="1509" y="976" type="line"/>
+      <point x="1226" y="840" type="line"/>
+      <point x="-69" y="864" type="line"/>
+      <point x="-48" y="985" type="line"/>
+      <point x="140" y="1039" type="line"/>
+      <point x="1225" y="1068" type="line"/>
+      <point x="1295" y="964" type="line"/>
     </contour>
     <contour>
-      <point x="598" y="-25" type="line"/>
-      <point x="520" y="43" type="line"/>
-      <point x="632" y="563" type="line"/>
-      <point x="724" y="954" type="line"/>
-      <point x="872" y="954" type="line"/>
-      <point x="807" y="522" type="line"/>
-      <point x="750" y="155" type="line"/>
-      <point x="955" y="159" type="line"/>
-      <point x="955" y="37" type="line"/>
+      <point x="386" y="-25" type="line"/>
+      <point x="308" y="43" type="line"/>
+      <point x="428" y="563" type="line"/>
+      <point x="512" y="954" type="line"/>
+      <point x="660" y="954" type="line"/>
+      <point x="595" y="522" type="line"/>
+      <point x="538" y="155" type="line"/>
+      <point x="813" y="167" type="line"/>
+      <point x="813" y="45" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.989,0.4357,0.8117,1</string>
+    </dict>
+  </lib>
 </glyph>
