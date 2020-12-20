@@ -1637,6 +1637,41 @@
       <string>LJ</string>
       <string>NJ</string>
       <string>Germandbls</string>
+      <string>Alpha</string>
+      <string>Alphatonos</string>
+      <string>Beta</string>
+      <string>Gamma</string>
+      <string>Delta</string>
+      <string>Epsilon</string>
+      <string>Epsilontonos</string>
+      <string>Zeta</string>
+      <string>Eta</string>
+      <string>Etatonos</string>
+      <string>Theta</string>
+      <string>Iota</string>
+      <string>Iotatonos</string>
+      <string>Iotadieresis</string>
+      <string>Kappa</string>
+      <string>Lambda</string>
+      <string>Mu</string>
+      <string>Nu</string>
+      <string>Xi</string>
+      <string>Omicron</string>
+      <string>Omicrontonos</string>
+      <string>Pi</string>
+      <string>Rho</string>
+      <string>Sigma</string>
+      <string>Tau</string>
+      <string>Upsilon</string>
+      <string>Upsilontonos</string>
+      <string>Upsilondieresis</string>
+      <string>Phi</string>
+      <string>Chi</string>
+      <string>Psi</string>
+      <string>Omega</string>
+      <string>Omegatonos</string>
+      <string>Kaisymbol</string>
+      <string>ohm</string>
       <string>Dje</string>
       <string>Ieukran</string>
       <string>Dze</string>
@@ -1914,6 +1949,42 @@
       <string>nj</string>
       <string>jdotless</string>
       <string>schwa</string>
+      <string>alpha</string>
+      <string>alphatonos</string>
+      <string>beta</string>
+      <string>gamma</string>
+      <string>delta</string>
+      <string>epsilon</string>
+      <string>epsilontonos</string>
+      <string>zeta</string>
+      <string>eta</string>
+      <string>etatonos</string>
+      <string>theta</string>
+      <string>iota</string>
+      <string>iotadieresistonos</string>
+      <string>iotatonos</string>
+      <string>iotadieresis</string>
+      <string>kappa</string>
+      <string>lambda</string>
+      <string>mu</string>
+      <string>nu</string>
+      <string>xi</string>
+      <string>omicron</string>
+      <string>omicrontonos</string>
+      <string>pi</string>
+      <string>rho</string>
+      <string>finalsigma</string>
+      <string>sigma</string>
+      <string>tau</string>
+      <string>upsilon</string>
+      <string>upsilondieresistonos</string>
+      <string>upsilondieresis</string>
+      <string>upsilontonos</string>
+      <string>phi</string>
+      <string>chi</string>
+      <string>psi</string>
+      <string>omega</string>
+      <string>omegatonos</string>
       <string>acyr</string>
       <string>abrevecyr</string>
       <string>adieresiscyr</string>
@@ -1997,6 +2068,7 @@
       <string>doubleprimemod</string>
       <string>apostrophemod</string>
       <string>firsttonechinese</string>
+      <string>numeralsign</string>
       <string>ordfeminine</string>
       <string>ordmasculine</string>
       <string>gravecomb</string>
@@ -2079,9 +2151,12 @@
       <string>ampersand</string>
       <string>section</string>
       <string>paragraph</string>
+      <string>kaisymbol</string>
       <string>numero</string>
       <string>periodcentered</string>
       <string>bullet</string>
+      <string>gr:question</string>
+      <string>anoteleia</string>
       <string>minute</string>
       <string>second</string>
       <string>plus</string>
@@ -2098,6 +2173,7 @@
       <string>notequal</string>
       <string>logicalnot</string>
       <string>commercialMinusSign</string>
+      <string>increment</string>
       <string>divisionslash</string>
       <string>bulletoperator</string>
       <string>dollar</string>
@@ -2139,6 +2215,9 @@
       <string>ring</string>
       <string>cedilla</string>
       <string>ogonek</string>
+      <string>dieresistonos</string>
+      <string>lownumeralsign</string>
+      <string>tonos</string>
       <string>copyright</string>
       <string>registered</string>
       <string>trademark</string>
@@ -2170,6 +2249,7 @@
       <string>diagonalbarl</string>
       <string>diagonalbaro</string>
       <string>dieresisbelowcomb</string>
+      <string>dieresistonoscomb</string>
       <string>dotbelowcomb</string>
       <string>engn</string>
       <string>engtail</string>
@@ -2182,6 +2262,7 @@
       <string>idotaccent</string>
       <string>ijacute</string>
       <string>macronbelowcomb</string>
+      <string>tonoscomb</string>
       <string>f_f</string>
       <string>fi</string>
       <string>fl</string>
@@ -2207,6 +2288,7 @@
       <string>caroncomb.case</string>
       <string>cedillacomb.case</string>
       <string>ogonekcomb.case</string>
+      <string>tonos.case</string>
       <string>acutecombstack.case</string>
       <string>brevebelowcomb.case</string>
       <string>brevecombstack.case</string>
@@ -2288,88 +2370,6 @@
       <string>jacute.loclNLD</string>
       <string>Iacute_J.loclNLD</string>
       <string>iacute_j.loclNLD</string>
-      <string>Alpha</string>
-      <string>Alphatonos</string>
-      <string>Beta</string>
-      <string>Gamma</string>
-      <string>Delta</string>
-      <string>Epsilon</string>
-      <string>Epsilontonos</string>
-      <string>Zeta</string>
-      <string>Eta</string>
-      <string>Etatonos</string>
-      <string>Theta</string>
-      <string>Iota</string>
-      <string>Iotatonos</string>
-      <string>Iotadieresis</string>
-      <string>Kappa</string>
-      <string>Lambda</string>
-      <string>Mu</string>
-      <string>Nu</string>
-      <string>Xi</string>
-      <string>Omicron</string>
-      <string>Omicrontonos</string>
-      <string>Pi</string>
-      <string>Rho</string>
-      <string>Sigma</string>
-      <string>Tau</string>
-      <string>Upsilon</string>
-      <string>Upsilontonos</string>
-      <string>Upsilondieresis</string>
-      <string>Phi</string>
-      <string>Chi</string>
-      <string>Psi</string>
-      <string>Omega</string>
-      <string>Omegatonos</string>
-      <string>Kaisymbol</string>
-      <string>ohm</string>
-      <string>alpha</string>
-      <string>alphatonos</string>
-      <string>beta</string>
-      <string>gamma</string>
-      <string>delta</string>
-      <string>epsilon</string>
-      <string>epsilontonos</string>
-      <string>zeta</string>
-      <string>eta</string>
-      <string>etatonos</string>
-      <string>theta</string>
-      <string>iota</string>
-      <string>iotadieresistonos</string>
-      <string>iotatonos</string>
-      <string>iotadieresis</string>
-      <string>kappa</string>
-      <string>lambda</string>
-      <string>mu</string>
-      <string>nu</string>
-      <string>xi</string>
-      <string>omicron</string>
-      <string>omicrontonos</string>
-      <string>pi</string>
-      <string>rho</string>
-      <string>finalsigma</string>
-      <string>sigma</string>
-      <string>tau</string>
-      <string>upsilon</string>
-      <string>upsilondieresistonos</string>
-      <string>upsilondieresis</string>
-      <string>upsilontonos</string>
-      <string>phi</string>
-      <string>chi</string>
-      <string>psi</string>
-      <string>omega</string>
-      <string>omegatonos</string>
-      <string>numeralsign</string>
-      <string>kaisymbol</string>
-      <string>gr:question</string>
-      <string>anoteleia</string>
-      <string>increment</string>
-      <string>dieresistonos</string>
-      <string>lownumeralsign</string>
-      <string>tonos</string>
-      <string>dieresistonoscomb</string>
-      <string>tonoscomb</string>
-      <string>tonos.case</string>
     </array>
     <key>tnCurvePalet</key>
     <dict>
