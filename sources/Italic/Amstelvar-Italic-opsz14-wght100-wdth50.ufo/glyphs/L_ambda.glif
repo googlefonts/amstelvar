@@ -1,29 +1,35 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Lambda" format="2">
-  <advance width="1058"/>
+  <advance width="1056"/>
   <unicode hex="039B"/>
   <outline>
     <contour>
-      <point x="-128" y="0" type="line"/>
-      <point x="-123" y="45" type="line"/>
-      <point x="4" y="69" type="line"/>
-      <point x="336" y="660" type="line"/>
-      <point x="811" y="1517" type="line"/>
-      <point x="908" y="1499" type="line"/>
-      <point x="855" y="655" type="line"/>
-      <point x="826" y="74" type="line"/>
-      <point x="956" y="44" type="line"/>
-      <point x="951" y="0" type="line"/>
-      <point x="594" y="0" type="line"/>
-      <point x="600" y="44" type="line"/>
-      <point x="736" y="78" type="line"/>
-      <point x="771" y="648" type="line"/>
-      <point x="823" y="1412" type="line"/>
-      <point x="822" y="1419" type="line"/>
-      <point x="399" y="625" type="line"/>
-      <point x="114" y="75" type="line"/>
-      <point x="252" y="45" type="line"/>
-      <point x="247" y="0" type="line"/>
+      <point x="-141" y="0" type="line"/>
+      <point x="-136" y="45" type="line"/>
+      <point x="9" y="69" type="line"/>
+      <point x="327" y="656" type="line"/>
+      <point x="798" y="1517" type="line"/>
+      <point x="895" y="1499" type="line"/>
+      <point x="847" y="655" type="line"/>
+      <point x="813" y="74" type="line"/>
+      <point x="943" y="44" type="line"/>
+      <point x="938" y="0" type="line"/>
+      <point x="588" y="0" type="line"/>
+      <point x="594" y="44" type="line"/>
+      <point x="730" y="78" type="line"/>
+      <point x="763" y="648" type="line"/>
+      <point x="809" y="1398" type="line"/>
+      <point x="803" y="1398" type="line"/>
+      <point x="379" y="620" type="line"/>
+      <point x="88" y="70" type="line"/>
+      <point x="239" y="45" type="line"/>
+      <point x="234" y="0" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.989,0.4357,0.8117,1</string>
+    </dict>
+  </lib>
 </glyph>
