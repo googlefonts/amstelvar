@@ -1,8 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="dieresistonoscomb" format="2">
-  <advance width="1084"/>
-  <anchor x="596" y="970" name="_GRKtop"/>
+  <advance width="1146"/>
+  <anchor x="596" y="980" name="_GRKtop"/>
   <outline>
     <component base="dieresistonos"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.989,0.4357,0.8117,1</string>
+    </dict>
+  </lib>
 </glyph>

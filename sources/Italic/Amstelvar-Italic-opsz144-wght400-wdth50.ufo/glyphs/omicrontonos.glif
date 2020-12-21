@@ -1,9 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="omicrontonos" format="2">
-  <advance width="688"/>
+  <advance width="636"/>
   <unicode hex="03CC"/>
   <outline>
     <component base="omicron"/>
-    <component base="tonoscomb" xOffset="-35"/>
+    <component base="tonoscomb" xOffset="-35" yOffset="7"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.989,0.4357,0.8117,1</string>
+    </dict>
+  </lib>
 </glyph>

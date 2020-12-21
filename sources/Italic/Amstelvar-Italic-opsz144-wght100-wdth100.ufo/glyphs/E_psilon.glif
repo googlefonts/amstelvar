@@ -1,9 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Epsilon" format="2">
-  <advance width="952"/>
+  <advance width="978"/>
   <unicode hex="0395"/>
   <anchor x="221" y="1500" name="GRKtopleft"/>
   <outline>
     <component base="E"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.989,0.4357,0.8117,1</string>
+    </dict>
+  </lib>
 </glyph>
