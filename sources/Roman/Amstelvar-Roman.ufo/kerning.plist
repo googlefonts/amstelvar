@@ -238,6 +238,12 @@
 			<integer>20</integer>
 			<key>Zhe.bgr</key>
 			<integer>100</integer>
+			<key>ampersand</key>
+			<integer>30</integer>
+			<key>at</key>
+			<integer>-50</integer>
+			<key>backslash</key>
+			<integer>40</integer>
 			<key>be</key>
 			<integer>10</integer>
 			<key>be.locl</key>
@@ -308,8 +314,26 @@
 			<integer>50</integer>
 			<key>public.kern2.CYR_zhe</key>
 			<integer>70</integer>
+			<key>public.kern2.bullet</key>
+			<integer>-70</integer>
+			<key>public.kern2.dashes</key>
+			<integer>-40</integer>
+			<key>public.kern2.dots</key>
+			<integer>80</integer>
+			<key>public.kern2.guilleft</key>
+			<integer>-40</integer>
+			<key>public.kern2.guilright</key>
+			<integer>90</integer>
+			<key>public.kern2.quoteleft</key>
+			<integer>-70</integer>
+			<key>public.kern2.quoteright</key>
+			<integer>20</integer>
+			<key>question</key>
+			<integer>-40</integer>
 			<key>schwacyr</key>
 			<integer>10</integer>
+			<key>slash</key>
+			<integer>120</integer>
 			<key>soft.bgr</key>
 			<integer>-20</integer>
 			<key>ustraight</key>
@@ -339,6 +363,14 @@
 			<integer>20</integer>
 			<key>Zhe.bgr</key>
 			<integer>105</integer>
+			<key>ampersand</key>
+			<integer>30</integer>
+			<key>asterisk</key>
+			<integer>20</integer>
+			<key>at</key>
+			<integer>-50</integer>
+			<key>backslash</key>
+			<integer>40</integer>
 			<key>be</key>
 			<integer>20</integer>
 			<key>be.locl</key>
@@ -409,8 +441,26 @@
 			<integer>50</integer>
 			<key>public.kern2.CYR_zhe</key>
 			<integer>70</integer>
+			<key>public.kern2.bullet</key>
+			<integer>-50</integer>
+			<key>public.kern2.dashes</key>
+			<integer>-90</integer>
+			<key>public.kern2.dots</key>
+			<integer>80</integer>
+			<key>public.kern2.guilleft</key>
+			<integer>-60</integer>
+			<key>public.kern2.guilright</key>
+			<integer>40</integer>
+			<key>public.kern2.quoteleft</key>
+			<integer>-40</integer>
+			<key>public.kern2.quoteright</key>
+			<integer>40</integer>
+			<key>question</key>
+			<integer>-40</integer>
 			<key>schwacyr</key>
 			<integer>20</integer>
+			<key>slash</key>
+			<integer>100</integer>
 			<key>soft.bgr</key>
 			<integer>-20</integer>
 			<key>ustraight</key>
@@ -856,16 +906,90 @@
 		</dict>
 		<key>ampersand</key>
 		<dict>
+			<key>Dze</key>
+			<integer>80</integer>
+			<key>Ef</key>
+			<integer>100</integer>
+			<key>Hastroke-cy</key>
+			<integer>80</integer>
+			<key>Schwacyr</key>
+			<integer>60</integer>
+			<key>Ustraight</key>
+			<integer>-100</integer>
+			<key>Ustraightstroke</key>
+			<integer>-90</integer>
 			<key>V</key>
 			<integer>-40</integer>
 			<key>X</key>
 			<integer>80</integer>
+			<key>Zhe.bgr</key>
+			<integer>80</integer>
+			<key>be</key>
+			<integer>40</integer>
+			<key>be.locl</key>
+			<integer>30</integer>
+			<key>de.bgr</key>
+			<integer>30</integer>
+			<key>dze</key>
+			<integer>80</integer>
+			<key>el.bgr</key>
+			<integer>30</integer>
+			<key>ghe.bgr</key>
+			<integer>40</integer>
+			<key>ghestroke</key>
+			<integer>40</integer>
+			<key>hard.bgr</key>
+			<integer>70</integer>
+			<key>hastroke-cy</key>
+			<integer>100</integer>
+			<key>je</key>
+			<integer>60</integer>
 			<key>lslash</key>
 			<integer>30</integer>
 			<key>p</key>
 			<integer>60</integer>
 			<key>public.kern2.A</key>
 			<integer>100</integer>
+			<key>public.kern2.CYR_Acyr</key>
+			<integer>100</integer>
+			<key>public.kern2.CYR_Che</key>
+			<integer>-80</integer>
+			<key>public.kern2.CYR_Ha</key>
+			<integer>80</integer>
+			<key>public.kern2.CYR_Ieukran</key>
+			<integer>80</integer>
+			<key>public.kern2.CYR_Ucyr</key>
+			<integer>-50</integer>
+			<key>public.kern2.CYR_Ya</key>
+			<integer>-10</integer>
+			<key>public.kern2.CYR_Ze</key>
+			<integer>-10</integer>
+			<key>public.kern2.CYR_Zhe</key>
+			<integer>80</integer>
+			<key>public.kern2.CYR_che</key>
+			<integer>40</integer>
+			<key>public.kern2.CYR_el</key>
+			<integer>-10</integer>
+			<key>public.kern2.CYR_ha</key>
+			<integer>100</integer>
+			<key>public.kern2.CYR_i.bgr</key>
+			<integer>70</integer>
+			<key>public.kern2.CYR_ie</key>
+			<integer>60</integer>
+			<key>public.kern2.CYR_iukran</key>
+			<integer>50</integer>
+			<key>public.kern2.CYR_te</key>
+			<integer>60</integer>
+			<key>public.kern2.CYR_ucyr</key>
+			<integer>90</integer>
+			<key>public.kern2.CYR_ve</key>
+			<integer>50</integer>
+			<key>public.kern2.CYR_ya</key>
+			<integer>50</integer>
+			<key>public.kern2.CYR_ze</key>
+			<integer>20</integer>
+			<key>public.kern2.CYR_zhe</key>
+			<integer>20</integer>
 			<key>public.kern2.C_G_O</key>
 			<integer>80</integer>
 			<key>public.kern2.GRK_Alpha</key>
@@ -950,10 +1074,24 @@
 			<integer>90</integer>
 			<key>public.kern2.z</key>
 			<integer>90</integer>
+			<key>schwacyr</key>
+			<integer>40</integer>
+			<key>soft.bgr</key>
+			<integer>50</integer>
+			<key>ustraight</key>
+			<integer>80</integer>
+			<key>ustraightstroke</key>
+			<integer>80</integer>
 			<key>v</key>
 			<integer>80</integer>
+			<key>ve.bgr</key>
+			<integer>40</integer>
 			<key>x</key>
 			<integer>100</integer>
+			<key>ze.bgr</key>
+			<integer>50</integer>
+			<key>zhe.bgr</key>
+			<integer>10</integer>
 		</dict>
 		<key>aogonek</key>
 		<dict>
@@ -966,14 +1104,48 @@
 		</dict>
 		<key>asterisk</key>
 		<dict>
+			<key>De</key>
+			<integer>-60</integer>
+			<key>De.bgr</key>
+			<integer>-200</integer>
+			<key>Dze</key>
+			<integer>30</integer>
+			<key>Ef</key>
+			<integer>60</integer>
+			<key>Hastroke-cy</key>
+			<integer>20</integer>
+			<key>Schwacyr</key>
+			<integer>10</integer>
+			<key>Ustraight</key>
+			<integer>60</integer>
+			<key>Ustraightstroke</key>
+			<integer>60</integer>
 			<key>V</key>
 			<integer>60</integer>
 			<key>X</key>
 			<integer>10</integer>
+			<key>be</key>
+			<integer>80</integer>
+			<key>be.locl</key>
+			<integer>30</integer>
 			<key>eight.lf</key>
 			<integer>-40</integer>
+			<key>el.bgr</key>
+			<integer>-100</integer>
+			<key>er</key>
+			<integer>60</integer>
 			<key>four.lf</key>
 			<integer>-80</integer>
+			<key>ghe.bgr</key>
+			<integer>10</integer>
+			<key>ghestroke</key>
+			<integer>60</integer>
+			<key>hard.bgr</key>
+			<integer>70</integer>
+			<key>hastroke-cy</key>
+			<integer>60</integer>
+			<key>je</key>
+			<integer>40</integer>
 			<key>lslash</key>
 			<integer>20</integer>
 			<key>nine.lf</key>
@@ -984,6 +1156,50 @@
 			<integer>60</integer>
 			<key>public.kern2.A</key>
 			<integer>-190</integer>
+			<key>public.kern2.CYR_Acyr</key>
+			<integer>-190</integer>
+			<key>public.kern2.CYR_Dje</key>
+			<integer>90</integer>
+			<key>public.kern2.CYR_Ieukran</key>
+			<integer>40</integer>
+			<key>public.kern2.CYR_Lje</key>
+			<integer>-90</integer>
+			<key>public.kern2.CYR_Ucyr</key>
+			<integer>60</integer>
+			<key>public.kern2.CYR_Ya</key>
+			<integer>-60</integer>
+			<key>public.kern2.CYR_Ze</key>
+			<integer>-20</integer>
+			<key>public.kern2.CYR_acyr</key>
+			<integer>40</integer>
+			<key>public.kern2.CYR_che</key>
+			<integer>60</integer>
+			<key>public.kern2.CYR_de</key>
+			<integer>10</integer>
+			<key>public.kern2.CYR_dje</key>
+			<integer>50</integer>
+			<key>public.kern2.CYR_el</key>
+			<integer>-20</integer>
+			<key>public.kern2.CYR_ha</key>
+			<integer>80</integer>
+			<key>public.kern2.CYR_i.bgr</key>
+			<integer>90</integer>
+			<key>public.kern2.CYR_ie</key>
+			<integer>30</integer>
+			<key>public.kern2.CYR_iukran</key>
+			<integer>40</integer>
+			<key>public.kern2.CYR_shha</key>
+			<integer>30</integer>
+			<key>public.kern2.CYR_te</key>
+			<integer>80</integer>
+			<key>public.kern2.CYR_ucyr</key>
+			<integer>130</integer>
+			<key>public.kern2.CYR_ve</key>
+			<integer>60</integer>
+			<key>public.kern2.CYR_ze</key>
+			<integer>20</integer>
+			<key>public.kern2.CYR_zhe</key>
+			<integer>70</integer>
 			<key>public.kern2.C_G_O</key>
 			<integer>40</integer>
 			<key>public.kern2.GRK_Alpha</key>
@@ -1070,17 +1286,43 @@
 			<integer>60</integer>
 			<key>seven.lf</key>
 			<integer>40</integer>
+			<key>soft.bgr</key>
+			<integer>70</integer>
 			<key>two.lf</key>
 			<integer>50</integer>
+			<key>ustraight</key>
+			<integer>140</integer>
+			<key>ustraightstroke</key>
+			<integer>140</integer>
 			<key>v</key>
 			<integer>130</integer>
+			<key>ve.bgr</key>
+			<integer>60</integer>
 			<key>x</key>
 			<integer>80</integer>
+			<key>ze.bgr</key>
+			<integer>50</integer>
 		</dict>
 		<key>at</key>
 		<dict>
+			<key>De</key>
+			<integer>-60</integer>
+			<key>De.bgr</key>
+			<integer>-100</integer>
+			<key>Dze</key>
+			<integer>60</integer>
+			<key>Ef</key>
+			<integer>80</integer>
+			<key>Schwacyr</key>
+			<integer>60</integer>
 			<key>X</key>
 			<integer>-40</integer>
+			<key>Zhe.bgr</key>
+			<integer>-30</integer>
+			<key>be</key>
+			<integer>70</integer>
+			<key>el.bgr</key>
+			<integer>-130</integer>
 			<key>eth</key>
 			<integer>40</integer>
 			<key>lslash</key>
@@ -1089,6 +1331,26 @@
 			<integer>40</integer>
 			<key>public.kern2.A</key>
 			<integer>-50</integer>
+			<key>public.kern2.CYR_Acyr</key>
+			<integer>-50</integer>
+			<key>public.kern2.CYR_Che</key>
+			<integer>-10</integer>
+			<key>public.kern2.CYR_Dje</key>
+			<integer>-10</integer>
+			<key>public.kern2.CYR_Ha</key>
+			<integer>-20</integer>
+			<key>public.kern2.CYR_Ieukran</key>
+			<integer>60</integer>
+			<key>public.kern2.CYR_Lje</key>
+			<integer>-60</integer>
+			<key>public.kern2.CYR_Ucyr</key>
+			<integer>10</integer>
+			<key>public.kern2.CYR_Ya</key>
+			<integer>-20</integer>
+			<key>public.kern2.CYR_Ze</key>
+			<integer>-25</integer>
+			<key>public.kern2.CYR_Zhe</key>
+			<integer>-20</integer>
 			<key>public.kern2.C_G_O</key>
 			<integer>80</integer>
 			<key>public.kern2.GRK_Alpha</key>
@@ -1174,14 +1436,28 @@
 		</dict>
 		<key>backslash</key>
 		<dict>
+			<key>De.bgr</key>
+			<integer>60</integer>
+			<key>Ef</key>
+			<integer>-40</integer>
 			<key>V</key>
 			<integer>-140</integer>
 			<key>X</key>
 			<integer>80</integer>
+			<key>dze</key>
+			<integer>50</integer>
 			<key>eight.lf</key>
 			<integer>40</integer>
+			<key>el.bgr</key>
+			<integer>60</integer>
 			<key>five.lf</key>
 			<integer>100</integer>
+			<key>hard.bgr</key>
+			<integer>-10</integer>
+			<key>hastroke-cy</key>
+			<integer>50</integer>
+			<key>je</key>
+			<integer>-30</integer>
 			<key>lslash</key>
 			<integer>30</integer>
 			<key>nine.lf</key>
@@ -1190,6 +1466,26 @@
 			<integer>40</integer>
 			<key>public.kern2.A</key>
 			<integer>90</integer>
+			<key>public.kern2.CYR_Ha</key>
+			<integer>120</integer>
+			<key>public.kern2.CYR_che</key>
+			<integer>-120</integer>
+			<key>public.kern2.CYR_de</key>
+			<integer>80</integer>
+			<key>public.kern2.CYR_el</key>
+			<integer>30</integer>
+			<key>public.kern2.CYR_ha</key>
+			<integer>70</integer>
+			<key>public.kern2.CYR_i.bgr</key>
+			<integer>-40</integer>
+			<key>public.kern2.CYR_te</key>
+			<integer>-90</integer>
+			<key>public.kern2.CYR_ucyr</key>
+			<integer>-50</integer>
+			<key>public.kern2.CYR_ya</key>
+			<integer>50</integer>
+			<key>public.kern2.CYR_zhe</key>
+			<integer>30</integer>
 			<key>public.kern2.GRK_Alpha</key>
 			<integer>90</integer>
 			<key>public.kern2.GRK_Chi</key>
@@ -1254,14 +1550,28 @@
 			<integer>-30</integer>
 			<key>public.kern2.z</key>
 			<integer>60</integer>
+			<key>schwacyr</key>
+			<integer>-20</integer>
+			<key>soft.bgr</key>
+			<integer>-40</integer>
 			<key>three.lf</key>
 			<integer>100</integer>
 			<key>two.lf</key>
 			<integer>100</integer>
+			<key>ustraight</key>
+			<integer>-70</integer>
+			<key>ustraightstroke</key>
+			<integer>-50</integer>
 			<key>v</key>
 			<integer>-60</integer>
+			<key>ve.bgr</key>
+			<integer>-30</integer>
 			<key>x</key>
 			<integer>70</integer>
+			<key>ze.bgr</key>
+			<integer>-10</integer>
+			<key>zhe.bgr</key>
+			<integer>40</integer>
 		</dict>
 		<key>cedi</key>
 		<dict>
@@ -1680,6 +1990,22 @@
 		</dict>
 		<key>exclam</key>
 		<dict>
+			<key>De</key>
+			<integer>-10</integer>
+			<key>De.bgr</key>
+			<integer>20</integer>
+			<key>Ef</key>
+			<integer>40</integer>
+			<key>el.bgr</key>
+			<integer>30</integer>
+			<key>public.kern2.CYR_Che</key>
+			<integer>-20</integer>
+			<key>public.kern2.CYR_Ieukran</key>
+			<integer>-30</integer>
+			<key>public.kern2.CYR_Lje</key>
+			<integer>-20</integer>
+			<key>public.kern2.CYR_Ze</key>
+			<integer>-20</integer>
 			<key>public.kern2.quoteleft</key>
 			<integer>-100</integer>
 			<key>public.kern2.quoteright</key>
@@ -1986,6 +2312,10 @@
 		</dict>
 		<key>hastroke-cy</key>
 		<dict>
+			<key>asterisk</key>
+			<integer>60</integer>
+			<key>backslash</key>
+			<integer>-110</integer>
 			<key>be</key>
 			<integer>30</integer>
 			<key>be.locl</key>
@@ -2026,8 +2356,18 @@
 			<integer>-10</integer>
 			<key>public.kern2.CYR_zhe</key>
 			<integer>20</integer>
+			<key>public.kern2.dots</key>
+			<integer>40</integer>
+			<key>public.kern2.guilright</key>
+			<integer>40</integer>
+			<key>public.kern2.quoteleft</key>
+			<integer>-10</integer>
+			<key>question</key>
+			<integer>-20</integer>
 			<key>schwacyr</key>
 			<integer>-10</integer>
+			<key>slash</key>
+			<integer>70</integer>
 			<key>ustraight</key>
 			<integer>20</integer>
 			<key>ustraightstroke</key>
@@ -2566,6 +2906,14 @@
 			<integer>-120</integer>
 			<key>Zhe.bgr</key>
 			<integer>100</integer>
+			<key>ampersand</key>
+			<integer>20</integer>
+			<key>asterisk</key>
+			<integer>-190</integer>
+			<key>at</key>
+			<integer>-30</integer>
+			<key>backslash</key>
+			<integer>-150</integer>
 			<key>be</key>
 			<integer>-15</integer>
 			<key>be.locl</key>
@@ -2622,8 +2970,26 @@
 			<integer>20</integer>
 			<key>public.kern2.CYR_zhe</key>
 			<integer>60</integer>
+			<key>public.kern2.bullet</key>
+			<integer>-70</integer>
+			<key>public.kern2.dots</key>
+			<integer>90</integer>
+			<key>public.kern2.guilleft</key>
+			<integer>-50</integer>
+			<key>public.kern2.guilright</key>
+			<integer>90</integer>
+			<key>public.kern2.quoteleft</key>
+			<integer>-295</integer>
+			<key>public.kern2.quoteright</key>
+			<integer>-295</integer>
+			<key>public.kern2.quotes</key>
+			<integer>-180</integer>
+			<key>question</key>
+			<integer>-90</integer>
 			<key>schwacyr</key>
 			<integer>-10</integer>
+			<key>slash</key>
+			<integer>100</integer>
 			<key>soft.bgr</key>
 			<integer>-20</integer>
 			<key>ustraight</key>
@@ -2652,6 +3018,14 @@
 			<key>Ustraight</key>
 			<integer>-20</integer>
 			<key>Ustraightstroke</key>
+			<integer>-20</integer>
+			<key>ampersand</key>
+			<integer>50</integer>
+			<key>asterisk</key>
+			<integer>-10</integer>
+			<key>at</key>
+			<integer>70</integer>
+			<key>backslash</key>
 			<integer>-20</integer>
 			<key>be</key>
 			<integer>50</integer>
@@ -2703,6 +3077,20 @@
 			<integer>50</integer>
 			<key>public.kern2.CYR_iukran</key>
 			<integer>30</integer>
+			<key>public.kern2.bullet</key>
+			<integer>90</integer>
+			<key>public.kern2.dashes</key>
+			<integer>120</integer>
+			<key>public.kern2.dots</key>
+			<integer>-20</integer>
+			<key>public.kern2.guilleft</key>
+			<integer>100</integer>
+			<key>public.kern2.guilright</key>
+			<integer>70</integer>
+			<key>public.kern2.quoteleft</key>
+			<integer>-30</integer>
+			<key>public.kern2.quoteright</key>
+			<integer>-30</integer>
 			<key>schwacyr</key>
 			<integer>30</integer>
 			<key>ustraight</key>
@@ -2731,6 +3119,10 @@
 			<key>Ustraightstroke</key>
 			<integer>20</integer>
 			<key>Zhe.bgr</key>
+			<integer>30</integer>
+			<key>ampersand</key>
+			<integer>50</integer>
+			<key>asterisk</key>
 			<integer>30</integer>
 			<key>be</key>
 			<integer>10</integer>
@@ -2790,6 +3182,10 @@
 			<integer>10</integer>
 			<key>public.kern2.CYR_zhe</key>
 			<integer>10</integer>
+			<key>public.kern2.dashes</key>
+			<integer>20</integer>
+			<key>public.kern2.guilright</key>
+			<integer>90</integer>
 			<key>schwacyr</key>
 			<integer>20</integer>
 			<key>soft.bgr</key>
@@ -2809,6 +3205,10 @@
 			<integer>10</integer>
 			<key>Je</key>
 			<integer>10</integer>
+			<key>ampersand</key>
+			<integer>20</integer>
+			<key>backslash</key>
+			<integer>20</integer>
 			<key>be.locl</key>
 			<integer>-10</integer>
 			<key>de.bgr</key>
@@ -2816,6 +3216,8 @@
 			<key>dze</key>
 			<integer>35</integer>
 			<key>el.bgr</key>
+			<integer>10</integer>
+			<key>exclam</key>
 			<integer>10</integer>
 			<key>je</key>
 			<integer>30</integer>
@@ -2841,8 +3243,18 @@
 			<integer>10</integer>
 			<key>public.kern2.CYR_zhe</key>
 			<integer>10</integer>
+			<key>public.kern2.colons</key>
+			<integer>20</integer>
+			<key>public.kern2.dots</key>
+			<integer>40</integer>
+			<key>public.kern2.quotebase</key>
+			<integer>40</integer>
+			<key>question</key>
+			<integer>10</integer>
 			<key>schwacyr</key>
 			<integer>-20</integer>
+			<key>slash</key>
+			<integer>40</integer>
 			<key>soft.bgr</key>
 			<integer>-10</integer>
 			<key>ustraight</key>
@@ -2874,6 +3286,12 @@
 			<integer>-130</integer>
 			<key>Zhe.bgr</key>
 			<integer>40</integer>
+			<key>asterisk</key>
+			<integer>-200</integer>
+			<key>at</key>
+			<integer>-80</integer>
+			<key>backslash</key>
+			<integer>-160</integer>
 			<key>be</key>
 			<integer>-20</integer>
 			<key>be.locl</key>
@@ -2884,6 +3302,8 @@
 			<integer>40</integer>
 			<key>el.bgr</key>
 			<integer>30</integer>
+			<key>exclam</key>
+			<integer>20</integer>
 			<key>ghe.bgr</key>
 			<integer>20</integer>
 			<key>ghestroke</key>
@@ -2940,8 +3360,28 @@
 			<integer>40</integer>
 			<key>public.kern2.CYR_zhe</key>
 			<integer>20</integer>
+			<key>public.kern2.bullet</key>
+			<integer>-90</integer>
+			<key>public.kern2.colons</key>
+			<integer>20</integer>
+			<key>public.kern2.dashes</key>
+			<integer>-100</integer>
+			<key>public.kern2.dots</key>
+			<integer>70</integer>
+			<key>public.kern2.guilleft</key>
+			<integer>-40</integer>
+			<key>public.kern2.quotebase</key>
+			<integer>100</integer>
+			<key>public.kern2.quoteleft</key>
+			<integer>-300</integer>
+			<key>public.kern2.quoteright</key>
+			<integer>-300</integer>
+			<key>question</key>
+			<integer>-80</integer>
 			<key>schwacyr</key>
 			<integer>-10</integer>
+			<key>slash</key>
+			<integer>60</integer>
 			<key>soft.bgr</key>
 			<integer>-60</integer>
 			<key>ustraight</key>
@@ -2973,16 +3413,30 @@
 			<integer>-130</integer>
 			<key>Ustraightstroke</key>
 			<integer>-90</integer>
+			<key>ampersand</key>
+			<integer>60</integer>
+			<key>asterisk</key>
+			<integer>-30</integer>
+			<key>at</key>
+			<integer>60</integer>
+			<key>backslash</key>
+			<integer>-40</integer>
 			<key>be</key>
 			<integer>60</integer>
 			<key>be.locl</key>
 			<integer>50</integer>
+			<key>braceleft</key>
+			<integer>20</integer>
+			<key>bracketleft</key>
+			<integer>30</integer>
 			<key>de.bgr</key>
 			<integer>50</integer>
 			<key>dze</key>
 			<integer>60</integer>
 			<key>er</key>
 			<integer>10</integer>
+			<key>exclam</key>
+			<integer>20</integer>
 			<key>ghe.bgr</key>
 			<integer>60</integer>
 			<key>ghestroke</key>
@@ -2991,6 +3445,12 @@
 			<integer>20</integer>
 			<key>je</key>
 			<integer>30</integer>
+			<key>leftanglebracket</key>
+			<integer>60</integer>
+			<key>numbersign</key>
+			<integer>30</integer>
+			<key>parenleft</key>
+			<integer>70</integer>
 			<key>public.kern2.CYR_Acyr</key>
 			<integer>-15</integer>
 			<key>public.kern2.CYR_Che</key>
@@ -3033,8 +3493,26 @@
 			<integer>15</integer>
 			<key>public.kern2.CYR_zhe</key>
 			<integer>-10</integer>
+			<key>public.kern2.bullet</key>
+			<integer>80</integer>
+			<key>public.kern2.dashes</key>
+			<integer>140</integer>
+			<key>public.kern2.guilleft</key>
+			<integer>80</integer>
+			<key>public.kern2.guilright</key>
+			<integer>90</integer>
+			<key>public.kern2.quoteleft</key>
+			<integer>-90</integer>
+			<key>public.kern2.quoteright</key>
+			<integer>-60</integer>
+			<key>public.kern2.quotes</key>
+			<integer>-90</integer>
+			<key>rightanglebracket</key>
+			<integer>20</integer>
 			<key>schwacyr</key>
 			<integer>50</integer>
+			<key>slash</key>
+			<integer>30</integer>
 			<key>soft.bgr</key>
 			<integer>20</integer>
 			<key>ve.bgr</key>
@@ -3060,6 +3538,12 @@
 			<integer>10</integer>
 			<key>Ustraightstroke</key>
 			<integer>10</integer>
+			<key>ampersand</key>
+			<integer>70</integer>
+			<key>asterisk</key>
+			<integer>30</integer>
+			<key>at</key>
+			<integer>70</integer>
 			<key>be</key>
 			<integer>60</integer>
 			<key>be.locl</key>
@@ -3114,8 +3598,28 @@
 			<integer>40</integer>
 			<key>public.kern2.CYR_ze</key>
 			<integer>20</integer>
+			<key>public.kern2.bullet</key>
+			<integer>60</integer>
+			<key>public.kern2.colons</key>
+			<integer>30</integer>
+			<key>public.kern2.dashes</key>
+			<integer>160</integer>
+			<key>public.kern2.dots</key>
+			<integer>10</integer>
+			<key>public.kern2.guilleft</key>
+			<integer>80</integer>
+			<key>public.kern2.guilright</key>
+			<integer>80</integer>
+			<key>public.kern2.quoteleft</key>
+			<integer>-30</integer>
+			<key>public.kern2.quoteright</key>
+			<integer>-10</integer>
+			<key>question</key>
+			<integer>-10</integer>
 			<key>schwacyr</key>
 			<integer>60</integer>
+			<key>slash</key>
+			<integer>20</integer>
 			<key>ustraight</key>
 			<integer>20</integer>
 			<key>ustraightstroke</key>
@@ -3145,6 +3649,14 @@
 			<integer>-50</integer>
 			<key>Zhe.bgr</key>
 			<integer>-60</integer>
+			<key>ampersand</key>
+			<integer>40</integer>
+			<key>asterisk</key>
+			<integer>60</integer>
+			<key>at</key>
+			<integer>80</integer>
+			<key>backslash</key>
+			<integer>-20</integer>
 			<key>be</key>
 			<integer>70</integer>
 			<key>be.locl</key>
@@ -3156,6 +3668,8 @@
 			<key>el.bgr</key>
 			<integer>-30</integer>
 			<key>er</key>
+			<integer>40</integer>
+			<key>exclam</key>
 			<integer>40</integer>
 			<key>ghe.bgr</key>
 			<integer>40</integer>
@@ -3217,8 +3731,28 @@
 			<integer>30</integer>
 			<key>public.kern2.CYR_zhe</key>
 			<integer>30</integer>
+			<key>public.kern2.bullet</key>
+			<integer>100</integer>
+			<key>public.kern2.colons</key>
+			<integer>40</integer>
+			<key>public.kern2.dashes</key>
+			<integer>100</integer>
+			<key>public.kern2.dots</key>
+			<integer>-100</integer>
+			<key>public.kern2.guilleft</key>
+			<integer>110</integer>
+			<key>public.kern2.guilright</key>
+			<integer>100</integer>
+			<key>public.kern2.quotebase</key>
+			<integer>-110</integer>
+			<key>public.kern2.quoteleft</key>
+			<integer>-30</integer>
+			<key>question</key>
+			<integer>10</integer>
 			<key>schwacyr</key>
 			<integer>50</integer>
+			<key>slash</key>
+			<integer>-40</integer>
 			<key>soft.bgr</key>
 			<integer>40</integer>
 			<key>ustraight</key>
@@ -3248,6 +3782,14 @@
 			<integer>20</integer>
 			<key>Ustraightstroke</key>
 			<integer>20</integer>
+			<key>ampersand</key>
+			<integer>-20</integer>
+			<key>asterisk</key>
+			<integer>80</integer>
+			<key>at</key>
+			<integer>40</integer>
+			<key>backslash</key>
+			<integer>60</integer>
 			<key>be</key>
 			<integer>20</integer>
 			<key>be.locl</key>
@@ -3256,6 +3798,8 @@
 			<integer>-30</integer>
 			<key>el.bgr</key>
 			<integer>-90</integer>
+			<key>exclam</key>
+			<integer>-20</integer>
 			<key>hard.bgr</key>
 			<integer>45</integer>
 			<key>public.kern2.CYR_Acyr</key>
@@ -3290,8 +3834,22 @@
 			<integer>-30</integer>
 			<key>public.kern2.CYR_ze</key>
 			<integer>-5</integer>
+			<key>public.kern2.bullet</key>
+			<integer>70</integer>
+			<key>public.kern2.dashes</key>
+			<integer>50</integer>
+			<key>public.kern2.dots</key>
+			<integer>-190</integer>
+			<key>public.kern2.guilright</key>
+			<integer>70</integer>
+			<key>public.kern2.quoteright</key>
+			<integer>30</integer>
+			<key>question</key>
+			<integer>30</integer>
 			<key>schwacyr</key>
 			<integer>-10</integer>
+			<key>slash</key>
+			<integer>-100</integer>
 			<key>soft.bgr</key>
 			<integer>20</integer>
 			<key>ustraight</key>
@@ -3325,6 +3883,14 @@
 			<integer>-120</integer>
 			<key>amacroncyr</key>
 			<integer>-120</integer>
+			<key>ampersand</key>
+			<integer>-50</integer>
+			<key>asterisk</key>
+			<integer>90</integer>
+			<key>at</key>
+			<integer>-10</integer>
+			<key>backslash</key>
+			<integer>70</integer>
 			<key>be</key>
 			<integer>-50</integer>
 			<key>be.locl</key>
@@ -3337,6 +3903,8 @@
 			<integer>-220</integer>
 			<key>er</key>
 			<integer>-120</integer>
+			<key>exclam</key>
+			<integer>-20</integer>
 			<key>ghe.bgr</key>
 			<integer>-140</integer>
 			<key>ghestroke</key>
@@ -3395,8 +3963,30 @@
 			<integer>-140</integer>
 			<key>public.kern2.CYR_zhe</key>
 			<integer>-110</integer>
+			<key>public.kern2.bullet</key>
+			<integer>-50</integer>
+			<key>public.kern2.colons</key>
+			<integer>-30</integer>
+			<key>public.kern2.dashes</key>
+			<integer>-60</integer>
+			<key>public.kern2.dots</key>
+			<integer>-120</integer>
+			<key>public.kern2.guilleft</key>
+			<integer>-100</integer>
+			<key>public.kern2.guilright</key>
+			<integer>50</integer>
+			<key>public.kern2.quotebase</key>
+			<integer>-120</integer>
+			<key>public.kern2.quoteleft</key>
+			<integer>20</integer>
+			<key>public.kern2.quoteright</key>
+			<integer>40</integer>
+			<key>question</key>
+			<integer>50</integer>
 			<key>schwacyr</key>
 			<integer>-160</integer>
+			<key>slash</key>
+			<integer>-90</integer>
 			<key>soft.bgr</key>
 			<integer>-110</integer>
 			<key>ustraight</key>
@@ -3428,6 +4018,12 @@
 			<integer>60</integer>
 			<key>Ustraightstroke</key>
 			<integer>60</integer>
+			<key>ampersand</key>
+			<integer>-30</integer>
+			<key>asterisk</key>
+			<integer>60</integer>
+			<key>backslash</key>
+			<integer>60</integer>
 			<key>be</key>
 			<integer>-40</integer>
 			<key>be.locl</key>
@@ -3440,6 +4036,8 @@
 			<integer>-120</integer>
 			<key>er</key>
 			<integer>-40</integer>
+			<key>exclam</key>
+			<integer>-10</integer>
 			<key>ghe.bgr</key>
 			<integer>-50</integer>
 			<key>ghestroke</key>
@@ -3496,8 +4094,30 @@
 			<integer>-80</integer>
 			<key>public.kern2.CYR_zhe</key>
 			<integer>-30</integer>
+			<key>public.kern2.bullet</key>
+			<integer>-20</integer>
+			<key>public.kern2.colons</key>
+			<integer>-60</integer>
+			<key>public.kern2.dashes</key>
+			<integer>-190</integer>
+			<key>public.kern2.dots</key>
+			<integer>-240</integer>
+			<key>public.kern2.guilleft</key>
+			<integer>-130</integer>
+			<key>public.kern2.guilright</key>
+			<integer>-10</integer>
+			<key>public.kern2.quotebase</key>
+			<integer>-220</integer>
+			<key>public.kern2.quoteleft</key>
+			<integer>-10</integer>
+			<key>public.kern2.quoteright</key>
+			<integer>40</integer>
+			<key>question</key>
+			<integer>50</integer>
 			<key>schwacyr</key>
 			<integer>-80</integer>
+			<key>slash</key>
+			<integer>-200</integer>
 			<key>soft.bgr</key>
 			<integer>-40</integer>
 			<key>ustraight</key>
@@ -3535,6 +4155,14 @@
 			<integer>-120</integer>
 			<key>amacroncyr</key>
 			<integer>-120</integer>
+			<key>ampersand</key>
+			<integer>-80</integer>
+			<key>asterisk</key>
+			<integer>20</integer>
+			<key>at</key>
+			<integer>-80</integer>
+			<key>backslash</key>
+			<integer>60</integer>
 			<key>be</key>
 			<integer>-110</integer>
 			<key>be.locl</key>
@@ -3547,6 +4175,8 @@
 			<integer>-250</integer>
 			<key>er</key>
 			<integer>-220</integer>
+			<key>exclam</key>
+			<integer>-10</integer>
 			<key>ghe.bgr</key>
 			<integer>-220</integer>
 			<key>ghestroke</key>
@@ -3617,8 +4247,30 @@
 			<integer>-220</integer>
 			<key>public.kern2.CYR_zhe</key>
 			<integer>-220</integer>
+			<key>public.kern2.bullet</key>
+			<integer>-150</integer>
+			<key>public.kern2.colons</key>
+			<integer>-100</integer>
+			<key>public.kern2.dashes</key>
+			<integer>-210</integer>
+			<key>public.kern2.dots</key>
+			<integer>-240</integer>
+			<key>public.kern2.guilleft</key>
+			<integer>-170</integer>
+			<key>public.kern2.guilright</key>
+			<integer>-80</integer>
+			<key>public.kern2.quotebase</key>
+			<integer>-240</integer>
+			<key>public.kern2.quoteleft</key>
+			<integer>-10</integer>
+			<key>public.kern2.quoteright</key>
+			<integer>40</integer>
+			<key>question</key>
+			<integer>30</integer>
 			<key>schwacyr</key>
 			<integer>-220</integer>
+			<key>slash</key>
+			<integer>-200</integer>
 			<key>soft.bgr</key>
 			<integer>-220</integer>
 			<key>udieresiscyr</key>
@@ -3654,6 +4306,10 @@
 			<integer>60</integer>
 			<key>Zhe.bgr</key>
 			<integer>30</integer>
+			<key>ampersand</key>
+			<integer>20</integer>
+			<key>backslash</key>
+			<integer>-30</integer>
 			<key>be</key>
 			<integer>30</integer>
 			<key>be.locl</key>
@@ -3704,6 +4360,14 @@
 			<integer>10</integer>
 			<key>public.kern2.CYR_zhe</key>
 			<integer>10</integer>
+			<key>public.kern2.guilleft</key>
+			<integer>50</integer>
+			<key>public.kern2.guilright</key>
+			<integer>80</integer>
+			<key>public.kern2.quoteleft</key>
+			<integer>-10</integer>
+			<key>public.kern2.quoteright</key>
+			<integer>-10</integer>
 			<key>schwacyr</key>
 			<integer>30</integer>
 			<key>ve.bgr</key>
@@ -3768,6 +4432,8 @@
 			<integer>-20</integer>
 			<key>Schwacyr</key>
 			<integer>-20</integer>
+			<key>ampersand</key>
+			<integer>-60</integer>
 			<key>be</key>
 			<integer>-50</integer>
 			<key>be.locl</key>
@@ -3778,6 +4444,8 @@
 			<integer>-70</integer>
 			<key>er</key>
 			<integer>-40</integer>
+			<key>exclam</key>
+			<integer>-30</integer>
 			<key>ghe.bgr</key>
 			<integer>-40</integer>
 			<key>ghestroke</key>
@@ -3830,8 +4498,14 @@
 			<integer>-60</integer>
 			<key>public.kern2.CYR_zhe</key>
 			<integer>-40</integer>
+			<key>public.kern2.colons</key>
+			<integer>-60</integer>
+			<key>public.kern2.dots</key>
+			<integer>-60</integer>
 			<key>schwacyr</key>
 			<integer>-50</integer>
+			<key>slash</key>
+			<integer>-60</integer>
 			<key>soft.bgr</key>
 			<integer>-40</integer>
 			<key>ustraight</key>
@@ -3863,6 +4537,12 @@
 			<integer>-110</integer>
 			<key>Ustraightstroke</key>
 			<integer>-70</integer>
+			<key>ampersand</key>
+			<integer>70</integer>
+			<key>at</key>
+			<integer>80</integer>
+			<key>backslash</key>
+			<integer>-90</integer>
 			<key>be</key>
 			<integer>60</integer>
 			<key>be.locl</key>
@@ -3921,6 +4601,20 @@
 			<integer>50</integer>
 			<key>public.kern2.CYR_ze</key>
 			<integer>30</integer>
+			<key>public.kern2.bullet</key>
+			<integer>90</integer>
+			<key>public.kern2.dashes</key>
+			<integer>80</integer>
+			<key>public.kern2.guilleft</key>
+			<integer>100</integer>
+			<key>public.kern2.guilright</key>
+			<integer>100</integer>
+			<key>public.kern2.quoteleft</key>
+			<integer>-100</integer>
+			<key>public.kern2.quoteright</key>
+			<integer>-60</integer>
+			<key>question</key>
+			<integer>-40</integer>
 			<key>schwacyr</key>
 			<integer>50</integer>
 			<key>soft.bgr</key>
@@ -3954,6 +4648,10 @@
 			<integer>-30</integer>
 			<key>Zhe.bgr</key>
 			<integer>-30</integer>
+			<key>asterisk</key>
+			<integer>40</integer>
+			<key>at</key>
+			<integer>60</integer>
 			<key>be</key>
 			<integer>30</integer>
 			<key>be.locl</key>
@@ -3964,6 +4662,8 @@
 			<integer>30</integer>
 			<key>el.bgr</key>
 			<integer>-40</integer>
+			<key>exclam</key>
+			<integer>-30</integer>
 			<key>ghe.bgr</key>
 			<integer>20</integer>
 			<key>ghestroke</key>
@@ -4002,6 +4702,24 @@
 			<integer>40</integer>
 			<key>public.kern2.CYR_ucyr</key>
 			<integer>20</integer>
+			<key>public.kern2.bullet</key>
+			<integer>100</integer>
+			<key>public.kern2.dashes</key>
+			<integer>100</integer>
+			<key>public.kern2.dots</key>
+			<integer>-130</integer>
+			<key>public.kern2.guilleft</key>
+			<integer>60</integer>
+			<key>public.kern2.guilright</key>
+			<integer>60</integer>
+			<key>public.kern2.quotebase</key>
+			<integer>-60</integer>
+			<key>public.kern2.quoteleft</key>
+			<integer>-30</integer>
+			<key>public.kern2.quoteright</key>
+			<integer>-30</integer>
+			<key>question</key>
+			<integer>-40</integer>
 			<key>schwacyr</key>
 			<integer>20</integer>
 			<key>soft.bgr</key>
@@ -4037,6 +4755,14 @@
 			<integer>-100</integer>
 			<key>amacroncyr</key>
 			<integer>-100</integer>
+			<key>ampersand</key>
+			<integer>-50</integer>
+			<key>asterisk</key>
+			<integer>90</integer>
+			<key>at</key>
+			<integer>-10</integer>
+			<key>backslash</key>
+			<integer>70</integer>
 			<key>be</key>
 			<integer>-10</integer>
 			<key>de.bgr</key>
@@ -4111,8 +4837,30 @@
 			<integer>-80</integer>
 			<key>public.kern2.CYR_zhe</key>
 			<integer>-100</integer>
+			<key>public.kern2.bullet</key>
+			<integer>-50</integer>
+			<key>public.kern2.colons</key>
+			<integer>-30</integer>
+			<key>public.kern2.dashes</key>
+			<integer>-60</integer>
+			<key>public.kern2.dots</key>
+			<integer>-120</integer>
+			<key>public.kern2.guilleft</key>
+			<integer>-40</integer>
+			<key>public.kern2.guilright</key>
+			<integer>50</integer>
+			<key>public.kern2.quotebase</key>
+			<integer>-140</integer>
+			<key>public.kern2.quoteleft</key>
+			<integer>20</integer>
+			<key>public.kern2.quoteright</key>
+			<integer>40</integer>
+			<key>question</key>
+			<integer>50</integer>
 			<key>schwacyr</key>
 			<integer>-110</integer>
+			<key>slash</key>
+			<integer>-90</integer>
 			<key>soft.bgr</key>
 			<integer>-70</integer>
 			<key>ustraight</key>
@@ -4142,6 +4890,12 @@
 			<integer>-190</integer>
 			<key>Ustraightstroke</key>
 			<integer>-150</integer>
+			<key>asterisk</key>
+			<integer>-200</integer>
+			<key>at</key>
+			<integer>-40</integer>
+			<key>backslash</key>
+			<integer>-160</integer>
 			<key>be</key>
 			<integer>-20</integer>
 			<key>be.locl</key>
@@ -4154,6 +4908,8 @@
 			<integer>30</integer>
 			<key>er</key>
 			<integer>-50</integer>
+			<key>exclam</key>
+			<integer>-10</integer>
 			<key>ghe.bgr</key>
 			<integer>-10</integer>
 			<key>hard.bgr</key>
@@ -4196,8 +4952,26 @@
 			<integer>20</integer>
 			<key>public.kern2.CYR_ze</key>
 			<integer>-30</integer>
+			<key>public.kern2.bullet</key>
+			<integer>-60</integer>
+			<key>public.kern2.colons</key>
+			<integer>-10</integer>
+			<key>public.kern2.dashes</key>
+			<integer>-40</integer>
+			<key>public.kern2.guilleft</key>
+			<integer>-20</integer>
+			<key>public.kern2.quotebase</key>
+			<integer>30</integer>
+			<key>public.kern2.quoteleft</key>
+			<integer>-170</integer>
+			<key>public.kern2.quoteright</key>
+			<integer>-140</integer>
+			<key>question</key>
+			<integer>-70</integer>
 			<key>schwacyr</key>
 			<integer>-30</integer>
+			<key>slash</key>
+			<integer>20</integer>
 			<key>soft.bgr</key>
 			<integer>-50</integer>
 			<key>ustraight</key>
@@ -4235,6 +5009,14 @@
 			<integer>-70</integer>
 			<key>amacroncyr</key>
 			<integer>-70</integer>
+			<key>ampersand</key>
+			<integer>-90</integer>
+			<key>asterisk</key>
+			<integer>90</integer>
+			<key>at</key>
+			<integer>-50</integer>
+			<key>backslash</key>
+			<integer>130</integer>
 			<key>be</key>
 			<integer>-90</integer>
 			<key>be.locl</key>
@@ -4319,8 +5101,30 @@
 			<integer>-160</integer>
 			<key>public.kern2.CYR_zhe</key>
 			<integer>-160</integer>
+			<key>public.kern2.bullet</key>
+			<integer>-70</integer>
+			<key>public.kern2.colons</key>
+			<integer>-70</integer>
+			<key>public.kern2.dashes</key>
+			<integer>-120</integer>
+			<key>public.kern2.dots</key>
+			<integer>-290</integer>
+			<key>public.kern2.guilleft</key>
+			<integer>-150</integer>
+			<key>public.kern2.guilright</key>
+			<integer>-20</integer>
+			<key>public.kern2.quotebase</key>
+			<integer>-360</integer>
+			<key>public.kern2.quoteleft</key>
+			<integer>-40</integer>
+			<key>public.kern2.quoteright</key>
+			<integer>40</integer>
+			<key>question</key>
+			<integer>60</integer>
 			<key>schwacyr</key>
 			<integer>-180</integer>
+			<key>slash</key>
+			<integer>-200</integer>
 			<key>soft.bgr</key>
 			<integer>-120</integer>
 			<key>uhungarumlautcyr</key>
@@ -4366,6 +5170,14 @@
 			<integer>-80</integer>
 			<key>amacroncyr</key>
 			<integer>-80</integer>
+			<key>ampersand</key>
+			<integer>-90</integer>
+			<key>asterisk</key>
+			<integer>40</integer>
+			<key>at</key>
+			<integer>-40</integer>
+			<key>backslash</key>
+			<integer>130</integer>
 			<key>be</key>
 			<integer>-80</integer>
 			<key>be.locl</key>
@@ -4452,8 +5264,28 @@
 			<integer>-140</integer>
 			<key>public.kern2.CYR_zhe</key>
 			<integer>-110</integer>
+			<key>public.kern2.bullet</key>
+			<integer>-100</integer>
+			<key>public.kern2.colons</key>
+			<integer>-100</integer>
+			<key>public.kern2.dashes</key>
+			<integer>-80</integer>
+			<key>public.kern2.dots</key>
+			<integer>-140</integer>
+			<key>public.kern2.guilleft</key>
+			<integer>-110</integer>
+			<key>public.kern2.quotebase</key>
+			<integer>-180</integer>
+			<key>public.kern2.quoteleft</key>
+			<integer>-40</integer>
+			<key>public.kern2.quoteright</key>
+			<integer>40</integer>
+			<key>question</key>
+			<integer>60</integer>
 			<key>schwacyr</key>
 			<integer>-150</integer>
+			<key>slash</key>
+			<integer>-110</integer>
 			<key>soft.bgr</key>
 			<integer>-100</integer>
 			<key>umacroncyr</key>
@@ -4487,6 +5319,14 @@
 			<integer>100</integer>
 			<key>Ustraightstroke</key>
 			<integer>100</integer>
+			<key>ampersand</key>
+			<integer>-30</integer>
+			<key>asterisk</key>
+			<integer>60</integer>
+			<key>at</key>
+			<integer>-40</integer>
+			<key>backslash</key>
+			<integer>120</integer>
 			<key>be</key>
 			<integer>-50</integer>
 			<key>be.locl</key>
@@ -4559,8 +5399,28 @@
 			<integer>-110</integer>
 			<key>public.kern2.CYR_zhe</key>
 			<integer>-70</integer>
+			<key>public.kern2.bullet</key>
+			<integer>-50</integer>
+			<key>public.kern2.colons</key>
+			<integer>-70</integer>
+			<key>public.kern2.dashes</key>
+			<integer>-70</integer>
+			<key>public.kern2.dots</key>
+			<integer>-140</integer>
+			<key>public.kern2.guilleft</key>
+			<integer>-60</integer>
+			<key>public.kern2.quotebase</key>
+			<integer>-100</integer>
+			<key>public.kern2.quoteleft</key>
+			<integer>-40</integer>
+			<key>public.kern2.quoteright</key>
+			<integer>40</integer>
+			<key>question</key>
+			<integer>50</integer>
 			<key>schwacyr</key>
 			<integer>-70</integer>
+			<key>slash</key>
+			<integer>-120</integer>
 			<key>soft.bgr</key>
 			<integer>-80</integer>
 			<key>ustraight</key>
@@ -4592,6 +5452,12 @@
 			<integer>-10</integer>
 			<key>Ustraightstroke</key>
 			<integer>-10</integer>
+			<key>ampersand</key>
+			<integer>50</integer>
+			<key>asterisk</key>
+			<integer>-10</integer>
+			<key>at</key>
+			<integer>80</integer>
 			<key>be</key>
 			<integer>50</integer>
 			<key>be.locl</key>
@@ -4636,6 +5502,20 @@
 			<integer>-10</integer>
 			<key>public.kern2.CYR_zhe</key>
 			<integer>-10</integer>
+			<key>public.kern2.bullet</key>
+			<integer>90</integer>
+			<key>public.kern2.dashes</key>
+			<integer>120</integer>
+			<key>public.kern2.dots</key>
+			<integer>-20</integer>
+			<key>public.kern2.guilleft</key>
+			<integer>100</integer>
+			<key>public.kern2.guilright</key>
+			<integer>70</integer>
+			<key>public.kern2.quoteleft</key>
+			<integer>-30</integer>
+			<key>public.kern2.quoteright</key>
+			<integer>-30</integer>
 			<key>schwacyr</key>
 			<integer>25</integer>
 			<key>zhe.bgr</key>
@@ -4659,6 +5539,14 @@
 			<integer>-10</integer>
 			<key>Ustraightstroke</key>
 			<integer>-10</integer>
+			<key>ampersand</key>
+			<integer>60</integer>
+			<key>asterisk</key>
+			<integer>30</integer>
+			<key>at</key>
+			<integer>50</integer>
+			<key>backslash</key>
+			<integer>-10</integer>
 			<key>be</key>
 			<integer>40</integer>
 			<key>be.locl</key>
@@ -4669,6 +5557,8 @@
 			<integer>30</integer>
 			<key>el.bgr</key>
 			<integer>-30</integer>
+			<key>exclam</key>
+			<integer>-10</integer>
 			<key>ghe.bgr</key>
 			<integer>25</integer>
 			<key>ghestroke</key>
@@ -4703,8 +5593,26 @@
 			<integer>10</integer>
 			<key>public.kern2.CYR_ya</key>
 			<integer>20</integer>
+			<key>public.kern2.bullet</key>
+			<integer>50</integer>
+			<key>public.kern2.dashes</key>
+			<integer>120</integer>
+			<key>public.kern2.dots</key>
+			<integer>-20</integer>
+			<key>public.kern2.guilleft</key>
+			<integer>100</integer>
+			<key>public.kern2.guilright</key>
+			<integer>80</integer>
+			<key>public.kern2.quotebase</key>
+			<integer>-20</integer>
+			<key>public.kern2.quoteleft</key>
+			<integer>-30</integer>
+			<key>public.kern2.quoteright</key>
+			<integer>-30</integer>
 			<key>schwacyr</key>
 			<integer>20</integer>
+			<key>slash</key>
+			<integer>-10</integer>
 			<key>soft.bgr</key>
 			<integer>-10</integer>
 			<key>ve.bgr</key>
@@ -4732,6 +5640,12 @@
 			<integer>30</integer>
 			<key>Zhe.bgr</key>
 			<integer>105</integer>
+			<key>ampersand</key>
+			<integer>30</integer>
+			<key>at</key>
+			<integer>-20</integer>
+			<key>backslash</key>
+			<integer>60</integer>
 			<key>be</key>
 			<integer>15</integer>
 			<key>be.locl</key>
@@ -4804,8 +5718,28 @@
 			<integer>30</integer>
 			<key>public.kern2.CYR_zhe</key>
 			<integer>60</integer>
+			<key>public.kern2.bullet</key>
+			<integer>-70</integer>
+			<key>public.kern2.colons</key>
+			<integer>30</integer>
+			<key>public.kern2.dashes</key>
+			<integer>-50</integer>
+			<key>public.kern2.dots</key>
+			<integer>100</integer>
+			<key>public.kern2.guilleft</key>
+			<integer>-50</integer>
+			<key>public.kern2.guilright</key>
+			<integer>80</integer>
+			<key>public.kern2.quotebase</key>
+			<integer>100</integer>
+			<key>public.kern2.quoteleft</key>
+			<integer>-30</integer>
+			<key>question</key>
+			<integer>20</integer>
 			<key>schwacyr</key>
 			<integer>15</integer>
+			<key>slash</key>
+			<integer>110</integer>
 			<key>soft.bgr</key>
 			<integer>-30</integer>
 			<key>ustraight</key>
@@ -4839,6 +5773,10 @@
 			<integer>30</integer>
 			<key>Zhe.bgr</key>
 			<integer>105</integer>
+			<key>at</key>
+			<integer>-30</integer>
+			<key>backslash</key>
+			<integer>60</integer>
 			<key>be</key>
 			<integer>10</integer>
 			<key>be.locl</key>
@@ -4907,6 +5845,24 @@
 			<integer>50</integer>
 			<key>public.kern2.CYR_zhe</key>
 			<integer>80</integer>
+			<key>public.kern2.bullet</key>
+			<integer>-70</integer>
+			<key>public.kern2.colons</key>
+			<integer>30</integer>
+			<key>public.kern2.dashes</key>
+			<integer>-50</integer>
+			<key>public.kern2.dots</key>
+			<integer>100</integer>
+			<key>public.kern2.guilleft</key>
+			<integer>-50</integer>
+			<key>public.kern2.guilright</key>
+			<integer>80</integer>
+			<key>public.kern2.quoteleft</key>
+			<integer>-30</integer>
+			<key>question</key>
+			<integer>20</integer>
+			<key>slash</key>
+			<integer>110</integer>
 			<key>soft.bgr</key>
 			<integer>-30</integer>
 			<key>ustraight</key>
@@ -4940,6 +5896,12 @@
 			<integer>20</integer>
 			<key>Zhe.bgr</key>
 			<integer>100</integer>
+			<key>ampersand</key>
+			<integer>30</integer>
+			<key>asterisk</key>
+			<integer>10</integer>
+			<key>at</key>
+			<integer>-20</integer>
 			<key>be</key>
 			<integer>10</integer>
 			<key>be.locl</key>
@@ -4952,6 +5914,8 @@
 			<integer>100</integer>
 			<key>er</key>
 			<integer>30</integer>
+			<key>exclam</key>
+			<integer>70</integer>
 			<key>ghe.bgr</key>
 			<integer>70</integer>
 			<key>ghestroke</key>
@@ -5010,8 +5974,28 @@
 			<integer>80</integer>
 			<key>public.kern2.CYR_zhe</key>
 			<integer>90</integer>
+			<key>public.kern2.bullet</key>
+			<integer>-80</integer>
+			<key>public.kern2.colons</key>
+			<integer>80</integer>
+			<key>public.kern2.dashes</key>
+			<integer>-100</integer>
+			<key>public.kern2.dots</key>
+			<integer>130</integer>
+			<key>public.kern2.guilleft</key>
+			<integer>-60</integer>
+			<key>public.kern2.guilright</key>
+			<integer>80</integer>
+			<key>public.kern2.quotebase</key>
+			<integer>120</integer>
+			<key>public.kern2.quoteleft</key>
+			<integer>-40</integer>
+			<key>question</key>
+			<integer>40</integer>
 			<key>schwacyr</key>
 			<integer>30</integer>
+			<key>slash</key>
+			<integer>140</integer>
 			<key>soft.bgr</key>
 			<integer>-10</integer>
 			<key>ustraight</key>
@@ -5025,6 +6009,8 @@
 		</dict>
 		<key>public.kern1.CYR_acyr</key>
 		<dict>
+			<key>backslash</key>
+			<integer>-150</integer>
 			<key>dze</key>
 			<integer>30</integer>
 			<key>hard.bgr</key>
@@ -5041,8 +6027,18 @@
 			<integer>-30</integer>
 			<key>public.kern2.CYR_ucyr</key>
 			<integer>-15</integer>
+			<key>public.kern2.guilright</key>
+			<integer>30</integer>
+			<key>public.kern2.quoteleft</key>
+			<integer>-180</integer>
+			<key>public.kern2.quoteright</key>
+			<integer>-110</integer>
+			<key>question</key>
+			<integer>-100</integer>
 			<key>schwacyr</key>
 			<integer>-10</integer>
+			<key>slash</key>
+			<integer>30</integer>
 			<key>soft.bgr</key>
 			<integer>-15</integer>
 			<key>ustraight</key>
@@ -5054,6 +6050,14 @@
 		</dict>
 		<key>public.kern1.CYR_be</key>
 		<dict>
+			<key>ampersand</key>
+			<integer>40</integer>
+			<key>asterisk</key>
+			<integer>30</integer>
+			<key>at</key>
+			<integer>40</integer>
+			<key>backslash</key>
+			<integer>-10</integer>
 			<key>be</key>
 			<integer>35</integer>
 			<key>be.locl</key>
@@ -5094,6 +6098,20 @@
 			<integer>5</integer>
 			<key>public.kern2.CYR_zhe</key>
 			<integer>-10</integer>
+			<key>public.kern2.dashes</key>
+			<integer>120</integer>
+			<key>public.kern2.dots</key>
+			<integer>-30</integer>
+			<key>public.kern2.guilleft</key>
+			<integer>80</integer>
+			<key>public.kern2.guilright</key>
+			<integer>80</integer>
+			<key>public.kern2.quoteleft</key>
+			<integer>-100</integer>
+			<key>public.kern2.quoteright</key>
+			<integer>-50</integer>
+			<key>question</key>
+			<integer>-30</integer>
 			<key>schwacyr</key>
 			<integer>15</integer>
 			<key>ustraight</key>
@@ -5107,6 +6125,10 @@
 		</dict>
 		<key>public.kern1.CYR_be.locl</key>
 		<dict>
+			<key>asterisk</key>
+			<integer>30</integer>
+			<key>backslash</key>
+			<integer>-30</integer>
 			<key>be</key>
 			<integer>50</integer>
 			<key>be.locl</key>
@@ -5143,6 +6165,22 @@
 			<integer>20</integer>
 			<key>public.kern2.CYR_zhe</key>
 			<integer>-25</integer>
+			<key>public.kern2.bullet</key>
+			<integer>20</integer>
+			<key>public.kern2.dashes</key>
+			<integer>120</integer>
+			<key>public.kern2.dots</key>
+			<integer>-30</integer>
+			<key>public.kern2.guilleft</key>
+			<integer>80</integer>
+			<key>public.kern2.guilright</key>
+			<integer>80</integer>
+			<key>public.kern2.quoteleft</key>
+			<integer>-100</integer>
+			<key>public.kern2.quoteright</key>
+			<integer>-50</integer>
+			<key>question</key>
+			<integer>-60</integer>
 			<key>schwacyr</key>
 			<integer>10</integer>
 			<key>ustraight</key>
@@ -5156,6 +6194,10 @@
 		</dict>
 		<key>public.kern1.CYR_de</key>
 		<dict>
+			<key>asterisk</key>
+			<integer>50</integer>
+			<key>backslash</key>
+			<integer>-120</integer>
 			<key>dze</key>
 			<integer>15</integer>
 			<key>el.bgr</key>
@@ -5174,11 +6216,25 @@
 			<integer>-10</integer>
 			<key>public.kern2.CYR_ze</key>
 			<integer>-10</integer>
+			<key>public.kern2.dots</key>
+			<integer>40</integer>
+			<key>public.kern2.guilright</key>
+			<integer>60</integer>
+			<key>public.kern2.quoteleft</key>
+			<integer>-50</integer>
+			<key>public.kern2.quoteright</key>
+			<integer>-10</integer>
+			<key>slash</key>
+			<integer>50</integer>
 			<key>ze.bgr</key>
 			<integer>15</integer>
 		</dict>
 		<key>public.kern1.CYR_de.bgr</key>
 		<dict>
+			<key>asterisk</key>
+			<integer>60</integer>
+			<key>backslash</key>
+			<integer>-100</integer>
 			<key>be</key>
 			<integer>30</integer>
 			<key>be.locl</key>
@@ -5199,11 +6255,25 @@
 			<integer>10</integer>
 			<key>public.kern2.CYR_ucyr</key>
 			<integer>20</integer>
+			<key>public.kern2.dashes</key>
+			<integer>20</integer>
+			<key>public.kern2.dots</key>
+			<integer>-30</integer>
+			<key>public.kern2.guilright</key>
+			<integer>90</integer>
+			<key>public.kern2.quoteleft</key>
+			<integer>-30</integer>
+			<key>question</key>
+			<integer>-10</integer>
 			<key>ze.bgr</key>
 			<integer>10</integer>
 		</dict>
 		<key>public.kern1.CYR_dje</key>
 		<dict>
+			<key>asterisk</key>
+			<integer>-30</integer>
+			<key>backslash</key>
+			<integer>-150</integer>
 			<key>be.locl</key>
 			<integer>10</integer>
 			<key>el.bgr</key>
@@ -5220,6 +6290,16 @@
 			<integer>-20</integer>
 			<key>public.kern2.CYR_zhe</key>
 			<integer>-20</integer>
+			<key>public.kern2.dots</key>
+			<integer>-20</integer>
+			<key>public.kern2.guilleft</key>
+			<integer>20</integer>
+			<key>public.kern2.guilright</key>
+			<integer>40</integer>
+			<key>public.kern2.quoteright</key>
+			<integer>-40</integer>
+			<key>question</key>
+			<integer>-30</integer>
 			<key>schwacyr</key>
 			<integer>-10</integer>
 			<key>ustraight</key>
@@ -5235,6 +6315,10 @@
 		</dict>
 		<key>public.kern1.CYR_dze</key>
 		<dict>
+			<key>ampersand</key>
+			<integer>30</integer>
+			<key>backslash</key>
+			<integer>-160</integer>
 			<key>be</key>
 			<integer>65</integer>
 			<key>be.locl</key>
@@ -5267,8 +6351,26 @@
 			<integer>-10</integer>
 			<key>public.kern2.CYR_ya</key>
 			<integer>10</integer>
+			<key>public.kern2.bullet</key>
+			<integer>-10</integer>
+			<key>public.kern2.dashes</key>
+			<integer>40</integer>
+			<key>public.kern2.dots</key>
+			<integer>-10</integer>
+			<key>public.kern2.guilleft</key>
+			<integer>20</integer>
+			<key>public.kern2.guilright</key>
+			<integer>70</integer>
+			<key>public.kern2.quoteleft</key>
+			<integer>-130</integer>
+			<key>public.kern2.quoteright</key>
+			<integer>-80</integer>
+			<key>question</key>
+			<integer>-80</integer>
 			<key>schwacyr</key>
 			<integer>25</integer>
+			<key>slash</key>
+			<integer>30</integer>
 			<key>ustraightstroke</key>
 			<integer>10</integer>
 			<key>ve.bgr</key>
@@ -5278,6 +6380,12 @@
 		</dict>
 		<key>public.kern1.CYR_el.bgr</key>
 		<dict>
+			<key>asterisk</key>
+			<integer>-100</integer>
+			<key>at</key>
+			<integer>-90</integer>
+			<key>backslash</key>
+			<integer>-220</integer>
 			<key>be</key>
 			<integer>-10</integer>
 			<key>be.locl</key>
@@ -5290,6 +6398,8 @@
 			<integer>60</integer>
 			<key>er</key>
 			<integer>-20</integer>
+			<key>exclam</key>
+			<integer>30</integer>
 			<key>ghe.bgr</key>
 			<integer>20</integer>
 			<key>hard.bgr</key>
@@ -5322,8 +6432,28 @@
 			<integer>-10</integer>
 			<key>public.kern2.CYR_zhe</key>
 			<integer>35</integer>
+			<key>public.kern2.bullet</key>
+			<integer>-70</integer>
+			<key>public.kern2.colons</key>
+			<integer>20</integer>
+			<key>public.kern2.dashes</key>
+			<integer>-60</integer>
+			<key>public.kern2.dots</key>
+			<integer>60</integer>
+			<key>public.kern2.guilleft</key>
+			<integer>-40</integer>
+			<key>public.kern2.guilright</key>
+			<integer>20</integer>
+			<key>public.kern2.quoteleft</key>
+			<integer>-200</integer>
+			<key>public.kern2.quoteright</key>
+			<integer>-200</integer>
+			<key>question</key>
+			<integer>-60</integer>
 			<key>schwacyr</key>
 			<integer>-20</integer>
+			<key>slash</key>
+			<integer>70</integer>
 			<key>soft.bgr</key>
 			<integer>-50</integer>
 			<key>ustraight</key>
@@ -5339,6 +6469,10 @@
 		</dict>
 		<key>public.kern1.CYR_en.bgr</key>
 		<dict>
+			<key>asterisk</key>
+			<integer>-20</integer>
+			<key>backslash</key>
+			<integer>-200</integer>
 			<key>er</key>
 			<integer>-40</integer>
 			<key>public.kern2.CYR_che</key>
@@ -5349,6 +6483,16 @@
 			<integer>-25</integer>
 			<key>public.kern2.CYR_ze</key>
 			<integer>-30</integer>
+			<key>public.kern2.colons</key>
+			<integer>-10</integer>
+			<key>public.kern2.guilright</key>
+			<integer>30</integer>
+			<key>public.kern2.quoteleft</key>
+			<integer>-120</integer>
+			<key>public.kern2.quoteright</key>
+			<integer>-50</integer>
+			<key>question</key>
+			<integer>-50</integer>
 			<key>schwacyr</key>
 			<integer>-10</integer>
 			<key>soft.bgr</key>
@@ -5360,6 +6504,10 @@
 		</dict>
 		<key>public.kern1.CYR_er</key>
 		<dict>
+			<key>ampersand</key>
+			<integer>20</integer>
+			<key>backslash</key>
+			<integer>-150</integer>
 			<key>be</key>
 			<integer>60</integer>
 			<key>be.locl</key>
@@ -5382,6 +6530,20 @@
 			<integer>20</integer>
 			<key>public.kern2.CYR_zhe</key>
 			<integer>-30</integer>
+			<key>public.kern2.dashes</key>
+			<integer>110</integer>
+			<key>public.kern2.dots</key>
+			<integer>-40</integer>
+			<key>public.kern2.guilleft</key>
+			<integer>70</integer>
+			<key>public.kern2.guilright</key>
+			<integer>40</integer>
+			<key>public.kern2.quoteleft</key>
+			<integer>-120</integer>
+			<key>public.kern2.quoteright</key>
+			<integer>-80</integer>
+			<key>question</key>
+			<integer>-100</integer>
 			<key>schwacyr</key>
 			<integer>20</integer>
 			<key>ve.bgr</key>
@@ -5391,6 +6553,10 @@
 		</dict>
 		<key>public.kern1.CYR_es</key>
 		<dict>
+			<key>asterisk</key>
+			<integer>60</integer>
+			<key>backslash</key>
+			<integer>-120</integer>
 			<key>be</key>
 			<integer>40</integer>
 			<key>dze</key>
@@ -5415,8 +6581,20 @@
 			<integer>-5</integer>
 			<key>public.kern2.CYR_zhe</key>
 			<integer>-10</integer>
+			<key>public.kern2.dashes</key>
+			<integer>70</integer>
+			<key>public.kern2.guilleft</key>
+			<integer>30</integer>
+			<key>public.kern2.guilright</key>
+			<integer>70</integer>
+			<key>public.kern2.quoteleft</key>
+			<integer>-60</integer>
+			<key>question</key>
+			<integer>-50</integer>
 			<key>schwacyr</key>
 			<integer>-5</integer>
+			<key>slash</key>
+			<integer>30</integer>
 			<key>soft.bgr</key>
 			<integer>-10</integer>
 			<key>ustraight</key>
@@ -5428,6 +6606,14 @@
 		</dict>
 		<key>public.kern1.CYR_ghe</key>
 		<dict>
+			<key>ampersand</key>
+			<integer>10</integer>
+			<key>asterisk</key>
+			<integer>90</integer>
+			<key>at</key>
+			<integer>60</integer>
+			<key>backslash</key>
+			<integer>-60</integer>
 			<key>be</key>
 			<integer>70</integer>
 			<key>be.locl</key>
@@ -5440,6 +6626,8 @@
 			<integer>-65</integer>
 			<key>er</key>
 			<integer>30</integer>
+			<key>exclam</key>
+			<integer>10</integer>
 			<key>ghe.bgr</key>
 			<integer>35</integer>
 			<key>ghestroke</key>
@@ -5478,8 +6666,26 @@
 			<integer>20</integer>
 			<key>public.kern2.CYR_zhe</key>
 			<integer>30</integer>
+			<key>public.kern2.bullet</key>
+			<integer>40</integer>
+			<key>public.kern2.colons</key>
+			<integer>20</integer>
+			<key>public.kern2.dots</key>
+			<integer>-120</integer>
+			<key>public.kern2.guilleft</key>
+			<integer>70</integer>
+			<key>public.kern2.guilright</key>
+			<integer>100</integer>
+			<key>public.kern2.quoteleft</key>
+			<integer>-40</integer>
+			<key>public.kern2.quoteright</key>
+			<integer>30</integer>
+			<key>question</key>
+			<integer>30</integer>
 			<key>schwacyr</key>
 			<integer>20</integer>
+			<key>slash</key>
+			<integer>-30</integer>
 			<key>soft.bgr</key>
 			<integer>30</integer>
 			<key>ustraight</key>
@@ -5493,6 +6699,10 @@
 		</dict>
 		<key>public.kern1.CYR_ghe.bgr</key>
 		<dict>
+			<key>asterisk</key>
+			<integer>20</integer>
+			<key>backslash</key>
+			<integer>-130</integer>
 			<key>be</key>
 			<integer>55</integer>
 			<key>be.locl</key>
@@ -5539,8 +6749,20 @@
 			<integer>20</integer>
 			<key>public.kern2.CYR_zhe</key>
 			<integer>20</integer>
+			<key>public.kern2.dashes</key>
+			<integer>70</integer>
+			<key>public.kern2.guilleft</key>
+			<integer>30</integer>
+			<key>public.kern2.guilright</key>
+			<integer>60</integer>
+			<key>public.kern2.quoteleft</key>
+			<integer>-80</integer>
+			<key>public.kern2.quoteright</key>
+			<integer>-40</integer>
 			<key>schwacyr</key>
 			<integer>20</integer>
+			<key>slash</key>
+			<integer>30</integer>
 			<key>soft.bgr</key>
 			<integer>20</integer>
 			<key>ustraight</key>
@@ -5556,6 +6778,12 @@
 		</dict>
 		<key>public.kern1.CYR_ghestroke</key>
 		<dict>
+			<key>asterisk</key>
+			<integer>110</integer>
+			<key>at</key>
+			<integer>70</integer>
+			<key>backslash</key>
+			<integer>-60</integer>
 			<key>be</key>
 			<integer>80</integer>
 			<key>be.locl</key>
@@ -5606,6 +6834,18 @@
 			<integer>10</integer>
 			<key>public.kern2.CYR_zhe</key>
 			<integer>30</integer>
+			<key>public.kern2.dashes</key>
+			<integer>100</integer>
+			<key>public.kern2.dots</key>
+			<integer>-90</integer>
+			<key>public.kern2.guilleft</key>
+			<integer>40</integer>
+			<key>public.kern2.guilright</key>
+			<integer>100</integer>
+			<key>public.kern2.quoteleft</key>
+			<integer>-20</integer>
+			<key>slash</key>
+			<integer>-50</integer>
 			<key>soft.bgr</key>
 			<integer>10</integer>
 			<key>ustraight</key>
@@ -5619,6 +6859,14 @@
 		</dict>
 		<key>public.kern1.CYR_gheup</key>
 		<dict>
+			<key>ampersand</key>
+			<integer>-20</integer>
+			<key>asterisk</key>
+			<integer>120</integer>
+			<key>at</key>
+			<integer>40</integer>
+			<key>backslash</key>
+			<integer>10</integer>
 			<key>be</key>
 			<integer>50</integer>
 			<key>be.locl</key>
@@ -5665,8 +6913,24 @@
 			<integer>-20</integer>
 			<key>public.kern2.CYR_zhe</key>
 			<integer>20</integer>
+			<key>public.kern2.dashes</key>
+			<integer>-40</integer>
+			<key>public.kern2.dots</key>
+			<integer>-160</integer>
+			<key>public.kern2.guilleft</key>
+			<integer>-10</integer>
+			<key>public.kern2.guilright</key>
+			<integer>110</integer>
+			<key>public.kern2.quoteleft</key>
+			<integer>50</integer>
+			<key>public.kern2.quoteright</key>
+			<integer>80</integer>
+			<key>question</key>
+			<integer>50</integer>
 			<key>schwacyr</key>
 			<integer>-15</integer>
+			<key>slash</key>
+			<integer>-130</integer>
 			<key>soft.bgr</key>
 			<integer>20</integer>
 			<key>ustraight</key>
@@ -5682,6 +6946,10 @@
 		</dict>
 		<key>public.kern1.CYR_ha</key>
 		<dict>
+			<key>asterisk</key>
+			<integer>70</integer>
+			<key>backslash</key>
+			<integer>-100</integer>
 			<key>be</key>
 			<integer>15</integer>
 			<key>be.locl</key>
@@ -5712,8 +6980,18 @@
 			<integer>30</integer>
 			<key>public.kern2.CYR_zhe</key>
 			<integer>50</integer>
+			<key>public.kern2.dots</key>
+			<integer>40</integer>
+			<key>public.kern2.guilright</key>
+			<integer>40</integer>
+			<key>public.kern2.quoteleft</key>
+			<integer>-10</integer>
+			<key>question</key>
+			<integer>-20</integer>
 			<key>schwacyr</key>
 			<integer>-15</integer>
+			<key>slash</key>
+			<integer>90</integer>
 			<key>ustraight</key>
 			<integer>20</integer>
 			<key>ustraightstroke</key>
@@ -5723,6 +7001,10 @@
 		</dict>
 		<key>public.kern1.CYR_hard</key>
 		<dict>
+			<key>asterisk</key>
+			<integer>-120</integer>
+			<key>backslash</key>
+			<integer>-190</integer>
 			<key>be</key>
 			<integer>20</integer>
 			<key>be.locl</key>
@@ -5769,6 +7051,22 @@
 			<integer>-20</integer>
 			<key>public.kern2.CYR_zhe</key>
 			<integer>-40</integer>
+			<key>public.kern2.colons</key>
+			<integer>-20</integer>
+			<key>public.kern2.dashes</key>
+			<integer>20</integer>
+			<key>public.kern2.dots</key>
+			<integer>-10</integer>
+			<key>public.kern2.guilleft</key>
+			<integer>20</integer>
+			<key>public.kern2.guilright</key>
+			<integer>60</integer>
+			<key>public.kern2.quoteleft</key>
+			<integer>-200</integer>
+			<key>public.kern2.quoteright</key>
+			<integer>-160</integer>
+			<key>question</key>
+			<integer>-50</integer>
 			<key>schwacyr</key>
 			<integer>20</integer>
 			<key>soft.bgr</key>
@@ -5782,8 +7080,36 @@
 			<key>zhe.bgr</key>
 			<integer>-20</integer>
 		</dict>
+		<key>public.kern1.CYR_i.bgr</key>
+		<dict>
+			<key>backslash</key>
+			<integer>-170</integer>
+			<key>public.kern2.quoteleft</key>
+			<integer>-150</integer>
+			<key>public.kern2.quoteright</key>
+			<integer>-120</integer>
+			<key>question</key>
+			<integer>-60</integer>
+		</dict>
+		<key>public.kern1.CYR_icyr</key>
+		<dict>
+			<key>asterisk</key>
+			<integer>40</integer>
+			<key>backslash</key>
+			<integer>-80</integer>
+			<key>public.kern2.guilright</key>
+			<integer>80</integer>
+			<key>public.kern2.quoteleft</key>
+			<integer>-50</integer>
+			<key>public.kern2.quoteright</key>
+			<integer>-20</integer>
+		</dict>
 		<key>public.kern1.CYR_ie</key>
 		<dict>
+			<key>asterisk</key>
+			<integer>20</integer>
+			<key>backslash</key>
+			<integer>-120</integer>
 			<key>be</key>
 			<integer>25</integer>
 			<key>be.locl</key>
@@ -5814,6 +7140,20 @@
 			<integer>-10</integer>
 			<key>public.kern2.CYR_ze</key>
 			<integer>-15</integer>
+			<key>public.kern2.dashes</key>
+			<integer>110</integer>
+			<key>public.kern2.dots</key>
+			<integer>-20</integer>
+			<key>public.kern2.guilleft</key>
+			<integer>70</integer>
+			<key>public.kern2.guilright</key>
+			<integer>40</integer>
+			<key>public.kern2.quoteleft</key>
+			<integer>-110</integer>
+			<key>public.kern2.quoteright</key>
+			<integer>-50</integer>
+			<key>question</key>
+			<integer>-80</integer>
 			<key>ustraight</key>
 			<integer>10</integer>
 			<key>ustraightstroke</key>
@@ -5825,6 +7165,12 @@
 		</dict>
 		<key>public.kern1.CYR_iukran</key>
 		<dict>
+			<key>asterisk</key>
+			<integer>-30</integer>
+			<key>backslash</key>
+			<integer>-100</integer>
+			<key>exclam</key>
+			<integer>-20</integer>
 			<key>public.kern2.CYR_che</key>
 			<integer>-50</integer>
 			<key>public.kern2.CYR_iukran</key>
@@ -5833,6 +7179,14 @@
 			<integer>-25</integer>
 			<key>public.kern2.CYR_ucyr</key>
 			<integer>-10</integer>
+			<key>public.kern2.quoteleft</key>
+			<integer>-90</integer>
+			<key>public.kern2.quoteright</key>
+			<integer>-60</integer>
+			<key>question</key>
+			<integer>-70</integer>
+			<key>slash</key>
+			<integer>20</integer>
 		</dict>
 		<key>public.kern1.CYR_je</key>
 		<dict>
@@ -5844,11 +7198,23 @@
 			<integer>-10</integer>
 			<key>public.kern2.CYR_el</key>
 			<integer>-20</integer>
+			<key>public.kern2.colons</key>
+			<integer>-30</integer>
+			<key>public.kern2.dots</key>
+			<integer>-40</integer>
+			<key>public.kern2.quoteleft</key>
+			<integer>-20</integer>
 			<key>zhe.bgr</key>
 			<integer>-10</integer>
 		</dict>
 		<key>public.kern1.CYR_ocyr</key>
 		<dict>
+			<key>ampersand</key>
+			<integer>20</integer>
+			<key>asterisk</key>
+			<integer>30</integer>
+			<key>backslash</key>
+			<integer>-150</integer>
 			<key>be</key>
 			<integer>45</integer>
 			<key>be.locl</key>
@@ -5883,8 +7249,24 @@
 			<integer>-10</integer>
 			<key>public.kern2.CYR_zhe</key>
 			<integer>-30</integer>
+			<key>public.kern2.dashes</key>
+			<integer>120</integer>
+			<key>public.kern2.dots</key>
+			<integer>-30</integer>
+			<key>public.kern2.guilleft</key>
+			<integer>80</integer>
+			<key>public.kern2.guilright</key>
+			<integer>80</integer>
+			<key>public.kern2.quoteleft</key>
+			<integer>-120</integer>
+			<key>public.kern2.quoteright</key>
+			<integer>-50</integer>
+			<key>question</key>
+			<integer>-70</integer>
 			<key>schwacyr</key>
 			<integer>15</integer>
+			<key>slash</key>
+			<integer>-40</integer>
 			<key>soft.bgr</key>
 			<integer>-5</integer>
 			<key>ustraight</key>
@@ -5898,6 +7280,10 @@
 		</dict>
 		<key>public.kern1.CYR_palochka</key>
 		<dict>
+			<key>ampersand</key>
+			<integer>-20</integer>
+			<key>backslash</key>
+			<integer>-100</integer>
 			<key>er</key>
 			<integer>-10</integer>
 			<key>hard.bgr</key>
@@ -5910,6 +7296,12 @@
 			<integer>-10</integer>
 			<key>public.kern2.CYR_ze</key>
 			<integer>-5</integer>
+			<key>public.kern2.quoteleft</key>
+			<integer>-100</integer>
+			<key>public.kern2.quoteright</key>
+			<integer>-50</integer>
+			<key>question</key>
+			<integer>-50</integer>
 			<key>schwacyr</key>
 			<integer>-10</integer>
 			<key>soft.bgr</key>
@@ -5923,6 +7315,12 @@
 		</dict>
 		<key>public.kern1.CYR_te</key>
 		<dict>
+			<key>ampersand</key>
+			<integer>-10</integer>
+			<key>asterisk</key>
+			<integer>80</integer>
+			<key>backslash</key>
+			<integer>-70</integer>
 			<key>be</key>
 			<integer>40</integer>
 			<key>be.locl</key>
@@ -5947,8 +7345,20 @@
 			<integer>-10</integer>
 			<key>public.kern2.CYR_zhe</key>
 			<integer>-10</integer>
+			<key>public.kern2.dashes</key>
+			<integer>80</integer>
+			<key>public.kern2.dots</key>
+			<integer>-100</integer>
+			<key>public.kern2.guilleft</key>
+			<integer>50</integer>
+			<key>public.kern2.guilright</key>
+			<integer>50</integer>
+			<key>public.kern2.quoteleft</key>
+			<integer>-30</integer>
 			<key>schwacyr</key>
 			<integer>-10</integer>
+			<key>slash</key>
+			<integer>-90</integer>
 			<key>ustraight</key>
 			<integer>40</integer>
 			<key>ustraightstroke</key>
@@ -5960,6 +7370,10 @@
 		</dict>
 		<key>public.kern1.CYR_tshe</key>
 		<dict>
+			<key>asterisk</key>
+			<integer>-30</integer>
+			<key>backslash</key>
+			<integer>-220</integer>
 			<key>hard.bgr</key>
 			<integer>-10</integer>
 			<key>public.kern2.CYR_che</key>
@@ -5974,6 +7388,16 @@
 			<integer>-20</integer>
 			<key>public.kern2.CYR_ze</key>
 			<integer>-15</integer>
+			<key>public.kern2.bullet</key>
+			<integer>-20</integer>
+			<key>public.kern2.guilright</key>
+			<integer>20</integer>
+			<key>public.kern2.quoteleft</key>
+			<integer>-140</integer>
+			<key>public.kern2.quoteright</key>
+			<integer>-110</integer>
+			<key>question</key>
+			<integer>-90</integer>
 			<key>schwacyr</key>
 			<integer>-10</integer>
 			<key>soft.bgr</key>
@@ -5987,6 +7411,12 @@
 		</dict>
 		<key>public.kern1.CYR_ucyr</key>
 		<dict>
+			<key>ampersand</key>
+			<integer>-20</integer>
+			<key>asterisk</key>
+			<integer>130</integer>
+			<key>backslash</key>
+			<integer>-60</integer>
 			<key>be</key>
 			<integer>55</integer>
 			<key>be.locl</key>
@@ -6025,8 +7455,24 @@
 			<integer>-10</integer>
 			<key>public.kern2.CYR_zhe</key>
 			<integer>30</integer>
+			<key>public.kern2.bullet</key>
+			<integer>20</integer>
+			<key>public.kern2.dashes</key>
+			<integer>30</integer>
+			<key>public.kern2.dots</key>
+			<integer>-160</integer>
+			<key>public.kern2.guilleft</key>
+			<integer>30</integer>
+			<key>public.kern2.guilright</key>
+			<integer>80</integer>
+			<key>public.kern2.quoteleft</key>
+			<integer>20</integer>
+			<key>public.kern2.quoteright</key>
+			<integer>30</integer>
 			<key>schwacyr</key>
 			<integer>-10</integer>
+			<key>slash</key>
+			<integer>-70</integer>
 			<key>soft.bgr</key>
 			<integer>30</integer>
 			<key>ustraight</key>
@@ -6042,6 +7488,12 @@
 		</dict>
 		<key>public.kern1.CYR_ustraight</key>
 		<dict>
+			<key>ampersand</key>
+			<integer>-20</integer>
+			<key>asterisk</key>
+			<integer>140</integer>
+			<key>backslash</key>
+			<integer>-70</integer>
 			<key>be</key>
 			<integer>60</integer>
 			<key>de.bgr</key>
@@ -6082,6 +7534,20 @@
 			<integer>80</integer>
 			<key>public.kern2.CYR_zhe</key>
 			<integer>40</integer>
+			<key>public.kern2.bullet</key>
+			<integer>30</integer>
+			<key>public.kern2.dashes</key>
+			<integer>50</integer>
+			<key>public.kern2.dots</key>
+			<integer>-160</integer>
+			<key>public.kern2.guilleft</key>
+			<integer>-10</integer>
+			<key>public.kern2.guilright</key>
+			<integer>70</integer>
+			<key>public.kern2.quoteright</key>
+			<integer>40</integer>
+			<key>slash</key>
+			<integer>-70</integer>
 			<key>soft.bgr</key>
 			<integer>20</integer>
 			<key>ustraight</key>
@@ -6097,6 +7563,12 @@
 		</dict>
 		<key>public.kern1.CYR_ustraightstroke</key>
 		<dict>
+			<key>ampersand</key>
+			<integer>-10</integer>
+			<key>asterisk</key>
+			<integer>140</integer>
+			<key>backslash</key>
+			<integer>-70</integer>
 			<key>be</key>
 			<integer>70</integer>
 			<key>be.locl</key>
@@ -6135,6 +7607,20 @@
 			<integer>80</integer>
 			<key>public.kern2.CYR_zhe</key>
 			<integer>30</integer>
+			<key>public.kern2.bullet</key>
+			<integer>30</integer>
+			<key>public.kern2.dashes</key>
+			<integer>50</integer>
+			<key>public.kern2.dots</key>
+			<integer>-120</integer>
+			<key>public.kern2.guilleft</key>
+			<integer>-10</integer>
+			<key>public.kern2.guilright</key>
+			<integer>70</integer>
+			<key>public.kern2.quoteright</key>
+			<integer>40</integer>
+			<key>slash</key>
+			<integer>-50</integer>
 			<key>soft.bgr</key>
 			<integer>40</integer>
 			<key>ustraight</key>
@@ -6150,6 +7636,10 @@
 		</dict>
 		<key>public.kern1.CYR_ve</key>
 		<dict>
+			<key>ampersand</key>
+			<integer>30</integer>
+			<key>backslash</key>
+			<integer>-100</integer>
 			<key>be</key>
 			<integer>15</integer>
 			<key>be.locl</key>
@@ -6174,7 +7664,23 @@
 			<integer>-15</integer>
 			<key>public.kern2.CYR_ucyr</key>
 			<integer>-10</integer>
+			<key>public.kern2.dashes</key>
+			<integer>-20</integer>
+			<key>public.kern2.dots</key>
+			<integer>-20</integer>
+			<key>public.kern2.guilleft</key>
+			<integer>60</integer>
+			<key>public.kern2.guilright</key>
+			<integer>80</integer>
+			<key>public.kern2.quoteleft</key>
+			<integer>-100</integer>
+			<key>public.kern2.quoteright</key>
+			<integer>-40</integer>
+			<key>question</key>
+			<integer>-50</integer>
 			<key>schwacyr</key>
+			<integer>10</integer>
+			<key>slash</key>
 			<integer>10</integer>
 			<key>ustraight</key>
 			<integer>-10</integer>
@@ -6187,6 +7693,10 @@
 		</dict>
 		<key>public.kern1.CYR_ve.bgr</key>
 		<dict>
+			<key>asterisk</key>
+			<integer>20</integer>
+			<key>backslash</key>
+			<integer>-30</integer>
 			<key>be</key>
 			<integer>50</integer>
 			<key>be.locl</key>
@@ -6215,13 +7725,31 @@
 			<integer>10</integer>
 			<key>public.kern2.CYR_ze</key>
 			<integer>5</integer>
+			<key>public.kern2.dashes</key>
+			<integer>70</integer>
+			<key>public.kern2.dots</key>
+			<integer>-30</integer>
+			<key>public.kern2.guilleft</key>
+			<integer>40</integer>
+			<key>public.kern2.guilright</key>
+			<integer>80</integer>
+			<key>public.kern2.quoteleft</key>
+			<integer>-40</integer>
+			<key>public.kern2.quoteright</key>
+			<integer>-20</integer>
 			<key>schwacyr</key>
 			<integer>20</integer>
+			<key>slash</key>
+			<integer>-10</integer>
 			<key>ve.bgr</key>
 			<integer>40</integer>
 		</dict>
 		<key>public.kern1.CYR_ze</key>
 		<dict>
+			<key>ampersand</key>
+			<integer>20</integer>
+			<key>backslash</key>
+			<integer>-130</integer>
 			<key>be</key>
 			<integer>35</integer>
 			<key>be.locl</key>
@@ -6254,6 +7782,20 @@
 			<integer>-10</integer>
 			<key>public.kern2.CYR_ze</key>
 			<integer>-5</integer>
+			<key>public.kern2.dashes</key>
+			<integer>30</integer>
+			<key>public.kern2.dots</key>
+			<integer>-20</integer>
+			<key>public.kern2.guilleft</key>
+			<integer>30</integer>
+			<key>public.kern2.guilright</key>
+			<integer>50</integer>
+			<key>public.kern2.quoteleft</key>
+			<integer>-100</integer>
+			<key>public.kern2.quoteright</key>
+			<integer>-80</integer>
+			<key>question</key>
+			<integer>-50</integer>
 			<key>schwacyr</key>
 			<integer>10</integer>
 			<key>ustraight</key>
@@ -6269,6 +7811,8 @@
 		</dict>
 		<key>public.kern1.CYR_ze.bgr</key>
 		<dict>
+			<key>backslash</key>
+			<integer>-190</integer>
 			<key>be</key>
 			<integer>45</integer>
 			<key>be.locl</key>
@@ -6305,8 +7849,24 @@
 			<integer>25</integer>
 			<key>public.kern2.CYR_zhe</key>
 			<integer>25</integer>
+			<key>public.kern2.dashes</key>
+			<integer>60</integer>
+			<key>public.kern2.dots</key>
+			<integer>10</integer>
+			<key>public.kern2.guilleft</key>
+			<integer>30</integer>
+			<key>public.kern2.guilright</key>
+			<integer>50</integer>
+			<key>public.kern2.quoteleft</key>
+			<integer>-110</integer>
+			<key>public.kern2.quoteright</key>
+			<integer>-60</integer>
+			<key>question</key>
+			<integer>-20</integer>
 			<key>schwacyr</key>
 			<integer>10</integer>
+			<key>slash</key>
+			<integer>90</integer>
 			<key>ve.bgr</key>
 			<integer>15</integer>
 			<key>ze.bgr</key>
@@ -6316,6 +7876,10 @@
 		</dict>
 		<key>public.kern1.CYR_zhe</key>
 		<dict>
+			<key>asterisk</key>
+			<integer>70</integer>
+			<key>backslash</key>
+			<integer>-60</integer>
 			<key>be.locl</key>
 			<integer>-25</integer>
 			<key>de.bgr</key>
@@ -6350,8 +7914,20 @@
 			<integer>-10</integer>
 			<key>public.kern2.CYR_ze</key>
 			<integer>-20</integer>
+			<key>public.kern2.dashes</key>
+			<integer>-80</integer>
+			<key>public.kern2.guilleft</key>
+			<integer>-80</integer>
+			<key>public.kern2.quoteleft</key>
+			<integer>-80</integer>
+			<key>public.kern2.quoteright</key>
+			<integer>-20</integer>
+			<key>question</key>
+			<integer>-30</integer>
 			<key>schwacyr</key>
 			<integer>-30</integer>
+			<key>slash</key>
+			<integer>50</integer>
 			<key>ustraight</key>
 			<integer>10</integer>
 			<key>ve.bgr</key>
@@ -6361,6 +7937,12 @@
 		</dict>
 		<key>public.kern1.CYR_zhe.bgr</key>
 		<dict>
+			<key>ampersand</key>
+			<integer>-20</integer>
+			<key>at</key>
+			<integer>-40</integer>
+			<key>backslash</key>
+			<integer>-160</integer>
 			<key>be</key>
 			<integer>-30</integer>
 			<key>be.locl</key>
@@ -6399,8 +7981,20 @@
 			<integer>-10</integer>
 			<key>public.kern2.CYR_zhe</key>
 			<integer>20</integer>
+			<key>public.kern2.dashes</key>
+			<integer>-80</integer>
+			<key>public.kern2.guilleft</key>
+			<integer>-80</integer>
+			<key>public.kern2.quoteleft</key>
+			<integer>-80</integer>
+			<key>public.kern2.quoteright</key>
+			<integer>-50</integer>
+			<key>question</key>
+			<integer>-80</integer>
 			<key>schwacyr</key>
 			<integer>-30</integer>
+			<key>slash</key>
+			<integer>50</integer>
 			<key>soft.bgr</key>
 			<integer>-30</integer>
 			<key>ustraight</key>
@@ -6414,6 +8008,12 @@
 		</dict>
 		<key>public.kern1.CYR_zhedescender</key>
 		<dict>
+			<key>asterisk</key>
+			<integer>70</integer>
+			<key>at</key>
+			<integer>-10</integer>
+			<key>backslash</key>
+			<integer>-80</integer>
 			<key>be.locl</key>
 			<integer>-15</integer>
 			<key>de.bgr</key>
@@ -6424,6 +8024,8 @@
 			<integer>50</integer>
 			<key>er</key>
 			<integer>30</integer>
+			<key>exclam</key>
+			<integer>40</integer>
 			<key>ghe.bgr</key>
 			<integer>25</integer>
 			<key>ghestroke</key>
@@ -6460,6 +8062,20 @@
 			<integer>10</integer>
 			<key>public.kern2.CYR_zhe</key>
 			<integer>40</integer>
+			<key>public.kern2.colons</key>
+			<integer>20</integer>
+			<key>public.kern2.dots</key>
+			<integer>100</integer>
+			<key>public.kern2.guilleft</key>
+			<integer>-30</integer>
+			<key>public.kern2.guilright</key>
+			<integer>70</integer>
+			<key>public.kern2.quoteleft</key>
+			<integer>-30</integer>
+			<key>question</key>
+			<integer>-10</integer>
+			<key>slash</key>
+			<integer>120</integer>
 			<key>ustraight</key>
 			<integer>20</integer>
 			<key>ustraightstroke</key>
@@ -9783,11 +11399,39 @@
 		</dict>
 		<key>public.kern1.bullet</key>
 		<dict>
+			<key>De</key>
+			<integer>-60</integer>
+			<key>De.bgr</key>
+			<integer>-90</integer>
+			<key>Dze</key>
+			<integer>30</integer>
+			<key>Ef</key>
+			<integer>100</integer>
 			<key>Germandbls</key>
 			<integer>40</integer>
+			<key>Hastroke-cy</key>
+			<integer>-50</integer>
+			<key>Schwacyr</key>
+			<integer>100</integer>
+			<key>Ustraight</key>
+			<integer>-100</integer>
+			<key>Ustraightstroke</key>
+			<integer>-50</integer>
 			<key>V</key>
 			<integer>-70</integer>
 			<key>X</key>
+			<integer>-70</integer>
+			<key>Zhe.bgr</key>
+			<integer>-70</integer>
+			<key>be</key>
+			<integer>60</integer>
+			<key>be.locl</key>
+			<integer>20</integer>
+			<key>de.bgr</key>
+			<integer>60</integer>
+			<key>dze</key>
+			<integer>40</integer>
+			<key>el.bgr</key>
 			<integer>-70</integer>
 			<key>eth</key>
 			<integer>40</integer>
@@ -9795,12 +11439,48 @@
 			<integer>-60</integer>
 			<key>four.lf</key>
 			<integer>-10</integer>
+			<key>hard.bgr</key>
+			<integer>50</integer>
+			<key>je</key>
+			<integer>10</integer>
 			<key>nine.lf</key>
 			<integer>-50</integer>
 			<key>one.lf</key>
 			<integer>-160</integer>
 			<key>public.kern2.A</key>
 			<integer>-70</integer>
+			<key>public.kern2.CYR_Acyr</key>
+			<integer>-70</integer>
+			<key>public.kern2.CYR_Che</key>
+			<integer>-30</integer>
+			<key>public.kern2.CYR_Dje</key>
+			<integer>-50</integer>
+			<key>public.kern2.CYR_Ha</key>
+			<integer>-70</integer>
+			<key>public.kern2.CYR_Ieukran</key>
+			<integer>100</integer>
+			<key>public.kern2.CYR_Lje</key>
+			<integer>-60</integer>
+			<key>public.kern2.CYR_Ucyr</key>
+			<integer>-30</integer>
+			<key>public.kern2.CYR_Ya</key>
+			<integer>-40</integer>
+			<key>public.kern2.CYR_Ze</key>
+			<integer>-40</integer>
+			<key>public.kern2.CYR_Zhe</key>
+			<integer>-70</integer>
+			<key>public.kern2.CYR_acyr</key>
+			<integer>10</integer>
+			<key>public.kern2.CYR_de</key>
+			<integer>-20</integer>
+			<key>public.kern2.CYR_el</key>
+			<integer>-40</integer>
+			<key>public.kern2.CYR_i.bgr</key>
+			<integer>10</integer>
+			<key>public.kern2.CYR_iukran</key>
+			<integer>20</integer>
+			<key>public.kern2.CYR_ucyr</key>
+			<integer>40</integer>
 			<key>public.kern2.C_G_O</key>
 			<integer>100</integer>
 			<key>public.kern2.GRK_Alpha</key>
@@ -9875,12 +11555,22 @@
 			<integer>40</integer>
 			<key>seven.lf</key>
 			<integer>-150</integer>
+			<key>soft.bgr</key>
+			<integer>10</integer>
 			<key>three.lf</key>
 			<integer>-70</integer>
 			<key>two.lf</key>
 			<integer>-90</integer>
+			<key>ustraight</key>
+			<integer>30</integer>
+			<key>ustraightstroke</key>
+			<integer>30</integer>
 			<key>v</key>
 			<integer>30</integer>
+			<key>ve.bgr</key>
+			<integer>20</integer>
+			<key>ze.bgr</key>
+			<integer>40</integer>
 		</dict>
 		<key>public.kern1.c</key>
 		<dict>
@@ -10057,12 +11747,46 @@
 		</dict>
 		<key>public.kern1.colons</key>
 		<dict>
+			<key>De</key>
+			<integer>-20</integer>
+			<key>De.bgr</key>
+			<integer>20</integer>
+			<key>Ef</key>
+			<integer>40</integer>
+			<key>Ustraight</key>
+			<integer>-100</integer>
+			<key>Ustraightstroke</key>
+			<integer>-70</integer>
+			<key>Zhe.bgr</key>
+			<integer>30</integer>
+			<key>el.bgr</key>
+			<integer>20</integer>
 			<key>four.lf</key>
 			<integer>-60</integer>
 			<key>nine.lf</key>
 			<integer>-20</integer>
 			<key>one.lf</key>
 			<integer>-50</integer>
+			<key>public.kern2.CYR_Che</key>
+			<integer>-60</integer>
+			<key>public.kern2.CYR_Dje</key>
+			<integer>-30</integer>
+			<key>public.kern2.CYR_Lje</key>
+			<integer>-20</integer>
+			<key>public.kern2.CYR_Ucyr</key>
+			<integer>-50</integer>
+			<key>public.kern2.CYR_Ya</key>
+			<integer>-10</integer>
+			<key>public.kern2.CYR_Ze</key>
+			<integer>-40</integer>
+			<key>public.kern2.CYR_Zhe</key>
+			<integer>30</integer>
+			<key>public.kern2.CYR_che</key>
+			<integer>-20</integer>
+			<key>public.kern2.CYR_el</key>
+			<integer>-10</integer>
+			<key>public.kern2.CYR_ze</key>
+			<integer>-10</integer>
 			<key>public.kern2.GRK_Tau</key>
 			<integer>-30</integer>
 			<key>public.kern2.T</key>
@@ -10078,24 +11802,100 @@
 		</dict>
 		<key>public.kern1.dashes</key>
 		<dict>
+			<key>De</key>
+			<integer>-20</integer>
+			<key>De.bgr</key>
+			<integer>-100</integer>
+			<key>Dze</key>
+			<integer>130</integer>
+			<key>Ef</key>
+			<integer>100</integer>
 			<key>Germandbls</key>
 			<integer>120</integer>
+			<key>Hastroke-cy</key>
+			<integer>-90</integer>
+			<key>Schwacyr</key>
+			<integer>100</integer>
+			<key>Ustraight</key>
+			<integer>-80</integer>
+			<key>Ustraightstroke</key>
+			<integer>-70</integer>
 			<key>V</key>
 			<integer>-50</integer>
 			<key>X</key>
 			<integer>-40</integer>
+			<key>Zhe.bgr</key>
+			<integer>-50</integer>
+			<key>be</key>
+			<integer>120</integer>
+			<key>be.locl</key>
+			<integer>120</integer>
+			<key>de.bgr</key>
+			<integer>120</integer>
+			<key>dze</key>
+			<integer>40</integer>
 			<key>eight.lf</key>
 			<integer>30</integer>
+			<key>el.bgr</key>
+			<integer>-60</integer>
+			<key>er</key>
+			<integer>20</integer>
 			<key>eth</key>
 			<integer>120</integer>
 			<key>four.lf</key>
 			<integer>40</integer>
+			<key>ghe.bgr</key>
+			<integer>50</integer>
+			<key>ghestroke</key>
+			<integer>30</integer>
+			<key>hard.bgr</key>
+			<integer>60</integer>
 			<key>lslash</key>
 			<integer>40</integer>
 			<key>one.lf</key>
 			<integer>-90</integer>
 			<key>p</key>
 			<integer>20</integer>
+			<key>public.kern2.CYR_Che</key>
+			<integer>-50</integer>
+			<key>public.kern2.CYR_Dje</key>
+			<integer>-60</integer>
+			<key>public.kern2.CYR_Ha</key>
+			<integer>-40</integer>
+			<key>public.kern2.CYR_Ieukran</key>
+			<integer>100</integer>
+			<key>public.kern2.CYR_Lje</key>
+			<integer>-40</integer>
+			<key>public.kern2.CYR_Ucyr</key>
+			<integer>-70</integer>
+			<key>public.kern2.CYR_Ya</key>
+			<integer>-40</integer>
+			<key>public.kern2.CYR_Ze</key>
+			<integer>-20</integer>
+			<key>public.kern2.CYR_Zhe</key>
+			<integer>-50</integer>
+			<key>public.kern2.CYR_acyr</key>
+			<integer>10</integer>
+			<key>public.kern2.CYR_de</key>
+			<integer>-20</integer>
+			<key>public.kern2.CYR_el</key>
+			<integer>-40</integer>
+			<key>public.kern2.CYR_ha</key>
+			<integer>20</integer>
+			<key>public.kern2.CYR_i.bgr</key>
+			<integer>40</integer>
+			<key>public.kern2.CYR_ie</key>
+			<integer>120</integer>
+			<key>public.kern2.CYR_te</key>
+			<integer>80</integer>
+			<key>public.kern2.CYR_ucyr</key>
+			<integer>40</integer>
+			<key>public.kern2.CYR_ya</key>
+			<integer>40</integer>
+			<key>public.kern2.CYR_ze</key>
+			<integer>20</integer>
+			<key>public.kern2.CYR_zhe</key>
+			<integer>-80</integer>
 			<key>public.kern2.C_G_O</key>
 			<integer>100</integer>
 			<key>public.kern2.GRK_Chi</key>
@@ -10172,33 +11972,81 @@
 			<integer>40</integer>
 			<key>public.kern2.z</key>
 			<integer>60</integer>
+			<key>schwacyr</key>
+			<integer>20</integer>
 			<key>seven.lf</key>
 			<integer>-70</integer>
 			<key>six.lf</key>
 			<integer>40</integer>
+			<key>soft.bgr</key>
+			<integer>15</integer>
 			<key>three.lf</key>
 			<integer>-30</integer>
 			<key>two.lf</key>
 			<integer>-40</integer>
+			<key>ustraight</key>
+			<integer>50</integer>
+			<key>ustraightstroke</key>
+			<integer>50</integer>
 			<key>v</key>
 			<integer>60</integer>
+			<key>ve.bgr</key>
+			<integer>70</integer>
 			<key>x</key>
 			<integer>20</integer>
+			<key>ze.bgr</key>
+			<integer>40</integer>
 			<key>zero.lf</key>
 			<integer>40</integer>
+			<key>zhe.bgr</key>
+			<integer>-80</integer>
 		</dict>
 		<key>public.kern1.dots</key>
 		<dict>
+			<key>De</key>
+			<integer>20</integer>
+			<key>De.bgr</key>
+			<integer>40</integer>
+			<key>Dze</key>
+			<integer>40</integer>
+			<key>Ef</key>
+			<integer>-100</integer>
+			<key>Hastroke-cy</key>
+			<integer>60</integer>
+			<key>Je</key>
+			<integer>-30</integer>
+			<key>Schwacyr</key>
+			<integer>-80</integer>
+			<key>Ustraight</key>
+			<integer>-140</integer>
+			<key>Ustraightstroke</key>
+			<integer>-140</integer>
 			<key>V</key>
 			<integer>-220</integer>
 			<key>X</key>
 			<integer>80</integer>
+			<key>Zhe.bgr</key>
+			<integer>100</integer>
+			<key>be</key>
+			<integer>-30</integer>
+			<key>be.locl</key>
+			<integer>-30</integer>
+			<key>dze</key>
+			<integer>10</integer>
+			<key>el.bgr</key>
+			<integer>60</integer>
+			<key>er</key>
+			<integer>-40</integer>
 			<key>eth</key>
 			<integer>-20</integer>
 			<key>five.lf</key>
 			<integer>60</integer>
 			<key>four.lf</key>
 			<integer>-130</integer>
+			<key>hard.bgr</key>
+			<integer>-50</integer>
+			<key>hastroke-cy</key>
+			<integer>40</integer>
 			<key>nine.lf</key>
 			<integer>-150</integer>
 			<key>one.lf</key>
@@ -10207,6 +12055,44 @@
 			<integer>-40</integer>
 			<key>public.kern2.A</key>
 			<integer>80</integer>
+			<key>public.kern2.CYR_Acyr</key>
+			<integer>80</integer>
+			<key>public.kern2.CYR_Che</key>
+			<integer>-240</integer>
+			<key>public.kern2.CYR_Dje</key>
+			<integer>-120</integer>
+			<key>public.kern2.CYR_Ha</key>
+			<integer>80</integer>
+			<key>public.kern2.CYR_Ieukran</key>
+			<integer>-130</integer>
+			<key>public.kern2.CYR_Lje</key>
+			<integer>10</integer>
+			<key>public.kern2.CYR_Ucyr</key>
+			<integer>-100</integer>
+			<key>public.kern2.CYR_Ya</key>
+			<integer>10</integer>
+			<key>public.kern2.CYR_Ze</key>
+			<integer>-50</integer>
+			<key>public.kern2.CYR_Zhe</key>
+			<integer>100</integer>
+			<key>public.kern2.CYR_che</key>
+			<integer>-170</integer>
+			<key>public.kern2.CYR_el</key>
+			<integer>10</integer>
+			<key>public.kern2.CYR_ha</key>
+			<integer>40</integer>
+			<key>public.kern2.CYR_i.bgr</key>
+			<integer>-50</integer>
+			<key>public.kern2.CYR_ie</key>
+			<integer>-30</integer>
+			<key>public.kern2.CYR_te</key>
+			<integer>-100</integer>
+			<key>public.kern2.CYR_ucyr</key>
+			<integer>-140</integer>
+			<key>public.kern2.CYR_ya</key>
+			<integer>20</integer>
+			<key>public.kern2.CYR_ze</key>
+			<integer>-10</integer>
 			<key>public.kern2.C_G_O</key>
 			<integer>-130</integer>
 			<key>public.kern2.GRK_Alpha</key>
@@ -10291,20 +12177,32 @@
 			<integer>-170</integer>
 			<key>public.kern2.z</key>
 			<integer>20</integer>
+			<key>schwacyr</key>
+			<integer>-10</integer>
 			<key>seven.lf</key>
 			<integer>-80</integer>
 			<key>six.lf</key>
 			<integer>-60</integer>
+			<key>soft.bgr</key>
+			<integer>-50</integer>
 			<key>space</key>
 			<integer>-20</integer>
 			<key>three.lf</key>
 			<integer>40</integer>
 			<key>two.lf</key>
 			<integer>60</integer>
+			<key>ustraight</key>
+			<integer>-160</integer>
+			<key>ustraightstroke</key>
+			<integer>-120</integer>
 			<key>v</key>
 			<integer>-160</integer>
+			<key>ve.bgr</key>
+			<integer>-30</integer>
 			<key>x</key>
 			<integer>40</integer>
+			<key>ze.bgr</key>
+			<integer>-40</integer>
 			<key>zero.lf</key>
 			<integer>-90</integer>
 		</dict>
@@ -10475,15 +12373,49 @@
 		</dict>
 		<key>public.kern1.guilleft</key>
 		<dict>
+			<key>Dze</key>
+			<integer>80</integer>
+			<key>Ef</key>
+			<integer>100</integer>
 			<key>Germandbls</key>
 			<integer>100</integer>
+			<key>Ghestroke</key>
+			<integer>30</integer>
+			<key>Hastroke-cy</key>
+			<integer>40</integer>
+			<key>Schwacyr</key>
+			<integer>60</integer>
 			<key>X</key>
 			<integer>90</integer>
+			<key>Zhe.bgr</key>
+			<integer>70</integer>
+			<key>be</key>
+			<integer>80</integer>
+			<key>be.locl</key>
+			<integer>80</integer>
+			<key>de.bgr</key>
+			<integer>80</integer>
+			<key>dze</key>
+			<integer>70</integer>
 			<key>eight.lf</key>
 			<integer>20</integer>
+			<key>el.bgr</key>
+			<integer>20</integer>
+			<key>er</key>
+			<integer>30</integer>
 			<key>eth</key>
 			<integer>60</integer>
 			<key>five.lf</key>
+			<integer>50</integer>
+			<key>ghe.bgr</key>
+			<integer>70</integer>
+			<key>ghestroke</key>
+			<integer>70</integer>
+			<key>hard.bgr</key>
+			<integer>60</integer>
+			<key>hastroke-cy</key>
+			<integer>40</integer>
+			<key>je</key>
 			<integer>50</integer>
 			<key>lslash</key>
 			<integer>50</integer>
@@ -10493,6 +12425,54 @@
 			<integer>30</integer>
 			<key>public.kern2.A</key>
 			<integer>90</integer>
+			<key>public.kern2.CYR_Acyr</key>
+			<integer>90</integer>
+			<key>public.kern2.CYR_Che</key>
+			<integer>-20</integer>
+			<key>public.kern2.CYR_Dje</key>
+			<integer>50</integer>
+			<key>public.kern2.CYR_Ha</key>
+			<integer>90</integer>
+			<key>public.kern2.CYR_Ieukran</key>
+			<integer>60</integer>
+			<key>public.kern2.CYR_Lje</key>
+			<integer>40</integer>
+			<key>public.kern2.CYR_Ucyr</key>
+			<integer>10</integer>
+			<key>public.kern2.CYR_Ya</key>
+			<integer>30</integer>
+			<key>public.kern2.CYR_Ze</key>
+			<integer>30</integer>
+			<key>public.kern2.CYR_Zhe</key>
+			<integer>80</integer>
+			<key>public.kern2.CYR_acyr</key>
+			<integer>70</integer>
+			<key>public.kern2.CYR_che</key>
+			<integer>40</integer>
+			<key>public.kern2.CYR_de</key>
+			<integer>40</integer>
+			<key>public.kern2.CYR_el</key>
+			<integer>30</integer>
+			<key>public.kern2.CYR_ha</key>
+			<integer>40</integer>
+			<key>public.kern2.CYR_i.bgr</key>
+			<integer>30</integer>
+			<key>public.kern2.CYR_ie</key>
+			<integer>80</integer>
+			<key>public.kern2.CYR_iukran</key>
+			<integer>30</integer>
+			<key>public.kern2.CYR_te</key>
+			<integer>50</integer>
+			<key>public.kern2.CYR_ucyr</key>
+			<integer>80</integer>
+			<key>public.kern2.CYR_ve</key>
+			<integer>70</integer>
+			<key>public.kern2.CYR_ya</key>
+			<integer>30</integer>
+			<key>public.kern2.CYR_ze</key>
+			<integer>50</integer>
+			<key>public.kern2.CYR_zhe</key>
+			<integer>60</integer>
 			<key>public.kern2.C_G_O</key>
 			<integer>60</integer>
 			<key>public.kern2.GRK_Alpha</key>
@@ -10571,30 +12551,82 @@
 			<integer>70</integer>
 			<key>public.kern2.z</key>
 			<integer>90</integer>
+			<key>schwacyr</key>
+			<integer>50</integer>
 			<key>seven.lf</key>
+			<integer>40</integer>
+			<key>soft.bgr</key>
 			<integer>40</integer>
 			<key>three.lf</key>
 			<integer>40</integer>
 			<key>two.lf</key>
 			<integer>20</integer>
+			<key>ustraight</key>
+			<integer>70</integer>
+			<key>ustraightstroke</key>
+			<integer>70</integer>
 			<key>v</key>
 			<integer>70</integer>
+			<key>ve.bgr</key>
+			<integer>50</integer>
 			<key>x</key>
 			<integer>50</integer>
+			<key>ze.bgr</key>
+			<integer>60</integer>
+			<key>zhe.bgr</key>
+			<integer>40</integer>
 		</dict>
 		<key>public.kern1.guilright</key>
 		<dict>
+			<key>De</key>
+			<integer>-100</integer>
+			<key>De.bgr</key>
+			<integer>-100</integer>
+			<key>Dze</key>
+			<integer>40</integer>
+			<key>Ef</key>
+			<integer>110</integer>
 			<key>Germandbls</key>
 			<integer>50</integer>
+			<key>Hastroke-cy</key>
+			<integer>-60</integer>
+			<key>Je</key>
+			<integer>-30</integer>
+			<key>Schwacyr</key>
+			<integer>60</integer>
+			<key>Ustraight</key>
+			<integer>-110</integer>
+			<key>Ustraightstroke</key>
+			<integer>-60</integer>
 			<key>V</key>
 			<integer>-80</integer>
 			<key>X</key>
 			<integer>-40</integer>
+			<key>Zhe.bgr</key>
+			<integer>-40</integer>
+			<key>be</key>
+			<integer>80</integer>
+			<key>be.locl</key>
+			<integer>80</integer>
+			<key>de.bgr</key>
+			<integer>80</integer>
+			<key>dze</key>
+			<integer>40</integer>
+			<key>el.bgr</key>
+			<integer>-50</integer>
 			<key>eth</key>
 			<integer>70</integer>
 			<key>five.lf</key>
 			<integer>-30</integer>
 			<key>four.lf</key>
+			<integer>20</integer>
+			<key>ghe.bgr</key>
+			<integer>20</integer>
+			<key>ghestroke</key>
+			<integer>30</integer>
+			<key>hard.bgr</key>
+			<integer>20</integer>
+			<key>hastroke-cy</key>
 			<integer>20</integer>
 			<key>lslash</key>
 			<integer>60</integer>
@@ -10604,6 +12636,44 @@
 			<integer>-80</integer>
 			<key>public.kern2.A</key>
 			<integer>-50</integer>
+			<key>public.kern2.CYR_Acyr</key>
+			<integer>-50</integer>
+			<key>public.kern2.CYR_Che</key>
+			<integer>-110</integer>
+			<key>public.kern2.CYR_Dje</key>
+			<integer>-40</integer>
+			<key>public.kern2.CYR_Ha</key>
+			<integer>-40</integer>
+			<key>public.kern2.CYR_Ieukran</key>
+			<integer>60</integer>
+			<key>public.kern2.CYR_Lje</key>
+			<integer>-100</integer>
+			<key>public.kern2.CYR_Ucyr</key>
+			<integer>-150</integer>
+			<key>public.kern2.CYR_Ya</key>
+			<integer>-90</integer>
+			<key>public.kern2.CYR_Ze</key>
+			<integer>-50</integer>
+			<key>public.kern2.CYR_Zhe</key>
+			<integer>-120</integer>
+			<key>public.kern2.CYR_de</key>
+			<integer>-40</integer>
+			<key>public.kern2.CYR_el</key>
+			<integer>-50</integer>
+			<key>public.kern2.CYR_ha</key>
+			<integer>20</integer>
+			<key>public.kern2.CYR_ie</key>
+			<integer>80</integer>
+			<key>public.kern2.CYR_te</key>
+			<integer>50</integer>
+			<key>public.kern2.CYR_ucyr</key>
+			<integer>30</integer>
+			<key>public.kern2.CYR_ya</key>
+			<integer>20</integer>
+			<key>public.kern2.CYR_ze</key>
+			<integer>20</integer>
+			<key>public.kern2.CYR_zhe</key>
+			<integer>-20</integer>
 			<key>public.kern2.C_G_O</key>
 			<integer>60</integer>
 			<key>public.kern2.GRK_Alpha</key>
@@ -10656,14 +12726,24 @@
 			<integer>30</integer>
 			<key>public.kern2.z</key>
 			<integer>50</integer>
+			<key>schwacyr</key>
+			<integer>10</integer>
 			<key>six.lf</key>
 			<integer>30</integer>
 			<key>three.lf</key>
 			<integer>-40</integer>
+			<key>ustraight</key>
+			<integer>-10</integer>
+			<key>ustraightstroke</key>
+			<integer>-10</integer>
 			<key>v</key>
 			<integer>30</integer>
+			<key>ve.bgr</key>
+			<integer>50</integer>
 			<key>x</key>
 			<integer>20</integer>
+			<key>zhe.bgr</key>
+			<integer>-40</integer>
 		</dict>
 		<key>public.kern1.h_n_m</key>
 		<dict>
@@ -10940,6 +13020,14 @@
 		</dict>
 		<key>public.kern1.quotebase</key>
 		<dict>
+			<key>De.bgr</key>
+			<integer>40</integer>
+			<key>Ef</key>
+			<integer>-110</integer>
+			<key>Ustraight</key>
+			<integer>-180</integer>
+			<key>Ustraightstroke</key>
+			<integer>-100</integer>
 			<key>V</key>
 			<integer>-270</integer>
 			<key>X</key>
@@ -10956,6 +13044,8 @@
 			<integer>-40</integer>
 			<key>public.kern2.A</key>
 			<integer>70</integer>
+			<key>public.kern2.CYR_Dje</key>
+			<integer>-140</integer>
 			<key>public.kern2.C_G_O</key>
 			<integer>-90</integer>
 			<key>public.kern2.GRK_Alpha</key>
@@ -11029,24 +13119,90 @@
 		</dict>
 		<key>public.kern1.quoteleft</key>
 		<dict>
+			<key>De</key>
+			<integer>-70</integer>
+			<key>De.bgr</key>
+			<integer>-300</integer>
+			<key>Dze</key>
+			<integer>20</integer>
+			<key>Ef</key>
+			<integer>-30</integer>
 			<key>Germandbls</key>
 			<integer>-30</integer>
+			<key>Hastroke-cy</key>
+			<integer>40</integer>
+			<key>Schwacyr</key>
+			<integer>20</integer>
+			<key>Ustraight</key>
+			<integer>40</integer>
+			<key>Ustraightstroke</key>
+			<integer>40</integer>
 			<key>V</key>
 			<integer>70</integer>
 			<key>X</key>
 			<integer>20</integer>
+			<key>be</key>
+			<integer>-40</integer>
+			<key>be.locl</key>
+			<integer>-30</integer>
+			<key>de.bgr</key>
+			<integer>-80</integer>
+			<key>dze</key>
+			<integer>-70</integer>
+			<key>el.bgr</key>
+			<integer>-200</integer>
 			<key>eth</key>
 			<integer>-120</integer>
 			<key>exclamdown</key>
 			<integer>-40</integer>
 			<key>four.lf</key>
 			<integer>-160</integer>
+			<key>ghe.bgr</key>
+			<integer>-60</integer>
+			<key>hard.bgr</key>
+			<integer>-30</integer>
+			<key>hastroke-cy</key>
+			<integer>30</integer>
 			<key>nine.lf</key>
 			<integer>50</integer>
 			<key>one.lf</key>
 			<integer>-40</integer>
 			<key>public.kern2.A</key>
 			<integer>-150</integer>
+			<key>public.kern2.CYR_Acyr</key>
+			<integer>-295</integer>
+			<key>public.kern2.CYR_Dje</key>
+			<integer>40</integer>
+			<key>public.kern2.CYR_Ha</key>
+			<integer>20</integer>
+			<key>public.kern2.CYR_Lje</key>
+			<integer>-60</integer>
+			<key>public.kern2.CYR_Ucyr</key>
+			<integer>60</integer>
+			<key>public.kern2.CYR_Ya</key>
+			<integer>-40</integer>
+			<key>public.kern2.CYR_Zhe</key>
+			<integer>30</integer>
+			<key>public.kern2.CYR_acyr</key>
+			<integer>-60</integer>
+			<key>public.kern2.CYR_de</key>
+			<integer>-100</integer>
+			<key>public.kern2.CYR_el</key>
+			<integer>-120</integer>
+			<key>public.kern2.CYR_ha</key>
+			<integer>30</integer>
+			<key>public.kern2.CYR_ie</key>
+			<integer>-120</integer>
+			<key>public.kern2.CYR_te</key>
+			<integer>-10</integer>
+			<key>public.kern2.CYR_ucyr</key>
+			<integer>40</integer>
+			<key>public.kern2.CYR_ya</key>
+			<integer>-110</integer>
+			<key>public.kern2.CYR_ze</key>
+			<integer>-90</integer>
+			<key>public.kern2.CYR_zhe</key>
+			<integer>-20</integer>
 			<key>public.kern2.GRK_Alpha</key>
 			<integer>-150</integer>
 			<key>public.kern2.GRK_Chi</key>
@@ -11107,37 +13263,133 @@
 			<integer>-10</integer>
 			<key>questiondown</key>
 			<integer>-200</integer>
+			<key>schwacyr</key>
+			<integer>-80</integer>
 			<key>seven.lf</key>
 			<integer>100</integer>
 			<key>six.lf</key>
+			<integer>-20</integer>
+			<key>soft.bgr</key>
 			<integer>-20</integer>
 			<key>three.lf</key>
 			<integer>20</integer>
 			<key>two.lf</key>
 			<integer>40</integer>
+			<key>ustraight</key>
+			<integer>50</integer>
+			<key>ustraightstroke</key>
+			<integer>50</integer>
 			<key>v</key>
 			<integer>50</integer>
 			<key>x</key>
 			<integer>30</integer>
+			<key>ze.bgr</key>
+			<integer>-20</integer>
+			<key>zhe.bgr</key>
+			<integer>-20</integer>
 		</dict>
 		<key>public.kern1.quoteright</key>
 		<dict>
+			<key>De</key>
+			<integer>-130</integer>
+			<key>De.bgr</key>
+			<integer>-300</integer>
+			<key>Dze</key>
+			<integer>-20</integer>
+			<key>Ef</key>
+			<integer>-70</integer>
 			<key>Germandbls</key>
 			<integer>-60</integer>
+			<key>Hastroke-cy</key>
+			<integer>-40</integer>
+			<key>Schwacyr</key>
+			<integer>-90</integer>
+			<key>Ustraight</key>
+			<integer>-40</integer>
+			<key>Ustraightstroke</key>
+			<integer>-40</integer>
 			<key>V</key>
 			<integer>50</integer>
+			<key>be</key>
+			<integer>-140</integer>
+			<key>be.locl</key>
+			<integer>-80</integer>
+			<key>de.bgr</key>
+			<integer>-210</integer>
+			<key>dze</key>
+			<integer>-180</integer>
 			<key>eight.lf</key>
 			<integer>-20</integer>
+			<key>el.bgr</key>
+			<integer>-240</integer>
+			<key>er</key>
+			<integer>-100</integer>
 			<key>eth</key>
 			<integer>-150</integer>
 			<key>four.lf</key>
 			<integer>-240</integer>
+			<key>ghe.bgr</key>
+			<integer>-170</integer>
+			<key>ghestroke</key>
+			<integer>-80</integer>
+			<key>hard.bgr</key>
+			<integer>-90</integer>
+			<key>hastroke-cy</key>
+			<integer>-50</integer>
+			<key>je</key>
+			<integer>-10</integer>
 			<key>one.lf</key>
 			<integer>-20</integer>
 			<key>p</key>
 			<integer>-110</integer>
 			<key>public.kern2.A</key>
 			<integer>-310</integer>
+			<key>public.kern2.CYR_Acyr</key>
+			<integer>-295</integer>
+			<key>public.kern2.CYR_Che</key>
+			<integer>-50</integer>
+			<key>public.kern2.CYR_Dje</key>
+			<integer>20</integer>
+			<key>public.kern2.CYR_Ha</key>
+			<integer>-70</integer>
+			<key>public.kern2.CYR_Ieukran</key>
+			<integer>-70</integer>
+			<key>public.kern2.CYR_Lje</key>
+			<integer>-150</integer>
+			<key>public.kern2.CYR_Ucyr</key>
+			<integer>30</integer>
+			<key>public.kern2.CYR_Ya</key>
+			<integer>-170</integer>
+			<key>public.kern2.CYR_Ze</key>
+			<integer>-130</integer>
+			<key>public.kern2.CYR_acyr</key>
+			<integer>-210</integer>
+			<key>public.kern2.CYR_che</key>
+			<integer>-80</integer>
+			<key>public.kern2.CYR_de</key>
+			<integer>-200</integer>
+			<key>public.kern2.CYR_el</key>
+			<integer>-200</integer>
+			<key>public.kern2.CYR_ha</key>
+			<integer>-50</integer>
+			<key>public.kern2.CYR_i.bgr</key>
+			<integer>-110</integer>
+			<key>public.kern2.CYR_ie</key>
+			<integer>-120</integer>
+			<key>public.kern2.CYR_iukran</key>
+			<integer>-40</integer>
+			<key>public.kern2.CYR_te</key>
+			<integer>-100</integer>
+			<key>public.kern2.CYR_ucyr</key>
+			<integer>-30</integer>
+			<key>public.kern2.CYR_ve</key>
+			<integer>-120</integer>
+			<key>public.kern2.CYR_ya</key>
+			<integer>-180</integer>
+			<key>public.kern2.CYR_ze</key>
+			<integer>-150</integer>
+			<key>public.kern2.CYR_zhe</key>
+			<integer>-90</integer>
 			<key>public.kern2.C_G_O</key>
 			<integer>-70</integer>
 			<key>public.kern2.GRK_Alpha</key>
@@ -11224,18 +13476,32 @@
 			<integer>-30</integer>
 			<key>public.kern2.z</key>
 			<integer>-80</integer>
+			<key>schwacyr</key>
+			<integer>-150</integer>
 			<key>seven.lf</key>
 			<integer>80</integer>
 			<key>six.lf</key>
 			<integer>-90</integer>
+			<key>soft.bgr</key>
+			<integer>-100</integer>
 			<key>space</key>
 			<integer>-20</integer>
 			<key>two.lf</key>
 			<integer>40</integer>
+			<key>ustraight</key>
+			<integer>-30</integer>
+			<key>ustraightstroke</key>
+			<integer>-30</integer>
 			<key>v</key>
 			<integer>-30</integer>
+			<key>ve.bgr</key>
+			<integer>-50</integer>
 			<key>x</key>
 			<integer>-50</integer>
+			<key>ze.bgr</key>
+			<integer>-100</integer>
+			<key>zhe.bgr</key>
+			<integer>-150</integer>
 		</dict>
 		<key>public.kern1.quotes</key>
 		<dict>
@@ -11261,6 +13527,8 @@
 			<integer>-40</integer>
 			<key>public.kern2.A</key>
 			<integer>-200</integer>
+			<key>public.kern2.CYR_Acyr</key>
+			<integer>-180</integer>
 			<key>public.kern2.C_G_O</key>
 			<integer>-50</integer>
 			<key>public.kern2.GRK_Alpha</key>
@@ -11712,6 +13980,11 @@
 			<key>v</key>
 			<integer>20</integer>
 		</dict>
+		<key>question</key>
+		<dict>
+			<key>public.kern2.CYR_Dje</key>
+			<integer>60</integer>
+		</dict>
 		<key>questiondown</key>
 		<dict>
 			<key>V</key>
@@ -12019,18 +14292,42 @@
 		</dict>
 		<key>slash</key>
 		<dict>
+			<key>Ef</key>
+			<integer>-20</integer>
 			<key>Germandbls</key>
 			<integer>-40</integer>
 			<key>V</key>
 			<integer>120</integer>
 			<key>X</key>
 			<integer>60</integer>
+			<key>be</key>
+			<integer>-100</integer>
+			<key>be.locl</key>
+			<integer>-30</integer>
+			<key>de.bgr</key>
+			<integer>-160</integer>
+			<key>dze</key>
+			<integer>-160</integer>
+			<key>el.bgr</key>
+			<integer>-230</integer>
+			<key>er</key>
+			<integer>-140</integer>
 			<key>eth</key>
 			<integer>-130</integer>
 			<key>five.lf</key>
 			<integer>30</integer>
 			<key>four.lf</key>
 			<integer>-100</integer>
+			<key>ghe.bgr</key>
+			<integer>-140</integer>
+			<key>ghestroke</key>
+			<integer>-110</integer>
+			<key>hard.bgr</key>
+			<integer>-100</integer>
+			<key>hastroke-cy</key>
+			<integer>-110</integer>
+			<key>je</key>
+			<integer>-60</integer>
 			<key>lslash</key>
 			<integer>20</integer>
 			<key>nine.lf</key>
@@ -12041,6 +14338,38 @@
 			<integer>-140</integer>
 			<key>public.kern2.A</key>
 			<integer>-150</integer>
+			<key>public.kern2.CYR_Ha</key>
+			<integer>40</integer>
+			<key>public.kern2.CYR_acyr</key>
+			<integer>-120</integer>
+			<key>public.kern2.CYR_che</key>
+			<integer>-100</integer>
+			<key>public.kern2.CYR_de</key>
+			<integer>-150</integer>
+			<key>public.kern2.CYR_dje</key>
+			<integer>20</integer>
+			<key>public.kern2.CYR_el</key>
+			<integer>-160</integer>
+			<key>public.kern2.CYR_ha</key>
+			<integer>-100</integer>
+			<key>public.kern2.CYR_i.bgr</key>
+			<integer>-130</integer>
+			<key>public.kern2.CYR_ie</key>
+			<integer>-150</integer>
+			<key>public.kern2.CYR_iukran</key>
+			<integer>-70</integer>
+			<key>public.kern2.CYR_te</key>
+			<integer>-80</integer>
+			<key>public.kern2.CYR_ucyr</key>
+			<integer>-80</integer>
+			<key>public.kern2.CYR_ve</key>
+			<integer>-140</integer>
+			<key>public.kern2.CYR_ya</key>
+			<integer>-120</integer>
+			<key>public.kern2.CYR_ze</key>
+			<integer>-120</integer>
+			<key>public.kern2.CYR_zhe</key>
+			<integer>-60</integer>
 			<key>public.kern2.GRK_Alpha</key>
 			<integer>-150</integer>
 			<key>public.kern2.GRK_Chi</key>
@@ -12119,18 +14448,32 @@
 			<integer>-80</integer>
 			<key>public.kern2.z</key>
 			<integer>-100</integer>
+			<key>schwacyr</key>
+			<integer>-130</integer>
 			<key>seven.lf</key>
 			<integer>100</integer>
 			<key>slash</key>
 			<integer>-100</integer>
+			<key>soft.bgr</key>
+			<integer>-90</integer>
 			<key>three.lf</key>
 			<integer>40</integer>
 			<key>two.lf</key>
 			<integer>60</integer>
+			<key>ustraight</key>
+			<integer>-70</integer>
+			<key>ustraightstroke</key>
+			<integer>-70</integer>
 			<key>v</key>
 			<integer>-70</integer>
+			<key>ve.bgr</key>
+			<integer>-30</integer>
 			<key>x</key>
 			<integer>-100</integer>
+			<key>ze.bgr</key>
+			<integer>-100</integer>
+			<key>zhe.bgr</key>
+			<integer>-130</integer>
 		</dict>
 		<key>space</key>
 		<dict>
