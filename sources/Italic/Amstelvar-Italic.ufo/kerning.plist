@@ -87,6 +87,82 @@
 			<key>v</key>
 			<integer>10</integer>
 		</dict>
+		<key>De.bgr</key>
+		<dict>
+			<key>Dze</key>
+			<integer>50</integer>
+		</dict>
+		<key>Dje</key>
+		<dict>
+			<key>De</key>
+			<integer>-20</integer>
+			<key>Dze</key>
+			<integer>60</integer>
+			<key>Ef</key>
+			<integer>20</integer>
+			<key>Je</key>
+			<integer>-10</integer>
+			<key>Schwacyr</key>
+			<integer>20</integer>
+			<key>Ustraight</key>
+			<integer>-140</integer>
+			<key>Ustraightstroke</key>
+			<integer>-90</integer>
+			<key>public.kern2.CYR_Che</key>
+			<integer>-200</integer>
+			<key>public.kern2.CYR_Dje</key>
+			<integer>-90</integer>
+			<key>public.kern2.CYR_Ieukran</key>
+			<integer>10</integer>
+			<key>public.kern2.CYR_Lje</key>
+			<integer>-10</integer>
+			<key>public.kern2.CYR_Ucyr</key>
+			<integer>-90</integer>
+			<key>public.kern2.CYR_Ze</key>
+			<integer>-10</integer>
+			<key>public.kern2.CYR_Zhe</key>
+			<integer>-10</integer>
+		</dict>
+		<key>Dze</key>
+		<dict>
+			<key>De.bgr</key>
+			<integer>10</integer>
+			<key>Dze</key>
+			<integer>55</integer>
+			<key>Ef</key>
+			<integer>20</integer>
+			<key>Je</key>
+			<integer>30</integer>
+			<key>Schwacyr</key>
+			<integer>20</integer>
+			<key>Ustraight</key>
+			<integer>10</integer>
+			<key>Ustraightstroke</key>
+			<integer>10</integer>
+			<key>public.kern2.CYR_Acyr</key>
+			<integer>30</integer>
+			<key>public.kern2.CYR_Che</key>
+			<integer>-70</integer>
+			<key>public.kern2.CYR_Ecyr</key>
+			<integer>10</integer>
+			<key>public.kern2.CYR_Ha</key>
+			<integer>30</integer>
+			<key>public.kern2.CYR_Ieukran</key>
+			<integer>55</integer>
+			<key>public.kern2.CYR_Lje</key>
+			<integer>10</integer>
+			<key>public.kern2.CYR_Ucyr</key>
+			<integer>10</integer>
+			<key>public.kern2.CYR_Ya</key>
+			<integer>40</integer>
+			<key>public.kern2.CYR_Zhe</key>
+			<integer>30</integer>
+		</dict>
+		<key>Ef</key>
+		<dict>
+			<key>Dze</key>
+			<integer>-25</integer>
+		</dict>
 		<key>Eng</key>
 		<dict>
 			<key>public.kern2.straight_left_x</key>
@@ -255,6 +331,37 @@
 			<integer>-10</integer>
 			<key>public.kern2.j</key>
 			<integer>40</integer>
+		</dict>
+		<key>Je</key>
+		<dict>
+			<key>De</key>
+			<integer>-40</integer>
+			<key>De.bgr</key>
+			<integer>-50</integer>
+			<key>Dze</key>
+			<integer>10</integer>
+			<key>Ef</key>
+			<integer>-20</integer>
+			<key>Je</key>
+			<integer>-50</integer>
+			<key>Schwacyr</key>
+			<integer>-5</integer>
+			<key>public.kern2.CYR_Acyr</key>
+			<integer>-50</integer>
+			<key>public.kern2.CYR_Che</key>
+			<integer>-20</integer>
+			<key>public.kern2.CYR_Ecyr</key>
+			<integer>-10</integer>
+			<key>public.kern2.CYR_Ieukran</key>
+			<integer>-20</integer>
+			<key>public.kern2.CYR_Lje</key>
+			<integer>-90</integer>
+			<key>public.kern2.CYR_Ya</key>
+			<integer>-35</integer>
+			<key>public.kern2.CYR_Ze</key>
+			<integer>-30</integer>
+			<key>public.kern2.CYR_Zhe</key>
+			<integer>-20</integer>
 		</dict>
 		<key>Lcaron</key>
 		<dict>
@@ -2381,6 +2488,29 @@
 			<integer>80</integer>
 			<key>x</key>
 			<integer>10</integer>
+		</dict>
+		<key>public.kern1.CYR_Acyr</key>
+		<dict>
+			<key>De</key>
+			<integer>10</integer>
+			<key>Dze</key>
+			<integer>70</integer>
+			<key>public.kern2.CYR_Acyr</key>
+			<integer>100</integer>
+			<key>public.kern2.CYR_Dje</key>
+			<integer>-110</integer>
+			<key>public.kern2.CYR_Zhe</key>
+			<integer>100</integer>
+		</dict>
+		<key>public.kern1.CYR_Ha</key>
+		<dict>
+			<key>Dze</key>
+			<integer>20</integer>
+		</dict>
+		<key>public.kern1.CYR_Ucyr</key>
+		<dict>
+			<key>Dze</key>
+			<integer>-10</integer>
 		</dict>
 		<key>public.kern1.E</key>
 		<dict>
