@@ -1,25 +1,25 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="iota" format="2">
-  <advance width="1153"/>
-  <unicode hex="03B9"/>
-  <anchor x="500" y="1100" name="GRKtop"/>
-  <outline>
-    <contour>
-      <point x="536" y="-15" type="line"/>
-      <point x="387" y="-15"/>
-      <point x="186" y="107"/>
-      <point x="191" y="317" type="qcurve" smooth="yes"/>
-      <point x="201" y="557" type="line"/>
-      <point x="189" y="1078" type="line"/>
-      <point x="652" y="1113" type="line"/>
-      <point x="776" y="1063" type="line"/>
-      <point x="735" y="431" type="line"/>
-      <point x="735" y="389" type="line"/>
-      <point x="735.0" y="301.0"/>
-      <point x="804" y="226"/>
-      <point x="930" y="231" type="qcurve" smooth="yes"/>
-      <point x="1098" y="238" type="line"/>
-      <point x="1098" y="41" type="line"/>
-    </contour>
-  </outline>
+	<unicode hex="03B9"/>
+	<advance width="1153"/>
+	<outline>
+		<contour>
+			<point x="536" y="-15" type="line"/>
+			<point x="387" y="-15"/>
+			<point x="186" y="107"/>
+			<point x="191" y="317" type="qcurve" smooth="yes"/>
+			<point x="201" y="557" type="line"/>
+			<point x="189" y="1078" type="line"/>
+			<point x="652" y="1113" type="line"/>
+			<point x="776" y="1063" type="line"/>
+			<point x="735" y="431" type="line"/>
+			<point x="735" y="389" type="line"/>
+			<point x="735" y="301"/>
+			<point x="804" y="226"/>
+			<point x="930" y="231" type="qcurve" smooth="yes"/>
+			<point x="1098" y="238" type="line"/>
+			<point x="1098" y="41" type="line"/>
+		</contour>
+	</outline>
+	<anchor name="GRKtop" x="500" y="1100"/>
 </glyph>

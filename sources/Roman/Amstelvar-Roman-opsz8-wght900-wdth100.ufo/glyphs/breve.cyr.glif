@@ -1,28 +1,28 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="breve.cyr" format="2">
-  <advance width="1022"/>
-  <outline>
-    <contour>
-      <point x="514" y="1393" type="qcurve" smooth="yes"/>
-      <point x="606.0" y="1393.0"/>
-      <point x="718" y="1491"/>
-      <point x="743" y="1620" type="qcurve"/>
-      <point x="961" y="1538" type="line"/>
-      <point x="929" y="1371"/>
-      <point x="701" y="1211.0"/>
-      <point x="514" y="1211" type="qcurve" smooth="yes"/>
-      <point x="327.0" y="1211.0"/>
-      <point x="99" y="1371"/>
-      <point x="67" y="1538" type="qcurve"/>
-      <point x="285" y="1620" type="line"/>
-      <point x="310" y="1491"/>
-      <point x="422" y="1393.0"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.9904,1,0.464,1</string>
-    </dict>
-  </lib>
+	<advance width="1022"/>
+	<outline>
+		<contour>
+			<point x="514" y="1393" type="qcurve" smooth="yes"/>
+			<point x="606" y="1393"/>
+			<point x="718" y="1491"/>
+			<point x="743" y="1620" type="qcurve"/>
+			<point x="961" y="1538" type="line"/>
+			<point x="929" y="1371"/>
+			<point x="701" y="1211"/>
+			<point x="514" y="1211" type="qcurve" smooth="yes"/>
+			<point x="327" y="1211"/>
+			<point x="99" y="1371"/>
+			<point x="67" y="1538" type="qcurve"/>
+			<point x="285" y="1620" type="line"/>
+			<point x="310" y="1491"/>
+			<point x="422" y="1393"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0.9904,1,0.464,1</string>
+		</dict>
+	</lib>
 </glyph>
