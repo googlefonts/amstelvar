@@ -5,8 +5,8 @@
   <anchor x="555" y="1000" name="GRKtop"/>
   <outline>
     <contour>
-      <point x="904" y="-480" type="line"/>
-      <point x="869" y="-453" type="line"/>
+      <point x="904" y="-1000" type="line"/>
+      <point x="869" y="-973" type="line"/>
       <point x="891" y="338" type="line"/>
       <point x="891" y="612" type="line" smooth="yes"/>
       <point x="891" y="746"/>
@@ -37,7 +37,13 @@
       <point x="1054" y="842"/>
       <point x="1058" y="652" type="qcurve" smooth="yes"/>
       <point x="1055" y="340" type="line"/>
-      <point x="1065" y="-460" type="line"/>
+      <point x="1065" y="-980" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.989,0.4357,0.8117,1</string>
+    </dict>
+  </lib>
 </glyph>

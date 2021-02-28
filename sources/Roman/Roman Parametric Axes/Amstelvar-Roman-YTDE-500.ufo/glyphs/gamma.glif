@@ -5,18 +5,18 @@
   <guideline x="673" y="-40" angle="0" identifier="g2zcNzszsg"/>
   <outline>
     <contour>
-      <point x="483" y="-480" type="line"/>
-      <point x="448" y="-453" type="line"/>
-      <point x="475" y="25" type="line"/>
-      <point x="495" y="25" type="line"/>
-      <point x="669" y="538" type="line"/>
+      <point x="483" y="-1000" type="line"/>
+      <point x="448" y="-973" type="line"/>
+      <point x="475" y="-75" type="line"/>
+      <point x="495" y="-75" type="line"/>
+      <point x="669" y="488" type="line"/>
       <point x="801" y="980" type="line"/>
       <point x="962" y="1000" type="line"/>
       <point x="997" y="973" type="line"/>
-      <point x="801" y="497" type="line"/>
-      <point x="571" y="-131" type="line"/>
-      <point x="516" y="-131" type="line"/>
-      <point x="293" y="481" type="line"/>
+      <point x="801" y="447" type="line"/>
+      <point x="571" y="-231" type="line"/>
+      <point x="516" y="-231" type="line"/>
+      <point x="293" y="431" type="line"/>
       <point x="172" y="808" type="line" smooth="yes"/>
       <point x="162" y="835"/>
       <point x="140" y="854"/>
@@ -27,10 +27,16 @@
       <point x="244" y="1008"/>
       <point x="296" y="961"/>
       <point x="321" y="881" type="qcurve" smooth="yes"/>
-      <point x="440" y="535" type="line"/>
-      <point x="595" y="85" type="line"/>
-      <point x="615" y="85" type="line"/>
-      <point x="629" y="-459" type="line"/>
+      <point x="440" y="485" type="line"/>
+      <point x="595" y="-15" type="line"/>
+      <point x="615" y="-15" type="line"/>
+      <point x="629" y="-979" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.989,0.4357,0.8117,1</string>
+    </dict>
+  </lib>
 </glyph>
