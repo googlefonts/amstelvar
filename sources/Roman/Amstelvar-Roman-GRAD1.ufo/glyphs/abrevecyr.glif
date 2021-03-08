@@ -3,7 +3,13 @@
 	<unicode hex="04D1"/>
 	<advance width="1096"/>
 	<outline>
-		<component base="breve.cyr" xOffset="-2"/>
+		<component base="breve.cyr" xOffset="18"/>
 		<component base="a"/>
 	</outline>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>1,0.868,0.7015,1</string>
+		</dict>
+	</lib>
 </glyph>

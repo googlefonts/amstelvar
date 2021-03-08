@@ -1,49 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="endescender" format="2">
 	<unicode hex="04A3"/>
-	<advance width="1288"/>
+	<advance width="1263"/>
 	<outline>
 		<contour>
-			<point x="313" y="574" type="line"/>
-			<point x="637" y="571" type="line"/>
-			<point x="963" y="574" type="line"/>
-			<point x="963" y="469" type="line"/>
-			<point x="637" y="471" type="line"/>
-			<point x="313" y="469" type="line"/>
+			<point x="283" y="541" type="line"/>
+			<point x="637" y="538" type="line"/>
+			<point x="973" y="541" type="line"/>
+			<point x="973" y="482" type="line"/>
+			<point x="637" y="484" type="line"/>
+			<point x="283" y="482" type="line"/>
 		</contour>
 		<contour>
-			<point x="230" y="500" type="line"/>
-			<point x="228" y="885" type="line"/>
-			<point x="80" y="920" type="line"/>
-			<point x="80" y="1000" type="line"/>
-			<point x="536" y="1000" type="line"/>
-			<point x="536" y="920" type="line"/>
-			<point x="398" y="885" type="line"/>
-			<point x="396" y="500" type="line"/>
-			<point x="398" y="115" type="line"/>
-			<point x="536" y="80" type="line"/>
-			<point x="536" y="0" type="line"/>
-			<point x="80" y="0" type="line"/>
-			<point x="80" y="80" type="line"/>
-			<point x="228" y="115" type="line"/>
+			<point x="249" y="498" type="line"/>
+			<point x="247" y="925" type="line"/>
+			<point x="76" y="960" type="line"/>
+			<point x="76" y="1000" type="line"/>
+			<point x="495" y="1000" type="line"/>
+			<point x="495" y="960" type="line"/>
+			<point x="320" y="925" type="line"/>
+			<point x="317" y="498" type="line"/>
+			<point x="320" y="75" type="line"/>
+			<point x="495" y="40" type="line"/>
+			<point x="495" y="0" type="line"/>
+			<point x="76" y="0" type="line"/>
+			<point x="76" y="40" type="line"/>
+			<point x="247" y="75" type="line"/>
 		</contour>
 		<contour>
-			<point x="1048" y="105" type="line"/>
-			<point x="1208" y="105" type="line"/>
-			<point x="1218" y="-318" type="line"/>
-			<point x="1126" y="-318" type="line"/>
-			<point x="1037" y="0" type="line"/>
-			<point x="740" y="0" type="line"/>
-			<point x="740" y="80" type="line"/>
-			<point x="878" y="115" type="line"/>
-			<point x="880" y="500" type="line"/>
-			<point x="878" y="885" type="line"/>
-			<point x="740" y="920" type="line"/>
-			<point x="740" y="1000" type="line"/>
-			<point x="1196" y="1000" type="line"/>
-			<point x="1196" y="920" type="line"/>
-			<point x="1048" y="885" type="line"/>
-			<point x="1046" y="500" type="line"/>
+			<point x="1009" y="55" type="line"/>
+			<point x="1177" y="55" type="line"/>
+			<point x="1187" y="-318" type="line"/>
+			<point x="1147" y="-318" type="line"/>
+			<point x="1106" y="0" type="line"/>
+			<point x="761" y="0" type="line"/>
+			<point x="761" y="40" type="line"/>
+			<point x="936" y="75" type="line"/>
+			<point x="939" y="498" type="line"/>
+			<point x="936" y="925" type="line"/>
+			<point x="761" y="960" type="line"/>
+			<point x="761" y="1000" type="line"/>
+			<point x="1180" y="1000" type="line"/>
+			<point x="1180" y="960" type="line"/>
+			<point x="1009" y="925" type="line"/>
+			<point x="1007" y="498" type="line"/>
 		</contour>
 	</outline>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>1,0.868,0.7015,1</string>
+		</dict>
+	</lib>
 </glyph>
