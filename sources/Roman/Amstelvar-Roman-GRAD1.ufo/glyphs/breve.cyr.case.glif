@@ -3,20 +3,26 @@
 	<advance width="1024"/>
 	<outline>
 		<contour>
-			<point x="512" y="1808" type="qcurve"/>
-			<point x="603" y="1808"/>
-			<point x="697" y="1883"/>
-			<point x="746" y="1986" type="qcurve"/>
-			<point x="904" y="1889" type="line"/>
-			<point x="844" y="1756"/>
-			<point x="639" y="1640"/>
+			<point x="512" y="1788" type="qcurve"/>
+			<point x="599" y="1788"/>
+			<point x="693.200890754" y="1879.5509334137"/>
+			<point x="736" y="1986" type="qcurve"/>
+			<point x="924" y="1889" type="line"/>
+			<point x="863.4714649755" y="1754.8284140291"/>
+			<point x="645.4795918367" y="1640"/>
 			<point x="512" y="1640" type="qcurve"/>
-			<point x="385" y="1640"/>
-			<point x="179" y="1755"/>
-			<point x="120" y="1889" type="qcurve"/>
-			<point x="276" y="1986" type="line"/>
-			<point x="318" y="1881"/>
-			<point x="421" y="1808"/>
+			<point x="378.5204081633" y="1640"/>
+			<point x="159.4991633205" y="1753.8663070348"/>
+			<point x="100" y="1889" type="qcurve"/>
+			<point x="286" y="1986" type="line"/>
+			<point x="321.2710851069" y="1876.8800804506"/>
+			<point x="425" y="1788"/>
 		</contour>
 	</outline>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>1,0.868,0.7015,1</string>
+		</dict>
+	</lib>
 </glyph>

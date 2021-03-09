@@ -4,6 +4,12 @@
 	<advance width="1480"/>
 	<outline>
 		<component base="C"/>
-		<component base="cedillacomb.case" xOffset="320"/>
+		<component base="cedillacomb.case" xOffset="314" yOffset="-15"/>
 	</outline>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>1,0.868,0.7015,1</string>
+		</dict>
+	</lib>
 </glyph>

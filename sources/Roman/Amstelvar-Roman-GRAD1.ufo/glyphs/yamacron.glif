@@ -1,9 +1,24 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="yamacron" format="2">
+<<<<<<< HEAD
   <advance width="1101"/>
   <unicode hex="F529"/>
   <outline>
     <component base="ya"/>
     <component base="macron" xOffset="17" yOffset="10"/>
   </outline>
+=======
+	<unicode hex="F529"/>
+	<advance width="1153"/>
+	<outline>
+		<component base="ya"/>
+		<component base="macron" xOffset="77" yOffset="10"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>1,0.868,0.7015,1</string>
+		</dict>
+	</lib>
+>>>>>>> 0b6bbfb9b2acd153188bcd7937d135b0a806b978
 </glyph>
