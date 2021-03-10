@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<designspace format="4.0">
+  <axes>
+    <axis tag="wght" name="wght" minimum="0" maximum="1000" default="0">
+      <labelname xml:lang="en">weight</labelname>
+    </axis>
+  </axes>
+  <sources>
+    <source filename="Amstelvar-Roman-opsz144-wght100-wdth50.ufo" familyname="Amstelvar" stylename="Roman-opsz144-wght100-wdth50.ufo">
+      <location>
+        <dimension name="wght" xvalue="0"/>
+      </location>
+    </source>
+    <source filename="Amstelvar-Roman-opsz144-wght900-wdth50.ufo" familyname="Amstelvar" stylename="Roman-opsz144-wght900-wdth50">
+      <location>
+        <dimension name="wght" xvalue="1000"/>
+      </location>
+    </source>
+  </sources>
+</designspace>

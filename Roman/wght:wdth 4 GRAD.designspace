@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<designspace format="4.0">
+  <axes>
+    <axis tag="wght" name="wght" minimum="100" maximum="900" default="400">
+      <labelname xml:lang="en">Weight</labelname>
+    </axis>
+    <axis tag="wdth" name="wdth" minimum="50" maximum="125" default="100">
+      <labelname xml:lang="en">Width</labelname>
+    </axis>
+  </axes>
+  <sources>
+    <source filename="Amstelvar-Roman.ufo" familyname="Amstelvar" stylename="Roman">
+      <location>
+        <dimension name="wght" xvalue="400"/>
+        <dimension name="wdth" xvalue="100"/>
+      </location>
+    </source>
+    <source filename="Amstelvar-Roman-opsz14-wght900-wdth100.ufo" familyname="Amstelvar" stylename="Roman-opsz14-wght900-wdth100">
+      <location>
+        <dimension name="wght" xvalue="900"/>
+        <dimension name="wdth" xvalue="100"/>
+      </location>
+    </source>
+    <source filename="Amstelvar-Roman-opsz14-wght400-wdth125.ufo" familyname="Amstelvar" stylename="Roman-opsz14-wght400-wdth125">
+      <location>
+        <dimension name="wght" xvalue="400"/>
+        <dimension name="wdth" xvalue="125"/>
+      </location>
+    </source>
+    <source filename="Amstelvar-Roman-opsz14-wght100-wdth100.ufo" familyname="Amstelvar" stylename="Roman-opsz14-wght100-wdth100">
+      <location>
+        <dimension name="wght" xvalue="100"/>
+        <dimension name="wdth" xvalue="100"/>
+      </location>
+    </source>
+    <source filename="Amstelvar-Roman-opsz14-wght400-wdth50.ufo" familyname="Amstelvar" stylename="Roman-opsz14-wght400-wdth50">
+      <location>
+        <dimension name="wght" xvalue="400"/>
+        <dimension name="wdth" xvalue="50"/>
+      </location>
+    </source>
+  </sources>
+  <lib>
+    <dict>
+      <key>com.letterror.skateboard.interactionSources</key>
+      <dict>
+        <key>horizontal</key>
+        <array>
+          <string>wdth</string>
+        </array>
+        <key>vertical</key>
+        <array>
+          <string>wght</string>
+        </array>
+      </dict>
+      <key>com.letterror.skateboard.previewLocation</key>
+      <dict>
+        <key>wdth</key>
+        <real>90.0</real>
+        <key>wght</key>
+        <real>575.0</real>
+      </dict>
+      <key>com.letterror.skateboard.previewText</key>
+      <string>SKATE</string>
+    </dict>
+  </lib>
+</designspace>
