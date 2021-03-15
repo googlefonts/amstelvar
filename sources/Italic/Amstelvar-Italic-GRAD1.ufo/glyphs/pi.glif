@@ -1,42 +1,36 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="pi" format="2">
-	<unicode hex="03C0"/>
-	<advance width="1201"/>
-	<outline>
-		<contour>
-			<point x="1126" y="788" type="line"/>
-			<point x="-26" y="812" type="line"/>
-			<point x="-11" y="915" type="line"/>
-			<point x="142" y="991" type="line"/>
-			<point x="1135" y="1010" type="line"/>
-			<point x="1177" y="931" type="line"/>
-		</contour>
-		<contour>
-			<point x="69" y="-17" type="line"/>
-			<point x="-28" y="46" type="line"/>
-			<point x="123" y="512" type="line"/>
-			<point x="235" y="880" type="line"/>
-			<point x="426" y="880" type="line"/>
-			<point x="353" y="524" type="line"/>
-			<point x="252" y="5" type="line"/>
-		</contour>
-		<contour>
-			<point x="621" y="-15" type="line"/>
-			<point x="579" y="76" type="line"/>
-			<point x="672" y="512" type="line"/>
-			<point x="741" y="880" type="line"/>
-			<point x="955" y="880" type="line"/>
-			<point x="896" y="524" type="line"/>
-			<point x="837" y="153" type="line"/>
-			<point x="963" y="153" type="line"/>
-			<point x="965" y="47" type="line"/>
-		</contour>
-	</outline>
-	<guideline x="2" y="809" angle="79" identifier="FDyAxCpi3u"/>
-	<lib>
-		<dict>
-			<key>public.markColor</key>
-			<string>0.989,0.4357,0.8117,1</string>
-		</dict>
-	</lib>
+  <advance width="1201"/>
+  <unicode hex="03C0"/>
+  <guideline x="2" y="809" angle="79" identifier="FDyAxCpi3u"/>
+  <outline>
+    <contour>
+      <point x="1126" y="788" type="line"/>
+      <point x="-26" y="812" type="line"/>
+      <point x="-11" y="915" type="line"/>
+      <point x="142" y="991" type="line"/>
+      <point x="1135" y="1010" type="line"/>
+      <point x="1177" y="931" type="line"/>
+    </contour>
+    <contour>
+      <point x="69" y="-17" type="line"/>
+      <point x="-28" y="46" type="line"/>
+      <point x="123" y="512" type="line"/>
+      <point x="235" y="880" type="line"/>
+      <point x="426" y="880" type="line"/>
+      <point x="353" y="524" type="line"/>
+      <point x="252" y="5" type="line"/>
+    </contour>
+    <contour>
+      <point x="621" y="-15" type="line"/>
+      <point x="579" y="76" type="line"/>
+      <point x="672" y="512" type="line"/>
+      <point x="741" y="880" type="line"/>
+      <point x="955" y="880" type="line"/>
+      <point x="896" y="524" type="line"/>
+      <point x="837" y="153" type="line"/>
+      <point x="963" y="153" type="line"/>
+      <point x="965" y="47" type="line"/>
+    </contour>
+  </outline>
 </glyph>
