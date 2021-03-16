@@ -5,10 +5,8 @@
     <key>com.defcon.sortDescriptor</key>
     <array>
       <dict>
-        <key>allowPseudoUnicode</key>
-        <integer>0</integer>
         <key>ascending</key>
-        <string>Roboto Flex</string>
+        <string>Latin-1</string>
         <key>type</key>
         <string>characterSet</string>
       </dict>
@@ -1417,7 +1415,6 @@
     </dict>
     <key>public.glyphOrder</key>
     <array>
-      <string>CR</string>
       <string>space</string>
       <string>exclam</string>
       <string>quotedbl</string>
@@ -1513,7 +1510,6 @@
       <string>bar</string>
       <string>braceright</string>
       <string>asciitilde</string>
-      <string>nbspace</string>
       <string>exclamdown</string>
       <string>cent</string>
       <string>sterling</string>
@@ -1525,7 +1521,6 @@
       <string>copyright</string>
       <string>ordfeminine</string>
       <string>logicalnot</string>
-      <string>softhyphen</string>
       <string>registered</string>
       <string>macron</string>
       <string>degree</string>
@@ -1533,7 +1528,7 @@
       <string>twosuperior</string>
       <string>threesuperior</string>
       <string>acute</string>
-      <string>micro</string>
+      <string>mu</string>
       <string>paragraph</string>
       <string>periodcentered</string>
       <string>cedilla</string>
@@ -1568,6 +1563,7 @@
       <string>Odieresis</string>
       <string>multiply</string>
       <string>Oslash</string>
+      <string>OE</string>
       <string>Ugrave</string>
       <string>Uacute</string>
       <string>Ucircumflex</string>
@@ -1600,6 +1596,7 @@
       <string>odieresis</string>
       <string>divide</string>
       <string>oslash</string>
+      <string>oe</string>
       <string>ugrave</string>
       <string>uacute</string>
       <string>ucircumflex</string>
@@ -1607,6 +1604,21 @@
       <string>yacute</string>
       <string>thorn</string>
       <string>ydieresis</string>
+      <string>circumflex</string>
+      <string>caron</string>
+      <string>breve</string>
+      <string>dotaccent</string>
+      <string>ring</string>
+      <string>ogonek</string>
+      <string>tilde</string>
+      <string>hungarumlaut</string>
+      <string>quoteleft</string>
+      <string>quoteright</string>
+      <string>minus</string>
+      <string>CR</string>
+      <string>nbspace</string>
+      <string>softhyphen</string>
+      <string>micro</string>
       <string>Amacron</string>
       <string>amacron</string>
       <string>Abreve</string>
@@ -1687,8 +1699,6 @@
       <string>obreve</string>
       <string>Ohungarumlaut</string>
       <string>ohungarumlaut</string>
-      <string>OE</string>
-      <string>oe</string>
       <string>Racute</string>
       <string>racute</string>
       <string>Rcommaaccent</string>
@@ -1797,15 +1807,7 @@
       <string>primemod</string>
       <string>doubleprimemod</string>
       <string>apostrophemod</string>
-      <string>circumflex</string>
-      <string>caron</string>
       <string>firsttonechinese</string>
-      <string>breve</string>
-      <string>dotaccent</string>
-      <string>ring</string>
-      <string>ogonek</string>
-      <string>tilde</string>
-      <string>hungarumlaut</string>
       <string>gravecomb</string>
       <string>acutecomb</string>
       <string>circumflexcomb</string>
@@ -1929,8 +1931,6 @@
       <string>endash</string>
       <string>emdash</string>
       <string>horizontalbar</string>
-      <string>quoteleft</string>
-      <string>quoteright</string>
       <string>quotesinglbase</string>
       <string>quotedblleft</string>
       <string>quotedblright</string>
@@ -1959,7 +1959,6 @@
       <string>ruble</string>
       <string>numero</string>
       <string>trademark</string>
-      <string>minus</string>
       <string>divisionslash</string>
       <string>bulletoperator</string>
       <string>approxequal</string>
@@ -2319,7 +2318,6 @@
       <string>iotadieresis</string>
       <string>kappa</string>
       <string>lambda</string>
-      <string>mu</string>
       <string>nu</string>
       <string>xi</string>
       <string>omicron</string>
