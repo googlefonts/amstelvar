@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="abrevehookabove" format="2">
-	<unicode hex="1EB3"/>
-	<advance width="1096"/>
-	<outline>
-		<component base="a"/>
-		<component base="brevecomb" xOffset="4" yOffset="-30"/>
-		<component base="hookabovecomb" xOffset="5" yOffset="410"/>
-	</outline>
+  <advance width="1096"/>
+  <unicode hex="1EB3"/>
+  <outline>
+    <component base="a"/>
+    <component base="brevecomb" xOffset="32" yOffset="-30"/>
+    <component base="hookabovecomb" xOffset="2" yOffset="430"/>
+  </outline>
 </glyph>
