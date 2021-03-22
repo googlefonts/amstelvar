@@ -3,55 +3,7 @@
   <advance width="1628"/>
   <unicode hex="03D7"/>
   <outline>
-    <contour>
-      <point x="104" y="7" type="line"/>
-      <point x="104" y="781" type="line"/>
-      <point x="97" y="1058" type="line"/>
-      <point x="569" y="1093" type="line"/>
-      <point x="604" y="1068" type="line"/>
-      <point x="598" y="781" type="line"/>
-      <point x="592" y="7" type="line"/>
-    </contour>
-    <contour>
-      <point x="504" y="211" type="line"/>
-      <point x="504" y="567" type="line"/>
-      <point x="922" y="912" type="line" smooth="yes"/>
-      <point x="1029" y="1015"/>
-      <point x="1209" y="1093"/>
-      <point x="1368" y="1095" type="qcurve"/>
-      <point x="1404" y="1070" type="line"/>
-      <point x="1400" y="725" type="line"/>
-      <point x="1252" y="725"/>
-      <point x="1113" y="646"/>
-      <point x="1028" y="580" type="qcurve" smooth="yes"/>
-    </contour>
-    <contour>
-      <point x="829" y="-581" type="qcurve" smooth="yes"/>
-      <point x="505" y="-581"/>
-      <point x="113" y="-369"/>
-      <point x="16" y="-225" type="qcurve"/>
-      <point x="166" y="-81" type="line"/>
-      <point x="256" y="-173"/>
-      <point x="573" y="-307"/>
-      <point x="775" y="-307" type="qcurve" smooth="yes"/>
-      <point x="1066" y="-307"/>
-      <point x="1221" y="-172" type="qcurve" smooth="yes"/>
-      <point x="1304" y="-100"/>
-      <point x="1338" y="12" type="qcurve"/>
-      <point x="1231" y="-8" type="line"/>
-      <point x="1085" y="-11"/>
-      <point x="952" y="94"/>
-      <point x="896" y="182" type="qcurve" smooth="yes"/>
-      <point x="723" y="454" type="line"/>
-      <point x="1036" y="780" type="line"/>
-      <point x="1311" y="296" type="line"/>
-      <point x="1327" y="273"/>
-      <point x="1342" y="254" type="qcurve" smooth="yes"/>
-      <point x="1355" y="237"/>
-      <point x="1404" y="235" type="qcurve"/>
-      <point x="1701" y="239" type="line"/>
-      <point x="1716" y="-184"/>
-      <point x="1236" y="-581"/>
-    </contour>
+    <component base="kappa" xOffset="-8"/>
+    <component base="kai-tail"/>
   </outline>
 </glyph>
