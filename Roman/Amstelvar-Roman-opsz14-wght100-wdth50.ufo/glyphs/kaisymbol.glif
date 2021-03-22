@@ -1,30 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="kaisymbol" format="2">
-	<unicode hex="03D7"/>
-	<advance width="732"/>
-	<outline>
-		<contour>
-			<point x="316" y="-510" type="qcurve" smooth="yes"/>
-			<point x="171" y="-510"/>
-			<point x="-35" y="-373"/>
-			<point x="-94" y="-226" type="qcurve"/>
-			<point x="-53" y="-199" type="line"/>
-			<point x="4" y="-323"/>
-			<point x="185" y="-448"/>
-			<point x="315" y="-448" type="qcurve" smooth="yes"/>
-			<point x="499" y="-448"/>
-			<point x="696" y="-146"/>
-			<point x="684" y="66" type="qcurve"/>
-			<point x="753" y="66" type="line"/>
-			<point x="767" y="-177"/>
-			<point x="535" y="-510"/>
-		</contour>
-		<component base="kappa"/>
-	</outline>
-	<lib>
-		<dict>
-			<key>public.markColor</key>
-			<string>0.989,0.4357,0.8117,1</string>
-		</dict>
-	</lib>
+  <advance width="732"/>
+  <unicode hex="03D7"/>
+  <outline>
+    <component base="kappa"/>
+    <component base="kai-tail"/>
+  </outline>
 </glyph>
