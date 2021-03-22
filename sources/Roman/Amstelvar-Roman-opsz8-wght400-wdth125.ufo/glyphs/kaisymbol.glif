@@ -3,54 +3,7 @@
   <advance width="1495"/>
   <unicode hex="03D7"/>
   <outline>
-    <contour>
-      <point x="198" y="2" type="line"/>
-      <point x="198" y="522" type="line"/>
-      <point x="190" y="1043" type="line"/>
-      <point x="376" y="1055" type="line"/>
-      <point x="405" y="1033" type="line"/>
-      <point x="400" y="550" type="line"/>
-      <point x="397" y="2" type="line"/>
-    </contour>
-    <contour>
-      <point x="364" y="227" type="line"/>
-      <point x="364" y="394" type="line"/>
-      <point x="957" y="893" type="line" smooth="yes"/>
-      <point x="1081" y="998"/>
-      <point x="1233" y="1056"/>
-      <point x="1358" y="1055" type="qcurve"/>
-      <point x="1386" y="1034" type="line"/>
-      <point x="1372" y="866" type="line"/>
-      <point x="1212" y="864"/>
-      <point x="1042" y="769"/>
-      <point x="937" y="683" type="qcurve" smooth="yes"/>
-    </contour>
-    <contour>
-      <point x="803" y="-525" type="qcurve" smooth="yes"/>
-      <point x="558" y="-525"/>
-      <point x="170" y="-350"/>
-      <point x="57" y="-201" type="qcurve"/>
-      <point x="150" y="-124" type="line"/>
-      <point x="230" y="-216"/>
-      <point x="560" y="-383"/>
-      <point x="806" y="-383" type="qcurve" smooth="yes"/>
-      <point x="1122" y="-383"/>
-      <point x="1277" y="-241" type="qcurve" smooth="yes"/>
-      <point x="1388" y="-138"/>
-      <point x="1419" y="18" type="qcurve"/>
-      <point x="1253" y="-7" type="line"/>
-      <point x="1161" y="-7"/>
-      <point x="1078" y="48"/>
-      <point x="1046" y="97" type="qcurve"/>
-      <point x="698" y="566" type="line"/>
-      <point x="836" y="683" type="line"/>
-      <point x="1174" y="220" type="line" smooth="yes"/>
-      <point x="1205" y="180"/>
-      <point x="1271" y="146"/>
-      <point x="1356" y="146" type="qcurve" smooth="yes"/>
-      <point x="1586" y="147" type="line"/>
-      <point x="1614" y="-135"/>
-      <point x="1191" y="-525"/>
-    </contour>
+    <component base="kappa" xScale="0.9787404628" yScale="0.9922708443" yOffset="2"/>
+    <component base="kai-tail"/>
   </outline>
 </glyph>
