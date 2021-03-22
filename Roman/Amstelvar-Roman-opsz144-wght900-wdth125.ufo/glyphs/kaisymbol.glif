@@ -3,54 +3,7 @@
   <advance width="1878"/>
   <unicode hex="03D7"/>
   <outline>
-    <contour>
-      <point x="169" y="-1" type="line"/>
-      <point x="178" y="321" type="line"/>
-      <point x="167" y="955" type="line"/>
-      <point x="566" y="984" type="line"/>
-      <point x="654" y="919" type="line"/>
-      <point x="640" y="309" type="line"/>
-      <point x="638" y="-1" type="line"/>
-    </contour>
-    <contour>
-      <point x="562" y="165" type="line"/>
-      <point x="562" y="276" type="line"/>
-      <point x="1097" y="774" type="line" smooth="yes"/>
-      <point x="1223" y="891"/>
-      <point x="1416" y="985"/>
-      <point x="1584" y="984" type="qcurve"/>
-      <point x="1672" y="919" type="line"/>
-      <point x="1624" y="692" type="line"/>
-      <point x="1309" y="692"/>
-      <point x="1087" y="603"/>
-      <point x="948" y="487" type="qcurve" smooth="yes"/>
-    </contour>
-    <contour>
-      <point x="893" y="-518" type="qcurve" smooth="yes"/>
-      <point x="549" y="-518"/>
-      <point x="99" y="-309"/>
-      <point x="-22" y="-196" type="qcurve"/>
-      <point x="44" y="-103" type="line"/>
-      <point x="170" y="-201"/>
-      <point x="554" y="-334"/>
-      <point x="837" y="-334" type="qcurve" smooth="yes"/>
-      <point x="1169" y="-334"/>
-      <point x="1402" y="-187" type="qcurve" smooth="yes"/>
-      <point x="1567" y="-83"/>
-      <point x="1605" y="20" type="qcurve"/>
-      <point x="1362" y="-11" type="line"/>
-      <point x="1237" y="-14"/>
-      <point x="1076" y="30"/>
-      <point x="1019" y="118" type="qcurve" smooth="yes"/>
-      <point x="809" y="443" type="line"/>
-      <point x="1085" y="669" type="line"/>
-      <point x="1476" y="190" type="line" smooth="yes"/>
-      <point x="1508" y="152"/>
-      <point x="1587" y="105"/>
-      <point x="1645" y="105" type="qcurve" smooth="yes"/>
-      <point x="1870" y="105" type="line"/>
-      <point x="1864" y="-132"/>
-      <point x="1322" y="-518"/>
-    </contour>
+    <component base="kappa"/>
+    <component base="kai-tail"/>
   </outline>
 </glyph>
