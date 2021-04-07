@@ -275,8 +275,8 @@ sources = [
 	dict(path="master_ufo/Amstelvar-Italic.ufo", name="Amstelvar-Italic.ufo", location=dict( wght=400, wdth=100, opsz=0, GRAD=0), styleName="Regular", familyName=familyName, copyInfo=True),
 	
 ##	Main 
-	dict(path="master_ufo/Amstelvar-Italic-GRAD-1.ufo", name="Amstelvar-Italic-GRAD-1.ufo", location=dict(GRAD=-1, opsz=0), styleName="GRAD-1", familyName=familyName, copyInfo=False),
-	dict(path="master_ufo/Amstelvar-Italic-GRAD1.ufo", name="Amstelvar-Italic-GRAD1.ufo", location=dict(GRAD=1, opsz=0), styleName="GRAD1", familyName=familyName, copyInfo=False),	
+	dict(path="master_ufo/Amstelvar-Italic-GRAD-300.ufo", name="Amstelvar-Italic-GRAD-300.ufo", location=dict(GRAD=-300, opsz=0), styleName="GRAD-300", familyName=familyName, copyInfo=False),
+	dict(path="master_ufo/Amstelvar-Italic-GRAD500.ufo", name="Amstelvar-Italic-GRAD500.ufo", location=dict(GRAD=500, opsz=0), styleName="GRAD500", familyName=familyName, copyInfo=False),	
 	dict(path="master_ufo/Amstelvar-Italic-opsz14-wght100-wdth100.ufo", name="Amstelvar-Italic-opsz14-wght100-wdth100.ufo", location=dict(wght=100, opsz=0), styleName="wght100", familyName=familyName, copyInfo=False),
 	dict(path="master_ufo/Amstelvar-Italic-opsz14-wght900-wdth100.ufo", name="Amstelvar-Italic-opsz14-wght900-wdth100.ufo", location=dict(wght=900, opsz=0), styleName="wght900", familyName=familyName, copyInfo=False),
 	dict(path="master_ufo/Amstelvar-Italic-opsz8.ufo", name="Amstelvar-Italic-opsz8.ufo", location=dict(opsz=-1), styleName="opsz8", familyName=familyName, copyInfo=False),
@@ -342,7 +342,7 @@ axes = [
 	dict(minimum=100, maximum=900, default=400, name="wght", tag="wght", labelNames={"en": "wght"}, map=[]),
 	dict(minimum=50, maximum=125, default=100, name="wdth", tag="wdth", labelNames={"en": "wdth"}, map=[]),
 	dict(minimum=8, maximum=144, default=14, name="opsz", tag="opsz", labelNames={"en": "opsz"}, map=[ (8.0, -1), (14.0, 0), (24.0, 0.077), (36.0, 0.492), (84.0, 0.946), (144.0, 1.0) ]),
-	dict(minimum=-1, maximum=1, default=0, name="GRAD", tag="GRAD", labelNames={"en": "GRAD"}, map=[]),
+	dict(minimum=-300, maximum=500, default=0, name="GRAD", tag="GRAD", labelNames={"en": "GRAD"}, map=[]),
 #	dict(minimum=444, maximum=1104, default=980, name="XTRA", tag="XTRA", labelNames={"en": "XTRA"}, map=[]),
 # 	dict(minimum=36, maximum=526, default=176, name="XOPQ", tag="XOPQ", labelNames={"en": "XOPQ"}, map=[]),
 	dict(minimum=18, maximum=263, default=54, name="YOPQ", tag="YOPQ", labelNames={"en": "YOPQ"}, map=[]),
