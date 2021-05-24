@@ -1,9 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Ohorn" format="2">
-	<unicode hex="01A0"/>
-	<advance width="1664"/>
-	<outline>
-		<component base="O"/>
-		<component base="horncomb.case" xOffset="905" yOffset="-39"/>
-	</outline>
+  <advance width="1664"/>
+  <unicode hex="01A0"/>
+  <outline>
+    <component base="O"/>
+    <component base="horncomb.case" xOffset="721" yOffset="-1"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.2584,0.6182,0.2767,1</string>
+    </dict>
+  </lib>
 </glyph>
