@@ -7,14 +7,14 @@
 			<point x="77" y="0" type="line"/>
 			<point x="77" y="80" type="line"/>
 			<point x="245" y="115" type="line"/>
-			<point x="247" y="527" type="line"/>
-			<point x="240" y="842" type="line"/>
-			<point x="72" y="872" type="line"/>
-			<point x="72" y="966" type="line"/>
-			<point x="350" y="1000" type="line"/>
-			<point x="397" y="1000" type="line"/>
-			<point x="420" y="961" type="line"/>
-			<point x="413" y="527" type="line"/>
+			<point x="247" y="577" type="line"/>
+			<point x="240" y="982" type="line"/>
+			<point x="72" y="1012" type="line"/>
+			<point x="72" y="1106" type="line"/>
+			<point x="350" y="1140" type="line"/>
+			<point x="397" y="1140" type="line"/>
+			<point x="420" y="1101" type="line"/>
+			<point x="413" y="577" type="line"/>
 			<point x="415" y="115" type="line"/>
 			<point x="583" y="80" type="line"/>
 			<point x="583" y="0" type="line"/>
@@ -48,4 +48,10 @@
 			<point x="354" y="1282"/>
 		</contour>
 	</outline>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0.251,0.5019,0.009,1</string>
+		</dict>
+	</lib>
 </glyph>
