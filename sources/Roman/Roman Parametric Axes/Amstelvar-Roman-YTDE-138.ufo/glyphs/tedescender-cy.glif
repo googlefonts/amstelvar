@@ -6,8 +6,8 @@
 		<contour>
 			<point x="609" y="105" type="line"/>
 			<point x="769" y="105" type="line"/>
-			<point x="779" y="-318" type="line"/>
-			<point x="687" y="-318" type="line"/>
+			<point x="779" y="-276" type="line"/>
+			<point x="687" y="-276" type="line"/>
 			<point x="598" y="0" type="line"/>
 			<point x="290" y="0" type="line"/>
 			<point x="290" y="80" type="line"/>
@@ -29,4 +29,10 @@
 	<guideline x="302" y="625" angle="90" identifier="0glbwjr6f1"/>
 	<guideline x="953" y="554" angle="90" identifier="41A0uQDzZV"/>
 	<guideline x="627" y="553" angle="90" identifier="rA3XBl1QkZ"/>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0.251,0.5019,0.009,1</string>
+		</dict>
+	</lib>
 </glyph>

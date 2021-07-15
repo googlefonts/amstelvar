@@ -12,12 +12,12 @@
 			<point x="609" y="527" type="line"/>
 			<point x="608" y="964" type="line"/>
 			<point x="604" y="978" type="line"/>
-			<point x="603" y="1376" type="line"/>
-			<point x="417" y="1406" type="line"/>
-			<point x="417" y="1500" type="line"/>
-			<point x="713" y="1534" type="line"/>
-			<point x="745" y="1534" type="line"/>
-			<point x="773" y="1502" type="line"/>
+			<point x="603" y="1842" type="line"/>
+			<point x="417" y="1872" type="line"/>
+			<point x="417" y="1966" type="line"/>
+			<point x="713" y="2000" type="line"/>
+			<point x="745" y="2000" type="line"/>
+			<point x="773" y="1968" type="line"/>
 			<point x="772" y="976" type="line"/>
 			<point x="768" y="961" type="line"/>
 			<point x="767" y="527" type="line"/>
@@ -60,4 +60,10 @@
 			<point x="1312" y="741"/>
 		</contour>
 	</outline>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0.251,0.5019,0.009,1</string>
+		</dict>
+	</lib>
 </glyph>

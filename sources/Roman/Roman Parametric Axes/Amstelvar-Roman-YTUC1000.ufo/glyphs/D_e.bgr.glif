@@ -3,17 +3,17 @@
 	<advance width="1557"/>
 	<outline>
 		<contour>
-			<point x="1215" y="0" type="line"/>
-			<point x="954" y="699" type="line"/>
-			<point x="746" y="1248" type="line"/>
-			<point x="541" y="695" type="line"/>
-			<point x="286" y="0" type="line"/>
-			<point x="142" y="0" type="line"/>
-			<point x="424" y="746" type="line"/>
-			<point x="713" y="1508" type="line"/>
-			<point x="835" y="1508" type="line"/>
-			<point x="1122" y="760" type="line"/>
-			<point x="1414" y="0" type="line"/>
+			<point x="1204" y="0" type="line"/>
+			<point x="930" y="995" type="line"/>
+			<point x="748" y="1651" type="line"/>
+			<point x="549" y="920" type="line"/>
+			<point x="300" y="0" type="line"/>
+			<point x="157" y="0" type="line"/>
+			<point x="422" y="959" type="line"/>
+			<point x="713" y="2008" type="line"/>
+			<point x="835" y="2008" type="line"/>
+			<point x="1106" y="1044" type="line"/>
+			<point x="1402" y="0" type="line"/>
 		</contour>
 		<contour>
 			<point x="1405" y="-338" type="line"/>
@@ -26,4 +26,10 @@
 			<point x="1527" y="-338" type="line"/>
 		</contour>
 	</outline>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0.251,0.5019,0.009,1</string>
+		</dict>
+	</lib>
 </glyph>
