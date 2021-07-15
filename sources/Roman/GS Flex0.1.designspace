@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<designspace format="4.0">
+  <axes>
+    <axis tag="wght" name="wght" minimum="2" maximum="800" default="400">
+      <labelname xml:lang="en">weight</labelname>
+    </axis>
+    <axis tag="opsz" name="opsz" minimum="6" maximum="144" default="18">
+      <labelname xml:lang="en">size</labelname>
+    </axis>
+    <axis tag="GRAD" name="GRAD" minimum="-50" maximum="50" default="0">
+      <labelname xml:lang="en">grade</labelname>
+    </axis>
+    <axis tag="XTRA" name="XTRA" minimum="-25" maximum="25" default="0">
+      <labelname xml:lang="en">counter</labelname>
+    </axis>
+  </axes>
+</designspace>
