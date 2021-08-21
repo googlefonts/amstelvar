@@ -1,15 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ebrevecyr" format="2">
-	<unicode hex="F525"/>
-	<advance width="1081"/>
-	<outline>
-		<component base="ecyr"/>
-		<component base="breve.cyr" xOffset="17"/>
-	</outline>
-	<lib>
-		<dict>
-			<key>public.markColor</key>
-			<string>0.251,0.5019,0.009,1</string>
-		</dict>
-	</lib>
+  <advance width="1081"/>
+  <unicode hex="F525"/>
+  <outline>
+    <component base="ecyr"/>
+    <component base="breve.cyr" xOffset="11" yOffset="140"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.8337,1,0.1931,1</string>
+    </dict>
+  </lib>
 </glyph>

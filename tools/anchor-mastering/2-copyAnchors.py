@@ -4,9 +4,9 @@ dstFont = CurrentFont()
 
 # iterate over selected glyphs in the source font
 
-selectedGlyphsUC = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', 'AE', 'Oslash', 'hornU']
+selectedGlyphsUC = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', 'AE', 'Oslash', 'hornU', 'Acyr', 'Ie', 'Zhe', 'Icyr', 'Ka', 'Ocyr', 'Ucyr', 'Ecyr', 'Yu', 'Ya' ]
 
-selectedGlyphslc = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', 'idotless', 'jdotless', 'ae', 'oslash', 'hornu']
+selectedGlyphslc = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', 'idotless', 'jdotless', 'ae', 'oslash', 'hornu', 'acyr', 'ie', 'zhe', 'icyr', 'ka', 'ocyr', 'ucyr', 'ecyr', 'yu', 'ya' ]
 
 #selectedGlyphsAccents = ['brevecomb', 'acutecomb', 'tildecomb', 'dblgravecomb', 'macroncomb', 'dotaccentcomb', 'horncomb', 'dieresiscomb', 'ringcomb', 'circumflexcomb', 'breveinvertedcomb', 'gravecomb', 'caroncomb', 'hookabovecomb', 'hungarumlautcomb', 'breveacutecomb', 'circumflexgravecomb', 'circumflexhookabovecomb', 'circumflextildecomb', 'brevehookabovecomb', 'circumflexacutecomb', 'brevetildecomb', 'brevegravecomb', 'circumflexacutecomb.case', 'brevehookabovecomb.case', 'circumflextildecomb.case', 'brevegravecomb.case', 'circumflexhookabovecomb.case', 'breveacutecomb.case', 'circumflexgravecomb.case', 'brevetildecomb.case', 'breve.cyr', 'breve.cyr.case', 'gravecomb.case', 'acutecomb.case', 'circumflexcomb.case', 'tildecomb.case', 'macroncomb.case', 'brevecomb.case', 'dotaccentcomb.case', 'dieresiscomb.case', 'hookabovecomb.case', 'ringcomb.case', 'hungarumlautcomb.case', 'caroncomb.case', 'breveinvertedcomb.case', 'dblgravecomb.case', 'horncomb.case', 'dotbelowcomb.case', 'dieresisbelowcomb.case', 'commaaccentcomb.case', 'cedillacomb.case', 'ogonekcomb.case', 'brevebelowcomb.case', 'macronbelowcomb.case', 'dotbelowcomb', 'dieresisbelowcomb', 'commaaccentcomb', 'cedillacomb', 'ogonekcomb', 'brevebelowcomb', 'macronbelowcomb', 'caroncomb.alt', 'acutecombstack.case', 'brevecombstack.case', 'circumflexcombstack.case', 'dieresiscombstack.case', 'dotaccentcombstack.case', 'gravecombstack.case', 'hookabovecombstack.case', 'macroncombstack.case', 'tildecombstack.case'  ]
 
@@ -56,7 +56,7 @@ def copyAnchors(selectedGlyphs, yPositioning):
                     dstGlyph.appendAnchor(anchor.name, ( ( dstGlyph.width ) / 2, abs(dstFont[dstGlyph.name].topMargin) ))
                 else:
                     if dstGlyph.name == 'b' or dstGlyph.name == 'd' or dstGlyph.name == 'f' or dstGlyph.name == 'h' or dstGlyph.name == 'k' or dstGlyph.name == 'l' or dstGlyph.name == 't':
-                        dstGlyph.appendAnchor(anchor.name, ( ( dstGlyph.width ) / 2, dstGlyph.topMargin ))
+                        dstGlyph.appendAnchor(anchor.name, ( ( dstGlyph.width ) / 2, abs(dstGlyph.topMargin) ))
                     else:
                         dstGlyph.appendAnchor(anchor.name, ( ( dstGlyph.width ) / 2, yPositioning ))
                 #dstGlyph.appendAnchor(anchor.name, ( ( dstGlyph.width ) / 2, yPositioning ))
