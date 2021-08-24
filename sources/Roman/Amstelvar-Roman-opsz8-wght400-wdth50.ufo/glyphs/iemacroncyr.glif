@@ -1,15 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="iemacroncyr" format="2">
-	<unicode hex="F511"/>
-	<advance width="774"/>
-	<outline>
-		<component base="ie"/>
-		<component base="macron" xOffset="-81" yOffset="47"/>
-	</outline>
-	<lib>
-		<dict>
-			<key>public.markColor</key>
-			<string>1,0.868,0.7015,1</string>
-		</dict>
-	</lib>
+  <advance width="774"/>
+  <unicode hex="F511"/>
+  <outline>
+    <component base="ie"/>
+    <component base="macroncomb" xOffset="-84"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.8337,1,0.1931,1</string>
+    </dict>
+  </lib>
 </glyph>

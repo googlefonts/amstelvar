@@ -1,20 +1,28 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="caroncomb.case" format="2">
-	<advance width="1024"/>
-	<outline>
-		<contour>
-			<point x="512" y="1635" type="qcurve" smooth="yes"/>
-			<point x="483" y="1635"/>
-			<point x="411" y="1676"/>
-			<point x="363" y="1726" type="qcurve" smooth="yes"/>
-			<point x="212" y="1917" type="line"/>
-			<point x="286" y="1959" type="line"/>
-			<point x="512" y="1740" type="line"/>
-			<point x="744" y="1966" type="line"/>
-			<point x="812" y="1917" type="line"/>
-			<point x="661" y="1726" type="line" smooth="yes"/>
-			<point x="619" y="1674"/>
-			<point x="540" y="1635"/>
-		</contour>
-	</outline>
+  <advance width="1024"/>
+  <anchor x="512.0" y="1500" name="_top"/>
+  <anchor x="512.0" y="2028" name="top"/>
+  <outline>
+    <contour>
+      <point x="512" y="1700" type="qcurve" smooth="yes"/>
+      <point x="479" y="1700"/>
+      <point x="428" y="1733"/>
+      <point x="377" y="1787" type="qcurve" smooth="yes"/>
+      <point x="209" y="1979" type="line"/>
+      <point x="277" y="2028" type="line"/>
+      <point x="512" y="1818" type="line"/>
+      <point x="747" y="2028" type="line"/>
+      <point x="815" y="1979" type="line"/>
+      <point x="647" y="1787" type="line" smooth="yes"/>
+      <point x="600" y="1733"/>
+      <point x="549" y="1700"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.9908,1,0.037,1</string>
+    </dict>
+  </lib>
 </glyph>
