@@ -1,22 +1,24 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="breveinvertedcomb.case" format="2">
-	<advance width="1024"/>
-	<outline>
-		<contour>
-			<point x="128" y="1609" type="qcurve"/>
-			<point x="56" y="1648" type="line"/>
-			<point x="101" y="1748"/>
-			<point x="321" y="1897"/>
-			<point x="505" y="1897" type="qcurve" smooth="yes"/>
-			<point x="689" y="1897"/>
-			<point x="915" y="1766"/>
-			<point x="968" y="1650" type="qcurve"/>
-			<point x="896" y="1608" type="line"/>
-			<point x="860" y="1671"/>
-			<point x="662" y="1768"/>
-			<point x="512" y="1769" type="qcurve" smooth="yes"/>
-			<point x="360" y="1770"/>
-			<point x="170" y="1671"/>
-		</contour>
-	</outline>
+  <advance width="1024"/>
+  <anchor x="512.0" y="1500" name="_top"/>
+  <anchor x="512.0" y="1935" name="top"/>
+  <outline>
+    <contour>
+      <point x="128" y="1647" type="qcurve"/>
+      <point x="56" y="1686" type="line"/>
+      <point x="101" y="1786"/>
+      <point x="321" y="1935"/>
+      <point x="505" y="1935" type="qcurve" smooth="yes"/>
+      <point x="689" y="1935"/>
+      <point x="915" y="1804"/>
+      <point x="968" y="1688" type="qcurve"/>
+      <point x="896" y="1646" type="line"/>
+      <point x="860" y="1709"/>
+      <point x="662" y="1806"/>
+      <point x="512" y="1807" type="qcurve" smooth="yes"/>
+      <point x="360" y="1808"/>
+      <point x="170" y="1709"/>
+    </contour>
+  </outline>
 </glyph>

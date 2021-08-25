@@ -1,10 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Odieresismacron" format="2">
-	<unicode hex="022A"/>
-	<advance width="2000"/>
-	<outline>
-		<component base="O"/>
-		<component base="dieresiscombstack.case" xOffset="488" yOffset="59"/>
-		<component base="macroncombstack.case" xOffset="488" yOffset="502"/>
-	</outline>
+  <advance width="2000"/>
+  <unicode hex="022A"/>
+  <outline>
+    <component base="O"/>
+    <component base="dieresiscombstack.case" xOffset="488"/>
+    <component base="macroncombstack.case" xOffset="488" yOffset="536"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.8337,1,0.1931,1</string>
+    </dict>
+  </lib>
 </glyph>

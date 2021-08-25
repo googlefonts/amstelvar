@@ -1,34 +1,42 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="tildecomb.case" format="2">
-	<advance width="1024"/>
-	<outline>
-		<contour>
-			<point x="105" y="1773" type="line"/>
-			<point x="139" y="1829"/>
-			<point x="254" y="1943"/>
-			<point x="341" y="1943" type="qcurve" smooth="yes"/>
-			<point x="379" y="1943"/>
-			<point x="478" y="1921"/>
-			<point x="530" y="1889" type="qcurve" smooth="yes"/>
-			<point x="579" y="1859"/>
-			<point x="636" y="1838"/>
-			<point x="677" y="1838" type="qcurve" smooth="yes"/>
-			<point x="717" y="1838"/>
-			<point x="778" y="1873"/>
-			<point x="809" y="1916" type="qcurve"/>
-			<point x="907" y="1792" type="line"/>
-			<point x="870" y="1723"/>
-			<point x="753" y="1615"/>
-			<point x="687" y="1615" type="qcurve" smooth="yes"/>
-			<point x="624" y="1615"/>
-			<point x="531" y="1639"/>
-			<point x="495" y="1662" type="qcurve" smooth="yes"/>
-			<point x="458" y="1685"/>
-			<point x="387" y="1712"/>
-			<point x="358" y="1712" type="qcurve" smooth="yes"/>
-			<point x="309" y="1712"/>
-			<point x="224" y="1660"/>
-			<point x="205" y="1633" type="qcurve"/>
-		</contour>
-	</outline>
+  <advance width="1024"/>
+  <anchor x="512.0" y="1500" name="_top"/>
+  <anchor x="512.0" y="2074" name="top"/>
+  <outline>
+    <contour>
+      <point x="66" y="1890" type="line"/>
+      <point x="102" y="1959"/>
+      <point x="241" y="2074"/>
+      <point x="317" y="2074" type="qcurve" smooth="yes"/>
+      <point x="383" y="2074"/>
+      <point x="478" y="2037"/>
+      <point x="515" y="2012" type="qcurve" smooth="yes"/>
+      <point x="550" y="1988"/>
+      <point x="632" y="1942"/>
+      <point x="676" y="1942" type="qcurve" smooth="yes"/>
+      <point x="719" y="1942"/>
+      <point x="789" y="1984"/>
+      <point x="822" y="2031" type="qcurve"/>
+      <point x="935" y="1886" type="line"/>
+      <point x="899" y="1817"/>
+      <point x="758" y="1700"/>
+      <point x="682" y="1700" type="qcurve" smooth="yes"/>
+      <point x="616" y="1700"/>
+      <point x="525" y="1737"/>
+      <point x="486" y="1764" type="qcurve" smooth="yes"/>
+      <point x="453" y="1787"/>
+      <point x="372" y="1834"/>
+      <point x="325" y="1834" type="qcurve" smooth="yes"/>
+      <point x="282" y="1834"/>
+      <point x="212" y="1792"/>
+      <point x="179" y="1745" type="qcurve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.9908,1,0.037,1</string>
+    </dict>
+  </lib>
 </glyph>

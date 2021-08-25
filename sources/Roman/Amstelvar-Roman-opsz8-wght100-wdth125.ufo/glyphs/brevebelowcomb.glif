@@ -1,23 +1,25 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="brevebelowcomb" format="2">
-	<unicode hex="032E"/>
-	<advance width="1024"/>
-	<outline>
-		<contour>
-			<point x="781" y="-73" type="qcurve"/>
-			<point x="853" y="-112" type="line"/>
-			<point x="808" y="-212"/>
-			<point x="643" y="-341"/>
-			<point x="519" y="-341" type="qcurve" smooth="yes"/>
-			<point x="395" y="-341"/>
-			<point x="224" y="-230"/>
-			<point x="171" y="-114" type="qcurve"/>
-			<point x="243" y="-72" type="line"/>
-			<point x="279" y="-135"/>
-			<point x="422" y="-220"/>
-			<point x="512" y="-220" type="qcurve" smooth="yes"/>
-			<point x="603" y="-220"/>
-			<point x="739" y="-135"/>
-		</contour>
-	</outline>
+  <advance width="1024"/>
+  <unicode hex="032E"/>
+  <anchor x="512.0" y="0" name="_bottom"/>
+  <anchor x="512.0" y="-369" name="bottom"/>
+  <outline>
+    <contour>
+      <point x="796" y="-101" type="qcurve"/>
+      <point x="868" y="-140" type="line"/>
+      <point x="823" y="-240"/>
+      <point x="653" y="-369"/>
+      <point x="519" y="-369" type="qcurve" smooth="yes"/>
+      <point x="385" y="-369"/>
+      <point x="209" y="-258"/>
+      <point x="156" y="-142" type="qcurve"/>
+      <point x="228" y="-100" type="line"/>
+      <point x="264" y="-163"/>
+      <point x="412" y="-248"/>
+      <point x="512" y="-248" type="qcurve" smooth="yes"/>
+      <point x="613" y="-248"/>
+      <point x="754" y="-163"/>
+    </contour>
+  </outline>
 </glyph>
