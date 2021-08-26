@@ -2332,10 +2332,37 @@
       <string>tonoscomb</string>
       <string>tonos.case</string>
       <string>kai-tail</string>
+      <string>brevegravecomb</string>
+      <string>brevetildecomb</string>
+      <string>breveacutecomb</string>
+      <string>circumflextildecomb</string>
+      <string>circumflexacutecomb</string>
+      <string>brevehookabovecomb</string>
+      <string>circumflexgravecomb</string>
+      <string>circumflexhookabovecomb</string>
+      <string>brevegravecomb.case</string>
+      <string>circumflexgravecomb.case</string>
+      <string>breveacutecomb.case</string>
+      <string>circumflexhookabovecomb.case</string>
+      <string>brevehookabovecomb.case</string>
+      <string>circumflextildecomb.case</string>
+      <string>brevetildecomb.case</string>
+      <string>circumflexacutecomb.case</string>
     </array>
     <key>public.skipExportGlyphs</key>
     <array/>
     <key>tnCurvePalet</key>
+    <dict>
+      <key>sliderBottomMax</key>
+      <integer>80</integer>
+      <key>sliderBottomMin</key>
+      <integer>30</integer>
+      <key>sliderTopMax</key>
+      <integer>80</integer>
+      <key>sliderTopMin</key>
+      <integer>30</integer>
+    </dict>
+    <key>tnCurvePalette</key>
     <dict>
       <key>sliderBottomMax</key>
       <integer>80</integer>
