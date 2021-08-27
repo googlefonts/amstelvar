@@ -1,20 +1,22 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="gravecombstack.case" format="2">
-	<advance width="1024"/>
-	<outline>
-		<contour>
-			<point x="121" y="1922" type="qcurve" smooth="yes"/>
-			<point x="121" y="2006"/>
-			<point x="250" y="2146"/>
-			<point x="338" y="2146" type="qcurve" smooth="yes"/>
-			<point x="413" y="2146"/>
-			<point x="539" y="2053"/>
-			<point x="591" y="1986" type="qcurve" smooth="yes"/>
-			<point x="781" y="1734" type="line"/>
-			<point x="693" y="1620" type="line"/>
-			<point x="295" y="1727" type="line" smooth="yes"/>
-			<point x="234" y="1743"/>
-			<point x="121" y="1841"/>
-		</contour>
-	</outline>
+  <advance width="1024"/>
+  <anchor x="512.0" y="1500" name="_top"/>
+  <anchor x="512.0" y="2226" name="top"/>
+  <outline>
+    <contour>
+      <point x="121" y="2002" type="qcurve" smooth="yes"/>
+      <point x="121" y="2086"/>
+      <point x="250" y="2226"/>
+      <point x="338" y="2226" type="qcurve" smooth="yes"/>
+      <point x="413" y="2226"/>
+      <point x="539" y="2133"/>
+      <point x="591" y="2066" type="qcurve" smooth="yes"/>
+      <point x="781" y="1814" type="line"/>
+      <point x="693" y="1700" type="line"/>
+      <point x="295" y="1807" type="line" smooth="yes"/>
+      <point x="234" y="1823"/>
+      <point x="121" y="1921"/>
+    </contour>
+  </outline>
 </glyph>
