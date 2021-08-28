@@ -1,30 +1,38 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ogonekcomb.case" format="2">
-	<advance width="1024"/>
-	<outline>
-		<contour>
-			<point x="314" y="-283" type="qcurve" smooth="yes"/>
-			<point x="314" y="-179"/>
-			<point x="479" y="-27"/>
-			<point x="610" y="59" type="qcurve"/>
-			<point x="614" y="63" type="line"/>
-			<point x="702" y="6" type="line"/>
-			<point x="699" y="3" type="line"/>
-			<point x="599" y="-80"/>
-			<point x="528" y="-187"/>
-			<point x="528" y="-241" type="qcurve" smooth="yes"/>
-			<point x="528" y="-288"/>
-			<point x="626" y="-348"/>
-			<point x="701" y="-348" type="qcurve" smooth="yes"/>
-			<point x="778" y="-348"/>
-			<point x="900" y="-311"/>
-			<point x="955" y="-274" type="qcurve"/>
-			<point x="1018" y="-348" type="line"/>
-			<point x="974" y="-379"/>
-			<point x="775" y="-477"/>
-			<point x="626" y="-477" type="qcurve" smooth="yes"/>
-			<point x="468" y="-477"/>
-			<point x="314" y="-381"/>
-		</contour>
-	</outline>
+  <advance width="1024"/>
+  <anchor x="599.0" y="0" name="_ogonek"/>
+  <anchor x="512.0" y="-510.0" name="bottom"/>
+  <outline>
+    <contour>
+      <point x="153" y="-301.0" type="qcurve" smooth="yes"/>
+      <point x="153" y="-193.0"/>
+      <point x="336" y="-35.0"/>
+      <point x="457" y="35.0" type="qcurve" smooth="yes"/>
+      <point x="495" y="57.0" type="line"/>
+      <point x="599" y="0.0" type="line"/>
+      <point x="571" y="-20.0" type="line" smooth="yes"/>
+      <point x="472" y="-90.0"/>
+      <point x="401" y="-195.0"/>
+      <point x="401" y="-244.0" type="qcurve" smooth="yes"/>
+      <point x="401" y="-297.0"/>
+      <point x="508" y="-362.0"/>
+      <point x="591" y="-362.0" type="qcurve" smooth="yes"/>
+      <point x="669" y="-362.0"/>
+      <point x="810" y="-320.0"/>
+      <point x="882" y="-276.0" type="qcurve"/>
+      <point x="957" y="-369.0" type="line"/>
+      <point x="902" y="-417.0"/>
+      <point x="663" y="-510.0"/>
+      <point x="509" y="-510.0" type="qcurve" smooth="yes"/>
+      <point x="344" y="-510.0"/>
+      <point x="153" y="-395.0"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.9908,1,0.037,1</string>
+    </dict>
+  </lib>
 </glyph>

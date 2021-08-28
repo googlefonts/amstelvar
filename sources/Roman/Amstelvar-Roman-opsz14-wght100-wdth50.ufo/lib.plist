@@ -14,7 +14,7 @@
       </dict>
     </array>
     <key>com.typemytype.glyphBuilder.lastSavedFileName</key>
-    <string>Amstelvar-Roman</string>
+    <string>5-Amstelvar-Regular</string>
     <key>com.typemytype.robofont.compileSettings.autohint</key>
     <true/>
     <key>com.typemytype.robofont.compileSettings.checkOutlines</key>
@@ -2332,8 +2332,35 @@
       <string>tonoscomb</string>
       <string>tonos.case</string>
       <string>kai-tail</string>
+      <string>circumflextildecomb</string>
+      <string>brevehookabovecomb</string>
+      <string>brevegravecomb</string>
+      <string>circumflexhookabovecomb</string>
+      <string>breveacutecomb</string>
+      <string>brevetildecomb</string>
+      <string>circumflexgravecomb</string>
+      <string>circumflexacutecomb</string>
+      <string>breveacutecomb.case</string>
+      <string>brevetildecomb.case</string>
+      <string>brevegravecomb.case</string>
+      <string>circumflextildecomb.case</string>
+      <string>circumflexgravecomb.case</string>
+      <string>brevehookabovecomb.case</string>
+      <string>circumflexacutecomb.case</string>
+      <string>circumflexhookabovecomb.case</string>
     </array>
     <key>tnCurvePalet</key>
+    <dict>
+      <key>sliderBottomMax</key>
+      <integer>80</integer>
+      <key>sliderBottomMin</key>
+      <integer>30</integer>
+      <key>sliderTopMax</key>
+      <integer>80</integer>
+      <key>sliderTopMin</key>
+      <integer>30</integer>
+    </dict>
+    <key>tnCurvePalette</key>
     <dict>
       <key>sliderBottomMax</key>
       <integer>80</integer>

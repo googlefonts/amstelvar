@@ -4,6 +4,12 @@
   <unicode hex="04F0"/>
   <outline>
     <component base="Ucyr"/>
-    <component base="dieresiscomb.case" xOffset="713" yOffset="-1"/>
+    <component base="dieresiscomb.case" xOffset="530.5"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.8337,1,0.1931,1</string>
+    </dict>
+  </lib>
 </glyph>

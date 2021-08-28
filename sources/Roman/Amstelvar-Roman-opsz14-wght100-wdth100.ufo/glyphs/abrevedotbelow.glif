@@ -1,10 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="abrevedotbelow" format="2">
-	<unicode hex="1EB7"/>
-	<advance width="987"/>
-	<outline>
-		<component base="a"/>
-		<component base="brevecomb" xOffset="-47" yOffset="-17"/>
-		<component base="dotbelowcomb" xOffset="-79" yOffset="-26"/>
-	</outline>
+  <advance width="996"/>
+  <unicode hex="1EB7"/>
+  <outline>
+    <component base="abreve"/>
+    <component base="dotbelowcomb" xOffset="-14"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.8337,1,0.1931,1</string>
+    </dict>
+  </lib>
 </glyph>
