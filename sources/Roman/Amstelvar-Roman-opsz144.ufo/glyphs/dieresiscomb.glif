@@ -1,9 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="dieresiscomb" format="2">
-	<unicode hex="0308"/>
-	<advance width="896"/>
-	<outline>
-		<component base="dieresis"/>
-	</outline>
-	<anchor name="_GRKtop" x="448" y="955"/>
+  <advance width="896"/>
+  <unicode hex="0308"/>
+  <anchor x="448.0" y="920" name="_GRK_top"/>
+  <anchor x="448.0" y="920" name="_top"/>
+  <anchor x="448.0" y="1211.0" name="top"/>
+  <outline>
+    <component base="dieresis"/>
+  </outline>
 </glyph>

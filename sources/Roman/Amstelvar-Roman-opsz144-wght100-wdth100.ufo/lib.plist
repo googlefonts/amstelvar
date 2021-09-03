@@ -12,7 +12,7 @@
       </dict>
     </array>
     <key>com.typemytype.glyphBuilder.lastSavedFileName</key>
-    <string>Amstelvar-Roman-opsz-max-wghtmin</string>
+    <string>5-Amstelvar-Regular</string>
     <key>com.typemytype.robofont.compileSettings.autohint</key>
     <true/>
     <key>com.typemytype.robofont.compileSettings.checkOutlines</key>
@@ -36,13 +36,21 @@
     <integer>5</integer>
     <key>com.typemytype.robofont.guideline.magnetic.M8EGgiRgyS</key>
     <integer>5</integer>
+    <key>com.typemytype.robofont.guideline.magnetic.VpG7bMjRS9</key>
+    <real>5.0</real>
     <key>com.typemytype.robofont.guideline.magnetic.b6MZuFq2Rm</key>
     <integer>5</integer>
+    <key>com.typemytype.robofont.guideline.magnetic.z8f2bdog8b</key>
+    <real>5.0</real>
     <key>com.typemytype.robofont.guideline.showMeasurements.BfFj7tl4Ho</key>
     <false/>
     <key>com.typemytype.robofont.guideline.showMeasurements.M8EGgiRgyS</key>
     <false/>
+    <key>com.typemytype.robofont.guideline.showMeasurements.VpG7bMjRS9</key>
+    <false/>
     <key>com.typemytype.robofont.guideline.showMeasurements.b6MZuFq2Rm</key>
+    <false/>
+    <key>com.typemytype.robofont.guideline.showMeasurements.z8f2bdog8b</key>
     <false/>
     <key>com.typemytype.robofont.italicSlantOffset</key>
     <integer>0</integer>
@@ -1625,8 +1633,35 @@
       <string>Iacute_J.loclNLD</string>
       <string>iacute_j.loclNLD</string>
       <string>kai-tail</string>
+      <string>circumflextildecomb</string>
+      <string>breveacutecomb</string>
+      <string>circumflexacutecomb</string>
+      <string>brevegravecomb</string>
+      <string>circumflexgravecomb</string>
+      <string>brevetildecomb</string>
+      <string>brevehookabovecomb</string>
+      <string>circumflexhookabovecomb</string>
+      <string>circumflexacutecomb.case</string>
+      <string>circumflexhookabovecomb.case</string>
+      <string>circumflextildecomb.case</string>
+      <string>breveacutecomb.case</string>
+      <string>brevetildecomb.case</string>
+      <string>brevehookabovecomb.case</string>
+      <string>brevegravecomb.case</string>
+      <string>circumflexgravecomb.case</string>
     </array>
     <key>tnCurvePalet</key>
+    <dict>
+      <key>sliderBottomMax</key>
+      <integer>80</integer>
+      <key>sliderBottomMin</key>
+      <integer>30</integer>
+      <key>sliderTopMax</key>
+      <integer>80</integer>
+      <key>sliderTopMin</key>
+      <integer>30</integer>
+    </dict>
+    <key>tnCurvePalette</key>
     <dict>
       <key>sliderBottomMax</key>
       <integer>80</integer>
