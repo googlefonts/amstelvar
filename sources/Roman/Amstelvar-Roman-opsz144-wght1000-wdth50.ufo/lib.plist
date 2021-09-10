@@ -15,8 +15,10 @@
     </array>
     <key>com.typemytype.glyphBuilder.lastSavedFileName</key>
     <string>Amstelvar-Roman-opsz-max-wdthmin-wghtmax</string>
+    <key>com.typemytype.robofont.compileSettings.MacRomanFirst</key>
+    <false/>
     <key>com.typemytype.robofont.compileSettings.autohint</key>
-    <true/>
+    <integer>0</integer>
     <key>com.typemytype.robofont.compileSettings.checkOutlines</key>
     <false/>
     <key>com.typemytype.robofont.compileSettings.createDummyDSIG</key>
@@ -24,9 +26,13 @@
     <key>com.typemytype.robofont.compileSettings.decompose</key>
     <false/>
     <key>com.typemytype.robofont.compileSettings.generateFormat</key>
-    <integer>0</integer>
+    <integer>1</integer>
+    <key>com.typemytype.robofont.compileSettings.layerName</key>
+    <string>foreground</string>
+    <key>com.typemytype.robofont.compileSettings.path</key>
+    <string>/Users/iv/Documents/Github/Amstelvar/sources/Roman/GRK_Preview/Amstelvar-Roman-opsz144-wght900-wdth50.ttf</string>
     <key>com.typemytype.robofont.compileSettings.releaseMode</key>
-    <false/>
+    <integer>1</integer>
     <key>com.typemytype.robofont.foreground.layerStrokeColor</key>
     <array>
       <real>0.6580712795</real>
@@ -34,21 +40,25 @@
       <real>0.5572555065</real>
       <integer>1</integer>
     </array>
+    <key>com.typemytype.robofont.guideline.magnetic.4PGmo0pyRA</key>
+    <real>5.0</real>
     <key>com.typemytype.robofont.guideline.magnetic.BfFj7tl4Ho</key>
     <integer>5</integer>
-    <key>com.typemytype.robofont.guideline.magnetic.L8cyNK98tW</key>
-    <integer>5</integer>
+    <key>com.typemytype.robofont.guideline.magnetic.EIUoEl7KJ4</key>
+    <real>5.0</real>
     <key>com.typemytype.robofont.guideline.magnetic.M8EGgiRgyS</key>
     <integer>5</integer>
-    <key>com.typemytype.robofont.guideline.magnetic.zj4YLwwjt1</key>
-    <integer>5</integer>
+    <key>com.typemytype.robofont.guideline.magnetic.hJ7REcZKuG</key>
+    <real>5.0</real>
+    <key>com.typemytype.robofont.guideline.showMeasurements.4PGmo0pyRA</key>
+    <false/>
     <key>com.typemytype.robofont.guideline.showMeasurements.BfFj7tl4Ho</key>
     <false/>
-    <key>com.typemytype.robofont.guideline.showMeasurements.L8cyNK98tW</key>
+    <key>com.typemytype.robofont.guideline.showMeasurements.EIUoEl7KJ4</key>
     <false/>
     <key>com.typemytype.robofont.guideline.showMeasurements.M8EGgiRgyS</key>
     <false/>
-    <key>com.typemytype.robofont.guideline.showMeasurements.zj4YLwwjt1</key>
+    <key>com.typemytype.robofont.guideline.showMeasurements.hJ7REcZKuG</key>
     <false/>
     <key>com.typemytype.robofont.italicSlantOffset</key>
     <integer>0</integer>
@@ -57,7 +67,7 @@
     <key>com.typemytype.robofont.shouldAddPointsInSplineConversion</key>
     <integer>1</integer>
     <key>com.typemytype.robofont.smartSets.uniqueKey</key>
-    <string>4974373968</string>
+    <string>4897107152</string>
     <key>com.typesupply.defcon.sortDescriptor</key>
     <array>
       <dict>
@@ -1631,8 +1641,37 @@
       <string>tonoscomb</string>
       <string>tonos.case</string>
       <string>kai-tail</string>
+      <string>circumflextildecomb</string>
+      <string>brevetildecomb</string>
+      <string>circumflexhookabovecomb</string>
+      <string>circumflexgravecomb</string>
+      <string>brevehookabovecomb</string>
+      <string>brevegravecomb</string>
+      <string>breveacutecomb</string>
+      <string>circumflexacutecomb</string>
+      <string>breveacutecomb.case</string>
+      <string>circumflexacutecomb.case</string>
+      <string>circumflexgravecomb.case</string>
+      <string>brevegravecomb.case</string>
+      <string>circumflextildecomb.case</string>
+      <string>brevehookabovecomb.case</string>
+      <string>brevetildecomb.case</string>
+      <string>circumflexhookabovecomb.case</string>
     </array>
+    <key>public.skipExportGlyphs</key>
+    <array/>
     <key>tnCurvePalet</key>
+    <dict>
+      <key>sliderBottomMax</key>
+      <integer>80</integer>
+      <key>sliderBottomMin</key>
+      <integer>30</integer>
+      <key>sliderTopMax</key>
+      <integer>80</integer>
+      <key>sliderTopMin</key>
+      <integer>30</integer>
+    </dict>
+    <key>tnCurvePalette</key>
     <dict>
       <key>sliderBottomMax</key>
       <integer>80</integer>

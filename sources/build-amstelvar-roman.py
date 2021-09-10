@@ -175,9 +175,9 @@ instances = [
 #	dict(fileName="instances/Amstelvar-Roman-opsz144-wght100-wdth075.ufo", location=dict(wght=100, wdth=87, opsz=04), styleName="opsz144-wght100-wdth075", familyName=familyName, postScriptFontName=None, styleMapFamilyName=None, styleMapStyleName=None),
 #	dict(fileName="instances/Amstelvar-Roman-opsz144-wght100-wdth50.ufo", location=dict(wght=100, wdth=75, opsz=04), styleName="opsz144-wght100-wdth50", familyName=familyName, postScriptFontName=None, styleMapFamilyName=None, styleMapStyleName=None),
 	
-#	dict(fileName="instances/Amstelvar-Roman-opsz144-wght900-wdth125.ufo", location=dict(wght=900, wdth=125, opsz=04), styleName="opsz144-wght900-wdth125", familyName=familyName, postScriptFontName=None, styleMapFamilyName=None, styleMapStyleName=None),
-#	dict(fileName="instances/Amstelvar-Roman-opsz144-wght900-wdth075.ufo", location=dict(wght=900, wdth=76, opsz=04), styleName="opsz144-wght900-wdth075", familyName=familyName, postScriptFontName=None, styleMapFamilyName=None, styleMapStyleName=None),
-#	dict(fileName="instances/Amstelvar-Roman-opsz144-wght900-wdth50.ufo", location=dict(wght=900, wdth=75, opsz=04), styleName="opsz144-wght900-wdth50", familyName=familyName, postScriptFontName=None, styleMapFamilyName=None, styleMapStyleName=None),
+#	dict(fileName="instances/Amstelvar-Roman-opsz144-wght1000-wdth125.ufo", location=dict(wght=1000, wdth=125, opsz=04), styleName="opsz144-wght1000-wdth125", familyName=familyName, postScriptFontName=None, styleMapFamilyName=None, styleMapStyleName=None),
+#	dict(fileName="instances/Amstelvar-Roman-opsz144-wght1000-wdth075.ufo", location=dict(wght=1000, wdth=76, opsz=04), styleName="opsz144-wght1000-wdth075", familyName=familyName, postScriptFontName=None, styleMapFamilyName=None, styleMapStyleName=None),
+#	dict(fileName="instances/Amstelvar-Roman-opsz144-wght1000-wdth50.ufo", location=dict(wght=1000, wdth=75, opsz=04), styleName="opsz144-wght1000-wdth50", familyName=familyName, postScriptFontName=None, styleMapFamilyName=None, styleMapStyleName=None),
 	
 #	dict(fileName="instances/Amstelvar-Roman-opsz144-wdth125.ufo", location=dict(wght=400, wdth=125, opsz=04), styleName="opsz144-wdth125", familyName=familyName, postScriptFontName=None, styleMapFamilyName=None, styleMapStyleName=None),
 #	dict(fileName="instances/Amstelvar-Roman-opsz144-wdth075.ufo", location=dict(wght=400, wdth=80, opsz=04), styleName="opsz144-wdth075", familyName=familyName, postScriptFontName=None, styleMapFamilyName=None, styleMapStyleName=None),
@@ -218,7 +218,7 @@ sources = [
 	dict(path="master_ufo/Amstelvar-Roman-GRAD-300.ufo", name="Amstelvar-Roman-GRAD-300.ufo", location=dict(GRAD=-300, opsz=0), styleName="GRAD-300", familyName=familyName, copyInfo=False),
 	dict(path="master_ufo/Amstelvar-Roman-GRAD500.ufo", name="Amstelvar-Roman-GRAD500.ufo", location=dict(GRAD=500, opsz=0), styleName="GRAD500", familyName=familyName, copyInfo=False),	
 	dict(path="master_ufo/Amstelvar-Roman-opsz14-wght100-wdth100.ufo", name="Amstelvar-Roman-opsz14-wght100-wdth100.ufo", location=dict(wght=100, opsz=0), styleName="wght100", familyName=familyName, copyInfo=False),
-	dict(path="master_ufo/Amstelvar-Roman-opsz14-wght900-wdth100.ufo", name="Amstelvar-Roman-opsz14-wght900-wdth100.ufo", location=dict(wght=900, opsz=0), styleName="wght900", familyName=familyName, copyInfo=False),
+	dict(path="master_ufo/Amstelvar-Roman-opsz14-wght1000-wdth100.ufo", name="Amstelvar-Roman-opsz14-wght1000-wdth100.ufo", location=dict(wght=1000, opsz=0), styleName="wght1000", familyName=familyName, copyInfo=False),
 	dict(path="master_ufo/Amstelvar-Roman-opsz8.ufo", name="Amstelvar-Roman-opsz8.ufo", location=dict(opsz=-1), styleName="opsz8", familyName=familyName, copyInfo=False),
 	dict(path="master_ufo/Amstelvar-Roman-opsz144.ufo", name="Amstelvar-Roman-opsz144.ufo", location=dict(opsz=1), styleName="opsz144", familyName=familyName, copyInfo=False),
 	dict(path="master_ufo/Amstelvar-Roman-opsz14-wght400-wdth50.ufo", name="Amstelvar-Roman-opsz14-wght400-wdth50.ufo", location=dict(wdth=50, opsz=0), styleName="wdth50", familyName=familyName, copyInfo=False),
@@ -251,15 +251,15 @@ sources = [
   	dict(path="master_ufo/Amstelvar-Roman-opsz8-wght400-wdth50.ufo", name="Amstelvar-Roman-opsz8-wght400-wdth50.ufo", location=dict(wght=400, opsz=-1, wdth=50), styleName="opsz8-wght400-wdth50", familyName=familyName, copyInfo=False),
   	dict(path="master_ufo/Amstelvar-Roman-opsz8-wght400-wdth125.ufo", name="Amstelvar-Roman-opsz8-wght400-wdth125.ufo", location=dict(wght=400, opsz=-1, wdth=125), styleName="opsz8-wght400-wdth125", familyName=familyName, copyInfo=False),
 	
- 	dict(path="master_ufo/Amstelvar-Roman-opsz8-wght900-wdth50.ufo", name="Amstelvar-Roman-opsz8-wght900-wdth50.ufo", location=dict(wght=900, opsz=-1, wdth=50), styleName="opsz8-wght900-wdth50", familyName=familyName, copyInfo=False),
-  	dict(path="master_ufo/Amstelvar-Roman-opsz8-wght900-wdth100.ufo", name="Amstelvar-Roman-opsz8-wght900-wdth100.ufo", location=dict(wght=900, opsz=-1, wdth=100), styleName="opsz8-wght900-wdth100", familyName=familyName, copyInfo=False),
- 	dict(path="master_ufo/Amstelvar-Roman-opsz8-wght900-wdth125.ufo", name="Amstelvar-Roman-opsz8-wght900-wdth125.ufo", location=dict(wght=900, opsz=-1, wdth=125), styleName="opsz8-wght900-wdth125", familyName=familyName, copyInfo=False),
+ 	dict(path="master_ufo/Amstelvar-Roman-opsz8-wght1000-wdth50.ufo", name="Amstelvar-Roman-opsz8-wght1000-wdth50.ufo", location=dict(wght=1000, opsz=-1, wdth=50), styleName="opsz8-wght1000-wdth50", familyName=familyName, copyInfo=False),
+  	dict(path="master_ufo/Amstelvar-Roman-opsz8-wght1000-wdth100.ufo", name="Amstelvar-Roman-opsz8-wght1000-wdth100.ufo", location=dict(wght=1000, opsz=-1, wdth=100), styleName="opsz8-wght1000-wdth100", familyName=familyName, copyInfo=False),
+ 	dict(path="master_ufo/Amstelvar-Roman-opsz8-wght1000-wdth125.ufo", name="Amstelvar-Roman-opsz8-wght1000-wdth125.ufo", location=dict(wght=1000, opsz=-1, wdth=125), styleName="opsz8-wght1000-wdth125", familyName=familyName, copyInfo=False),
 	
  	dict(path="master_ufo/Amstelvar-Roman-opsz14-wght100-wdth50.ufo", name="Amstelvar-Roman-opsz14-wght100-wdth50.ufo", location=dict(wght=100, opsz=0, wdth=50), styleName="opsz14-wght100-wdth50", familyName=familyName, copyInfo=False),
  	dict(path="master_ufo/Amstelvar-Roman-opsz14-wght100-wdth125.ufo", name="Amstelvar-Roman-opsz14-wght100-wdth125.ufo", location=dict(wght=100, opsz=0, wdth=125), styleName="opsz14-wght100-wdth125", familyName=familyName, copyInfo=False),
 	
- 	dict(path="master_ufo/Amstelvar-Roman-opsz14-wght900-wdth50.ufo", name="Amstelvar-Roman-opsz14-wght900-wdth50.ufo", location=dict(wght=900, opsz=0, wdth=50), styleName="opsz14-wght900-wdth50", familyName=familyName, copyInfo=False),
- 	dict(path="master_ufo/Amstelvar-Roman-opsz14-wght900-wdth125.ufo", name="Amstelvar-Roman-opsz14-wght900-wdth125.ufo", location=dict(wght=900, opsz=0, wdth=125), styleName="opsz14-wght900-wdth125", familyName=familyName, copyInfo=False),
+ 	dict(path="master_ufo/Amstelvar-Roman-opsz14-wght1000-wdth50.ufo", name="Amstelvar-Roman-opsz14-wght1000-wdth50.ufo", location=dict(wght=1000, opsz=0, wdth=50), styleName="opsz14-wght1000-wdth50", familyName=familyName, copyInfo=False),
+ 	dict(path="master_ufo/Amstelvar-Roman-opsz14-wght1000-wdth125.ufo", name="Amstelvar-Roman-opsz14-wght1000-wdth125.ufo", location=dict(wght=1000, opsz=0, wdth=125), styleName="opsz14-wght1000-wdth125", familyName=familyName, copyInfo=False),
 	
 	dict(path="master_ufo/Amstelvar-Roman-opsz144-wght100-wdth50.ufo", name="Amstelvar-Roman-opsz144-wght100-wdth50.ufo", location=dict(wght=100, opsz=1, wdth=50), styleName="opsz144-wght100-wdth50", familyName=familyName, copyInfo=False),
  	dict(path="master_ufo/Amstelvar-Roman-opsz144-wght100-wdth100.ufo", name="Amstelvar-Roman-opsz144-wght100-wdth100.ufo", location=dict(wght=100, opsz=1), styleName="opsz144-wght100-wdth100", familyName=familyName, copyInfo=False),
@@ -268,15 +268,15 @@ sources = [
  	dict(path="master_ufo/Amstelvar-Roman-opsz144-wght400-wdth50.ufo", name="Amstelvar-Roman-opsz144-wght400-wdth50.ufo", location=dict(wght=400, opsz=1, wdth=50), styleName="opsz144-wght400-wdth50", familyName=familyName, copyInfo=False),
  	dict(path="master_ufo/Amstelvar-Roman-opsz144-wght400-wdth125.ufo", name="Amstelvar-Roman-opsz144-wght400-wdth125.ufo", location=dict(wght=400, opsz=1, wdth=125), styleName="opsz144-wght400-wdth125", familyName=familyName, copyInfo=False),
 	
-	dict(path="master_ufo/Amstelvar-Roman-opsz144-wght900-wdth50.ufo", name="Amstelvar-Roman-opsz144-wght900-wdth50.ufo", location=dict(wght=900, opsz=1, wdth=50), styleName="opsz144-wght900-wdth50", familyName=familyName, copyInfo=False),
- 	dict(path="master_ufo/Amstelvar-Roman-opsz144-wght900-wdth100.ufo", name="Amstelvar-Roman-opsz144-wght900-wdth100.ufo", location=dict(wght=900, opsz=1, wdth=100), styleName="opsz144-wght900-wdth100", familyName=familyName, copyInfo=False),
-	dict(path="master_ufo/Amstelvar-Roman-opsz144-wght900-wdth125.ufo", name="Amstelvar-Roman-opsz144-wght900-wdth125.ufo", location=dict(wght=900, opsz=1, wdth=125), styleName="opsz144-wght900-wdth125", familyName=familyName, copyInfo=False),
+	dict(path="master_ufo/Amstelvar-Roman-opsz144-wght1000-wdth50.ufo", name="Amstelvar-Roman-opsz144-wght1000-wdth50.ufo", location=dict(wght=1000, opsz=1, wdth=50), styleName="opsz144-wght1000-wdth50", familyName=familyName, copyInfo=False),
+ 	dict(path="master_ufo/Amstelvar-Roman-opsz144-wght1000-wdth100.ufo", name="Amstelvar-Roman-opsz144-wght1000-wdth100.ufo", location=dict(wght=1000, opsz=1, wdth=100), styleName="opsz144-wght1000-wdth100", familyName=familyName, copyInfo=False),
+	dict(path="master_ufo/Amstelvar-Roman-opsz144-wght1000-wdth125.ufo", name="Amstelvar-Roman-opsz144-wght1000-wdth125.ufo", location=dict(wght=1000, opsz=1, wdth=125), styleName="opsz144-wght1000-wdth125", familyName=familyName, copyInfo=False),
 	
 ]
 #instances = []
 axes = [
 	
-	dict(minimum=100, maximum=900, default=400, name="wght", tag="wght", labelNames={"en": "wght"}, map=[]),
+	dict(minimum=100, maximum=1000, default=400, name="wght", tag="wght", labelNames={"en": "wght"}, map=[]),
 	dict(minimum=50, maximum=125, default=100, name="wdth", tag="wdth", labelNames={"en": "wdth"}, map=[]),
 	dict(minimum=8, maximum=144, default=14, name="opsz", tag="opsz", labelNames={"en": "opsz"}, map=[ (8.0, -1), (14.0, 0), (24.0, 0.077), (36.0, 0.492), (84.0, 0.946), (144.0, 1.0) ]),
 	dict(minimum=-300, maximum=500, default=0, name="GRAD", tag="GRAD", labelNames={"en": "GRAD"}, map=[]),
@@ -332,7 +332,7 @@ for fileName in sources:
 		font = Font(master_path)
 	else:
 		font = Font(source_path)
-	if fileName not in ['Amstelvar-Roman-opsz144.ufo', 'Amstelvar-Roman-wght100.ufo', 'Amstelvar-Roman-wght900.ufo', 'Amstelvar-Roman-wdth125.ufo', 'Amstelvar-Roman-wdth50.ufo']:
+	if fileName not in ['Amstelvar-Roman-opsz144.ufo', 'Amstelvar-Roman-wght100.ufo', 'Amstelvar-Roman-wght1000.ufo', 'Amstelvar-Roman-wdth125.ufo', 'Amstelvar-Roman-wdth50.ufo']:
 	    accentFonts.append(font)
 	fonts.append(font)
 	
@@ -355,7 +355,7 @@ project.run_from_ufos(
 	use_production_names=False)
 
 #temp changed rel path to work in same dir, was:  ../fonts/Amstelvar-Roman-VF.ttf
-outfile = "Amstelvar-Roman[wdth,wght,opsz].ttf"
+outfile = "Amstelvar-Roman[GRAD,XOPQ,XTRA,YOPQ,YTAS,YTDE,YTFI,YTLC,YTUC,wdth,wght,opsz].ttf"
 
 #make folder if it doesn't exist
 destFolder = "fonts"

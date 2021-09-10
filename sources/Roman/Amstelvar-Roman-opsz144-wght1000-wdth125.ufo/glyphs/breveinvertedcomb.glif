@@ -1,23 +1,31 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="breveinvertedcomb" format="2">
-	<unicode hex="030F"/>
-	<advance width="896"/>
-	<outline>
-		<contour>
-			<point x="174" y="1041" type="qcurve"/>
-			<point x="72" y="1060" type="line"/>
-			<point x="97" y="1182"/>
-			<point x="280" y="1360"/>
-			<point x="447" y="1360" type="qcurve" smooth="yes"/>
-			<point x="614" y="1360"/>
-			<point x="798" y="1194"/>
-			<point x="824" y="1063" type="qcurve"/>
-			<point x="720" y="1041" type="line"/>
-			<point x="689" y="1096"/>
-			<point x="549" y="1155"/>
-			<point x="435" y="1155" type="qcurve" smooth="yes"/>
-			<point x="326" y="1155"/>
-			<point x="203" y="1096"/>
-		</contour>
-	</outline>
+  <advance width="896"/>
+  <unicode hex="030F"/>
+  <anchor x="448.0" y="970" name="_top"/>
+  <anchor x="448.0" y="1374.0" name="top"/>
+  <outline>
+    <contour>
+      <point x="174.0" y="1055.0" type="qcurve"/>
+      <point x="72.0" y="1074.0" type="line"/>
+      <point x="97.0" y="1196.0"/>
+      <point x="280.0" y="1374.0"/>
+      <point x="447.0" y="1374.0" type="qcurve" smooth="yes"/>
+      <point x="614.0" y="1374.0"/>
+      <point x="798.0" y="1208.0"/>
+      <point x="824.0" y="1077.0" type="qcurve"/>
+      <point x="720.0" y="1055.0" type="line"/>
+      <point x="689.0" y="1110.0"/>
+      <point x="549.0" y="1169.0"/>
+      <point x="435.0" y="1169.0" type="qcurve" smooth="yes"/>
+      <point x="326.0" y="1169.0"/>
+      <point x="203.0" y="1110.0"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.9908,1,0.037,1</string>
+    </dict>
+  </lib>
 </glyph>

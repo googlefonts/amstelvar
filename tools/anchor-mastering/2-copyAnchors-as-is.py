@@ -8,7 +8,7 @@ selectedGlyphsUC = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 
 
 selectedGlyphslc = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', 'idotless', 'jdotless', 'ae', 'oslash', 'hornu', 'acyr', 'ie', 'zhe', 'icyr', 'ka', 'ocyr', 'ucyr', 'ecyr', 'yu', 'ya' ]
 
-#selectedGlyphsAccents = ['brevecomb', 'acutecomb', 'tildecomb', 'dblgravecomb', 'macroncomb', 'dotaccentcomb', 'horncomb', 'dieresiscomb', 'ringcomb', 'circumflexcomb', 'breveinvertedcomb', 'gravecomb', 'caroncomb', 'hookabovecomb', 'hungarumlautcomb', 'breveacutecomb', 'circumflexgravecomb', 'circumflexhookabovecomb', 'circumflextildecomb', 'brevehookabovecomb', 'circumflexacutecomb', 'brevetildecomb', 'brevegravecomb', 'circumflexacutecomb.case', 'brevehookabovecomb.case', 'circumflextildecomb.case', 'brevegravecomb.case', 'circumflexhookabovecomb.case', 'breveacutecomb.case', 'circumflexgravecomb.case', 'brevetildecomb.case', 'breve.cyr', 'breve.cyr.case', 'gravecomb.case', 'acutecomb.case', 'circumflexcomb.case', 'tildecomb.case', 'macroncomb.case', 'brevecomb.case', 'dotaccentcomb.case', 'dieresiscomb.case', 'hookabovecomb.case', 'ringcomb.case', 'hungarumlautcomb.case', 'caroncomb.case', 'breveinvertedcomb.case', 'dblgravecomb.case', 'horncomb.case', 'dotbelowcomb.case', 'dieresisbelowcomb.case', 'commaaccentcomb.case', 'cedillacomb.case', 'ogonekcomb.case', 'brevebelowcomb.case', 'macronbelowcomb.case', 'dotbelowcomb', 'dieresisbelowcomb', 'commaaccentcomb', 'cedillacomb', 'ogonekcomb', 'brevebelowcomb', 'macronbelowcomb', 'caroncomb.alt', 'acutecombstack.case', 'brevecombstack.case', 'circumflexcombstack.case', 'dieresiscombstack.case', 'dotaccentcombstack.case', 'gravecombstack.case', 'hookabovecombstack.case', 'macroncombstack.case', 'tildecombstack.case'  ]
+selectedGlyphsAccents = ['brevecomb', 'acutecomb', 'tildecomb', 'dblgravecomb', 'macroncomb', 'dotaccentcomb', 'horncomb', 'dieresiscomb', 'ringcomb', 'circumflexcomb', 'breveinvertedcomb', 'gravecomb', 'caroncomb', 'hookabovecomb', 'hungarumlautcomb', 'breveacutecomb', 'circumflexgravecomb', 'circumflexhookabovecomb', 'circumflextildecomb', 'brevehookabovecomb', 'circumflexacutecomb', 'brevetildecomb', 'brevegravecomb', 'circumflexacutecomb.case', 'brevehookabovecomb.case', 'circumflextildecomb.case', 'brevegravecomb.case', 'circumflexhookabovecomb.case', 'breveacutecomb.case', 'circumflexgravecomb.case', 'brevetildecomb.case', 'breve.cyr', 'breve.cyr.case', 'gravecomb.case', 'acutecomb.case', 'circumflexcomb.case', 'tildecomb.case', 'macroncomb.case', 'brevecomb.case', 'dotaccentcomb.case', 'dieresiscomb.case', 'hookabovecomb.case', 'ringcomb.case', 'hungarumlautcomb.case', 'caroncomb.case', 'breveinvertedcomb.case', 'dblgravecomb.case', 'horncomb.case', 'dotbelowcomb.case', 'dieresisbelowcomb.case', 'commaaccentcomb.case', 'cedillacomb.case', 'ogonekcomb.case', 'brevebelowcomb.case', 'macronbelowcomb.case', 'dotbelowcomb', 'dieresisbelowcomb', 'commaaccentcomb', 'cedillacomb', 'ogonekcomb', 'brevebelowcomb', 'macronbelowcomb', 'caroncomb.alt', 'acutecombstack.case', 'brevecombstack.case', 'circumflexcombstack.case', 'dieresiscombstack.case', 'dotaccentcombstack.case', 'gravecombstack.case', 'hookabovecombstack.case', 'macroncombstack.case', 'tildecombstack.case'  ]
 
 selectedGlyphsAccentsUC = ['circumflexacutecomb.case', 'brevehookabovecomb.case', 'circumflextildecomb.case', 'brevegravecomb.case', 'circumflexhookabovecomb.case', 'breveacutecomb.case', 'circumflexgravecomb.case', 'brevetildecomb.case', 'breve.cyr.case', 'gravecomb.case', 'acutecomb.case', 'circumflexcomb.case', 'tildecomb.case', 'macroncomb.case', 'brevecomb.case', 'dotaccentcomb.case', 'dieresiscomb.case', 'hookabovecomb.case', 'ringcomb.case', 'hungarumlautcomb.case', 'caroncomb.case', 'breveinvertedcomb.case', 'dblgravecomb.case', 'horncomb.case', 'dotbelowcomb.case', 'dieresisbelowcomb.case', 'commaaccentcomb.case', 'cedillacomb.case', 'ogonekcomb.case', 'brevebelowcomb.case', 'macronbelowcomb.case', 'acutecombstack.case', 'brevecombstack.case', 'circumflexcombstack.case', 'dieresiscombstack.case', 'dotaccentcombstack.case', 'gravecombstack.case', 'hookabovecombstack.case', 'macroncombstack.case', 'tildecombstack.case'  ]
 
@@ -50,16 +50,16 @@ def copyAnchors(selectedGlyphs, yPositioning):
             dstGlyph.appendAnchor(anchor.name, (anchor.x, anchor.y))
             
 # Copy UC anchors
-#copyAnchors(selectedGlyphsUC, dstFont.info.capHeight)
+copyAnchors(selectedGlyphsUC, dstFont.info.capHeight)
 
 # Copy lc anchors
-#copyAnchors(selectedGlyphslc, dstFont.info.xHeight)
+copyAnchors(selectedGlyphslc, dstFont.info.xHeight)
 
 # Copy UC anchors
-#copyAnchors(selectedGlyphsAccentsUC, dstFont.info.capHeight)
+copyAnchors(selectedGlyphsAccentsUC, dstFont.info.capHeight)
 
 # Copy lc anchors
-#copyAnchors(selectedGlyphsAccentslc, dstFont.info.xHeight)
+copyAnchors(selectedGlyphsAccentslc, dstFont.info.xHeight)
 
 # Copy UC anchors
 copyAnchors(selectedGlyphsCyrUC, dstFont.info.capHeight)

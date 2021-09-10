@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <designspace format="3">
     <axes>
-        <axis default="400" maximum="900" minimum="100" name="wght" tag="wght">
+        <axis default="400" maximum="1000" minimum="100" name="wght" tag="wght">
             <labelname xml:lang="en">wght</labelname>
         </axis>
         <axis default="100" maximum="125" minimum="50" name="wdth" tag="wdth">
@@ -55,7 +55,7 @@
         </rule>
     </rules>
     <sources>
-        <source familyname="Amstelvar" filename="Amstelvar-Roman.ufo" name="Amstelvar-Roman.ufo" stylename="Regular">
+        <source familyname="Amstelvar" filename="../../master_ufo/Amstelvar-Roman.ufo" name="Amstelvar-Roman.ufo" stylename="Regular">
             <info copy="1" />
             <location>
                 <dimension name="wght" xvalue="400" />
@@ -72,7 +72,7 @@
                 <dimension name="YTFI" xvalue="760" />
             </location>
         </source>
-        <source familyname="Amstelvar" filename="Amstelvar-Roman-GRAD-300.ufo" name="Amstelvar-Roman-GRAD-300.ufo" stylename="GRAD-300">
+        <source familyname="Amstelvar" filename="../../master_ufo/Amstelvar-Roman-GRAD-300.ufo" name="Amstelvar-Roman-GRAD-300.ufo" stylename="GRAD-300">
             <location>
                 <dimension name="wght" xvalue="400" />
                 <dimension name="wdth" xvalue="100" />
@@ -88,7 +88,7 @@
                 <dimension name="YTFI" xvalue="760" />
             </location>
         </source>
-        <source familyname="Amstelvar" filename="Amstelvar-Roman-GRAD500.ufo" name="Amstelvar-Roman-GRAD500.ufo" stylename="GRAD500">
+        <source familyname="Amstelvar" filename="../../master_ufo/Amstelvar-Roman-GRAD500.ufo" name="Amstelvar-Roman-GRAD500.ufo" stylename="GRAD500">
             <location>
                 <dimension name="wght" xvalue="400" />
                 <dimension name="wdth" xvalue="100" />
@@ -104,7 +104,7 @@
                 <dimension name="YTFI" xvalue="760" />
             </location>
         </source>
-        <source familyname="Amstelvar" filename="Amstelvar-Roman-opsz14-wght100-wdth100.ufo" name="Amstelvar-Roman-opsz14-wght100-wdth100.ufo" stylename="wght100">
+        <source familyname="Amstelvar" filename="../../master_ufo/Amstelvar-Roman-opsz14-wght100-wdth100.ufo" name="Amstelvar-Roman-opsz14-wght100-wdth100.ufo" stylename="wght100">
             <location>
                 <dimension name="wght" xvalue="100" />
                 <dimension name="wdth" xvalue="100" />
@@ -120,9 +120,9 @@
                 <dimension name="YTFI" xvalue="760" />
             </location>
         </source>
-        <source familyname="Amstelvar" filename="Amstelvar-Roman-opsz14-wght900-wdth100.ufo" name="Amstelvar-Roman-opsz14-wght900-wdth100.ufo" stylename="wght900">
+        <source familyname="Amstelvar" filename="../../master_ufo/Amstelvar-Roman-opsz14-wght1000-wdth100.ufo" name="Amstelvar-Roman-opsz14-wght1000-wdth100.ufo" stylename="wght1000">
             <location>
-                <dimension name="wght" xvalue="900" />
+                <dimension name="wght" xvalue="1000" />
                 <dimension name="wdth" xvalue="100" />
                 <dimension name="opsz" xvalue="0" />
                 <dimension name="GRAD" xvalue="0" />
@@ -136,7 +136,7 @@
                 <dimension name="YTFI" xvalue="760" />
             </location>
         </source>
-        <source familyname="Amstelvar" filename="Amstelvar-Roman-opsz8.ufo" name="Amstelvar-Roman-opsz8.ufo" stylename="opsz8">
+        <source familyname="Amstelvar" filename="../../master_ufo/Amstelvar-Roman-opsz8.ufo" name="Amstelvar-Roman-opsz8.ufo" stylename="opsz8">
             <location>
                 <dimension name="wght" xvalue="400" />
                 <dimension name="wdth" xvalue="100" />
@@ -152,7 +152,7 @@
                 <dimension name="YTFI" xvalue="760" />
             </location>
         </source>
-        <source familyname="Amstelvar" filename="Amstelvar-Roman-opsz144.ufo" name="Amstelvar-Roman-opsz144.ufo" stylename="opsz144">
+        <source familyname="Amstelvar" filename="../../master_ufo/Amstelvar-Roman-opsz144.ufo" name="Amstelvar-Roman-opsz144.ufo" stylename="opsz144">
             <location>
                 <dimension name="wght" xvalue="400" />
                 <dimension name="wdth" xvalue="100" />
@@ -168,7 +168,7 @@
                 <dimension name="YTFI" xvalue="760" />
             </location>
         </source>
-        <source familyname="Amstelvar" filename="Amstelvar-Roman-opsz14-wght400-wdth50.ufo" name="Amstelvar-Roman-opsz14-wght400-wdth50.ufo" stylename="wdth50">
+        <source familyname="Amstelvar" filename="../../master_ufo/Amstelvar-Roman-opsz14-wght400-wdth50.ufo" name="Amstelvar-Roman-opsz14-wght400-wdth50.ufo" stylename="wdth50">
             <location>
                 <dimension name="wght" xvalue="400" />
                 <dimension name="wdth" xvalue="50" />
@@ -184,7 +184,7 @@
                 <dimension name="YTFI" xvalue="760" />
             </location>
         </source>
-        <source familyname="Amstelvar" filename="Amstelvar-Roman-opsz14-wght400-wdth125.ufo" name="Amstelvar-Roman-opsz14-wght400-wdth125.ufo" stylename="wdth125">
+        <source familyname="Amstelvar" filename="../../master_ufo/Amstelvar-Roman-opsz14-wght400-wdth125.ufo" name="Amstelvar-Roman-opsz14-wght400-wdth125.ufo" stylename="wdth125">
             <location>
                 <dimension name="wght" xvalue="400" />
                 <dimension name="wdth" xvalue="125" />
@@ -200,7 +200,7 @@
                 <dimension name="YTFI" xvalue="760" />
             </location>
         </source>
-        <source familyname="Amstelvar" filename="Roman Parametric Axes/Amstelvar-Roman-XOPQ18.ufo" name="Amstelvar-Roman-XOPQ18.ufo" stylename="XOPQ18">
+        <source familyname="Amstelvar" filename="../../master_ufo/Amstelvar-Roman-XOPQ18.ufo" name="Amstelvar-Roman-XOPQ18.ufo" stylename="XOPQ18">
             <location>
                 <dimension name="wght" xvalue="400" />
                 <dimension name="wdth" xvalue="100" />
@@ -216,7 +216,7 @@
                 <dimension name="YTFI" xvalue="760" />
             </location>
         </source>
-        <source familyname="Amstelvar" filename="Roman Parametric Axes/Amstelvar-Roman-XOPQ263.ufo" name="Amstelvar-Roman-XOPQ263.ufo" stylename="XOPQ263">
+        <source familyname="Amstelvar" filename="../../master_ufo/Amstelvar-Roman-XOPQ263.ufo" name="Amstelvar-Roman-XOPQ263.ufo" stylename="XOPQ263">
             <location>
                 <dimension name="wght" xvalue="400" />
                 <dimension name="wdth" xvalue="100" />
@@ -232,7 +232,7 @@
                 <dimension name="YTFI" xvalue="760" />
             </location>
         </source>
-        <source familyname="Amstelvar" filename="Roman Parametric Axes/Amstelvar-Roman-XTRA324.ufo" name="Amstelvar-Roman-XTRA324.ufo" stylename="XTRA324">
+        <source familyname="Amstelvar" filename="../../master_ufo/Amstelvar-Roman-XTRA324.ufo" name="Amstelvar-Roman-XTRA324.ufo" stylename="XTRA324">
             <location>
                 <dimension name="wght" xvalue="400" />
                 <dimension name="wdth" xvalue="100" />
@@ -248,7 +248,7 @@
                 <dimension name="YTFI" xvalue="760" />
             </location>
         </source>
-        <source familyname="Amstelvar" filename="Roman Parametric Axes/Amstelvar-Roman-XTRA640.ufo" name="Amstelvar-Roman-XTRA640.ufo" stylename="XTRA640">
+        <source familyname="Amstelvar" filename="../../master_ufo/Amstelvar-Roman-XTRA640.ufo" name="Amstelvar-Roman-XTRA640.ufo" stylename="XTRA640">
             <location>
                 <dimension name="wght" xvalue="400" />
                 <dimension name="wdth" xvalue="100" />
@@ -264,7 +264,7 @@
                 <dimension name="YTFI" xvalue="760" />
             </location>
         </source>
-        <source familyname="Amstelvar" filename="Roman Parametric Axes/Amstelvar-Roman-YOPQ15.ufo" name="Amstelvar-Roman-YOPQ15.ufo" stylename="YOPQ15">
+        <source familyname="Amstelvar" filename="../../master_ufo/Amstelvar-Roman-YOPQ15.ufo" name="Amstelvar-Roman-YOPQ15.ufo" stylename="YOPQ15">
             <location>
                 <dimension name="wght" xvalue="400" />
                 <dimension name="wdth" xvalue="100" />
@@ -280,7 +280,7 @@
                 <dimension name="YTFI" xvalue="760" />
             </location>
         </source>
-        <source familyname="Amstelvar" filename="Roman Parametric Axes/Amstelvar-Roman-YOPQ132.ufo" name="Amstelvar-Roman-YOPQ132.ufo" stylename="YOPQ132">
+        <source familyname="Amstelvar" filename="../../master_ufo/Amstelvar-Roman-YOPQ132.ufo" name="Amstelvar-Roman-YOPQ132.ufo" stylename="YOPQ132">
             <location>
                 <dimension name="wght" xvalue="400" />
                 <dimension name="wdth" xvalue="100" />
@@ -296,7 +296,7 @@
                 <dimension name="YTFI" xvalue="760" />
             </location>
         </source>
-        <source familyname="Amstelvar" filename="Roman Parametric Axes/Amstelvar-Roman-YTLC420.ufo" name="Amstelvar-Roman-YTLC420.ufo" stylename="YTLC420">
+        <source familyname="Amstelvar" filename="../../master_ufo/Amstelvar-Roman-YTLC420.ufo" name="Amstelvar-Roman-YTLC420.ufo" stylename="YTLC420">
             <location>
                 <dimension name="wght" xvalue="400" />
                 <dimension name="wdth" xvalue="100" />
@@ -312,7 +312,7 @@
                 <dimension name="YTFI" xvalue="760" />
             </location>
         </source>
-        <source familyname="Amstelvar" filename="Roman Parametric Axes/Amstelvar-Roman-YTLC570.ufo" name="Amstelvar-Roman-YTLC570.ufo" stylename="YTLC570">
+        <source familyname="Amstelvar" filename="../../master_ufo/Amstelvar-Roman-YTLC570.ufo" name="Amstelvar-Roman-YTLC570.ufo" stylename="YTLC570">
             <location>
                 <dimension name="wght" xvalue="400" />
                 <dimension name="wdth" xvalue="100" />
@@ -328,7 +328,7 @@
                 <dimension name="YTFI" xvalue="760" />
             </location>
         </source>
-        <source familyname="Amstelvar" filename="Roman Parametric Axes/Amstelvar-Roman-YTUC500.ufo" name="Amstelvar-Roman-YTUC500.ufo" stylename="YTUC500">
+        <source familyname="Amstelvar" filename="../../master_ufo/Amstelvar-Roman-YTUC500.ufo" name="Amstelvar-Roman-YTUC500.ufo" stylename="YTUC500">
             <location>
                 <dimension name="wght" xvalue="400" />
                 <dimension name="wdth" xvalue="100" />
@@ -344,7 +344,7 @@
                 <dimension name="YTFI" xvalue="760" />
             </location>
         </source>
-        <source familyname="Amstelvar" filename="Roman Parametric Axes/Amstelvar-Roman-YTUC1000.ufo" name="Amstelvar-Roman-YTUC1000.ufo" stylename="YTUC1000">
+        <source familyname="Amstelvar" filename="../../master_ufo/Amstelvar-Roman-YTUC1000.ufo" name="Amstelvar-Roman-YTUC1000.ufo" stylename="YTUC1000">
             <location>
                 <dimension name="wght" xvalue="400" />
                 <dimension name="wdth" xvalue="100" />
@@ -360,7 +360,7 @@
                 <dimension name="YTFI" xvalue="760" />
             </location>
         </source>
-        <source familyname="Amstelvar" filename="Roman Parametric Axes/Amstelvar-Roman-YTAS500.ufo" name="Amstelvar-Roman-YTAS500.ufo" stylename="YTAS500">
+        <source familyname="Amstelvar" filename="../../master_ufo/Amstelvar-Roman-YTAS500.ufo" name="Amstelvar-Roman-YTAS500.ufo" stylename="YTAS500">
             <location>
                 <dimension name="wght" xvalue="400" />
                 <dimension name="wdth" xvalue="100" />
@@ -376,7 +376,7 @@
                 <dimension name="YTFI" xvalue="760" />
             </location>
         </source>
-        <source familyname="Amstelvar" filename="Roman Parametric Axes/Amstelvar-Roman-YTAS983.ufo" name="Amstelvar-Roman-YTAS983.ufo" stylename="YTAS983">
+        <source familyname="Amstelvar" filename="../../master_ufo/Amstelvar-Roman-YTAS983.ufo" name="Amstelvar-Roman-YTAS983.ufo" stylename="YTAS983">
             <location>
                 <dimension name="wght" xvalue="400" />
                 <dimension name="wdth" xvalue="100" />
@@ -392,7 +392,7 @@
                 <dimension name="YTFI" xvalue="760" />
             </location>
         </source>
-        <source familyname="Amstelvar" filename="Roman Parametric Axes/Amstelvar-Roman-YTDE-138.ufo" name="Amstelvar-Roman-YTDE-138.ufo" stylename="YTDE-138">
+        <source familyname="Amstelvar" filename="../../master_ufo/Amstelvar-Roman-YTDE-138.ufo" name="Amstelvar-Roman-YTDE-138.ufo" stylename="YTDE-138">
             <location>
                 <dimension name="wght" xvalue="400" />
                 <dimension name="wdth" xvalue="100" />
@@ -408,7 +408,7 @@
                 <dimension name="YTFI" xvalue="760" />
             </location>
         </source>
-        <source familyname="Amstelvar" filename="Roman Parametric Axes/Amstelvar-Roman-YTDE-500.ufo" name="Amstelvar-Roman-YTDE-500.ufo" stylename="YTDE-500">
+        <source familyname="Amstelvar" filename="../../master_ufo/Amstelvar-Roman-YTDE-500.ufo" name="Amstelvar-Roman-YTDE-500.ufo" stylename="YTDE-500">
             <location>
                 <dimension name="wght" xvalue="400" />
                 <dimension name="wdth" xvalue="100" />
@@ -424,7 +424,7 @@
                 <dimension name="YTFI" xvalue="760" />
             </location>
         </source>
-        <source familyname="Amstelvar" filename="Roman Parametric Axes/Amstelvar-Roman-YTFI425.ufo" name="Amstelvar-Roman-YTFI425.ufo" stylename="YTFI425">
+        <source familyname="Amstelvar" filename="../../master_ufo/Amstelvar-Roman-YTFI425.ufo" name="Amstelvar-Roman-YTFI425.ufo" stylename="YTFI425">
             <location>
                 <dimension name="wght" xvalue="400" />
                 <dimension name="wdth" xvalue="100" />
@@ -440,7 +440,7 @@
                 <dimension name="YTFI" xvalue="425" />
             </location>
         </source>
-        <source familyname="Amstelvar" filename="Roman Parametric Axes/Amstelvar-Roman-YTFI1000.ufo" name="Amstelvar-Roman-YTFI1000.ufo" stylename="YTFI1000">
+        <source familyname="Amstelvar" filename="../../master_ufo/Amstelvar-Roman-YTFI1000.ufo" name="Amstelvar-Roman-YTFI1000.ufo" stylename="YTFI1000">
             <location>
                 <dimension name="wght" xvalue="400" />
                 <dimension name="wdth" xvalue="100" />
@@ -456,7 +456,7 @@
                 <dimension name="YTFI" xvalue="1000" />
             </location>
         </source>
-        <source familyname="Amstelvar" filename="Amstelvar-Roman-opsz8-wght100-wdth50.ufo" name="Amstelvar-Roman-opsz8-wght100-wdth50.ufo" stylename="opsz8-wght100-wdth50">
+        <source familyname="Amstelvar" filename="../../master_ufo/Amstelvar-Roman-opsz8-wght100-wdth50.ufo" name="Amstelvar-Roman-opsz8-wght100-wdth50.ufo" stylename="opsz8-wght100-wdth50">
             <location>
                 <dimension name="wght" xvalue="100" />
                 <dimension name="wdth" xvalue="50" />
@@ -472,7 +472,7 @@
                 <dimension name="YTFI" xvalue="760" />
             </location>
         </source>
-        <source familyname="Amstelvar" filename="Amstelvar-Roman-opsz8-wght100-wdth100.ufo" name="Amstelvar-Roman-opsz8-wght100-wdth100.ufo" stylename="opsz8-wght100-wdth100">
+        <source familyname="Amstelvar" filename="../../master_ufo/Amstelvar-Roman-opsz8-wght100-wdth100.ufo" name="Amstelvar-Roman-opsz8-wght100-wdth100.ufo" stylename="opsz8-wght100-wdth100">
             <location>
                 <dimension name="wght" xvalue="100" />
                 <dimension name="wdth" xvalue="100" />
@@ -488,7 +488,7 @@
                 <dimension name="YTFI" xvalue="760" />
             </location>
         </source>
-        <source familyname="Amstelvar" filename="Amstelvar-Roman-opsz8-wght100-wdth125.ufo" name="Amstelvar-Roman-opsz8-wght100-wdth125.ufo" stylename="opsz8-wght100-wdth125">
+        <source familyname="Amstelvar" filename="../../master_ufo/Amstelvar-Roman-opsz8-wght100-wdth125.ufo" name="Amstelvar-Roman-opsz8-wght100-wdth125.ufo" stylename="opsz8-wght100-wdth125">
             <location>
                 <dimension name="wght" xvalue="100" />
                 <dimension name="wdth" xvalue="125" />
@@ -504,7 +504,7 @@
                 <dimension name="YTFI" xvalue="760" />
             </location>
         </source>
-        <source familyname="Amstelvar" filename="Amstelvar-Roman-opsz8-wght400-wdth50.ufo" name="Amstelvar-Roman-opsz8-wght400-wdth50.ufo" stylename="opsz8-wght400-wdth50">
+        <source familyname="Amstelvar" filename="../../master_ufo/Amstelvar-Roman-opsz8-wght400-wdth50.ufo" name="Amstelvar-Roman-opsz8-wght400-wdth50.ufo" stylename="opsz8-wght400-wdth50">
             <location>
                 <dimension name="wght" xvalue="400" />
                 <dimension name="wdth" xvalue="50" />
@@ -520,7 +520,7 @@
                 <dimension name="YTFI" xvalue="760" />
             </location>
         </source>
-        <source familyname="Amstelvar" filename="Amstelvar-Roman-opsz8-wght400-wdth125.ufo" name="Amstelvar-Roman-opsz8-wght400-wdth125.ufo" stylename="opsz8-wght400-wdth125">
+        <source familyname="Amstelvar" filename="../../master_ufo/Amstelvar-Roman-opsz8-wght400-wdth125.ufo" name="Amstelvar-Roman-opsz8-wght400-wdth125.ufo" stylename="opsz8-wght400-wdth125">
             <location>
                 <dimension name="wght" xvalue="400" />
                 <dimension name="wdth" xvalue="125" />
@@ -536,9 +536,9 @@
                 <dimension name="YTFI" xvalue="760" />
             </location>
         </source>
-        <source familyname="Amstelvar" filename="Amstelvar-Roman-opsz8-wght900-wdth50.ufo" name="Amstelvar-Roman-opsz8-wght900-wdth50.ufo" stylename="opsz8-wght900-wdth50">
+        <source familyname="Amstelvar" filename="../../master_ufo/Amstelvar-Roman-opsz8-wght1000-wdth50.ufo" name="Amstelvar-Roman-opsz8-wght1000-wdth50.ufo" stylename="opsz8-wght1000-wdth50">
             <location>
-                <dimension name="wght" xvalue="900" />
+                <dimension name="wght" xvalue="1000" />
                 <dimension name="wdth" xvalue="50" />
                 <dimension name="opsz" xvalue="-1" />
                 <dimension name="GRAD" xvalue="0" />
@@ -552,9 +552,9 @@
                 <dimension name="YTFI" xvalue="760" />
             </location>
         </source>
-        <source familyname="Amstelvar" filename="Amstelvar-Roman-opsz8-wght900-wdth100.ufo" name="Amstelvar-Roman-opsz8-wght900-wdth100.ufo" stylename="opsz8-wght900-wdth100">
+        <source familyname="Amstelvar" filename="../../master_ufo/Amstelvar-Roman-opsz8-wght1000-wdth100.ufo" name="Amstelvar-Roman-opsz8-wght1000-wdth100.ufo" stylename="opsz8-wght1000-wdth100">
             <location>
-                <dimension name="wght" xvalue="900" />
+                <dimension name="wght" xvalue="1000" />
                 <dimension name="wdth" xvalue="100" />
                 <dimension name="opsz" xvalue="-1" />
                 <dimension name="GRAD" xvalue="0" />
@@ -568,9 +568,9 @@
                 <dimension name="YTFI" xvalue="760" />
             </location>
         </source>
-        <source familyname="Amstelvar" filename="Amstelvar-Roman-opsz8-wght900-wdth125.ufo" name="Amstelvar-Roman-opsz8-wght900-wdth125.ufo" stylename="opsz8-wght900-wdth125">
+        <source familyname="Amstelvar" filename="../../master_ufo/Amstelvar-Roman-opsz8-wght1000-wdth125.ufo" name="Amstelvar-Roman-opsz8-wght1000-wdth125.ufo" stylename="opsz8-wght1000-wdth125">
             <location>
-                <dimension name="wght" xvalue="900" />
+                <dimension name="wght" xvalue="1000" />
                 <dimension name="wdth" xvalue="125" />
                 <dimension name="opsz" xvalue="-1" />
                 <dimension name="GRAD" xvalue="0" />
@@ -584,7 +584,7 @@
                 <dimension name="YTFI" xvalue="760" />
             </location>
         </source>
-        <source familyname="Amstelvar" filename="Amstelvar-Roman-opsz14-wght100-wdth50.ufo" name="Amstelvar-Roman-opsz14-wght100-wdth50.ufo" stylename="opsz14-wght100-wdth50">
+        <source familyname="Amstelvar" filename="../../master_ufo/Amstelvar-Roman-opsz14-wght100-wdth50.ufo" name="Amstelvar-Roman-opsz14-wght100-wdth50.ufo" stylename="opsz14-wght100-wdth50">
             <location>
                 <dimension name="wght" xvalue="100" />
                 <dimension name="wdth" xvalue="50" />
@@ -600,7 +600,7 @@
                 <dimension name="YTFI" xvalue="760" />
             </location>
         </source>
-        <source familyname="Amstelvar" filename="Amstelvar-Roman-opsz14-wght100-wdth125.ufo" name="Amstelvar-Roman-opsz14-wght100-wdth125.ufo" stylename="opsz14-wght100-wdth125">
+        <source familyname="Amstelvar" filename="../../master_ufo/Amstelvar-Roman-opsz14-wght100-wdth125.ufo" name="Amstelvar-Roman-opsz14-wght100-wdth125.ufo" stylename="opsz14-wght100-wdth125">
             <location>
                 <dimension name="wght" xvalue="100" />
                 <dimension name="wdth" xvalue="125" />
@@ -616,9 +616,9 @@
                 <dimension name="YTFI" xvalue="760" />
             </location>
         </source>
-        <source familyname="Amstelvar" filename="Amstelvar-Roman-opsz14-wght900-wdth50.ufo" name="Amstelvar-Roman-opsz14-wght900-wdth50.ufo" stylename="opsz14-wght900-wdth50">
+        <source familyname="Amstelvar" filename="../../master_ufo/Amstelvar-Roman-opsz14-wght1000-wdth50.ufo" name="Amstelvar-Roman-opsz14-wght1000-wdth50.ufo" stylename="opsz14-wght1000-wdth50">
             <location>
-                <dimension name="wght" xvalue="900" />
+                <dimension name="wght" xvalue="1000" />
                 <dimension name="wdth" xvalue="50" />
                 <dimension name="opsz" xvalue="0" />
                 <dimension name="GRAD" xvalue="0" />
@@ -632,9 +632,9 @@
                 <dimension name="YTFI" xvalue="760" />
             </location>
         </source>
-        <source familyname="Amstelvar" filename="Amstelvar-Roman-opsz14-wght900-wdth125.ufo" name="Amstelvar-Roman-opsz14-wght900-wdth125.ufo" stylename="opsz14-wght900-wdth125">
+        <source familyname="Amstelvar" filename="../../master_ufo/Amstelvar-Roman-opsz14-wght1000-wdth125.ufo" name="Amstelvar-Roman-opsz14-wght1000-wdth125.ufo" stylename="opsz14-wght1000-wdth125">
             <location>
-                <dimension name="wght" xvalue="900" />
+                <dimension name="wght" xvalue="1000" />
                 <dimension name="wdth" xvalue="125" />
                 <dimension name="opsz" xvalue="0" />
                 <dimension name="GRAD" xvalue="0" />
@@ -648,7 +648,7 @@
                 <dimension name="YTFI" xvalue="760" />
             </location>
         </source>
-        <source familyname="Amstelvar" filename="Amstelvar-Roman-opsz144-wght100-wdth50.ufo" name="Amstelvar-Roman-opsz144-wght100-wdth50.ufo" stylename="opsz144-wght100-wdth50">
+        <source familyname="Amstelvar" filename="../../master_ufo/Amstelvar-Roman-opsz144-wght100-wdth50.ufo" name="Amstelvar-Roman-opsz144-wght100-wdth50.ufo" stylename="opsz144-wght100-wdth50">
             <location>
                 <dimension name="wght" xvalue="100" />
                 <dimension name="wdth" xvalue="50" />
@@ -664,7 +664,7 @@
                 <dimension name="YTFI" xvalue="760" />
             </location>
         </source>
-        <source familyname="Amstelvar" filename="Amstelvar-Roman-opsz144-wght100-wdth100.ufo" name="Amstelvar-Roman-opsz144-wght100-wdth100.ufo" stylename="opsz144-wght100-wdth100">
+        <source familyname="Amstelvar" filename="../../master_ufo/Amstelvar-Roman-opsz144-wght100-wdth100.ufo" name="Amstelvar-Roman-opsz144-wght100-wdth100.ufo" stylename="opsz144-wght100-wdth100">
             <location>
                 <dimension name="wght" xvalue="100" />
                 <dimension name="wdth" xvalue="100" />
@@ -680,7 +680,7 @@
                 <dimension name="YTFI" xvalue="760" />
             </location>
         </source>
-        <source familyname="Amstelvar" filename="Amstelvar-Roman-opsz144-wght100-wdth125.ufo" name="Amstelvar-Roman-opsz144-wght100-wdth125.ufo" stylename="opsz144-wght100-wdth125">
+        <source familyname="Amstelvar" filename="../../master_ufo/Amstelvar-Roman-opsz144-wght100-wdth125.ufo" name="Amstelvar-Roman-opsz144-wght100-wdth125.ufo" stylename="opsz144-wght100-wdth125">
             <location>
                 <dimension name="wght" xvalue="100" />
                 <dimension name="wdth" xvalue="125" />
@@ -696,7 +696,7 @@
                 <dimension name="YTFI" xvalue="760" />
             </location>
         </source>
-        <source familyname="Amstelvar" filename="Amstelvar-Roman-opsz144-wght400-wdth50.ufo" name="Amstelvar-Roman-opsz144-wght400-wdth50.ufo" stylename="opsz144-wght400-wdth50">
+        <source familyname="Amstelvar" filename="../../master_ufo/Amstelvar-Roman-opsz144-wght400-wdth50.ufo" name="Amstelvar-Roman-opsz144-wght400-wdth50.ufo" stylename="opsz144-wght400-wdth50">
             <location>
                 <dimension name="wght" xvalue="400" />
                 <dimension name="wdth" xvalue="50" />
@@ -712,7 +712,7 @@
                 <dimension name="YTFI" xvalue="760" />
             </location>
         </source>
-        <source familyname="Amstelvar" filename="Amstelvar-Roman-opsz144-wght400-wdth125.ufo" name="Amstelvar-Roman-opsz144-wght400-wdth125.ufo" stylename="opsz144-wght400-wdth125">
+        <source familyname="Amstelvar" filename="../../master_ufo/Amstelvar-Roman-opsz144-wght400-wdth125.ufo" name="Amstelvar-Roman-opsz144-wght400-wdth125.ufo" stylename="opsz144-wght400-wdth125">
             <location>
                 <dimension name="wght" xvalue="400" />
                 <dimension name="wdth" xvalue="125" />
@@ -728,9 +728,9 @@
                 <dimension name="YTFI" xvalue="760" />
             </location>
         </source>
-        <source familyname="Amstelvar" filename="Amstelvar-Roman-opsz144-wght900-wdth50.ufo" name="Amstelvar-Roman-opsz144-wght900-wdth50.ufo" stylename="opsz144-wght900-wdth50">
+        <source familyname="Amstelvar" filename="../../master_ufo/Amstelvar-Roman-opsz144-wght1000-wdth50.ufo" name="Amstelvar-Roman-opsz144-wght1000-wdth50.ufo" stylename="opsz144-wght1000-wdth50">
             <location>
-                <dimension name="wght" xvalue="900" />
+                <dimension name="wght" xvalue="1000" />
                 <dimension name="wdth" xvalue="50" />
                 <dimension name="opsz" xvalue="1" />
                 <dimension name="GRAD" xvalue="0" />
@@ -744,9 +744,9 @@
                 <dimension name="YTFI" xvalue="760" />
             </location>
         </source>
-        <source familyname="Amstelvar" filename="Amstelvar-Roman-opsz144-wght900-wdth100.ufo" name="Amstelvar-Roman-opsz144-wght900-wdth100.ufo" stylename="opsz144-wght900-wdth100">
+        <source familyname="Amstelvar" filename="../../master_ufo/Amstelvar-Roman-opsz144-wght1000-wdth100.ufo" name="Amstelvar-Roman-opsz144-wght1000-wdth100.ufo" stylename="opsz144-wght1000-wdth100">
             <location>
-                <dimension name="wght" xvalue="900" />
+                <dimension name="wght" xvalue="1000" />
                 <dimension name="wdth" xvalue="100" />
                 <dimension name="opsz" xvalue="1" />
                 <dimension name="GRAD" xvalue="0" />
@@ -760,9 +760,9 @@
                 <dimension name="YTFI" xvalue="760" />
             </location>
         </source>
-        <source familyname="Amstelvar" filename="Amstelvar-Roman-opsz144-wght900-wdth125.ufo" name="Amstelvar-Roman-opsz144-wght900-wdth125.ufo" stylename="opsz144-wght900-wdth125">
+        <source familyname="Amstelvar" filename="../../master_ufo/Amstelvar-Roman-opsz144-wght1000-wdth125.ufo" name="Amstelvar-Roman-opsz144-wght1000-wdth125.ufo" stylename="opsz144-wght1000-wdth125">
             <location>
-                <dimension name="wght" xvalue="900" />
+                <dimension name="wght" xvalue="1000" />
                 <dimension name="wdth" xvalue="125" />
                 <dimension name="opsz" xvalue="1" />
                 <dimension name="GRAD" xvalue="0" />

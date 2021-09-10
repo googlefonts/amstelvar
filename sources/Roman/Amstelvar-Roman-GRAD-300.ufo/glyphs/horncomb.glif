@@ -1,29 +1,37 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="horncomb" format="2">
-	<unicode hex="031B"/>
-	<advance width="1024"/>
-	<outline>
-		<contour>
-			<point x="-1" y="1000" type="line"/>
-			<point x="11" y="997"/>
-			<point x="64" y="990"/>
-			<point x="114" y="990" type="qcurve" smooth="yes"/>
-			<point x="184" y="990"/>
-			<point x="240" y="1035"/>
-			<point x="240" y="1078" type="qcurve" smooth="yes"/>
-			<point x="240" y="1122"/>
-			<point x="214" y="1223"/>
-			<point x="197" y="1256" type="qcurve"/>
-			<point x="274" y="1256" type="line"/>
-			<point x="297" y="1214"/>
-			<point x="328" y="1106"/>
-			<point x="328" y="1063" type="qcurve" smooth="yes"/>
-			<point x="328" y="993"/>
-			<point x="228" y="922"/>
-			<point x="131" y="922" type="qcurve" smooth="yes"/>
-			<point x="72" y="922"/>
-			<point x="17" y="931"/>
-			<point x="-1" y="937" type="qcurve"/>
-		</contour>
-	</outline>
+  <advance width="1024"/>
+  <unicode hex="031B"/>
+  <anchor x="-0.5" y="1000" name="_topright"/>
+  <anchor x="-1.0" y="1256" name="topright"/>
+  <outline>
+    <contour>
+      <point x="-1.0" y="995.0" type="line"/>
+      <point x="11.0" y="992.0"/>
+      <point x="64.0" y="985.0"/>
+      <point x="114.0" y="985.0" type="qcurve" smooth="yes"/>
+      <point x="184.0" y="985.0"/>
+      <point x="240.0" y="1030.0"/>
+      <point x="240.0" y="1073.0" type="qcurve" smooth="yes"/>
+      <point x="240.0" y="1117.0"/>
+      <point x="214.0" y="1218.0"/>
+      <point x="197.0" y="1251.0" type="qcurve"/>
+      <point x="274.0" y="1251.0" type="line"/>
+      <point x="297.0" y="1209.0"/>
+      <point x="328.0" y="1101.0"/>
+      <point x="328.0" y="1058.0" type="qcurve" smooth="yes"/>
+      <point x="328.0" y="988.0"/>
+      <point x="228.0" y="917.0"/>
+      <point x="131.0" y="917.0" type="qcurve" smooth="yes"/>
+      <point x="72.0" y="917.0"/>
+      <point x="17.0" y="926.0"/>
+      <point x="-1.0" y="932.0" type="qcurve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.9908,1,0.037,1</string>
+    </dict>
+  </lib>
 </glyph>

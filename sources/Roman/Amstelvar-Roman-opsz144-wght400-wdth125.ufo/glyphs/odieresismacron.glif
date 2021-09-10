@@ -4,7 +4,13 @@
   <unicode hex="022B"/>
   <outline>
     <component base="o"/>
-    <component base="dieresiscomb" xOffset="284" yOffset="-14"/>
-    <component base="macroncomb" xOffset="285" yOffset="186"/>
+    <component base="dieresiscomb" xOffset="291.5"/>
+    <component base="macroncomb" xOffset="291.5" yOffset="313"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.8337,1,0.1931,1</string>
+    </dict>
+  </lib>
 </glyph>

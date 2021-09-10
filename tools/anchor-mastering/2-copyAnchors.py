@@ -75,6 +75,8 @@ def copyAnchors(selectedGlyphs, yPositioning):
             elif anchor.name == 'center':
                 if dstGlyph.name == 'o':
                     dstGlyph.appendAnchor(anchor.name, ( ( dstGlyph.width ) / 2, ylc / 2))
+                elif dstGlyph.name == 'L':
+                    dstGlyph.appendAnchor(anchor.name, ( ( dstGlyph.width ) / 2, yUC / 2))
                 else:
                     dstGlyph.appendAnchor(anchor.name, ( ( dstGlyph.width ) / 2, yUC / 2))
             
@@ -85,11 +87,21 @@ def copyAnchors(selectedGlyphs, yPositioning):
                 dstGlyph.appendAnchor(anchor.name, ( ( dstGlyph.width ) / 2, anchor.y))
             
             elif anchor.name == 'topright':
-                dstGlyph.appendAnchor(anchor.name, ( ( dstGlyph.width - dstGlyph.rightMargin), yPositioning))
-            
+                if dstGlyph.name == 'horncomb':
+                    dstGlyph.appendAnchor(anchor.name, ( dstGlyph.leftMargin, abs(dstGlyph.topMargin) ))
+                elif dstGlyph.name == 'horncomb.case':
+                    dstGlyph.appendAnchor(anchor.name, ( dstGlyph.leftMargin, abs(dstGlyph.topMargin) ))
+                elif dstGlyph.name == 'L':
+                    dstGlyph.appendAnchor(anchor.name, ( ( dstGlyph.width ) / 2, ylc ))
+                else:
+                    dstGlyph.appendAnchor(anchor.name, ( ( dstGlyph.width - dstGlyph.rightMargin), yPositioning))
+                    
             elif anchor.name == '_topright':
-                dstGlyph.appendAnchor(anchor.name, ( ( dstGlyph.leftMargin / 2 ), yPositioning))
-            
+                if dstGlyph.name == 'horncomb.case':
+                    dstGlyph.appendAnchor(anchor.name, ( dstGlyph.leftMargin, yUC ))
+                else:
+                    dstGlyph.appendAnchor(anchor.name, ( ( dstGlyph.leftMargin / 2 ), yPositioning))
+                    
             else:
                 dstGlyph.appendAnchor(anchor.name, ( ( anchor.x ) *2, anchor.y))
             

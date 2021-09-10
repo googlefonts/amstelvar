@@ -9,7 +9,7 @@ breveacutecomb=brevecomb+acutecomb@60%,110%
 circumflexhookabovecomb=circumflexcomb+hookabovecomb@90%
 circumflexacutecomb=circumflexcomb+acutecomb@90%
 circumflexgravecomb=circumflexcomb+gravecomb@90%
-circumflextildecomb=circumflexcomb+tildecomb@center,130%
+circumflextildecomb=circumflexcomb+tildecomb@center,120%
 brevetildecomb.case=brevecombstack.case+tildecombstack.case@top
 brevehookabovecomb.case=brevecombstack.case+hookabovecombstack.case@center,110%
 brevegravecomb.case=brevecombstack.case+gravecombstack.case@40%,110%
@@ -17,7 +17,7 @@ breveacutecomb.case=brevecombstack.case+acutecombstack.case@60%,110%
 circumflexhookabovecomb.case=circumflexcombstack.case+hookabovecombstack.case@90%
 circumflexacutecomb.case=circumflexcombstack.case+acutecombstack.case@90%
 circumflexgravecomb.case=circumflexcombstack.case+gravecombstack.case@90%
-circumflextildecomb.case=circumflexcombstack.case+tildecombstack.case@center,130%
+circumflextildecomb.case=circumflexcombstack.case+tildecombstack.case@center,120%
 '''
 
 # get constructions from text
