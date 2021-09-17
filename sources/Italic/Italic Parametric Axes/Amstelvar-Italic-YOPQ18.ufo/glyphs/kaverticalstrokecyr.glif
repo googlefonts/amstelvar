@@ -5,11 +5,6 @@
   <guideline x="241" y="553" angle="90" identifier="lmgRx0QBdK"/>
   <outline>
     <contour>
-      <point x="371" y="930" type="move"/>
-      <point x="293" y="528" type="line"/>
-      <point x="209" y="83" type="line"/>
-      <point x="240" y="0" type="line"/>
-      <point x="76" y="-23" type="line"/>
       <point x="34" y="56" type="line"/>
       <point x="137" y="527" type="line"/>
       <point x="203" y="895" type="line"/>
@@ -18,6 +13,10 @@
       <point x="268" y="1003" type="line"/>
       <point x="313" y="1001" type="line"/>
       <point x="371" y="930" type="line"/>
+      <point x="293" y="528" type="line"/>
+      <point x="209" y="83" type="line"/>
+      <point x="240" y="0" type="line"/>
+      <point x="76" y="-23" type="line"/>
     </contour>
     <contour>
       <point x="951" y="71" type="line"/>
@@ -39,8 +38,11 @@
     </contour>
     <contour>
       <point x="921" y="697" type="line"/>
-      <point x="921" y="819"/>
-      <point x="827" y="856"/>
+      <point x="921" y="767"/>
+      <point x="888" y="843"/>
+      <point x="862" y="843" type="qcurve" smooth="yes"/>
+      <point x="844" y="843"/>
+      <point x="805" y="827"/>
       <point x="788" y="806" type="qcurve" smooth="yes"/>
       <point x="516" y="462" type="line"/>
       <point x="507" y="462" type="line"/>
@@ -53,11 +55,8 @@
       <point x="1114" y="953"/>
       <point x="1114" y="900" type="qcurve" smooth="yes"/>
       <point x="1114" y="818"/>
-      <point x="1025.0" y="697.0"/>
+      <point x="1025" y="697"/>
       <point x="956" y="697" type="qcurve" smooth="yes"/>
-    </contour>
-    <contour>
-      <point x="371" y="930" type="move"/>
     </contour>
   </outline>
 </glyph>
