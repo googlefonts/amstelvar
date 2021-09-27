@@ -213,7 +213,7 @@ for source in src:
 
 
 # use a temporary designspace to build instances with mutator math
-familyName = "Amstelvar"
+familyName = "Amstelvar Italic"
 tmpDesignSpace = "tmp.designspace"
 doc = DesignSpaceDocumentWriter(tmpDesignSpace)
 # sources
@@ -418,7 +418,7 @@ project.run_from_ufos(
 	use_production_names=False)
 
 #temp changed rel path to work in same dir, was:  ../fonts/Amstelvar-Italic-VF.ttf
-outfile = "Amstelvar-Italic[wdth,wght,opsz].ttf"
+outfile = "Amstelvar-Italic[GRAD,YOPQ,YTAS,YTDE,YTFI,YTLC,YTUC,wdth,wght,opsz].ttf"
 
 #make folder if it doesn't exist
 destFolder = "fonts"
