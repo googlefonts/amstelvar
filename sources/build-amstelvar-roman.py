@@ -303,9 +303,118 @@ doc.addRule(r1)
 	
 r2 = RuleDescriptor()
 r2.name = "heavier-bars-wght"
-r2.conditions.append(dict(name="wght", minimum=850, maximum=900))
+r2.conditions.append(dict(name="wght", minimum=850, maximum=1000))
 r2.subs.append(("dollar", "dollar.rvrn"))
 doc.addRule(r2)
+
+r3 = RuleDescriptor()
+r3.name = "colonsign-stroke-wght"
+r3.conditions.append(dict(name="wght", minimum=600, maximum=1000))
+r3.subs.append(("colonsign", "colonsign.rvrn"))
+doc.addRule(r3)
+	
+r4 = RuleDescriptor()
+r4.name = "colonsign-stroke-wdth"
+r4.conditions.append(dict(name="wdth", minimum=25, maximum=85))
+r4.subs.append(("colonsign", "colonsign.rvrn"))
+doc.addRule(r4)
+
+r5 = RuleDescriptor()
+r5.name = "won-stroke-wght"
+r5.conditions.append(dict(name="wght", minimum=600, maximum=1000))
+r5.subs.append(("won", "won.rvrn"))
+doc.addRule(r5)
+	
+r6 = RuleDescriptor()
+r6.name = "won-stroke-wdth"
+r6.conditions.append(dict(name="wdth", minimum=25, maximum=85))
+r6.subs.append(("won", "won.rvrn"))
+doc.addRule(r6)
+
+r7 = RuleDescriptor()
+r7.name = "cent-stroke-wght"
+r7.conditions.append(dict(name="wght", minimum=600, maximum=1000))
+r7.subs.append(("cent", "cent.rvrn"))
+doc.addRule(r7)
+	
+r8 = RuleDescriptor()
+r8.name = "cent-stroke-wdth"
+r8.conditions.append(dict(name="wdth", minimum=25, maximum=85))
+r8.subs.append(("cent", "cent.rvrn"))
+doc.addRule(r8)
+
+r9 = RuleDescriptor()
+r9.name = "guarani-stroke-wght"
+r9.conditions.append(dict(name="wght", minimum=600, maximum=1000))
+r9.subs.append(("guarani", "guarani.rvrn"))
+doc.addRule(r9)
+	
+r10 = RuleDescriptor()
+r10.name = "guarani-stroke-wdth"
+r10.conditions.append(dict(name="wdth", minimum=25, maximum=85))
+r10.subs.append(("guarani", "guarani.rvrn"))
+doc.addRule(r10)
+
+	
+r12 = RuleDescriptor()
+r12.name = "peso-stroke-wdth"
+r12.conditions.append(dict(name="wdth", minimum=25, maximum=85))
+r12.subs.append(("peso", "peso.rvrn"))
+doc.addRule(r12)
+
+r13 = RuleDescriptor()
+r13.name = "peso-stroke-wght"
+r13.conditions.append(dict(name="wght", minimum=600, maximum=1000))
+r13.subs.append(("peso", "peso.rvrn"))
+doc.addRule(r13)
+
+r14 = RuleDescriptor()
+r14.name = "naira-stroke-wdth"
+r14.conditions.append(dict(name="wdth", minimum=25, maximum=85))
+r14.subs.append(("naira", "naira.rvrn"))
+doc.addRule(r14)
+
+r15 = RuleDescriptor()
+r15.name = "naira-stroke-wght"
+r15.conditions.append(dict(name="wght", minimum=600, maximum=1000))
+r15.subs.append(("naira", "naira.rvrn"))
+doc.addRule(r15)
+
+r16 = RuleDescriptor()
+r16.name = "cedi-stroke-wdth"
+r16.conditions.append(dict(name="wdth", minimum=25, maximum=85))
+r16.subs.append(("cedi", "cedi.rvrn"))
+doc.addRule(r16)
+
+r17 = RuleDescriptor()
+r17.name = "cedi-stroke-wght"
+r17.conditions.append(dict(name="wght", minimum=600, maximum=1000))
+r17.subs.append(("cedi", "cedi.rvrn"))
+doc.addRule(r17)
+
+r18 = RuleDescriptor()
+r18.name = "Oslash-stroke-wdth"
+r18.conditions.append(dict(name="wdth", minimum=25, maximum=85))
+r18.subs.append(("Oslash", "Oslash.rvrn"))
+doc.addRule(r18)
+
+r19 = RuleDescriptor()
+r19.name = "Oslash-stroke-wght"
+r19.conditions.append(dict(name="wght", minimum=600, maximum=1000))
+r19.subs.append(("Oslash", "Oslash.rvrn"))
+doc.addRule(r19)
+
+r20 = RuleDescriptor()
+r20.name = "oslash-stroke-wdth"
+r20.conditions.append(dict(name="wdth", minimum=25, maximum=85))
+r20.subs.append(("oslash", "oslash.rvrn"))
+doc.addRule(r20)
+
+r21 = RuleDescriptor()
+r21.name = "oslash-stroke-wght"
+r21.conditions.append(dict(name="wght", minimum=600, maximum=1000))
+r21.subs.append(("oslash", "oslash.rvrn"))
+doc.addRule(r21)
 
 
 doc.write(designSpace)
