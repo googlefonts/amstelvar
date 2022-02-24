@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="iota" format="2">
+  <advance width="627"/>
+  <unicode hex="03B9"/>
+  <anchor x="287" y="1140" name="GRKtop"/>
+  <outline>
+    <contour>
+      <point x="379" y="-8" type="line"/>
+      <point x="283" y="-8"/>
+      <point x="183" y="87"/>
+      <point x="184" y="206" type="qcurve" smooth="yes"/>
+      <point x="186" y="610" type="line"/>
+      <point x="176" y="1119" type="line"/>
+      <point x="337" y="1140" type="line"/>
+      <point x="372" y="1113" type="line"/>
+      <point x="352" y="610" type="line"/>
+      <point x="352" y="216" type="line" smooth="yes"/>
+      <point x="352" y="151"/>
+      <point x="414" y="109"/>
+      <point x="468" y="109" type="qcurve" smooth="yes"/>
+      <point x="572" y="109" type="line"/>
+      <point x="572" y="32" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.2575,0.6166,0.2752,1</string>
+    </dict>
+  </lib>
+</glyph>

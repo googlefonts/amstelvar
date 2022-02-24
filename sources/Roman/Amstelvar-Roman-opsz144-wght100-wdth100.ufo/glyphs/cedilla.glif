@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="cedilla" format="2">
+  <advance width="896"/>
+  <unicode hex="00B8"/>
+  <outline>
+    <contour>
+      <point x="476" y="0.0" type="line"/>
+      <point x="407" y="-157.0" type="line"/>
+      <point x="436" y="-139.0"/>
+      <point x="506" y="-119.0"/>
+      <point x="543" y="-119.0" type="qcurve" smooth="yes"/>
+      <point x="619" y="-119.0"/>
+      <point x="705" y="-182"/>
+      <point x="705" y="-241" type="qcurve" smooth="yes"/>
+      <point x="705" y="-317"/>
+      <point x="579" y="-394"/>
+      <point x="498" y="-394" type="qcurve" smooth="yes"/>
+      <point x="438" y="-394"/>
+      <point x="323" y="-355"/>
+      <point x="300" y="-335" type="qcurve"/>
+      <point x="304" y="-325" type="line"/>
+      <point x="327" y="-344"/>
+      <point x="424" y="-378"/>
+      <point x="495" y="-378" type="qcurve" smooth="yes"/>
+      <point x="562" y="-378"/>
+      <point x="645" y="-302"/>
+      <point x="645" y="-242" type="qcurve" smooth="yes"/>
+      <point x="645" y="-189"/>
+      <point x="580" y="-133.0"/>
+      <point x="530" y="-133.0" type="qcurve" smooth="yes"/>
+      <point x="493" y="-133.0"/>
+      <point x="422" y="-159.0"/>
+      <point x="407" y="-171.0" type="qcurve"/>
+      <point x="394" y="-159.0" type="line"/>
+      <point x="465" y="5.0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.9908,1,0.037,1</string>
+    </dict>
+  </lib>
+</glyph>

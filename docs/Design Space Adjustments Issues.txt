@@ -1,0 +1,52 @@
+Issues, 
+
+Use prototype parametric axes, XTRA, YOPQ, XOPQ,
+To adjust YOPQ of opszmax, wghtmin/Max, which fixed opszmax wdth.
+
+This adjustment of hairlines (YOPQ), is required in the largest Optical size, because of combined hairline weight reduction in the lightest weight (wghtmin), combining with hairline reduction in that largest size, (opszmax), to form the largest lightest size, (opszmax-wghtmin). This will typically be required in a variable if its design space a broad range.
+
+Once that adjustment has been made, it has made the extremes and the default a good shell on the edges of the design space, and with the weight and width axes bisecting the design space, the 3 steps of opsz, 8pt min, 14pt default and 144pt Max, can be seen in their proposed ranges of weight and width.
+
+The 8 and 14 steps are intended as the only two on the small end, but the step from 14 to 144 needs steps in between. To smooth out the line from 14 to 144, if two steps, 36 and 84 are chosen to smooth the range numerically, the view of those sizes can then be used as a guide to adjust instances of opsz to become opsz 36 and 84.
+
+With the complete glyph repertoire of OPSZ to work with, and a range of repertoires, from control characters to ascii, in wght, wdth, xtra, yopq and xopq, the following adjustments were made.
+ First, the width of opsz Max was designed originally too narrow. Several observers have pointed out it looks like condensed of some sort. Also, this overzealous narrowing is harming the wide ness of opsz wdth Max, at all weights, and is is putting a lot a negative width pressure on the wdth min.
+ 
+ Because this will widen everything above 14 pt. it must be done first. This will widen the 36pt and 84 pt opsz intermediates we insert between 14 and the newly widened 144. XTRA was used, as shown, (being adjusted from “980” to “1015”).
+ 
+ Second, the 84 pt. master is adjusted to a larger Optical Size along opsz, changing the 84 pt’s design to the design of opsz 137. This has the effect of shifting much of the changes made over the existing opsz 137-144 range, to the range from 84 to 144. (The change to XTRA in the illustration of the completed 84 pt design space location, should be ignored, as it will be effected on its own by the first step).
+ 
+ Third, and added to,any manufacture at the same as the second step, the 36 pt master is replaced by the instance at opsz 78 pt. 
+ 
+ So, the redefinition of the opsz change, and after the first step, is accomplished by inserting Intermediate instances on Opsz, at 36 and 84, with instances generated at opsz 78 and 137 respectively.
+ 
+ In practical detail:
+   Generate instance Means: go to the indicated design space location and generate ttf.
+   
+   Replace design space location, means to replace an existing design space location, defined by one ttf, with another ttf.
+   The same axes values as the origin ttf will be used at that location. Axes values from a ttf that are different from the those of the ttf they are replacing, may be recorded in design sheet for those values. 
+ 
+   Create design space intermediate, means the identification of the values desired in an instance along an axes, generating a ttf of that instance, possibly making other changes, and then adding a new location in the design space file, with the appearance of that location defined in the ttf, and the design space location along the axis defined by whatever the desired input for the location is.
+   
+   Replace design space extent, Could be self-explanatory.
+   
+ First, 
+   Generate instance, opsz’s xtra correction
+   Replace design space location, replace opsz max with generated instance
+ Second,
+   Generate instance opsz 137
+   Generate instance opsz 78
+   Create design space intermediate opsz 84
+   Create design space intermediate opsz 36
+ 
+ Notes:
+ This was done visually, then the values assessed, and no other adjustments made, while viewing “HOD nop” for control characters. 
+ 
+ It has no effect on the work RL is doing on Roman wght and wdth. As those axes are completed, they will join the newly defined opsz axes, have the parametric axes completed by FB, and the design space will grow more completed glyphs “itself”.
+ 
+ Ascii YOPQ, XTRA, XOPQ are to be completed this week, to join RL’s work of completed ascii-registered axes + complete repertoire of proposed final opsz, before May 16th.
+ 
+ Reaching this stage allows us to Absorb and expand on DJR’s work on the dollar sign, which when last visited some options for solution, but how to handle those solutions in 3-axes space needed exploration. That 3-axes space will be open with these steps. $ is part of ascii. Understanding the behavior of $ helps RL, DB and SO plan and design similar glyphs beyond $.
+ 
+ 
+ 

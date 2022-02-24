@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="hungarumlaut" format="2">
+  <advance width="1024"/>
+  <unicode hex="02DD"/>
+  <outline>
+    <contour>
+      <point x="560.0" y="1516.0" type="qcurve" smooth="yes"/>
+      <point x="560.0" y="1477.0"/>
+      <point x="511.0" y="1415.0"/>
+      <point x="480.0" y="1388.0" type="qcurve" smooth="yes"/>
+      <point x="314.0" y="1237.0" type="line"/>
+      <point x="208.0" y="1311.0" type="line"/>
+      <point x="319.0" y="1485.0" type="line" smooth="yes"/>
+      <point x="343.0" y="1523.0"/>
+      <point x="409.0" y="1606.0"/>
+      <point x="449.0" y="1606.0" type="qcurve" smooth="yes"/>
+      <point x="493.0" y="1606.0"/>
+      <point x="560.0" y="1554.0"/>
+    </contour>
+    <contour>
+      <point x="893.0" y="1516.0" type="qcurve" smooth="yes"/>
+      <point x="893.0" y="1477.0"/>
+      <point x="844.0" y="1415.0"/>
+      <point x="813.0" y="1388.0" type="qcurve" smooth="yes"/>
+      <point x="647.0" y="1237.0" type="line"/>
+      <point x="541.0" y="1311.0" type="line"/>
+      <point x="652.0" y="1485.0" type="line" smooth="yes"/>
+      <point x="676.0" y="1523.0"/>
+      <point x="742.0" y="1606.0"/>
+      <point x="782.0" y="1606.0" type="qcurve" smooth="yes"/>
+      <point x="826.0" y="1606.0"/>
+      <point x="893.0" y="1554.0"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.9908,1,0.037,1</string>
+    </dict>
+  </lib>
+</glyph>

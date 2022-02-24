@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="grave" format="2">
+  <advance width="1024"/>
+  <unicode hex="0060"/>
+  <outline>
+    <contour>
+      <point x="232.0" y="1660.0" type="qcurve" smooth="yes"/>
+      <point x="232.0" y="1704.0"/>
+      <point x="321.0" y="1795.0"/>
+      <point x="387.0" y="1795.0" type="qcurve" smooth="yes"/>
+      <point x="437.0" y="1795.0"/>
+      <point x="527.0" y="1724.0"/>
+      <point x="573.0" y="1661.0" type="qcurve" smooth="yes"/>
+      <point x="782.0" y="1388.0" type="line"/>
+      <point x="674.0" y="1270.0" type="line"/>
+      <point x="332.0" y="1496.0" type="line" smooth="yes"/>
+      <point x="277.0" y="1532.0"/>
+      <point x="232.0" y="1616.0"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.9908,1,0.037,1</string>
+    </dict>
+  </lib>
+</glyph>

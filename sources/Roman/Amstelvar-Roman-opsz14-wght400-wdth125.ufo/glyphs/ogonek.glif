@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ogonek" format="2">
+  <advance width="1024"/>
+  <unicode hex="02DB"/>
+  <outline>
+    <contour>
+      <point x="438.0" y="-240.0" type="qcurve" smooth="yes"/>
+      <point x="438.0" y="-282.0"/>
+      <point x="518.0" y="-337.0"/>
+      <point x="587.0" y="-337.0" type="qcurve" smooth="yes"/>
+      <point x="648.0" y="-337.0"/>
+      <point x="796.0" y="-291.0"/>
+      <point x="854.0" y="-251.0" type="qcurve"/>
+      <point x="914.0" y="-335.0" type="line"/>
+      <point x="870.0" y="-379.0"/>
+      <point x="688.0" y="-463.0"/>
+      <point x="557.0" y="-463.0" type="qcurve" smooth="yes"/>
+      <point x="426.0" y="-463.0"/>
+      <point x="274.0" y="-359.0"/>
+      <point x="274.0" y="-277.0" type="qcurve" smooth="yes"/>
+      <point x="274.0" y="-192.0"/>
+      <point x="420.0" y="-32.0"/>
+      <point x="516.0" y="32.0" type="qcurve" smooth="yes"/>
+      <point x="546.0" y="52.0" type="line"/>
+      <point x="626.0" y="0.0" type="line"/>
+      <point x="603.0" y="-18.0" type="line" smooth="yes"/>
+      <point x="515.0" y="-87.0"/>
+      <point x="438.0" y="-190.0"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.9908,1,0.037,1</string>
+    </dict>
+  </lib>
+</glyph>

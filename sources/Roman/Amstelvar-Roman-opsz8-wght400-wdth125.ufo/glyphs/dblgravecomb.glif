@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dblgravecomb" format="2">
+  <advance width="1024"/>
+  <unicode hex="0311"/>
+  <anchor x="512.0" y="1050" name="_top"/>
+  <anchor x="512.0" y="1648.0" name="top"/>
+  <outline>
+    <contour>
+      <point x="-135.93900142508073" y="1559.0" type="qcurve"/>
+      <point x="-135.93900142508073" y="1588.0"/>
+      <point x="-77.93900142508073" y="1648.0"/>
+      <point x="-21.939001425080733" y="1648.0" type="qcurve" smooth="yes"/>
+      <point x="9.060998574919267" y="1648.0"/>
+      <point x="108.06099857491927" y="1595.0"/>
+      <point x="143.06099857491927" y="1566.0" type="qcurve" smooth="yes"/>
+      <point x="389.06099857491927" y="1361.0" type="line"/>
+      <point x="307.06099857491927" y="1270.0" type="line"/>
+      <point x="-31.939001425080733" y="1446.0" type="line" smooth="yes"/>
+      <point x="-78.93900142508073" y="1470.0"/>
+      <point x="-135.93900142508073" y="1514.0"/>
+    </contour>
+    <contour>
+      <point x="317.06099857491927" y="1559.0" type="qcurve"/>
+      <point x="317.06099857491927" y="1588.0"/>
+      <point x="375.06099857491927" y="1648.0"/>
+      <point x="432.06099857491927" y="1648.0" type="qcurve" smooth="yes"/>
+      <point x="462.06099857491927" y="1648.0"/>
+      <point x="552.0609985749193" y="1596.0"/>
+      <point x="589.0609985749193" y="1567.0" type="qcurve" smooth="yes"/>
+      <point x="843.0609985749193" y="1361.0" type="line"/>
+      <point x="754.0609985749193" y="1270.0" type="line"/>
+      <point x="421.06099857491927" y="1446.0" type="line" smooth="yes"/>
+      <point x="375.06099857491927" y="1471.0"/>
+      <point x="317.06099857491927" y="1514.0"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.9908,1,0.037,1</string>
+    </dict>
+  </lib>
+</glyph>

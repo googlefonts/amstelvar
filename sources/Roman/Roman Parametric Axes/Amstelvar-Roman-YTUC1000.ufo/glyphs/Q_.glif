@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Q" format="2">
+  <advance width="1664"/>
+  <unicode hex="0051"/>
+  <anchor x="832.0" y="0" name="bottom"/>
+  <anchor x="832.0" y="2000" name="top"/>
+  <outline>
+    <contour>
+      <point x="80" y="991" type="qcurve" smooth="yes"/>
+      <point x="80" y="1411"/>
+      <point x="495" y="2032"/>
+      <point x="832" y="2032" type="qcurve" smooth="yes"/>
+      <point x="1169" y="2032"/>
+      <point x="1583" y="1449"/>
+      <point x="1584" y="1010" type="qcurve" smooth="yes"/>
+      <point x="1585" y="630"/>
+      <point x="1154" y="-21"/>
+      <point x="836" y="-21" type="qcurve" smooth="yes"/>
+      <point x="518" y="-21"/>
+      <point x="80" y="583"/>
+    </contour>
+    <contour>
+      <point x="271" y="1039" type="qcurve" smooth="yes"/>
+      <point x="271" y="639"/>
+      <point x="584" y="111"/>
+      <point x="834" y="111" type="qcurve" smooth="yes"/>
+      <point x="1107" y="111"/>
+      <point x="1393" y="580"/>
+      <point x="1393" y="1003" type="qcurve" smooth="yes"/>
+      <point x="1393" y="1388"/>
+      <point x="1087" y="1892"/>
+      <point x="834" y="1892" type="qcurve" smooth="yes"/>
+      <point x="561" y="1892"/>
+      <point x="271" y="1434"/>
+    </contour>
+    <contour>
+      <point x="306" y="-288" type="qcurve"/>
+      <point x="238" y="-224" type="line"/>
+      <point x="295" y="-138"/>
+      <point x="459" y="-46"/>
+      <point x="541" y="-40" type="qcurve"/>
+      <point x="697" y="328" type="line"/>
+      <point x="817" y="283" type="line"/>
+      <point x="661" y="-69" type="line"/>
+      <point x="1290" y="-274" type="line"/>
+      <point x="1350" y="-274"/>
+      <point x="1442" y="-186"/>
+      <point x="1475" y="-132" type="qcurve"/>
+      <point x="1565" y="-184" type="line"/>
+      <point x="1515" y="-288"/>
+      <point x="1371" y="-429"/>
+      <point x="1239" y="-429" type="qcurve"/>
+      <point x="540" y="-194" type="line"/>
+      <point x="479" y="-194"/>
+      <point x="363" y="-236"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.2584,0.6182,0.2767,1</string>
+    </dict>
+  </lib>
+</glyph>

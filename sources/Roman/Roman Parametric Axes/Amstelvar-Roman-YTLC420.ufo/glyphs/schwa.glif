@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="schwa" format="2">
+	<unicode hex="0259"/>
+	<advance width="1051"/>
+	<outline>
+		<contour>
+			<point x="988" y="420" type="qcurve" smooth="yes"/>
+			<point x="988" y="226"/>
+			<point x="728" y="-22"/>
+			<point x="510" y="-22" type="qcurve" smooth="yes"/>
+			<point x="315" y="-22"/>
+			<point x="93" y="172"/>
+			<point x="73" y="346" type="qcurve"/>
+			<point x="73" y="396" type="line"/>
+			<point x="835" y="396" type="line"/>
+			<point x="835" y="300" type="line"/>
+			<point x="239" y="300" type="line"/>
+			<point x="257" y="197"/>
+			<point x="405" y="87"/>
+			<point x="517" y="87" type="qcurve" smooth="yes"/>
+			<point x="655" y="87"/>
+			<point x="809" y="260"/>
+			<point x="808" y="409" type="qcurve" smooth="yes"/>
+			<point x="807" y="559"/>
+			<point x="611" y="732"/>
+			<point x="442" y="732" type="qcurve" smooth="yes"/>
+			<point x="341" y="732"/>
+			<point x="206" y="689"/>
+			<point x="161" y="652" type="qcurve"/>
+			<point x="111" y="712" type="line"/>
+			<point x="158" y="775"/>
+			<point x="333" y="862"/>
+			<point x="482" y="862" type="qcurve" smooth="yes"/>
+			<point x="704" y="862"/>
+			<point x="988" y="627"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0.2584,0.6182,0.2767,1</string>
+		</dict>
+	</lib>
+</glyph>

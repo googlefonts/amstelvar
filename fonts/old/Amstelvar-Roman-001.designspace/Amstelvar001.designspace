@@ -1,0 +1,95 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<designspace format="4.0">
+  <axes>
+    <axis tag="wght" name="weight" minimum="100" maximum="1000" default="400">
+      <labelname xml:lang="en">weight</labelname>
+    </axis>
+    <axis tag="opsz" name="optical size" minimum="8" maximum="144" default="14">
+      <labelname xml:lang="en">opsize</labelname>
+    </axis>
+    <axis tag="wdth" name="width" minimum="25" maximum="140" default="100">
+      <labelname xml:lang="en">width</labelname>
+    </axis>
+  </axes>
+  <sources>
+    <source filename="Roman/Amstelvar-Roman-wdthmax.ufo" familyname="Amstelvar" stylename="Roman-wdthmax">
+      <location>
+        <dimension name="weight" xvalue="400"/>
+        <dimension name="optical size" xvalue="14"/>
+        <dimension name="width" xvalue="140"/>
+      </location>
+    </source>
+    <source filename="Roman/Amstelvar-Roman-wdthmin.ufo" familyname="Amstelvar" stylename="Roman-wdthtmin">
+      <location>
+        <dimension name="weight" xvalue="400"/>
+        <dimension name="optical size" xvalue="14"/>
+        <dimension name="width" xvalue="25"/>
+      </location>
+    </source>
+    <source filename="Roman/Amstelvar-Roman-wghtmin.ufo" familyname="Amstelvar" stylename="Roman-wghtmin">
+      <location>
+        <dimension name="weight" xvalue="100"/>
+        <dimension name="optical size" xvalue="14"/>
+        <dimension name="width" xvalue="100"/>
+      </location>
+    </source>
+    <source filename="Roman/Amstelvar-Roman-wghtmax.ufo" familyname="Amstelvar" stylename="Roman-wghtmax">
+      <location>
+        <dimension name="weight" xvalue="1000"/>
+        <dimension name="optical size" xvalue="14"/>
+        <dimension name="width" xvalue="100"/>
+      </location>
+    </source>
+    <source filename="Roman/Amstelvar-Roman.ufo" familyname="Amstelvar" stylename="Roman">
+      <info copy="1"/>
+      <location>
+        <dimension name="weight" xvalue="400"/>
+        <dimension name="optical size" xvalue="14"/>
+        <dimension name="width" xvalue="100"/>
+      </location>
+    </source>
+    <source filename="Roman/Amstelvar-Roman-opsz-min.ufo" familyname="Amstelvar" stylename="Roman-opsz-min">
+      <location>
+        <dimension name="weight" xvalue="400"/>
+        <dimension name="optical size" xvalue="8"/>
+        <dimension name="width" xvalue="100"/>
+      </location>
+    </source>
+    <source filename="Roman/Amstelvar-Roman-opsz-max.ufo" familyname="Amstelvar" stylename="Roman-opsz-max">
+      <location>
+        <dimension name="weight" xvalue="400"/>
+        <dimension name="optical size" xvalue="144"/>
+        <dimension name="width" xvalue="100"/>
+      </location>
+    </source>
+  </sources>
+  <lib>
+    <dict>
+      <key>com.letterror.skateboard.interactionSources</key>
+      <dict>
+        <key>horizontal</key>
+        <array>
+          <string>width</string>
+        </array>
+        <key>ignore</key>
+        <array/>
+        <key>vertical</key>
+        <array>
+          <string>weight</string>
+          <string>optical size</string>
+        </array>
+      </dict>
+      <key>com.letterror.skateboard.previewLocation</key>
+      <dict>
+        <key>optical size</key>
+        <real>14.0</real>
+        <key>weight</key>
+        <real>400.0</real>
+        <key>width</key>
+        <real>100.0</real>
+      </dict>
+      <key>com.letterror.skateboard.previewText</key>
+      <string>SKATE</string>
+    </dict>
+  </lib>
+</designspace>

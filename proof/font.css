@@ -1,0 +1,107 @@
+
+
+/* @font-face for Roman and Italic var fonts */
+
+@font-face {
+    font-family: 'AmstelvarRomanVF';
+    src:  url('../fonts/Amstelvar-Roman-VF.ttf')  format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'AmstelvarItalicVF';
+    src:  url('../fonts/Amstelvar-Italic-VF.ttf')  format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+/* Roman instances  */
+
+
+.AmstelvarRomanVF-wght400-opsz14 {
+	font-family:AmstelvarRomanVF, 'AdobeBlank';
+	font-variation-settings: "wght" 400,  "opsz" 14,;
+}
+
+
+.AmstelvarRomanVF-wght100-opsz14 {
+	font-family:AmstelvarRomanVF, 'AdobeBlank';
+	font-variation-settings: "wght" 100,  "opsz" 14,;
+}
+
+.AmstelvarRomanVF-wght900-opsz14 {
+	font-family:AmstelvarRomanVF, 'AdobeBlank';
+	font-variation-settings: "wght" 900,  "opsz" 14, ;
+}
+
+.AmstelvarRomanVF-wght900-wdth125-opsz144 {
+	font-family:AmstelvarRomanVF, 'AdobeBlank';
+	font-variation-settings: "wght" 900, "wdth" 125, "opsz" 144 ;
+}
+
+.AmstelvarRomanVF-wght100-wdth50-opsz144 {
+	font-family:AmstelvarRomanVF, 'AdobeBlank';
+	font-variation-settings: "wght" 100, "wdth" 50, "opsz" 144 ;
+}
+
+.AmstelvarRomanVF-wght900-wdth125-opsz8 {
+	font-family:AmstelvarRomanVF, 'AdobeBlank';
+	font-variation-settings: "wght" 900, "wdth" 125, "opsz" 8;
+}
+
+.AmstelvarRomanVF-wght100-wdth50-opsz8 {
+	font-family:AmstelvarRomanVF, 'AdobeBlank';
+	font-variation-settings: "wght" 100, "wdth" 50, "opsz" 8 ;
+}
+
+
+
+
+
+
+
+
+/* Italic instances  */
+
+
+.AmstelvarItalicVF-wght400-opsz14 {
+	font-family:AmstelvarItalicVF, 'AdobeBlank';
+	font-variation-settings: "wght" 400,  "opsz" 14, ;
+}
+
+
+.AmstelvarItalicVF-wght100-opsz14 {
+	font-family:AmstelvarItalicVF, 'AdobeBlank';
+	font-variation-settings: "wght" 100,  "opsz" 14, ;
+}
+
+.AmstelvarItalicVF-wght900-opsz14 {
+	font-family:AmstelvarItalicVF, 'AdobeBlank';
+	font-variation-settings: "wght" 900,  "opsz" 14, ;
+}
+
+.AmstelvarItalicVF-wght900-wdth125-opsz144 {
+	font-family:AmstelvarItalicVF, 'AdobeBlank';
+	font-variation-settings: "wght" 900, "wdth" 125, "opsz" 144 ;
+}
+
+.AmstelvarItalicVF-wght100-wdth50-opsz144 {
+	font-family:AmstelvarItalicVF, 'AdobeBlank';
+	font-variation-settings: "wght" 100, "wdth" 50, "opsz" 144 ;
+}
+
+.AmstelvarItalicVF-wght900-wdth125-opsz8 {
+	font-family:AmstelvarItalicVF, 'AdobeBlank';
+	font-variation-settings: "wght" 900, "wdth" 125, "opsz" 8;
+}
+
+.AmstelvarItalicVF-wght100-wdth50-opsz8 {
+	font-family:AmstelvarItalicVF, 'AdobeBlank';
+	font-variation-settings: "wght" 100, "wdth" 50, "opsz" 8 ;
+}
+
+

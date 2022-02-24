@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dblgravecomb" format="2">
+  <advance width="1007"/>
+  <unicode hex="0311"/>
+  <anchor x="503.5" y="970" name="_top"/>
+  <anchor x="503.5" y="1448.4102564102564" name="top"/>
+  <outline>
+    <contour>
+      <point x="128" y="1328" type="qcurve" smooth="yes"/>
+      <point x="131" y="1372"/>
+      <point x="200" y="1437"/>
+      <point x="253" y="1433" type="qcurve" smooth="yes"/>
+      <point x="293" y="1431"/>
+      <point x="359" y="1359"/>
+      <point x="387" y="1314" type="qcurve" smooth="yes"/>
+      <point x="534" y="1084" type="line"/>
+      <point x="504" y="1055" type="line"/>
+      <point x="213" y="1206" type="line" smooth="yes"/>
+      <point x="163" y="1232"/>
+      <point x="124" y="1284"/>
+    </contour>
+    <contour>
+      <point x="443" y="1338" type="qcurve" smooth="yes"/>
+      <point x="446" y="1382"/>
+      <point x="508" y="1452"/>
+      <point x="566" y="1448" type="qcurve" smooth="yes"/>
+      <point x="608" y="1445"/>
+      <point x="681" y="1368"/>
+      <point x="709" y="1322" type="qcurve" smooth="yes"/>
+      <point x="856" y="1084" type="line"/>
+      <point x="826" y="1055" type="line"/>
+      <point x="542" y="1211" type="line" smooth="yes"/>
+      <point x="492" y="1239"/>
+      <point x="440" y="1295"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.9908,1,0.037,1</string>
+    </dict>
+  </lib>
+</glyph>

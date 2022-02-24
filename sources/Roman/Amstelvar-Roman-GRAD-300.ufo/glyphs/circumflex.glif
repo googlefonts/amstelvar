@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="circumflex" format="2">
+  <advance width="1024"/>
+  <unicode hex="02C6"/>
+  <outline>
+    <contour>
+      <point x="512.0" y="1497.0" type="qcurve" smooth="yes"/>
+      <point x="541.0" y="1497.0"/>
+      <point x="590.0" y="1435.0"/>
+      <point x="622.0" y="1394.0" type="qcurve" smooth="yes"/>
+      <point x="805.0" y="1161.0" type="line"/>
+      <point x="762.0" y="1122.0" type="line"/>
+      <point x="512.0" y="1388.0" type="line"/>
+      <point x="262.0" y="1122.0" type="line"/>
+      <point x="219.0" y="1161.0" type="line"/>
+      <point x="402.0" y="1394.0" type="line" smooth="yes"/>
+      <point x="441.0" y="1444.0"/>
+      <point x="483.0" y="1497.0"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.9908,1,0.037,1</string>
+    </dict>
+  </lib>
+</glyph>

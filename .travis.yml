@@ -1,0 +1,52 @@
+sudo: true
+language: python
+
+env:
+#  - SHELL_PATH=build-roboto.sh
+  - SHELL_PATH=build-amstelvar.sh
+
+
+before_script: 
+  - pip install fontmake
+
+  - pip install --upgrade defcon
+
+  # - git clone https://github.com/LettError/glyphNameFormatter.git
+  # - cd glyphNameFormatter
+  # - sudo -H python setup.py develop
+  # - cd ..
+
+  - pip install MutatorMath
+  
+  - sudo apt-get install -y shellcheck
+
+  # proof
+  - pip install brotli zopfli fontTools
+  - yes '' | pecl install -a yaml
+
+script: 
+  - "shellcheck $SHELL_PATH"
+  - "sh $SHELL_PATH"
+  - python make-webfonts.py
+  - php videoproof/index.php > videoproof/index.html
+  - rsync -rvl --exclude=".git*" videoproof/ vproof/
+
+
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: $GITHUB_TOKEN  # Set in the settings page of your repository, as a secure variable
+  keep_history: true
+  on:
+    branch: master
+  target_branch: gh-pages #gh-pages is the default value
+
+
+# email user who made commit if build fails
+notifications:
+  email: 
+
+    on_success: never # default: change
+    on_failure: always # default: always
+
+

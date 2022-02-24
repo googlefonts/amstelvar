@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Otildemacron" format="2">
+  <advance width="833"/>
+  <unicode hex="022C"/>
+  <outline>
+    <component base="O"/>
+    <component base="tildecombstack.case" xOffset="-8" yOffset="-34"/>
+    <component base="macroncombstack.case" xOffset="63" yOffset="102"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019-12-27 16:08:44 +0000</string>
+    </dict>
+  </lib>
+</glyph>
